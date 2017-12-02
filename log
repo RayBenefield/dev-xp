@@ -1,7 +1,15 @@
-vim readme.md
+#!/bin/bash
+git stash -u
+BRANCH=$(git symbolic-ref --short HEAD)
+git checkout master
+git fetch --all --tags --prune
+git pull --rebase --tags
+vim worklog.md
 SESSION=$(<.session)
 ((++SESSION))
-rm .session
-echo ${SESSION} >> .session
-git ci -am "Session Work Log #${SESSION}"
+echo ${SESSION} > .session
+git commit -am "docs(worklog): Log work for session ${SESSION}." -m "[skip ci]"
 git push
+git checkout ${BRANCH}
+git rebase master
+git stash pop
