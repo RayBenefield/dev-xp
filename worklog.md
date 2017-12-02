@@ -1,5 +1,13 @@
 # Worklog
 
+## #3
+
+Setup the initial readme document with some details on how the project came into
+inception. The next thing I'll do is start rough drafting out some of the checks
+and tools that I'll need to consider and incorporate across the board. Should be
+fun.
+
+
 ## #1, #2
 
 WOOT!!! Getting into a new side project is always exciting... sort of. I'm
