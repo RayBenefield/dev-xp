@@ -16,34 +16,26 @@
     },
     "license": "MIT",
     "main": "src/index.js",
-    "engines": {
-        "node": ">= 8.1.2",
-        "npm": ">=1.4.3"
-    },
     "scripts": {
-        "prebuild": "npm run clean && mkdir -p dist/ && cp package.json yarn.lock LICENSE readme.md dist/",
+        "prebuild": "npm run clean && mkdir -p dist/ && cp LICENSE readme.md dist/ && cat package.json | jq 'del(.babel,.devDependencies,.scripts,.config)' --indent 4 > dist/package.json",
         "build": "babel src/ -d dist/src --ignore '**/*.test.js'",
+        "commitmsg": "commitlint -e $GIT_PARAMS",
         "clean": "rimraf dist",
-        "lint": "eslint -c .eslintrc.json src/",
-        "test": "nodemon src/index.test.js --exec babel-node",
-        "sloc": "echo 'Lines of source code: ' && sloc src/ --exclude node_modules -f json | jq '.summary.source'",
-        "patch": "npm version patch -m 'v%s' && js-beautify -r package.json",
-        "minor": "npm version minor -m 'v%s' && js-beautify -r package.json",
-        "major": "npm version major -m 'v%s' && js-beautify -r package.json"
+        "postrewrite": "./dx/rewrite-tags",
+        "preversion": "js-beautify -r package.json && PACKAGE_VERSION=$(cat package.json | jq '.version' --raw-output) && git commit -a -m \"docs(version): Release v$PACKAGE_VERSION.\" -m '[skip ci]' && git tag \"v$PACKAGE_VERSION\""
     },
-    "dependencies": {
-        "lodash": "^2.4.0"
-    },
+    "dependencies": {},
     "devDependencies": {
         "babel-cli": "^6.24.1",
-        "babel-plugin-wildcard": "^2.1.2",
         "babel-env": "^2.4.1",
+        "babel-plugin-wildcard": "^2.1.2",
+        "commitlint": "^5.2.0",
         "eslint": "^3.19.0",
         "eslint-config-airbnb": "^15.0.1",
         "eslint-plugin-import": "^2.3.0",
         "eslint-plugin-jsx-a11y": "^5.0.3",
         "eslint-plugin-react": "^7.1.0",
-        "git-hooks": "^1.1.8",
+        "husky": "^0.14.3",
         "js-beautify": "^1.6.14",
         "node-jq": "^0.7.0",
         "nodemon": "^1.11.0",
