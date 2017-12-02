@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+    - '6'
+branches:
+    only:
+        - master
+cache: yarn
+before_install: git fetch --depth=10000
+install:
+    - yarn
+script:
+    - "./dx/lint-commits"
+after_success:
+    - "./dx/update"
+before_deploy:
+    - yarn run build
+    - cd dist
+deploy:
+    provider: npm
+    email: raymond.benefield@gmail.com
+    skip_cleanup: true
+    api_key:
+        secure: bie1KuhUkknsxjRcxCb3z7NBgpQKc2SoFuJbD9o6zl/JaAvU0vNawcHcaHTYCan85e1McM6P2R2gfCGERQd1gdOx/RnV8dS+6/RWA3VRMiwzi4NdhcqzbSB2Nz2hmAjiH5nR4PVbxhC9/j3NMJMzOqXptY/7RT0xo7lA6GJ7ANRyhMi1cMKvmNw0Cqp3IiMN0/tYFWWf75hK5oVDQrRkRtfFCWFTAmRtsRE3HRyUkz6eDORQVHsAg7odsNZ+wSuOq2ZCAut2xN9Q83Qokfik9pwocVCUhHsNHUDIH0wxwhdsE/XKKuNohpbW4MI+RrFEYfc8zxFwBAI0qSE9cKF6njjMj6UCgmVoRN8CjJP4hjW2wep5tAafRf15T3mLMK2oIJTiJKmAExSXgVNcUTJKXO6ZZ9DcJl5l9xU4QopaPX2JOS3vcmOEnvoeUdJtyE/31m/hMBCe4lcR7IBBhLVGBsmt1EFJElY9tgoEerOBuk2IvcjfoA/e5rLg0mZxFYVKcKH957tTWtKtUgLF7oy/T00lWgemR2klyn9/tbfPCd3LpPzHvSjRnG2ZVuQOR+AaKwBP0JThLpJeMdqfF6xsR16gLyeR1r4i0vX5oA9hedOwHgQr4f0lep0D0pwoV4mNLS/QZTXwxxJ2bzs/cEgq9dbdP7gEcvkFWIu19yKf6sQ=
+    on:
+        branch: master
+env:
+    global:
+        secure: 0WBB27gebHzTnaBpt2O60VZNg0rPtfAedIGnakRu9Vb+xMcowrjnaJfZxVShbkw6Tr7mgB7uKozOg7Sc1TBogp7LAtDLvqrfSuW8DThI3Gr+Cdf78oZLnOD+J1/R8SvBEuMAq44fHbRK6x3Mo9EVfdaCd0ZEcJZK6a3TEvE2UlW2zoh4xAbKk+Z1x4TRf1oHfmDJ+eLda6fi140YPDTN4ys7AfMS6Z4ns8wI24AkpznIwvTepXwCNzCx3YeaSeHYixUqF8zakdZAXBWs+a6sBKCPSSck/0iy5T/JQgWLp3F0HsjS9mNFo3Q1HKzJVX88tcL+fTuJZSFIoDA+rEql1v0jegTQ3yG6dKGksuJv4U22qGN3WaGXFr8imWW+D1wMwCRTr6l4R2RVdcMee/dMIsanv6cQ7iEJhp/6p/4kvtZU+dv+cDZtOdbNlAoQCEVyt2wDlW6iga14eMgSuDkePRuR7EeYX0yqvoFsDSxR1NO98m4VrA+yreJcA5tIdqlLgjKePBKKOx9sX+/WAdzyuvSQdcXnb0FFmT1mYS1JNp+F2n5O9SdlMevKk033t2rTyOQlaqclrEczo93YhvhUL2Y3Hma8SovSLpF8f85cbGna7Km6LjNvEXm9SbHg/jCq8lwJmkyAqgR1PDnbEB0VC88hXqA69XlO62an/3hTgA4=
