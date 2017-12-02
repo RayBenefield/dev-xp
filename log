@@ -1,0 +1,7 @@
+vim readme.md
+SESSION=$(<.session)
+((++SESSION))
+rm .session
+echo ${SESSION} >> .session
+git ci -am "Session Work Log #${SESSION}"
+git push
