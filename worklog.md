@@ -1,5 +1,17 @@
 # Worklog
 
+## #4
+
+Started mapping out all of my initial ideas for how to achieve a **KI/KD**
+certification. Got through some initial changelog details and really got into
+details around a new **Semantic Versioning** proposal. Mainly since projects on
+**NPM** are still at major version 0 and being used in production. Announcements
+should happen at `0.1.0` instead of `1.0.0`. And then Major version represents
+the number of breaking changes you have introduced. And Minor represents the
+number of feature releases you have had that people will care about and need to
+be publicized.
+
+
 ## #3
 
 Setup the initial readme document with some details on how the project came into
