@@ -9,19 +9,8 @@ module.exports = {
             'always',
             [
                 // Relates to the whole package
-                'transmutation',
-                // Parts of Transmutation
-                'transmute',
-                'extend',
-                'if',
-                'ifNo',
-                'do',
-                'switch',
-                'extendEach',
-                'doEach',
-                'under',
-                'catch',
-                'isolate',
+                'kikd',
+                // Parts of KI/KD
                 // Developer Experience/Docs Scopes
                 'worklog',
                 'build',
