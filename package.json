@@ -22,7 +22,7 @@
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "clean": "rimraf dist",
         "postrewrite": "./dx/rewrite-tags",
-        "preversion": "js-beautify -r package.json && PACKAGE_VERSION=$(cat package.json | jq '.version' --raw-output) && git commit -a -m \"docs(version): Release v$PACKAGE_VERSION.\" -m '[skip ci]' && git tag \"v$PACKAGE_VERSION\""
+        "postversion": "js-beautify -r package.json && PACKAGE_VERSION=$(cat package.json | jq '.version' --raw-output) && git commit -a -m \"docs(version): Release v$PACKAGE_VERSION.\" -m '[skip ci]' && git tag \"v$PACKAGE_VERSION\""
     },
     "dependencies": {},
     "devDependencies": {
