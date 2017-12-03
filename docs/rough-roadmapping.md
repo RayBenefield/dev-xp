@@ -3,6 +3,9 @@
 This document is a place to spit out brainstorming ideas for how this project
 will progress.
 
+---
+
+
 ## Quick Goal
 
 **KI/KD** is shooting to be a certification system for an open source project
@@ -257,10 +260,10 @@ be more.
 One of the biggest problems is that a bunch of random people come in with issues
 in addition to those that come in from contributors. The community expects
 "free" work to be done for them to fix packages, but it is a lot of work
-maintaining a repo. One idea I had was the concept of `probono` work. The idea
+maintaining a repo. One idea I had was the concept of `pro bono` work. The idea
 is that if you are not a Contributor, don't have a pending pull request, or are
-not donating to the project then your issue is labeled as `probono` work.
-`probono` work automatically gets closed in `X` amount of time in order to allow
+not donating to the project then your issue is labeled as `pro bono` work.
+`pro bono` work automatically gets closed in `X` amount of time in order to allow
 maintainers to see the issue and address it quickly, or to give someone the
 chance to put in a pull request for it or contribute in some way to the project
 to avoid having their issue closed. This will keep issues from getting out of
@@ -275,9 +278,17 @@ that project, even if it is just writing documentation or fixing a typo.
 ---
 
 
+## Security Checking with Snyk
+
+[**Snyk**](https://snyk.io/org/raybenefield/) is a security platform that will
+check your dependencies for vulnerabilities. This is a very powerful platform
+and should be setup for all packages when possible.
+
+---
+
+
 ## Rough Quick List
 
- - security checking with snyk
  - size checking
  - bundling with roll-up including dependencies
  - babel env support
