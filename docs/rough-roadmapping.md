@@ -20,7 +20,19 @@ the **KI/KD** ceritifcation badge like so:
 
 [![KI/KD Certified](https://img.shields.io/badge/KI%2FKD-Certified-blue.svg)](https://github.com/RayBenefield/kikd)
 
-This means it passes the given checks by the certification.
+This means it passes the given checks by the most recent certification. If the
+certification gets updated with new standards the badge will instead be changed
+to the MAJOR/MINOR version that it meets (since PATCH's won't represent a
+certification change):
+
+[![KI/KD Certified](https://img.shields.io/badge/KI%2FKD-v0.1-blue.svg)](https://github.com/RayBenefield/kikd)
+
+In addition there would be a "PRO" certification that goes beyond the **KI/KD**
+certification and meets a more opinionated style (this would be like having a
+worklog done in **DEX**).
+
+[![KI/KD Certified](https://img.shields.io/badge/KI%2FKD-PRO-blue.svg)](https://github.com/RayBenefield/kikd)
+
 
 ---
 
