@@ -12,6 +12,7 @@ module.exports = {
                 'kikd',
                 // Parts of KI/KD
                 // Developer Experience/Docs Scopes
+                'roadmap',
                 'worklog',
                 'build',
                 'version',
