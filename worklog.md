@@ -1,5 +1,17 @@
 # Worklog
 
+## #7
+
+I added a scope for commit linting for the roadmap in general. I think it is
+important to have for this project as there will always be new standards coming
+up that can be added to the system to ease everything. I spent some time playing
+with the rebasing only to realize that the rewrite tags script won't be aware
+when new commits are added or commits are removed... they assume the same
+rev-list length so things get a bit messed up. So I added a bug to investigate
+later. But I added several sections to the roadmap including auto publishing to
+NPM, bootstrapping a new project, and managing a monorepo.
+
+
 ## #6
 
 Went through the `rewrite-tags` script and found out the problem. It was trying
