@@ -224,9 +224,25 @@ powerful and easy to use.
 ---
 
 
+## Bundle with dependencies
+
+Ever since the `leftpad` debacle happened there were a lot of complaints on
+dependencies like that causing massive problems across the community... like
+Babel apparently completely broke across the board. A great suggestion was put
+in to bundle development tools with their dependencies rather than just naming
+the dependencies. This can solve a LOT of problems and introduce some
+interesting benefits. I'd read the article if I were you:
+
+https://medium.com/@Rich_Harris/how-to-not-break-the-internet-with-this-one-weird-trick-e3e2d57fee28
+
+This may require some additional work like referencing copyright individuals for
+MIT licenses, but considering this definitely something that should be done.
+
+---
+
+
 ## Rough Quick List
 
- - MIT License - bundling inclusions
  - git tag management including mono-repo
  - git issue labeling and management
  - Neighborly requirements for issues (otherwise probono listed)
