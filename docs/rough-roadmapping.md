@@ -308,3 +308,16 @@ be valuable... also might be good for handling a size badge in the future.
 
 Setting up **Babel** every time I want to do a project can be a pain so getting
 this setup by default will be super nice.
+
+---
+
+
+## Setup DEX worklog
+
+The philosophies behind **DEX** and having a constantly growing worklog is a
+powerful tool for people to keep up with a project without subscribing to all of
+the things around github like issues and pull requests and everything. So
+**DEX** could be a good solution for developers to watch the development of a
+tool that they care about. When a platform is available it should set you up
+with your account. Until then there will be a manual log script like I've been
+using forever now.
