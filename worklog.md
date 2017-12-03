@@ -1,5 +1,15 @@
 # Worklog
 
+## #8
+
+Went through a lot of the bullet points that needed to be fleshed out. I only
+have about 4 more bullet points to really jump on and then I can start looking
+at what kind of code I will be setting up for this. Something inspired by test
+runner output or eslint or commitlint or something. Pretty colors and stuffz.
+For now though I will take a break before closing out the rough roadmapping
+issue.
+
+
 ## #7
 
 I added a scope for commit linting for the roadmap in general. I think it is
