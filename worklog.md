@@ -1,5 +1,13 @@
 # Worklog
 
+## #9
+
+Finished up the rough roadmapping section. I'm ready to start actually writing
+some code. But not today. Spending the rest of the weekend with Jess <3. I've
+also added travis notifications to the Slack channel I setup on Dev XP and that
+will be nice. For now I think I'm good to go.
+
+
 ## #8
 
 Went through a lot of the bullet points that needed to be fleshed out. I only
