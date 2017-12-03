@@ -149,10 +149,19 @@ publish to NPM on each `master` update (or `develop` branch update).
 
 ---
 
+## Boostrap a new project
+
+We should be able to ***EASILY*** spin up a **KI/KD** certified project using a
+project generation tool (perhaps Slush/Gulp early on). This will take parameters
+on the project as well as install all dependencies and assist in adding tokens
+like a Github and NPM token to be used in build processes and what not. There
+should be an option for adding **PRO** certification features.
+
+---
+
 
 ## Rough Quick List
 
- - Bootstrapping of new project
  - independent versioning monorepo
  - Linting configuration
  - readme generation with badges
