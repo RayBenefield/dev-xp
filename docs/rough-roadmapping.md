@@ -199,9 +199,21 @@ using something like that.
 ---
 
 
+## Readme/Markdown Generation
+
+Readme's have a LOT of information in them and a lot of more standardized
+sections are showing up everywhere in projects. There is actually an interesting
+project that tries to handle all of the meta files in your project called
+[**Projectz**](https://github.com/bevry/projectz). It looks interesting, but
+without a plugin system for Readme generation it just doesn't feel like it is
+powerful/flexible enough to meet the needs that would be needed. Something to
+look at in the future.
+
+---
+
+
 ## Rough Quick List
 
- - readme generation
  - MIT License - bundling inclusions
  - git tag management including mono-repo
  - git issue labeling and management
