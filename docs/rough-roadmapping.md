@@ -81,6 +81,7 @@ Versioning** doesn't properly promote rapid development. From
 at any time. The public API should not be considered stable.***
 
 <details><summary><b>Related FAQ Questions</b></summary>
+
  > **How should I deal with revisions in the 0.y.z initial development phase?**
 
  > *The simplest thing to do is start your initial development release at 0.1.0 and
@@ -110,13 +111,35 @@ development is done at `0.0.z`. Anything with double `0`s should be considered
 in initial development and release should happen at `0.1.0` instead.
 
 
+### Relevant Github documents
+
+There are several documents that Github is able to recognize that should be
+filled in for each project:
+
+ - **CONTRIBUTING** - [Users will see a link that says `Please review the
+   guidelines for contributing to this
+repository`](https://help.github.com/articles/setting-guidelines-for-repository-contributors/)
+ - **CODE_OF_CONDUCT** - [It is solid practice to have a code of conduct for
+   your
+project](https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/)
+ - **SUPPORT** - [The contributing link will also include a support guidelines
+   link in
+issues](https://help.github.com/articles/adding-support-resources-to-your-project/)
+ - **LICENSE** - [Github will highlight your **LICENSE** file in your repo
+   root](https://help.github.com/articles/adding-a-license-to-a-repository/)
+ - **CODEOWNERS** - [Github can block pull requests from merging if not reviewed
+   by a Code Owner](https://help.github.com/articles/about-codeowners/)
+ - **ISSUE_TEMPLATE** - [Github will prefill issues with this template for
+   you](https://help.github.com/articles/creating-an-issue-template-for-your-repository/)
+ - **PULL_REQUEST_TEMPLATE** - [Github will prefill pull requests for
+   you](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)
+
+
 ---
 
 
 ## Rough Quick List
 
- - CONTRIBUTING Document
- - CODEOWNERS Document
  - Auto deploy to NPM
  - Bootstrapping of new project
  - independent versioning monorepo
@@ -130,5 +153,3 @@ in initial development and release should happen at `0.1.0` instead.
  - size checking
  - bundling with roll-up including dependencies
  - babel env support
- - Has ISSUE_TEMPLATE
- - Has PULL_REQUEST_TEMPLATE
