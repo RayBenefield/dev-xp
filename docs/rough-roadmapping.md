@@ -172,6 +172,11 @@ package has its own version. I was also thinking that it should be fairly easy
 to determine what packages are in the repo based on `package.json` files that
 exist in the repo.
 
+This portion needs to also be aware of how git-tagging will work for the project
+when it starts splitting into multiple packages. A simple `v0.0.1` will no
+longer work, now it probably needs to be prefixed with the package name like
+`cli-v0.0.1`.
+
 ---
 
 
@@ -243,7 +248,6 @@ MIT licenses, but considering this definitely something that should be done.
 
 ## Rough Quick List
 
- - git tag management including mono-repo
  - git issue labeling and management
  - Neighborly requirements for issues (otherwise probono listed)
  - security checking with snyk
