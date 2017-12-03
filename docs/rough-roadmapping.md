@@ -174,6 +174,7 @@ exist in the repo.
 
 ---
 
+
 ## Linting Standards
 
 Linting/Style guides are such a powerful tool and standardize the way you write
@@ -187,9 +188,20 @@ guide**](https://github.com/airbnb/javascript) as it is fully ES6 aware.
 ---
 
 
+## Badges galore
+
+Something about readme badges really make a project feel more "official", that
+psychological aspect of it alone should encourage developers to have them. There
+is a [**Badges**](https://www.npmjs.com/package/badges) package that handles
+that generation and a bunch of standard ones really well and I might end up
+using something like that.
+
+---
+
+
 ## Rough Quick List
 
- - readme generation with badges
+ - readme generation
  - MIT License - bundling inclusions
  - git tag management including mono-repo
  - git issue labeling and management
