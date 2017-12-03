@@ -16,6 +16,13 @@ of project management.
 ---
 
 
+## Rough Quick List
+
+***Currently Empty***
+
+---
+
+
 ## Display Certification
 
 Projects that meet the **KI/KD** certification can display it prominently with
@@ -297,6 +304,7 @@ be valuable... also might be good for handling a size badge in the future.
 ---
 
 
-## Rough Quick List
+## Babel support from day 1
 
- - babel env support
+Setting up **Babel** every time I want to do a project can be a pain so getting
+this setup by default will be super nice.
