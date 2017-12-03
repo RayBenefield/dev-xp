@@ -12,6 +12,8 @@
 
 Continuous Integration and Continuous Deployment standards for Open Sourced NPM Tools.
 
+---
+
 
 ## NOTICE: Active Development
 
@@ -24,7 +26,8 @@ put in any questions or ideas you may have.
 
 ---
 
-### Work Log
+
+## Work Log
 
 **KI/KD** is developed with an agile methodology that I'm currently developing
 called **DEX**. This methodology revolves around doing 25 minute work sessions
@@ -61,6 +64,19 @@ without copying-pasting.
 ---
 
 
+## Rough Roadmap
+
+**KI/KD** plans to be a constantly growing standard so right now the current
+dump for brainstorming and ideas on what to tackle in the future are all in a
+single markdown document to stay organized and when the time comes then a new
+idea can be turned into an issue and tackled by a contributor.
+
+**You can find the rough roadmap here:**
+[`./docs/rough-roadmapping.md`](./docs/rough-roadmapping.md)
+
+---
+
+
 ## Install
 
 **Pick one** - *Listed in order of recommendation*
@@ -80,7 +96,6 @@ npm install --save kikd
     <img src="https://media.giphy.com/media/WKAwHGV5Hu3vi/giphy.gif" alt="Under Construction"/>
 </p>
 
-
 ---
 
 
@@ -90,6 +105,8 @@ npm install --save kikd
 |:---:|
 |[Ray Benefield](https://raybenefield.com) |
 |[Chief Architect](https://en.wikipedia.org/wiki/Software_architect) |
+
+---
 
 
 ## License
