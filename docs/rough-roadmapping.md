@@ -246,10 +246,37 @@ MIT licenses, but considering this definitely something that should be done.
 ---
 
 
+## Making issue management easier
+
+One of the biggest things I've observed in the open source community is how
+difficult it is to manage the amount of issues and pull requests that come in
+from external contributors and this should be made easy as a whole. Automation
+around labeling and what not could be very helpful, but I think there needs to
+be more.
+
+One of the biggest problems is that a bunch of random people come in with issues
+in addition to those that come in from contributors. The community expects
+"free" work to be done for them to fix packages, but it is a lot of work
+maintaining a repo. One idea I had was the concept of `probono` work. The idea
+is that if you are not a Contributor, don't have a pending pull request, or are
+not donating to the project then your issue is labeled as `probono` work.
+`probono` work automatically gets closed in `X` amount of time in order to allow
+maintainers to see the issue and address it quickly, or to give someone the
+chance to put in a pull request for it or contribute in some way to the project
+to avoid having their issue closed. This will keep issues from getting out of
+hand. Filtering can be used to find issues that were not handled before its
+probationary period and then they can be re-opened when the maintainers deem
+appropriate.
+
+This approach may encourage more contributors or donations to a project. If you
+want a fix for a project, you should be willing to contribute in some way to
+that project, even if it is just writing documentation or fixing a typo.
+
+---
+
+
 ## Rough Quick List
 
- - git issue labeling and management
- - Neighborly requirements for issues (otherwise probono listed)
  - security checking with snyk
  - size checking
  - bundling with roll-up including dependencies
