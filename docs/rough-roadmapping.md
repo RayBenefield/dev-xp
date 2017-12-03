@@ -287,8 +287,16 @@ and should be setup for all packages when possible.
 ---
 
 
+## Check the size of bundles
+
+Keeping track of the size of a bundle and potentially comparing with other
+similar projects may be a valuable thing. I know when I'm working on
+**Transmutation** I'm keeping an eye on **RxJS** and **xstream**. So this might
+be valuable... also might be good for handling a size badge in the future.
+
+---
+
+
 ## Rough Quick List
 
- - size checking
- - bundling with roll-up including dependencies
  - babel env support
