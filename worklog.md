@@ -1,5 +1,15 @@
 # Worklog
 
+## #6
+
+Went through the `rewrite-tags` script and found out the problem. It was trying
+to rewrite tags based on the `master` branch rather than the branch that we are
+currently on. So I refactored the script to handle that appropriately and it
+seems to be working fine. At the same time I noticed another issue when rebasing
+off master on a feature branch, but I'll look into that later as the end result
+was still what I wanted. I can now get back to roadmapping properly.
+
+
 ## #5
 
 Added more details on a badge to represent certification. I want to make sure
