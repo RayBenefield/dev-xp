@@ -146,8 +146,8 @@ We are assuming that developers are using **Travis** for CI as it is free to use
 for open source. So the appropriate settings should be in place to automatically
 publish to NPM on each `master` update (or `develop` branch update).
 
-
 ---
+
 
 ## Boostrap a new project
 
@@ -160,9 +160,23 @@ should be an option for adding **PRO** certification features.
 ---
 
 
+## Monorepo management
+
+We should assume that an open source project could get big enough to be managed
+as a monorepo. There should be tools that assist in converting to a monorepo as
+well as maintaining dependency management and versioning and publishing for a
+monorepo. While `lerna` does do this, its independent mode does not seem to be
+flexible enough to make this work well. It is very "fixed" versioning centric
+where all packages are on the same version. By default we assume that each
+package has its own version. I was also thinking that it should be fairly easy
+to determine what packages are in the repo based on `package.json` files that
+exist in the repo.
+
+---
+
+
 ## Rough Quick List
 
- - independent versioning monorepo
  - Linting configuration
  - readme generation with badges
  - MIT License - bundling inclusions
