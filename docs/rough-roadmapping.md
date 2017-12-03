@@ -212,6 +212,18 @@ look at in the future.
 ---
 
 
+## Bundling tools with Rollup
+
+When you are building tools/frameworks for developers it is nice to have them in
+both normal Node format as well as other formats (CJS/ESM/UMD) so that way your
+code can be used in various ways. I've been playing with
+[**Rollup**](https://rollupjs.org/) and it is sooo much simpler than **Weback**.
+I think using that and having a simple config setup on bootstrap would be very
+powerful and easy to use.
+
+---
+
+
 ## Rough Quick List
 
  - MIT License - bundling inclusions
