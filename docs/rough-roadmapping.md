@@ -33,13 +33,10 @@ worklog done in **DEX**).
 
 [![KI/KD Certified](https://img.shields.io/badge/KI%2FKD-PRO-blue.svg)](https://github.com/RayBenefield/kikd)
 
-
 ---
 
 
-## Checks
-
-### Automated Changelog Generation
+## Automated Changelog Generation
 
 A changelog is automatically generated for every release that happens. In order
 for this to be possible the project must meet implement the **Conventional
@@ -50,8 +47,10 @@ https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-g
 Probably setup with [**Conventional
 Changelog**](https://github.com/conventional-changelog/conventional-changelog)
 
+---
 
-### Commit Style Linting
+
+## Commit Style Linting
 
 **KI/KD** will have its own style for commits that is not exactly **Angular's**
 style. Why? Because I think their Changelog can actually look better for human
@@ -66,8 +65,10 @@ Git hooks ensure that developers have a rapid check system locally before it
 gets to the CI/CD system. Git hooks will probably be setup with
 [**Husky**](https://github.com/typicode/husky).
 
+---
 
-### Semantic Versioning with modification
+
+## Semantic Versioning with modification
 
 **Semantic Versioning** is required for the automated changelog system to work
 properly as it designates when a feature is added, when a bug is fixed, or when
@@ -110,8 +111,10 @@ various environments. So instead I have one change. Instead of `0.y.z` initial
 development is done at `0.0.z`. Anything with double `0`s should be considered
 in initial development and release should happen at `0.1.0` instead.
 
+---
 
-### Relevant Github documents
+
+## Relevant Github documents
 
 There are several documents that Github is able to recognize that should be
 filled in for each project:
@@ -134,13 +137,21 @@ issues](https://help.github.com/articles/adding-support-resources-to-your-projec
  - **PULL_REQUEST_TEMPLATE** - [Github will prefill pull requests for
    you](https://help.github.com/articles/creating-a-pull-request-template-for-your-repository/)
 
+---
+
+
+## Auto publishing to NPM
+
+We are assuming that developers are using **Travis** for CI as it is free to use
+for open source. So the appropriate settings should be in place to automatically
+publish to NPM on each `master` update (or `develop` branch update).
+
 
 ---
 
 
 ## Rough Quick List
 
- - Auto deploy to NPM
  - Bootstrapping of new project
  - independent versioning monorepo
  - Linting configuration
