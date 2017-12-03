@@ -2,7 +2,7 @@
 # Taken from: https://stackoverflow.com/a/43631480/6168422
 set -eo pipefail
 
-orig_master="$(git rev-parse ORIG_HEAD)"
+orig_head="$(git rev-parse ORIG_HEAD)"
 
 sane_grep () {
     GREP_OPTIONS= LC_ALL=C grep "$@"
@@ -11,11 +11,13 @@ sane_grep () {
 map_sha1() {
     local result line
 
-    # git rev-list $orig_master > /tmp/orig_list
-    result="$(git rev-list "${orig_master}" | sane_grep -n "$1" || {
+    # git rev-list $orig_head > /tmp/orig_list
+    result="$(git rev-list "${orig_head}" | sane_grep -n "$1" || {
         echo "WARNING: ID $1 is not mapped" 1>&2
         return 1
     })"
+
+    branch=$(git branch | grep \* | cut -d ' ' -f2)
 
     if [[ -n "${result}" ]]
     then
@@ -23,10 +25,10 @@ map_sha1() {
         # on a match.  strip off the part we don't want.
         result=${result%%:*}
         # now just get git to spit out the ID of the (line - 1)'th
-        # commit before the tip of the current master.  the "minus
-        # one" part is because line 1 represents master~0, line 2
-        # is master~1, and so on.
-        git rev-parse master~$((result - 1))
+        # commit before the tip of the current branch.  the "minus
+        # one" part is because line 1 represents branch~0, line 2
+        # is branch~1, and so on.
+        git rev-parse $branch~$((result - 1))
     fi
 }
 
