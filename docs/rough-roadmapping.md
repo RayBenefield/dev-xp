@@ -174,10 +174,21 @@ exist in the repo.
 
 ---
 
+## Linting Standards
+
+Linting/Style guides are such a powerful tool and standardize the way you write
+code across all repos would be really nice. Having `eslint` setup is the only
+real requirement that will be needed here. The particular style might just be a
+**PRO** certification type thing. I personally prefer 4 spaces vs the typical 2
+in the javascript community. Perhaps I should look into editorconfig? Not sure
+yet... anyway, I am also a HUGE fan of the [**Airbnb style
+guide**](https://github.com/airbnb/javascript) as it is fully ES6 aware.
+
+---
+
 
 ## Rough Quick List
 
- - Linting configuration
  - readme generation with badges
  - MIT License - bundling inclusions
  - git tag management including mono-repo
