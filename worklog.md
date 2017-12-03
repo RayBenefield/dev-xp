@@ -1,5 +1,20 @@
 # Worklog
 
+## #5
+
+Added more details on a badge to represent certification. I want to make sure
+there is a minimal standard to meet at all times that can constantly grow, so
+certifications could fall out of date and not meet new standards so the badge
+will represent this with the latest version checked. In addition I think there
+will be some very opinionated standards like enforcing worklogs for sessions for
+transparency sake. I would like to have people meet that certification if they
+so choose to promote more transparency. I also added details on the Github
+special documents that Github will do special things for if you incorporate
+them. While doing all this I discovered a bug that the `rewrite-tags` script
+doesn't work properly in some circumstances, so I need to take some time to
+learn what it is doing exactly.
+
+
 ## #4
 
 Started mapping out all of my initial ideas for how to achieve a **KI/KD**
