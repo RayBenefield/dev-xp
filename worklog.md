@@ -1,5 +1,13 @@
 # Worklog
 
+## #10
+
+Setup initial planning document for CLI tool as we progress forward. Figuring
+out all the details that will be needed for the tool. Even going as far as
+considering how easy it is to type the commands. **KI/KD** seeks to speed up the
+development agility of Open Source maintainers.
+
+
 ## #9
 
 Finished up the rough roadmapping section. I'm ready to start actually writing
