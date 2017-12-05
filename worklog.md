@@ -1,5 +1,14 @@
 # Worklog
 
+## #11
+
+Dived deeper into each of the commands that the CLI will implement. It looks
+like the first one that will be good will be the `kd ls` command as it will need
+the initial system to determine what projects exist in the repo. So I think the
+next thing to do is start working on the CLI tool. I might look into `meow` for
+the simple CLI layer. We'll see how that goes.
+
+
 ## #10
 
 Setup initial planning document for CLI tool as we progress forward. Figuring
