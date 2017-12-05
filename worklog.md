@@ -1,5 +1,15 @@
 # Worklog
 
+## #12
+
+Fixed the `shebang` issue that was happening that kept me from running the cli
+tool properly. Wasn't a difficult fix, just a **Babel** plugin that I found that
+will also translate the `shebang` appropriately. I also fleshed out the `kd ls`
+command which I think should be the first command as it is the simplest of them
+all and will work towards gathering all of the project info that I'm going to
+need anyway in future commands.
+
+
 ## #11
 
 Dived deeper into each of the commands that the CLI will implement. It looks
