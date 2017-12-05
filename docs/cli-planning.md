@@ -42,6 +42,7 @@ would want start with a vowel on the right hand, so the patterns would be:
  - **remove dependency (kd r)**: `k <right> | d <left> | SPACE <either> | r <left>`
  - **remove dev dependency (kd r)**: `k <right> | d <left> | SPACE <either> | r <left> | d <left>`
  - **prepare publish projects (kd p)**: `k <right> | d <left> | SPACE <either> | p <right>`
+ - **list all projects (kd ls)**: `k <right> | d <left> | SPACE <either> | l <right> | s <left>`
 
 Removing a dependency is a tad more weighted, but since that is done less often
 and should be done with caution, that is fine. Also initializing a project also
@@ -96,6 +97,15 @@ all of the symlink'd dev-dependency binaries from the root remain in the
  - If you `install/update/delete` a dev-dependency, it will find the root
    `package.json` and handle it on that, and then symlink new
 `node_modules/.bin` binaries to each project's `node_modules/.bin` folder.
+
+---
+
+
+## List all projects
+
+One of the first things that should be implemented is being able to detect a
+single project vs a monorepo so the `kd ls` command will be implemented first as
+this portion will be needed to determine what projects need to be published.
 
 ---
 
