@@ -110,6 +110,17 @@ this portion will be needed to determine what projects need to be published.
 ---
 
 
+## Prepare projects for publishing
+
+The `kd p` command will prepare all of the projects for publishing. They will be
+versioned at this point. There will be a `--commit` type flag that will be used
+to actually change the version. Without that flag then a `dry-run` will be done
+and it will tell the user which projects will be upgraded and to what. This
+command will also handle the git tagging and commiting the new the new code.
+
+---
+
+
 ## Benefits over `lerna`
 
  - Automatically detect ***monorepo*** vs ***single project***
