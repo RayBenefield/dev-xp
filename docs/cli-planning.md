@@ -57,6 +57,24 @@ configure **KI/KD** to be aware of that by default. We should be able to exclude
 projects, but there is no reason to have to point to where the packages are or
 force a particular repository structure.
 
+If there is only one `package.json` in the entire repo it will consider the repo
+a single project repo and git tagging will be based on a normal `v0.0.0`
+semantic version based on the single `package.json`.
+
+If there are two or more `package.json` files in the entire repo it will assume
+we are working with a **monorepo**, the `package.json` file in the root directory of
+the repo will be used exclusively for **dev-dependencies** and any
+**dev-dependency** binaries will be symlinked to all other projects.
+
+If we are working with a **monorepo**, we will handle versioning a tad
+differently. If all projects are scoped, their project name minus the scope will
+be used as a prefix for the git tag. So for project `@kikd/cli` the git tag will
+be `cli-v.0.0.0`. If one of the projects is not scoped, it will associate with
+tags without a prefix `v0.0.0` no matter what the name. If there are multiple
+projects without a scope then tags will be prefixed with the project name so
+`kikd` and `other-project` will be `kikd-v0.0.0` and `other-project-v0.0.0`
+respectively.
+
 
 ## Cross project dependency management
 
