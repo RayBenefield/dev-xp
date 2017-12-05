@@ -58,9 +58,19 @@ projects, but there is no reason to have to point to where the packages are or
 force a particular repository structure.
 
 
-## Cross project ependency management
+## Cross project dependency management
 
-***COMING SOON***
+**KI/KD** will manage your cross project dependencies for you and be context
+aware of where you are in your directory structure. This is how it should handle
+the various commands:
+
+ - If you just `install/update/delete` a normal app dependency, it will find the
+   closest upwards `package.json` and handle it on that project. And ensure that
+all of the symlink'd dev-dependency binaries from the root remain in the
+`node_modules/.bin` folder.
+ - If you `install/update/delete` a dev-dependency, it will find the root
+   `package.json` and handle it on that, and then symlink new
+`node_modules/.bin` binaries to each project's `node_modules/.bin` folder.
 
 
 ## Benefits over `lerna`
@@ -68,3 +78,4 @@ force a particular repository structure.
  - Automatically detect ***monorepo*** vs ***single project***
  - Easier to type CLI tool command
  - Wrapper over `yarn`/`npm` for managing dependencies
+ - Context aware no matter what directory you are in
