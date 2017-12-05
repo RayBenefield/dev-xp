@@ -1,4 +1,5 @@
-#! /usr/bin/env node
+#!/usr/bin/env ./node_modules/.bin/babel-node
+>>>>>>> fix(cli): Add shebang to cli and transform it properly in build.
 import meow from 'meow';
 import kd from '.';
 

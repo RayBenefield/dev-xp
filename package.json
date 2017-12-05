@@ -33,6 +33,7 @@
     "devDependencies": {
         "babel-cli": "^6.24.1",
         "babel-env": "^2.4.1",
+        "babel-plugin-shebang": "^0.0.0",
         "babel-plugin-wildcard": "^2.1.2",
         "commitlint": "^5.2.0",
         "eslint": "^3.19.0",
