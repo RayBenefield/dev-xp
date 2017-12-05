@@ -38,7 +38,6 @@ would want start with a vowel on the right hand, so the patterns would be:
  - **remove dependency (kd r)**: `k <right> | d <left> | SPACE <either> | r <left>`
  - **remove dev dependency (kd r)**: `k <right> | d <left> | SPACE <either> | r <left> | d <left>`
  - **prepare publish projects (kd p)**: `k <right> | d <left> | SPACE <either> | p <right>`
- - **watch root (kd w)**: `k <right> | d <left> | SPACE <either> | w <left>`
 
 Removing a dependency is a tad more weighted, but since that is done less often
 and should be done with caution, that is fine. Also initializing a project also
