@@ -20,8 +20,9 @@
         "kd": "src/cli.js"
     },
     "scripts": {
+        "kd": "cd src/node_modules/ && ./kikd/cli.js",
         "prebuild": "npm run clean && mkdir -p dist/ && cp LICENSE readme.md dist/ && cat package.json | jq 'del(.babel,.devDependencies,.scripts,.config)' --indent 4 > dist/package.json",
-        "build": "babel src/ -d dist/src --ignore '**/*.test.js'",
+        "build": "babel src/node_modules/kikd -d dist/src",
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "clean": "rimraf dist",
         "postrewrite": "./dx/rewrite-tags",
