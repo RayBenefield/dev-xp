@@ -1,5 +1,14 @@
 # Worklog
 
+## #15
+
+I'm actually in the weeds finally and have mocking of the filesystem working and
+will just keep pushing through. Going to hunt down all of the projects that are
+indeed in the proper directory structure. Just filling out a bunch of tests
+right now and going through the TDD process. Probably one or two more sessions
+left in me for the day before **Monster Hunter World Beta**!!!!
+
+
 ## #13, #14
 
 Finally started doing the setup for some real coding. I converted
