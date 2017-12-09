@@ -25,8 +25,9 @@
         "build": "babel src/node_modules/kikd -d dist/src",
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "clean": "rimraf dist",
+        "lint": "eslint -c .eslintrc.json src/node_modules",
         "test": "cd src/node_modules && babel-tape-runner __tests__/{,**/}*.js | tap-spec",
-        "watch": "nodemon --watch ./src/node_modules --exec npm-run-all test",
+        "watch": "nodemon --watch ./src/node_modules --exec npm-run-all test lint",
         "postrewrite": "./dx/rewrite-tags",
         "postversion": "js-beautify -r package.json && PACKAGE_VERSION=$(cat package.json | jq '.version' --raw-output) && git commit -a -m \"docs(version): Release v$PACKAGE_VERSION.\" -m '[skip ci]' && git tag \"v$PACKAGE_VERSION\""
     },
