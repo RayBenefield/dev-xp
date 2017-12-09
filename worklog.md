@@ -1,5 +1,21 @@
 # Worklog
 
+## #13, #14
+
+Finally started doing the setup for some real coding. I converted
+[**KI/KD**](https://github.com/RayBenefield/kikd) into a monorepo of the style
+that it will investigate. Since working on
+[**KI/KD**](https://github.com/RayBenefield/kikd) I have discovered
+[**Alle**](https://github.com/boennemann/alle) which is a very powerful
+structuring for a monorepo setup. It requires some unique adjustments for build
+tools and what not that default to ignoring `node_modules`, but for the most
+part it is very powerful and awesome. I've also finally setup a test script and
+the basics that I need for rapid development like a watch script as well. This
+is definitely a solid start. My first task is to implement `kd ls` which will
+list all of the projects in the repository based on the
+[**Alle**](https://github.com/boennemann/alle) structure.
+
+
 ## #12
 
 Fixed the `shebang` issue that was happening that kept me from running the cli
