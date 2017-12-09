@@ -25,6 +25,7 @@
         "build": "babel src/node_modules/kikd -d dist/src",
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "clean": "rimraf dist",
+        "test": "cd src/node_modules && babel-tape-runner __tests__/{,**/}*.js | tap-spec",
         "postrewrite": "./dx/rewrite-tags",
         "postversion": "js-beautify -r package.json && PACKAGE_VERSION=$(cat package.json | jq '.version' --raw-output) && git commit -a -m \"docs(version): Release v$PACKAGE_VERSION.\" -m '[skip ci]' && git tag \"v$PACKAGE_VERSION\""
     },
@@ -36,6 +37,7 @@
         "babel-env": "^2.4.1",
         "babel-plugin-shebang": "^0.0.0",
         "babel-plugin-wildcard": "^2.1.2",
+        "babel-tape-runner": "^2.0.1",
         "commitlint": "^5.2.0",
         "eslint": "^3.19.0",
         "eslint-config-airbnb": "^15.0.1",
@@ -44,9 +46,12 @@
         "eslint-plugin-react": "^7.1.0",
         "husky": "^0.14.3",
         "js-beautify": "^1.6.14",
+        "mock-fs": "^4.4.2",
         "node-jq": "^0.7.0",
         "nodemon": "^1.11.0",
         "rimraf": "^2.6.1",
-        "sloc": "^0.2.0"
+        "sloc": "^0.2.0",
+        "tape": "^4.8.0",
+        "tape-bdd": "^0.0.1"
     }
 }
