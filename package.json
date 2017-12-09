@@ -26,6 +26,7 @@
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "clean": "rimraf dist",
         "test": "cd src/node_modules && babel-tape-runner __tests__/{,**/}*.js | tap-spec",
+        "watch": "nodemon --watch ./src/node_modules --exec npm-run-all test",
         "postrewrite": "./dx/rewrite-tags",
         "postversion": "js-beautify -r package.json && PACKAGE_VERSION=$(cat package.json | jq '.version' --raw-output) && git commit -a -m \"docs(version): Release v$PACKAGE_VERSION.\" -m '[skip ci]' && git tag \"v$PACKAGE_VERSION\""
     },
@@ -49,6 +50,7 @@
         "mock-fs": "^4.4.2",
         "node-jq": "^0.7.0",
         "nodemon": "^1.11.0",
+        "npm-run-all": "^4.1.2",
         "rimraf": "^2.6.1",
         "sloc": "^0.2.0",
         "tape": "^4.8.0",
