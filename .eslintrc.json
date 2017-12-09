@@ -6,6 +6,8 @@
         "import"
     ],
     "rules": {
+        "import/no-extraneous-dependencies": 0,
+        "import/no-resolve": 0,
         "indent": [
             "error",
             4,
