@@ -1,5 +1,12 @@
 # Worklog
 
+## #16, #17, #18
+
+Got stuck on mocking out the filesystem properly and now I'm stuck on testing
+promises in Tape. Just a bunch of frustrating-ness that I'll come back to
+tomorrow. I need a break for now. ARGH!!!
+
+
 ## #15
 
 I'm actually in the weeds finally and have mocking of the filesystem working and
