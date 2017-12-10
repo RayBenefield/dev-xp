@@ -44,6 +44,7 @@
         "babel-plugin-shebang": "^0.0.0",
         "babel-plugin-wildcard": "^2.1.2",
         "babel-tape-runner": "^2.0.1",
+        "blue-tape": "^1.0.0",
         "commitlint": "^5.2.0",
         "eslint": "^3.19.0",
         "eslint-config-airbnb": "^15.0.1",
