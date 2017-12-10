@@ -1,5 +1,33 @@
 # Worklog
 
+## #19, #20, #21
+
+Alright so I finally found something that works... it was painful. I kept
+running into problems because `tape` does not know how to handle promises and
+errors that happen in them. So I tried installing `ava`, but it could handle
+transpiling the `node_modules` folder properly as source files and I couldn't
+figure out how to get it to work. So then I tried `jest` and nothing at all,
+like it wouldn't even try to find my tests in the `node_modules` folder even if
+I tried to set it up properly and change the ignore paths. Absolutely painful.
+So then I went to try `blue-tape` to handle promises, but it wouldn't properly
+batch things in groups like I like for bdd and hence the output was really
+gross. So I figured out that you can change the `tape` instance in `tape-bdd` by
+passing a third parameter... once I passed in `blue-tape` it just worked
+magically. I'm SOOO happy I figured things out properly finally. So now promise
+testing is easily a thing and I added the globbing system to find all packages
+that are at least defined with a name field. I need to start explicitly pulling
+out fields that I care about now and what not, but this is a solid start. I'm
+just happy that I fixed my testing framework.
+
+Something I'm heavily noticing throughout the ecosystem is that the
+[**Alle**](https://github.com/boennemann/alle) pattern is very powerful, however
+the tools in the ecosystem go crazy when you have `node_modules` in your path
+and there is a LOT of frustration that can be had depending on the tool you want
+to use. I'm lucky that I found a solution for `tape` as that is the most minimum
+of testing frameworks and I prefer it with the `tape-bdd` nomenclature. So
+forward I shall move!!!
+
+
 ## #16, #17, #18
 
 Got stuck on mocking out the filesystem properly and now I'm stuck on testing
