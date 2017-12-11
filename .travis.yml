@@ -10,6 +10,7 @@ install:
     - yarn
 script:
     - yarn run test
+    - yarn run lint
     - ./dx/lint-commits
 after_success:
     - "./dx/update"
