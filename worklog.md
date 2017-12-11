@@ -1,5 +1,14 @@
 # Worklog
 
+## #22
+
+Added another test to ensure that we grab deeply nested projects in the
+`src/node_modules` folder. So now I'm working on figuring out the best way to
+present a clean interface for the command line tool and will just start doing
+some fancy looking things. Just to have some fun. Perhaps I can have this
+cleaned up quickly.
+
+
 ## #19, #20, #21
 
 Alright so I finally found something that works... it was painful. I kept
