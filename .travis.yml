@@ -9,7 +9,8 @@ before_install: git fetch --depth=10000
 install:
     - yarn
 script:
-    - "./dx/lint-commits"
+    - yarn run test
+    - ./dx/lint-commits
 after_success:
     - "./dx/update"
 before_deploy:
