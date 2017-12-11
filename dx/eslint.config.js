@@ -11,7 +11,7 @@ module.exports = {
         'no-param-reassign': 0,
         'no-continue': 0,
         'max-lines': [
-            'error',
+            'warn',
             {
                 max: 50,
                 skipBlankLines: true,
