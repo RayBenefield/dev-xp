@@ -1,5 +1,15 @@
 # Worklog
 
+## #24
+
+So the [**Prettier**](https://prettier.io/) setup was WAY easier than I
+expected. I currently have it applied with the desired settings and have it
+working with [**ES Lint**](https://eslint.org/). Now I have to adjust my build
+pipeline to handle it properly including commit hooks and travis. And I have to
+apply it to Vim. The combination shouldn't take longer than one session, but
+I'll probably end up doing two for some reason. lol... 
+
+
 ## #23
 
 Cleaned up the last of the `find-packages` functionality. Added the `dir` to the
