@@ -1,6 +1,6 @@
 module.exports = {
     '*.js': [
-        'prettier --write',
+        'prettier --with-node-modules --write',
         'eslint --fix --config ./dx/eslint.config.js',
         'git add',
     ],
