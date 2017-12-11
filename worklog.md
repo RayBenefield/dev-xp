@@ -1,5 +1,15 @@
 # Worklog
 
+## #25, #26, #27
+
+Went through and did a bunch of random things to make
+[**Prettier**](https://prettier.io/) and [**ES Lint**](https://eslint.org/) work
+neatly together with hooks and vim and stuff. But it is finally done and merged
+in. I'm feeling the strain of early morning (been working since like 3am. Gonna
+take my morning nap before I start work now. Until tomorrow when I tackle the
+CLI script.
+
+
 ## #24
 
 So the [**Prettier**](https://prettier.io/) setup was WAY easier than I
