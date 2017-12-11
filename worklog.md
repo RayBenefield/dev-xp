@@ -1,5 +1,16 @@
 # Worklog
 
+## #23
+
+Cleaned up the last of the `find-packages` functionality. Added the `dir` to the
+final output to be used in future scripts. Next is to use that package to create
+the `kd ls` command. I should have enough info on it now and I just need to work
+out the CLI details like pretty printing/formatting etc. Should be neatly done.
+I think first I want to setup `prettier` so I can stop playing with code
+formatting. Gotta set it up plus eslint plus Vim so that might take a few
+sessions.
+
+
 ## #22
 
 Added another test to ensure that we grab deeply nested projects in the
