@@ -1,5 +1,16 @@
 # Worklog
 
+## #28, #29, #30
+
+Got a simple `kd ls` command working with pretty printing. Now I realize that I
+have to build the package completely differently than what I was building which
+really sucks, but I'll figure it out. Since I have a CLI tool, it is quite
+different than
+[**Transmutation**](https://github.com/RayBenefield/transmutation). So I'm going
+to have to put this off until later sadly. I think I'm close though at least. I
+got things sort of working.
+
+
 ## #25, #26, #27
 
 Went through and did a bunch of random things to make
