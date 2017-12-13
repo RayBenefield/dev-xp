@@ -13,6 +13,7 @@ module.exports = {
                 // Parts of KI/KD
                 'cli',
                 'find-packages',
+                'build-packages',
                 // Developer Experience/Docs Scopes
                 'roadmap',
                 'worklog',
@@ -30,15 +31,7 @@ module.exports = {
         'type-enum': [
             2,
             'always',
-            [
-                'feat',
-                'fix',
-                'docs',
-                'style',
-                'refactor',
-                'test',
-                'dx',
-            ],
+            ['feat', 'fix', 'docs', 'style', 'refactor', 'test', 'dx'],
         ],
     },
 };
