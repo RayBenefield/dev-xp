@@ -20,9 +20,9 @@
         "kd": "src/cli.js"
     },
     "scripts": {
-        "kd": "cd src/node_modules/ && ./kikd/cli.js",
+        "kd": "cd src/node_modules/ && babel-node ./kikd/cli.js",
         "prebuild": "npm run clean && mkdir -p dist/ && cp LICENSE readme.md dist/ && cat package.json | jq 'del(.babel,.devDependencies,.scripts,.config)' --indent 4 > dist/package.json",
-        "build": "babel src/node_modules/kikd -d dist/src",
+        "build": "rollup -c",
         "precommit": "lint-staged -c ./dx/lint-staged.config.js",
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "clean": "rimraf dist",
@@ -38,14 +38,17 @@
     },
     "dependencies": {
         "es6-promisify": "^5.0.0",
+        "glob": "^7.1.2",
         "minimist": "^1.2.0",
         "renderkid": "^2.0.1"
     },
     "devDependencies": {
         "babel-cli": "^6.24.1",
-        "babel-env": "^2.4.1",
+        "babel-plugin-external-helpers": "^6.22.0",
         "babel-plugin-shebang": "^0.0.0",
         "babel-plugin-wildcard": "^2.1.2",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-stage-0": "^6.24.1",
         "babel-tape-runner": "^2.0.1",
         "blue-tape": "^1.0.0",
         "commitlint": "^5.2.0",
@@ -64,9 +67,16 @@
         "npm-run-all": "^4.1.2",
         "prettier": "^1.9.1",
         "rimraf": "^2.6.1",
+        "rollup": "^0.52.1",
+        "rollup-plugin-babel": "^3.0.2",
+        "rollup-plugin-executable": "^1.1.0",
+        "rollup-plugin-filesize": "^1.5.0",
+        "rollup-plugin-node-resolve": "^3.0.0",
+        "rollup-plugin-uglify": "^2.0.1",
         "sloc": "^0.2.0",
         "tap-spec": "^4.1.1",
         "tape": "^4.8.0",
-        "tape-bdd": "^0.0.1"
+        "tape-bdd": "^0.0.1",
+        "uglify-es": "^3.2.2"
     }
 }
