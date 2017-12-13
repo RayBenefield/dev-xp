@@ -20,7 +20,7 @@ export default [
         external: [...Object.keys(pkg.dependencies), 'fs', 'path'],
         output: [
             {
-                file: path.resolve('dist', Object.values(pkg.bin)[0]),
+                file: path.resolve('dist', pkg.bin.kd),
                 format: 'cjs',
             },
         ],
