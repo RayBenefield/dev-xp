@@ -3,3 +3,4 @@ dist/
 .DS_STORE
 temp
 *.log
+.yarnclean
