@@ -1,5 +1,19 @@
 # Worklog
 
+## #32
+
+I fixed up the build and also added the portion that finds the project root
+based on the `.git` folder. So I spent some time figuring out what are the next
+steps and really the next step is to start building the modules without doing
+any publishing or versioning quite yet. I'd like to replace the build step with
+[**KI/KD**](https://github.com/RayBenefield/kikd) itself to start eating dog
+fooding. This will lead me to rely on it in the future. And right now the only
+deployable is the `cli.js` so I'm going to write up a build system that only
+handles a `bin` entry in the `package.json`. So it shouldn't be too bad.
+Hopefully... it is time to get very familiar with
+[**Rollup**](https://rollupjs.org/).
+
+
 ## #31
 
 Spent a bit of scattered time exploring how to setup rollup for a CLI script.
