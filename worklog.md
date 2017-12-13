@@ -1,5 +1,16 @@
 # Worklog
 
+## #31
+
+Spent a bit of scattered time exploring how to setup rollup for a CLI script.
+Had to figure out some details around making the output executable and adding a
+shebang for the output, but I got it all figured out. Then I merged it and
+master isn't building because I tried to use `Object.values` in like Node 6 or
+something. So I'll fix that in the morning. But rollup should be working now
+just fine and I can move forward. I still don't find the project root properly
+so I'm going to do that next, but I've got a solid start at least.
+
+
 ## #28, #29, #30
 
 Got a simple `kd ls` command working with pretty printing. Now I realize that I
