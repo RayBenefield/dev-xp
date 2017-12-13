@@ -1,5 +1,15 @@
 # Worklog
 
+## #33, #34
+
+Started work on the build package system. Got in the first couple tests and some
+filtering here and there. I think what I'm going to have this system do is build
+the configs that are needed for [**Rollup**](https://rollupjs.org/) since it is
+a side effect and I want to test to make sure the configs come back properly
+then use that to run through [**Rollup**](https://rollupjs.org/). Should work
+hopefully lol. We shall see.
+
+
 ## #32
 
 I fixed up the build and also added the portion that finds the project root
