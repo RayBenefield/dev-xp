@@ -482,10 +482,6 @@ babel-plugin-external-helpers@^6.22.0:
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-shebang@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-shebang/-/babel-plugin-shebang-0.0.0.tgz#50b1676aae9d681fa3cadff3531304d96e1d47bc"
-
 babel-plugin-syntax-async-functions@^6.8.0:
   version "6.13.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-async-functions/-/babel-plugin-syntax-async-functions-6.13.0.tgz#cad9cad1191b5ad634bf30ae0872391e0647be95"
@@ -793,10 +789,6 @@ babel-plugin-transform-strict-mode@^6.24.1:
   dependencies:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
-
-babel-plugin-wildcard@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/babel-plugin-wildcard/-/babel-plugin-wildcard-2.1.2.tgz#fef5b3a28b855745d9ed7b410a4a13bd93de2a6c"
 
 babel-polyfill@6.26.0, babel-polyfill@^6.26.0, babel-polyfill@^6.3.14:
   version "6.26.0"

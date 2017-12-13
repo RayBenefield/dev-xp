@@ -1,17 +1,4 @@
 {
-    "presets": [
-        "env",
-        "react",
-        "stage-0"
-    ],
-    "plugins": [
-        "transform-class-properties",
-        "transform-decorators",
-        "transform-react-constant-elements",
-        "transform-react-inline-elements",
-        ["shebang", {
-            "replacement": "#!/usr/bin/env node",
-            "force": false
-        }]
-    ]
+    "presets": ["env", "stage-0"],
+    "plugins": []
 }
