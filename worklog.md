@@ -1,5 +1,18 @@
 # Worklog
 
+## #35
+
+I feel like I'm SUPER close to having this work. I'm going to have to tie in the
+root of the packages in order to properly run
+[**Rollup**](https://rollupjs.org/) in the right destination folder. Hopefully
+the next session I'll have it working just right. I'm SUPER excited to have this
+work cuz this is the first real work that
+[**KI/KD**](https://github.com/RayBenefield/kikd) will actually do. So I'm
+fairly pumped about that. I REALLY hope this works. I hate that I have to work
+right now... cuz I'm like right there at the finish line. Oh well... time for
+**Python**.
+
+
 ## #33, #34
 
 Started work on the build package system. Got in the first couple tests and some
