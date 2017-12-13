@@ -38,6 +38,7 @@
     },
     "dependencies": {
         "es6-promisify": "^5.0.0",
+        "find-up": "^2.1.0",
         "glob": "^7.1.2",
         "minimist": "^1.2.0",
         "renderkid": "^2.0.1"
