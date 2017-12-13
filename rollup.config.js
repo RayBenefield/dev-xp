@@ -10,16 +10,7 @@ import pkg from './package.json';
 const babelConfig = {
     babelrc: false,
     presets: [['env', { modules: false, targets: { node: '6' } }], 'stage-0'],
-    plugins: [
-        [
-            'wildcard',
-            {
-                exts: ['js', 'es6', 'es', 'jsx', 'javascript', 'json'],
-                noCamelCase: true,
-            },
-        ],
-        'external-helpers',
-    ],
+    plugins: ['external-helpers'],
     exclude: ['node_modules/**'],
 };
 
