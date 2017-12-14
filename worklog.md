@@ -1,5 +1,19 @@
 # Worklog
 
+## #38
+
+So I refactored the CLI to use
+[**Transmutation**](https://github.com/RayBenefield/transmutation) now and it
+cleaned up the main API very well and I was able to get rid of the second
+`findProjectRoot` call which is nice. And it also made it really easy to add in
+the base config to use to determine external dependencies. Which is super nice.
+I need to still add tests for that, but I've got the functionality there at
+least which is nice. I also need to handle the `node` built-ins better somehow.
+For some reason [**Rollup**](https://rollupjs .org/) is still warning based on
+them and I am not sure why. I'll file an issue on that after making an example
+repo with the problem. Break time.
+
+
 ## #37
 
 So yesterday I was going to finish up the build system and then I got food
