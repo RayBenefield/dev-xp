@@ -1,5 +1,13 @@
 # Worklog
 
+## #40
+
+Started work on `KLI`. Just writing a bunch of simple tests to get it going and
+then I'm going to try to replace the commands in
+[**KI/KD**](https://github.com/RayBenefield/kikd). I'm hoping things go
+smoothly, but we shall see.
+
+
 ## #39
 
 So I planned out a document for `KLI` and now I'm going to jump in and just try
