@@ -2,7 +2,7 @@ module.exports = {
     extends: ['airbnb', 'prettier'],
     plugins: ['react', 'jsx-a11y', 'import', 'prettier'],
     rules: {
-        'prettier/prettier': 2,
+        'prettier/prettier': 1,
         'import/no-extraneous-dependencies': 0,
         'import/no-resolve': 0,
         indent: ['error', 4, { SwitchCase: 1 }],
