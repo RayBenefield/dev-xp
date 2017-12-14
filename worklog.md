@@ -1,5 +1,12 @@
 # Worklog
 
+## #39
+
+So I planned out a document for `KLI` and now I'm going to jump in and just try
+to start building it and see how things go. I planned around in a sandbox long
+enough that it should work fine. We shall see.
+
+
 ## #38
 
 So I refactored the CLI to use
