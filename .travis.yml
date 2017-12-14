@@ -16,6 +16,7 @@ script:
 after_success:
     - ./dx/update
 before_deploy:
+    - yarn run build
     - cd dist/kikd
 deploy:
     provider: npm
