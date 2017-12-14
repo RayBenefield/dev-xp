@@ -1,5 +1,18 @@
 # Worklog
 
+## #36
+
+So I quickly tweaked the build command to work adhoc with a bunch of hardcoded
+things and I got it to work properly!!! I'm super pumped, but now I need to go
+through and properly support details. Like I needed to handle ignoring paths
+from the `find-packages` script. So I added that. I need to keep going through
+and tweaking things until I get something that really works. I think by default
+I need to ignore the `__tests__` folder. Since this is
+[**KI/KD**](https://github.com/RayBenefield/kikd) then I'm fine with being
+opinionated period. More work to be done!!! But I should totally have the build
+command working tonight!
+
+
 ## #35
 
 I feel like I'm SUPER close to having this work. I'm going to have to tie in the
