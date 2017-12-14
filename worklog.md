@@ -1,5 +1,17 @@
 # Worklog
 
+## #37
+
+So yesterday I was going to finish up the build system and then I got food
+poisoning and was out for the rest of the night. This morning I'm exhausted but
+I was able to finish up the build command and I'm super happy about that. I also
+was doing research last night while dying on how to make the CLI experience
+better and discovered a new package that I need to build that I will build as
+part of the [**KI/KD**](https://github.com/RayBenefield/kikd) actually. It
+should make the CLI much easier to use as it will be smart enough to determine
+what command you are trying to run. Should be a fun little thing.
+
+
 ## #36
 
 So I quickly tweaked the build command to work adhoc with a bunch of hardcoded
