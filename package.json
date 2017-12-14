@@ -1,7 +1,7 @@
 {
     "name": "kikd",
     "description": "Continuous Integration and Continuous Deployment for Open Sourced NPM Tooling.",
-    "version": "0.0.25",
+    "version": "0.0.26",
     "homepage": "https://github.com/RayBenefield/kikd",
     "author": {
         "name": "Raymond Benefield",
