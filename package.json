@@ -48,6 +48,7 @@
         "rollup-plugin-filesize": "^1.5.0",
         "rollup-plugin-node-resolve": "^3.0.0",
         "rollup-plugin-uglify": "^2.0.1",
+        "transmutation": "^0.0.46",
         "uglify-es": "^3.2.2"
     },
     "devDependencies": {
