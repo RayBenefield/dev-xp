@@ -14,10 +14,9 @@ script:
     - ./dx/lint-commits
     - yarn run build
 after_success:
-    - "./dx/update"
+    - ./dx/update
 before_deploy:
-    - yarn run build
-    - cd dist
+    - cd dist/kikd
 deploy:
     provider: npm
     email: raymond.benefield@gmail.com

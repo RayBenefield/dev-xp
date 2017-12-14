@@ -15,14 +15,13 @@
         "url": "https://github.com/RayBenefield/kikd/issues"
     },
     "license": "MIT",
-    "main": "src/index.js",
     "bin": {
-        "kd": "src/cli.js"
+        "kd": "cli.js"
     },
     "scripts": {
         "kd": "cd src/node_modules/ && babel-node ./kikd/cli.js",
-        "prebuild": "npm run clean && mkdir -p dist/ && cp LICENSE readme.md dist/ && cat package.json | jq 'del(.babel,.devDependencies,.scripts,.config)' --indent 4 > dist/package.json",
-        "build": "rollup -c",
+        "prebuild": "npm run clean && mkdir -p dist/kikd && cp LICENSE readme.md dist/kikd && cat package.json | jq 'del(.babel,.devDependencies,.scripts,.config)' --indent 4 > dist/kikd/package.json",
+        "build": "yarn run kd b",
         "precommit": "lint-staged -c ./dx/lint-staged.config.js",
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "clean": "rimraf dist",
