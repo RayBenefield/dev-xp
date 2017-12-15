@@ -2688,6 +2688,12 @@ has@^1.0.1, has@~1.0.1:
   dependencies:
     function-bind "^1.0.2"
 
+hasharray@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/hasharray/-/hasharray-1.1.0.tgz#fe87cf9977baa9d9159b8465a8e2edf58fd0d681"
+  dependencies:
+    jclass "^1.0.1"
+
 hawk@3.1.3, hawk@~3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/hawk/-/hawk-3.1.3.tgz#078444bd7c1640b0fe540d2c9b73d59678e8e1c4"
@@ -3137,6 +3143,10 @@ isurl@^1.0.0-alpha5:
   dependencies:
     has-to-string-tag-x "^1.2.0"
     is-object "^1.0.1"
+
+jclass@^1.0.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/jclass/-/jclass-1.2.1.tgz#eaafeec0dd6a5bf8b3ea43c04e010c637638768b"
 
 jest-docblock@^21.0.0:
   version "21.2.0"
@@ -5127,6 +5137,12 @@ transmutation@^0.0.46:
     dot-prop "^4.2.0"
     lodash.mapvalues "^4.6.0"
     lodash.mergewith "^4.6.0"
+
+trie-search@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/trie-search/-/trie-search-1.0.9.tgz#1587757478c3900b0120c5aaf53e048cfaaff24a"
+  dependencies:
+    hasharray "^1.0.0"
 
 trim-newlines@^1.0.0:
   version "1.0.0"

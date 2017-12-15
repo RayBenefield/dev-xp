@@ -49,6 +49,7 @@
         "rollup-plugin-node-resolve": "^3.0.0",
         "rollup-plugin-uglify": "^2.0.1",
         "transmutation": "^0.0.46",
+        "trie-search": "^1.0.9",
         "uglify-es": "^3.2.2"
     },
     "devDependencies": {
