@@ -1,5 +1,16 @@
 # Worklog
 
+## #41
+
+So I got `KLI` working!!! So now I can run `kd l` or `kd ls` to run the `ls`
+command or I can run `kd b`, `kd bu`, `kd bui`, etc. to run the build command
+and as I add more commands things should go fine. :) Totally pumped about that.
+But now I have to start getting into actual multi-project issues. Next is to
+finish the build command by copying the `readme` and the `license` file to the
+`dist` folder. That is the next step and then merging the base repo
+`package.json` and merging with the project `package.json`. Should be fun.
+
+
 ## #40
 
 Started work on `KLI`. Just writing a bunch of simple tests to get it going and
