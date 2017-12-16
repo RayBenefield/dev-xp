@@ -1,5 +1,31 @@
 # Worklog
 
+## #42
+
+I spent a little bit setting up Prettier on Vim finally. It is really nice to
+have on save. I quickly setup `KLI` to handle aliases in addition to names.
+Wasn't hard at all. So I started work on the `check-packages` function, which
+will be needed to verify whether or not each package has the minimum
+characteristics to publish.  This check will start by looking for a `readme`, a
+`package.json`, and either a `bin` entry with respective file, a `main` entry
+with respective file, or an `index.js` file. With all of this I should be able
+to publish a package. Then I'll adjust the build process to not publish any
+packages that don't pass that check.
+
+On a side note, I'm also preparing to propose to **Jess**. Today is her birthday
+and I've setup heart post it notes arranged in the shape of hearts across the
+walls going down the stairs and into the hallway towards my office. It is a long
+letter to her. I have a camera setup to know when she is on the stairs and my
+computer and her phone (which I have) is watching and I will sneak into the
+bathroom when I see her (with her phone in my hand so I can watch). When she
+gets to the last batch of post its in the hall in front of the bathroom, the
+last one that is folded will tell her to turn around for me to propose. :) SUPER
+EXCITED!!! I hope everything works out as planned. I'm trying to both get work
+done and watch the camera at the same time... not an easy task mind you. She
+will only be expecting that the hearts are related to her birthday, the proposal
+will definitely catch her unexpectedly.
+
+
 ## #41
 
 So I got `KLI` working!!! So now I can run `kd l` or `kd ls` to run the `ls`
