@@ -11,7 +11,7 @@ install:
 script:
     - yarn run test
     - yarn run lint
-    - ./dx/lint-commits
+    - yarn run lint:commits
     - yarn run inspect
     - yarn run build
 after_success:
