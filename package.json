@@ -1,6 +1,7 @@
 {
     "name": "kikd",
-    "description": "Continuous Integration and Continuous Deployment for Open Sourced NPM Tooling.",
+    "description":
+        "Continuous Integration and Continuous Deployment for Open Sourced NPM Tooling.",
     "version": "0.0.28",
     "homepage": "https://github.com/RayBenefield/kikd",
     "author": {
@@ -20,20 +21,30 @@
     },
     "scripts": {
         "kd": "cd src/node_modules/ && babel-node ./kikd/cli.js",
-        "prebuild": "npm run clean && mkdir -p dist/kikd && cp LICENSE readme.md dist/kikd && cat package.json | jq 'del(.babel,.devDependencies,.scripts,.config)' --indent 4 > dist/kikd/package.json",
-        "build": "yarn run kd b",
-        "precommit": "lint-staged -c ./dx/lint-staged.config.js",
+        "prebuild":
+            "yarn run clean && mkdir -p dist/kikd && cp LICENSE readme.md dist/kikd && cat package.json | jq 'del(.babel,.devDependencies,.scripts,.config)' --indent 4 > dist/kikd/package.json",
+        "build": "yarn run kd build",
+        "precommit":
+            "yarn run inspect && lint-staged -c ./dx/lint-staged.config.js",
         "commitmsg": "commitlint -e $GIT_PARAMS",
         "clean": "rimraf dist",
-        "pretty": "prettier src/node_modules/**/*.js --config prettier.config.js --with-node-modules --write",
+        "pretty":
+            "prettier src/node_modules/**/*.js --config prettier.config.js --with-node-modules --write",
+        "inspect": "cd src/node_modules/ && jsinspect",
         "lint": "npm-run-all lint:src lint:tests",
-        "lint:src": "eslint src/node_modules --ignore-pattern 'src/node_modules/__tests__' --config ./dx/eslint.config.js",
-        "lint:tests": "eslint src/node_modules/__tests__ --config ./dx/eslint.test.config.js",
-        "test": "cd src/node_modules && babel-tape-runner __tests__/{,**/}*.js | tap-spec",
-        "sloc": "echo 'Lines of source code: ' && sloc src/node_modules/ -f json  --exclude __tests__ | jq '.summary.source'",
-        "watch": "nodemon --watch ./src/node_modules --exec npm-run-all test lint sloc",
+        "lint:src":
+            "eslint src/node_modules --ignore-pattern 'src/node_modules/__tests__' --config ./dx/eslint.config.js",
+        "lint:tests":
+            "eslint src/node_modules/__tests__ --config ./dx/eslint.test.config.js",
+        "test":
+            "cd src/node_modules && babel-tape-runner __tests__/{,**/}*.js | tap-spec",
+        "sloc":
+            "echo 'Lines of source code: ' && sloc src/node_modules/ -f json  --exclude __tests__ | jq '.summary.source'",
+        "watch":
+            "nodemon --watch ./src/node_modules --exec npm-run-all test lint sloc",
         "postrewrite": "./dx/rewrite-tags",
-        "postversion": "js-beautify -r package.json && PACKAGE_VERSION=$(cat package.json | jq '.version' --raw-output) && git commit -a -m \"docs(version): Release v$PACKAGE_VERSION.\" -m '[skip ci]' && git tag \"v$PACKAGE_VERSION\""
+        "postversion":
+            "js-beautify -r package.json && PACKAGE_VERSION=$(cat package.json | jq '.version' --raw-output) && git commit -a -m \"docs(version): Release v$PACKAGE_VERSION.\" -m '[skip ci]' && git tag \"v$PACKAGE_VERSION\""
     },
     "dependencies": {
         "es6-promisify": "^5.0.0",
@@ -69,6 +80,7 @@
         "eslint-plugin-react": "^7.1.0",
         "husky": "^0.14.3",
         "js-beautify": "^1.6.14",
+        "jsinspect": "^0.12.7",
         "lint-staged": "^6.0.0",
         "node-jq": "^0.7.0",
         "nodemon": "^1.11.0",
