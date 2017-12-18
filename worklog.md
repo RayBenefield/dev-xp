@@ -1,5 +1,15 @@
 # Worklog
 
+## #43
+
+So when I started working on the `kd check` script I was SUPER distracted. So
+yesterday morning I realized that I was duplicating work that I had already done
+in `find-packages` so I decided to add in `JS inspect` in order to catch
+duplicate code. I should be sure to not dupicate anything I'm doing and while
+that is obvious sometimes it is easy to miss when you are trying to get a task
+done. So now that that is in place I can get to the real checker script.
+
+
 ## #42
 
 I spent a little bit setting up Prettier on Vim finally. It is really nice to
