@@ -15,6 +15,7 @@ module.exports = {
                 'kli',
                 'find-packages',
                 'build-packages',
+                'check-packages',
                 // Developer Experience/Docs Scopes
                 'roadmap',
                 'worklog',
