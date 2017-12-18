@@ -1,5 +1,13 @@
 # Worklog
 
+## #46
+
+I realized the `fixtures` folder for tests was getting out of hand, so I had to
+introduce some new organization to it. So now it is sorted by fixtures that
+represent an entire repo and fixtures that represent a single module. So I guess
+I'll tackle the other functionality I wanted tomorrow. Time for some real work.
+
+
 ## #45
 
 I started working on actual publishable modules now. I now accept a main file
