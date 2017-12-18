@@ -32,6 +32,7 @@
             "prettier src/node_modules/**/*.js --config prettier.config.js --with-node-modules --write",
         "inspect": "cd src/node_modules/ && jsinspect",
         "lint": "npm-run-all lint:src lint:tests",
+        "lint:commits": "./dx/lint-commits",
         "lint:src":
             "eslint src/node_modules --ignore-pattern 'src/node_modules/__tests__' --config ./dx/eslint.config.js",
         "lint:tests":
