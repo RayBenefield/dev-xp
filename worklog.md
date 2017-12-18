@@ -1,5 +1,15 @@
 # Worklog
 
+## #45
+
+I started working on actual publishable modules now. I now accept a main file
+that is defined or not (must have an `index.js` if it is not defined). I
+actually need to go through and fail tests that don't have a `LICENSE` or a
+`readme` now. So next is to fail on those and then after that I can start
+accepting `bin` files so I can pass `kikd` since it is just a `cli` tool right
+now.
+
+
 ## #44
 
 Started the preliminary checks for the `kd check` command. Things are going ok
