@@ -1,5 +1,12 @@
 # Worklog
 
+## #44
+
+Started the preliminary checks for the `kd check` command. Things are going ok
+for now, nothing too much to report. I think in a session or two I should have
+something working cleanly functionality wise.
+
+
 ## #43
 
 So when I started working on the `kd check` script I was SUPER distracted. So
