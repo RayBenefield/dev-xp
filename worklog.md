@@ -1,5 +1,16 @@
 # Worklog
 
+## #49
+
+So I got through adding `bin` checks. I haven't gotten to the project level
+checks, but I did add the `kd check` command and closed out that issue to merge
+in and test with just JSON output. I've added several issues to work on the
+pretty printing and the other features that `kd check` will need to be valuable
+so we can work towards replacing the `prebuild` hook using `kd build`. I just
+had an idea to add a rendering system to `kli` as well because that JSON output
+is valuable for other things.
+
+
 ## #48
 
 Back into the work for the checking of packages. I've added checking for a
