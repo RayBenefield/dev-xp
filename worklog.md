@@ -1,5 +1,22 @@
 # Worklog
 
+## #47
+
+I started the morning with an idea on how to push configuration for
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+and ended up just writing a full document on the idea in general. Basically the
+idea is to push dependency injection into the CLI level that also encrouages
+configuration at the library level. This configuration not only includes values,
+but also the actual functions themself. Looking at something like
+[**Conventional
+Changelog**](https://github.com/conventional-changelog/conventional-changelog)
+shows how valuable it is to be able to override functions in a library in
+addition to values. And more and more tools are accepting the form of
+`<library>.config.js` because requiring it will include behavior configuration,
+not just value configutation which is SUPER powerful in software engineering.
+Time to get back to work on the checker system though.
+
+
 ## #46
 
 I realized the `fixtures` folder for tests was getting out of hand, so I had to
