@@ -1,5 +1,17 @@
 # Worklog
 
+## #48
+
+Back into the work for the checking of packages. I've added checking for a
+readme now and packages are not publishable without a readme now. Next will be
+to add checking for `bin` files. And then once I'm checking for `bin` files I
+can add the checking to a part of doing builds and also as its own command. But
+I also need to check the root directory for a `LICENSE` file that can be taken
+as well. So I'll look into that as well. I don't want to publish something
+without its `LICENSE`, but a `LICENSE` is not a project level file, but a repo
+level file.
+
+
 ## #47
 
 I started the morning with an idea on how to push configuration for
