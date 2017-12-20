@@ -1,5 +1,14 @@
 # Worklog
 
+## #50, #51
+
+Looking into switching to `node-tap`... I figured out how to do it and it
+natively supports promises and coverage and a few other things so hopefully
+things will work out well. I had some difficulties with `should` at first, but
+it all worked out. I may have to look into extending `should` with some new
+operators or something so it reads better.
+
+
 ## #49
 
 So I got through adding `bin` checks. I haven't gotten to the project level
