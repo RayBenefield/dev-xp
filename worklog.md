@@ -1,5 +1,20 @@
 # Worklog
 
+## #53, #54, #55
+
+Instead of moving forward with the checker command I spent time refactoring the
+tests into a unit test structure instead. Which took a bit long because I also
+had to update the tools to ignore the test folders properly. Also in order for
+this to work properly I had to improve the ignore system for `find-packages` so
+I updated to using [**Minimatch**](https://www.npmjs.com/package/minimatch),
+which made the system MUCH stronger as a whole. So then I updated the CLI to
+exclude the fixtures folder now which is good to have for sure.... OH HEY!!! IT
+IS SNOWING!!! :) Time for some more real work. Back to Python :(. AWAY!!!
+Tomorrow I will tackle the checker... probably after I update the rendering
+system a bit more for
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli).
+
+
 ## #52
 
 Last night I was playing with [**Node Tap**](http://www.node-tap.org/) and I got
