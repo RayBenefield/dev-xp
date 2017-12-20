@@ -1,5 +1,22 @@
 # Worklog
 
+## #52
+
+Last night I was playing with [**Node Tap**](http://www.node-tap.org/) and I got
+it working. Overnight I made the decision not to use [**Node
+Tap**](http://www.node-tap.org/). Ultimately it was MUCH slower, without
+parallel processing it was a 7 sec test run vs a <1 sec test run with
+[**Tape**](https://github.com/substack/tape). Even with parallel processing it
+only brought it down to 2 secs at the lowest. It also felt more clunky and wrong
+since to get BDD terminology I had to include mocha globals which felt wrong...
+and using `should` resulted in weird feelings too. So I decided... just no. This
+session however I started out adding a rendering system to
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli).
+I think it will ultimately be worth it. I'm going to use that rendering system
+for the `kd check` command soon. Just gotta add a feature or two here. I might
+adjust the tests as well. We'll see next session.
+
+
 ## #50, #51
 
 Looking into switching to `node-tap`... I figured out how to do it and it
