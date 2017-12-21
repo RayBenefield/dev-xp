@@ -1,5 +1,17 @@
 # Worklog
 
+## #56, #57
+
+Refactored out the searcher functionality and coincidentally added a new feature
+to be able to use a string or an array for `aliases` which is awesome. It is
+nice being able to easily created a new package using the
+[**Alle**](https://github.com/boennemann/alle) repo structure. And once
+[**KI/KD**](https://github.com/RayBenefield/kikd) is setup then I'll be able to
+really start publishing new packages really quickly and keep all my functions
+small and awesome. I think ultimately I have a very powerful system. More
+refactoring?
+
+
 ## #53, #54, #55
 
 Instead of moving forward with the checker command I spent time refactoring the
