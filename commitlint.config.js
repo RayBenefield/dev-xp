@@ -16,6 +16,7 @@ module.exports = {
                 'find-packages',
                 'build-packages',
                 'check-packages',
+                'searcher',
                 // Developer Experience/Docs Scopes
                 'roadmap',
                 'worklog',
