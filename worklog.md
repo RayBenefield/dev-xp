@@ -1,5 +1,22 @@
 # Worklog
 
+## #58, #59
+
+Refactored out the `executor` functionality now as `kli` is going to get a tad
+more complicated when I start adding more to the rendering system. So I want to
+make sure that it is easy to do and refactored out with tests. There are more
+tests that really should be in there, but now is a good start. Just keep pushing
+faster and faster as we go forward. I still need to refactor other portions of
+[**KI/KD**](https://github.com/RayBenefield/kikd), but I'll survive. For now I
+need to stop as we are going to pick up my future stepson for him to spend
+winter break with us. My development speed is going to slow over these holidays,
+since I'll be spending time with him and off the computer over the holidays.
+Still lots to do, but things are really coming together slowly. One day I'll
+probably split off the `kli` project into its own repo, but for now I'll keep it
+here. It might actually be valuable for me to have an automated process to split
+a monorepo into multiple monorepos so that will be my test case. AWAY!!!!
+
+
 ## #56, #57
 
 Refactored out the searcher functionality and coincidentally added a new feature
