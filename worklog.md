@@ -1,5 +1,16 @@
 # Worklog
 
+## #61
+
+Put out another release. This one sets up the formatter system for the
+`executor`. It uses [**Render Kid**](https://www.npmjs.com/package/renderkid) to
+handle the formatting. I tried to add tests, but realized that the output was
+not so simple. So I need to start looking into snapshot testing with
+[**Tape**](https://github.com/substack/tape). So that is probably next on my
+list to play with. I currently have two skipped tests until I have that in
+place. We shall see how that works in the future. Time for work.
+
+
 ## #60
 
 So I put out a couple of releases in one session (25 mins) which is awesome as
