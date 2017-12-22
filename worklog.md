@@ -1,5 +1,21 @@
 # Worklog
 
+## #60
+
+So I put out a couple of releases in one session (25 mins) which is awesome as
+I'm getting faster with this setup. I've refactored out my custom
+[**Tape**](https://github.com/substack/tape) setup. I prefer [**Tape
+BDD**](https://www.npmjs.com/package/tape-bdd) and I needed promise
+functionality so I also like [**Blue
+Tape**](https://www.npmjs.com/package/blue-tape). And since I'm using [**Blue
+Tape**](https://www.npmjs.com/package/blue-tape) I also need [**Loud
+Rejection**](https://www.npmjs.com/package/loud-rejection) setup. So I
+refactored all that into `@kikd/tape`. I also implemented the custom renderer
+per command which was SUPER easy and updated `kd check` to use the
+`JSONRenderer` for now and also removed the renderer from `kd build`. One more
+session before work.
+
+
 ## #58, #59
 
 Refactored out the `executor` functionality now as `kli` is going to get a tad
