@@ -13,6 +13,7 @@ module.exports = {
                 // Parts of KI/KD
                 'cli',
                 'kli',
+                'tape',
                 'find-packages',
                 'build-packages',
                 'check-packages',
