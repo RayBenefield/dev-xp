@@ -1,7 +1,7 @@
 {
     "name": "kikd",
     "description": "Continuous Integration and Continuous Deployment for Open Sourced NPM Tooling.",
-    "version": "0.0.39",
+    "version": "0.0.40",
     "homepage": "https://github.com/RayBenefield/kikd",
     "author": {
         "name": "Raymond Benefield",
@@ -21,55 +21,38 @@
     "scripts": {
         "?info": "echo Display information about the scripts.",
         "info": "npm-scripts-info",
-
         "?kd": "echo Run kikd with the current code.",
         "kd": "cd src/node_modules/ && babel-node ./kikd/cli.js",
-
         "?prebuild": "echo Prepare the dist directory with a license, readme, and package.json.",
         "prebuild": "yarn run clean && mkdir -p dist/kikd && cp LICENSE readme.md dist/kikd && cat package.json | jq 'del(.babel,.devDependencies,.scripts,.config)' --indent 4 > dist/kikd/package.json",
-
         "?build": "echo Dogfooding building kikd with rollup using itself.",
         "build": "yarn run kd build",
-
         "?precommit": "echo Ensure there is no duplicate code and then check staged commits for linting and style.",
         "precommit": "yarn run inspect && lint-staged -c ./dx/lint-staged.config.js",
-
         "?commitmsg": "echo Verify the commit message matches our standards",
         "commitmsg": "commitlint -e $GIT_PARAMS",
-
         "?clean": "echo Just remove the dist directory.",
         "clean": "rimraf dist",
-
         "?pretty": "echo Clean up the style for all of the source code.",
         "pretty": "prettier src/node_modules/**/*.js --config prettier.config.js --with-node-modules --write",
-
         "?inspect": "echo Check for duplicate code through the packages.",
         "inspect": "cd src/node_modules/ && jsinspect",
-
         "?lint": "echo Lint both source code and tests",
         "lint": "npm-run-all lint:src lint:tests",
-
         "?lint:commits": "echo Lint commit messages (run in CI).",
         "lint:commits": "./dx/lint-commits",
-
         "?lint:src": "echo Lint the source code with an extended Airbnb style.",
         "lint:src": "eslint src/node_modules --ignore-pattern 'src/node_modules/**/*test*' --config ./dx/eslint.config.js",
-
         "?lint:tests": "echo Lint the tests with an extended Airbnb style.",
         "lint:tests": "eslint src/node_modules/{**,**/**}/tests.js --config ./dx/eslint.test.config.js",
-
         "?test": "echo Run tests using babel/tape/tape-bdd/blue-tape, with tap-spec output.",
         "test": "cd src/node_modules && babel-tape-runner {**,**/**}/tests.js | tap-spec",
-
         "?sloc": "echo Print the number of lines of source code we have.",
         "sloc": "echo 'Lines of source code: ' && sloc src/node_modules/ -f json  --exclude .*test.* | jq '.summary.source'",
-
         "?watch": "echo Run tests, linting, and line counting every time a file changes.",
         "watch": "nodemon --watch ./src/node_modules --exec npm-run-all test lint sloc",
-
         "?postrewrite": "echo Update what commits git tags are pointing to after an amend/rebase.",
         "postrewrite": "./dx/rewrite-tags",
-
         "?postversion": "echo Update the indentation of the package.json, re-commit it, and then create a git tag for the new version.",
         "postversion": "js-beautify -r package.json && PACKAGE_VERSION=$(cat package.json | jq '.version' --raw-output) && git commit -a -m \"docs(version): Release v$PACKAGE_VERSION.\" -m '[skip ci]' && git tag \"v$PACKAGE_VERSION\""
     },
