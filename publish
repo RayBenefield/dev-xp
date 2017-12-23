@@ -1,9 +1,0 @@
-#!/bin/bash
-npm run patch
-version=$(cat package.json | jq "\"v\"+.version" --raw-output)
-echo $version
-git add package.json
-git ci -m "${version}"
-git tag ${version}
-npm run build
-cd dist/ && npm publish
