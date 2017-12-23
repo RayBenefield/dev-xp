@@ -1,5 +1,18 @@
 # Worklog
 
+## #62
+
+Did a bunch of cleaning up of the repository. Updated a test that wasn't
+switched over to `@kikd/tape`, cleaned up the `.gitattributes` (even though they
+don't look like they are working), and added [**NPM Scripts
+Info**](https://www.npmjs.com/package/npm-scripts-info) to the run scripts to
+make each of them more clear. Lots of little things. I think I want to take some
+time to work on the `kd new` command that creates a new package because I feel
+like I could really gain some good value from it. So that might be what I do
+next... if not then I'll do the template for the `kd check` command. I probably
+won't have much time this morning, but let's see what I can get done.
+
+
 ## #61
 
 Put out another release. This one sets up the formatter system for the
