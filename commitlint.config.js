@@ -14,6 +14,7 @@ module.exports = {
                 'cli',
                 'kli',
                 'tape',
+                'kape',
                 'find-packages',
                 'build-packages',
                 'check-packages',
