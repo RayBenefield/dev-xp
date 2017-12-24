@@ -1,5 +1,23 @@
 # Worklog
 
+## #63
+
+Last session, yesterday, I was going to jump into more work and got distracted
+instead. What ended up happening instead was that I decided to learn how to make
+a chrome extension and that was fun. I created one that could compare the github
+contributions between two users and set the badge value to the difference (green
+for above, and red for below). I call it `Github VS` for now... lol. But
+anyways, this morning I started yet again and decided to look into snapshots for
+my tests since I would like to have snapshotting for the executor tests to
+verify that style is being applied. The tool that I checked out was
+[**Snapshotter**](https://www.npmjs.com/package/snapshotter). Problem was that
+`enzyme` was backed into the implementation. So instead I forked it and modified
+it to just take in an object and played around to make it work. I've got
+something working, but I'm going to finish it up next session. Need a break and
+to think on things. I kind of want to make my own snapshotter implementation for
+`tape`. But I'll think on it.
+
+
 ## #62
 
 Did a bunch of cleaning up of the repository. Updated a test that wasn't
