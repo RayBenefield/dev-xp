@@ -1,5 +1,17 @@
 # Worklog
 
+## #64
+
+So I fell asleep after last session thinking about how to really get what I
+want. I've gone far into the rabbit hole that is
+[**Tape**](https://github.com/substack/tape). I've decided... I want a new
+testing framework as well. Something that works with everything I need. I
+know... ANOTHER project. But it is all part of
+[**KI/KD**](https://github.com/RayBenefield/kikd). All part of this ideal
+Developer Experience that I'm trying to shoot for. I'll try to start
+implementing it next session and see how things go.
+
+
 ## #63
 
 Last session, yesterday, I was going to jump into more work and got distracted
