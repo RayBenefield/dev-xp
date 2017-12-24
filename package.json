@@ -59,6 +59,7 @@
         "postversion": "js-beautify -r package.json && PACKAGE_VERSION=$(cat package.json | jq '.version' --raw-output) && git commit -a -m \"docs(version): Release v$PACKAGE_VERSION.\" -m '[skip ci]' && git tag \"v$PACKAGE_VERSION\""
     },
     "dependencies": {
+        "callsite": "^1.0.0",
         "es6-promisify": "^5.0.0",
         "find-up": "^2.1.0",
         "glob": "^7.1.2",
