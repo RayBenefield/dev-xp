@@ -1,5 +1,23 @@
 # Worklog
 
+## #65, #66
+
+Holy shit... I've really started getting this testing framework into place. It
+really isn't taking long. Since my simplest defaults are just create a snapshot
+and then fail on snapshot, then I'm having no problems at all as I don't need to
+worry about assertions really. I just need to run a function and the save/check
+the snapshot. I'm a decent way through, I'm already dogfooding the framework. It
+has a `run` function that actually generates the test results and then the
+default export will just run that `run` function, and right now it spits out
+some `console.log` lines to verify the output that I'm just running with
+[**Nodemon**](https://github.com/remy/nodemon) to iterate quickly. I just
+started generating a snapshot file based on the format that
+[**Jest**](https://facebook.github.io/jest/) uses. Now I need to start saving
+that file and then loading it and asserting against it. Probably like 4 sessions
+until I get all that done. I want to be conservative since I'm essentially
+writing my own testing framework here. It is exciting... seriously.
+
+
 ## #64
 
 So I fell asleep after last session thinking about how to really get what I
