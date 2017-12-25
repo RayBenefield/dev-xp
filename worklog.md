@@ -1,5 +1,16 @@
 # Worklog
 
+## #67, #68
+
+I've switch the framework to use
+[**Transmutation**](https://github.com/RayBenefield/transmutation) internally
+because I'm going to need to be able to handle simultaneous asynchronous writing
+of snapshot files... especially since by default EVERY test will have
+screenshots. I'm excited, next is to write the screenshots. That shouldn't be
+too bad. The next part though is to load the previous screenshots if they exist
+and then compare them to the one we are testing for.
+
+
 ## #65, #66
 
 Holy shit... I've really started getting this testing framework into place. It
