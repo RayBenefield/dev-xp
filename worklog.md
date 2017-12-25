@@ -1,5 +1,15 @@
 # Worklog
 
+## #69
+
+Alright so I am now saving snapshot files... which is awesome. Next is to load
+them and verify the snapshot vs the resulting snapshot. But I also need to print
+the results of the tests... so yeah. Perhaps I start by thinking about how to
+report results and then how to change those results with failures. I have one
+more session to go before I have to do my paying job... on Christmas... yeah it
+is painful.
+
+
 ## #67, #68
 
 I've switch the framework to use
