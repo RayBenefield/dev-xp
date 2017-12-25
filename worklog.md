@@ -1,5 +1,17 @@
 # Worklog
 
+## #70
+
+I did several refactors for readability, and now I've also got some pretty
+printing in place. I need to figure out next how to determine a passing test vs
+a failing test. Shouldn't be too bad now that I'm looking at things. I'm excited
+for how things are progressing. I think with all these promises and
+[**Transmutation**](https://github.com/RayBenefield/transmutation) I'll also be
+able to do this more efficiently since I'll have an async stream of work going
+at the same time in parallel, which is awesome. I hope things just keep sailing
+forward. :) Time for Python. :( Merry Christmas folks!!! See you tomorrow.
+
+
 ## #69
 
 Alright so I am now saving snapshot files... which is awesome. Next is to load
