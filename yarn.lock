@@ -4715,6 +4715,10 @@ sloc@^0.2.0:
     commander "~2.9.0"
     readdirp "^2.1.0"
 
+slugify@^1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.2.8.tgz#f74581b0376d1ccec9a4abfaf06c7aaa9737caef"
+
 sntp@1.x.x:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/sntp/-/sntp-1.0.9.tgz#6541184cc90aeea6c6e7b35e2659082443c66198"
