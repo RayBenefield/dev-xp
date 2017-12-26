@@ -64,6 +64,7 @@
         "es6-promisify": "^5.0.0",
         "find-up": "^2.1.0",
         "glob": "^7.1.2",
+        "lodash.sortby": "^4.7.0",
         "loud-rejection": "^1.6.0",
         "minimatch": "^3.0.4",
         "minimist": "^1.2.0",
