@@ -48,7 +48,7 @@
         "?test": "echo Run tests using babel/tape/tape-bdd/blue-tape, with tap-spec output.",
         "test": "cd src/node_modules && babel-tape-runner {**,**/**}/tests.js | tap-spec",
         "?kape": "echo Run tests using and for Kape.",
-        "kape": "cd src/node_modules && babel-node kape/tests.js",
+        "kape": "cd src/node_modules && babel-node @kape/run/tests.js",
         "?sloc": "echo Print the number of lines of source code we have.",
         "sloc": "echo 'Lines of source code: ' && sloc src/node_modules/ -f json  --exclude .*test.* | jq '.summary.source'",
         "?watch": "echo Run tests, linting, and line counting every time a file changes.",
