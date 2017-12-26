@@ -75,6 +75,7 @@
         "rollup-plugin-filesize": "^1.5.0",
         "rollup-plugin-node-resolve": "^3.0.0",
         "rollup-plugin-uglify": "^2.0.1",
+        "sha.js": "^2.4.9",
         "slugify": "^1.2.8",
         "transmutation": "^0.0.46",
         "trie-search": "^1.0.9",
