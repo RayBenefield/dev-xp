@@ -1,5 +1,15 @@
 # Worklog
 
+## #71, #72, #73, #74
+
+LOTS of work done for `kape`. I got screenshot comparing working and loading of
+previous screenshots. I changed the identification of screenshots to a hash of
+the inputs. I also started working on the
+[**Inquirer**](https://www.npmjs.com/package/inquirer) portion of it where we
+update the given screenshots. That should be the last major part before it is
+useable. SUPER exciting!!! So hopefully I'll have something finished tomorrow!!!
+
+
 ## #70
 
 I did several refactors for readability, and now I've also got some pretty
