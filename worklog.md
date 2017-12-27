@@ -1,5 +1,17 @@
 # Worklog
 
+## #79, #80, #81
+
+I DID IT!!!! I got a prompting system that updates and adds new snapshots
+properly. Took a bunch of work with `readline`, but I actually pulled it off
+today. Makes me super happy so theoretically I have a useable testing system
+now. It only handles snapshots and no assertions, but it is a HUGE start. Super
+pumped for having started my own testing framework. Super excited about this...
+seriously. LOTS of refactoring that needs to be done. But good stuff overall and
+it works the way I want it to. I still need a multi-test runner and an assertion
+system, but should be good.
+
+
 ## #75, #76, #77, #78
 
 So I'm in this vicious exploration cycle right now just exploring. The part I'm
