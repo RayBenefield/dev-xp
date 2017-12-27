@@ -1,5 +1,15 @@
 # Worklog
 
+## #75, #76, #77, #78
+
+So I'm in this vicious exploration cycle right now just exploring. The part I'm
+on is setting up a prompting system to update snapshots. I was originally using
+[**Inquirer**](https://www.npmjs.com/package/inquirer), but now I'm going
+straight down to `readline` instead. So it is taking some exploration of ways to
+handle things in order to nail something down. But I'm getting closer at least.
+Perhaps in the next few sessions I'll get something going.
+
+
 ## #71, #72, #73, #74
 
 LOTS of work done for `kape`. I got screenshot comparing working and loading of
