@@ -12,6 +12,7 @@ module.exports = {
                 'kikd',
                 // Parts of KI/KD
                 'cli',
+                'cli-style',
                 'kli',
                 'tape',
                 'kape',
