@@ -1,5 +1,13 @@
 # Worklog
 
+## #85, #86
+
+Did several bits of cleaning up. Refactored out the commands into their own
+packages. Started cleaning up the styling system in general and then started
+working on creating a pretty style for `check-packages`. Coming along alright.
+:) Time for Python work now... 10 hours of it... AHHHH!!!
+
+
 ## #82, #83, #84
 
 So this morning was a TON of dog fooding. I started to really use
