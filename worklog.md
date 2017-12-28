@@ -1,5 +1,24 @@
 # Worklog
 
+## #82, #83, #84
+
+So this morning was a TON of dog fooding. I started to really use
+[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
+for the first time with the `executor` portion of
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli).
+And it was very informatitive. It let me know that I definitely need a `when()`
+operator for
+[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
+as well as a `then()` operator. I also need to really try to put some focus on
+setting up multiple `describes` in a single test file properly so I can test
+various configurations of a SUT. But the cool thing is that my build test suite
+is now running both
+[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
+and [**Tape**](https://github.com/substack/tape) tests... hehehe... that's
+funny. This set of sessions was VERY helpful indeed. Lots to refactor and do in
+general, but I think I'm at a solid point where I can just pick and choose.
+
+
 ## #79, #80, #81
 
 I DID IT!!!! I got a prompting system that updates and adds new snapshots
