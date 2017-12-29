@@ -1,5 +1,16 @@
 # Worklog
 
+## #92
+
+Closed out a couple tickets that verified that `kd check` could handle a mix of
+multiple bins and main files. Looks like it all works fine now... there was one
+bug. And added a ton of snapshots to catch them in the future. The next thing is
+to probably handle repo level checks like checking for the `LICENSE` file and/or
+things needed in the root config like `repo`. Then after that probably some
+aggregate stats on the check. And then apply the build system to all publishable
+packages.
+
+
 ## #91
 
 So rather than go to coffee, I had an epiphany on how to fix the damn tests in
