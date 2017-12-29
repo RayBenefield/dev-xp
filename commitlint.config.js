@@ -18,7 +18,8 @@ module.exports = {
                 'kape',
                 'find-packages',
                 'build-packages',
-                'check-packages',
+                'check-package',
+                'publish-check',
                 'searcher',
                 'executor',
                 // Developer Experience/Docs Scopes
