@@ -1,5 +1,14 @@
 # Worklog
 
+## #93, #94, #95
+
+Did a lot of refactoring in order to support root level checks for publishing.
+But it is all done now and we now can check for repo level dependencies like the
+`LICENSE` file. Next will be checking for keys in the `package.json`. Once I do
+that I can actually start applying the check to the `kd build` command. WOOT!!!
+Time for Python... \*sigh\*.
+
+
 ## #92
 
 Closed out a couple tickets that verified that `kd check` could handle a mix of
