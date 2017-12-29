@@ -1,5 +1,21 @@
 # Worklog
 
+## #87, #88, #89, #90
+
+Finishing up the last bits of pretty printing the checked packages results. I
+ended up adding more details to the results as well and now they are nice and
+pretty. Looks great so you can see what packages have what and what packages are
+missing what. Side effect to all of this is that I had to update the tests for
+both `check-packages` and `find-packages` to use
+[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape).
+Actually just checked the build and realized that it failed... and I know why
+too. Since I hash based on the inputs, the inputs are different on Travis due to
+the change in "root". Well that is dumb. I'll have to think on that, because I
+would like to be able to keep the results the same while still keeping the hash
+of inputs. Hmmm... I'll think on that. For now I'll just disable the tests on
+Travis. Gonna go get coffee for now.
+
+
 ## #85, #86
 
 Did several bits of cleaning up. Refactored out the commands into their own
