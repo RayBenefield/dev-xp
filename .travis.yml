@@ -9,7 +9,7 @@ before_install: git fetch --depth=10000
 install:
     - yarn
 script:
-    - yarn run test
+    - yarn run test:ci
     - yarn run lint
     - yarn run lint:commits
     - yarn run inspect

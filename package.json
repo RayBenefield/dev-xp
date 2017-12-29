@@ -47,6 +47,8 @@
         "lint:tests": "eslint src/node_modules/{**,**/**}/tests.js --config ./dx/eslint.test.config.js",
         "?test": "echo Run all of the tests in our test suite",
         "test": "npm-run-all test:tape test:kape test:executor test:check-packages test:find-packages",
+        "?test:ci": "echo Run tests that can safely run on CI (until Kape is fixed)",
+        "test:ci": "npm-run-all test:tape test:kape test:executor",
         "?test:tape": "echo Run tests using babel/tape/tape-bdd/blue-tape, with tap-spec output.",
         "test:tape": "cd src/node_modules && babel-tape-runner {**,**/**}/tests.js | tap-spec",
         "?test:kape": "echo Run tests using and for Kape.",
