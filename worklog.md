@@ -1,5 +1,13 @@
 # Worklog
 
+## #91
+
+So rather than go to coffee, I had an epiphany on how to fix the damn tests in
+CI. I just needed to change the working directory in the test to the test
+directory so that way I could set `root` to a static value of `.`. Which worked
+perfectly. So now I can go get coffee and breakfast. :)
+
+
 ## #87, #88, #89, #90
 
 Finishing up the last bits of pretty printing the checked packages results. I
