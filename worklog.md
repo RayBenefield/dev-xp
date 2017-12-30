@@ -1,5 +1,16 @@
 # Worklog
 
+## #97
+
+This is the moment of truth... I think I have removed the `prebuild` step
+completely so now we generate a full `package.json`, copy the `readme.md`, and
+the repo `LICENSE` to the destination directory. I had to hack together the
+versioning for now until I tackle that portion. But I think I can get publishing
+to work next chance I get... which is SUPER exciting!!! Hopefully things work.
+I'm going to merge this log entry and then merge to master and cross my fingers.
+This is a big step as it is now `0.0.50`.
+
+
 ## #96
 
 Back into the work. It is Saturday and I'm heading out with my future step son
