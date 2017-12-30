@@ -1,5 +1,22 @@
 # Worklog
 
+## #96
+
+Back into the work. It is Saturday and I'm heading out with my future step son
+to visit my son in Eugene. :) Before that though gotta get some coding done. I
+think I'm VERY close to being able to self publish. Ideally I get that self
+publishing working by January 2nd... it will means that I'll have a working MVP
+within just a month. WHICH IS AWESOME!!! This session I just added checks for
+the required keys for the base config that will be needed for publishing. Going
+to merge it in soon and hopefully get the `LICENSE`, `package.json`, and `dist/`
+handled in the build command now. So I can remove the `pre-build` stage in my
+`package.json`. Then we will be truly dog fooding the build.
+
+I think for self publishing I still need a versioning system and a deploy
+system. So hopefully we cna pull this off in the next few days. I probably won't
+be coding tomorrow, but hopefully I can get something going soon. :)
+
+
 ## #93, #94, #95
 
 Did a lot of refactoring in order to support root level checks for publishing.
