@@ -1,5 +1,18 @@
 # Worklog
 
+## #98
+
+So my session this morning definitely worked. I am fully building
+[**KI/KD**](https://github.com/RayBenefield/kikd) with itself. Which is awesome.
+So next thing is to start taking over the publishing/deploying portion of the
+system. I need to replace the shell script that I have right now. This means I
+need to handle the versioning system, the git system, and the final npm
+deployment system. So lots of stuff to do. I'm on the greyhound right now to
+Eugene. And I'm falling asleep. So I think I'll take a nap break. Not much I can
+do if I can't focus. A nap might be good for me. I forgot to drink coffee this
+morning sadly.
+
+
 ## #97
 
 This is the moment of truth... I think I have removed the `prebuild` step
