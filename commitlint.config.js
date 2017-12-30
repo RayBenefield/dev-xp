@@ -22,6 +22,7 @@ module.exports = {
                 'publish-check',
                 'searcher',
                 'executor',
+                'version',
                 // Developer Experience/Docs Scopes
                 'roadmap',
                 'worklog',
