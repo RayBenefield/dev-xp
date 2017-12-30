@@ -23,8 +23,6 @@
         "info": "npm-scripts-info",
         "?kd": "echo Run kikd with the current code.",
         "kd": "cd src/node_modules/ && babel-node ./kikd/cli.js",
-        "?prebuild": "echo Prepare the dist directory with a license, readme, and package.json.",
-        "prebuild": "yarn run clean && mkdir -p dist/kikd && cp LICENSE readme.md dist/kikd && cat package.json | jq 'del(.babel,.devDependencies,.scripts,.config)' --indent 4 > dist/kikd/package.json",
         "?build": "echo Dogfooding building kikd with rollup using itself.",
         "build": "yarn run kd build",
         "?precommit": "echo Run tests, ensure there is no duplicate code, and then check staged commits for linting and style.",
