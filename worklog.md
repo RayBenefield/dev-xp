@@ -1,5 +1,21 @@
 # Worklog
 
+## #99
+
+On the greyhound back from Eugene to Bend. Was a wonderful trip seeing my kid.
+Cried like crazy leaving him again. It isn't easy. So this session I setup the
+simple version recommendation system to recognize no version, or a pre-release
+version as `0.0.*`. I'll work on patch, minor, and major based on git commits
+later. For now, I'm going to work on the side effect system for
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli).
+I want to be able to "dry run" the version system and see the expected results
+thentack on a `--commit` flag to run the side effect. Should be useful for other
+things as well. I want
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+to push people to push out the side effects as far as possible to the outside of
+the system. If anything, I know it will help me. Gonna probably rest for a bit.
+
+
 ## #98
 
 So my session this morning definitely worked. I am fully building
