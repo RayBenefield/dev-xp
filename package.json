@@ -97,6 +97,7 @@
         "rollup-plugin-filesize": "^1.5.0",
         "rollup-plugin-node-resolve": "^3.0.0",
         "rollup-plugin-uglify": "^2.0.1",
+        "semver": "^5.4.1",
         "sha.js": "^2.4.9",
         "simple-git": "^1.85.0",
         "slugify": "^1.2.8",
