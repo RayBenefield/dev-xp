@@ -1,5 +1,12 @@
 # Worklog
 
+## #103
+
+Setup the template for the `kd version` command. Jumping into the side effect
+system now. Which means I might be able to replace the `npm version patch`
+command with `kd version --commit` when I'm done. We'll see how that works out.
+
+
 ## #100, #101, #102
 
 HAPPY NEW YEAR!!! Today I jump in deeper into the versioning system. I'm REALLY
