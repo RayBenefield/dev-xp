@@ -24,7 +24,7 @@
         "?kd": "echo Run kikd with the current code.",
         "kd": "cd src/node_modules/ && babel-node ./kikd/cli.js",
         "?build": "echo Dogfooding building kikd with rollup using itself.",
-        "build": "yarn run kd build",
+        "build": "yarn run kd build -- --commit",
         "?precommit": "echo Run tests, ensure there is no duplicate code, and then check staged commits for linting and style.",
         "precommit": "npm-run-all test inspect && lint-staged -c ./dx/lint-staged.config.js && yarn run sloc",
         "?commitmsg": "echo Verify the commit message matches our standards",
