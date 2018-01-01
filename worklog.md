@@ -1,5 +1,12 @@
 # Worklog
 
+## #104, #105
+
+Setup the side effect system which was a bit of a pain at first but it works
+now... you now require a `--commit` flag in order to commit a side effect for a
+command now. Otherwise it will just run the render function.
+
+
 ## #103
 
 Setup the template for the `kd version` command. Jumping into the side effect
