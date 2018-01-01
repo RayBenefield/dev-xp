@@ -1,5 +1,21 @@
 # Worklog
 
+## #100, #101, #102
+
+HAPPY NEW YEAR!!! Today I jump in deeper into the versioning system. I'm REALLY
+close. I did a bunch of cleaning up and refactoring for how
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+and commands should work as a pattern. Setup the `jsonRenderer` from
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+to accept a property to isolate, which is awesome. I also setup the base command
+of `kd version` which will now reveal the `old`, `new`, and `type` of patch. It
+will also filter out unpublishable packages and ones with a version... which
+will be addable in the future with a flag. Quick break before I work on the side
+effect system of
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli).
+Then sadly I need to do me some Python work. :(
+
+
 ## #99
 
 On the greyhound back from Eugene to Bend. Was a wonderful trip seeing my kid.
