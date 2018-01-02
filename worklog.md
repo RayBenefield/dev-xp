@@ -1,5 +1,22 @@
 # Worklog
 
+## #106, #107, #108
+
+YAY!!! Today is the one month anniversary of
+[**KI/KD**](https://github.com/RayBenefield/kikd) which is AWESOME!!! I've made
+a ton of progress. This morning I finished up the `kd version` command which is
+working splendidly. I'm excited to start working on the `kd publish/deploy`
+command portion. The git side effects weren't as bad as I expected at all. Very
+happy about that.
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+and
+[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
+have been a HUGE help to this process and I'm loving that. Very proud of my
+progress. This will be a very powerful tool moving forward and I should be able
+to start multi-deploying probably in a week. Which will be awesome. HUGE deal.
+Time to go do Python for the day.
+
+
 ## #104, #105
 
 Setup the side effect system which was a bit of a pain at first but it works
