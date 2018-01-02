@@ -1,5 +1,17 @@
 # Worklog
 
+## #109
+
+Oops... I didn't start Python since I triggered an endless loop of CI... lol.
+I'm glad I caught it. I had to add a `[skip ci]` line to the commit. But it
+works now and I'm satisfied. :) Now my CI properly uses `kd udpate/version`
+which is awesome. I love how much easier things are getting as I go forward.
+This is what real quality software engineering feels like. We get faster, not
+slower. I feel like I should add `kd log/work` to be able to manage my log
+entries better lol. Probably when I setup a markdown generation system for
+readmes. We shall see. Now it is time for Python.
+
+
 ## #106, #107, #108
 
 YAY!!! Today is the one month anniversary of
