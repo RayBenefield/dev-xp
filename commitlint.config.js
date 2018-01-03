@@ -19,6 +19,7 @@ module.exports = {
                 'find-packages',
                 'build-packages',
                 'check-package',
+                'publish',
                 'publish-check',
                 'searcher',
                 'executor',
