@@ -16,7 +16,7 @@ script:
     - yarn run build
     - yarn run kd version
 after_success:
-    - ./dx/update
+    - yarn run update
 before_deploy:
     - yarn run build
     - cd dist/kikd
@@ -30,7 +30,10 @@ deploy:
         branch: master
 env:
     global:
-        secure: 0WBB27gebHzTnaBpt2O60VZNg0rPtfAedIGnakRu9Vb+xMcowrjnaJfZxVShbkw6Tr7mgB7uKozOg7Sc1TBogp7LAtDLvqrfSuW8DThI3Gr+Cdf78oZLnOD+J1/R8SvBEuMAq44fHbRK6x3Mo9EVfdaCd0ZEcJZK6a3TEvE2UlW2zoh4xAbKk+Z1x4TRf1oHfmDJ+eLda6fi140YPDTN4ys7AfMS6Z4ns8wI24AkpznIwvTepXwCNzCx3YeaSeHYixUqF8zakdZAXBWs+a6sBKCPSSck/0iy5T/JQgWLp3F0HsjS9mNFo3Q1HKzJVX88tcL+fTuJZSFIoDA+rEql1v0jegTQ3yG6dKGksuJv4U22qGN3WaGXFr8imWW+D1wMwCRTr6l4R2RVdcMee/dMIsanv6cQ7iEJhp/6p/4kvtZU+dv+cDZtOdbNlAoQCEVyt2wDlW6iga14eMgSuDkePRuR7EeYX0yqvoFsDSxR1NO98m4VrA+yreJcA5tIdqlLgjKePBKKOx9sX+/WAdzyuvSQdcXnb0FFmT1mYS1JNp+F2n5O9SdlMevKk033t2rTyOQlaqclrEczo93YhvhUL2Y3Hma8SovSLpF8f85cbGna7Km6LjNvEXm9SbHg/jCq8lwJmkyAqgR1PDnbEB0VC88hXqA69XlO62an/3hTgA4=
+        - GH_USER=Raymond Benefield
+        - GH_EMAIL=raymond.benefield@gmail.com
+        - GH_REPO=RayBenefield/kikd
+        - secure: 0WBB27gebHzTnaBpt2O60VZNg0rPtfAedIGnakRu9Vb+xMcowrjnaJfZxVShbkw6Tr7mgB7uKozOg7Sc1TBogp7LAtDLvqrfSuW8DThI3Gr+Cdf78oZLnOD+J1/R8SvBEuMAq44fHbRK6x3Mo9EVfdaCd0ZEcJZK6a3TEvE2UlW2zoh4xAbKk+Z1x4TRf1oHfmDJ+eLda6fi140YPDTN4ys7AfMS6Z4ns8wI24AkpznIwvTepXwCNzCx3YeaSeHYixUqF8zakdZAXBWs+a6sBKCPSSck/0iy5T/JQgWLp3F0HsjS9mNFo3Q1HKzJVX88tcL+fTuJZSFIoDA+rEql1v0jegTQ3yG6dKGksuJv4U22qGN3WaGXFr8imWW+D1wMwCRTr6l4R2RVdcMee/dMIsanv6cQ7iEJhp/6p/4kvtZU+dv+cDZtOdbNlAoQCEVyt2wDlW6iga14eMgSuDkePRuR7EeYX0yqvoFsDSxR1NO98m4VrA+yreJcA5tIdqlLgjKePBKKOx9sX+/WAdzyuvSQdcXnb0FFmT1mYS1JNp+F2n5O9SdlMevKk033t2rTyOQlaqclrEczo93YhvhUL2Y3Hma8SovSLpF8f85cbGna7Km6LjNvEXm9SbHg/jCq8lwJmkyAqgR1PDnbEB0VC88hXqA69XlO62an/3hTgA4=
 notifications:
     slack:
         rooms:
