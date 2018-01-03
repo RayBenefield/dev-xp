@@ -1,5 +1,16 @@
 # Worklog
 
+## #110, #111, #112, #113, #114, #115, #116, #117
+
+Soooo I've been playing with travis like CRAZY!!! I got the git updates to work
+for versioning from Travis. But now I'm stuck on deploying to NPM and can't
+figure out why things won't work. I'm setting an auth token and it just isn't
+having it. So I'm going crazy right now in debug mode. I'll have to revisit this
+tomorrow. Hopefully I can figure it out. I HATE PUBLISHING!!! Grrr... we shall
+see how things go tomorrow. So frustrated right now. And sooo close to self
+publishing... this is the last damn part.
+
+
 ## #109
 
 Oops... I didn't start Python since I triggered an endless loop of CI... lol.
