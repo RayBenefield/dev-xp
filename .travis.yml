@@ -15,11 +15,9 @@ script:
     - yarn run inspect
     - yarn run build
     - yarn run kd version
-after_success:
-    - yarn run update
 before_deploy:
+    - yarn run update
     - yarn run build
-    - cd dist/kikd
 deploy:
     provider: script
     script: yarn run publish
