@@ -11,6 +11,7 @@ module.exports = {
                 // Relates to the whole package
                 'kikd',
                 // Parts of KI/KD
+                'git',
                 'cli',
                 'cli-style',
                 'kli',
