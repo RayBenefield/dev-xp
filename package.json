@@ -34,7 +34,7 @@
         "?pretty": "echo Clean up the style for all of the source code.",
         "pretty": "prettier src/node_modules/**/*.js --config prettier.config.js --with-node-modules --write",
         "?inspect": "echo Check for duplicate code through the packages.",
-        "inspect": "cd src/node_modules/ && jsinspect",
+        "inspect": "cd src/node_modules/ && jsinspect -c ../../dx/jsinspect.config.json",
         "?lint": "echo Lint both source code and tests",
         "lint": "npm-run-all lint:src lint:tests",
         "?lint:commits": "echo Lint commit messages (run in CI).",
