@@ -1,5 +1,26 @@
 # Worklog
 
+## #118, #119
+
+Throughout the day yesterday I did research on my problem. Turns out I'm not the
+problem. Apparently if you run an [**NPM**](https://www.npmjs.com/) script
+through [**Yarn**](https://yarnpkg.com/), [**Yarn**](https://yarnpkg.com/) ends
+up hijacking an important config variable called `npm_config_registry` which is
+used to determine what registry to publish to. So running `npm publish` will use
+that variable except it is trying to run it against the
+[**Yarn**](https://yarnpkg.com/) registry... despite `registry` being set in the
+`.npmrc`. Yeah that is annoying. So I am going to work on a fix for that. For
+now though I'm going to get some non-side effect command going for `kd version`
+so I have something to analyze things pretty-like.
+
+These sessions I just did some random refactorings like move `env` variable
+checking to the CLI script. I also decreased the threshold for [**JS
+Inspect**](https://www.npmjs.com/package/jsinspect) since I really want it to
+catch things like similarities between the commands in the system. So that was a
+bit of fun cleaning up as I also found a small other place where I duplicated
+code and just abstracted it into a new package.
+
+
 ## #110, #111, #112, #113, #114, #115, #116, #117
 
 Soooo I've been playing with travis like CRAZY!!! I got the git updates to work
