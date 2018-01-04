@@ -1,5 +1,14 @@
 # Worklog
 
+## #121
+
+Just setup a basic `kd publish` template for now. I think I'm going to add some
+new data to it, like an analysis of what NPM has for the version of each package
+as well as the version that is sitting in the `dist/` directory. Those would
+both be good. For now I have to switch to Python... side note we just started
+using Vue so it has more JS... yay! lol...
+
+
 ## #120
 
 WOOT!!! [**KI/KD**](https://github.com/RayBenefield/kikd) is now officially
