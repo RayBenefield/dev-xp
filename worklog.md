@@ -1,5 +1,23 @@
 # Worklog
 
+## #120
+
+WOOT!!! [**KI/KD**](https://github.com/RayBenefield/kikd) is now officially
+publishing itself. Now it is being very explicit in what it is publishing right
+now, but I'll fix that. With my next ticket to add some non-side effect stuff.
+Was a simple fix of just being explicit with the `--registry` flag for `npm
+publish`. Glad that fucking worked, cuz I can finally ease up a bit. And this is
+session #120 so that means I'm now 50 hours into this project. That's how long
+it took to get it to publish itself. So if I was working say 8 hours a day
+roughly with about 12 sessions a day. I could theoretically have built
+[**KI/KD**](https://github.com/RayBenefield/kikd) in 2 work weeks. But I'm
+working with it on the side including weekends so I'm a little over a month of
+time. But still... feeling awesome right now since I finally have this self
+publishing. Next is to focus on multi-package publishing. That's gonna take some
+fun work, especially the detecting what packages need to be independently
+versioned based on their changes as well as their dependencies. Should be fun.
+
+
 ## #118, #119
 
 Throughout the day yesterday I did research on my problem. Turns out I'm not the
