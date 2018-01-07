@@ -1,5 +1,21 @@
 # Worklog
 
+## #127
+
+Started exploring [**Commitlint**](http://marionebl.github.io/commitlint/#/)
+structuring for messages. And I think I've decided that a single commit message
+should be able to include multiple "commits". I should be able to have multiple
+headers/bodies if necessary. And honestly `feat` and `fix` could also include
+`breaking` as a type rather than `NOTES`. Cuz really each header includes a
+type... and a single commit could include multiple types. Like I could add tests
+and also add a fix and also have a breaking change in another scope. So I think
+the commit style needs to evolve a bit. But the
+[**Angular.js**](https://angularjs.org/) team has done a great job of leading
+the charge on commit standardization. Next session I'm going to dive deeper into
+the `conventional-changlog` commit parser to get a good sense of what they are
+doing to pull of their parsing.
+
+
 ## #126
 
 Lots more research into how `semantic-release` is handling things. So far I feel
