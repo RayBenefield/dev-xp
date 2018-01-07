@@ -1,5 +1,17 @@
 # Worklog
 
+## #123, #124
+
+Well now I am gathering the version from NPM as well as the version in the
+`dist` directory. That should be good enough. I don't do any error checking for
+the version already existing in NPM, but for now this should be good. I just
+want the information. I think the next thing I really have to start doing is
+analyzing the `git log` in order to determine what packages need to be updated
+based on the its last version. So that will be what should enable multi-package
+publishing. That will be the next fun trek that I should be tackling today after
+we return the rental car. Should be fun...
+
+
 ## #122
 
 Been a couple of days since I've done coding in general. I was sick and also
