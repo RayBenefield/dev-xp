@@ -1,5 +1,18 @@
 # Worklog
 
+## #122
+
+Been a couple of days since I've done coding in general. I was sick and also
+yesterday we returned my future stepson to his dad's. But I'm back in the game
+and excited to move forward. Lots to do still, but I really want to have
+[**KI/KD**](https://github.com/RayBenefield/kikd) multi-package publishing in
+the next couple of weeks. Right now I'm just trying to improve the publish
+command with more details about publishing. Right now I'm gathering details from
+[**NPM**](https://www.npmjs.com/) about what might already exist and I'll also
+grab info on the `dist/` directory and compare the two for the publish command's
+output. Should be fun. :)
+
+
 ## #121
 
 Just setup a basic `kd publish` template for now. I think I'm going to add some
