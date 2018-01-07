@@ -28,7 +28,7 @@
         "?precommit": "echo Run tests, ensure there is no duplicate code, and then check staged commits for linting and style.",
         "precommit": "npm-run-all test inspect && lint-staged -c ./dx/lint-staged.config.js && yarn run sloc",
         "?commitmsg": "echo Verify the commit message matches our standards",
-        "commitmsg": "commitlint -e $GIT_PARAMS",
+        "commitmsg": "commitlint --cwd ./dx -e $GIT_PARAMS",
         "?clean": "echo Just remove the dist directory.",
         "clean": "rimraf dist",
         "?pretty": "echo Clean up the style for all of the source code.",
