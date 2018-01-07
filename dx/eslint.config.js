@@ -2,6 +2,7 @@ module.exports = {
     extends: ['airbnb', 'prettier'],
     plugins: ['react', 'jsx-a11y', 'import', 'prettier'],
     rules: {
+        'arrow-parens': [2, 'as-needed', { requireForBlockBody: false }],
         'prettier/prettier': 1,
         'import/no-extraneous-dependencies': 0,
         'import/no-resolve': 0,
