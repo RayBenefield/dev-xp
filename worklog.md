@@ -1,5 +1,21 @@
 # Worklog
 
+## #125
+
+Doing some research on the best way to go about handling the recommended
+versioning system. Reading up on what `semantic-release` has done and what might
+be re-usable for this case. Also exploring how to handle dependency changes, and
+just researching in general. There is a lot of ways to go about this, but also
+handling auto-independent versioning on a large monorepo scale will be
+interesting. Especially since a dependency within the same repo changing won't
+always mean a `patch`, `minor`, or `major` update. Means I might have to either
+change how changes are reported in commits, OR have a prompting system. I'm
+thinking the best route would actually be to support multiple commit messages in
+a body of a commit and scopes for a `BREAKING_CHANGE`. This would allow for pure
+parsing of the commit and no prompting intervention. This probably means we need
+our own parser as well. Lots to do!!!
+
+
 ## #123, #124
 
 Well now I am gathering the version from NPM as well as the version in the
