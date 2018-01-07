@@ -1,5 +1,18 @@
 # Worklog
 
+## #126
+
+Lots more research into how `semantic-release` is handling things. So far I feel
+like I'm going to end up writing my own commit parser and I'm just going to have
+to deal. Gotta figure out how they approach grabbing all of the commits from a
+repo. Shouldn't be too bad for me since I'm using `simple-git`. I'm thinking if
+a dependency changes, assume a `patch` version unless a commit exists with the
+scope of the package that changes and details around that change. And for sure
+`BREAKING_CHANGE` is going to need to include scope so we know exactly what
+packages need to update to a `major` version. So fun... :\ lol. Probably one or
+two more sessions of research before I really start getting into things.
+
+
 ## #125
 
 Doing some research on the best way to go about handling the recommended
