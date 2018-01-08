@@ -1,5 +1,21 @@
 # Worklog
 
+## #128
+
+So delved deeper into what the [**Conventional
+Changelog**](https://github.com/conventional-changelog/conventional-changelog)
+parser is really doing. It is overly complicated for my needs and since things
+are sooo opinionated in [**KI/KD**](https://github.com/RayBenefield/kikd) I'm
+just going to write my own parser with my own concepts. Mainly because the code
+will be SOOO much simpler to understand. No reason to overcomplicate things. So
+next session I'm just going to jump into commit parsing. I think I may even get
+rid of [**Commitlint**](http://marionebl.github.io/commitlint/#/) because I'm
+going to go super opinionated on this and don't want to bloat the setup and I
+want to keep things as clean as possible and under this repo's control. Makes it
+easier for me to stay agile as less exploration into other repos. Especially
+since I have the skillset to build out most tools that I would need myself.
+
+
 ## #127
 
 Started exploring [**Commitlint**](http://marionebl.github.io/commitlint/#/)
