@@ -1,5 +1,19 @@
 # Worklog
 
+## #129, #130
+
+So I started on my own commit parser and it seems to be fairly solid. I need to
+start working on the system that will parse a multi-line commit which will be
+the sort of fun part. And by fun I mean not really. We shall see how that goes
+really. I think what I have is almost suitable enough. The thing is if a line is
+not parseable by the regex then it won't have an effect on the versioning. And
+that should really be enough. So I should just need to split the commit message
+by line and then run each of them through the regex. It is possible that I may
+need to also reference the source commit since a commit could have multiples.
+This way when generating a changelog I can properly link to the given commit.
+I'll think on that. But I'm close to having something I can work with at least.
+
+
 ## #128
 
 So delved deeper into what the [**Conventional
