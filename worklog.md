@@ -1,5 +1,15 @@
 # Worklog
 
+## #134
+
+Decided to just pickup a simple task. So I finally swapped in
+`rollup-plugin-node-builtins` instead of manually defining `fs`, `path`, etc. It
+didn't work originally for me when I had a manual build process with
+[**Rollup**](https://rollupjs.org/), but now that
+[**KI/KD**](https://github.com/RayBenefield/kikd) builds itself it actually
+works fine which is nice.
+
+
 ## #131, #132, #133
 
 Added some complexity to my `commit-parser`. It handles multi-line commits now
