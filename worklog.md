@@ -1,5 +1,19 @@
 # Worklog
 
+## #131, #132, #133
+
+Added some complexity to my `commit-parser`. It handles multi-line commits now
+as well as a mix of bodies and headers and properly preserves line breaks within
+a body as well as trims bodies, and other things. It fairly cleanly gets all the
+results that I want. :) And I'm happy about that. Should serve me well moving
+forward as I determine version bumps. And I feel this algorithm and style will
+suite more situations better. I'll probably introduce more information to
+commits in the future like tying the original commit hash to it, parsing out
+affected issues, and other unique attributes. This will probably be needed when
+I start looking into changelog generation. But I'll tackle that in the future
+when needed. I think I can start tackling recommended versions now.
+
+
 ## #129, #130
 
 So I started on my own commit parser and it seems to be fairly solid. I need to
