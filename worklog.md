@@ -1,5 +1,13 @@
 # Worklog
 
+## #137, #138
+
+So I modified the `commit-parser` to handle adding the commit hash to the
+change. And then using that I streamed the `git log` results into the parser to
+get a full set of `changes` that can be used by the versioning system to
+determine what the next version should be.
+
+
 ## #135, #136
 
 Started exploring what it is going to take to gather all commits from `git`.
