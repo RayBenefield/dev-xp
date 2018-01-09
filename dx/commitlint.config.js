@@ -26,6 +26,7 @@ module.exports = {
                 'executor',
                 'version',
                 'commit-parser',
+                'change-gatherer',
                 // Developer Experience/Docs Scopes
                 'roadmap',
                 'worklog',
