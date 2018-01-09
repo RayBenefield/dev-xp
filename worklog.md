@@ -1,5 +1,17 @@
 # Worklog
 
+## #135, #136
+
+Started exploring what it is going to take to gather all commits from `git`.
+Well I started with exploring streams and how [**Conventional
+Changelog**](https://github.com/conventional-changelog/conventional-changelog)
+handles it. They setup a stream and pass everything through that. Which is
+definitely going to be far more memory efficient. Right now, I'm not looking for
+memory efficiency, so I'm going to shortcut with [**Simple
+Git**](https://www.npmjs.com/package/simple-git) for now and I'll create an
+issue to make it more efficient with streams later.
+
+
 ## #134
 
 Decided to just pickup a simple task. So I finally swapped in
