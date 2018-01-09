@@ -59,6 +59,8 @@
         "test:recommend-version": "cd src/node_modules/ && babel-node @kikd/recommend-version/snapshot-tests.js",
         "?test:commit-parser": "echo Run tests for KIKD Commit Parser using Kape.",
         "test:commit-parser": "cd src/node_modules/ && babel-node @kikd/commit-parser/snapshot-tests.js",
+        "?test:change-gatherer": "echo Run tests for KIKD Change Gatherer using Kape.",
+        "test:change-gatherer": "cd src/node_modules/ && babel-node @kikd/change-gatherer/snapshot-tests.js",
         "?sloc": "echo Print the number of lines of source code we have.",
         "sloc": "echo 'Lines of source code: ' && sloc src/node_modules/ --exclude .*test.*",
         "?update": "echo Update version number of packages.",
