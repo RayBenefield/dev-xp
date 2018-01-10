@@ -1,5 +1,17 @@
 # Worklog
 
+## #139, #140, #141, #142
+
+Spent the morning writing a dependency tree calculator for this style of repo.
+It currently accepts a single package to detect its dependencies and crawls
+anything local to it. I'm probably going to need to flatten those dependencies
+into an array for each package so that I can do an `includes` to determine
+whether or not a package depended on a change made. I also still have to include
+the files that are being changed in each commit as well so I can determine what
+actually changed. Lots to still do to get versioning working properly, but every
+day is another step.
+
+
 ## #137, #138
 
 So I modified the `commit-parser` to handle adding the commit hash to the
