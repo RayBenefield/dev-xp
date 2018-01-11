@@ -1,5 +1,26 @@
 # Worklog
 
+## #143, #144, #145, #146
+
+I did a very, very happy thing. I removed the need for a `package.json` for a
+new package now. All you need now is an `index.js`. This is HUGE... makes it
+sooo much easier to abstract out functionality into its own package. Because of
+the [**Alle**](https://github.com/boennemann/alle) repo structure we can assume
+the package name will be exactly what the directory structure is and we can
+infer it. This means less setup work and I may not even need a `kd new`
+command... but I still might want one since I'll probably want tests to be
+automatically setup as well as the `index.js`. I'm very happy with the results
+of what was just changed. Also happened to refactor out the `post-build` portion
+of the `build-packages` piece. Which was super easy without needing a
+`package.json`. So I removed every `package.json` and the `name` field from
+the `kikd` cli package portion. Super happy about the results. Seriously, really
+reduced the amount of stuff in the repo. And to think I was going to jump into
+createing a dependency list first... lol. That will be left to tomorrow. I have
+a lot of issues piling up as I keep coming up with new ideas and things that
+need to be done. Hopefully I can speed through a good portion of the list this
+weekend.
+
+
 ## #139, #140, #141, #142
 
 Spent the morning writing a dependency tree calculator for this style of repo.
