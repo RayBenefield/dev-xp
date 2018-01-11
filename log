@@ -8,7 +8,7 @@ vim worklog.md
 SESSION=$(<.session)
 ((++SESSION))
 echo ${SESSION} > .session
-git commit -am "docs(worklog): Log work for session ${SESSION}." -m "[skip ci]"
+git commit -am "docs(worklog): Log work for session ${SESSION}." -m "[skip ci]" --no-verify
 git push
 git checkout ${BRANCH}
 git rebase master
