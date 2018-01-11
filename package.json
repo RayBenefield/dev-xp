@@ -83,6 +83,7 @@
         "detective-es6": "^1.2.0",
         "es6-promisify": "^5.0.0",
         "execa": "^0.8.0",
+        "file-exists": "^5.0.1",
         "find-up": "^2.1.0",
         "glob": "^7.1.2",
         "jest-diff": "^22.0.3",
