@@ -19,6 +19,7 @@ module.exports = {
                 'kape',
                 'find-packages',
                 'build-packages',
+                'post-build',
                 'check-package',
                 'publish',
                 'publish-check',
