@@ -72,7 +72,7 @@
         "?publish": "echo Publish packages to NPM.",
         "publish": "yarn kd publish --commit",
         "?watch": "echo Run tests, linting, and line counting every time a file changes.",
-        "watch": "nodemon --watch ./src/node_modules --exec npm-run-all test lint sloc",
+        "watch": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules --exec npm-run-all test lint sloc",
         "?postrewrite": "echo Update what commits git tags are pointing to after an amend/rebase.",
         "postrewrite": "./dx/rewrite-tags"
     },
