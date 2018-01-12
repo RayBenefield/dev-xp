@@ -35,7 +35,7 @@ called **DEX**. This methodology revolves around doing 25 minute work sessions
 Technique**](https://lifehacker.com/productivity-101-a-primer-to-the-pomodoro-technique-1598992730))
 and then logging what was done in that session with a work log entry.
 
-**You can find all of the work log entries here:** [`./worklog.md`](./worklog.md)
+**You can find all of the work log entries here:** [`./docs/worklog.md`](./docs/worklog.md)
 
 ---
 
