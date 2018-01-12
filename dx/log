@@ -5,9 +5,9 @@ git checkout master
 git fetch --all --tags --prune
 git pull --rebase --tags
 vim worklog.md
-SESSION=$(<.session)
+SESSION=$(<./dx/.session)
 ((++SESSION))
-echo ${SESSION} > .session
+echo ${SESSION} > ./dx/.session
 git commit -am "docs(worklog): Log work for session ${SESSION}." -m "[skip ci]" --no-verify
 git push
 git checkout ${BRANCH}
