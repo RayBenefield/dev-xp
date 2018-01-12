@@ -1,5 +1,14 @@
 # Worklog
 
+## #149
+
+I spent this session just doing a bunch of random refactoring... in particular
+reducing the number of files at the root of the project to have the logo show up
+higher which is better from a DX perspective as it will allow the logo to grab
+attention without scrolling. Still more files to move, but it was helpful to get
+through a lot of these.
+
+
 ## #147, #148
 
 Spent the first sessions of the morning on taking a list of packages and a root
