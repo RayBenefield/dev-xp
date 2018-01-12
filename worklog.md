@@ -1,5 +1,15 @@
 # Worklog
 
+## #147, #148
+
+Spent the first sessions of the morning on taking a list of packages and a root
+and then calculating the dependency list using the `dependency-detective` I made
+yesterday. And it was a fun little play of reducing a bunch of stuff, but came
+out well. Now I have a unique list of dependencies to use for stuff. Next to
+enhance the package info with those deps and then to work on adding the files
+changed from commits to that info.
+
+
 ## #143, #144, #145, #146
 
 I did a very, very happy thing. I removed the need for a `package.json` for a
