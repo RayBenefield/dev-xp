@@ -42,7 +42,7 @@
 
 
 ## Your Environment
-<!---  -->
+<!--- More details on your environment helps make this process easier.       -->
 
 | Executable | Version |
 | ---: | :--- |
