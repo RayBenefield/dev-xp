@@ -1,5 +1,32 @@
 # Worklog
 
+## #152
+
+Wow that was super easy to create a `kd deps` command. I had to put in a bug fix
+to tack on `src/node_modules` for the `dependency-list` portion, but it worked
+fine after that. Started with the `jsonRenderer` on
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+which worked super nicely since I could just pass in a `scope` of what to
+`isolate`. Then I was able to add a template right after that and that was super
+quick too. What a great little experience adding a new command. Very happy with
+that. I fixed a bug, created the
+[**Transmutation**](https://github.com/RayBenefield/transmutation) for the deps
+command, then rendered it with
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+in json, and then created the template... all in a 25 minute session. I'm
+satisfied. :) Next to collect the files that change with given commits for the
+commit gatherer... actually I should create a command for that. Hmmm... time to
+look into passing flags to commands? Probably that time soon. I'll think on
+what's next over the break.
+
+OH SIDE NEWS!!! I'm sole architect/lead dev with my client for the current
+project I'm on. But now we are no longer doing Django/Python... I will now be
+working in Serverless/Vue.js... I'M SOOO STOKED!!! Finally being paid to do
+something I really want to do. Looking forward to really learning Vue and
+applying serverless on a production level system. Bout time!!! WOOT!!! Paid work
+is now going to be less sad. :)
+
+
 ## #150, #151
 
 Spent some time on an Issue Template for [**Github**](https://github.com/). I
