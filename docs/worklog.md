@@ -1,5 +1,15 @@
 # Worklog
 
+## #154, #155
+
+Just finished breakfast and jumped right into the documentation for how
+versioning will work. It is a tad complicated, but it is getting done. I also
+spent some time figuring out a cool idea that would really help
+[**KI/KD**](https://github.com/RayBenefield/kikd)'s goal of improving
+development agility. For now it is time to go on errand runs for the day with
+Jess. :)
+
+
 ## #153
 
 So I spent some time figuring out exactly how changes need to work for this
