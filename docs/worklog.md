@@ -1,5 +1,19 @@
 # Worklog
 
+## #150, #151
+
+Spent some time on an Issue Template for [**Github**](https://github.com/). I
+made sure to include an important note about **[pro bono]** work. Basically if
+you are not a contributor or a donator, then your issues will be labeled as
+**[pro bono]** and closed after 2 weeks of inactivity with an **[unfinished]**
+label. Why? Because the work that open source devs do for the community is
+amazing and of their own choice and time. It is pretty much **[pro bono]** work
+if it is for someone who does not have skin in the game. While these issues are
+still important, the collaborators need to prioritize other work for development
+agility sake. It will be better for the community as a whole if they do this.
+Time to work on the `kd deps` command. ;)
+
+
 ## #149
 
 I spent this session just doing a bunch of random refactoring... in particular
