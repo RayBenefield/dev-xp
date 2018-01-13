@@ -1,5 +1,23 @@
 # Worklog
 
+## #153
+
+So I spent some time figuring out exactly how changes need to work for this
+system. Like independent versioining is not a super simple thing. My initial
+thoughts are that I'm going to `git tag` EVERY PR merge as an auto-incrementing
+number prefixed with a hashtag `#`, why? Because any tag starting with `#` is
+ordered at the top of the tag list when you do a search. The
+[**Github**](https://github.com/) tags are sorted in reverse. So `#` will go
+before everything and any package you actually care about will be searchable
+with its package name. And even if a package is scope with `@` tags are not just
+prefix searched, which means you should be able to find things easily. But
+opening the initial drop down will show the tag tied to the latest PR merge.
+Perhaps it will be something like `#1 (PR #123)` that might be a thing. I have
+to test if it is a viable tag. If it is, then SWEET!!! If not then I'll figure
+out some other scheme. Going to try to start a document on how auto versioning
+will work in this system.
+
+
 ## #152
 
 Wow that was super easy to create a `kd deps` command. I had to put in a bug fix
