@@ -67,6 +67,8 @@
         "test:dependency-list": "cd src/node_modules/ && babel-node @kikd/dependency-list/snapshot-tests.js",
         "?test:parse-tags": "echo Run tests for KIKD tag parser using Kape.",
         "test:parse-tags": "cd src/node_modules/ && babel-node @kikd/parse-tags/snapshot-tests.js",
+        "?test:latest-release-tag": "echo Run tests for KIKD latest release tag using Kape.",
+        "test:latest-release-tag": "cd src/node_modules/ && babel-node @kikd/latest-release-tag/snapshot-tests.js",
         "?sloc": "echo Print the number of lines of source code we have.",
         "sloc": "echo 'Lines of source code: ' && sloc src/node_modules/ --exclude .*test.*",
         "?update": "echo Update version number of packages.",
