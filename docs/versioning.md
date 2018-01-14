@@ -128,8 +128,13 @@ The rules for how a package will be versioned are as follows:
  - Packages with a `version` set to `0.0.0` will increase their `patch` version
    as their initial public release and become `0.0.1` no matter what other
 changes exist
+ - Packages with a `version` set to `0.1.0` will not increase their version if
+   `v0.1.0` has not been released yet. This will happen the first time a package
+is changed from a "development" version of `0.0.*` to `0.1.0`. Otherwise it will
+follow the rest of the rules.
  - ***Changes*** in the PR that are parsed from all commits are used to
-   determine the rest of the rules
+   determine the rest of the rules... any ***Changes*** that are **scoped** as
+`*` will affect the versions of ***ALL*** packages:
      - Any ***Changes*** of **type** `breaking` will change the `major` version
        of every package designated by **scope**
      - Any remaining ***Changes*** of **type** `feat` will change the `minor`
@@ -148,3 +153,64 @@ It is important to realize when writing commit messages to document
 or may gain additional features from a `feat` ***Change***. These affected
 packages should be included in the **scope** of said change, or they should get
 their own ***Change*** entry in the commit message.
+
+
+## Tagging
+
+In addition to modifying the version of the package for publishing,
+[**KI/KD**](https://github.com/RayBenefield/kikd) will also manage the tags in
+`git`. Packages are tagged with their name and their version off of the
+versioning commit. For example, `@kikd/find-packages` at version `0.3.4` would
+be tagged as `@kikd/find-packages-v0.3.4`. [**Github**](https://github.com/)
+will allow tags to be searchable by any portion of the tag so a search for
+`package` will show that tag. In addition to tagging each package, every version
+commit will also be tagged with the iteration of changed merges along with the
+PR number. If 5 pull requests have been merged in previously and the next PR is
+#23, the next tag would be `#6(PR-23)`. The beginning hashtag is for
+[**Github**](https://github.com/)'s sorting system. They sort tags in reverse
+natural order meaning that all tags that start with a `#` will show up first in
+the list, making it easy to find the latest merged changes. Even scoped packages
+that start with `@` will be after the tags with `#`.
+
+When the ***Changes*** list is generated for the next PR, the most recent `#`
+tag will be used to determine what ***Changes*** were made after the latest
+releases. This will be applied for all previously published packages. However
+new packages that are just released will gather all ***Changes*** for that
+package's **scope** since the beginning of the repo in case any exist. This is
+because a package may not be released to NPM, but may have existed and "rolled
+up" into other packages, hence ***Changes*** may exist for them in the earliest
+commits.
+
+
+## Automation
+
+The above rules allow for certain level of automation in the future. Because
+***Changes*** are nearly directly tied to the files changed and in an
+[**Alle**](https://github.com/boennemann/alle) style repo the directories of
+those files can speak exactly to the package being modified, we can
+automatically assume what **scopes** are needed for that commit. A commit
+template can be provided based on those file changes that include pre-filled
+**scopes**. The developer is then only responsible for re-ordering the
+**headers** and filling in the **subject**, **type**, and **body** if necessary.
+
+In addition tooling can be provided to validate the length of commit
+**headers**. This is pseudo done in the
+[**Commitizen**](https://github.com/commitizen/) repo has setup with
+[**Conventional Commits**](https://conventionalcommits.org/), however it
+involves a lot of prompts. The useful portion is the countdown to remaining
+characters. However a list of selections for **type** would have been super
+helpful.
+
+Because we are able to detect the ***Changes*** we can automate the expected new
+changelog/versions back to the PR from CI. This helps inform the maintainers
+without having to dive too deeply and manually try to figure out the next set of
+versions.
+
+
+## Release Commit
+
+Upon a PR merge, all packages will be versioned accordingly with their
+`package.json`'s updated. Any generated changelogs will be created. All git tags
+will be created (one for each package updated as well as the ***Change***
+iteration tag). And a new commit will be created on CI and then pushed to the
+main repo with a `[skip ci]` line to avoid an endless build loop.
