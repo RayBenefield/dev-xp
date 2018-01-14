@@ -1,5 +1,14 @@
 # Worklog
 
+## #156
+
+Added final details on the versioning system. I think I have thought through
+enough of the system to really start working on the algorithm now. The last
+piece to work on outside of the actual version system is to add the changed
+files to the fetched commits and then add the files and affected scopes to be
+used in the versioning system.
+
+
 ## #154, #155
 
 Just finished breakfast and jumped right into the documentation for how
