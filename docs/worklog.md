@@ -1,5 +1,13 @@
 # Worklog
 
+## #160
+
+Setup a template for the `kd changes` command. I kept it simple for now and I
+can edit it later. I think I'm going to put some focus on setting up a `--json`
+flag so I can work with some of the raw data that is going to come out of the
+`kd version` command. Gotta get prepared for the big guns.
+
+
 ## #159
 
 Finished up the last needed portions of the `kd changes` command. Went fairly
