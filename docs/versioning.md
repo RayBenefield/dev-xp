@@ -128,6 +128,9 @@ The rules for how a package will be versioned are as follows:
  - Packages with a `version` set to `0.0.0` will increase their `patch` version
    as their initial public release and become `0.0.1` no matter what other
 changes exist
+ - Packages with a `version` less than `0.1.0` will increase their `patch`
+   version if they or any of their dependencies are updated due to being still
+in "development"
  - Packages with a `version` set to `0.1.0` will not increase their version if
    `v0.1.0` has not been released yet. This will happen the first time a package
 is changed from a "development" version of `0.0.*` to `0.1.0`. Otherwise it will
