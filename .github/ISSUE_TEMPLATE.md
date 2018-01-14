@@ -23,6 +23,10 @@
 <!---  Change or Improvement? How does this relate to current behavior?      -->
 
 
+## Context
+<!--- What awesome feats were in the works when brilliance/disaster struck?  -->
+
+
 ## Possible Solution
 <!---  Any suggestions for a possible solution? If not, no worries. :)       -->
 
@@ -35,10 +39,6 @@
 2.
 3.
 4.
-
-
-## Context
-<!--- What awesome feats were in the works when brilliance/disaster struck?  -->
 
 
 ## Your Environment
