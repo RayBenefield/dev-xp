@@ -1,5 +1,21 @@
 # Worklog
 
+## #159
+
+Finished up the last needed portions of the `kd changes` command. Went fairly
+well. Now I need to replace the JSON output with a template. I'm going to have a
+pseudo working changelog thingy... super nice. The `latest-release-tag` portion
+really wasn't bad at all. Went super smoothly. Really loving how fast it is to
+build new commands, new tests, templates for commands, etc. Lots of wonderful
+setup in the project that really lets me get faster and faster. And I'm still
+missing a lot of automation like auto generating a `tests` file, not having a
+test runner for `kape`, and lots of little details that could make me go a lot
+faster... but I'm good for now. Gotta really get to this multi-package
+publishing system. Once that is done, then I can really start diving down, cuz
+that is the real *Minimum Viable Product* [**MVP**] here. Gonna go have some
+breakfast now. :)
+
+
 ## #157, #158
 
 I'm getting SOOO close to the core of the versioning system. Right now I'm
