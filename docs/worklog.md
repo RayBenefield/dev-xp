@@ -1,5 +1,15 @@
 # Worklog
 
+## #157, #158
+
+I'm getting SOOO close to the core of the versioning system. Right now I'm
+gather tags and parsing them for the repo. Then I'm going to use the latest
+***Changes*** tag in the form of `#<changeNumber>(PR-<prNumber>)` as the tag
+that needs to be used as a marker. Hopefully it works well enough for the
+situation. I've set a temporary tag in the repo at the branching off point from
+`master` so we'll see if things go well.
+
+
 ## #156
 
 Added final details on the versioning system. I think I have thought through
