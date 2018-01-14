@@ -1,5 +1,16 @@
 # Worklog
 
+## #162
+
+And the big stuff is happening now. I'm currently adjusting and refactoring the
+`recommend-version` system to start doing the heavy logic. I've made sure
+`changes` will make it into the algorithm as well as all `packages` and I still
+need to work in `dependencies` actually. I've added comments to the file also to
+correlate each portion with the versioning algorithm. Gonna go walk to the
+convenient store and fetch some gum... need some minty fresh breath. lol... yeah
+I'm weird.
+
+
 ## #161
 
 Built a new feature for
