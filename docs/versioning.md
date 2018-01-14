@@ -143,6 +143,9 @@ getting a `major` version update
      - Any final ***Changes*** of **type** `fix` will change the `patch` version
        of every package designated by **scope** that is not already getting a
 `major` or `minor` version update
+     - Any ***Changes*** of any other **type** will also trigger a `patch`
+       version... this is to ensure the latest ***Changes*** are added to
+[**NPM**](https://www.npmjs.com/)
  - Any package that depends on a another package that is getting a `patch`,
    `minor`, or `major` version update and is not affected by the ***Changes***
 will get a `patch` update to reflect new code being included in the final
