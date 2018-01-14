@@ -1,5 +1,17 @@
 # Worklog
 
+## #161
+
+Built a new feature for
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+that allows me to specify a `--json` flag and what fields I want to display to
+pretty print json instead. Should be super helpful in general, but will be used
+as I work on the `recommend-version` system. I still need to populate commits
+with the files that are changed in that commit. But I may not actually need that
+right now since I can probably just use the change list as long as the scopes
+are right.
+
+
 ## #160
 
 Setup a template for the `kd changes` command. I kept it simple for now and I
