@@ -27,6 +27,7 @@ module.exports = {
                 'executor',
                 'version',
                 'commit-parser',
+                'command-changes',
                 'change-gatherer',
                 'dependency-detective',
                 'dependency-list',
