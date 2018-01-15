@@ -18,6 +18,9 @@
     "bin": {
         "kd": "cli.js"
     },
+    "engines": {
+        "node": ">=8.9.4"
+    },
     "scripts": {
         "?info": "echo Display information about the scripts.",
         "info": "npm-scripts-info",
