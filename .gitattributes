@@ -1,9 +1,0 @@
-src/node_modules/* linguist-vendored=false
-
-dx/* linguist-vendored=true
-
-log linguist-vendored=true
-.eslintrc.js linguist-vendored=true
-*.config.js linguist-vendored=true
-
-.babelrc linguist-vendored=true
