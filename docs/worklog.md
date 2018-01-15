@@ -1,5 +1,24 @@
 # Worklog
 
+## #163, #164, #165, #166
+
+Put in a ton of work to get versioning working at least for packages in
+"development" before version `0.1.0`. I'm satisfied with what is happening right
+now. I think the next thing I need to do is add the "release" tags to the
+version system. Once that is added then the system should be smart enough to
+avoid pushing a version if nothing that
+[**KI/KD**](https://github.com/RayBenefield/kikd) depends on is updated. This is
+relevant for new packages that are being built as units before being integrated.
+As well for documents that don't show up in the `readme` for the package. Lots
+more things to consider, but this really was the big piece for me. The rest is a
+lot of clean up and supporting systems. And then I'll probably work on the `kd
+prerelease` portion to test adding a new package on `kli`. Which also means I
+need to update the build system to handle more than just `bin` files now as
+well... still lots of little things to do. But maybe I can get the
+multi-publishing working by the end of the week before I see my son this coming
+weekend. :)
+
+
 ## #162
 
 And the big stuff is happening now. I'm currently adjusting and refactoring the
