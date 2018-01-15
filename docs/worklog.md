@@ -1,5 +1,27 @@
 # Worklog
 
+## #167, #168, #169, #170
+
+Spent a lot of time just doing random tasks. Cleaned up the root directory
+again. Removed a bunch of stuff I depended on for my vim setup. So now they are
+removed, also made prettier settings explicit in the `eslint.config.js` file. I
+also just realized that I can just require it since it is a `js` file. Hmmm...
+anyway, I'll add a small ticket for that. Also setup a gpg key to sign commits
+and then realized that rebasing onto master is unverified. lol... also added
+[**Snyk**](https://snyk.io/) for vulnerability checking. Removed several [**ES
+Lint**](https://eslint.org/) warnings for `console.log`s in side effects. Played
+with moving the `LICENSE` file around again as well. Updated the `package.json`
+to the latest Node LTS version `8.9.4` and removed `.nvmrc` since they plan on
+loading from the `package.json`. And created a few tickets for cleaning up like
+removing `npm-utils` as a dependency. Just a bunch of random. I needed a slow
+day as I woke up not feeling so well. I should be able to get back to things
+tomorrow though. Gotta get multi-publishing working by the end of the week
+hopefully. Going to first try to publish
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+and then publish
+[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape).
+
+
 ## #163, #164, #165, #166
 
 Put in a ton of work to get versioning working at least for packages in
