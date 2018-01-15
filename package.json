@@ -98,6 +98,7 @@
         "lodash.every": "^4.6.0",
         "lodash.filter": "^4.6.0",
         "lodash.has": "^4.5.2",
+        "lodash.intersection": "^4.4.0",
         "lodash.map": "^4.6.0",
         "lodash.partial": "^4.2.1",
         "lodash.pick": "^4.4.0",
