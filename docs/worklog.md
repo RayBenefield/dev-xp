@@ -1,5 +1,14 @@
 # Worklog
 
+## #175
+
+Spent some time cleaning up the issues and clarifying somethings and
+re-evaluating. I'm still just stoked that I got everything working right now. I
+need to setup a milestone now that completes the multiple package publishing
+portion which will require a couple of changes first. Gotta go get some paid
+work done now.
+
+
 ## #171, #172, #173, #174
 
 ***I FUCKING DID IT!!!!!*** [**KI/KD**](https://github.com/RayBenefield/kikd) is
