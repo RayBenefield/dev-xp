@@ -1,5 +1,50 @@
 # Worklog
 
+## #171, #172, #173, #174
+
+***I FUCKING DID IT!!!!!*** [**KI/KD**](https://github.com/RayBenefield/kikd) is
+now officially publishing multiple packages. :) SOOO HAPPY!!! This session I
+pushed to finish the building of non-bin based packages (like
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)).
+Little did I realize, because of the rest of the work that I've been doing with
+`kd version`, `kd publish`, and `kd checks`, etc... as soon as I finished that
+portion, it just cascaded down into working. :) YAY SOLID SOFTWARE
+ENGINEERING!!! FUCK ALL THE PEOPLE WHO SAID I WAS A PURIST AND SHIT I SAY IS
+UNREALISTIC!!! WOOT!!!! I'm actually tearing up, because this entire process was
+silky smooth. Everything accidentally fell into place and super quickly because
+of proper dependency injection, the concept I dubbed "data snowballing" that
+[**Transmutation**](https://github.com/RayBenefield/transmutation) is setup to
+handle, destructuring, functional purity, etc. This was a HUGE validation for
+me... this absolutely blew my mind. I was thinking that I wouldn't be finished
+with multi-publishin until at least Thursday because I thought I had more to do.
+But it just worked... like wow. I'm crazy emotional right now... I really needed
+this to work. I've had a lot of roller coaster rides of egos keeping me down
+over the past couple years. But this is my self validation. This shows me that I
+should have some confidence in myself. Keep learning, keep pushing, just keep
+going and don't give up.
+
+Just to be sure I imported
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+into a new project to test that it worked. At first it didn't, but then realized
+it was because I have a bug when there is only one command (I bail out early and
+because I do it doesn't have any `--json` features). When I added a second one
+it just worked. :) I'm super stoked... now of course there are still a few
+details that are needed. Like release tags still need to be created to properly
+determine what packages need to be updated. But I did the pre-work for that, so
+it is just really a matter of updating the `kd version` command. Also I'm
+getting a better feel for how I should be setting up commit messages to speed
+myself up. So there is several bits of automation that I can put into place to
+validate commits and assist in writing commits. So much that I can still do to
+get faster... I'm super surprised how fast things are going right now. I'm
+getting faster and faster every day and I'm not even close to optimized with
+this process yet. [**KI/KD**](https://github.com/RayBenefield/kikd) will save
+SOOO much time in building quality projects. I can't wait to start using it with
+[**Transmutation**](https://github.com/RayBenefield/transmutation) properly.
+Going to take some time to make a bunch of tickets after heading out to get some
+breakfast and coffee. Gotta start planning out my next few days to polish the
+publishing/versioning system.
+
+
 ## #167, #168, #169, #170
 
 Spent a lot of time just doing random tasks. Cleaned up the root directory
