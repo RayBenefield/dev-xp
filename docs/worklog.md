@@ -1,5 +1,17 @@
 # Worklog
 
+## #176, #177, #178, #179
+
+Spent a ton of time trying to figure out the best way to handle a release tag
+and ultimately realized that I can't grab the latest PR merged easily from
+[**Travis**](https://travis-ci.org/) so I decided to give up on that and just
+have release tags be a `#12` number instead of including the PR. I'll survive,
+but it looks like it is working now. The next thing I think I'd like to start
+doing is analyzing the `git log` and then doing a full rebase after I determine
+all of the changes that will be needed to start the repo from scratch. Should be
+fun. Time for some paid work though.
+
+
 ## #175
 
 Spent some time cleaning up the issues and clarifying somethings and
