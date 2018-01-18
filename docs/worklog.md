@@ -1,5 +1,20 @@
 # Worklog
 
+## #181, #182, #183
+
+Took some time getting familiar with how to setup an autocomplete prompt with
+[**Inquirer**](https://www.npmjs.com/package/inquirer). Took a lot of
+exploration. But ultimately I actually came up with an abstracted prompt for
+selecting any package by name and returning the whole package details which is
+awesome. So I am using it to allow someone to pick an unpublished package and
+then I'm going to grab the failing checks of the unpublished packages and help
+the person fill out the rest. Right now, it is just a missing `readme.md` that
+will be prompted for. And then there should be a side effect that adds a
+`version` to a `package.json` and then commits any collected filled in checks
+(like creating the `readme.md`). Should be fun. I think I have time for one more
+session for the morning.
+
+
 ## #180
 
 Last night I was caught by surprise... @marionebl had written a comment to one
