@@ -1,5 +1,19 @@
 # Worklog
 
+## #184
+
+Got a bit further, I created a "fixable" filter to grab all failing checks that
+I can fix by doing something... like prompting for a `readme` :). So I started
+to try to tie in [**Inquirer**](https://www.npmjs.com/package/inquirer)'s
+`editor` prompt to fill in the contents. And then all the sudden there was
+sadness and lameness and it was erroring out. So ***sigh***... I hope something
+gets fixed before I tackle this tomorrow. It looks like someone else ran into
+the issue as well: https://github.com/SBoudrias/Inquirer.js/issues/637. I don't
+have time to investigate... time to go do paid work on
+[**Vue.js**](https://vuejs.org/) and [**Serverless**](https://serverless.com/)
+:)!!!
+
+
 ## #181, #182, #183
 
 Took some time getting familiar with how to setup an autocomplete prompt with
