@@ -1,5 +1,25 @@
 # Worklog
 
+## #180
+
+Last night I was caught by surprise... @marionebl had written a comment to one
+of my issues on [**KI/KD**](https://github.com/RayBenefield/kikd). It caught me
+by surprise because I haven't announced this tool pretty much anywhere except to
+a few friends and on **Facebook**. lol... but he came in with a great suggestion
+on dynamically filling in the scopes for
+[**Commitlint**](http://marionebl.github.io/commitlint/#/) in the config file.
+Something I had considered previously as I was tired of editting the config file
+every time I started a new package. Ultimately though I decided against it
+especially after the experiences I've already run into with needing multiple
+changes in a single commit message and what not. I hope he doesn't take it
+personally. :) Just trying to get a handle on things on my own while I try to
+stabilize a single project in open source. Time to jump into some coding. I
+think today I'm tackling `kd prerelease` so I can make it easy to publish new
+packages quickly. I plan on targeting
+[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
+for my next publishing. So hopefully that goes well this morning.
+
+
 ## #176, #177, #178, #179
 
 Spent a ton of time trying to figure out the best way to handle a release tag
