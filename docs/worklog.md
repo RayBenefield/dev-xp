@@ -1,5 +1,16 @@
 # Worklog
 
+## #189, #190
+
+I'm on the bus to Eugene. Spent some random time refactoring some stuff with
+rollup to clean things up a tad. Still have more rollup stuff to handle. But the
+build should work again. I still need to figure out how to handle folder imports
+like `loud-rejection/register` and `simple-git/promise`. And I need to default
+to `exports: 'named'`, but otherwise I'm very close to having a clean build
+step. I also want to try to clean up the external dependencies to only what is
+actually needed for each package so they are actually accurate.
+
+
 ## #185, #186, #187, #188
 
 So instead of going with [**Inquirer**](https://www.npmjs.com/package/inquirer)
