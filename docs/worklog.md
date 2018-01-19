@@ -1,5 +1,21 @@
 # Worklog
 
+## #191
+
+Finally added a list of files to the `change-gatherer`. I think I'm going to
+split that up into a `commit-gatherer` and a `change-gatherer`. Really I need
+the commit change files for commit linting, not really for change parsing. I
+also fixed that bug I found in
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+that I had where having one command bailed out early and had it miss out on cool
+features like `--json`. Just a bunch of tiny clean ups. I'm hoping I'll be able
+to start working on a full `git log` analysis soon. Cuz I really want to rebase
+into something prettier with all of the proper tags and everything. Then I can
+work on the changelog system as well as potentially the `rewrite-tags` script in
+[**KI/KD**](https://github.com/RayBenefield/kikd). Lots of possibilities... just
+cleaning up.
+
+
 ## #189, #190
 
 I'm on the bus to Eugene. Spent some random time refactoring some stuff with
