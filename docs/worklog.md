@@ -1,5 +1,28 @@
 # Worklog
 
+## #185, #186, #187, #188
+
+So instead of going with [**Inquirer**](https://www.npmjs.com/package/inquirer)
+I just said screw it and went directly with its dependency [**External
+Editor**](https://www.npmjs.com/package/external-editor) instead. Took me a bit
+to get it right, but it works now. And I setup the command for `kd prerelease`
+and the template, and also did the side effects of needing a `package.json` and
+a `readme.md` file. Should be good to go now. I also published
+[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
+with the system. Which is AWESOME!!! Super easy to do, then noticed a dumb bug
+where
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+try to publish even though it wasn't versioned. So I'll patch the bug tomorrow
+maybe. But it works... the MVP of
+[**KI/KD**](https://github.com/RayBenefield/kikd) just works and I'm SUPER happy
+about that. :) Can't wait to polish the hell out of
+[**KI/KD**](https://github.com/RayBenefield/kikd),
+[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli),
+and
+[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
+for more general consumption.
+
+
 ## #184
 
 Got a bit further, I created a "fixable" filter to grab all failing checks that
