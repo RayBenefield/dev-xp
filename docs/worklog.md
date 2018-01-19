@@ -22,6 +22,12 @@ and
 [**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
 for more general consumption.
 
+Oh yeah and I'm also going to Eugene this weekend to take care of the kid (today
+actually). There is an "unconference" happening called BarCamp... should be fun
+also. I'm going to try to do a couple talks. We'll see how that goes. Time for
+paid work and then the bus ride to Eugene. I'll probably get to do some work on
+the bus ride.
+
 
 ## #184
 
