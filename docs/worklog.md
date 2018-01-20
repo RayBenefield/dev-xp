@@ -1,5 +1,15 @@
 # Worklog
 
+## #192
+
+Went through and tried to remove both `cpx` and `npm-utils` with both
+`copyFiles` from node v8 and a manual adding of the `NPM_TOKEN` to the `.npmrc`
+file... hopefully it works. I just put in the pull request now and hoping all
+tests pass and then will try to merge and hope things go well. About to go out
+to dinner, but I should also be able to get more work done after going to dinner
+with the kid. Hopefully things go well. :)
+
+
 ## #191
 
 Finally added a list of files to the `change-gatherer`. I think I'm going to
