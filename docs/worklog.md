@@ -1,5 +1,19 @@
 # Worklog
 
+## #193
+
+Finally figured it out... I broke things before I left for dinner. Finally got
+back and took another session to actually fix it. I kept missing a bunch of
+small things. But it is working again now... I'm exhausted though. Good news is
+I reduced the number of dependencies (and dependencies of dependencies) by
+half... an entire half. From nearly 500 to around 250... and there are still a
+few more packages I could target. I can almost for sure get under 150 at least.
+There is no way I'm getting rid of some of them like
+[**Rollup**](https://rollupjs.org/) and [**Babel**](https://babeljs.io/). But
+there are still some randoms that I can replace. Anyways, I'm tired and done for
+the night. Hopefully I'll get some solid time before the unconferrence tomorrow.
+
+
 ## #192
 
 Went through and tried to remove both `cpx` and `npm-utils` with both
