@@ -90,7 +90,6 @@
         "builtin-modules": "^2.0.0",
         "callsite": "^1.0.0",
         "chalk": "^2.3.0",
-        "cpx": "^1.5.0",
         "dedent": "^0.7.0",
         "detective-es6": "^1.2.0",
         "es6-promisify": "^5.0.0",
