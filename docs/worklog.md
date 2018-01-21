@@ -1,5 +1,16 @@
 # Worklog
 
+## #194
+
+Decided to start exploring [**Github**](https://github.com/) projects. Seems
+pretty cool. I'm considering converting this entire repository into my company
+repository for `Dev XP`. I already have three projects and I think I would
+totally bring in
+[**Transmutation**](https://github.com/RayBenefield/transmutation). And I'm
+going to split off `SemCom` and also start working on `GitJig`. Should be fun
+actually.
+
+
 ## #193
 
 Finally figured it out... I broke things before I left for dinner. Finally got
