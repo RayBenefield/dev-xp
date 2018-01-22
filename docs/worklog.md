@@ -1,5 +1,18 @@
 # Worklog
 
+## #195
+
+Just started exploring the world of [**Github**](https://github.com/) projects.
+Played with creating multiple projects, then moving an issue between different
+stages and adding to a project and what not. All seems reasonable. At least this
+will give me a bit of organization. My goal is to figure out how to organize an
+entire company repo. I expect I'll eventually have some automation around labels
+and what not because the organization/management of projects seems not fully
+featured on the issues page. We shall see though. Going to start organizing all
+of the issues and then curating. This entire morning will be full blown planning
+across the board.
+
+
 ## #194
 
 Decided to start exploring [**Github**](https://github.com/) projects. Seems
