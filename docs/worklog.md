@@ -1,5 +1,13 @@
 # Worklog
 
+## #196
+
+Just more cleaning up of issues. This is probably going to take a while to go
+through every one. But luckily there is a lot that I can close. And also crazy
+pipedreams I've decided to label as `resurrect?` to go back to in the future
+without keeping the issue open.
+
+
 ## #195
 
 Just started exploring the world of [**Github**](https://github.com/) projects.
