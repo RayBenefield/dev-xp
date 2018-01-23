@@ -1,5 +1,25 @@
 # Worklog
 
+## #199, #200
+
+WOOT!!! 200 sessions is massive. That puts me at approximately 100 hours since
+starting this repository. I've already done a TON of work for automation and
+plan to do a ton more moving forward. I've moved this project from a goal of
+certifying projects for quality to instead focusing on managing an entire
+company monorepo in open source. This includes automation and developer
+experience as first class citizens. Anything that I have to do multiple times
+NEEDS to be automated. I want to exlore what it takes for a single individual to
+handle **Google** scale codebases. I know I won't get near that at all by
+myself, but forcing myself into a scenario where I bite off more than I can chew
+will force me to get better and better at automation naturally. I have still one
+or two other projects (like **DEX** and **GitJigs**) that will be added to this
+repo and it will grow quickly.  Once any of the projects gain traction, the
+others naturally will through proximity. So I'm looking forward to the kind of
+stuff that will be needed to make this succeed. There is lots to learn and it
+will only bring positive experiences to force me to accelerate in awesome ways.
+:)
+
+
 ## #198
 
 Plowing through issues. I think I have two more sessions left before I need to
