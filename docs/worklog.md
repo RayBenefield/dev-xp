@@ -1,5 +1,20 @@
 # Worklog
 
+## #197
+
+Fell asleep yesterday and I'm just combing through issues today and
+re-organizing them. I think I'm settled on this repo becoming a company repo
+rather than a project repo. I think having
+[**KI/KD**](https://github.com/RayBenefield/kikd) target a company repo rather
+than a project repo makes more sense and allows me to distinguish a bit better
+from [**Lerna**](https://lernajs.io/) as many people are very comfortable with
+[**Lerna**](https://lernajs.io/) and some of the things they choose to do may
+not sit well with lots of intermingling projects for a single company that rely
+on much different needs. I also think I'm ready to move
+[**Transmutation**](https://github.com/RayBenefield/transmutation) into this
+repo as well as start planning out SemCom.
+
+
 ## #196
 
 Just more cleaning up of issues. This is probably going to take a while to go
