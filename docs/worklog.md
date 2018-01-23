@@ -1,5 +1,14 @@
 # Worklog
 
+## #198
+
+Plowing through issues. I think I have two more sessions left before I need to
+start work. I decided to create
+[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+as a project so I'll jump into that stuff tomorrow. As long as I finish the
+re-organization stuff today. Looking forward to it. Back to sorting.
+
+
 ## #197
 
 Fell asleep yesterday and I'm just combing through issues today and
