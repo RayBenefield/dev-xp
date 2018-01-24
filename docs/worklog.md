@@ -1,5 +1,28 @@
 # Worklog
 
+## #203, #204
+
+Went through and finally refactored out the
+[**KI/KD**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kikd)
+`cli.js`. I've moved all of the command configurations into their individual
+packages. I've always thought that they belonged there, just wasn't sure exactly
+how to organize everything. An additional export just makes sense. This is an
+important step for working on
+[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+because now I can move the
+[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+related packages into a new project while also using the commands in both
+[**KI/KD**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kikd)
+and
+[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom).
+Next session I'm going to try to get
+[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+initialized and published in one session. Wish me luck... cuz this will prove
+the
+[**KI/KD**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kikd)
+process. :)
+
+
 ## #202
 
 Spent a session planning out potential new projects for the future since I'm
