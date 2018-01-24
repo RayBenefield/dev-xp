@@ -1,5 +1,16 @@
 # Worklog
 
+## #202
+
+Spent a session planning out potential new projects for the future since I'm
+going to expand quickly. I had a few ideas on what I will eventually need for
+the entire repository so had some fun with it. I'm really looking forward to the
+speed that I will be able to build new projects now using
+[**KI/KD**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kikd).
+Ultimately I'm going to blow through these things. So great... so pumped...
+can't wait.
+
+
 ## #201
 
 A brand new morning. Excited to get back into coding. I've got a lot of cleaning
