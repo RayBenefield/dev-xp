@@ -1,5 +1,20 @@
 # Worklog
 
+## #201
+
+A brand new morning. Excited to get back into coding. I've got a lot of cleaning
+up to do throughout the projects, but things feel a LOT more manageable with the
+new project organization. I'm super pumped about that. It allowed me to easily
+close a lot of duplicate tickets and merge a lot of things together. Also gave
+me the chance to realize that there isn't as much massive future projects as I
+was intimidated by in the first place. Lots of small fixes that are needed
+across the board that should be simple. Seeing 30 issues prioritized on a board
+throughout swimlanes is MUCH easier that knowing you have 100 issues remaining.
+So I'm excited to get back into things. Yay project management win!!! Time to
+take a shower and then I'll tackle creating
+[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom).
+
+
 ## #199, #200
 
 WOOT!!! 200 sessions is massive. That puts me at approximately 100 hours since
