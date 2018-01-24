@@ -1,5 +1,21 @@
 # Worklog
 
+## #205
+
+IT FUCKING WORKED!!! Refactoring out a piece of
+[**KI/KD**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kikd)
+into
+[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+in a single cli tool just worked. Like magically. I used `kd prerelease` and
+everything and moved over the `kd changes` command to `semcom changes` and both
+packages use the same command. I also moved the command to
+`@semcom/command-changes` and everything just worked like magic. I'm super
+stoked. Working on these projects is going to be sooo much easier now. Lots of
+chores to do for cleaning up
+[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+but I'm at a good point.
+
+
 ## #203, #204
 
 Went through and finally refactored out the
