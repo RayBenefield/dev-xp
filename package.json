@@ -72,6 +72,8 @@
         "test:parse-tags": "cd src/node_modules/ && babel-node @semcom/parse-tags/snapshot-tests.js",
         "?test:latest-release-tag": "echo Run tests for SemCom latest release tag using Kape.",
         "test:latest-release-tag": "cd src/node_modules/ && babel-node @semcom/latest-release-tag/snapshot-tests.js",
+        "?test:publishing": "echo Run tests for KIKD publishing using Kape.",
+        "test:publishing": "cd src/node_modules/ && babel-node @kikd/publishing/snapshot-tests.js",
         "?test-broke:build-rollup-configs": "echo Run tests for KIKD build rollup configs using Kape.",
         "test-broke:build-rollup-configs": "cd src/node_modules/ && babel-node @kikd/build-rollup-configs/snapshot-tests.js",
         "?sloc": "echo Print the number of lines of source code we have.",
