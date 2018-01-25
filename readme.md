@@ -82,9 +82,9 @@ idea can be turned into an issue and tackled by a contributor.
 **Pick one** - *Listed in order of recommendation*
 
 ```bash
-yarn add kikd
-npm i -S kikd
-npm install --save kikd
+yarn add kikd --dev
+npm i kikd -D
+npm install kikd --save-dev 
 ```
 
 ---
