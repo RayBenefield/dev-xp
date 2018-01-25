@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/RayBenefield/kikd">
+    <a href="https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd">
         <img src="https://screenshotlayer.com/images/assets/placeholder.png" alt="KI/KD"/>
     </a>
     <br />
@@ -19,7 +19,7 @@ Continuous Integration and Continuous Deployment standards for Open Sourced NPM 
 
 **KI/KD** is still in its early stages of development. Feel free to watch this
 project as it grows and use the
-[**issues**](https://github.com/RayBenefield/kikd/issues) section to
+[**issues**](https://github.com/RayBenefield/dev-xp/projects/1) section to
 put in any questions or ideas you may have.
 
 *Nothing in this project promises to be stable until we reach `v0.1.0`.*
@@ -95,6 +95,38 @@ npm install kikd --save-dev
 <p align="center">
     <img src="https://media.giphy.com/media/WKAwHGV5Hu3vi/giphy.gif" alt="Under Construction"/>
 </p>
+
+---
+
+
+## Prior Art
+
+Thank you to all of the projects that inspired
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd):
+
+ - [**Alle**](https://github.com/boennemann/alle) - *Thank you for pitching a
+   this powerful monorepo structure*
+ - [**PouchDB**](https://github.com/pouchdb/pouchdb) - *Thank you for being the
+   example [**Alle**](https://github.com/boennemann/alle) repo*
+ - [**Lerna**](https://lernajs.io/) - *Thank you for being THE monorepo tool*
+ - [**Babel**](https://babeljs.io/) - *Thank you for being an amazing
+   influential monorepo*
+ - [**Bolt Pkg**](http://boltpkg.com/) - *Thank you for being another monorepo
+   toll example*
+ - [**Create React App**](https://github.com/facebook/create-react-app/) -
+   *Thank you for your awesome opinionated scaffolding example*
+ - [**Angular.js**](https://angularjs.org/) - *Thank you for designing the
+   original commit style*
+ - [**Conventional Commits**](https://conventionalcommits.org/) - *Thank you for
+   laying down the foundation for useful commit messages*
+ - [**Commitlint**](http://marionebl.github.io/commitlint/#/) - *Thank you for
+   inspiring the enforcement of commit standards*
+ - [**Commitizen**](https://github.com/commitizen/) - *Thank you for
+   demonstrating a solid example of automation for commits*
+ - [**Semantic Release**](https://github.com/semantic-release/semantic-release)
+   *Thank you for demonstrating the handling of auto-versioning on CI*
+ - [**Semantic Versioning**](https://semver.org/) - *Thank you for setting a
+   standard of versioning packages*
 
 ---
 
