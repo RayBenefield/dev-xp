@@ -3,15 +3,15 @@
 ## #206, #207
 
 Spent two sessions moving over 10+ packages that really should be in
-[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+[**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom)
 and not
-[**KI/KD**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kikd).
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd).
 So I did that and I'm just waiting for the pull request to go through.
-[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+[**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom)
 should work with any [**Alle**](https://github.com/boennemann/alle) style setup
 theoretically. No idea though... not planning its extensive useability yet,
 right now the split off was mainly for shrinking the growing size of
-[**KI/KD**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kikd).
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd).
 It was relatively smooth, but I realized that I would definitely like a `kd
 move` function to handle the refactoring of anything dependent on it. Now to
 figure out what I want to work on next.
@@ -20,39 +20,39 @@ figure out what I want to work on next.
 ## #205
 
 IT FUCKING WORKED!!! Refactoring out a piece of
-[**KI/KD**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kikd)
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 into
-[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+[**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom)
 in a single cli tool just worked. Like magically. I used `kd prerelease` and
 everything and moved over the `kd changes` command to `semcom changes` and both
 packages use the same command. I also moved the command to
 `@semcom/command-changes` and everything just worked like magic. I'm super
 stoked. Working on these projects is going to be sooo much easier now. Lots of
 chores to do for cleaning up
-[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+[**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom)
 but I'm at a good point.
 
 
 ## #203, #204
 
 Went through and finally refactored out the
-[**KI/KD**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kikd)
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 `cli.js`. I've moved all of the command configurations into their individual
 packages. I've always thought that they belonged there, just wasn't sure exactly
 how to organize everything. An additional export just makes sense. This is an
 important step for working on
-[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+[**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom)
 because now I can move the
-[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+[**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom)
 related packages into a new project while also using the commands in both
-[**KI/KD**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kikd)
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 and
-[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom).
+[**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom).
 Next session I'm going to try to get
-[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+[**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom)
 initialized and published in one session. Wish me luck... cuz this will prove
 the
-[**KI/KD**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kikd)
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 process. :)
 
 
@@ -62,7 +62,7 @@ Spent a session planning out potential new projects for the future since I'm
 going to expand quickly. I had a few ideas on what I will eventually need for
 the entire repository so had some fun with it. I'm really looking forward to the
 speed that I will be able to build new projects now using
-[**KI/KD**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kikd).
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd).
 Ultimately I'm going to blow through these things. So great... so pumped...
 can't wait.
 
@@ -79,7 +79,7 @@ across the board that should be simple. Seeing 30 issues prioritized on a board
 throughout swimlanes is MUCH easier that knowing you have 100 issues remaining.
 So I'm excited to get back into things. Yay project management win!!! Time to
 take a shower and then I'll tackle creating
-[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom).
+[**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom).
 
 
 ## #199, #200
@@ -106,7 +106,7 @@ will only bring positive experiences to force me to accelerate in awesome ways.
 
 Plowing through issues. I think I have two more sessions left before I need to
 start work. I decided to create
-[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+[**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom)
 as a project so I'll jump into that stuff tomorrow. As long as I finish the
 re-organization stuff today. Looking forward to it. Back to sorting.
 
@@ -116,14 +116,14 @@ re-organization stuff today. Looking forward to it. Back to sorting.
 Fell asleep yesterday and I'm just combing through issues today and
 re-organizing them. I think I'm settled on this repo becoming a company repo
 rather than a project repo. I think having
-[**KI/KD**](https://github.com/RayBenefield/kikd) target a company repo rather
-than a project repo makes more sense and allows me to distinguish a bit better
-from [**Lerna**](https://lernajs.io/) as many people are very comfortable with
-[**Lerna**](https://lernajs.io/) and some of the things they choose to do may
-not sit well with lots of intermingling projects for a single company that rely
-on much different needs. I also think I'm ready to move
-[**Transmutation**](https://github.com/RayBenefield/transmutation) into this
-repo as well as start planning out SemCom.
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+target a company repo rather than a project repo makes more sense and allows me
+to distinguish a bit better from [**Lerna**](https://lernajs.io/) as many people
+are very comfortable with [**Lerna**](https://lernajs.io/) and some of the
+things they choose to do may not sit well with lots of intermingling projects
+for a single company that rely on much different needs. I also think I'm ready
+to move [**Transmutation**](https://github.com/RayBenefield/transmutation) into
+this repo as well as start planning out SemCom.
 
 
 ## #196
@@ -188,14 +188,14 @@ Finally added a list of files to the `change-gatherer`. I think I'm going to
 split that up into a `commit-gatherer` and a `change-gatherer`. Really I need
 the commit change files for commit linting, not really for change parsing. I
 also fixed that bug I found in
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
 that I had where having one command bailed out early and had it miss out on cool
 features like `--json`. Just a bunch of tiny clean ups. I'm hoping I'll be able
 to start working on a full `git log` analysis soon. Cuz I really want to rebase
 into something prettier with all of the proper tags and everything. Then I can
 work on the changelog system as well as potentially the `rewrite-tags` script in
-[**KI/KD**](https://github.com/RayBenefield/kikd). Lots of possibilities... just
-cleaning up.
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd).
+Lots of possibilities... just cleaning up.
 
 
 ## #189, #190
@@ -217,18 +217,19 @@ Editor**](https://www.npmjs.com/package/external-editor) instead. Took me a bit
 to get it right, but it works now. And I setup the command for `kd prerelease`
 and the template, and also did the side effects of needing a `package.json` and
 a `readme.md` file. Should be good to go now. I also published
-[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
 with the system. Which is AWESOME!!! Super easy to do, then noticed a dumb bug
 where
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
 try to publish even though it wasn't versioned. So I'll patch the bug tomorrow
 maybe. But it works... the MVP of
-[**KI/KD**](https://github.com/RayBenefield/kikd) just works and I'm SUPER happy
-about that. :) Can't wait to polish the hell out of
-[**KI/KD**](https://github.com/RayBenefield/kikd),
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli),
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+just works and I'm SUPER happy about that. :) Can't wait to polish the hell out
+of
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd),
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli),
 and
-[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
 for more general consumption.
 
 Oh yeah and I'm also going to Eugene this weekend to take care of the kid (today
@@ -270,10 +271,11 @@ session for the morning.
 ## #180
 
 Last night I was caught by surprise... @marionebl had written a comment to one
-of my issues on [**KI/KD**](https://github.com/RayBenefield/kikd). It caught me
-by surprise because I haven't announced this tool pretty much anywhere except to
-a few friends and on **Facebook**. lol... but he came in with a great suggestion
-on dynamically filling in the scopes for
+of my issues on
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd).
+It caught me by surprise because I haven't announced this tool pretty much
+anywhere except to a few friends and on **Facebook**. lol... but he came in with
+a great suggestion on dynamically filling in the scopes for
 [**Commitlint**](http://marionebl.github.io/commitlint/#/) in the config file.
 Something I had considered previously as I was tired of editting the config file
 every time I started a new package. Ultimately though I decided against it
@@ -283,7 +285,7 @@ personally. :) Just trying to get a handle on things on my own while I try to
 stabilize a single project in open source. Time to jump into some coding. I
 think today I'm tackling `kd prerelease` so I can make it easy to publish new
 packages quickly. I plan on targeting
-[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
 for my next publishing. So hopefully that goes well this morning.
 
 
@@ -310,10 +312,11 @@ work done now.
 
 ## #171, #172, #173, #174
 
-***I FUCKING DID IT!!!!!*** [**KI/KD**](https://github.com/RayBenefield/kikd) is
-now officially publishing multiple packages. :) SOOO HAPPY!!! This session I
+***I FUCKING DID IT!!!!!***
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+is now officially publishing multiple packages. :) SOOO HAPPY!!! This session I
 pushed to finish the building of non-bin based packages (like
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)).
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)).
 Little did I realize, because of the rest of the work that I've been doing with
 `kd version`, `kd publish`, and `kd checks`, etc... as soon as I finished that
 portion, it just cascaded down into working. :) YAY SOLID SOFTWARE
@@ -332,7 +335,7 @@ should have some confidence in myself. Keep learning, keep pushing, just keep
 going and don't give up.
 
 Just to be sure I imported
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
 into a new project to test that it worked. At first it didn't, but then realized
 it was because I have a bug when there is only one command (I bail out early and
 because I do it doesn't have any `--json` features). When I added a second one
@@ -345,12 +348,13 @@ myself up. So there is several bits of automation that I can put into place to
 validate commits and assist in writing commits. So much that I can still do to
 get faster... I'm super surprised how fast things are going right now. I'm
 getting faster and faster every day and I'm not even close to optimized with
-this process yet. [**KI/KD**](https://github.com/RayBenefield/kikd) will save
-SOOO much time in building quality projects. I can't wait to start using it with
-[**Transmutation**](https://github.com/RayBenefield/transmutation) properly.
-Going to take some time to make a bunch of tickets after heading out to get some
-breakfast and coffee. Gotta start planning out my next few days to polish the
-publishing/versioning system.
+this process yet.
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+will save SOOO much time in building quality projects. I can't wait to start
+using it with [**Transmutation**](https://github.com/RayBenefield/transmutation)
+properly.  Going to take some time to make a bunch of tickets after heading out
+to get some breakfast and coffee. Gotta start planning out my next few days to
+polish the publishing/versioning system.
 
 
 ## #167, #168, #169, #170
@@ -370,9 +374,9 @@ removing `npm-utils` as a dependency. Just a bunch of random. I needed a slow
 day as I woke up not feeling so well. I should be able to get back to things
 tomorrow though. Gotta get multi-publishing working by the end of the week
 hopefully. Going to first try to publish
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
 and then publish
-[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape).
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape).
 
 
 ## #163, #164, #165, #166
@@ -382,16 +386,16 @@ Put in a ton of work to get versioning working at least for packages in
 now. I think the next thing I need to do is add the "release" tags to the
 version system. Once that is added then the system should be smart enough to
 avoid pushing a version if nothing that
-[**KI/KD**](https://github.com/RayBenefield/kikd) depends on is updated. This is
-relevant for new packages that are being built as units before being integrated.
-As well for documents that don't show up in the `readme` for the package. Lots
-more things to consider, but this really was the big piece for me. The rest is a
-lot of clean up and supporting systems. And then I'll probably work on the `kd
-prerelease` portion to test adding a new package on `kli`. Which also means I
-need to update the build system to handle more than just `bin` files now as
-well... still lots of little things to do. But maybe I can get the
-multi-publishing working by the end of the week before I see my son this coming
-weekend. :)
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+depends on is updated. This is relevant for new packages that are being built as
+units before being integrated.  As well for documents that don't show up in the
+`readme` for the package. Lots more things to consider, but this really was the
+big piece for me. The rest is a lot of clean up and supporting systems. And then
+I'll probably work on the `kd prerelease` portion to test adding a new package
+on `kli`. Which also means I need to update the build system to handle more than
+just `bin` files now as well... still lots of little things to do. But maybe I
+can get the multi-publishing working by the end of the week before I see my son
+this coming weekend. :)
 
 
 ## #162
@@ -408,7 +412,7 @@ I'm weird.
 ## #161
 
 Built a new feature for
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
 that allows me to specify a `--json` flag and what fields I want to display to
 pretty print json instead. Should be super helpful in general, but will be used
 as I work on the `recommend-version` system. I still need to populate commits
@@ -465,9 +469,9 @@ used in the versioning system.
 Just finished breakfast and jumped right into the documentation for how
 versioning will work. It is a tad complicated, but it is getting done. I also
 spent some time figuring out a cool idea that would really help
-[**KI/KD**](https://github.com/RayBenefield/kikd)'s goal of improving
-development agility. For now it is time to go on errand runs for the day with
-Jess. :)
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)'s
+goal of improving development agility. For now it is time to go on errand runs
+for the day with Jess. :)
 
 
 ## #153
@@ -493,14 +497,14 @@ will work in this system.
 Wow that was super easy to create a `kd deps` command. I had to put in a bug fix
 to tack on `src/node_modules` for the `dependency-list` portion, but it worked
 fine after that. Started with the `jsonRenderer` on
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
 which worked super nicely since I could just pass in a `scope` of what to
 `isolate`. Then I was able to add a template right after that and that was super
 quick too. What a great little experience adding a new command. Very happy with
 that. I fixed a bug, created the
 [**Transmutation**](https://github.com/RayBenefield/transmutation) for the deps
 command, then rendered it with
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
 in json, and then created the template... all in a 25 minute session. I'm
 satisfied. :) Next to collect the files that change with given commits for the
 commit gatherer... actually I should create a command for that. Hmmm... time to
@@ -607,8 +611,8 @@ Decided to just pickup a simple task. So I finally swapped in
 `rollup-plugin-node-builtins` instead of manually defining `fs`, `path`, etc. It
 didn't work originally for me when I had a manual build process with
 [**Rollup**](https://rollupjs.org/), but now that
-[**KI/KD**](https://github.com/RayBenefield/kikd) builds itself it actually
-works fine which is nice.
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+builds itself it actually works fine which is nice.
 
 
 ## #131, #132, #133
@@ -644,15 +648,17 @@ I'll think on that. But I'm close to having something I can work with at least.
 So delved deeper into what the [**Conventional
 Changelog**](https://github.com/conventional-changelog/conventional-changelog)
 parser is really doing. It is overly complicated for my needs and since things
-are sooo opinionated in [**KI/KD**](https://github.com/RayBenefield/kikd) I'm
-just going to write my own parser with my own concepts. Mainly because the code
-will be SOOO much simpler to understand. No reason to overcomplicate things. So
-next session I'm just going to jump into commit parsing. I think I may even get
-rid of [**Commitlint**](http://marionebl.github.io/commitlint/#/) because I'm
-going to go super opinionated on this and don't want to bloat the setup and I
-want to keep things as clean as possible and under this repo's control. Makes it
-easier for me to stay agile as less exploration into other repos. Especially
-since I have the skillset to build out most tools that I would need myself.
+are sooo opinionated in
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+I'm just going to write my own parser with my own concepts. Mainly because the
+code will be SOOO much simpler to understand. No reason to overcomplicate
+things. So next session I'm just going to jump into commit parsing. I think I
+may even get rid of [**Commitlint**](http://marionebl.github.io/commitlint/#/)
+because I'm going to go super opinionated on this and don't want to bloat the
+setup and I want to keep things as clean as possible and under this repo's
+control. Makes it easier for me to stay agile as less exploration into other
+repos. Especially since I have the skillset to build out most tools that I would
+need myself.
 
 
 ## #127
@@ -717,12 +723,12 @@ we return the rental car. Should be fun...
 Been a couple of days since I've done coding in general. I was sick and also
 yesterday we returned my future stepson to his dad's. But I'm back in the game
 and excited to move forward. Lots to do still, but I really want to have
-[**KI/KD**](https://github.com/RayBenefield/kikd) multi-package publishing in
-the next couple of weeks. Right now I'm just trying to improve the publish
-command with more details about publishing. Right now I'm gathering details from
-[**NPM**](https://www.npmjs.com/) about what might already exist and I'll also
-grab info on the `dist/` directory and compare the two for the publish command's
-output. Should be fun. :)
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+multi-package publishing in the next couple of weeks. Right now I'm just trying
+to improve the publish command with more details about publishing. Right now I'm
+gathering details from [**NPM**](https://www.npmjs.com/) about what might
+already exist and I'll also grab info on the `dist/` directory and compare the
+two for the publish command's output. Should be fun. :)
 
 
 ## #121
@@ -736,20 +742,23 @@ using Vue so it has more JS... yay! lol...
 
 ## #120
 
-WOOT!!! [**KI/KD**](https://github.com/RayBenefield/kikd) is now officially
-publishing itself. Now it is being very explicit in what it is publishing right
-now, but I'll fix that. With my next ticket to add some non-side effect stuff.
-Was a simple fix of just being explicit with the `--registry` flag for `npm
-publish`. Glad that fucking worked, cuz I can finally ease up a bit. And this is
-session #120 so that means I'm now 50 hours into this project. That's how long
-it took to get it to publish itself. So if I was working say 8 hours a day
-roughly with about 12 sessions a day. I could theoretically have built
-[**KI/KD**](https://github.com/RayBenefield/kikd) in 2 work weeks. But I'm
-working with it on the side including weekends so I'm a little over a month of
-time. But still... feeling awesome right now since I finally have this self
-publishing. Next is to focus on multi-package publishing. That's gonna take some
-fun work, especially the detecting what packages need to be independently
-versioned based on their changes as well as their dependencies. Should be fun.
+WOOT!!!
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+is now officially publishing itself. Now it is being very explicit in what it is
+publishing right now, but I'll fix that. With my next ticket to add some
+non-side effect stuff.  Was a simple fix of just being explicit with the
+`--registry` flag for `npm publish`. Glad that fucking worked, cuz I can finally
+ease up a bit. And this is session #120 so that means I'm now 50 hours into this
+project. That's how long it took to get it to publish itself. So if I was
+working say 8 hours a day roughly with about 12 sessions a day. I could
+theoretically have built
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+in 2 work weeks. But I'm working with it on the side including weekends so I'm a
+little over a month of time. But still... feeling awesome right now since I
+finally have this self publishing. Next is to focus on multi-package publishing.
+That's gonna take some fun work, especially the detecting what packages need to
+be independently versioned based on their changes as well as their dependencies.
+Should be fun.
 
 
 ## #118, #119
@@ -799,14 +808,14 @@ readmes. We shall see. Now it is time for Python.
 ## #106, #107, #108
 
 YAY!!! Today is the one month anniversary of
-[**KI/KD**](https://github.com/RayBenefield/kikd) which is AWESOME!!! I've made
-a ton of progress. This morning I finished up the `kd version` command which is
-working splendidly. I'm excited to start working on the `kd publish/deploy`
-command portion. The git side effects weren't as bad as I expected at all. Very
-happy about that.
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+which is AWESOME!!! I've made a ton of progress. This morning I finished up the
+`kd version` command which is working splendidly. I'm excited to start working
+on the `kd publish/deploy` command portion. The git side effects weren't as bad
+as I expected at all. Very happy about that.
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
 and
-[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
 have been a HUGE help to this process and I'm loving that. Very proud of my
 progress. This will be a very powerful tool moving forward and I should be able
 to start multi-deploying probably in a week. Which will be awesome. HUGE deal.
@@ -831,15 +840,15 @@ command with `kd version --commit` when I'm done. We'll see how that works out.
 
 HAPPY NEW YEAR!!! Today I jump in deeper into the versioning system. I'm REALLY
 close. I did a bunch of cleaning up and refactoring for how
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
 and commands should work as a pattern. Setup the `jsonRenderer` from
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
 to accept a property to isolate, which is awesome. I also setup the base command
 of `kd version` which will now reveal the `old`, `new`, and `type` of patch. It
 will also filter out unpublishable packages and ones with a version... which
 will be addable in the future with a flag. Quick break before I work on the side
 effect system of
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli).
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli).
 Then sadly I need to do me some Python work. :(
 
 
@@ -850,11 +859,11 @@ Cried like crazy leaving him again. It isn't easy. So this session I setup the
 simple version recommendation system to recognize no version, or a pre-release
 version as `0.0.*`. I'll work on patch, minor, and major based on git commits
 later. For now, I'm going to work on the side effect system for
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli).
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli).
 I want to be able to "dry run" the version system and see the expected results
 thentack on a `--commit` flag to run the side effect. Should be useful for other
 things as well. I want
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
 to push people to push out the side effects as far as possible to the outside of
 the system. If anything, I know it will help me. Gonna probably rest for a bit.
 
@@ -862,14 +871,14 @@ the system. If anything, I know it will help me. Gonna probably rest for a bit.
 ## #98
 
 So my session this morning definitely worked. I am fully building
-[**KI/KD**](https://github.com/RayBenefield/kikd) with itself. Which is awesome.
-So next thing is to start taking over the publishing/deploying portion of the
-system. I need to replace the shell script that I have right now. This means I
-need to handle the versioning system, the git system, and the final npm
-deployment system. So lots of stuff to do. I'm on the greyhound right now to
-Eugene. And I'm falling asleep. So I think I'll take a nap break. Not much I can
-do if I can't focus. A nap might be good for me. I forgot to drink coffee this
-morning sadly.
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+with itself. Which is awesome.  So next thing is to start taking over the
+publishing/deploying portion of the system. I need to replace the shell script
+that I have right now. This means I need to handle the versioning system, the
+git system, and the final npm deployment system. So lots of stuff to do. I'm on
+the greyhound right now to Eugene. And I'm falling asleep. So I think I'll take
+a nap break. Not much I can do if I can't focus. A nap might be good for me. I
+forgot to drink coffee this morning sadly.
 
 
 ## #97
@@ -935,7 +944,7 @@ ended up adding more details to the results as well and now they are nice and
 pretty. Looks great so you can see what packages have what and what packages are
 missing what. Side effect to all of this is that I had to update the tests for
 both `check-packages` and `find-packages` to use
-[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape).
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape).
 Actually just checked the build and realized that it failed... and I know why
 too. Since I hash based on the inputs, the inputs are different on Travis due to
 the change in "root". Well that is dumb. I'll have to think on that, because I
@@ -955,17 +964,17 @@ working on creating a pretty style for `check-packages`. Coming along alright.
 ## #82, #83, #84
 
 So this morning was a TON of dog fooding. I started to really use
-[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
 for the first time with the `executor` portion of
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli).
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli).
 And it was very informatitive. It let me know that I definitely need a `when()`
 operator for
-[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
 as well as a `then()` operator. I also need to really try to put some focus on
 setting up multiple `describes` in a single test file properly so I can test
 various configurations of a SUT. But the cool thing is that my build test suite
 is now running both
-[**Kape**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kape)
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
 and [**Tape**](https://github.com/substack/tape) tests... hehehe... that's
 funny. This set of sessions was VERY helpful indeed. Lots to refactor and do in
 general, but I think I'm at a solid point where I can just pick and choose.
@@ -1061,9 +1070,9 @@ want. I've gone far into the rabbit hole that is
 [**Tape**](https://github.com/substack/tape). I've decided... I want a new
 testing framework as well. Something that works with everything I need. I
 know... ANOTHER project. But it is all part of
-[**KI/KD**](https://github.com/RayBenefield/kikd). All part of this ideal
-Developer Experience that I'm trying to shoot for. I'll try to start
-implementing it next session and see how things go.
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd).
+All part of this ideal Developer Experience that I'm trying to shoot for. I'll
+try to start implementing it next session and see how things go.
 
 
 ## #63
@@ -1131,14 +1140,15 @@ more complicated when I start adding more to the rendering system. So I want to
 make sure that it is easy to do and refactored out with tests. There are more
 tests that really should be in there, but now is a good start. Just keep pushing
 faster and faster as we go forward. I still need to refactor other portions of
-[**KI/KD**](https://github.com/RayBenefield/kikd), but I'll survive. For now I
-need to stop as we are going to pick up my future stepson for him to spend
-winter break with us. My development speed is going to slow over these holidays,
-since I'll be spending time with him and off the computer over the holidays.
-Still lots to do, but things are really coming together slowly. One day I'll
-probably split off the `kli` project into its own repo, but for now I'll keep it
-here. It might actually be valuable for me to have an automated process to split
-a monorepo into multiple monorepos so that will be my test case. AWAY!!!!
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd),
+but I'll survive. For now I need to stop as we are going to pick up my future
+stepson for him to spend winter break with us. My development speed is going to
+slow over these holidays, since I'll be spending time with him and off the
+computer over the holidays.  Still lots to do, but things are really coming
+together slowly. One day I'll probably split off the `kli` project into its own
+repo, but for now I'll keep it here. It might actually be valuable for me to
+have an automated process to split a monorepo into multiple monorepos so that
+will be my test case. AWAY!!!!
 
 
 ## #56, #57
@@ -1147,10 +1157,10 @@ Refactored out the searcher functionality and coincidentally added a new feature
 to be able to use a string or an array for `aliases` which is awesome. It is
 nice being able to easily created a new package using the
 [**Alle**](https://github.com/boennemann/alle) repo structure. And once
-[**KI/KD**](https://github.com/RayBenefield/kikd) is setup then I'll be able to
-really start publishing new packages really quickly and keep all my functions
-small and awesome. I think ultimately I have a very powerful system. More
-refactoring?
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+is setup then I'll be able to really start publishing new packages really
+quickly and keep all my functions small and awesome. I think ultimately I have a
+very powerful system. More refactoring?
 
 
 ## #53, #54, #55
@@ -1165,7 +1175,7 @@ exclude the fixtures folder now which is good to have for sure.... OH HEY!!! IT
 IS SNOWING!!! :) Time for some more real work. Back to Python :(. AWAY!!!
 Tomorrow I will tackle the checker... probably after I update the rendering
 system a bit more for
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli).
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli).
 
 
 ## #52
@@ -1179,7 +1189,7 @@ only brought it down to 2 secs at the lowest. It also felt more clunky and wrong
 since to get BDD terminology I had to include mocha globals which felt wrong...
 and using `should` resulted in weird feelings too. So I decided... just no. This
 session however I started out adding a rendering system to
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli).
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli).
 I think it will ultimately be worth it. I'm going to use that rendering system
 for the `kd check` command soon. Just gotta add a feature or two here. I might
 adjust the tests as well. We'll see next session.
@@ -1220,7 +1230,7 @@ level file.
 ## #47
 
 I started the morning with an idea on how to push configuration for
-[**KLI**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kli)
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
 and ended up just writing a full document on the idea in general. Basically the
 idea is to push dependency injection into the CLI level that also encrouages
 configuration at the library level. This configuration not only includes values,
@@ -1310,8 +1320,8 @@ finish the build command by copying the `readme` and the `license` file to the
 
 Started work on `KLI`. Just writing a bunch of simple tests to get it going and
 then I'm going to try to replace the commands in
-[**KI/KD**](https://github.com/RayBenefield/kikd). I'm hoping things go
-smoothly, but we shall see.
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd).
+I'm hoping things go smoothly, but we shall see.
 
 
 ## #39
@@ -1342,9 +1352,10 @@ poisoning and was out for the rest of the night. This morning I'm exhausted but
 I was able to finish up the build command and I'm super happy about that. I also
 was doing research last night while dying on how to make the CLI experience
 better and discovered a new package that I need to build that I will build as
-part of the [**KI/KD**](https://github.com/RayBenefield/kikd) actually. It
-should make the CLI much easier to use as it will be smart enough to determine
-what command you are trying to run. Should be a fun little thing.
+part of the
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+actually. It should make the CLI much easier to use as it will be smart enough
+to determine what command you are trying to run. Should be a fun little thing.
 
 
 ## #36
@@ -1355,9 +1366,9 @@ through and properly support details. Like I needed to handle ignoring paths
 from the `find-packages` script. So I added that. I need to keep going through
 and tweaking things until I get something that really works. I think by default
 I need to ignore the `__tests__` folder. Since this is
-[**KI/KD**](https://github.com/RayBenefield/kikd) then I'm fine with being
-opinionated period. More work to be done!!! But I should totally have the build
-command working tonight!
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+then I'm fine with being opinionated period. More work to be done!!! But I
+should totally have the build command working tonight!
 
 
 ## #35
@@ -1367,10 +1378,10 @@ root of the packages in order to properly run
 [**Rollup**](https://rollupjs.org/) in the right destination folder. Hopefully
 the next session I'll have it working just right. I'm SUPER excited to have this
 work cuz this is the first real work that
-[**KI/KD**](https://github.com/RayBenefield/kikd) will actually do. So I'm
-fairly pumped about that. I REALLY hope this works. I hate that I have to work
-right now... cuz I'm like right there at the finish line. Oh well... time for
-**Python**.
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+will actually do. So I'm fairly pumped about that. I REALLY hope this works. I
+hate that I have to work right now... cuz I'm like right there at the finish
+line. Oh well... time for **Python**.
 
 
 ## #33, #34
@@ -1389,11 +1400,11 @@ I fixed up the build and also added the portion that finds the project root
 based on the `.git` folder. So I spent some time figuring out what are the next
 steps and really the next step is to start building the modules without doing
 any publishing or versioning quite yet. I'd like to replace the build step with
-[**KI/KD**](https://github.com/RayBenefield/kikd) itself to start eating dog
-fooding. This will lead me to rely on it in the future. And right now the only
-deployable is the `cli.js` so I'm going to write up a build system that only
-handles a `bin` entry in the `package.json`. So it shouldn't be too bad.
-Hopefully... it is time to get very familiar with
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+itself to start eating dog fooding. This will lead me to rely on it in the
+future. And right now the only deployable is the `cli.js` so I'm going to write
+up a build system that only handles a `bin` entry in the `package.json`. So it
+shouldn't be too bad.  Hopefully... it is time to get very familiar with
 [**Rollup**](https://rollupjs.org/).
 
 
@@ -1506,27 +1517,27 @@ left in me for the day before **Monster Hunter World Beta**!!!!
 ## #13, #14
 
 Finally started doing the setup for some real coding. I converted
-[**KI/KD**](https://github.com/RayBenefield/kikd) into a monorepo of the style
-that it will investigate. Since working on
-[**KI/KD**](https://github.com/RayBenefield/kikd) I have discovered
-[**Alle**](https://github.com/boennemann/alle) which is a very powerful
-structuring for a monorepo setup. It requires some unique adjustments for build
-tools and what not that default to ignoring `node_modules`, but for the most
-part it is very powerful and awesome. I've also finally setup a test script and
-the basics that I need for rapid development like a watch script as well. This
-is definitely a solid start. My first task is to implement `kd ls` which will
-list all of the projects in the repository based on the
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+into a monorepo of the style that it will investigate. Since working on
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+I have discovered [**Alle**](https://github.com/boennemann/alle) which is a very
+powerful structuring for a monorepo setup. It requires some unique adjustments
+for build tools and what not that default to ignoring `node_modules`, but for
+the most part it is very powerful and awesome. I've also finally setup a test
+script and the basics that I need for rapid development like a watch script as
+well. This is definitely a solid start. My first task is to implement `kd ls`
+which will list all of the projects in the repository based on the
 [**Alle**](https://github.com/boennemann/alle) structure.
 
 
 ## #12
 
 Fixed the `shebang` issue that was happening that kept me from running the cli
-tool properly. Wasn't a difficult fix, just a **Babel** plugin that I found that
-will also translate the `shebang` appropriately. I also fleshed out the `kd ls`
-command which I think should be the first command as it is the simplest of them
-all and will work towards gathering all of the project info that I'm going to
-need anyway in future commands.
+tool properly. Wasn't a difficult fix, just a [**Babel**](https://babeljs.io/)
+plugin that I found that will also translate the `shebang` appropriately. I also
+fleshed out the `kd ls` command which I think should be the first command as it
+is the simplest of them all and will work towards gathering all of the project
+info that I'm going to need anyway in future commands.
 
 
 ## #11
@@ -1542,8 +1553,9 @@ the simple CLI layer. We'll see how that goes.
 
 Setup initial planning document for CLI tool as we progress forward. Figuring
 out all the details that will be needed for the tool. Even going as far as
-considering how easy it is to type the commands. **KI/KD** seeks to speed up the
-development agility of Open Source maintainers.
+considering how easy it is to type the commands.
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+seeks to speed up the development agility of Open Source maintainers.
 
 
 ## #9
@@ -1603,14 +1615,15 @@ learn what it is doing exactly.
 
 ## #4
 
-Started mapping out all of my initial ideas for how to achieve a **KI/KD**
+Started mapping out all of my initial ideas for how to achieve a
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 certification. Got through some initial changelog details and really got into
-details around a new **Semantic Versioning** proposal. Mainly since projects on
-**NPM** are still at major version 0 and being used in production. Announcements
-should happen at `0.1.0` instead of `1.0.0`. And then Major version represents
-the number of breaking changes you have introduced. And Minor represents the
-number of feature releases you have had that people will care about and need to
-be publicized.
+details around a new [**Semantic Versioning**](https://semver.org/) proposal.
+Mainly since projects on [**NPM**](https://www.npmjs.com/) are still at major
+version 0 and being used in production. Announcements should happen at `0.1.0`
+instead of `1.0.0`. And then Major version represents the number of breaking
+changes you have introduced. And Minor represents the number of feature releases
+you have had that people will care about and need to be publicized.
 
 
 ## #3
@@ -1628,14 +1641,18 @@ stuck in this side project rabbit hole that I'm hoping I can pull out of. It is
 stressful and sad, but if anything I'm gaining a lot of experience doing it so I
 just gotta keep trudging forward and getting faster and better.
 
-So what is this about? Well **KIKD** stands for **Kontinuous
-Integration/Kontinuous Deployment**, get it?!? lol... but seriously, I was
-working a lot with **Transmutation** preparing it for a quality developer
-experience for contributing and ultimately realized that I want to standardize
-my ideals into a standard that I keep across all my projects. So that is what
-**KIKD** will do. It will check whether or not the project it is run on is
-certified with the heavily opinionated standards that are inspired by the open
-source community. I'm by no means an expert, but I like having my own standards
-to follow and automate. So this project will provide tools as well as a checking
+So what is this about? Well
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+stands for **Kontinuous Integration/Kontinuous Deployment**, get it?!? lol...
+but seriously, I was working a lot with
+[**Transmutation**](https://github.com/RayBenefield/transmutation) preparing it
+for a quality developer experience for contributing and ultimately realized that
+I want to standardize my ideals into a standard that I keep across all my
+projects. So that is what
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+will do. It will check whether or not the project it is run on is certified with
+the heavily opinionated standards that are inspired by the open source
+community. I'm by no means an expert, but I like having my own standards to
+follow and automate. So this project will provide tools as well as a checking
 system to make sure there is some sort of compliance. I'll flesh this out in the
 next few sessions in the readme with all my goals.
