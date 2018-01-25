@@ -1,5 +1,29 @@
 # Worklog
 
+## #208, #209, #210
+
+Spent a ton of time refactoring and cleaning things up. Added a "Prior Art"
+section to
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)'s
+readme, removed some old debugging output I had when fixing the auto-versioning
+stuff, fixed the bug where we tried to publish all publishable packages rather
+than just the ones that needed to be published, updated the `kd publish` output
+to show which packages were to be published, changed all the links in this
+worklog to match the new repo structure, updated the repo's description and
+topics, and a few other things... just lots done. I'm really enjoying the
+experience of working with all these packages and all of this is just getting
+easier and easier as I progress. Ooo I just thought of a new idea... what if
+when closing committing a ticket I ask the committer if any issues in progress
+are something that you might be closing... this will be good for the
+[**Commitizen**](https://github.com/commitizen/) tooling that I'll put in place
+for
+[**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom).
+Hmmm... we'll see. Lots to do though in general. For now it is time to do some
+paid work... also **Monster Hunter World** comes out tonight at 9pm PST... :)
+I'm going to be quite distracted once that comes out and I'm sooo excited for
+it.
+
+
 ## #206, #207
 
 Spent two sessions moving over 10+ packages that really should be in
