@@ -1,5 +1,22 @@
 # Worklog
 
+## #206, #207
+
+Spent two sessions moving over 10+ packages that really should be in
+[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+and not
+[**KI/KD**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kikd).
+So I did that and I'm just waiting for the pull request to go through.
+[**SemCom**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/semcom)
+should work with any [**Alle**](https://github.com/boennemann/alle) style setup
+theoretically. No idea though... not planning its extensive useability yet,
+right now the split off was mainly for shrinking the growing size of
+[**KI/KD**](https://github.com/RayBenefield/kikd/tree/master/src/node_modules/kikd).
+It was relatively smooth, but I realized that I would definitely like a `kd
+move` function to handle the refactoring of anything dependent on it. Now to
+figure out what I want to work on next.
+
+
 ## #205
 
 IT FUCKING WORKED!!! Refactoring out a piece of
