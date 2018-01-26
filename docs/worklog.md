@@ -1,5 +1,17 @@
 # Worklog
 
+## #211, #212, #213
+
+Spent all my sessions trying to build a full readme. There is a lot to the goals
+of this project so I can't expect to fully finish it up right away. But I got a
+lot of good details explaining my full goal here. Because I think it is possible
+to do amazing things with the amazing things that the world has figured out. I
+didn't get as much work as I wanted to this morning, since I stayed up late
+playing **Monster Hunter World**. OMG!! The game is so good and if you have the
+chance to pick it up and you are reading this then do it. My first jump into the
+series and it is absolutely amazing. Gotta get to paid work now. :)
+
+
 ## #208, #209, #210
 
 Spent a ton of time refactoring and cleaning things up. Added a "Prior Art"
