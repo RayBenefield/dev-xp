@@ -1,5 +1,13 @@
 # Worklog
 
+## #218
+
+Gotta take a break for the day. It is **Monster Hunter World** time. :) Realized
+that I was running into problems with a lack of isolation. So I'll have to think
+how to handle that. Basically a bunch of the tests change the process `cwd` and
+as a result lots of things break all over. So I'll think on it.
+
+
 ## #216, #217
 
 WOOT!! I'm getting sooo close. Learning how to handle multiple streams at a
