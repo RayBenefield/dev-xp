@@ -51,7 +51,7 @@
         "?test:tape": "echo Run tests using babel/tape/tape-bdd/blue-tape, with tap-spec output.",
         "test:tape": "cd src/node_modules && babel-tape-runner {**,**/**}/tests.js | tap-spec",
         "?test:kape": "echo Run tests using and for Kape.",
-        "test:kape": "cd src/node_modules && babel-node @kape/run/kape-tests.js",
+        "test:kape": "cd src/node_modules && babel-node @kape/run/tests.js",
         "?test:check-package": "echo Run tests for KIKD Check Package using Kape.",
         "test:check-package": "cd src/node_modules && babel-node @kikd/check-package/snapshot-tests.js",
         "?test:publish-check": "echo Run tests for KIKD Publish Checking using Kape.",
@@ -136,6 +136,7 @@
         "sha.js": "^2.4.9",
         "simple-git": "^1.85.0",
         "slugify": "^1.2.8",
+        "through2": "^2.0.3",
         "transmutation": "^0.0.46",
         "trie-search": "^1.0.9",
         "uglify-es": "^3.2.2"
