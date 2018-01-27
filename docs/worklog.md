@@ -1,5 +1,26 @@
 # Worklog
 
+## #214, #215
+
+This morning I felt bold... probably because **Monster Hunter World** is
+absolutely awesome and empowering. I decided to start work on setting up
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+as a stream which will allow me to easily create the multi-file test runner
+system. I'm going to do this before jumping into the
+[**Jest**](https://facebook.github.io/jest/) as a platform stuff because I want
+to be isolated from the eco first to understand what my actual needs and wants
+are and then explore that avenue after words. Learning streams is fun though...
+lol. Trying to get a feel for the space as I haven't done it before. But seeing
+how fast [**Tape**](https://github.com/substack/tape) is compared to what I have
+right now inspires me to pull this off so hopefully things go well. Coordinating
+the snapshot stuff and handling promises natively and everything... lots to do.
+Also I need to really start refactoring
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+because there is a lot of functionality that can be its own little module.
+Hopefully things continue to go smoothly and I don't get super stuck on
+anything.
+
+
 ## #211, #212, #213
 
 Spent all my sessions trying to build a full readme. There is a lot to the goals
