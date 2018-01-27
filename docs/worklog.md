@@ -1,5 +1,15 @@
 # Worklog
 
+## #216, #217
+
+WOOT!! I'm getting sooo close. Learning how to handle multiple streams at a
+time. I'm trying to get the system for running multiple test suites working. I
+have the proof of concept working without snapshots, so now I need to
+re-organize everything to do the snapshots as well asynchronously. Lots to still
+do as I'm just learning, but I'm getting closer. The tests that would take
+minutes to run now take 1 second... huge difference lol. Super awesome. :)
+
+
 ## #214, #215
 
 This morning I felt bold... probably because **Monster Hunter World** is
