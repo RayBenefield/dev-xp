@@ -1,5 +1,14 @@
 # Worklog
 
+## #219
+
+Spent a session before breakfast to explore how child processes work... then
+accidentally infinite loop nested spawned processes and had to find `sudo
+killall node` lol... so now that I have that rudimentary experience now I can at
+least start to think how I'm going to handle this moving forward... gotta
+isolate each process really. So we shall see how things go.
+
+
 ## #218
 
 Gotta take a break for the day. It is **Monster Hunter World** time. :) Realized
