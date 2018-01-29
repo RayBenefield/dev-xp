@@ -1,5 +1,17 @@
 # Worklog
 
+## #220, #221, #222
+
+WOOT!!! I found a pattern that works well and I'm satisfied. Ultimately it is
+running around 10 processes and 80 tests across all of them, including loading
+up the snapshot file for each in about 2.5 secs which isn't bad at all. I think
+it will scale well too. And it runs a single or a multi-file now. I should be
+able to easily create a multi-test runner now. Super pumped about it. I just
+need to add back in the snapshot updating portion and I should be good to go. :)
+Holy hell that was a lot of learning in terms of streams and child processes and
+learning how to get everything to coordinate together.
+
+
 ## #219
 
 Spent a session before breakfast to explore how child processes work... then
