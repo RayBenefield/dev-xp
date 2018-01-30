@@ -1,5 +1,17 @@
 # Worklog
 
+## #226
+
+I just couldn't get the problem off my mind, so instead of ditching I decided to
+push through with my last few ideas. I ended up just changing those tests to
+`broke-tests` so they don't get picked up by the glob. Which is sad and dumb.
+But at least it works...
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+still randomly breaks it seems and I'm not sure why, but oh well. I'm getting
+closer at least. Writing a new test framework is not easy. Not even in the
+slightest. Now I go play.
+
+
 ## #223, #224, #225
 
 SOOO CLOSE!!! Finally got the snapshot system working properly for multiple test
