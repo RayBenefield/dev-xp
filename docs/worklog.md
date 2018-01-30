@@ -1,5 +1,16 @@
 # Worklog
 
+## #223, #224, #225
+
+SOOO CLOSE!!! Finally got the snapshot system working properly for multiple test
+files, and went to go create a multi-test file runner and it worked manually and
+then when I went to commit my precommit hooks broke because of a lack of being
+in a git repository. Sooo something weird is happening with pathing or
+something. But I'm sooo close... grrr. I'm gonna take a break before paid work.
+Gotta play me some **Monster Hunter World** to relax a bit... well relax as much
+as **Monster Hunter World** allows lol. SOOO CLOSE!!! So angry... :\
+
+
 ## #220, #221, #222
 
 WOOT!!! I found a pattern that works well and I'm satisfied. Ultimately it is
