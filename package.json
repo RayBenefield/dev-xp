@@ -52,6 +52,8 @@
         "test:tape": "cd src/node_modules && babel-tape-runner {**,**/**}/tests.js | tap-spec",
         "?test:kape": "echo Run tests using and for Kape.",
         "test:kape": "cd src/node_modules && babel-node kape/cli.js **/snapshot-tests.js",
+        "?kape": "echo Run kape tests.",
+        "kape": "cd src/node_modules && babel-node kape/cli.js",
         "?sloc": "echo Print the number of lines of source code we have.",
         "sloc": "echo 'Lines of source code: ' && sloc src/node_modules/ --exclude .*test.*",
         "?update": "echo Update version number of packages.",
