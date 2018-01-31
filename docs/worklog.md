@@ -1,5 +1,23 @@
 # Worklog
 
+## #227, #228, #229, #230
+
+Today was going to be rather simple in just refactoring, but I actually dived
+deeply into some of the build system. So my initial jump in was about trying to
+simply customize the [**Rollup**](https://rollupjs.org/) config so that the
+`externals` are actually accurate to what is external for each project. Turns
+out I did a lot of that prework with `kd deps`. So I refactored that to
+explicitly divide external and local dependencies into different parts so I
+could use the external portions easily. Since I already use a dependency
+detective to figure out what is external and what not it also had the side
+benefit of catching weird imports like `loud-rejection/register`. So as a
+result, I also got rid of a lot of build warnings which is awesome. And then I
+realized I could use that work to also update the `package.json` for each
+package in post build when it is built. So I did that too and now packages will
+only have true external dependencies listed. :) Totally awesome and super
+pumped.
+
+
 ## #226
 
 I just couldn't get the problem off my mind, so instead of ditching I decided to
