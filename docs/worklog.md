@@ -1,5 +1,20 @@
 # Worklog
 
+## #231
+
+Simple first session. I ended up removing `jsome` as a dependency and replaced
+it with `prettyjson` instead which has a much cleaner dependency tree and isn't
+automatically a side effect. I might actually use that to do snapshots now
+instead of `jest-diff` and `pretty-format`. Would definitely make for more
+readable snapshots at least... not sure how useful it would be or what
+technicalities I'd run into. Hmmm... I'll check it out. I might spend some time
+splitting up
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+into a bunch of smaller packages. I need to simplify the entire system. Maybe I
+can get rid of a `max-line` warning in a couple of places. Man I need coffee...
+I'm up WAY too early.
+
+
 ## #227, #228, #229, #230
 
 Today was going to be rather simple in just refactoring, but I actually dived
