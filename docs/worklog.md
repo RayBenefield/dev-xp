@@ -1,5 +1,22 @@
 # Worklog
 
+## #232, #233, #234, #235, #236
+
+Holy hell... 5 sessions straight in a row. I just tackled lots of random
+refactorings and cleaning ups. I tackled maybe 5 or so issues. Lots of cleaning
+up of
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape).
+Improved the default usage to remove the verbosity of tests by using a lot of
+implicitness. I also reduced the complexity of the dep tree by removing
+`jest-diff` finally as well as `pretty-format`. As a result I'm using `diff` and
+`prettyjson` in response so visual diffs for prompting now look like `yaml` and
+the saved snapshots also look like `yaml` now as well. Totally awesome and
+simplified. Also removed a lot of fluff lines in my snapshot files that really
+weren't needed. Just a lot of cleaning up in general. I'm actually extremely
+happy with the setup right now. :) Still lots of actual package refactoring to
+do, but I think I'm in a better position now to do it.
+
+
 ## #231
 
 Simple first session. I ended up removing `jsome` as a dependency and replaced
