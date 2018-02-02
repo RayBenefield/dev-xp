@@ -1,5 +1,16 @@
 # Worklog
 
+## #240, #241, #242
+
+So I'm diving into [**Parsimmon**](https://www.npmjs.com/package/parsimmon) and
+trying to figure out how it works while building a parser for this simple
+templating language. Trying to wrap my head around it and I've got it decently
+so far... just lots to figure out and learn. It is a fun experience though. I'm
+stuck in a problem of looking ahead and avoiding pulling a string that has tags
+following it. It hurts my brain, but I'm working through it. Gonna go grab some
+quick breakfast and try to get one or two more sessions before work.
+
+
 ## #239
 
 Alright so I'm jumping into building my own parser/rendering system I guess.
