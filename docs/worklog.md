@@ -1,5 +1,14 @@
 # Worklog
 
+## #243, #244
+
+So I'm stuck right now... my biggest problem is figuring out the proper way to
+perform a lookahead. I want to allow the characters `>`, `<`, `/` as long as
+they don't make up a tag in sequence... but I can't figure out exactly how to do
+that... backtracking confuses me. Oh well, time to work for now. I really need
+to learn this eventually and might as well push through now. Bleh... dumb.
+
+
 ## #240, #241, #242
 
 So I'm diving into [**Parsimmon**](https://www.npmjs.com/package/parsimmon) and
