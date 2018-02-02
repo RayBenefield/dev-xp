@@ -1,5 +1,13 @@
 # Worklog
 
+## #238
+
+I couldn't get a CI rendering style working easily so I'm going to quickly build
+my own as it is ridiculous frustrating and I've been wanting to replace
+`RenderKid` anyway for dependency reduction reasons. So I'm going to do that
+now.
+
+
 ## #237
 
 A fairly early morning. Going through with some minor refactors to begin with.
