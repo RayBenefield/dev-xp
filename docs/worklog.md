@@ -1,5 +1,12 @@
 # Worklog
 
+## #239
+
+Alright so I'm jumping into building my own parser/rendering system I guess.
+Should be fun. I'm calling it `RenderKing` inspired by `RenderKid` lol... should
+be fun I haven't written a parser... like ever so exciting I guess. :)
+
+
 ## #238
 
 I couldn't get a CI rendering style working easily so I'm going to quickly build
