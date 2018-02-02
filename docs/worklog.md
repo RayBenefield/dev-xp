@@ -1,5 +1,15 @@
 # Worklog
 
+## #237
+
+A fairly early morning. Going through with some minor refactors to begin with.
+Just trying to clear out the smaller tickets on the chopping block before moving
+forward. Lots of quality of life details really like a CI rendering style and
+removing warnings from the build process by determining what exports value to
+use dynamically. I'll probably tackle some documentation stuff this morning as
+well. We shall see.
+
+
 ## #232, #233, #234, #235, #236
 
 Holy hell... 5 sessions straight in a row. I just tackled lots of random
