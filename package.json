@@ -101,6 +101,7 @@
         "minimatch": "^3.0.4",
         "minimist": "^1.2.0",
         "mkdirp": "^0.5.1",
+        "parsimmon": "^1.6.4",
         "prettyjson": "^1.2.1",
         "promise-retry": "^1.1.1",
         "registry-url": "^3.1.0",
