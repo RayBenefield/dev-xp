@@ -1,5 +1,28 @@
 # Worklog
 
+## #245
+
+Yesterday I thought a LOT on the entire parser situation and experimented after
+work and finally figured things out. So I used that knowledge that I gained in
+order to refactor the parser. And now it is super cleaned up and only 15 lines
+of code, which is awesome. It still needs to support open and close tags though,
+but after that I think I'm in the clear for the parser. I also found a bug with
+a particular character order so I need to fix that. I think I do need to do a
+a few updates to
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+though as well to improve my testing experience. I came up with a crazy cool
+idea to "skip" a test by just prepending the input array with a `!`. Since every
+input is required to be an array, nullifying it to `false` means I can filter
+those out in the tests. Super easy skip implementation. :) So after the
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+improvements and then the parser, next will be the styling portion because then
+I will have an AST to work with. But I might not get to that today. I foresee
+pain in my future with this parser as I keep learning
+[**Parsimmon**](https://www.npmjs.com/package/parsimmon). It's 4am so who
+knows... but I'm kind craving some [**Monster Hunter
+World**](http://www.monsterhunterworld.com/).
+
+
 ## #243, #244
 
 So I'm stuck right now... my biggest problem is figuring out the proper way to
