@@ -1,5 +1,17 @@
 # Worklog
 
+## #249
+
+While enjoying my breakfast I just stared at the
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+code for a while to get a sense of what it will take to enable multiple
+describes. I need to do a lot of refactoring and testing first though. There are
+a couple of places where I can actually make things cleaner and easier to read
+at least. Still sooo much to do for
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape).
+It is daunting sometimes, but gotta keep just pushing through. Baby steps.
+
+
 ## #248
 
 Decided just to do a simple refactor for now. Setup the ability to skip a test
