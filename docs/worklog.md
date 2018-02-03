@@ -1,5 +1,16 @@
 # Worklog
 
+## #251, #252
+
+Holy hell what a double session. Just spent a lot of work splitting refactoring
+the snapshot system. Made it much cleaner to read and split it into several
+different packages. I think I added 3 new packages in those two sessions to
+really simplify what was happening. So now I can focus on future features
+better. Gotta go out to a meetup now, but I'm happy with the work so far. Lots
+of cleanup. Also reduced the max-warnings from 7 to 6. So only 6 more files to
+get below 50 lines of code. :)
+
+
 ## #250
 
 Extracted all of the worker logic into its own package. This required me to pass
