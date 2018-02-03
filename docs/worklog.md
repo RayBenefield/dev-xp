@@ -1,5 +1,18 @@
 # Worklog
 
+## #248
+
+Decided just to do a simple refactor for now. Setup the ability to skip a test
+now. I don't get the input for serialization though, but since I still get the
+index, I know what test needs to be skipped as well so I can use that in the
+future for reporting purposes. Also did some slight refacctoring for that in
+order to reduce some lines of code and keep it under 50. Which really seems to
+be the sweet spot for small modular code. Time to go snag breakfast and I will
+probably look into enabling multiple describes in a single test file next since
+I'll want that for [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
+
+
 ## #246, #247
 
 Just spent a bit of time exploring the landscape of the things that need to be
