@@ -1,5 +1,15 @@
 # Worklog
 
+## #250
+
+Extracted all of the worker logic into its own package. This required me to pass
+a few more things to it since it is now isolated from the rest of
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+but it is giving me insight into where things need to be centralized and cleaned
+up. I think the next portion to clean up is to manage the snapshot updating
+portion because that is actually probably multiple concerns.
+
+
 ## #249
 
 While enjoying my breakfast I just stared at the
