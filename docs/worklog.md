@@ -1,5 +1,24 @@
 # Worklog
 
+## #246, #247
+
+Just spent a bit of time exploring the landscape of the things that need to be
+done. One of the things that has been frustrating me has been the rebasing
+script as it fills the buffer with craziness of warned failed rewrites, so I'm
+probably going to turn that into a package soon, cuz that is painful. I think
+what I'm going to do is probably use
+[**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom)
+to adjust tags instead, since the commits are supposed to be semantic we should
+be able to go through each commit/tag and repoint them where they should go
+after a rebase. Should be easy I think. Also spent a lot of time exploring
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+really and trying to figure out which parts to start improving that will help me
+with [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
+Kind of feeling the tiredness of being up since like 2am... so there's also that
+to consider. Bleh... sooo much to do all the time.
+
+
 ## #245
 
 Yesterday I thought a LOT on the entire parser situation and experimented after
