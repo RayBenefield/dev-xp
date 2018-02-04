@@ -1,5 +1,17 @@
 # Worklog
 
+## #256
+
+Did a bit more refactoring, just to make sure I could get my max-warnings down
+to 5. Only a bit more to completely clear out that backlog of gross over 50 line
+files. :P At least I don't have a triple digit (100+ lines) violation anymore. I
+also think I may have spotted how to tackle incremental saving of snapshots
+actually which I'm really pumped about, because I'm sick of having to go through
+a long list of snapshots every time I decide one is not right. That will be a
+useful feature to have. I might also be able to tackle not updating snapshots
+for skipped tests before breakfast. We shall see.
+
+
 ## #255
 
 Starting the morning slow with just refactoring out the printing portion of
