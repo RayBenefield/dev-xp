@@ -1,5 +1,14 @@
 # Worklog
 
+## #257, #258
+
+Decided to start working on the incremental snapshot saving system and then
+broke my brain. It wasn't as simple as I thought it would be, but now I'm in the
+weeds so might as well push through. I think I have a vague idea on how to pull
+this off right now, but we shall see if that works out after breakfast. I need
+to calm my brain a bit or Imma break it. lol...
+
+
 ## #256
 
 Did a bit more refactoring, just to make sure I could get my max-warnings down
