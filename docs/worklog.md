@@ -1,5 +1,30 @@
 # Worklog
 
+## #253, #254
+
+Another refactoring session of cleaning up lines of code everywhere and
+simplifying things. It actually wasn't too bad at all either. Had to really get
+rid of code duplication caught by js[**JS
+Inspect**](https://www.npmjs.com/package/jsinspect) which is an awesome tool to
+have in place at a high threshold as it really forces you to refactor. Moving it
+to just prepush has helped a lot to put its refactoring balance into place later
+on. Also happened to start sorting snapshots by index now, wish should make
+diffs actually much simpler. I'm hoping to also be able to use the input hash to
+know when the particular test has changed inputs. Should be really nice to have.
+Ideally in the future I'd like to have a full string of the input in the
+snapshot file so they become awesome references for people in the future as they
+quickly iterate. It makes the snapshot files much more valuable and informative
+during PRs as well when it includes the input as well as the output. Pushes a
+lot of the PR focus on the snapshot file rather than the test file. Reading
+assertions is painful as hell and seeing input to output mapping is WAY more
+valuable. I'm also curious on how I'll tie in assertions in the future. We shall
+see. I think I may be closer on figuring out how to handle multiple describes in
+a single test file now. So I'll look into that next I think. If I don't decide
+to tackle another small
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+feature/fix.
+
+
 ## #251, #252
 
 Holy hell what a double session. Just spent a lot of work splitting refactoring
