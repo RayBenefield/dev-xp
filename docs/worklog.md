@@ -1,5 +1,18 @@
 # Worklog
 
+## #255
+
+Starting the morning slow with just refactoring out the printing portion of
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+wasn't too bad. Also refactored it a bit into
+[**Chalk**](https://www.npmjs.com/package/chalk) templates. Made it a bit
+cleaner, but still some work todo... not exactly satisfied with it. But I'll
+deal. My goal today is to get multi-describes working so I can get back to work
+on [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
+Hopefully I'll get that done today.
+
+
 ## #253, #254
 
 Another refactoring session of cleaning up lines of code everywhere and
