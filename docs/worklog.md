@@ -1,5 +1,23 @@
 # Worklog
 
+## #259, #260, #261
+
+Finally... figured out what I needed to do for saving snapshots over time,
+ultimately I think it simplified my code and clarity around what package is
+responsible for what now.
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+in general is still probably my messiest setup, but I'll survive. It is my first
+time trying to really establish a solid testing framework from scratch. It's
+been fun. But now I have incremental snapshots and that was not an easy feature,
+but it is a super useful one. :) Next major session will be focused around
+multiple describes because I really want to get that damn [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking)
+done so I can finally replace [**Render
+Kid**](https://www.npmjs.com/package/renderkid) and have a CI style... it's
+amazing how much I have done just to get a damn CI formatting system. lol... and
+I thought that was going to be easy.
+
+
 ## #257, #258
 
 Decided to start working on the incremental snapshot saving system and then
