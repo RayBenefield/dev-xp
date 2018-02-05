@@ -1,5 +1,21 @@
 # Worklog
 
+## #262, #263, #264, #265
+
+Phew!!! I got multi-suites working just fine. Discovered a few bugs while doing
+it, but for the most part things are good. Took me a little bit, but things were
+much smoother this time now that I have much better organization and focus in
+each of the
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+packages. So I'm satisfied with the work. I think tomorrow morning the first
+thing I'll do is tackle the couple of bugs and then jump back into [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking)
+finally since I now have support for multi-suites and I want to start testing
+the various parts of the language in [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
+Woot progress!!!
+
+
 ## #259, #260, #261
 
 Finally... figured out what I needed to do for saving snapshots over time,
