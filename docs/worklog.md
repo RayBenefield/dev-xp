@@ -1,5 +1,19 @@
 # Worklog
 
+## #266, #267
+
+Cleaned up the couple of bugs that I found working on multi-suite functionality
+and cleaned up the readability of the code, which is super nice. I just took a
+quick look and I'm thinking maybe I should add in some more quality forcing
+tools like cyclomatic complexity and max-depth of blocks. Would force me to be
+more strict on things and force cleaner code. Well anyway, I'm ready to retackle
+[**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking)
+on my next major block. I think I'm going to go work on Serverless/Vue/Dynamo
+now though for some paid work. ;) Excited for that! Maybe tonight I'll tackle
+more.
+
+
 ## #262, #263, #264, #265
 
 Phew!!! I got multi-suites working just fine. Discovered a few bugs while doing
