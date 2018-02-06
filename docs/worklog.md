@@ -1,5 +1,18 @@
 # Worklog
 
+## #268
+
+So I'm in a lobby while Jess is at an appointment so I'm squeezing in some work
+time. I started working on [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking)'s
+parser again and the tests wouldn't run. So I did tons of exploring. This was
+probably the same problem I had when the tests wouldn't run like 1/5 of the
+time. Well I think I finally found it. The process doesn't get a chance to
+finish sending the last message before exitting. So I setup a callback and it
+ends properly now. I don't think I'll have any further issues. YAY!!! Time to
+get into parser details. :)
+
+
 ## #266, #267
 
 Cleaned up the couple of bugs that I found working on multi-suite functionality
