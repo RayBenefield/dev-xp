@@ -1,5 +1,14 @@
 # Worklog
 
+## #269
+
+Added a bunch of testing for each of the grammars for the [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking)
+parser. So far so good. Also labeled each group as pass/fail with comments and
+then realized that I could use actual test names. So I'll fix that later. Next
+session is probably just more cleaning up. Gotta go for now.
+
+
 ## #268
 
 So I'm in a lobby while Jess is at an appointment so I'm squeezing in some work
