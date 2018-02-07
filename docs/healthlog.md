@@ -1,5 +1,16 @@
 # Health Log
 
+## #7
+
+So I have taken a walk to get hot chocolate... normally I would get a caramel
+latte, but instead I need to cut out the caffeine in my life too, because I tend
+to suffer a LOT from caffeine withdrawals so I need to cut that out as well.
+Gotta maximize my health. Sure sugar isn't the best for weight, but I'm using it
+to compensate for cutting out fried foods from my diet completely and heavy
+salts. So things should keep going smoothly. Still gotta finish this second
+liter of smart water too and I think I might be due for another batch of stairs.
+
+
 ## #6
 
 So I didn't grab a bagel... I actually went bold and decided to grab some of
