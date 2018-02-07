@@ -1,5 +1,12 @@
 # Health Log
 
+## #4
+
+Just finished my 1 liter smart water while doing a coding session. I think I'm
+going to head out on a walk now since it helps clear my brain and I used to take
+walks in between sessions while it wasn't cold. I'm just gonna suck it up.
+
+
 ## #3
 
 Alright vitamin c dose consumed... funny story. I'm actually allergic to citrus.
