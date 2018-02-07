@@ -1,5 +1,26 @@
 # Worklog
 
+## #273, #274
+
+I have now firmly established my footing with a [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking)
+MVP that supports a style where a tag can have a value. That's it... so I can
+use it to insert premade text now... lol. Which is useful for adding like a bar,
+but that bar also still needs essentially like a `display: block` in order to be
+put on a new line automatically. I also created a project to properly track
+[**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking)
+separately from the other projects now so that is good too. Time to start
+decking it out in features now. And it will get constantly updated properly
+thanks to
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+being so good at tracking version updates. :) Super satisfied with this entire
+monorepo process so far. It has gone a LONG way since its initial inception and
+idea. I'm stoked!!! And hopefully my fixes in health will open up more time for
+me as well moving forward. Time to get prepared for some paid work... which I
+will start after doing some stairs. Here we go.
+
+
 ## #272
 
 Was eating breakfast, but still wanted to be productive, so I watched
