@@ -1,5 +1,13 @@
 # Health Log
 
+## #6
+
+So I didn't grab a bagel... I actually went bold and decided to grab some of
+Jess' super greens... chard and spinach and what not tossed in a bit of parmesan
+shredded cheese, grape tomatoes, olive oil, and apple cider vinegar... it is
+actually pretty good. :) Definitely a win. :)
+
+
 ## #5
 
 Alright a 5-ish minute walk between work sessions is now done. :) Wasn't too
