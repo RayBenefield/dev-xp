@@ -1,5 +1,17 @@
 # Health Log
 
+## #2
+
+Alright... holy shit... first stairs done. When you are as heavy and lazy as
+me... that 10 minutes is a nightmare. But only the first is the worst. I can do
+this. That is one thing down. So many to go. I'd like to at least do 30 minutes
+of moderate level of physical activity and 10 minutes of stairs is good for now.
+I can do a bit at a time between work. Good that hurt and I can taste my phlem
+all over again. Is that how you spell it? lol... alright gonna go take some
+vitamin c for another log and then I'll finish a water for another one. ARGH!!!
+I will fucking fight... damn it. And no heart attack yet. That is a positive.
+
+
 ## #1
 
 Today I'm changing everything. Over the past few weeks I have had a lot of aches
