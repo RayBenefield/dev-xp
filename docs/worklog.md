@@ -1,5 +1,20 @@
 # Worklog
 
+## #271
+
+Started out easy this morning with the actual programming stuff. Jumping into
+[**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking)
+I decided to actual use the multi test functionality to split parsing tests into
+passing and failing. Made it easier to understand what snapshots were what. I
+can't believe I started with comments lol... whatevs. I think I'm actually going
+to call the parsing system good for now. I know I'm not handling nested tags
+right now, but I think that is actually a good MVP. I can handle nested tags
+after the MVP. So I'll finish the last of the tests and then I'm going to start
+looking into the actual styling system which will involve reading my new AST.
+Should be fun lol...
+
+
 ## #270
 
 HUGE step for me this morning. I made scripts to make my steps towards healthy
