@@ -1,5 +1,16 @@
 # Worklog
 
+## #272
+
+Was eating breakfast, but still wanted to be productive, so I watched
+[**FunFunFunction**](https://www.youtube.com/funfunfunction) instead. The video
+was about setting up speech recognition in the browser using the IBM Watson
+apis... was pretty awesome. Good learning. Also did it while eating a morning
+salad. And drinking water. Gonna kill this damn health thing... yeah I know not
+the right word usage, but whatevs!!! Gonna go for a walk then get back to work.
+Actually going to go grab some hot chocolate.
+
+
 ## #271
 
 Started out easy this morning with the actual programming stuff. Jumping into
