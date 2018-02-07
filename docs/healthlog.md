@@ -1,5 +1,14 @@
 # Health Log
 
+## #3
+
+Alright vitamin c dose consumed... funny story. I'm actually allergic to citrus.
+And I haven't really eaten much vegetables. So vitamin c is really hard to come
+by for me. I'm also have ADD so I have a hard time remembering to take medicine.
+So I'm going to use this opportunity to build the habit. I cracked open a 1
+liter smart water so I'll log that when it is done.
+
+
 ## #2
 
 Alright... holy shit... first stairs done. When you are as heavy and lazy as
