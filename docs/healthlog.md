@@ -1,5 +1,12 @@
 # Health Log
 
+## #8
+
+Finished my second liter of smart water, which is good and I'll need to start a
+third. Before I do that though I'm going to jump onto the 10 mins of stairs.
+This ought to be fun... lol. Here we go.
+
+
 ## #7
 
 So I have taken a walk to get hot chocolate... normally I would get a caramel
