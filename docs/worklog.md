@@ -1,5 +1,14 @@
 # Worklog
 
+## #270
+
+HUGE step for me this morning. I made scripts to make my steps towards healthy
+living doable. I needed to use some programming to take my health into my hands.
+So you can read that in the [**healthlog.md**](./healthlog.md). For now I have
+to go do some stairs to pad my numbers. ;) Then I'll get back to [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
+
+
 ## #269
 
 Added a bunch of testing for each of the grammars for the [**Render
