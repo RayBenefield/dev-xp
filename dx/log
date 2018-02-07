@@ -9,7 +9,7 @@ SESSION=$(<./dx/.session)
 ((++SESSION))
 echo ${SESSION} > ./dx/.session
 git commit -am "docs(worklog): Log work for session ${SESSION}." -m "[skip ci]" --no-verify
-git push
+git push --no-verify
 git checkout ${BRANCH}
 git rebase master
 git stash pop

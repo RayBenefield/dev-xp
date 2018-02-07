@@ -9,7 +9,7 @@ APPLE=$(<./dx/.apple)
 ((++APPLE))
 echo ${APPLE} > ./dx/.apple
 git commit -am "docs(healthlog): Log stride towards healthy living ${APPLE}." -m "[skip ci]" --no-verify
-git push
+git push --no-verify
 git checkout ${BRANCH}
 git rebase master
 git stash pop
