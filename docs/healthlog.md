@@ -1,5 +1,14 @@
 # Health Log
 
+## #10
+
+Haven't finished my third water yet, but I walked to the Backyard with Jess and
+grabbed a garden sandwitch with chicken... it was delicious and full of veggies.
+Not sometihng I'll have often, but a good option when necessary. I'll report
+back when I finish my water, and sometime today I need to do my third set of
+stairs.
+
+
 ## #9
 
 AHHH!!! Fucking stairs man... they are exhausting... even though it was only 10
