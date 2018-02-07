@@ -1,5 +1,15 @@
 # Health Log
 
+## #9
+
+AHHH!!! Fucking stairs man... they are exhausting... even though it was only 10
+minutes. I'll get over it soon I hope. Perhaps after a week or two I can bump it
+to 15  minutes for each session. Man I'm dying... but not really which is good.
+Grabbed my 3rd 1 liter smart water so I'll report that when it is done. Time for
+paid work now. Bleh! Proud of myself though. 9 Heals in a single day... good
+stuff.
+
+
 ## #8
 
 Finished my second liter of smart water, which is good and I'll need to start a
