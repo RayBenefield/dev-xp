@@ -1,5 +1,23 @@
 # Health Log
 
+## #5
+
+Alright a 5-ish minute walk between work sessions is now done. :) Wasn't too
+bad. The cold is alright, at least it isn't icey. Also took a quick weight check
+for recording purposes. I weigh in at 249.4 pounds. So I have a long way to go.
+I think really long term I'd really like to be about 180. I think that is a
+solid weight for me and I'm going to ultimately shoot for that. But every pound
+will make a difference for motivation sake. Same that every 25 minute work
+session keeps me going. I also grabbed some grape tomatoes as snacks as I pass
+by them. So more grape tomatoes in the house would be good for my snacking
+purposes. I'll probably snag a bagel for breakfast rather than skip or order
+something unhealthy... as delicious as it sounds. But the bagel is faster and
+healthier... even with all the cream cheese. I'll justify it as I need to for
+now. :P It is about building the habit first and dropping the bad ones. It
+doesn't have to be perfect quite yet. Also I'll never go vegan... I can't not
+have cheese. Sorry folks. :P Back to work... need to grab a bagel first though.
+
+
 ## #4
 
 Just finished my 1 liter smart water while doing a coding session. I think I'm
