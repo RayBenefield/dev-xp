@@ -1,5 +1,15 @@
 # Health Log
 
+## #14
+
+This morning I started my day with a standing 15 min shower. Which is awesome...
+and impressive considering how sore my legs are from yesterday's stairs. It gave
+me the opportunity to stretch my legs out in preparation for doing more stairs
+today. Quite proud. I should probably start drinking water and everything before
+I forget. And vitamin C, that would be good too. Gotta do my first set of stairs
+soon.
+
+
 ## #13
 
 Forgot to report last night that I had a salad and veggies and ranch for dinner.
