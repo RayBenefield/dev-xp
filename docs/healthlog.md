@@ -1,5 +1,11 @@
 # Health Log
 
+## #19
+
+Had a quick bagel to hold me over until lunch. Trying to avoid grabbing a snack
+in the next two hours before lunch time. And just starting my third water too.
+
+
 ## #18
 
 Finished my second water for the day and going to grab a third. I also ended up
