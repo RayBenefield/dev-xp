@@ -1,5 +1,14 @@
 # Health Log
 
+## #11
+
+So I finally finished my third water. It is late in the day, but it is done. I
+might try for one more bottle. I typically don't go over 3, but I really should
+today. And that lunch has filled me so I haven't really needed to snack at all
+which is good. I should go on a walk though and I still haven't finished my
+third stairs yet. I guess I can do that after work in 30 minutes.
+
+
 ## #10
 
 Haven't finished my third water yet, but I walked to the Backyard with Jess and
