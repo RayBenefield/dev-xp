@@ -1,5 +1,25 @@
 # Worklog
 
+## #275
+
+This morning I had to fuel my curiosity real quick... one of the things that I
+realized this morning in the shadow is that I really want to be able to have my
+end distributed packages tested. Since I rollup all the dependencies, it should
+be really easy for me. Should take just an install in the project directory,
+then run tests that are in the same `node_modules` structure to ensure that it
+works fine. I tested with [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking)
+this morning that doesn't use external dependencies and it worked fine when I
+copied the tests and snapshots to a directory in the `dist/` folder. I should be
+able to come up with something in the future. I just needed to fuel my appetite
+for that before moving forward. I think it might be time for me to get back to
+[**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking)
+though. I've still gotta focus on filling out the styling system and eventually
+get into properly nested tags. I think I'll start with `display` as a styling
+option using `none`, `inline`, and `block`.
+
+
 ## #273, #274
 
 I have now firmly established my footing with a [**Render
