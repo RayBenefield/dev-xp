@@ -1,5 +1,21 @@
 # Worklog
 
+## #277, #278
+
+WOOT!!! The styling system is no functionally based. I've set a style precedence
+order so each style gets sent in that order, and then setup the stylers as
+functions that accept their setting and then create a function that accepts the
+node and then they modify that node and it gets reduced over to generate a final
+node which we send back the value of. Super stoked about that and it should be
+easy to refactor into supporting the margin properties which will need
+information on previous nodes. So hopefully it won't be too bad. This also means
+I can probably extract all of the styler rules into their own packages so we can
+support plugins. :) That is pretty awesome. I'm gonna make a ticket for that.
+With all that it was really easy for me to make both the `display: none` system
+as well as the `font` rules. Was REALLY easy. So two tickets knocked out
+today... very happy about that functionality.
+
+
 ## #276
 
 Spent this session focusing on what kind of work needs to be done for
