@@ -1,5 +1,16 @@
 # Health Log
 
+## #15
+
+Fucking stairs man... I swear the second day is ALWAYS the hardest when you
+restart excersizing. Your muscles tightening and it hurting like hell to walk
+results in a lot of failures... but not me today. I'm going to get through the
+next two as well. And hopefully tomorrow is a little easier. Continued hydration
+should help me make this consistent as well. The first couple weeks. I need to
+get through those consistently and then I should be able to keep this all up.
+That was ridiculously exhausting.
+
+
 ## #14
 
 This morning I started my day with a standing 15 min shower. Which is awesome...
