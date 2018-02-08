@@ -1,5 +1,11 @@
 # Health Log
 
+## #21
+
+Had jimmy john's for lunch... was delicious. Gotta start my 4th water for the
+day... perhaps I can get a 5th in tonight.
+
+
 ## #20
 
 Just finished my third water... and about to get lunch. I can barely walk so
