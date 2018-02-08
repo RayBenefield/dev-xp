@@ -1,5 +1,19 @@
 # Worklog
 
+## #276
+
+Spent this session focusing on what kind of work needs to be done for
+[**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking)
+there is still a lot of tedious stuff that needs to be done, but the ultimate
+goal is to be able to replace [**Render
+Kid**](https://www.npmjs.com/package/renderkid) for nearly identical
+functionality at its current usage state. Hopefully things don't last longer
+than the weekend and I can get back to things in the core
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+work.
+
+
 ## #275
 
 This morning I had to fuel my curiosity real quick... one of the things that I
