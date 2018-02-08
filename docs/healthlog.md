@@ -1,5 +1,15 @@
 # Health Log
 
+## #16
+
+Just took my vitamin c for the day... I think I'm going to need to start taking
+vitamin d as well since I stay indoors most my life. The vitamin d should help
+with my motivation and general mood and attitude as I shoot to improve
+everything. I've also got some water that I didn't finish yesterday, but I will
+count it today, cuz finishing the total is what matters. So I should finish that
+soon. Back to coding.
+
+
 ## #15
 
 Fucking stairs man... I swear the second day is ALWAYS the hardest when you
