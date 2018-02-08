@@ -1,5 +1,12 @@
 # Health Log
 
+## #13
+
+Forgot to report last night that I had a salad and veggies and ranch for dinner.
+Also had some organic white cheddar cheetos that actually seemed very pure... it
+was pretty awesome.
+
+
 ## #12
 
 Alright I completed my third set of stairs for the day. 12 heals in a day seems
