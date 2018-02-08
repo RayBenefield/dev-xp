@@ -1,5 +1,11 @@
 # Health Log
 
+## #17
+
+Just finished my first water of the day. Off to grab a second. I'll probably
+snag a bagel at some point too so I can survive to lunch.
+
+
 ## #16
 
 Just took my vitamin c for the day... I think I'm going to need to start taking
