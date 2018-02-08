@@ -1,5 +1,14 @@
 # Health Log
 
+## #12
+
+Alright I completed my third set of stairs for the day. 12 heals in a day seems
+solid. I think I might get one more by downing one more water. I'm exhausted and
+ready to go to bed for the day. I'm not looking forward to the soar muscles
+tomorrow from the workouts done today... even though it wasn't much, it was a
+lot for me.
+
+
 ## #11
 
 So I finally finished my third water. It is late in the day, but it is done. I
