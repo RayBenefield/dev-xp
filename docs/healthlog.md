@@ -1,5 +1,11 @@
 # Health Log
 
+## #20
+
+Just finished my third water... and about to get lunch. I can barely walk so
+Jimmy John's it is... lol.
+
+
 ## #19
 
 Had a quick bagel to hold me over until lunch. Trying to avoid grabbing a snack
