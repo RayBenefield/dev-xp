@@ -1,5 +1,14 @@
 # Health Log
 
+## #18
+
+Finished my second water for the day and going to grab a third. I also ended up
+taking up the damn trash bins... which was a pain with my ridiculously stiff
+legs. SOOO much pain. Also just weighed myself at 250.0 flat... so it is only
+really day two, we shall see how things look on week two. Gonna grab a bagel
+now. I'm starving and can't wait until lunch.
+
+
 ## #17
 
 Just finished my first water of the day. Off to grab a second. I'll probably
