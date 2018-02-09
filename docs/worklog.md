@@ -1,5 +1,34 @@
 # Worklog
 
+## #280, #281, #282, #283, #284
+
+Wow... what a big session. I needed to fix the CI tests for the font system for
+[**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking)
+so I started exploring all the things that I needed to figure out. Then dove
+into not saving snapshots when skipping a test in
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape).
+This would allow me to skip a test if `process.env.CI` was true. Then I could
+use that in the [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking)
+tests. So I went through that, got it working. Ended up removing the input hash
+from the snapshot keys... now it looks like
+[**Jest**](https://facebook.github.io/jest/) again. But whatevs. When I got
+skipping properly working I decided to fix up the aggregate results so I know
+how many are skipped and everything is now neatly done. Aggregates are printed
+in a nice fashion and only print if they need to (so failed doesn't print or
+create a new line unless there are failed tests). It just all works now. And I
+was able to properly skip things for [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
+:) Now I can finally continue and I just so happened to do some nice
+improvements to
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+while I was at it... monorepos are SOOO powerful cuz I just get to keep going as
+fast as possible and everything just magically works together and can be tested
+together easily. And all of that just got published immediately. I'm sooo happy
+about this.
+
+
 ## #279
 
 WOOT!!! So last night, just unaccounted for I browsed and played with
