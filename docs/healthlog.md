@@ -1,5 +1,14 @@
 # Health Log
 
+## #26
+
+I had "black hole" stomach this morning and was starving. Looked around for a
+snack and found a stash of Jess' apples and had one while I walked around the
+island. It was delicious... and I don't normally eat apples cuz I'm too lazy to
+handle the skin... lol. Don't judge me. About to start my first set of stairs.
+:) Then into coding.
+
+
 ## #25
 
 Started off the morning with a solid shower and used it for stretching. At first
