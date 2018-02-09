@@ -1,5 +1,11 @@
 # Health Log
 
+## #31
+
+Finished up my second water. At least one more to go. I might actually hit the
+stairs in an hour too after work.
+
+
 ## #30
 
 Also downed my vitamin c that I forgot to take this morning, and also downed
