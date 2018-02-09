@@ -1,5 +1,13 @@
 # Health Log
 
+## #30
+
+Also downed my vitamin c that I forgot to take this morning, and also downed
+vitamin d since Jess finally pointed out where it was... I apparently got lazy
+and stopped looking right before I got to the vitamin d bottle lol... don't
+judge me.
+
+
 ## #29
 
 Walked to the restaurant today for some food. Not the healthiest of things. Just
