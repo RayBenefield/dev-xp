@@ -1,5 +1,47 @@
 # Worklog
 
+## #279
+
+WOOT!!! So last night, just unaccounted for I browsed and played with
+[**ReasonML**](https://reasonml.github.io/) through a
+[**Babel**](https://babeljs.io/) plugin and it just didn't work. I wanted to see
+if I could just get it magically working, but nothing at all. Made me realize
+that [**Babel**](https://babeljs.io/) understanding is really the weakest
+portion of my knowledge right now. So I think I'm going to have to dive into
+[**Babel**](https://babeljs.io/) eventually myself to get a better feel of its
+internals, because [**Babel**](https://babeljs.io/) config loading is a pain and
+a half and always the part that I have problems with. So I studied a bunch on it
+this morning, mainly just its AST and differences between the ESAST. And then
+this morning I wanted to take one more go at
+[**ReasonML**](https://reasonml.github.io/) and it worked! So that
+[**ReasonML**](https://reasonml.github.io/) exploration started with a tweet
+that referenced [**add-reason**](https://github.com/nickzuber/add-reason) a new
+project someone was working on. So I gave it a try. Setup a
+[**ReasonML**](https://reasonml.github.io/) directory, setup
+[**bs-platform**](https://www.npmjs.com/package/bs-platform) the system that
+handles compiling for OCaml and [**ReasonML**](https://reasonml.github.io/).
+Then with [**add-reason**](https://github.com/nickzuber/add-reason) setting up
+the config files and the symlink, I setup a `test-reason` package in my monorepo
+setup, it worked with `babel-node` as hoping after compiling with `bsb
+-make-world`. And then I `kd prerelease`d it and `kd build`'d it and then tested
+against the `dist` version and it worked wonderful as well. So if I do the
+[**Rollup**](https://rollupjs.org/) it picks up the compiled source as expected.
+So I potentially have a route to bring
+[**ReasonML**](https://reasonml.github.io/) into my setup. Which is close enough
+to how I normally program in node that I won't mind the additional workload to
+learn as it isn't far off. I'm pumped to include it. And my health is stronger
+than it has been in years... I'm ready world!!! Time to get back to
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+as now I have to fix some testing things for [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
+Yesterday when I said all was fine, it broke in
+[**Travis**](https://travis-ci.org/) and I cried... lol. So now I have to figure
+out a solid way to skip those tests in [**Travis**](https://travis-ci.org/) and
+I also probably want to work on the system that just straight up fails in CI
+instead of updating snapshots. Which means I should also report proper
+aggregations instead of shortcutting... lol.
+
+
 ## #277, #278
 
 WOOT!!! The styling system is no functionally based. I've set a style precedence
