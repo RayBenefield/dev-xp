@@ -1,5 +1,13 @@
 # Health Log
 
+## #28
+
+Finished my first water of the day. Time to start a second one... and it is
+getting easier and easier to walk. I'll probably do my second stairs in the next
+few hours. Probably around lunch time. I'm getting hungry so probably bagel time
+for me.
+
+
 ## #27
 
 WOOT!!!! So I did my stairs, but today it felt easier than the other times... so
