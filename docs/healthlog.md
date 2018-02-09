@@ -1,5 +1,11 @@
 # Health Log
 
+## #24
+
+Had dinner consisting of that salad, clam chowder, and veggies and ranch. Was
+good. I'm really missing real food though. :( Oh well. Bed time for me.
+
+
 ## #23
 
 Walked to food today for delicious salad, clam chowder, and veggies and ranch.
