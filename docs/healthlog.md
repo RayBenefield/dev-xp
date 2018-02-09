@@ -1,5 +1,10 @@
 # Health Log
 
+## #22
+
+Finished my 4th water... heading out to go grab some dinner.
+
+
 ## #21
 
 Had jimmy john's for lunch... was delicious. Gotta start my 4th water for the
