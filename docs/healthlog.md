@@ -1,5 +1,15 @@
 # Health Log
 
+## #25
+
+Started off the morning with a solid shower and used it for stretching. At first
+my legs were ridiculously in pain after sleeping, but with some stretching it
+actually feels solid to walk around. I should be able to do 2-3 stairs today
+instead of one easily. :) I actually feel more stable than I have in a while
+standing wise and it doesn't hurt... amazing that only two days of stairs can do
+that.
+
+
 ## #24
 
 Had dinner consisting of that salad, clam chowder, and veggies and ranch. Was
