@@ -1,5 +1,13 @@
 # Health Log
 
+## #23
+
+Walked to food today for delicious salad, clam chowder, and veggies and ranch.
+Hurt like hell, but easier than expected. I should be able to get fully back
+into stair tomorrow... as long as my legs hold up. While my legs get accustomed,
+I don't think a full 3 is feasible without tearing muscles.
+
+
 ## #22
 
 Finished my 4th water... heading out to go grab some dinner.
