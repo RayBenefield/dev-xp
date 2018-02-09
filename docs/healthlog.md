@@ -1,5 +1,13 @@
 # Health Log
 
+## #29
+
+Walked to the restaurant today for some food. Not the healthiest of things. Just
+a french dip and clam chowder with a house salad and veggies and ranch for
+later. But I'll report on the house salad and veggies and ranch when they are
+consumed.
+
+
 ## #28
 
 Finished my first water of the day. Time to start a second one... and it is
