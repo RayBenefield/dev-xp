@@ -1,5 +1,28 @@
 # Health Log
 
+## #27
+
+WOOT!!!! So I did my stairs, but today it felt easier than the other times... so
+much so that I added an additional 5 minutes to the 10 minute timer after the 10
+minutes. So I felt good enough to keep going for another 5 minutes. WOOT!!! That
+helps keep me motivated... only my 5th set of stairs and I'm already feeling so
+much stronger and better than I have been in years. And I have sooo much sweat
+dripping down me right now... I'm an unnaturally sweety person lol. But who
+cares, I'm in my own home that I am fortunate to own as part of my privilege and
+situation. I'm lucky to have that and I hate that most people don't get the same
+opportunity. <3 I was thinking this whole time that part of what keeps me going
+is being able to accept the small wins as wins. And I have the opportunity to do
+that when I track more details. The more details I have the more places I can
+find SOMETHING that will keep me going. This log has helped a lot for my own
+tracking purposes, because even just writing it down helps me. Knowing I've been
+having a salad at least once a day, sometimes twice. Knowing that I had 4 waters
+yesterday rather than my usual max of 3. Knowing that I'm walking and doing
+stairs and yes it is hard, but that makes me human. Nothing comes easy... you
+just gotta keep pushing. Cracked open my first water of the day and I'll report
+back when it is done. I'll probably weigh myself in too for more tiny details.
+TO CODING!!!
+
+
 ## #26
 
 I had "black hole" stomach this morning and was starving. Looked around for a
