@@ -1,5 +1,13 @@
 # Health Log
 
+## #42
+
+Just got home from a bunch of errands and decided to due my third set of stairs.
+Wasn't too bad at least and tomorrow will just be easier. Was really nice to
+know that things are getting easier. In a day or two I might bump it up to
+regularly 15 minute sessions instead.
+
+
 ## #41
 
 Had an apple while strolling around our kitchen island while I cooled off from
