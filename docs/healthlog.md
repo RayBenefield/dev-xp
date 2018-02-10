@@ -1,5 +1,13 @@
 # Health Log
 
+## #41
+
+Had an apple while strolling around our kitchen island while I cooled off from
+the stairs. I also grabbed my second water and I should be able to down that and
+a third today at least. My ideal would be to hit 4 again because I need to stay
+really hydrated as I push through this.
+
+
 ## #40
 
 Finished my second batch of stairs, almost completely rail-use-less. lol... but
