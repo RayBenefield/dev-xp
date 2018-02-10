@@ -1,5 +1,12 @@
 # Health Log
 
+## #32
+
+For dinner I had a salad and veggies and ranch. Also had some crackers with
+pistachio butter, but then I ahd an allergic reaction to something. It was
+weird.
+
+
 ## #31
 
 Finished up my second water. At least one more to go. I might actually hit the
