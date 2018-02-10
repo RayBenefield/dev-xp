@@ -1,5 +1,21 @@
 # Health Log
 
+## #34
+
+Alright did my first set of stairs today. It was only 10 minutes and the soar in
+my legs are pretty much all gone. So this time I focused on muscle strength
+rather than persistence. I avoided using the rails for like 80% of the time. And
+focused on my leg muscles pushing me up rather than relying on my joints to do
+the work. Trying to avoid knee problems. It seemed to work well. From an aerobic
+perspective though I'm still having a hard time. Cardio was always my worst
+enemy so I need to focus on the muscle building right now to lessen the effort
+of carrying my body in general. 250 pounds is no easy feat so I have to try to
+make that easier. I had a hard enough time in the military with terrible shin
+splints, so I can try to find better ways to build my lung capabilities over
+time. I need to focus muscular for now because that has always been my strength
+when I exercise.
+
+
 ## #33
 
 Also finished up a third water. I didn't get very many heals yesterday. But I
