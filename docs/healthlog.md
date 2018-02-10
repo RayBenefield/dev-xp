@@ -1,5 +1,17 @@
 # Health Log
 
+## #40
+
+Finished my second batch of stairs, almost completely rail-use-less. lol... but
+I did it and my knees are feeling it a bit, but I'm hoping that in the next day
+or two that pain will prove to actually be the new muscles that have to grow and
+start pulling their weight. Hopefully... as the winter moves towards a close in
+April, I should be able to switch to morning walks fairly easily. I still have
+like a month and a half until then, but I should be able to do it. Hopefully I
+nail down this routine though easily and keep going. Seems to be doing well so
+far at least.
+
+
 ## #39
 
 Finished my first water for the day. I also just weighted myself at 249.2 which
