@@ -1,5 +1,14 @@
 # Health Log
 
+## #36
+
+Forgot to record my shower as well. Didn't have to stretch too much this morning
+since my legs were good. Was just trying to solve a programming problem. But
+that is good news. That means my body feels comfortable enough physically to
+solve problems mentally. Generally a physical ailment will prevent my brain from
+being able to focus. So this is a good sign.
+
+
 ## #35
 
 Also downed my vitamin c&d today. Started up a fresh water and I'm ready to jump
