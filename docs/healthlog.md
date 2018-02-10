@@ -1,5 +1,10 @@
 # Health Log
 
+## #38
+
+Did another set of 5 perfect pushups. While waiting for my build to pass.
+
+
 ## #37
 
 Also spontaneously I felt like I needed to start doing push ups. So I'm starting
