@@ -1,5 +1,21 @@
 # Worklog
 
+## #285, #286
+
+Simple morning session. I jumped in preparing to work on `display: block` which
+is kind of daunting to me... something about number of potential scenarios is
+exploding in my head. Luckily I'm not handling nested scenarios right now with
+open and closed tags. So I started out just exploring how multi-lines would end
+up working across the board and made a few adjustments that I think will work
+well. I now collapse all whitespace into a single space everywhere, and then
+when parsing the entire string, the very first node is left trimmed. It seems to
+have given me the results I'm looking for. Part of me is not really in a coding
+mood this morning. So I might actually just ditch out and go play some
+[**Monster Hunter World**](http://www.monsterhunterworld.com/). Yeah, I think
+I'll do that. Maybe I'll do some more work later. But I'm just not in it right
+now. I need a brain break... I need a weekend lol.
+
+
 ## #280, #281, #282, #283, #284
 
 Wow... what a big session. I needed to fix the CI tests for the font system for
@@ -508,8 +524,10 @@ files, and went to go create a multi-test file runner and it worked manually and
 then when I went to commit my precommit hooks broke because of a lack of being
 in a git repository. Sooo something weird is happening with pathing or
 something. But I'm sooo close... grrr. I'm gonna take a break before paid work.
-Gotta play me some **Monster Hunter World** to relax a bit... well relax as much
-as **Monster Hunter World** allows lol. SOOO CLOSE!!! So angry... :\
+Gotta play me some [**Monster Hunter
+World**](http://www.monsterhunterworld.com/) to relax a bit... well relax as
+much as [**Monster Hunter World**](http://www.monsterhunterworld.com/) allows
+lol. SOOO CLOSE!!! So angry... :\
 
 
 ## #220, #221, #222
@@ -535,10 +553,11 @@ isolate each process really. So we shall see how things go.
 
 ## #218
 
-Gotta take a break for the day. It is **Monster Hunter World** time. :) Realized
-that I was running into problems with a lack of isolation. So I'll have to think
-how to handle that. Basically a bunch of the tests change the process `cwd` and
-as a result lots of things break all over. So I'll think on it.
+Gotta take a break for the day. It is [**Monster Hunter
+World**](http://www.monsterhunterworld.com/) time. :) Realized that I was
+running into problems with a lack of isolation. So I'll have to think how to
+handle that. Basically a bunch of the tests change the process `cwd` and as a
+result lots of things break all over. So I'll think on it.
 
 
 ## #216, #217
@@ -553,8 +572,9 @@ minutes to run now take 1 second... huge difference lol. Super awesome. :)
 
 ## #214, #215
 
-This morning I felt bold... probably because **Monster Hunter World** is
-absolutely awesome and empowering. I decided to start work on setting up
+This morning I felt bold... probably because [**Monster Hunter
+World**](http://www.monsterhunterworld.com/) is absolutely awesome and
+empowering. I decided to start work on setting up
 [**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
 as a stream which will allow me to easily create the multi-file test runner
 system. I'm going to do this before jumping into the
@@ -579,9 +599,10 @@ of this project so I can't expect to fully finish it up right away. But I got a
 lot of good details explaining my full goal here. Because I think it is possible
 to do amazing things with the amazing things that the world has figured out. I
 didn't get as much work as I wanted to this morning, since I stayed up late
-playing **Monster Hunter World**. OMG!! The game is so good and if you have the
-chance to pick it up and you are reading this then do it. My first jump into the
-series and it is absolutely amazing. Gotta get to paid work now. :)
+playing [**Monster Hunter World**](http://www.monsterhunterworld.com/). OMG!!
+The game is so good and if you have the chance to pick it up and you are reading
+this then do it. My first jump into the series and it is absolutely amazing.
+Gotta get to paid work now. :)
 
 
 ## #208, #209, #210
@@ -603,9 +624,9 @@ are something that you might be closing... this will be good for the
 for
 [**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom).
 Hmmm... we'll see. Lots to do though in general. For now it is time to do some
-paid work... also **Monster Hunter World** comes out tonight at 9pm PST... :)
-I'm going to be quite distracted once that comes out and I'm sooo excited for
-it.
+paid work... also [**Monster Hunter World**](http://www.monsterhunterworld.com/)
+comes out tonight at 9pm PST... :) I'm going to be quite distracted once that
+comes out and I'm sooo excited for it.
 
 
 ## #206, #207
@@ -2119,7 +2140,8 @@ I'm actually in the weeds finally and have mocking of the filesystem working and
 will just keep pushing through. Going to hunt down all of the projects that are
 indeed in the proper directory structure. Just filling out a bunch of tests
 right now and going through the TDD process. Probably one or two more sessions
-left in me for the day before **Monster Hunter World Beta**!!!!
+left in me for the day before [**Monster Hunter
+World**](http://www.monsterhunterworld.com/) Beta!!!!
 
 
 ## #13, #14
