@@ -1,5 +1,16 @@
 # Health Log
 
+## #39
+
+Finished my first water for the day. I also just weighted myself at 249.2 which
+isn't much of a change still. But I'll survive. I can blame it on muscle as I am
+building quite a bit of that with stairs. I'm actually going to go do a second
+set now. Since I decided that I don't want to do programming this morning. I
+kind of want to play some [**Monster Hunter
+World**](http://www.monsterhunterworld.com/). So I'll earn that with a second
+set of stairs.
+
+
 ## #38
 
 Did another set of 5 perfect pushups. While waiting for my build to pass.
