@@ -1,5 +1,17 @@
 # Health Log
 
+## #35
+
+Also downed my vitamin c&d today. Started up a fresh water and I'm ready to jump
+into coding. Jess luckily has blueberry juice that I'm able to use now to make
+taking the vitamin c powder easier. It isn't the best taste in my mouth. Gotta
+keep working on my health. I'm doing good, diet is the hardest and habit is the
+hardest, so I just have to keep doing. For habit, just keep persisting. No
+matter how little I do, build the habit first just do it. Quality doesn't need
+to be focused on yet. At least I have the habit to stand in the shower now and
+then follow it up immediately with stairs.
+
+
 ## #34
 
 Alright did my first set of stairs today. It was only 10 minutes and the soar in
