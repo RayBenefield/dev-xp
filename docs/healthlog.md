@@ -1,5 +1,15 @@
 # Health Log
 
+## #37
+
+Also spontaneously I felt like I needed to start doing push ups. So I'm starting
+with 5 perfect pushups. And I'll try to use that throughout the day to build
+some strength and more healthy habits. Gotta hit my minimum 10 a day at least
+now that I've established a pseudo average. Actually the average is 11 1/3...
+but I like even numbers :P. Perhaps 10 will get easy when I do pushups regularly
+and I will be able to bump it to 15 instead.
+
+
 ## #36
 
 Forgot to record my shower as well. Didn't have to stretch too much this morning
