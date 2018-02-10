@@ -1,5 +1,15 @@
 # Health Log
 
+## #33
+
+Also finished up a third water. I didn't get very many heals yesterday. But I
+was distracted. Sounds like my minimum number of heals a day I should shoot for
+is probably around 10-ish. I had 12 the first two days and 9 yesterday. It is
+the morning and my legs feel really strong today with minor pain now. I still
+have to limp a little bit, but I should be good to go on stairs for sure. Just
+need to do it. At least yesterday I did a 15 minute session rather than a 10.
+
+
 ## #32
 
 For dinner I had a salad and veggies and ranch. Also had some crackers with
