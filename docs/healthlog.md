@@ -1,5 +1,12 @@
 # Health Log
 
+## #43
+
+Had a side salad along with my meatball sub... twas delicious. Still have some
+veggies and ranch to be consumed later in the evening as I play [**Monster
+Hunter World**](http://www.monsterhunterworld.com/). :)
+
+
 ## #42
 
 Just got home from a bunch of errands and decided to due my third set of stairs.
