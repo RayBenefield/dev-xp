@@ -1,5 +1,16 @@
 # Health Log
 
+## #47
+
+Took a standing shower this morning and had no need to sit down which is a good
+sign that my leg strength is enough to hold my body for longer periods now with
+little strain. Thank you stairs. I feel the most "stable" I've been in years,
+not feeling like my body is too heavy and not slothing around anymore. I think
+today I'm actually going to take a 30 min. walk instead of doing stairs. I think
+that would be good for me. Let me legs play a little catch up while keeping some
+sort of physical activity going. Time for an apple, some water, and my vitamins.
+
+
 ## #46
 
 Yesterday I forgot to report that I finished a fourth water. WOOT!!! And it
