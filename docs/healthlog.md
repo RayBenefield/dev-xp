@@ -1,5 +1,11 @@
 # Health Log
 
+## #48
+
+Vitamin C/D consumed... I'm actually going to have a bowl of cereal instead. I
+have options now that we went grocery shopping!!! YAY!!!
+
+
 ## #47
 
 Took a standing shower this morning and had no need to sit down which is a good
