@@ -1,5 +1,12 @@
 # Health Log
 
+## #45
+
+Just finished my third water for the day... I'm going to try to grab a fourth
+and finish it before the end of my [**Monster Hunter
+World**](http://www.monsterhunterworld.com/) time.
+
+
 ## #44
 
 Finished my second water for the day. I need to at least finish a third.
