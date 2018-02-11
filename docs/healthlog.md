@@ -1,5 +1,11 @@
 # Health Log
 
+## #52
+
+I then had about enough water for a liter so I'm counting that as my second
+water for the day.
+
+
 ## #51
 
 Super proud of myself. I went on my brisk walk and decided to walk towards
