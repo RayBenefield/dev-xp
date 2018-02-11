@@ -1,5 +1,10 @@
 # Health Log
 
+## #50
+
+Finished my first water of the day. Going on my walk now.
+
+
 ## #49
 
 Finished up a bowl of cereal... not really a fan. It was Maple and Pecans...
