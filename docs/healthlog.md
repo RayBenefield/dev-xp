@@ -1,5 +1,11 @@
 # Health Log
 
+## #44
+
+Finished my second water for the day. I need to at least finish a third.
+Probably won't be able to get through a 4th though.
+
+
 ## #43
 
 Had a side salad along with my meatball sub... twas delicious. Still have some
