@@ -1,5 +1,12 @@
 # Health Log
 
+## #53
+
+Finally I brisk walked the entire way home for an additional 25 minutes of
+walking. So 50 minutes of brisk walking today. Feels good man. :) Gonna work on
+my third water now.
+
+
 ## #52
 
 I then had about enough water for a liter so I'm counting that as my second
