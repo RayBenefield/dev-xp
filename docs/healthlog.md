@@ -1,5 +1,12 @@
 # Health Log
 
+## #49
+
+Finished up a bowl of cereal... not really a fan. It was Maple and Pecans...
+maybe the other one I got will be better. Oh well. Working on my first water
+while my phone charges and then I'll go on a 30 min walk.
+
+
 ## #48
 
 Vitamin C/D consumed... I'm actually going to have a bowl of cereal instead. I
