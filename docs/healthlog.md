@@ -1,5 +1,17 @@
 # Health Log
 
+## #46
+
+Yesterday I forgot to report that I finished a fourth water. WOOT!!! And it
+looks like I reached 13 heals in a day. Good deal. The additional pushups were
+definitely helpful. I need to keep those up as well. And I have more snacks
+after our grocery run now so more apples for me to consume and more tomatoes and
+salad stuffz. :) The habit should just get better. Shower time and a bit of
+stretching. My leg muscles are still adapting, but they seem to be doing well. I
+look forward to the time when they are not healing and stairs are just an
+aerobic thing I'm trying to conquer.
+
+
 ## #45
 
 Just finished my third water for the day... I'm going to try to grab a fourth
