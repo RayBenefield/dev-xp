@@ -1,5 +1,13 @@
 # Health Log
 
+## #51
+
+Super proud of myself. I went on my brisk walk and decided to walk towards
+Shari's... walked briskly on a timer for 15 minutes and then decided I was
+already halfway there might as well keep going. So a 25 minute walk all the way
+there.
+
+
 ## #50
 
 Finished my first water of the day. Going on my walk now.
