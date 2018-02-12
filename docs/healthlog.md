@@ -2,6 +2,13 @@
 
 ## #57
 
+247.2... just weighed myself :). Hopefully it isn't just a water weight thing.
+We shall see. I'm just finishing up my first water and I'm actually exhausted
+and I'm going to go get some more sleep.
+
+
+## #57
+
 I followed that up with the taking of my vitamin C/D with some blueberry juice.
 And now I'm working on my first water. I feel so out of it right now though.
 Just really not in a great mood this morning. Bleh...
