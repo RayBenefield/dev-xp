@@ -1,5 +1,12 @@
 # Health Log
 
+## #57
+
+I followed that up with the taking of my vitamin C/D with some blueberry juice.
+And now I'm working on my first water. I feel so out of it right now though.
+Just really not in a great mood this morning. Bleh...
+
+
 ## #56
 
 After stairs I grabbed an apple and ate it for 5 or so minutes while walking
