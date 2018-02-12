@@ -1,5 +1,13 @@
 # Health Log
 
+## #54
+
+Well I got food poisoning yesterday and was out of commission for the night so I
+didn't get much "healing" done sadly. I had to sit in the shower and just bleh
+for a half hour. Did not feel good. Good news is that even though I felt
+iserable this morning I did everything anyway. Starting with a standing shower.
+
+
 ## #53
 
 Finally I brisk walked the entire way home for an additional 25 minutes of
