@@ -1,5 +1,11 @@
 # Health Log
 
+## #56
+
+After stairs I grabbed an apple and ate it for 5 or so minutes while walking
+around the kitchen island.
+
+
 ## #55
 
 Followed by actually doing 10 mins of stairs... today was hard. Being drained
