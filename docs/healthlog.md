@@ -1,5 +1,14 @@
 # Health Log
 
+## #55
+
+Followed by actually doing 10 mins of stairs... today was hard. Being drained
+from last night and just not in the best of mood means that I really made an
+accomplishment that I pushed though no matter how terrible I felt. Because I
+don't have a choice... I already made the choice to be healthier, not I just
+have an obligation/responsibility. That's how I'm viewing it.
+
+
 ## #54
 
 Well I got food poisoning yesterday and was out of commission for the night so I
