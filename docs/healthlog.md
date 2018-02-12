@@ -1,5 +1,12 @@
 # Health Log
 
+## #58
+
+Had a second batch of water... about to start my third. My breakfast wasn't the
+most healthy thing so I'm not reporting that. I'll have some veggies and ranch
+in a sec though.
+
+
 ## #57
 
 247.2... just weighed myself :). Hopefully it isn't just a water weight thing.
