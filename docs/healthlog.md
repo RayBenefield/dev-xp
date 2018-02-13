@@ -1,5 +1,10 @@
 # Health Log
 
+## #59
+
+Had some veggies and ranch for a snack.
+
+
 ## #58
 
 Had a second batch of water... about to start my third. My breakfast wasn't the
