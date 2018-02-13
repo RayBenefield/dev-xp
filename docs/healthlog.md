@@ -1,5 +1,12 @@
 # Health Log
 
+## #67
+
+Following my usual apple I pulled out my first water and then downed my vitamin
+C/D. And now I'm off to go do some paid work. It's 8 am and my body is ready. ;)
+I should finish my first water fairly easily.
+
+
 ## #66
 
 After my stairs, I did my usual routine... had an apple while I walked around
