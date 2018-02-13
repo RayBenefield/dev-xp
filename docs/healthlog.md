@@ -1,5 +1,11 @@
 # Health Log
 
+## #66
+
+After my stairs, I did my usual routine... had an apple while I walked around
+the kitchen island for 5 mins.
+
+
 ## #65
 
 So this is weird... I had a sudden urge to do stairs as I walked towards the
