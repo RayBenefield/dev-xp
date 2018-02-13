@@ -1,5 +1,11 @@
 # Health Log
 
+## #68
+
+Just finished my first water and about to start my second. Already on a solid
+track. :)
+
+
 ## #67
 
 Following my usual apple I pulled out my first water and then downed my vitamin
