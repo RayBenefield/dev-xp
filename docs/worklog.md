@@ -1,5 +1,23 @@
 # Worklog
 
+## #287
+
+I've pretty much been slacking behind on doing work. I've taken essentially a
+"weekend" to gather myself back into a working mood. And I've recently reached
+high rank in [**Monster Hunter World**](http://www.monsterhunterworld.com/) so
+that's to blame as well... lol. Sooo much fun. Anyways, this session I was just
+creating issues inspired by how [**Lerna**](https://lernajs.io/) does a lot of
+their integration testing. There are a lot of great ideas that
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+can learn from, so I created several inspired tickets for them and investigated
+even more. Lots of [**Jest**](https://facebook.github.io/jest/) trickery as well
+as fixture management which is really nice actually. I'm thinking I will
+actually do some `display: block` work this morning for [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
+We shall see how I feel after doing my morning stairs. lol... I may need some
+more [**Monster Hunter World**](http://www.monsterhunterworld.com/) time. ;)
+
+
 ## #285, #286
 
 Simple morning session. I jumped in preparing to work on `display: block` which
