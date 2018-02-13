@@ -1,5 +1,11 @@
 # Health Log
 
+## #60
+
+Had a third water and calling it a night. Dinner was not healthy sadly. Slipping
+on the diet, hopefully I turn things around tomorrow.
+
+
 ## #59
 
 Had some veggies and ranch for a snack.
