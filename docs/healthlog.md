@@ -1,5 +1,15 @@
 # Health Log
 
+## #65
+
+So this is weird... I had a sudden urge to do stairs as I walked towards the
+kitchen... so I did. In addition to my 50 mins worth of walking, I squeezed in
+some stairs. My body is really changing and it has only been 7 days. This whole
+counting my "heals" has really done wonders for me. And it was 100% rail free
+going upstairs, sometimes I would use it going down cuz I was bored lol... but
+ultimately it was actually fairly easy and my body is getting used to it.
+
+
 ## #64
 
 The walk back was even colder, cuz my jacket took the sweat from my first walk
