@@ -1,5 +1,10 @@
 # Health Log
 
+## #71
+
+Totally forgot that I did 5 perfect pushups earlier. :)
+
+
 ## #70
 
 Also had a second apple after that and started on my second water. The fetching
