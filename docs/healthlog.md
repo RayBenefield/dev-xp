@@ -1,5 +1,33 @@
 # Health Log
 
+## #63
+
+At Shari's I had a bunch of water and a mostly protein breakfast. 3 eggs,
+T-bone, and toast with some apple juice and water. I had them not butter the
+toast, and accidentally got a large apple juice and a small water, so next time
+I'll be clear of that and switch the sizes. I had the third egg because I
+swapped out my hashbrowns since I'm trying to avoid super fried foods as much as
+possible. The steak and eggs and Shari's isn't too oily so I think ultimately
+it'll work out... it is my guilty pleasure at the end of a 25 minute walk/jog
+lol... and my muscles need the protein right? I don't know how health works
+lol...
+
+
+## #62
+
+I broke something somewhere, cuz my heal count for the commits are one ahead of
+my entries... lol. So I'm putting two entries there. So then after taking a
+shower I decided to head out to Shari's this morning... a 25 min. walk. Note: It
+was 15 degrees F when I left... damn cold. But I'm not going to let the cold
+stop me from keeping my health. So I bundled up my jacket, setup my hood, grabbed my zip
+gloves, and then headed out. Note also, I'm very stubborn and I hate long jeans,
+so I wore shorts jeans on top of inside shorts. lol... so my poor shins suffered
+a beating. In order to keep them warm... I had to stop every 5-10 mins to rub
+them warm. Luckily I have these fancy zip away gloves to easily expose my hands.
+But also I did some jogging on the way and that helped. So I'm back to doing
+minor jogs... not just walking. :) Twas a good call.
+
+
 ## #61
 
 A new day and I'm feeling in a much better mood. This morning I got up and
