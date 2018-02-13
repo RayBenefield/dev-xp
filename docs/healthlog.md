@@ -1,5 +1,13 @@
 # Health Log
 
+## #70
+
+Also had a second apple after that and started on my second water. The fetching
+of water is actually what triggered my stair walking... pretty stoked about it.
+;) I'll report back probably with my lunch treats and the finishing of second
+said water.
+
+
 ## #69
 
 So I did a second set of stairs... seriously, my mind is blown how much easier
