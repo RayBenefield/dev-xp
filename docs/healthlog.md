@@ -1,5 +1,17 @@
 # Health Log
 
+## #64
+
+The walk back was even colder, cuz my jacket took the sweat from my first walk
+and decided to make it colder... lol. And I also noticed on the way back that my
+mustache was frozen from the condensation from breathing out of my nose. Holy
+hell it was cold. But I did it. I even took pictures to prove it. :P Anyways,
+now it is time to get some coding done. :) I'm satisfied with my current health
+situation. Even if I've been slacking lately, it was cuz my mood was down and I
+still pushed through. Good sign of things to come. And this log has been a
+savior for keeping me sane and going. 64 is a magic number. ;) ONWARDS TO 128!!!
+
+
 ## #63
 
 At Shari's I had a bunch of water and a mostly protein breakfast. 3 eggs,
