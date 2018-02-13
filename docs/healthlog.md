@@ -1,5 +1,14 @@
 # Health Log
 
+## #69
+
+So I did a second set of stairs... seriously, my mind is blown how much easier
+it is and how much more willing I am do to this over and over again. It just
+gets easier and I'm still crazy sweaty, but it hasn't stopped me. So now I'm at
+50 min walk + 20 min stairs... just because I felt like it. Not intended in the
+slightest.
+
+
 ## #68
 
 Just finished my first water and about to start my second. Already on a solid
