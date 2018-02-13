@@ -1,5 +1,10 @@
 # Health Log
 
+## #72
+
+Finished my second water. YAY!!! Time to start my third.
+
+
 ## #71
 
 Totally forgot that I did 5 perfect pushups earlier. :)
