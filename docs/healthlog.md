@@ -1,5 +1,12 @@
 # Health Log
 
+## #61
+
+A new day and I'm feeling in a much better mood. This morning I got up and
+jumped into the shower, standing is not a problem anymore, but I'm recording it
+so I don't revert. ;) So still counts for me. :P
+
+
 ## #60
 
 Had a third water and calling it a night. Dinner was not healthy sadly. Slipping
