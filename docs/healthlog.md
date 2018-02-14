@@ -1,5 +1,11 @@
 # Health Log
 
+## #73
+
+Had some cafe yumm, basically rice, beans, salsa, sour cream, cheese, and
+avocado all in a wrap. Delicious.
+
+
 ## #72
 
 Finished my second water. YAY!!! Time to start my third.
