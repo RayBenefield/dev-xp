@@ -1,5 +1,10 @@
 # Health Log
 
+## #74
+
+Finished my third water... off to a meetup for JS tonight.
+
+
 ## #73
 
 Had some cafe yumm, basically rice, beans, salsa, sour cream, cheese, and
