@@ -1,5 +1,11 @@
 # Health Log
 
+## #85
+
+Then I grabbed my usual apple for 5 mins worth of laps around the island to cool
+down.
+
+
 ## #84
 
 Then jumped right into doing stairs... today I decided I wanted to push it. I
