@@ -1,5 +1,14 @@
 # Health Log
 
+## #87
+
+Just finished my first water and I think I'm going to do a set of stairs before
+playing a bit of [**Monster Hunter World**](http://www.monsterhunterworld.com/)
+before doing work today. Feeling good as I'm back to coding on [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
+:)
+
+
 ## #86
 
 And finally took my vitamin C/D. Actually, I don't remember having that
