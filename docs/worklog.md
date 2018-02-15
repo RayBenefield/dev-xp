@@ -1,5 +1,22 @@
 # Worklog
 
+## #288
+
+After DAYS... I've finally gotten back into work and so far I'm satisfied. I
+started work on the `display: block` functionality. But I got past the simple
+part and the simple use cases are now snapshotted. Next is trying to figure out
+how to handle previous node information. Because I don't want to add a new line
+at the beginning if one already exists in the previous value. Not quite sure
+exactly where to go from here. Perhaps I pass in a previous node and just go off
+the final value it has and check the last character and if it is a newline, then
+just don't add a newline... I guess that is the simplest approach. This TDD
+stuff REALLY helps. Like seriously... smallest implementation. And best thing is
+that with snapshots when I snapshot the simplest implementations, I know that
+they should never break when implementing the new feature. So nice... gonna take
+a break for a bit while I mull over potential fallout to the approach I
+described above.
+
+
 ## #287
 
 I've pretty much been slacking behind on doing work. I've taken essentially a
