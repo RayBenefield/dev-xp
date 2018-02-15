@@ -1,9 +1,14 @@
 # Health Log
 
+## #78
+
+I took a standing shower again... so that is good.
+
+
 ## #77
 
 Also squeezed in a cinammon apple sauce which was actually pretty good. I
-ormally don't have applesauce.
+normally don't have applesauce.
 
 
 ## #76
