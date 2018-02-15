@@ -1,5 +1,15 @@
 # Health Log
 
+## #82
+
+Also for dinner I had a salad and veggies and ranch. Alongside a hotdog and some
+organic cheetos. Very happy about that. It was a lot of food, but was totally
+worth it. The hotdog with ketchup and mustard was a really nice change of pace
+and option with the handful of cheetos. I was able to really savor those while I
+also enjoyed my salad and veggies. Was a fairly balanced dinner. So the hotdog
+was better with cheddar... still... it was only one. lol...
+
+
 ## #81
 
 Finished my one and only water yesterday... sad really. But I should be able to
