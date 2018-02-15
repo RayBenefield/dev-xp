@@ -1,5 +1,12 @@
 # Health Log
 
+## #79
+
+For lunch I made a super healthy choice of getting a salad instead of french
+fries. Which would have just been an easy slip up, but I changed it
+appropriately.
+
+
 ## #78
 
 I took a standing shower again... so that is good.
