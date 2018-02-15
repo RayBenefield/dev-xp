@@ -1,5 +1,11 @@
 # Health Log
 
+## #81
+
+Finished my one and only water yesterday... sad really. But I should be able to
+catchup today (I'm writing this after the fact).
+
+
 ## #80
 
 And finally Jess and I walked around Old Mill for a while which was good for my
