@@ -1,5 +1,16 @@
 # Health Log
 
+## #84
+
+Then jumped right into doing stairs... today I decided I wanted to push it. I
+went for a more brisk stair climbing. Normally I just focus on finishing, today
+I put some force behind it. Trying to force a more aerobic exercise now. My
+easiest time in life is always strength... I need to focus on my heart and lungs
+and improving their capabilities so this is a good first step. I was able to
+push hard for the first 5 minutes or so and then after that things got hard and
+I had to result to the railing, but it's a start and a healthy start.
+
+
 ## #83
 
 This morning though I started with a nice shower, standing of course. I felt
