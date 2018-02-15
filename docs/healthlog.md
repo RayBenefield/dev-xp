@@ -1,5 +1,10 @@
 # Health Log
 
+## #76
+
+I followed it up with an apple as per usual with light walking.
+
+
 ## #75
 
 It is already late in the day, but its been busy because of Valentine's. I
