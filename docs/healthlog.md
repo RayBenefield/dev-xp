@@ -1,5 +1,11 @@
 # Health Log
 
+## #83
+
+This morning though I started with a nice shower, standing of course. I felt
+better this morning waking up then yesterday so that is good.
+
+
 ## #82
 
 Also for dinner I had a salad and veggies and ranch. Alongside a hotdog and some
