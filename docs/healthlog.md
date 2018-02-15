@@ -1,5 +1,12 @@
 # Health Log
 
+## #75
+
+It is already late in the day, but its been busy because of Valentine's. I
+started with a 10 min stairs. It was actually much harder this morning, I felt
+drained and strangely woke up feeling completely dehydrated.
+
+
 ## #74
 
 Finished my third water... off to a meetup for JS tonight.
