@@ -1,5 +1,13 @@
 # Health Log
 
+## #80
+
+And finally Jess and I walked around Old Mill for a while which was good for my
+legs. As the day dwindles down, I probably won't get much done, but I'm cool
+with the day off as I get back to things tomorrow. Hopefully I won't feel so
+dehydrated. 
+
+
 ## #79
 
 For lunch I made a super healthy choice of getting a salad instead of french
