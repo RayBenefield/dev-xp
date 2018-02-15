@@ -1,5 +1,10 @@
 # Worklog
 
+## #292
+
+Responding to a frontend pro/con conversation in the Eugene Tech Slack.
+
+
 ## #289, #290, #291
 
 WOOT!!! I did it!!! Finally got `display: block` working as I think it should
