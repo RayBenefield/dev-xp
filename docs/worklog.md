@@ -1,5 +1,25 @@
 # Worklog
 
+## #289, #290, #291
+
+WOOT!!! I did it!!! Finally got `display: block` working as I think it should
+work... obviously this is going to get more complicated once I start adding in
+nested styling and stuff... but this is a solid start. Seriously. Had to tweak
+some things and change how the styler works, it now returns a node instead of
+just the node's value. The parser also needed to convert nothing but whitespace
+into an empty string. The core of renderking needed to drop any final node value
+that had no value worth a damn. And it also had to start passing the previous
+node into the styler. All of this enabled everything and will also enable future
+things. I'll also be able to start doing some more complex styling rules since I
+have access to the previous node now. So I'm pumped and happy about the current
+state. Nesting is going to get tough, but I will survive. TDD has made a HUGE
+difference in how this is getting written and it shouldn't be too bad at all
+moving forward. I'll probably need to do some readability refactoring at some
+point, but for the most part I'm happy with the results. Also found a bug, but
+it should be an easy fix. This first daunting part is now over and I'm
+satisfied. :) Good to be back to coding.
+
+
 ## #288
 
 After DAYS... I've finally gotten back into work and so far I'm satisfied. I
