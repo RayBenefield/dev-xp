@@ -1,5 +1,14 @@
 # Health Log
 
+## #86
+
+And finally took my vitamin C/D. Actually, I don't remember having that
+yesterday. Oh well... yesterday was not normal routine so it's fine. Actually
+downed it this morning with a green tea canada dry... great stuff if you haven't
+tried it. Not sure if it has caffeine, but if it does, it is very little. Popped
+open my first water and I'll report when that is finished.
+
+
 ## #85
 
 Then I grabbed my usual apple for 5 mins worth of laps around the island to cool
