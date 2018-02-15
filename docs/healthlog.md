@@ -1,5 +1,11 @@
 # Health Log
 
+## #77
+
+Also squeezed in a cinammon apple sauce which was actually pretty good. I
+ormally don't have applesauce.
+
+
 ## #76
 
 I followed it up with an apple as per usual with light walking.
