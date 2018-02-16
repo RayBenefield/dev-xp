@@ -1,5 +1,11 @@
 # Health Log
 
+## #92
+
+Had a salad for dinner with spinach, tomatoes, olives, cheese, oil, and apple
+cider vinegar.
+
+
 ## #91
 
 Finished a second water as well... never got to a third though. :(
