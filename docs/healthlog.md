@@ -1,5 +1,12 @@
 # Health Log
 
+## #88
+
+Ended up doing a second set of stairs. This time I actually jogged around half
+of it and I'm quite happy about that. Was loads of difficult and it caused me to
+have to use the rails, but it was good for me.
+
+
 ## #87
 
 Just finished my first water and I think I'm going to do a set of stairs before
