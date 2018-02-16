@@ -1,5 +1,16 @@
 # Health Log
 
+## #1
+
+Started the day with a standing shower. I also changed the way I'm numbering
+these entries now. Instead of counting total of all time, I'm counting for the
+day. It will help me keep a solid baseline. I'm not feeling well this morning...
+I'm exhausted, tired, grumpy, and just generally in a bleh mood. Which sucks. I
+think it is because I need to prioritize sleeping before 8. So I'm going to
+start healing when I lay down earlier than 8. Not having the sleep is absolutely
+killing my momentum.
+
+
 ## #11
 
 Also had to walk to lunch yesterday so that was really good for me.
