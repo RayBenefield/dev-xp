@@ -1,5 +1,11 @@
 # Health Log
 
+## #4
+
+The lunch I had was a chef salad with some chili. Was delicious and simple.
+Haven't had any water yet, but I should.
+
+
 ## #3
 
 I felt horrid this morning. I ended up walking to get some food from our nearby
