@@ -1,5 +1,10 @@
 # Health Log
 
+## #89
+
+Had an apple while walking around. That was definitely good for me.
+
+
 ## #88
 
 Ended up doing a second set of stairs. This time I actually jogged around half
