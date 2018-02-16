@@ -1,5 +1,11 @@
 # Health Log
 
+## #90
+
+Had steamed vegetables with my lunch today. Was made of brocolli, squash, and
+carrots. Next time a double order of veggies will be better.
+
+
 ## #89
 
 Had an apple while walking around. That was definitely good for me.
