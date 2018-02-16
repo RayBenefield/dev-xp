@@ -1,5 +1,12 @@
 # Health Log
 
+## #3
+
+I felt horrid this morning. I ended up walking to get some food from our nearby
+restaurant and so far that's been it. It's going to be a lax day today sadly.
+But I'll pick it back up this weekend.
+
+
 ## #2
 
 I was feeling hungry so I snagged an applesauce. The hunger is coming back, so I
