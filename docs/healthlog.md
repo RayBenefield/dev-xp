@@ -1,35 +1,40 @@
 # Health Log
 
-## #92
+## #11
+
+Also had to walk to lunch yesterday so that was really good for me.
+
+
+## #10
 
 Had a salad for dinner with spinach, tomatoes, olives, cheese, oil, and apple
 cider vinegar.
 
 
-## #91
+## #9
 
 Finished a second water as well... never got to a third though. :(
 
 
-## #90
+## #8
 
 Had steamed vegetables with my lunch today. Was made of brocolli, squash, and
 carrots. Next time a double order of veggies will be better.
 
 
-## #89
+## #7
 
 Had an apple while walking around. That was definitely good for me.
 
 
-## #88
+## #6
 
 Ended up doing a second set of stairs. This time I actually jogged around half
 of it and I'm quite happy about that. Was loads of difficult and it caused me to
 have to use the rails, but it was good for me.
 
 
-## #87
+## #5
 
 Just finished my first water and I think I'm going to do a set of stairs before
 playing a bit of [**Monster Hunter World**](http://www.monsterhunterworld.com/)
@@ -38,7 +43,7 @@ King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/rend
 :)
 
 
-## #86
+## #4
 
 And finally took my vitamin C/D. Actually, I don't remember having that
 yesterday. Oh well... yesterday was not normal routine so it's fine. Actually
@@ -47,13 +52,13 @@ tried it. Not sure if it has caffeine, but if it does, it is very little. Popped
 open my first water and I'll report when that is finished.
 
 
-## #85
+## #3
 
 Then I grabbed my usual apple for 5 mins worth of laps around the island to cool
 down.
 
 
-## #84
+## #2
 
 Then jumped right into doing stairs... today I decided I wanted to push it. I
 went for a more brisk stair climbing. Normally I just focus on finishing, today
@@ -64,13 +69,13 @@ push hard for the first 5 minutes or so and then after that things got hard and
 I had to result to the railing, but it's a start and a healthy start.
 
 
-## #83
+## #1
 
 This morning though I started with a nice shower, standing of course. I felt
 better this morning waking up then yesterday so that is good.
 
 
-## #82
+## #8
 
 Also for dinner I had a salad and veggies and ranch. Alongside a hotdog and some
 organic cheetos. Very happy about that. It was a lot of food, but was totally
@@ -80,13 +85,13 @@ also enjoyed my salad and veggies. Was a fairly balanced dinner. So the hotdog
 was better with cheddar... still... it was only one. lol...
 
 
-## #81
+## #7
 
 Finished my one and only water yesterday... sad really. But I should be able to
 catchup today (I'm writing this after the fact).
 
 
-## #80
+## #6
 
 And finally Jess and I walked around Old Mill for a while which was good for my
 legs. As the day dwindles down, I probably won't get much done, but I'm cool
@@ -94,58 +99,58 @@ with the day off as I get back to things tomorrow. Hopefully I won't feel so
 dehydrated. 
 
 
-## #79
+## #5
 
 For lunch I made a super healthy choice of getting a salad instead of french
 fries. Which would have just been an easy slip up, but I changed it
 appropriately.
 
 
-## #78
+## #4
 
 I took a standing shower again... so that is good.
 
 
-## #77
+## #3
 
 Also squeezed in a cinammon apple sauce which was actually pretty good. I
 normally don't have applesauce.
 
 
-## #76
+## #2
 
 I followed it up with an apple as per usual with light walking.
 
 
-## #75
+## #1
 
 It is already late in the day, but its been busy because of Valentine's. I
 started with a 10 min stairs. It was actually much harder this morning, I felt
 drained and strangely woke up feeling completely dehydrated.
 
 
-## #74
+## #14
 
 Finished my third water... off to a meetup for JS tonight.
 
 
-## #73
+## #13
 
 Had some cafe yumm, basically rice, beans, salsa, sour cream, cheese, and
 avocado all in a wrap. Delicious.
 
 
-## #72
+## #12
 
 Finished my second water. YAY!!! Time to start my third.
 
 
-## #71
+## #11
 
 Totally forgot that I did 5 perfect pushups earlier. :)
 
 
-## #70
+## #10
 
 Also had a second apple after that and started on my second water. The fetching
 of water is actually what triggered my stair walking... pretty stoked about it.
@@ -153,7 +158,7 @@ of water is actually what triggered my stair walking... pretty stoked about it.
 said water.
 
 
-## #69
+## #9
 
 So I did a second set of stairs... seriously, my mind is blown how much easier
 it is and how much more willing I am do to this over and over again. It just
@@ -162,26 +167,26 @@ gets easier and I'm still crazy sweaty, but it hasn't stopped me. So now I'm at
 slightest.
 
 
-## #68
+## #8
 
 Just finished my first water and about to start my second. Already on a solid
 track. :)
 
 
-## #67
+## #7
 
 Following my usual apple I pulled out my first water and then downed my vitamin
 C/D. And now I'm off to go do some paid work. It's 8 am and my body is ready. ;)
 I should finish my first water fairly easily.
 
 
-## #66
+## #6
 
 After my stairs, I did my usual routine... had an apple while I walked around
 the kitchen island for 5 mins.
 
 
-## #65
+## #5
 
 So this is weird... I had a sudden urge to do stairs as I walked towards the
 kitchen... so I did. In addition to my 50 mins worth of walking, I squeezed in
@@ -191,7 +196,7 @@ going upstairs, sometimes I would use it going down cuz I was bored lol... but
 ultimately it was actually fairly easy and my body is getting used to it.
 
 
-## #64
+## #4
 
 The walk back was even colder, cuz my jacket took the sweat from my first walk
 and decided to make it colder... lol. And I also noticed on the way back that my
@@ -203,7 +208,7 @@ still pushed through. Good sign of things to come. And this log has been a
 savior for keeping me sane and going. 64 is a magic number. ;) ONWARDS TO 128!!!
 
 
-## #63
+## #3
 
 At Shari's I had a bunch of water and a mostly protein breakfast. 3 eggs,
 T-bone, and toast with some apple juice and water. I had them not butter the
@@ -216,7 +221,7 @@ lol... and my muscles need the protein right? I don't know how health works
 lol...
 
 
-## #62
+## #2
 
 I broke something somewhere, cuz my heal count for the commits are one ahead of
 my entries... lol. So I'm putting two entries there. So then after taking a
@@ -231,52 +236,52 @@ But also I did some jogging on the way and that helped. So I'm back to doing
 minor jogs... not just walking. :) Twas a good call.
 
 
-## #61
+## #1
 
 A new day and I'm feeling in a much better mood. This morning I got up and
 jumped into the shower, standing is not a problem anymore, but I'm recording it
 so I don't revert. ;) So still counts for me. :P
 
 
-## #60
+## #8
 
 Had a third water and calling it a night. Dinner was not healthy sadly. Slipping
 on the diet, hopefully I turn things around tomorrow.
 
 
-## #59
+## #7
 
 Had some veggies and ranch for a snack.
 
 
-## #58
+## #6
 
 Had a second batch of water... about to start my third. My breakfast wasn't the
 most healthy thing so I'm not reporting that. I'll have some veggies and ranch
 in a sec though.
 
 
-## #57
+## #5
 
 247.2... just weighed myself :). Hopefully it isn't just a water weight thing.
 We shall see. I'm just finishing up my first water and I'm actually exhausted
 and I'm going to go get some more sleep.
 
 
-## #57
+## #4
 
 I followed that up with the taking of my vitamin C/D with some blueberry juice.
 And now I'm working on my first water. I feel so out of it right now though.
 Just really not in a great mood this morning. Bleh...
 
 
-## #56
+## #3
 
 After stairs I grabbed an apple and ate it for 5 or so minutes while walking
 around the kitchen island.
 
 
-## #55
+## #2
 
 Followed by actually doing 10 mins of stairs... today was hard. Being drained
 from last night and just not in the best of mood means that I really made an
@@ -285,7 +290,7 @@ don't have a choice... I already made the choice to be healthier, not I just
 have an obligation/responsibility. That's how I'm viewing it.
 
 
-## #54
+## #1
 
 Well I got food poisoning yesterday and was out of commission for the night so I
 didn't get much "healing" done sadly. I had to sit in the shower and just bleh
@@ -293,20 +298,20 @@ for a half hour. Did not feel good. Good news is that even though I felt
 iserable this morning I did everything anyway. Starting with a standing shower.
 
 
-## #53
+## #7
 
 Finally I brisk walked the entire way home for an additional 25 minutes of
 walking. So 50 minutes of brisk walking today. Feels good man. :) Gonna work on
 my third water now.
 
 
-## #52
+## #6
 
 I then had about enough water for a liter so I'm counting that as my second
 water for the day.
 
 
-## #51
+## #5
 
 Super proud of myself. I went on my brisk walk and decided to walk towards
 Shari's... walked briskly on a timer for 15 minutes and then decided I was
@@ -314,25 +319,25 @@ already halfway there might as well keep going. So a 25 minute walk all the way
 there.
 
 
-## #50
+## #4
 
 Finished my first water of the day. Going on my walk now.
 
 
-## #49
+## #3
 
 Finished up a bowl of cereal... not really a fan. It was Maple and Pecans...
 maybe the other one I got will be better. Oh well. Working on my first water
 while my phone charges and then I'll go on a 30 min walk.
 
 
-## #48
+## #2
 
 Vitamin C/D consumed... I'm actually going to have a bowl of cereal instead. I
 have options now that we went grocery shopping!!! YAY!!!
 
 
-## #47
+## #1
 
 Took a standing shower this morning and had no need to sit down which is a good
 sign that my leg strength is enough to hold my body for longer periods now with
@@ -343,7 +348,7 @@ that would be good for me. Let me legs play a little catch up while keeping some
 sort of physical activity going. Time for an apple, some water, and my vitamins.
 
 
-## #46
+## #13
 
 Yesterday I forgot to report that I finished a fourth water. WOOT!!! And it
 looks like I reached 13 heals in a day. Good deal. The additional pushups were
@@ -355,27 +360,27 @@ look forward to the time when they are not healing and stairs are just an
 aerobic thing I'm trying to conquer.
 
 
-## #45
+## #12
 
 Just finished my third water for the day... I'm going to try to grab a fourth
 and finish it before the end of my [**Monster Hunter
 World**](http://www.monsterhunterworld.com/) time.
 
 
-## #44
+## #11
 
 Finished my second water for the day. I need to at least finish a third.
 Probably won't be able to get through a 4th though.
 
 
-## #43
+## #10
 
 Had a side salad along with my meatball sub... twas delicious. Still have some
 veggies and ranch to be consumed later in the evening as I play [**Monster
 Hunter World**](http://www.monsterhunterworld.com/). :)
 
 
-## #42
+## #9
 
 Just got home from a bunch of errands and decided to due my third set of stairs.
 Wasn't too bad at least and tomorrow will just be easier. Was really nice to
@@ -383,7 +388,7 @@ know that things are getting easier. In a day or two I might bump it up to
 regularly 15 minute sessions instead.
 
 
-## #41
+## #8
 
 Had an apple while strolling around our kitchen island while I cooled off from
 the stairs. I also grabbed my second water and I should be able to down that and
@@ -391,7 +396,7 @@ a third today at least. My ideal would be to hit 4 again because I need to stay
 really hydrated as I push through this.
 
 
-## #40
+## #7
 
 Finished my second batch of stairs, almost completely rail-use-less. lol... but
 I did it and my knees are feeling it a bit, but I'm hoping that in the next day
@@ -403,7 +408,7 @@ nail down this routine though easily and keep going. Seems to be doing well so
 far at least.
 
 
-## #39
+## #6
 
 Finished my first water for the day. I also just weighted myself at 249.2 which
 isn't much of a change still. But I'll survive. I can blame it on muscle as I am
@@ -414,12 +419,12 @@ World**](http://www.monsterhunterworld.com/). So I'll earn that with a second
 set of stairs.
 
 
-## #38
+## #5
 
 Did another set of 5 perfect pushups. While waiting for my build to pass.
 
 
-## #37
+## #4
 
 Also spontaneously I felt like I needed to start doing push ups. So I'm starting
 with 5 perfect pushups. And I'll try to use that throughout the day to build
@@ -429,7 +434,7 @@ but I like even numbers :P. Perhaps 10 will get easy when I do pushups regularly
 and I will be able to bump it to 15 instead.
 
 
-## #36
+## #3
 
 Forgot to record my shower as well. Didn't have to stretch too much this morning
 since my legs were good. Was just trying to solve a programming problem. But
@@ -438,7 +443,7 @@ solve problems mentally. Generally a physical ailment will prevent my brain from
 being able to focus. So this is a good sign.
 
 
-## #35
+## #2
 
 Also downed my vitamin c&d today. Started up a fresh water and I'm ready to jump
 into coding. Jess luckily has blueberry juice that I'm able to use now to make
@@ -450,7 +455,7 @@ to be focused on yet. At least I have the habit to stand in the shower now and
 then follow it up immediately with stairs.
 
 
-## #34
+## #1
 
 Alright did my first set of stairs today. It was only 10 minutes and the soar in
 my legs are pretty much all gone. So this time I focused on muscle strength
@@ -466,7 +471,7 @@ time. I need to focus muscular for now because that has always been my strength
 when I exercise.
 
 
-## #33
+## #9
 
 Also finished up a third water. I didn't get very many heals yesterday. But I
 was distracted. Sounds like my minimum number of heals a day I should shoot for
@@ -476,20 +481,20 @@ have to limp a little bit, but I should be good to go on stairs for sure. Just
 need to do it. At least yesterday I did a 15 minute session rather than a 10.
 
 
-## #32
+## #8
 
 For dinner I had a salad and veggies and ranch. Also had some crackers with
 pistachio butter, but then I ahd an allergic reaction to something. It was
 weird.
 
 
-## #31
+## #7
 
 Finished up my second water. At least one more to go. I might actually hit the
 stairs in an hour too after work.
 
 
-## #30
+## #6
 
 Also downed my vitamin c that I forgot to take this morning, and also downed
 vitamin d since Jess finally pointed out where it was... I apparently got lazy
@@ -497,7 +502,7 @@ and stopped looking right before I got to the vitamin d bottle lol... don't
 judge me.
 
 
-## #29
+## #5
 
 Walked to the restaurant today for some food. Not the healthiest of things. Just
 a french dip and clam chowder with a house salad and veggies and ranch for
@@ -505,7 +510,7 @@ later. But I'll report on the house salad and veggies and ranch when they are
 consumed.
 
 
-## #28
+## #4
 
 Finished my first water of the day. Time to start a second one... and it is
 getting easier and easier to walk. I'll probably do my second stairs in the next
@@ -513,7 +518,7 @@ few hours. Probably around lunch time. I'm getting hungry so probably bagel time
 for me.
 
 
-## #27
+## #3
 
 WOOT!!!! So I did my stairs, but today it felt easier than the other times... so
 much so that I added an additional 5 minutes to the 10 minute timer after the 10
@@ -536,7 +541,7 @@ back when it is done. I'll probably weigh myself in too for more tiny details.
 TO CODING!!!
 
 
-## #26
+## #2
 
 I had "black hole" stomach this morning and was starving. Looked around for a
 snack and found a stash of Jess' apples and had one while I walked around the
@@ -545,7 +550,7 @@ handle the skin... lol. Don't judge me. About to start my first set of stairs.
 :) Then into coding.
 
 
-## #25
+## #1
 
 Started off the morning with a solid shower and used it for stretching. At first
 my legs were ridiculously in pain after sleeping, but with some stretching it
@@ -555,13 +560,13 @@ standing wise and it doesn't hurt... amazing that only two days of stairs can do
 that.
 
 
-## #24
+## #11
 
 Had dinner consisting of that salad, clam chowder, and veggies and ranch. Was
 good. I'm really missing real food though. :( Oh well. Bed time for me.
 
 
-## #23
+## #10
 
 Walked to food today for delicious salad, clam chowder, and veggies and ranch.
 Hurt like hell, but easier than expected. I should be able to get fully back
@@ -569,30 +574,30 @@ into stair tomorrow... as long as my legs hold up. While my legs get accustomed,
 I don't think a full 3 is feasible without tearing muscles.
 
 
-## #22
+## #9
 
 Finished my 4th water... heading out to go grab some dinner.
 
 
-## #21
+## #8
 
 Had jimmy john's for lunch... was delicious. Gotta start my 4th water for the
 day... perhaps I can get a 5th in tonight.
 
 
-## #20
+## #7
 
 Just finished my third water... and about to get lunch. I can barely walk so
 Jimmy John's it is... lol.
 
 
-## #19
+## #6
 
 Had a quick bagel to hold me over until lunch. Trying to avoid grabbing a snack
 in the next two hours before lunch time. And just starting my third water too.
 
 
-## #18
+## #5
 
 Finished my second water for the day and going to grab a third. I also ended up
 taking up the damn trash bins... which was a pain with my ridiculously stiff
@@ -601,13 +606,13 @@ really day two, we shall see how things look on week two. Gonna grab a bagel
 now. I'm starving and can't wait until lunch.
 
 
-## #17
+## #4
 
 Just finished my first water of the day. Off to grab a second. I'll probably
 snag a bagel at some point too so I can survive to lunch.
 
 
-## #16
+## #3
 
 Just took my vitamin c for the day... I think I'm going to need to start taking
 vitamin d as well since I stay indoors most my life. The vitamin d should help
@@ -617,7 +622,7 @@ count it today, cuz finishing the total is what matters. So I should finish that
 soon. Back to coding.
 
 
-## #15
+## #2
 
 Fucking stairs man... I swear the second day is ALWAYS the hardest when you
 restart excersizing. Your muscles tightening and it hurting like hell to walk
@@ -628,7 +633,7 @@ get through those consistently and then I should be able to keep this all up.
 That was ridiculously exhausting.
 
 
-## #14
+## #1
 
 This morning I started my day with a standing 15 min shower. Which is awesome...
 and impressive considering how sore my legs are from yesterday's stairs. It gave
