@@ -1,5 +1,13 @@
 # Health Log
 
+## #2
+
+I was feeling hungry so I snagged an applesauce. The hunger is coming back, so I
+need to grab something else. I need a light thing today, so I think I'm going to
+go take a 30 min. stroll. I can't bring myself to do stairs so I am taking an
+alternative. Maybe I'll go back to sleep and then try to walk.
+
+
 ## #1
 
 Started the day with a standing shower. I also changed the way I'm numbering
