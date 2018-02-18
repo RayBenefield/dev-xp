@@ -1,5 +1,10 @@
 # Health Log
 
+## #1
+
+Busy morning. Didn't get much today. I woke up with a set of stairs.
+
+
 ## #4
 
 The lunch I had was a chef salad with some chili. Was delicious and simple.
