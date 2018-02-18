@@ -1,5 +1,18 @@
 # Worklog
 
+## #295
+
+Spent more time planning. A lot of this session was really around the pseudo
+code and how it will all be structured in the end. I'm trying to plan enough so
+I can refactor the current system into the new algorithm around boxes. Hopefully
+things work out well. This is a good time to let things simmer in my brain for
+the next day or so until I feel comfortable approaching a refactor. Probably
+done for the day as I have to make up some paid work today. But this was a good
+set of sessions that will help me push through the rest of [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
+I'm satisfied now.
+
+
 ## #294
 
 Started planning out the algorithm for how [**Render
