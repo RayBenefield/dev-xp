@@ -1,5 +1,12 @@
 # Health Log
 
+## #4
+
+I followed up the stairs with a new type of apple that Jess got me... not sure
+what it was. Started with a `c` I think. But it was better than the honey
+crisps.
+
+
 ## #3
 
 Then was the big one, I had to tackle stairs again. This morning was SUPER hard
