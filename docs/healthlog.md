@@ -1,5 +1,10 @@
 # Health Log
 
+## #3
+
+Took a standing shower.
+
+
 ## #2
 
 Had an apple sauce to stave off breakfast.
