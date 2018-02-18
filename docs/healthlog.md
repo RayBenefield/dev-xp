@@ -1,5 +1,12 @@
 # Health Log
 
+## #5
+
+Followed up with using some of my sweet tea from Gold Peak, to down my vitamin
+c/d. And now I'm working on my first water, which is about 3/4 done now. Break
+time before I do some more code design.
+
+
 ## #4
 
 I followed up the stairs with a new type of apple that Jess got me... not sure
