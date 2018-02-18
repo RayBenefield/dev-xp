@@ -1,5 +1,18 @@
 # Health Log
 
+## #3
+
+Then was the big one, I had to tackle stairs again. This morning was SUPER hard
+as I've just been doing the bare minimum. I also decided this morning that I was
+going to make every up stair set a jogging set. That was not easy and I found
+myself dramatically holding onto walls and rails just to survive, but I made it
+all the way through the 10 minutes. Hopefully that was a good enough session
+that my heart and lungs handle it better next time. Being able to jog up stairs
+for 10 minutes will make a HUGE difference in normal walking/jogging on flat
+ground. The incremental half jog up the stairs and then a walk down the stairs
+should dramatically improve my endurance. Flat ground should be easy.
+
+
 ## #2
 
 Then I followed that up with a standing shower... I think it was more than 15
