@@ -1,5 +1,12 @@
 # Health Log
 
+## #5
+
+Actually I forgot I was going to start counting going to bed before 8pm. So I
+nailed that too. :) Heading to bed now. Was a very bad day, but I'll pick it up
+tomorrow.
+
+
 ## #4
 
 Having a salad for dinner. And that's it. It is a sad slow day. I'm in a rut
