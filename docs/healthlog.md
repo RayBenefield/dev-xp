@@ -1,5 +1,10 @@
 # Health Log
 
+## #6
+
+Finished my first water... grabbing a second.
+
+
 ## #5
 
 Followed up with using some of my sweet tea from Gold Peak, to down my vitamin
