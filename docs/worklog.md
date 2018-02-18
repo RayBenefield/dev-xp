@@ -1,5 +1,17 @@
 # Worklog
 
+## #293
+
+Been a crazy weekend of watching the first LAN in the Halo World Championships.
+But I finally found some time to do some work. I spent this session just
+researching how CSS works and understanding the rules behind it so I can create
+those rules in the terminal better with an algorithm that works well. I learned
+about the box model and how block and inline contexts work and I think that may
+be enough for me to understand. My brain hurts a bit, but that's fine. lol... I
+need to let this simmer for a bit before I try to formalize it. So a quick break
+and then some more design.
+
+
 ## #292
 
 Responding to a frontend pro/con conversation in the Eugene Tech Slack.
