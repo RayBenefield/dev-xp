@@ -1,5 +1,11 @@
 # Health Log
 
+## #4
+
+Having a salad for dinner. And that's it. It is a sad slow day. I'm in a rut
+right now and I have to recover at some point.
+
+
 ## #3
 
 Took a standing shower.
