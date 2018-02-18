@@ -1,5 +1,24 @@
 # Worklog
 
+## #294
+
+Started planning out the algorithm for how [**Render
+King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking)
+will handle its own box system. I'm designing two different kinds of stylers.
+One that handles layout and returns boxes and whether or not the last one is
+open or closed. And the reducer just combines all of the boxes into a line
+within the context type. A box can have its own context level as well and its
+own array of boxes. Brain just broke... example layout stylers are display,
+width, word-wrap, overflow, padding, margin, etc. The next type of styler is a
+render styler which does not change the visual positioning of any content. It is
+intended to add coloring/underlining, and other styling in general or replace
+characters in place. The renderer will determine the full content of the box
+(including blank spaces and new lines) and then pass to each of the stylers to
+replace as needed to render the final content enhanced. Examples of render
+stylers are fonts, borders, masks, and probably padding in a second pass I
+think. Should be fun. Quick break and then another round of planning.
+
+
 ## #293
 
 Been a crazy weekend of watching the first LAN in the Halo World Championships.
