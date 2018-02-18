@@ -1,5 +1,11 @@
 # Health Log
 
+## #2
+
+Then I followed that up with a standing shower... I think it was more than 15
+minutes as well. But whatevs... it is done.
+
+
 ## #1
 
 This past week has been SUPER hard... continuing the habits is not easy folks.
