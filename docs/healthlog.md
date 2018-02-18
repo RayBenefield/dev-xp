@@ -1,5 +1,13 @@
 # Health Log
 
+## #1
+
+This past week has been SUPER hard... continuing the habits is not easy folks.
+Seriously. But today I started out solid. First thing was, I went to bed by 8pm
+and got a full 8 hours of sleep. That seriously changed my mood and made a HUGE
+difference in how I tackled this morning.
+
+
 ## #5
 
 Actually I forgot I was going to start counting going to bed before 8pm. So I
