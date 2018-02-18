@@ -1,5 +1,10 @@
 # Health Log
 
+## #2
+
+Had an apple sauce to stave off breakfast.
+
+
 ## #1
 
 Busy morning. Didn't get much today. I woke up with a set of stairs.
