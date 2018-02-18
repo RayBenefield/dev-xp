@@ -1,5 +1,10 @@
 # Health Log
 
+## #8
+
+Finished up my third water... jumping into a fourth.
+
+
 ## #7
 
 Just finished my second water... fairly quickly too. I'm playing catchup for the
