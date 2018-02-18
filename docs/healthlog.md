@@ -1,5 +1,11 @@
 # Health Log
 
+## #7
+
+Just finished my second water... fairly quickly too. I'm playing catchup for the
+past few days lol. Onto a third and it is just now 8am.
+
+
 ## #6
 
 Finished my first water... grabbing a second.
