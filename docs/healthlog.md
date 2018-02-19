@@ -1,5 +1,12 @@
 # Health Log
 
+## #1
+
+I have an early dentist appointment so not much will be done today. But last
+night I went to bed before 8am and got a full 8 hours of sleep. And I feel good.
+:) Also it is snowing outside and I can't complain!!!
+
+
 ## #9
 
 I actually finished a fourth water yesterday and I am proud of that. :)
