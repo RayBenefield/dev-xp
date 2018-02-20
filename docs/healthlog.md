@@ -1,5 +1,10 @@
 # Health Log
 
+## #6
+
+Finished my first water. :) I guess I'll start a second.
+
+
 ## #5
 
 Had an applesauce to stave off the impending hunger of breakfast. Waiting for
