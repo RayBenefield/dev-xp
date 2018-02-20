@@ -1,5 +1,11 @@
 # Health Log
 
+## #5
+
+Had an applesauce to stave off the impending hunger of breakfast. Waiting for
+lunch time. And starting my first water for the day.
+
+
 ## #4
 
 Just downed some vitamin c/d. Skipped the past few days, but trying to get back
