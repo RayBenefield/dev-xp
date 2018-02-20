@@ -1,5 +1,10 @@
 # Health Log
 
+## #2
+
+I took a standing shower this morning. That helped a lot for sure.
+
+
 ## #1
 
 So I did nothing yesterday. :( I also didn't go to bed on time. But I did get 8
