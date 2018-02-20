@@ -2,6 +2,12 @@
 
 ## #1
 
+So I did nothing yesterday. :( I also didn't go to bed on time. But I did get 8
+hours of sleep, so that is good.
+
+
+## #1
+
 I have an early dentist appointment so not much will be done today. But last
 night I went to bed before 8am and got a full 8 hours of sleep. And I feel good.
 :) Also it is snowing outside and I can't complain!!!
