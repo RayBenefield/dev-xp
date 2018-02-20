@@ -1,5 +1,11 @@
 # Health Log
 
+## #4
+
+Just downed some vitamin c/d. Skipped the past few days, but trying to get back
+on the wagon.
+
+
 ## #3
 
 In my standing shower I also decided to do an inplace jog for 15 minutes. I
