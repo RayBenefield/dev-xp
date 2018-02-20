@@ -1,5 +1,11 @@
 # Health Log
 
+## #7
+
+Walked with Jess to a nearby BBQ place to get lunch... 10 minutes there and 10
+minutes back.
+
+
 ## #6
 
 Finished my first water. :) I guess I'll start a second.
