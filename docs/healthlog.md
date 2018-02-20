@@ -1,5 +1,11 @@
 # Health Log
 
+## #8
+
+Had two batches of steamed veggies... included brocolli, cauliflower, squash,
+and carrots. :)
+
+
 ## #7
 
 Walked with Jess to a nearby BBQ place to get lunch... 10 minutes there and 10
