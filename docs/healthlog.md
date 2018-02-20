@@ -1,5 +1,19 @@
 # Health Log
 
+## #3
+
+In my standing shower I also decided to do an inplace jog for 15 minutes. I
+luckily have traction in my shower so it was possible. The cold water helped me
+push through. My plan is to get myself back to being able to jog regularly for
+decent amounts of time and distance. I suck at endurance with my heart and
+lungs, so instead I'm going to build my leg muscles to handle the impact better.
+Use the strengthening of my legs to make endurance/stamina the only factor, not
+my muscles. Jogging with this weight should not be a problem, it should be my
+heart and lungs and so I can focus on just that and always fallback on a light
+jog since my muscles are able to hold my body for high impact. Hopefully this
+plan works.
+
+
 ## #2
 
 I took a standing shower this morning. That helped a lot for sure.
