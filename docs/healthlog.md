@@ -1,5 +1,10 @@
 # Health Log
 
+## #9
+
+Walked for dinner foodz.
+
+
 ## #8
 
 Had two batches of steamed veggies... included brocolli, cauliflower, squash,
