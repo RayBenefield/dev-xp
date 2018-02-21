@@ -1,5 +1,11 @@
 # Health Log
 
+## #3
+
+Later on I actually had the energy and muscle strength to pull off a jogging up
+stair set of 10 minutes. :) I'm killing the exercise portion now. And loving it.
+
+
 ## #2
 
 After the jog I actually stayed in the shower for like an hour longer as I
