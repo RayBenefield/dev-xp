@@ -1,5 +1,10 @@
 # Health Log
 
+## #5
+
+Just had my vitamin c/d for the day too.
+
+
 ## #4
 
 Then I followed it up with walking while eating an apple. I've weighed myself at
