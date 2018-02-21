@@ -1,5 +1,12 @@
 # Health Log
 
+## #2
+
+After the jog I actually stayed in the shower for like an hour longer as I
+danced and just randomly stretched and improved my muscles. It felt good and I
+felt proud of my progress thus far.
+
+
 ## #1
 
 Started out this morning with 15 mins of in place shower jogging. Judge all you
