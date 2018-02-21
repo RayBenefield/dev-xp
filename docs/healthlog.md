@@ -1,5 +1,11 @@
 # Health Log
 
+## #6
+
+Had veggies and ranch for a snack... sort of around lunch time, so late food day
+today.
+
+
 ## #5
 
 Just had my vitamin c/d for the day too.
