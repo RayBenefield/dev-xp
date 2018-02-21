@@ -1,5 +1,13 @@
 # Health Log
 
+## #8
+
+I bought a standing desk!!! A really nice one from Fully too. Nice bamboo...
+ultimately it was $750, but I think it will be good for my current state of
+health and it is a business expense for the office. I'm satisfied. Looking
+forward to it.
+
+
 ## #7
 
 Finished my first water of the day.
