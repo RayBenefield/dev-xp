@@ -1,5 +1,12 @@
 # Health Log
 
+## #1
+
+Started out this morning with 15 mins of in place shower jogging. Judge all you
+want. This shit is working my legs and my back in prepping for regularly
+jogging. This morning was definitely hard to do.
+
+
 ## #10
 
 Dinner included a chef salad. :) Satisfied until tomorrow as I hit my 10 mark
