@@ -1,5 +1,11 @@
 # Health Log
 
+## #10
+
+Dinner included a chef salad. :) Satisfied until tomorrow as I hit my 10 mark
+for the day. Slowly coming back. Gotta get back into my water habits.
+
+
 ## #9
 
 Walked for dinner foodz.
