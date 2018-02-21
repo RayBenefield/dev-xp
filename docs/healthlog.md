@@ -1,5 +1,10 @@
 # Health Log
 
+## #7
+
+Finished my first water of the day.
+
+
 ## #6
 
 Had veggies and ranch for a snack... sort of around lunch time, so late food day
