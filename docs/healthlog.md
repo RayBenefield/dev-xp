@@ -1,5 +1,12 @@
 # Health Log
 
+## #4
+
+Then I followed it up with walking while eating an apple. I've weighed myself at
+245.2 now. I don't count it at that though until it happens 3 times. So
+hopefully I wam at 245. now. That would be 5 pounds in 2 weeks.
+
+
 ## #3
 
 Later on I actually had the energy and muscle strength to pull off a jogging up
