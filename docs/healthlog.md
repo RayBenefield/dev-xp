@@ -1,5 +1,19 @@
 # Health Log
 
+## #2
+
+Did my jog in place shower routine thing again. And it was much easier today.
+But still a struggle. This morning when I woke up my legs were soar as hell, but
+going downstairs to check my weight stretched it out enough. Note I weighed in
+at 247 again, but I'm assuming that's because I built a lot of muscle overnight
+so I gotta keep pushing. Hopefully things will balance out soon. I want to hit
+below 245 as 245 has been the low of my weight fluxuations so I need to get
+below that to really know that I'm working towards a better weight. My body does
+feel like it has a LOT less looseness now. Even my fat is kind of tuned up a
+bit. My calves are running out of fat which is awesome, but my thighs still have
+some way to go.
+
+
 ## #1
 
 Got 8 hours of sleep. Wasn't able to fall asleep easily, but I attempted to lay
