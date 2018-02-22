@@ -1,5 +1,12 @@
 # Health Log
 
+## #9
+
+I actually continued standing for another 30 minutes as I got sucked back into
+work without realizing it... good for my feet, but time to seriously sit down. I
+can feel it now. lol...
+
+
 ## #8
 
 Another 30 minutes of standing while working. I think I'm going to sit down now
