@@ -1,5 +1,12 @@
 # Health Log
 
+## #10
+
+Cracked open a bar made of literally just Apple and Pear... it was delicious. No
+perservatives or sugars, or anything. I'm very satisfied with the result... sooo
+good. I have to stave off hunger for longer. lol... I'm dying here.
+
+
 ## #9
 
 I actually continued standing for another 30 minutes as I got sucked back into
