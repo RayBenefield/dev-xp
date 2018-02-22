@@ -1,5 +1,12 @@
 # Health Log
 
+## #4
+
+Since I'm getting a standing desk, I decided to start standing. So I'm going to
+start recording every 30 mins that I spend standing rather than sitting. :)
+Should be a LOT of entries, but ultimately every 30 minutes is super valuable.
+
+
 ## #3
 
 I took a 30 min stretching shower after jogging in place. It was not as active
