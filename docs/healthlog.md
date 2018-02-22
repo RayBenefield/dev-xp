@@ -1,5 +1,11 @@
 # Health Log
 
+## #1
+
+Got 8 hours of sleep. Wasn't able to fall asleep easily, but I attempted to lay
+down at the right time before 8am. lol...
+
+
 ## #9
 
 Had Jimmy John's for lunch/dinner?
