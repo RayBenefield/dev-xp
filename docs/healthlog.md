@@ -1,5 +1,20 @@
 # Health Log
 
+## #5
+
+I've finished another 30 minutes of standing. I'm killing it right now. I have
+to keep adjusting, but that is normal. When my standing desk comes in, I'll have
+an "anti-fatigue" mat that is made to allow your feet to move and adjust against
+ridges/ledges, etc. Should be awesome. Another thing I realized when I came
+downstairs to do work was that sitting in the chair actually felt uncomfortable
+and not the best for my back. Standing feels better, but my muscles need to grow
+to handle my body weight. I really should grab some water and take my vitamins
+as well. Probably have an apple or applesauce to push off breakfast needs. Ooo I
+wonder if my bagels are still good. NO BAGELS!!! I should not introduce more
+cream cheese than I need to. Apples have been a good way to push off to
+soup/salad lunch times.
+
+
 ## #4
 
 Since I'm getting a standing desk, I decided to start standing. So I'm going to
