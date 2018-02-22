@@ -1,5 +1,13 @@
 # Health Log
 
+## #3
+
+I took a 30 min stretching shower after jogging in place. It was not as active
+as dancing yesterday, but I did a few squat like things to improve my thighs a
+bit and I'm trying to gain back some flexibility so bending to touch the floor
+is a goal for me to track.
+
+
 ## #2
 
 Did my jog in place shower routine thing again. And it was much easier today.
