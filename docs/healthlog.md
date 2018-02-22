@@ -1,5 +1,12 @@
 # Health Log
 
+## #8
+
+Another 30 minutes of standing while working. I think I'm going to sit down now
+to rest my feet a little bit. Can't over do it too much on the first day. Just
+getting prepared for my standing desk. I'm excited about it!!!
+
+
 ## #7
 
 Downed my applesauce to fight off some hunger growing urges until lunch
