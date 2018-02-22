@@ -1,5 +1,10 @@
 # Health Log
 
+## #6
+
+Downed my vitamin c/d when I went to grab water and some apple sauce.
+
+
 ## #5
 
 I've finished another 30 minutes of standing. I'm killing it right now. I have
