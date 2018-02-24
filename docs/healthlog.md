@@ -1,5 +1,11 @@
 # Health Log
 
+## #4
+
+Walked in the snow for delicious lunch. Sure the first part of the lunch wasn't
+the healthiest, but I'll survive. Still have a salad for later.
+
+
 ## #3
 
 Followed it up with like 30 mins of stretching and random strength excercises to
