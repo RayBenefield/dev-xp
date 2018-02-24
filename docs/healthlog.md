@@ -1,5 +1,11 @@
 # Health Log
 
+## #7
+
+Another 30 minutes of standing. :) And working on my second water. I think I'm
+done standing for now.
+
+
 ## #6
 
 First water of the day done. I realized I haven't taken my vitamins, which is a
