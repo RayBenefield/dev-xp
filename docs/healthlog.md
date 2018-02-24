@@ -1,5 +1,14 @@
 # Health Log
 
+## #6
+
+First water of the day done. I realized I haven't taken my vitamins, which is a
+morning thing. So I'll shoot to do that tomorrow. Gotta get into a habit of
+having water as soon as I come downstairs for work. Oh and my standing desk
+frame came in... I don't have the top yet, but it should come in soon so I'll be
+fully standing in no time.
+
+
 ## #5
 
 It's later in the day and I'm finally getting to actually standing, and as soon
