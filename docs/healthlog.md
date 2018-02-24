@@ -1,5 +1,11 @@
 # Health Log
 
+## #3
+
+Followed it up with like 30 mins of stretching and random strength excercises to
+cool down. Was nice.
+
+
 ## #2
 
 My shower consisted of another 15 min in place jogging. Truth be told I
