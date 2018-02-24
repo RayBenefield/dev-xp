@@ -1,5 +1,18 @@
 # Health Log
 
+## #2
+
+My shower consisted of another 15 min in place jogging. Truth be told I
+regularly use the walls around me to hold me as I jog in place through part of
+it. Part of my perspective is really that you just need to go through the
+motions. Your body needs to have the muscular strength for when you are failing,
+just as much as it does for when you are succeeding. It means that handling
+failing scenarios in the future is easier. So yeah I hold the wall to make it
+through the 15 mins. But today... it was SOOO much easier and I didn't hold the
+wall much. I also found myself pushing higher knees near the end. It is getting
+much easier.
+
+
 ## #1
 
 Didn't sleep as early as 8am, but I did get a full 8 hours which is super nice.
