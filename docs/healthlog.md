@@ -1,5 +1,10 @@
 # Health Log
 
+## #12
+
+Also had a salad for dinner alongside delicious mushroom barley soup.
+
+
 ## #11
 
 This is sort of late, but yesterday I finished up a water as well... only one
