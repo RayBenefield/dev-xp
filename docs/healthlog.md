@@ -1,5 +1,10 @@
 # Health Log
 
+## #1
+
+Didn't sleep as early as 8am, but I did get a full 8 hours which is super nice.
+
+
 ## #12
 
 Also had a salad for dinner alongside delicious mushroom barley soup.
