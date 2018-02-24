@@ -1,5 +1,12 @@
 # Health Log
 
+## #5
+
+It's later in the day and I'm finally getting to actually standing, and as soon
+as I started standing I also started drinking water. So there's that habit
+formed. :) So one session of standing done.
+
+
 ## #4
 
 Walked in the snow for delicious lunch. Sure the first part of the lunch wasn't
