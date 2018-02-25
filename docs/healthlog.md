@@ -1,5 +1,11 @@
 # Health Log
 
+## #2
+
+Just had an applesauce to stave off the need for food until lunch before the
+movie.
+
+
 ## #1
 
 Yesterday I didn't do much again. But and probably won't do much today since we
