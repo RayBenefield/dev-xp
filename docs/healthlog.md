@@ -2,6 +2,13 @@
 
 ## #1
 
+Yesterday I didn't do much again. But and probably won't do much today since we
+are going to see black panther finally. But tomorrow I will get back on the
+train.
+
+
+## #1
+
 Took a running shower this morning... and it was the hardest I've pushed myself
 in a while. So much that it took like half an hour to recover. Was not fun...
 I'm to the point where the problem isn't my leg muscles it is my heart and
