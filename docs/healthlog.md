@@ -1,5 +1,10 @@
 # Health Log
 
+## #8
+
+Finished my second water last night.
+
+
 ## #7
 
 Another 30 minutes of standing. :) And working on my second water. I think I'm
