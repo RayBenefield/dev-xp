@@ -1,5 +1,13 @@
 # Health Log
 
+## #1
+
+Took a running shower this morning... and it was the hardest I've pushed myself
+in a while. So much that it took like half an hour to recover. Was not fun...
+I'm to the point where the problem isn't my leg muscles it is my heart and
+lungs. Hopefully things are easier tomorrow. That is pretty much all I did too.
+
+
 ## #9
 
 Had a salad last night.
