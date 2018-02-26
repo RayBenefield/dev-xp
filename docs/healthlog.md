@@ -1,5 +1,18 @@
 # Health Log
 
+## #4
+
+After my apple I felt the need to do lunges for the first time. So I'm doing 5
+min segments for now. This was not as easy as I thought, but the idea is that
+I've had a lot of work on my calves, and now I need to focus on removing the fat
+from my thighs. That is actually where the weight on my shows up first so I'm
+going to try to make it lean like my calves are now. It is the last part of my
+leg that needs a lot of work outside of my feet themselves. For my feet, I've
+been trying sessions of keeping my heels lightly touching the ground, which puts
+the muscular strain on the ball of my feet which should help in certain standing
+scenarios, those I'm not officially tracking, just doing when I get the chance.
+
+
 ## #3
 
 Cool down was with an apple, walking around the island. It's been a while since
