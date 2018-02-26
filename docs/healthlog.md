@@ -1,5 +1,11 @@
 # Health Log
 
+## #3
+
+Cool down was with an apple, walking around the island. It's been a while since
+I've had an apple, so this is good.
+
+
 ## #2
 
 My excercise this morning was doing running up stairs... it was super hard. But
