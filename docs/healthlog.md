@@ -1,5 +1,17 @@
 # Health Log
 
+## #6
+
+My first session of standing is now out of the way. I want to use the clock to
+determine when I should sit or stand next so even though I started on the 10 min
+mark, I'm counting this session as if it was 30 mins to get myself started. If
+it is past the 15 min or 45 min mark I will awit until the 30+ has passed,
+otherwise if I'm before 15 min or 45 min, the next 30 min mark will be where I
+count. This should manage my measurement well and work to just get me into
+standing and not build a barrier of "I should really wait until the next 30 min
+to stand so I'll sit for now". I don't want to get into that bad habit.
+
+
 ## #5
 
 Followed everything up with my vitamin c/d consumption and then grabbed my first
