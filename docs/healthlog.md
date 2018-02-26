@@ -1,5 +1,11 @@
 # Health Log
 
+## #9
+
+Just knocked out 5 mins of lunges. Killing it this morning. :) Working on that
+second water.
+
+
 ## #8
 
 Finished my first water and now I'm starting my third standing session while I
