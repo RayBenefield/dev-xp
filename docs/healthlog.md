@@ -1,5 +1,14 @@
 # Health Log
 
+## #2
+
+My excercise this morning was doing running up stairs... it was super hard. But
+good news is that this last week of in-shower jogging has improved my legs so my
+muscles are no longer the issue. Now it is my breathing that is the next
+problem. So this week is about improving my lungs' ability to handle aerobic
+activity. It won't be easy at all.
+
+
 ## #1
 
 New week new willpower. This morning I sat in the shower. But I did go to sleep
