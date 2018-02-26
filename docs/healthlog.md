@@ -1,5 +1,10 @@
 # Health Log
 
+## #7
+
+Second standing session done. Gonna sit for a bit so I can rest my legs.
+
+
 ## #6
 
 My first session of standing is now out of the way. I want to use the clock to
