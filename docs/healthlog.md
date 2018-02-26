@@ -1,5 +1,11 @@
 # Health Log
 
+## #1
+
+New week new willpower. This morning I sat in the shower. But I did go to sleep
+prior to 8pm and got 8 hours of sleep which is solid.
+
+
 ## #2
 
 Just had an applesauce to stave off the need for food until lunch before the
