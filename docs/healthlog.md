@@ -1,5 +1,11 @@
 # Health Log
 
+## #8
+
+Finished my first water and now I'm starting my third standing session while I
+grab a second water.
+
+
 ## #7
 
 Second standing session done. Gonna sit for a bit so I can rest my legs.
