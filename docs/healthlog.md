@@ -1,5 +1,15 @@
 # Health Log
 
+## #5
+
+Followed everything up with my vitamin c/d consumption and then grabbed my first
+water of the day. This morning was a solid start. My morning routine seems to
+really get me into being healthy for the rest of the day as I get about 5
+sessions in the morning just from my routine, so if I can do that, then I'll
+typically set myself up for a solid healthy day. I'm also going to try standing
+a ton today.
+
+
 ## #4
 
 After my apple I felt the need to do lunges for the first time. So I'm doing 5
