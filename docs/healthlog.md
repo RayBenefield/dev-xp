@@ -1,5 +1,11 @@
 # Health Log
 
+## #8
+
+Finished fourth session of standing. I need to stop standing for now and
+recover.
+
+
 ## #7
 
 First water down. :) Solid progress so far today. Gonna grab my second water.
