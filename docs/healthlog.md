@@ -1,5 +1,11 @@
 # Health Log
 
+## #3
+
+After eating my apple I had my vitamin c/d. Which is gross every morning. The
+vitamin c powder SUCKS... lol.
+
+
 ## #2
 
 I didn't even standup in the shower as when I woke up my legs were in crazy
