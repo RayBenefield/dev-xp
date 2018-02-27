@@ -1,5 +1,13 @@
 # Health Log
 
+## #2
+
+I didn't even standup in the shower as when I woke up my legs were in crazy
+pain... I blame the lunges for sure. But it is lighter at this point. However I
+did come downstairs and immediately started eating an apple. I need to make
+coming downstairs the apple eating trigger.
+
+
 ## #1
 
 Didn't go to sleep early, but I got 8 hours of sleep so that is definitely
