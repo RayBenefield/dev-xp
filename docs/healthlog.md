@@ -1,5 +1,10 @@
 # Health Log
 
+## #5
+
+Finished a second standing session.
+
+
 ## #4
 
 I also finished my first session of standing, but now I need to go handle
