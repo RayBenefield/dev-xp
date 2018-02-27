@@ -1,5 +1,11 @@
 # Health Log
 
+## #1
+
+Didn't go to sleep early, but I got 8 hours of sleep so that is definitely
+something. And I feel solid at least.
+
+
 ## #10
 
 Finished my second water. Never did get to standing again though. Tomorrow I'll
