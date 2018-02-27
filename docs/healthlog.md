@@ -1,5 +1,10 @@
 # Health Log
 
+## #6
+
+Finished a third standing session.
+
+
 ## #5
 
 Finished a second standing session.
