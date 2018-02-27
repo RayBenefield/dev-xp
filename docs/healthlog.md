@@ -1,5 +1,11 @@
 # Health Log
 
+## #4
+
+I also finished my first session of standing, but now I need to go handle
+something so I'll have to start the second after I quickly handle this.
+
+
 ## #3
 
 After eating my apple I had my vitamin c/d. Which is gross every morning. The
