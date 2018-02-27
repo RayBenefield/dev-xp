@@ -1,5 +1,12 @@
 # Health Log
 
+## #10
+
+Finished my second water. Never did get to standing again though. Tomorrow I'll
+do more... cuz now my standing desk is in. I just have to finish putting it
+together.
+
+
 ## #9
 
 Just knocked out 5 mins of lunges. Killing it this morning. :) Working on that
