@@ -1,5 +1,10 @@
 # Health Log
 
+## #7
+
+First water down. :) Solid progress so far today. Gonna grab my second water.
+
+
 ## #6
 
 Finished a third standing session.
