@@ -1,5 +1,12 @@
 # Health Log
 
+## #10
+
+I decided not to rest, so I just knocked out my fifth standing session. Look at
+me go. Standing is just coming more and more naturally to me. And working on my
+second water.
+
+
 ## #9
 
 Fourth standing session done 30 minutes ago lol...
