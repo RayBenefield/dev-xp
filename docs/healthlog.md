@@ -1,5 +1,12 @@
 # Health Log
 
+## #10
+
+After work we walked to Natural Grocers. Which is by Shari's so 30 min walk away
+in the 25 degree weather. lol... super cold. Couldn't walk back because we got
+too many groceries. Maybe next time we will.
+
+
 ## #9
 
 Yesterday I finished my second water.
