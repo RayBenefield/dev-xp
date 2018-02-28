@@ -1,5 +1,10 @@
 # Health Log
 
+## #7
+
+Third standing session down. :)
+
+
 ## #6
 
 Second standing session finished like 20 mins ago. I'm most of the way through
