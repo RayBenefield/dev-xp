@@ -1,5 +1,12 @@
 # Health Log
 
+## #11
+
+Then I had a leftover chef salad for dinner... sure I tacked on a box of pizza
+rolls, but nobody is perfect and little indulgences keep you sane as you
+progress.
+
+
 ## #10
 
 After work we walked to Natural Grocers. Which is by Shari's so 30 min walk away
