@@ -1,5 +1,15 @@
 # Health Log
 
+## #12
+
+This morning I woke up from a full 8 hours. Again, because of [**Monster Hunter
+World**](http://www.monsterhunterworld.com/) I didn't go to sleep prior to 8pm,
+but still woke up with energy. My muscles were not as sore today, just my ass...
+lol. But I was able to walk normally which was good. When I checked my weight
+downstairs I was at 245.2... which is awesome. I've measured myself at 245, 4
+times in the past week so it is safe to say that I've lost 5 pounds. WOOT!!!
+
+
 ## #11
 
 Then I had a leftover chef salad for dinner... sure I tacked on a box of pizza
