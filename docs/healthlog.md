@@ -1,5 +1,10 @@
 # Health Log
 
+## #9
+
+Yesterday I finished my second water.
+
+
 ## #8
 
 Finished fourth session of standing. I need to stop standing for now and
