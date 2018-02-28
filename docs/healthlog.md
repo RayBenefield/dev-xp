@@ -1,5 +1,10 @@
 # Health Log
 
+## #12
+
+Ended up standing for another session. That's 7... now I'm sitting down.
+
+
 ## #11
 
 Knocked out my sixth standing session. I think it is time for a break though...
