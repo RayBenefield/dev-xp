@@ -1,5 +1,11 @@
 # Health Log
 
+## #6
+
+Second standing session finished like 20 mins ago. I'm most of the way through
+session three. :)
+
+
 ## #5
 
 Finished up my first standing session of 30 mins. Pushing to do another set of 4
