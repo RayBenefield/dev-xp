@@ -1,5 +1,12 @@
 # Health Log
 
+## #3
+
+When I went downstairs I ate an apple immediately... trying to build that
+physical habit trigger. I had a braeburn today, one of Jess' apples... not a
+fan. The skin is ridiculous tough compared to the cameos and the honey crisps.
+
+
 ## #2
 
 After waking up, the first thing I did was hop into the shower and start my
