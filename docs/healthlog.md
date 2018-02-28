@@ -1,5 +1,11 @@
 # Health Log
 
+## #5
+
+Finished up my first standing session of 30 mins. Pushing to do another set of 4
+of these before I sit down for a break.
+
+
 ## #4
 
 After the apple I had my vitamin c/d... the vitamin c powder is still a
