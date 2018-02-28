@@ -1,6 +1,25 @@
 # Health Log
 
-## #12
+## #2
+
+After waking up, the first thing I did was hop into the shower and start my
+in-place jogging. Today was extremely consistent. I didn't use the walls at all,
+I stayed in one place, and I maintained breathing well. I found a breathing
+pattern that finally works for me. I've always been told all my life to breathe
+in through your nose and out your mouth, but I always found myself running out
+of breath. I found a simple pattern that works for me, shallow/shallow/deep. So
+the first two shallow breathes I take are just breathe in on one foot, and
+breathe out when I return. And then the deep breathe I breathe in for an
+additional half step and then breath out until it is all gone and I return to
+the foot I'm counting on. This has proven to work well for me. I was so
+consistent, that after my 15 mins (I use the fan timer in the bathroom to know
+when to stop lol), I was able to keep going for another 3-5 mins to the end of
+the song. I'm super pumped that jogging in place has become easier. Stretching
+was simple and alright. I discovered I was missing a stretch for my ass, and
+then Jess and I figured it out, so now I can make that stop hurting lol.
+
+
+## #1
 
 This morning I woke up from a full 8 hours. Again, because of [**Monster Hunter
 World**](http://www.monsterhunterworld.com/) I didn't go to sleep prior to 8pm,
