@@ -1,5 +1,10 @@
 # Health Log
 
+## #8
+
+Finished my first water of the day.
+
+
 ## #7
 
 Third standing session down. :)
