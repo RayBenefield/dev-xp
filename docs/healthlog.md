@@ -1,5 +1,10 @@
 # Health Log
 
+## #9
+
+Fourth standing session done 30 minutes ago lol...
+
+
 ## #8
 
 Finished my first water of the day.
