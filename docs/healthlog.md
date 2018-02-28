@@ -1,5 +1,12 @@
 # Health Log
 
+## #4
+
+After the apple I had my vitamin c/d... the vitamin c powder is still a
+nightmare to take with water. So gross... and now I'm starting on my first
+water.
+
+
 ## #3
 
 When I went downstairs I ate an apple immediately... trying to build that
