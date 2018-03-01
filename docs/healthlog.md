@@ -1,5 +1,15 @@
 # Health Log
 
+## #1
+
+Yesterday I didn't get to bed early again. And again it is [**Monster Hunter
+World**](http://www.monsterhunterworld.com/) to blame. lol... but I did get 8
+hours of sleep. I woke up this morning to weigh myself and was surprised to see
+243.6. :) I'm moving towards below 245. This is huge because its been a couple
+years since I've seen below 245. Still hoping to reach below 240 before the Halo
+World Championships. Should be feasible. Just gotta keep pushing.
+
+
 ## #14
 
 And had a chef salad at night as well. :)
