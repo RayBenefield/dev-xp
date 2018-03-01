@@ -1,5 +1,10 @@
 # Health Log
 
+## #4
+
+Second standing session done.
+
+
 ## #3
 
 Last night I finished up my standing desk so this morning I started standing
