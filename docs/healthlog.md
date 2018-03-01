@@ -1,5 +1,17 @@
 # Health Log
 
+## #2
+
+This morning a I was feeling a bit reluctant to exercise this morning, but
+jogged in the shower regardless. My breathing worked out well though and I kept
+it consistent. It seems I can do any number of shallow breaths followed by a
+deep one in order to keep up the pattern. So I can work to extend the number of
+shallow breaths I do before a deep breath to work on my breathing. Should work
+out nicely. I'm able to get around 3-4 fairly frequently, ideally I just have a
+consistent amount of shallow breaths without even having to think about it. Did
+some stretching afterwards.
+
+
 ## #1
 
 Yesterday I didn't get to bed early again. And again it is [**Monster Hunter
