@@ -1,5 +1,11 @@
 # Health Log
 
+## #3
+
+Last night I finished up my standing desk so this morning I started standing
+around 9am... so this is the first report of the first session.
+
+
 ## #2
 
 This morning a I was feeling a bit reluctant to exercise this morning, but
