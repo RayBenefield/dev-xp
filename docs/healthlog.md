@@ -1,5 +1,10 @@
 # Health Log
 
+## #13
+
+Finished my second water yesterday.
+
+
 ## #12
 
 Ended up standing for another session. That's 7... now I'm sitting down.
