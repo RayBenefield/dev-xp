@@ -1,5 +1,10 @@
 # Health Log
 
+## #8
+
+Sixth standing session.
+
+
 ## #7
 
 Fifth standing session.
