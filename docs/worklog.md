@@ -1,5 +1,20 @@
 # Worklog
 
+## #296, #297
+
+Wow... it's been weeks since I've been able to focus on some sort of coding at
+all. Well I just wanted to take some time to try to setup something with Vue in
+the monorepo. Right now it doesn't seem like
+[**Parcel.js**](https://parceljs.org/) will work neatly in the
+[**Alle**](https://github.com/boennemann/alle) style monorepo, which sucks. I
+don't really want to debug it right now, so I just started exploring at the root
+level for now. I found a Codepen using [**Vue.js**](https://vuejs.org/) and
+Interact.js: https://codepen.io/Flamov/pen/NwpzZO. It creates a swipeable tinder
+card setup. I wanted to do something like this for the Halo Forge community for
+map feedback so I explored it. I copy and pasted the code to get it working. It
+wasn't much, but it works. I'll explore it more later. Was fun at least.
+
+
 ## #295
 
 Spent more time planning. A lot of this session was really around the pseudo
