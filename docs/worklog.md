@@ -1,5 +1,24 @@
 # Worklog
 
+## #298
+
+Slowly getting back into things and one of the first things I really want to get
+into is removing that damn `rewrite-tags` script that I have for something that
+is smarter with node. I'm sick of all the warnings after rebasing and the system
+should be smarter than it currently is. I think I should be able to after
+learning everything I need to know about how the current script works. It looks
+like literally just a get list of refs and then offset by the same number of
+commits, but I think I can do one further and discover which commits were tied
+to which other commits using the message of the commits and fine orphans from
+either list to detect new or deleted commits in the granted rebase. I can also
+probably use `git reflog` to determine how much comparison actually needs to be
+done which is also nice. So I'll look more into it next time. I'm off to a
+dentist appointment. I just had my wisdom teeth removed and started working on
+my health for my high blood pressure so that explains my absence from coding for
+a while. But I think it is time to rebalance my life to fit in both coding,
+health, game time, and family all at once. Should be fun.
+
+
 ## #296, #297
 
 Wow... it's been weeks since I've been able to focus on some sort of coding at
