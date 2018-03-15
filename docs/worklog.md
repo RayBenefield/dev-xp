@@ -1,5 +1,17 @@
 # Worklog
 
+## #299
+
+Yay I feel like I'm back to coding. So I'm working on the `rewrite-tags`
+command. Decided to make it a part of the upcoming Jig project that I've been
+planning on working on. Since it is strictly a `git` enhancement. I'm starting
+by grabbing the old and new rev-lists and then doing a comparison between them.
+Starting out fairly solid. Already got a command going in
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+for it. It's like riding a bicycle... lol. Luckily I made it easy. Gonna take a
+quick break though.
+
+
 ## #298
 
 Slowly getting back into things and one of the first things I really want to get
