@@ -1,5 +1,24 @@
 # Worklog
 
+## #300
+
+Woot!!! Work session 300... huge strides made in the past few months of just
+starting this. I've gotten a decent ways through the rewrite analysis, which
+should form the basis for the rewrite tags system. I figured out how I want to
+pass arguments to commands through
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
+so I'll probably check that in soon as I needed an argument from the command
+line since the `post-rewrite` `git` hook actually passes whether or not the
+rewrite is an `amend` or a `rebase`. The plan is to now gather as much
+information about the differences as possible. The analysis of an amend is
+slightly different from the analysis of a rebase. Because an amend only has a
+single commit to worry about, I can actually dive deeper into the differences.
+But with a rebase, I'm analyzing the massive rev-list so ideally we only look at
+the summary and the commit hash. I need to think about how this will evolve
+before moving forward. Done for the day and I'll be starting my paid work after
+my break. Perhaps tomorrow I'll figure out enough to merge something.
+
+
 ## #299
 
 Yay I feel like I'm back to coding. So I'm working on the `rewrite-tags`
