@@ -1,5 +1,23 @@
 # Worklog
 
+## #301
+
+So I wasn't able to code yesterday because of real life, but I'm looking more
+into things. Today I really wanted to do something visual that I can show off
+and really hate that my current setup does not allow me to throw together a
+quick website to share. So I started looking into what it will take to get
+[**Rollup**](https://rollupjs.org/) and [**Vue.js**](https://vuejs.org/) working
+together neatly for this [**Alle**](https://github.com/boennemann/alle) setup.
+But in order to start working on that and experimenting with a new rollup
+config, I need to only build one specific package. So I need to do some
+refactoring to enable building a single package. Exploring looks like I need to
+refactor the gathering of packages to extract that package information portion
+and then use that to call `buildRollupConfigs` system. And I also need the work
+I did a couple days ago to enable passing command line arguments for
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli).
+So lots of little details. I'm taking a quick break right now and I'll probably
+create an issue for this real quick.
+
 ## #300
 
 Woot!!! Work session 300... huge strides made in the past few months of just
