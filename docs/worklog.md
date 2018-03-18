@@ -1,5 +1,26 @@
 # Worklog
 
+## #302
+
+Got sucked into real life again. I recently have been CRAVING getting back into
+the [**Magic: The Gathering**](http://www.magicthegathering.com/) scene again,
+but without spending money. So last night I started watching footage from the
+QuarterFinals of the latest Pro Tour, **Rivals of Ixalan**. And boy was it good.
+But I saw cases of randomization screwing results... and reminded me that I have
+a game design that I keep wanting to come back to and effectively pull off. This
+morning in the shower, I think I figured out the mechanics necessary to make my
+game work. I've been designing and redesigning over the past decade. I've even
+built 3 iterations of the game in digital form and one form was tested in paper
+form. So I'm coming back to **Aggro Tactics** to try to re-create it again.
+Since this is a company monorepo, I want to feature it here with design docs and
+everything, and eventually build a site where it can be played and an API where
+it can be extended upon. I really want to see this come to light one day, so I'm
+going to improve this repo to ensure that I can build websites with it and APIs
+as I've always planned... but now sooner rather than later. So this session I
+started work on writing out the initial readme of the goals, inspiration, etc.
+This is going to be fun folks.
+
+
 ## #301
 
 So I wasn't able to code yesterday because of real life, but I'm looking more
