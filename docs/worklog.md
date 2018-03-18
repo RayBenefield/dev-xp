@@ -1,5 +1,14 @@
 # Worklog
 
+## #304
+
+Wrapped up my initial planning for **Aggro Tactics**. I think my next step is to
+make a paper version that sort of works to get a feel for how things will play
+out. I'm really curious and excited. I'll get back to more coding to prepare for
+the [**Vue.js**](https://vuejs.org/) setup tomorrow probably. For now I'm going
+to go play some [**Monster Hunter World**](http://www.monsterhunterworld.com/).
+
+
 ## #303
 
 Session 2 of planning out **Aggro Tactics**. As I envision the gameplay it just
