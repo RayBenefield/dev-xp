@@ -1,5 +1,13 @@
 # Worklog
 
+## #303
+
+Session 2 of planning out **Aggro Tactics**. As I envision the gameplay it just
+gets me more and more excited to have something to play. :) I can't wait. I may
+not be able to work on it more at this moment due to a meetup, but I'm excited
+for the progress of the design.
+
+
 ## #302
 
 Got sucked into real life again. I recently have been CRAVING getting back into
