@@ -1,5 +1,20 @@
 # Worklog
 
+## #305, #306
+
+Went back to working on setting up
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+to build a single package at a time if need be. I added argument parsing support
+to
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
+so that I can run the build function with a `{ packages }` argument properly. So
+far so good. I just need to refactor out the package details portion of
+`find-packages` since I need to be able to get package details without finding
+packages in root. I'm just about done, just want to add some testing to that
+part then I can proceed with the build command supporting a packages parameter.
+Tomorrow I will try more.
+
+
 ## #304
 
 Wrapped up my initial planning for **Aggro Tactics**. I think my next step is to
