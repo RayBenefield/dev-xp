@@ -1,5 +1,12 @@
 # Worklog
 
+## #307
+
+Just about ready to jump back into the build command. Finishing up the final
+testing stuff for the package detail refactoring. I just have to update the
+tests for `find-packages`.
+
+
 ## #305, #306
 
 Went back to working on setting up
