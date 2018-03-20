@@ -1,5 +1,18 @@
 # Worklog
 
+## #308, #309, #310
+
+WOOT!!! I'm now able to build singular packages as well as multiple named
+packages with `kd build`. Also ended up fixing the bug that **Aggro Tactics**
+caused and added the passing of configs to commands. :) Soon I'll tackle adding
+config files so they can come from there instead. But this is the start to
+getting me to be able to experiment with new rollup configs to enable
+[**Vue.js**](https://vuejs.org/) setups for the monorepo. Super stoked for what
+is coming up. I think I'll be able to build a [**Vue.js**](https://vuejs.org/)
+site using a proper [**Rollup**](https://rollupjs.org/) config. We shall see. TO
+PAID WORK FOR NOW!!!
+
+
 ## #307
 
 Just about ready to jump back into the build command. Finishing up the final
