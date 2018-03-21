@@ -1,5 +1,22 @@
 # Worklog
 
+## #312, #313, #314
+
+I FUCKING DID IT!!! WOOT!!! So all three sessions I kept fighting and fighting
+to get a working output for a Vue site. At first it was a pain to even get it to
+build, I needed to first setup a separate directory to try to see how it should
+work and then kept playing around with rollup configs. Eventually I hit a point
+where I couldn't get the javascript to load on the page, then realized a stupid
+mistake, then it all worked from one directory and that was refreshing. Next
+thing was to try to figure out if I could pull it off in a monorepo, having
+[**Vue.js**](https://vuejs.org/) components essentially be their own package.
+And that was no easy task at all. But eventually I figured it out. My first
+major bump was trying to get both [**Vue.js**](https://vuejs.org/) as a package
+from `node_modules` and the `src/node_modules` packages to be all bundled
+together, but I figured out you can have multiple module directories... which
+isn't documented. :) WOOT!!! I'm sooo happy.
+
+
 ## #311
 
 Spent the first session fixing a test that broke the build yesterday, so now it
