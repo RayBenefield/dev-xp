@@ -1,5 +1,13 @@
 # Worklog
 
+## #311
+
+Spent the first session fixing a test that broke the build yesterday, so now it
+is merged and completed. I've started exploring what it will take to get a
+[**Vue.js**](https://vuejs.org/) site going. Hopefully I find something that
+works. I can only hope.
+
+
 ## #308, #309, #310
 
 WOOT!!! I'm now able to build singular packages as well as multiple named
