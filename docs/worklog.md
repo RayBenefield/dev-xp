@@ -1,5 +1,20 @@
 # Worklog
 
+## #315, #316, #317, #318
+
+So I started the work to change the build system into a plugin system that will
+allow me to build a [**Vue.js**](https://vuejs.org/) based plugin and in the
+future serverless plugins for various providers. I spent time a lot on
+refactoring how the configs are built today and changed all commands to be a
+function first so they can be configured with plugins when necessary. Lots of
+adjusting and cleaning up, but I'm close to being able to extract the config
+creation into the plugin system. I imagine I'll need a plugin to support config
+building, actual building, and post building. Shouldn't be too bad as the
+current cli and package support only differ in config building as they both use
+[**Rollup**](https://rollupjs.org/) for actual building and the deployment to
+[**NPM**](https://www.npmjs.com/) is the same as well. Off to paid work.
+
+
 ## #312, #313, #314
 
 I FUCKING DID IT!!! WOOT!!! So all three sessions I kept fighting and fighting
