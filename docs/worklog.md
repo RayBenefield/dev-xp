@@ -1,5 +1,15 @@
 # Worklog
 
+## #319, #320
+
+Continued the refactor of the build plugin system. Slow progress, this last
+session I setup CTRL-P for vim so I can travel around faster now that I have
+lots of packages and then I refactored the current setup into something that
+resembles a plugin system and I'll start to figure out how best to extract it
+and configure the system to work properly either today or tomorrow. I have to
+think on this.
+
+
 ## #315, #316, #317, #318
 
 So I started the work to change the build system into a plugin system that will
