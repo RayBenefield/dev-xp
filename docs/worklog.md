@@ -1,5 +1,17 @@
 # Worklog
 
+## #321, #322, #323
+
+Got the first batch of the [**Vue.js**](https://vuejs.org/) plugin setup. All
+that's left is to work on the plugin portion of the side effect side as the
+`index.html` from the package must be copied into the `dist` package folder. I
+added `files` as a feature for package details now so I could use the filter
+better to check for an `app.js` and an `index.html`. Looking good so far. I
+should be able to have a full build system later today or tomorrow some time.
+Then I need to work on the publishing portion and perhaps I can auto deploy to
+[**Firebase**](https://firebase.google.com/) hosting. Should be awesome.
+
+
 ## #319, #320
 
 Continued the refactor of the build plugin system. Slow progress, this last
