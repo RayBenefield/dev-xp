@@ -1,5 +1,14 @@
 # Worklog
 
+## #324, #325
+
+And I finished the last portion of the build part of the
+[**Vue.js**](https://vuejs.org/) plugin. Next is to figure out the best way to
+do publishing straight to [**Firebase**](https://firebase.google.com/) hosting.
+It shouldn't be too bad... I hope. lol... and I still have to merge the code as
+well.
+
+
 ## #321, #322, #323
 
 Got the first batch of the [**Vue.js**](https://vuejs.org/) plugin setup. All
