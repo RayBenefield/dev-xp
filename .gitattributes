@@ -1,2 +1,5 @@
-dx linguist-vendored
-node_modules linguist-vendored=false
+./dx/rewrite-tags linguist-vendored=true
+./dx/lint-commits linguist-vendored=true
+./dx/heal linguist-vendored=true
+./dx/log linguist-vendored=true
+./src/node_modules linguist-vendored=false
