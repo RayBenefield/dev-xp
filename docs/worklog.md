@@ -1,5 +1,21 @@
 # Worklog
 
+## #326
+
+I'm at VueConf.us!!! It's the first [**Vue.js**](https://vuejs.org/) conference
+and I'm having a blast. While watching I had a massive realization, I wonder if
+I could get literate programming working in the monorepo. Because of my plugin
+system, it was really easy to write a new plugin to get it working properly. I
+had to play around with my [**Prettier**](https://prettier.io/) and [**ES
+Lint**](https://eslint.org/) setup for Vim, but I think I'm satisfied with the
+result. I'll polish it another day. So with literate programming, I should be
+able to accurately document all of my small package functions. I might have some
+more details to figure out editor wise, but I'm pumped for this. So soon I can
+make an `index.md` to do literate programming and the code will be extracted to
+`index.js` and rolled up with [**Rollup**](https://rollupjs.org/) and the
+`index.md` file is copied to the `readme.md` file. :)
+
+
 ## #324, #325
 
 And I finished the last portion of the build part of the
