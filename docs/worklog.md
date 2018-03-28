@@ -1,5 +1,23 @@
 # Worklog
 
+## #327
+
+I've decided to start taking a journey to being a contributor to the open source
+community... like a more dedicated approach. Not just here and there. The
+[**Vue.js**](https://vuejs.org/) core team really inspired me yesterday at the
+panel and I'm stoked. So I'm going to start diving into the
+[**Vue.js**](https://vuejs.org/) repo for maybe two sessions a day to get
+familiar with the landscape. It will expose me to a lot more of the frontend
+environment so I can get a feel for the landscape. Things like flow, selenium,
+other testing frameworks like jasmine with karma, etc. are not something I'm
+super familiar with so I'm going to get familiar with it over time. My first
+jump in session was straight up going through the contributing guide which was
+super slick and super simple. `yarn` then `yarn dev` and try `yarn test`, no
+problems initially getting into the code base. Now I need to start explore core
+and how the base [**Vue.js**](https://vuejs.org/) instance is created and how
+the global API really works.
+
+
 ## #326
 
 I'm at VueConf.us!!! It's the first [**Vue.js**](https://vuejs.org/) conference
