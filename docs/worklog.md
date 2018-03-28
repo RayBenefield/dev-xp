@@ -1,5 +1,18 @@
 # Worklog
 
+## #328
+
+Took a much deeper look into the [**Vue.js**](https://vuejs.org/) repository and
+trying to get a sense of where to start. I started a notes document on what
+would be nice, what is nice, and things to do to get started. There is a lot of
+things that could be great to improve the contributor experience and that might
+be a good place for me to start to bring in fresh eyes as a new contributor from
+the ground up wanting to understand core and dive deeply into the internals. So
+a roadmap for new devs would be a very nice thing to have to help guide them
+through the dev tools, the practices, and sort of a day-to-day workflow sort of
+perspective.
+
+
 ## #327
 
 I've decided to start taking a journey to being a contributor to the open source
