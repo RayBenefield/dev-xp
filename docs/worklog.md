@@ -1,5 +1,16 @@
 # Worklog
 
+## #329
+
+Alright so I'm finally back to coding after getting back from
+[**Vue.js**](https://vuejs.org/) conf. Which was an awesome experience btw.
+While there I realized a portentially awesome thing. A concept I'm dubbing
+"Single File Packages" similar to Single File Components, but for monorepos. I
+wrote about it here: https://twitter.com/RayBenefield/status/980489677407956993
+
+Now to figure out how to get all this to work.
+
+
 ## #328
 
 Took a much deeper look into the [**Vue.js**](https://vuejs.org/) repository and
