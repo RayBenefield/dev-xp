@@ -1,5 +1,16 @@
 # Worklog
 
+## #330
+
+Started planning out what it is going to take to build Single File Packages. I'm
+going to definitely need a [**Babel**](https://babeljs.io/) plugin and I may
+actually need a [**Rollup**](https://rollupjs.org/) plugin as well. I have a lot
+to learn, but if I can pull this off I'll definitely cut out a lot of painful
+work in terms of publishing and what not. Should be fun... I should reserve
+`babel-plugin-literate` and `rollup-plugin-literate`. Quick break before I get
+more into building a babel plugin.
+
+
 ## #329
 
 Alright so I'm finally back to coding after getting back from
