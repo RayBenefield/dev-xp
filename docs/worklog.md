@@ -1,5 +1,13 @@
 # Worklog
 
+## #331, #332
+
+Spent this morning exploring how to combine `lit-node` with
+[**Babel**](https://babeljs.io/). I discovered `pirates`, which is awesome, but
+I haven't quite figured out the best way to interweave the two compiler systems
+yet. Still lots to figure out sadly. Bleh... time for real work.
+
+
 ## #330
 
 Started planning out what it is going to take to build Single File Packages. I'm
