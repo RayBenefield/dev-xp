@@ -1,14 +1,24 @@
 module.exports = {
     extends: ['airbnb', 'prettier'],
     plugins: ['react', 'jsx-a11y', 'import', 'prettier'],
+    settings: {
+        'import/resolver': {
+            node: {
+                extensions: ['.js', '.md'],
+            },
+        },
+    },
     rules: {
+        semi: ['error', 'never'],
         'no-plusplus': 'off',
         'no-continue': 'off',
         'no-param-reassign': 'off',
         'import/no-resolve': 'off',
+        'import/extensions': ['error', 'ignorePackages'],
         'no-mixed-operators': 'off',
         'import/no-extraneous-dependencies': 'off',
         indent: ['error', 4, { SwitchCase: 1 }],
+        'prefer-arrow-callback': ['error', { allowNamedFunctions: true }],
         'arrow-parens': ['error', 'as-needed', { requireForBlockBody: false }],
         'prettier/prettier': [
             'error',
@@ -16,9 +26,9 @@ module.exports = {
                 printWidth: 80,
                 tabWidth: 4,
                 useTabs: false,
-                semi: true,
+                semi: false,
                 singleQuote: true,
-                trailingComma: 'all',
+                trailingComma: 'es5',
                 bracketSpacing: true,
                 arrowParens: 'avoid',
             },
@@ -38,8 +48,8 @@ module.exports = {
                 objects: 'always-multiline',
                 imports: 'always-multiline',
                 exports: 'always-multiline',
-                functions: 'always-multiline',
+                functions: 'never',
             },
         ],
     },
-};
+}
