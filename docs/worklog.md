@@ -1,5 +1,20 @@
 # Worklog
 
+## #333, #334, #335, #336, #337
+
+Phew!!! So I did a lot of work to try to get `entyre` working this morning...
+what I'm calling the Single File Package `babel-node` equivalent. Hopefully it
+works out alright. It seems to work with
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+alright. We shall see how things progress along. I had a lot of problems with
+`babel-register` for reals, but I got it figured out enough right now. It was
+painful and hurt my brain, but it is done. I'll work on the plugin tomorrow for
+building things properly. I'm kind of curious to see how the
+[**Rollup**](https://rollupjs.org/) plugin system works as I want to be able to
+split one file into three essentially so we shall see how that works in the long
+run. Time for real work right now though.
+
+
 ## #331, #332
 
 Spent this morning exploring how to combine `lit-node` with
