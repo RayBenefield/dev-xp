@@ -1,5 +1,22 @@
 # Worklog
 
+## #346, #347
+
+Alright so I'm very close to the
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+plugin working properly. I'm missing a very big piece in that the dependency
+checking system that defines the "externals" for a package cannot read an
+`index.md` quite yet. So I have to update that first to support `index.md`s and
+then it should compile fine. I manually tested a list of external dependencies
+and it seemed to work. Also when this system works properly I also have to
+re-write how post-build works since I will need it to use the baseConfig and
+then overwrite it with the attributes found in the `index.md` which means I'll
+probably have to adjust the portion that grabs the package config as well to
+read the `index.md` properly. A lot of adjustments, but ultimately things should
+work out great. I'm very very close though. And good to see my
+[**Rollup**](https://rollupjs.org/) plugin is working neatly. :)
+
+
 ## #344, #345
 
 Well I got a rollup plugin working officially. I also extract the front matter
