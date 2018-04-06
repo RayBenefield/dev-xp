@@ -1,5 +1,15 @@
 # Worklog
 
+## #344, #345
+
+Well I got a rollup plugin working officially. I also extract the front matter
+and create a proper readme file. It looks like it will work alright. We shall
+see. Next is to test it with
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+as a plugin based on the original literate programming plugin that I wrote last
+week. ONWARDS!!!
+
+
 ## #342, #343
 
 Started working on figuring out how to setup a
