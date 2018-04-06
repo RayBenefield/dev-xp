@@ -1,5 +1,21 @@
 # Worklog
 
+## #338, #339, #340, #341
+
+Forgot to log this this morning. I spent most of the morning working on getting
+the
+[**Entyre**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/entyre)
+package fully published. It took a bit to write out the entire readme and make
+sure it was published properly and had to make a few tweaks here and there, but
+things worked out. I did discover that I need support for adding additional
+files to a build, for example I needed an image that was referenced in the
+readme, but it didn't get built with it because I don't support that yet. Next
+thing to focus on is to get a
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+plugin going properly so I can start converting modules over to a single file
+package setup.
+
+
 ## #333, #334, #335, #336, #337
 
 Phew!!! So I did a lot of work to try to get `entyre` working this morning...
