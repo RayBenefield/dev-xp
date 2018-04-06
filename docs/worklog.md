@@ -1,5 +1,17 @@
 # Worklog
 
+## #342, #343
+
+Started working on figuring out how to setup a
+[**Rollup**](https://rollupjs.org/) plugin to extract the config as well as the
+code. And so far so good, I made a very short like 15 line function that
+extracted the code bits, now I need to adjust it to extract the configuration
+bits. Shouldn't be too hard. Probably need to import a yaml parser as well. I
+should be able to add just a couple more lines to gather it all. Looking forward
+to it. I'll probably make it another reduce function since I don't want to
+overcomplicate the single one that extracts the code. I'll tackle that tomorrow.
+
+
 ## #338, #339, #340, #341
 
 Forgot to log this this morning. I spent most of the morning working on getting
