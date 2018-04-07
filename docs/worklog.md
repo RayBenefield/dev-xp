@@ -1,5 +1,18 @@
 # Worklog
 
+## #348, #349, #350, #351
+
+Well I did it... supposedly. Single File Packages should now be a thing. I can
+build with them, build them themselves, and things seem to work. I fixed the
+dependency system to properly read markdown files. Changed the common plugins to
+parse out markdown files. And cleaned up several things. Next is to convert some
+of the internal packages to SFPs. Before I can publish them though I need to be
+able to update front matter in addition to `package.json` files. I also need to
+adjust the build system to support only changed packages as a flag or the build
+process will get ridiculous. So still a lot of polishing, but 90% of the way
+there. Gonna relax and play Halo the rest of the day for the most part.
+
+
 ## #346, #347
 
 Alright so I'm very close to the
