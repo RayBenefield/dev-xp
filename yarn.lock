@@ -3490,6 +3490,10 @@ lodash.isfunction@^3.0.8:
   version "3.0.8"
   resolved "https://registry.npmjs.org/lodash.isfunction/-/lodash.isfunction-3.0.8.tgz#4db709fc81bc4a8fd7127a458a5346c5cdce2c6b"
 
+lodash.keyby@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.npmjs.org/lodash.keyby/-/lodash.keyby-4.6.0.tgz#7f6a1abda93fd24e22728a4d361ed8bcba5a4354"
+
 lodash.keys@^3.0.0:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/lodash.keys/-/lodash.keys-3.1.2.tgz#4dbc0472b156be50a0b286855d1bd0b0c656098a"
@@ -4987,6 +4991,13 @@ rollup-plugin-filesize@^1.5.0:
     deep-assign "^2.0.0"
     filesize "^3.5.6"
     gzip-size "^3.0.0"
+
+rollup-plugin-markdown@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npmjs.org/rollup-plugin-markdown/-/rollup-plugin-markdown-0.1.0.tgz#a934fbf6cdbfd50c11ef74aae5bf77caa0f7760b"
+  dependencies:
+    magic-string "^0.22.4"
+    rollup-pluginutils "^2.0.1"
 
 rollup-plugin-node-globals@^1.2.0:
   version "1.2.0"
