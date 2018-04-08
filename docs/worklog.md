@@ -1,5 +1,17 @@
 # Worklog
 
+## #352, #353
+
+Spent a couple sessions just cleaning out issues. Setting a lot of issues to be
+resurrected for another time and just general refreshing my mind on what things
+need to be addressed moving forward. I have to plan out my next steps and this
+helped me get re-oriented again. I'm down to about 102 issues again and would
+like to close out as many simple things as possible so I'm going to now just go
+through and pick the easiest ones for simple task stuff. Hopefully it isn't too
+bad, just gotta trudge through all the painful monotonous stuff. Just needs to
+be done.
+
+
 ## #348, #349, #350, #351
 
 Well I did it... supposedly. Single File Packages should now be a thing. I can
