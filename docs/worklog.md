@@ -1,5 +1,18 @@
 # Worklog
 
+## #357, #358, #359
+
+This morning I started tackling the problem of adding a `--changed` flag to the
+`kd build` command. To do this I want other commands to have the same kind of
+filtering capability so I'm exploring what is needed for that. One thing that I
+realized would be needed is a cache for the `package-details` system, so that
+way it can be called multiple times with few problems. I'm going to try to
+adjust `kd ls` so that I can filter packages with that and then have every other
+command use that to populate their `packages` key. Lots of little work, but this
+refactor will be huge moving forward. Looking forward to how it opens up the
+doors on other commands.
+
+
 ## #354, #355, #356
 
 Spent three sessions just blowing through as many small tickets as possible. I
