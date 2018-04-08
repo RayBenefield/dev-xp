@@ -1,5 +1,19 @@
 # Worklog
 
+## #354, #355, #356
+
+Spent three sessions just blowing through as many small tickets as possible. I
+improve the readmes for both
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
+and
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+and also added a bunch of [**ES Lint**](https://eslint.org/) rules to improve
+the quality gate available. I also extracted the config into a [**Dev
+XP**](https://github.com/RayBenefield/dev-xp/) [**ES
+Lint**](https://eslint.org/) config package, That I'll publish eventually. Lots
+done I think like nearly 10 tickets closed as well. Super awesome. :D
+
+
 ## #352, #353
 
 Spent a couple sessions just cleaning out issues. Setting a lot of issues to be
