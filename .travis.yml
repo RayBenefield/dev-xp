@@ -17,7 +17,7 @@ script:
     - yarn run kd version
 before_deploy:
     - yarn run update
-    - yarn run build
+    - yarn run build --changed
 deploy:
     provider: script
     script: yarn run publish
