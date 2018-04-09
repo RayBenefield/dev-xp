@@ -1,5 +1,22 @@
 # Worklog
 
+## #360, #361, #362, #363, #364, #365
+
+Holy hell that was a lot of work, but I've made solid progress. I ended up
+refactoring how the `kd ls` comamnd works and started centralizing filtering
+logic into it and created a new package to handle filtering. It was a hassle and
+took a lot of re-thinking, but so far so good. `kd build --changed` is now
+properly supported and other commands should be able to easily adopt new filters
+in the future when I want them. I did notice though on merge that it didn't
+properly publish, so I need to look at the publish command to figure out exactly
+what the problem is. I should be able to reduce the build times drastically
+after I finish this portion and then I can start looking into properly
+versioning and loading single file packages. Once I start doing that then I can
+go through and start converting all of my packages. Actually I'll probably need
+the [**ES Lint**](https://eslint.org/) plugin first. So I'll probably do that
+after handling the versioning portion. We shall see. Time for paid work.
+
+
 ## #357, #358, #359
 
 This morning I started tackling the problem of adding a `--changed` flag to the
