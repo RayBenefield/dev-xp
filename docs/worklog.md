@@ -1,5 +1,12 @@
 # Worklog
 
+## #371
+
+Just some simple refactoring. I add import ordering rules to start. Might have
+to look into how to trigger and "internal" group so I can separate those from
+externals.
+
+
 ## #366, #367, #368, #369, #370
 
 Awesome! This morning I put focus on trying to fix the publishing pipeline with
