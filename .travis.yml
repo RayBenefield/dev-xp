@@ -17,7 +17,7 @@ script:
     - if ! [[ "$TRAVIS_PULL_REQUEST" == "false" ]]; then yarn run kd version; fi
 before_deploy:
     - yarn run update
-    - yarn run build --changed
+    - yarn run build --publishing
 deploy:
     provider: script
     script: yarn run publish
