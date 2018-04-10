@@ -9,12 +9,12 @@ before_install: git fetch --depth=10000
 install:
     - yarn
 script:
-    - yarn run test
-    - yarn run lint
-    - yarn run lint:commits
-    - yarn run inspect
-    - yarn run build
-    - yarn run kd version
+    - if [[ "$TRAVIS_PULL_REQUEST" ]]; then yarn run test; fi
+    - if [[ "$TRAVIS_PULL_REQUEST" ]]; then yarn run lint; fi
+    - if [[ "$TRAVIS_PULL_REQUEST" ]]; then yarn run lint:commits; fi
+    - if [[ "$TRAVIS_PULL_REQUEST" ]]; then yarn run inspect; fi
+    - if [[ "$TRAVIS_PULL_REQUEST" ]]; then yarn run build; fi
+    - if [[ "$TRAVIS_PULL_REQUEST" ]]; then yarn run kd version; fi
 before_deploy:
     - yarn run update
     - yarn run build --changed
