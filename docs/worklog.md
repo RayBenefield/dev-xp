@@ -1,5 +1,28 @@
 # Worklog
 
+## #366, #367, #368, #369, #370
+
+Awesome! This morning I put focus on trying to fix the publishing pipeline with
+all the changes I made recently. And it looks like everything is updated
+properly now and I'm able to move forward. Now that I've optimized the build
+pipeline to be faster to focus on only what needs to be built and what needs to
+be published, I can now put my focus into working on publishing EVERY package in
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+to get this going properly I need to invest time in the
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+plugin system and figure out how I plan on extending every part of it so I can
+really have a full pluggable system. I've been hacking work for SFPs and it is
+now time that I focus on making the system actually pluggable for various
+different types of packages. I need to convert most of the functionality into
+plugins now rather than hard-baked systems revolving around
+[**NPM**](https://www.npmjs.com/). If I can do this properly then I'll be able
+to easily include
+[**Entyre**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/entyre)
+SFPs as well as [**Vue.js**](https://vuejs.org/) sites, and
+[**Firebase**](https://firebase.google.com/) functions. Lots of potential in the
+future. :D
+
+
 ## #360, #361, #362, #363, #364, #365
 
 Holy hell that was a lot of work, but I've made solid progress. I ended up
