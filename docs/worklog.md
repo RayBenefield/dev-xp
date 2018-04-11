@@ -1,5 +1,19 @@
 # Worklog
 
+## #373, #374, #375, #376
+
+Preparing myself for a full plugin system for
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+in order to do that I needed to better support configuration in
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
+and so lots of work was put there to pass the plugins through there. Now that
+plugins are going through the base config, all commands will get the plugins now
+and I can start using that to extend the system and make it 100% plugin based.
+:D Lots of fun to come. I don't know when I'll get more side project time since
+I'm heading out to Seattle for the Halo World Championship, but I'm well
+prepared for the next steps.
+
+
 ## #372
 
 More random refactoring. Changed the exit command on
