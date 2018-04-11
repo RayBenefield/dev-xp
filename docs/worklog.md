@@ -1,5 +1,13 @@
 # Worklog
 
+## #372
+
+More random refactoring. Changed the exit command on
+[**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli)
+when it doesn't find a command. Added a build template as well. Not much, but
+three more tickets are being closed now with this PR so that's awesome. :D
+
+
 ## #371
 
 Just some simple refactoring. I add import ordering rules to start. Might have
