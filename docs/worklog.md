@@ -1,5 +1,30 @@
 # Worklog
 
+## #378
+
+Alright I realized a big mistake that I made early in the project. I loaded all
+of the details of a package into the exact same place and pulled up some of
+those details into this monolithic package details object. So now I need to
+refactor it massively to enable this plugin details. I'm changing my terminology
+of a package's "config" to be a package's "manifest" instead. I am going to
+split up the filesystem details like `srcDir` and `destDir` and `files` list to
+its own portion of the snowball that just holds package `structures` and I'm
+going to split that from the `version`, `bin`, `main` keys which will actually
+be part of `manifests` instead. Refactoring this core object is going to be a
+pain though, because I have no easy way to know what is dependent on those
+except greping. I'm wondering if considering typescript may be an option for
+these massive snowballs. It would help me with intellisense but also help me
+figure out what parts of the project are dependent on what parts of the
+snowball. If I use static typing on the snowballs only it would be HUGELY
+helpful... so I should consider it. Or actually Flow might be better. I'll have
+to investigate that.
+
+Btw I'm in Seattle now and just squeezing in some spare work time. Very proud of
+myself for stepping up while I'm on vacation. :D And still drinking my smart
+waters as well since we have a full size kitchen with full size refridgerator
+and dining table. lol... pretty awesome.
+
+
 ## #377
 
 Started working on extracting out the first part of the plugin system which will
