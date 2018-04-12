@@ -1,5 +1,13 @@
 # Worklog
 
+## #377
+
+Started working on extracting out the first part of the plugin system which will
+be how package details are loaded. I need to be able to extract front matter
+from SFPs, and to do that it has to be part of the pluggable system. So just
+some simple refactoring to make sure that I'll be able to enable that.
+
+
 ## #373, #374, #375, #376
 
 Preparing myself for a full plugin system for
