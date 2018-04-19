@@ -1,5 +1,15 @@
 # Worklog
 
+## #379
+
+I'm working on a slow refactor to split up the structure portions of the
+packages and the manifests of the packages. I think I have the initial split
+into separate packages working, I just need to double check the documentation
+and then check it in. Next would be to have the package details portion decide
+which manifest system to load by using the plugins. Lots of little refactors to
+make this clean.
+
+
 ## #378
 
 Alright I realized a big mistake that I made early in the project. I loaded all
