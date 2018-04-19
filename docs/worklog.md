@@ -1,5 +1,18 @@
 # Worklog
 
+## #380, #381
+
+Spent time just cleaning up the refactor that I worked on yesterday for
+`package-structures`. Also spent a ton of time exploring the code base to see
+what is going to be needed to make `structures` a core part of the snowball
+rather than a haphazard one squeezed in. It is one of the few commonalities
+between all packages and then from there things will split off into plugin
+valley. After refactoring those things, I'll then be in the path to refactor
+dependencies onto the manifests rather than a packages object. Which will be
+plugin based now. This approach may actually enable my ability to include other
+languages much easier if they transpile into javascript... could be awesome.
+
+
 ## #379
 
 I'm working on a slow refactor to split up the structure portions of the
