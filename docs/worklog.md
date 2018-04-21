@@ -1,5 +1,20 @@
 # Worklog
 
+## #382, #383, #384
+
+Slowly grinding through the refactor of splitting into manifests and structures
+throughout the system. This will be important to make things work in their
+current state then I can apply the plugins system to handle fetching manifests
+for single file packages. It is slow and grueling, but worth it. I've got `kd
+ls` and `kd check` working properly. I need to still address the `kd deps` and
+then `kd build`. Following that I need to handle `kd ver` and `kd publish`
+hopefully things go smoothly this weekend so I can do it all properly. This also
+coincidentally fixes a couple issues where I wanted to be able to do
+`--json=structures.kli` in order to fetch specific details for specific
+packages. Which is pretty cool. Getting there slowly, one more session today
+before doing paid work.
+
+
 ## #380, #381
 
 Spent time just cleaning up the refactor that I worked on yesterday for
