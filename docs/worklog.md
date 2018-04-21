@@ -1,5 +1,15 @@
 # Worklog
 
+## #385
+
+So I worked on cleaning up the `kd dep` command and it seems to be working
+alright. I need to change the tests to match the new structure that is no longer
+dependent on the `packages` part of the snowball. But slow progression. Tomorrow
+should be much cleaner. I've gotta finish up `kd build` next followed by `kd
+ver` and `kd pub`... hopefully tomorrow will be quick and painless. Time for
+paid work.
+
+
 ## #382, #383, #384
 
 Slowly grinding through the refactor of splitting into manifests and structures
