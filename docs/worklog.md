@@ -1,5 +1,21 @@
 # Worklog
 
+## #386, #387, #388, #389
+
+Lots of cleaning up of the deps command and making things work. Had to update
+the tests, and then enabled package filtering for the deps command, and then
+just ruined
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+and then explored how to make SFPs work with
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+and then nothing. But I'm now trying to plan out how to do `kd build` properly
+with this new `structures` and `manifest` split as some packages require a
+manifest before deciding if it belongs to a plugin or not. I think I have an
+idea on how to approach this. Just gotta think about it. Time for paid work now
+though. Bleh... if only this was my fulltime job. I could reach my ultimate goal
+sooo much faster.
+
+
 ## #385
 
 So I worked on cleaning up the `kd dep` command and it seems to be working
