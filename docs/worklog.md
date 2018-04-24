@@ -1,5 +1,15 @@
 # Worklog
 
+## #390, #391
+
+I got the `kd build` command working it looks like, so so far so good. I still
+need to address `kd ver` and `kd pub` and hope that things go well. Once those
+have worked then the giant refactor is done and I can move forward and start
+solidifying the plugin system a bit more by introducing a types part of the
+snowball and then use that to determine what needs to run for what. Should be
+interesting... lol. For now back to paid work.
+
+
 ## #386, #387, #388, #389
 
 Lots of cleaning up of the deps command and making things work. Had to update
