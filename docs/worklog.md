@@ -1,5 +1,14 @@
 # Worklog
 
+## #393, #394
+
+Another batch of refactors to get the `kd ver` system working. Next is probably
+the `kd publish` version which means I need to touch destination details and the
+template. Then after that I need to tackle the `kd prerelease` command and that
+should be enough and I'll make a massive PR to make sure I didn't miss anything
+in the core pipeline. Back to paid work.
+
+
 ## #392
 
 Finished up the refactor to make `kd build` work properly. And then when that
