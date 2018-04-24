@@ -1,5 +1,15 @@
 # Worklog
 
+## #392
+
+Finished up the refactor to make `kd build` work properly. And then when that
+was done I spent time to make sure that I find the rest of the stuff that needs
+to be updated to the new structures/manifests snowball. It ain't easy, but I'll
+get there. It looks like I have 6 packages that need to be updated to match and
+verify. Probably refactor work that will be finished hopefully by the end of
+this coming weekend and then I can get back into the actual plugin system.
+
+
 ## #390, #391
 
 I got the `kd build` command working it looks like, so so far so good. I still
