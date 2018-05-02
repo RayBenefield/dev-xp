@@ -1,5 +1,12 @@
 # Worklog
 
+## #397
+
+To prepare for the full plugin system I need to determine a packages type which
+I am now adding to the snowball. And now systems will be able to determine what
+to run based on the type of a package. Quick break time.
+
+
 ## #395, #396
 
 Finally back from Portland and back to working on this. I'm finishing up the
