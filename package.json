@@ -139,7 +139,7 @@
         "rollup-plugin-node-globals": "^1.2.0",
         "rollup-plugin-node-resolve": "^3.0.0",
         "rollup-plugin-uglify": "^2.0.1",
-        "rollup-plugin-vue": "^3.0.0",
+        "rollup-plugin-vue": "^4.0.0",
         "semver": "^5.4.1",
         "sha.js": "^2.4.9",
         "simple-git": "^1.85.0",
