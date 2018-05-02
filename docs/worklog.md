@@ -1,5 +1,14 @@
 # Worklog
 
+## #398, #399
+
+Moving forward with the conversion of the package manifest system into the
+plugin system. Got stuck and ended up breaking a bunch of things now that types
+is also a part of the snowball and everything needs to be re-adjusted at the
+bottom of the snowball. None of that probably makes sense, but it does to me.
+I'm going to take a break though before I finish this refactoring.
+
+
 ## #397
 
 To prepare for the full plugin system I need to determine a packages type which
