@@ -1,5 +1,14 @@
 # Worklog
 
+## #395, #396
+
+Finally back from Portland and back to working on this. I'm finishing up the
+major refactor of changing the core dependency on the glob of `package` info.
+Now just names, structures, and manifests are used across the board. But I'm
+done for the night and tired. Didn't get much work on this, but now I'm able to
+jump into the actual plugin system.
+
+
 ## #393, #394
 
 Another batch of refactors to get the `kd ver` system working. Next is probably
