@@ -1,5 +1,16 @@
 # Worklog
 
+## #400
+
+WOOT SESSION 400!!! That's a lot of work... lol. 200-ish hours essentially. Well
+this session I was just verifying and cleaning up the commits for the work I did
+to enable the plugin system for the manifest stuff. Going to push it up, but I
+have duplicate code that I need to address first. One of the things I'm not a
+fan of with jsinspect is that I can't put inline directives to disable the
+check. Lame... I'll address that next session and then merge the changes to see
+if everything continues to work fine.
+
+
 ## #398, #399
 
 Moving forward with the conversion of the package manifest system into the
