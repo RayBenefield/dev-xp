@@ -1,3 +1,4 @@
 {
-    "threshold": 27
+    "threshold": 27,
+    "minInstances": 3
 }
