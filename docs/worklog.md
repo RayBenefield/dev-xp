@@ -1,5 +1,23 @@
 # Worklog
 
+## #401
+
+That was awesome... so I merged in the changes to add the plugin system for
+manifests and then added a proper manifest function to the
+[**Entyre**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/entyre)
+plugin which ended up working out quickly and well. As a result I also enabled
+promise manifest functions making things soo much simpler. I'll probably extract
+the manifest function into its own package because I want to be able to manage a
+cache similer to the `package-details-js` package. Which I really need to
+rename. I'm going to write a ticket for that now. lol... need to go through the
+entire
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+repo and rethink how I'm naming everything and also think about extracting the
+plugin functions into their own scope so they don't bloat the core. For now I
+think I should take a break and then hit some paid work. :D Been a good and
+quick morning.
+
+
 ## #400
 
 WOOT SESSION 400!!! That's a lot of work... lol. 200-ish hours essentially. Well
