@@ -1,5 +1,13 @@
 # Worklog
 
+## #404
+
+Did some random cleaning up. Ended up removing 16 lines of code by exposing the
+default package filters supported by the `kd ls` command. Which is super nice. I
+think I want to setup a default filter function now so `command build` and other
+commands can include a default filter if none are selected. Break time.
+
+
 ## #403
 
 Started creating a bunch of issues now that we have the general plugin system
