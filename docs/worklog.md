@@ -1,5 +1,13 @@
 # Worklog
 
+## #406
+
+Finished removing all of the dependencies in the `check-package` system.
+Removing the `try-catch` blocks made a MASSIVE difference in the line count as
+well and the level of complexity in the function. It is much cleaner now and I'm
+very satisfied with the results.
+
+
 ## #405
 
 Another session of random refactors. I'm currently cleaning up the
