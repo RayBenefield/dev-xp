@@ -1,5 +1,17 @@
 # Worklog
 
+## #402
+
+Spent some time playing with [**Codepen**](https://codepen.io) to play with a
+pure css Hex grid... I'd love to create a [**Vue.js**](https://vuejs.org/)
+library strictly built around hexagon components. Would be a lot of fun
+actually. I may have to do that some day when I get the
+[**Vue.js**](https://vuejs.org/) portion of
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+working all the way through. Just wanted to do something a little fun for now to
+get back into the grove of things for today.
+
+
 ## #401
 
 That was awesome... so I merged in the changes to add the plugin system for
