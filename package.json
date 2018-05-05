@@ -1,6 +1,7 @@
 {
     "name": "kikd",
-    "description": "Continuous Integration and Continuous Deployment for Open Sourced NPM Tooling.",
+    "description":
+        "Continuous Integration and Continuous Deployment for Open Sourced NPM Tooling.",
     "version": "0.0.50",
     "homepage": "https://github.com/RayBenefield/kikd",
     "author": {
@@ -28,46 +29,61 @@
         "kd": "yarn run entyre src/node_modules/kikd/cli.js",
         "?build": "echo Dogfooding building kikd with rollup using itself.",
         "build": "yarn run kd build --commit",
-        "?precommit": "echo Run all tests, then check staged commits for linting and style, and finally show the current lines of code.",
-        "precommit": "yarn run test && lint-staged -c ./dx/lint-staged.config.js && npm-run-all sloc ignored",
+        "?precommit":
+            "echo Run all tests, then check staged commits for linting and style, and finally show the current lines of code.",
+        "precommit":
+            "yarn run test && lint-staged -c ./dx/lint-staged.config.js && npm-run-all sloc ignored",
         "?commitmsg": "echo Verify the commit message matches our standards",
         "commitmsg": "commitlint --cwd ./dx -e $GIT_PARAMS",
-        "?prepush": "echo Before pushing to the repo, refactor duplicate logic and check for repo wide lint problems.",
+        "?prepush":
+            "echo Before pushing to the repo, refactor duplicate logic and check for repo wide lint problems.",
         "prepush": "npm-run-all inspect lint",
         "?clean": "echo Just remove the dist directory.",
         "clean": "rimraf dist",
         "?pretty": "echo Clean up the style for all of the source code.",
-        "pretty": "prettier src/node_modules/{@*/*,*}/*.js --config ./dx/prettier.config.js --with-node-modules --write",
+        "pretty":
+            "prettier src/node_modules/{@*/*,*}/*.js --config ./dx/prettier.config.js --with-node-modules --write",
         "?inspect": "echo Check for duplicate code through the packages.",
-        "inspect": "cd src/node_modules/ && jsinspect -c ../../dx/jsinspect.config.json",
+        "inspect":
+            "cd src/node_modules/ && jsinspect -c ../../dx/jsinspect.config.json",
         "?lint": "echo Lint both source code and tests",
         "lint": "npm-run-all lint:src lint:tests",
         "?lint:commits": "echo Lint commit messages (run in CI).",
         "lint:commits": "./dx/lint-commits",
         "?lint:src": "echo Lint the source code with an extended Airbnb style.",
-        "lint:src": "eslint src/node_modules --max-warnings 7 --ignore-pattern 'src/node_modules/**/*test*' --config ./dx/eslint.config.js",
+        "lint:src":
+            "eslint src/node_modules --max-warnings 6 --ignore-pattern 'src/node_modules/**/*test*' --config ./dx/eslint.config.js",
         "?lint:tests": "echo Lint the tests with an extended Airbnb style.",
-        "lint:tests": "eslint src/node_modules/{**,**/**}/*tests*.js --max-warnings 0 --config ./dx/eslint.test.config.js",
+        "lint:tests":
+            "eslint src/node_modules/{**,**/**}/*tests*.js --max-warnings 0 --config ./dx/eslint.test.config.js",
         "?test": "echo Run all of the tests in our test suite",
         "test": "npm-run-all test:*",
-        "?test:tape": "echo Run tests using babel/tape/tape-bdd/blue-tape, with tap-spec output.",
-        "test:tape": "cd src/node_modules && babel-tape-runner {**,**/**}/tests.js | tap-spec",
+        "?test:tape":
+            "echo Run tests using babel/tape/tape-bdd/blue-tape, with tap-spec output.",
+        "test:tape":
+            "cd src/node_modules && babel-tape-runner {**,**/**}/tests.js | tap-spec",
         "?test:kape": "echo Run tests using and for Kape.",
-        "test:kape": "cd src/node_modules && babel-node kape/cli.js {**,**/**}/snapshot-tests.js",
+        "test:kape":
+            "cd src/node_modules && babel-node kape/cli.js {**,**/**}/snapshot-tests.js",
         "?kape": "echo Run kape tests.",
         "kape": "cd src/node_modules && babel-node kape/cli.js",
         "entyre": "node ./src/node_modules/entyre/cli.js",
         "?sloc": "echo Print the number of lines of source code we have.",
-        "sloc": "echo 'Lines of source code: ' && sloc src/node_modules/ --exclude .*test.*",
+        "sloc":
+            "echo 'Lines of source code: ' && sloc src/node_modules/ --exclude .*test.*",
         "?ignored": "echo Report all eslint disabled settings.",
-        "ignored": "grep -r 'eslint-disable' -h ./src | sed -E 's/^.*\\/[*/] | \\*\\/|,//g' | tr ' ' '\\n' | grep -v 'eslint' | sort | uniq -c | sort -bgr",
+        "ignored":
+            "grep -r 'eslint-disable' -h ./src | sed -E 's/^.*\\/[*/] | \\*\\/|,//g' | tr ' ' '\\n' | grep -v 'eslint' | sort | uniq -c | sort -bgr",
         "?update": "echo Update version number of packages.",
         "update": "yarn kd update --commit",
         "?publish": "echo Publish packages to NPM.",
         "publish": "yarn kd publish --commit",
-        "?watch": "echo Run tests, linting, and line counting every time a file changes.",
-        "watch": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules --exec npm-run-all test lint sloc",
-        "?postrewrite": "echo Update what commits git tags are pointing to after an amend/rebase.",
+        "?watch":
+            "echo Run tests, linting, and line counting every time a file changes.",
+        "watch":
+            "nodemon --config ./dx/nodemon.json --watch ./src/node_modules --exec npm-run-all test lint sloc",
+        "?postrewrite":
+            "echo Update what commits git tags are pointing to after an amend/rebase.",
         "postrewrite": "./dx/rewrite-tags"
     },
     "dependencies": {
@@ -165,9 +181,6 @@
         "yarn": "^1.3.2"
     },
     "babel": {
-        "presets": [
-            "env",
-            "stage-0"
-        ]
+        "presets": ["env", "stage-0"]
     }
 }
