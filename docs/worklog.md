@@ -1,5 +1,16 @@
 # Worklog
 
+## #403
+
+Started creating a bunch of issues now that we have the general plugin system
+done. I should be able to consolidate a lot of logic into the snowball rather
+than doing them for each individual command. I'm hoping I'll be able to reduce
+the total code count by 200-ish lines of code as I'm at around 2200. I'd really
+like to clean that up and remove as much as I can. I think I will be since I can
+start extracting a ton of logic into shared packages. Another break before I
+probably start a random refactor session.
+
+
 ## #402
 
 Spent some time playing with [**Codepen**](https://codepen.io) to play with a
