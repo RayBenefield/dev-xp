@@ -1,5 +1,15 @@
 # Worklog
 
+## #407
+
+I ended up just continuing the session and attempting to cleanup and remove more
+lines of code. I also ended up adding filtering for the `kd check` command,
+which is also really nice. It was super easy with the newly exposed filters of
+list command. Lots of super easy stuff and I was able to get down more lines of
+code and reduce the number of warnings to 6 instead of 7 since `publish-check`
+was one of the culprits for lines of code.
+
+
 ## #406
 
 Finished removing all of the dependencies in the `check-package` system.
