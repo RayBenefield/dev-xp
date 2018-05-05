@@ -1,5 +1,14 @@
 # Worklog
 
+## #405
+
+Another session of random refactors. I'm currently cleaning up the
+`check-package` module to remove the need for the `try-catch` as well as
+removing the use of `resolve` and what not now that I have the `manifests` and
+`structures` system. Ended up removing another 13 lines of code. Going well so
+far. Had to change the return as well and adjust snapshots, but minor detail.
+
+
 ## #404
 
 Did some random cleaning up. Ended up removing 16 lines of code by exposing the
