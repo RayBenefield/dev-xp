@@ -1,5 +1,17 @@
 # Worklog
 
+## #408
+
+Another day of refactoring to go through and general cleanup of the
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+setup. Started by merging a [**Snyk**](https://snyk.io/) PR with an update for
+the [**Rollup**](https://rollupjs.org/) [**Vue.js**](https://vuejs.org/) plugin.
+And then went through and changed the `baseConfig` to `rootManifest` to match
+the nomenclature that I've decided to adopt. Next thing I'm probably going to do
+is adjust the `root` part of the snowball to be similar to the `structures` used
+for packages.
+
+
 ## #407
 
 I ended up just continuing the session and attempting to cleanup and remove more
