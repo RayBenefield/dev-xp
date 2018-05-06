@@ -1,5 +1,17 @@
 # Worklog
 
+## #409
+
+Add a `rootStructure` to the snowball next to the `rootManifest` which allowed
+me to simplify a ton of logic in the `publish-check` which is really nice. I was
+able to remove around 10-ish lines of code really easily and I'm super satisfied
+with the results. It is sooo much simpler to read as well. I'm starting to
+realize that Sindre's comment on "If you are using `new Promise` then there is
+probably a better way". I'm also really looking forward to removing `try/catch`
+from my code base. If I can design an eslint rule to remove instantiating a
+`Promise` as well that would probably be good.
+
+
 ## #408
 
 Another day of refactoring to go through and general cleanup of the
