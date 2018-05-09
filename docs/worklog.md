@@ -1,5 +1,14 @@
 # Worklog
 
+## #410
+
+Implemented a quick plugin system into the `kd check` system. Wasn't too hard to
+keep the working node packages. Now I'm working on the check system for
+[**Entyre**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/entyre)
+packages which shouldn't take too long. I'm just doing tests and what not now.
+Next session for sure.
+
+
 ## #409
 
 Add a `rootStructure` to the snowball next to the `rootManifest` which allowed
