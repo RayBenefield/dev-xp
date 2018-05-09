@@ -1,5 +1,14 @@
 # Worklog
 
+## #412
+
+So this morning I was really wanting to get back into game development. And just
+out of curiousity I decided to lookup a game engine that supported javascript.
+Turns out someone made an **Unreal.js** plugin. Now I'm kind of excited. So
+first thing I started a session on was booting up the Unreal Editor and
+exploring. Kind of excited for the potential to build games in the future. :D
+
+
 ## #411
 
 Finished up the
