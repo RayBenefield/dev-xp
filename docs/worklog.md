@@ -1,5 +1,13 @@
 # Worklog
 
+## #413
+
+Started some more exploring. Tried to start playing with **Unreal.js**, but
+ended up having to install an older version of Unreal (4.18 instead of 4.19) to
+be able to use the plugin built-in to the editor. Hopefully it will work after
+this install.
+
+
 ## #412
 
 So this morning I was really wanting to get back into game development. And just
