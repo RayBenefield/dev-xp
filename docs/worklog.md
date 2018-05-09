@@ -1,5 +1,15 @@
 # Worklog
 
+## #411
+
+Finished up the
+[**Entyre**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/entyre)
+check function fairly simply, but forgot to update the `filter-packages` module
+to properly pass the config to `publish-check`. But things are working now and
+the changes are now published. It is amazing how fast I can put out new versions
+of packages with this entire toolset. Loving it.
+
+
 ## #410
 
 Implemented a quick plugin system into the `kd check` system. Wasn't too hard to
