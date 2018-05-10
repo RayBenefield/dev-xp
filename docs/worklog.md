@@ -1,5 +1,19 @@
 # Worklog
 
+## #415
+
+Applied the plugin system to `kd prerelease` and it seemed to refactor alright.
+I realized that I could bring it into the multi-package handling system which
+would be great. But I will do that in the future I also really need to start a
+new
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
+scope for node so I can consolidate a lot of the plugin logic stuff that are
+shared between node packages and cli tools. Next is to build the `fix` function
+for
+[**Entyre**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/entyre)
+packages. Should be fun.
+
+
 ## #414
 
 Started work on setting up `kd prerelease` to handle plugins since writing a
