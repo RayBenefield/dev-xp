@@ -1,5 +1,14 @@
 # Worklog
 
+## #414
+
+Started work on setting up `kd prerelease` to handle plugins since writing a
+`package.json` or `readme.md` is not really a thing in
+[**Entyre**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/entyre)
+packages. Just a bunch of simple refactoring for now to bring `kd prerelease` up
+to recent standards of things. I'll probably start the plugin portion next.
+
+
 ## #413
 
 Started some more exploring. Tried to start playing with **Unreal.js**, but
