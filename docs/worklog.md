@@ -1,5 +1,14 @@
 # Worklog
 
+## #416
+
+Spent this entire session just worrying about what my next steps are and
+creating some new issues for refactoring sake. I have a lot of shared
+functionality that I'm going to need and centralizing it all will be really
+nice. I just thought of another one actually. Now to take a gaming break before
+jumping into paid work.
+
+
 ## #415
 
 Applied the plugin system to `kd prerelease` and it seemed to refactor alright.
