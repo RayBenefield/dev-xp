@@ -1,5 +1,19 @@
 # Worklog
 
+## #417
+
+Wow... it's been pretty much a year since I've seriously looked into this
+project. I want to get back into it and I started by reviewing the readme and
+reminding myself exactly what I was working on. I have a lot of work to do to
+get back up to speed, but I think I can get back into things. Life has changed
+quite a bit after a year, but this project of improving ability to develop
+software by one person has always been my baby. I think I'm ready to come back
+and raise it and re-build my coding skillset. So I may not come back to this
+today. But just doing a single pomodoro session really helps. Good sleep needs
+to be done in order for me to tackle this better considering I was dozing off a
+bit. For now... this was just dipping my toe before coming back.
+
+
 ## #416
 
 Spent this entire session just worrying about what my next steps are and
