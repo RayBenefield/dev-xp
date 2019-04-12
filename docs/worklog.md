@@ -1,5 +1,22 @@
 # Worklog
 
+## #418
+
+Skipped a day of working on getting back into steady development, but today I'm
+back and I'm ready to go. I spent a pomodoro re-exploring my dev environment.
+I've decided to get back to my old Vim and iTerm setup that I had a year ago. VS
+Code proved to be fancy, but clunky for my work style. I always felt like I was
+working against the editor to make ends meet, but iTerm and Vim navigation using
+the full command line with Fish just feels right. Something I want to do is
+re-tackle my dot-files for Vim because I'm getting random errors in a couple
+plugins that I don't want to have moving forward. I want to clean that up so it
+feels fresh and clean again. But I also want to store my dot-files in this
+repository. I may just setup my dot-files in the root directory for now and
+fiture out where to put it later just symlinking it. We shall see how that goes.
+I'm very happy to be back to a raw Vim/iTerm setup though... it is so refreshing
+and responsive in comparison.
+
+
 ## #417
 
 Wow... it's been pretty much a year since I've seriously looked into this
