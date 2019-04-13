@@ -1,5 +1,14 @@
 # Worklog
 
+## #420
+
+Just trying to get the essentials for Vim checked in resulted in my having to
+update [**Yarn**](https://yarnpkg.com/), node,
+[**Commitlint**](http://marionebl.github.io/commitlint/#/), and a couple other
+things, but in the end it all worked out and I finally got the essentials
+checked in. Now to continue working on improving them... bit by bit.
+
+
 ## #419
 
 Totally forgot this log entry. But I came back for the second day in a row and
@@ -7,6 +16,7 @@ decided to setup Vim dot files in this project so I can version them and keep
 everything I use in the same place. Got all the essentials in play and the next
 few sessions will be focused around getting all my preferred plugins
 re-installed and configured.
+
 
 ## #418
 
