@@ -1,5 +1,13 @@
 # Worklog
 
+## #419
+
+Totally forgot this log entry. But I came back for the second day in a row and
+decided to setup Vim dot files in this project so I can version them and keep
+everything I use in the same place. Got all the essentials in play and the next
+few sessions will be focused around getting all my preferred plugins
+re-installed and configured.
+
 ## #418
 
 Skipped a day of working on getting back into steady development, but today I'm
