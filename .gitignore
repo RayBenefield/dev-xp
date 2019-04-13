@@ -4,3 +4,5 @@
 temp
 *.log*
 .yarnclean
+/.files/.vim/plugged
+/.files/.vim/autoload

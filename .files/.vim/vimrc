@@ -1,0 +1,5 @@
+" All loaded vim bundles through dein
+source $HOME/.vim/bundles.vim
+
+" All loaded vim bundles through dein
+source $HOME/.vim/essentials.vim
