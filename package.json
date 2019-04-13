@@ -19,7 +19,7 @@
         "kd": "cli.js"
     },
     "engines": {
-        "node": ">=8.9.4"
+        "node": ">=11.14.0"
     },
     "scripts": {
         "?info": "echo Display information about the scripts.",
