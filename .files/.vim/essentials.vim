@@ -19,3 +19,6 @@ set backspace=indent,eol,start
 
 " Sets a unified shared clipboard between yank and the OS
 set clipboard=unnamed,unnamedplus
+
+" Enables syntax highlighting
+syntax enable
