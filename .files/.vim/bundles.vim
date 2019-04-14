@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
 
+" Side file drawer
 Plug 'scrooloose/nerdtree'
 
 " Useful pair-like features that utilize square brackets

@@ -1,3 +1,7 @@
+"
+" Essentials for any of my vim setups
+"
+
 " Home row escape key
 inoremap jk <ESC>
 inoremap jK <ESC>

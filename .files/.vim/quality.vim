@@ -1,3 +1,7 @@
+"
+" Keep things clear of clutter and errors
+"
+
 " Turn off swap files
 set noswapfile
 
