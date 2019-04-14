@@ -5,6 +5,12 @@ inoremap Jk <ESC>
 inoremap JK <ESC>
 vnoremap JK <ESC>
 
+" Easier Split Navigation
+nnoremap <C-J> <C-W><C-J>  " Down
+nnoremap <C-K> <C-W><C-K>  " Up
+nnoremap <C-L> <C-W><C-L>  " Right
+nnoremap <C-H> <C-W><C-H>  " Left
+
 " Set leader key to something on the home row
 let mapleader = ";"
 
