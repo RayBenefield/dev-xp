@@ -1,5 +1,8 @@
 " All loaded vim bundles through dein
 source $HOME/.vim/bundles.vim
 
-" All loaded vim bundles through dein
+" Essentials for any of my vim setups
 source $HOME/.vim/essentials.vim
+
+" Keep things clear of clutter and errors
+source $HOME/.vim/quality.vim
