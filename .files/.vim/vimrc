@@ -6,3 +6,6 @@ source $HOME/.vim/essentials.vim
 
 " Keep things clear of clutter and errors
 source $HOME/.vim/quality.vim
+
+" Simple changes to ease the use of Vim
+source $HOME/.vim/convenience.vim
