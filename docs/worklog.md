@@ -1,5 +1,13 @@
 # Worklog
 
+## #421
+
+So I decided to merge all the current vim configuration stuff that I have
+setup. Just so I have it done and I can move forward with some other work. I
+want to start playing with Twitter's Oauth soon so that's the goal. I can
+update my vim config whenever I need to since it is now part of my monorepo.
+
+
 ## #420
 
 Just trying to get the essentials for Vim checked in resulted in my having to
