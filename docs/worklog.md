@@ -1,5 +1,12 @@
 # Worklog
 
+## #423
+
+Created an app and setup some basic Twitter client code to get some user
+details. Next thing to do is to play with retweeting and liking tweets, even
+creating or direct messaging tweets.
+
+
 ## #422
 
 Was going to start playing with the Twitter API and spent the time reading the
