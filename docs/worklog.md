@@ -1,5 +1,13 @@
 # Worklog
 
+## #422
+
+Was going to start playing with the Twitter API and spent the time reading the
+Terms and Conditions instead and applying for a developer account. But I've
+gone through that process now and next session should be me trying to do stuff
+with an app... this is where things get exciting lol.
+
+
 ## #421
 
 So I decided to merge all the current vim configuration stuff that I have
