@@ -1,5 +1,18 @@
 # Worklog
 
+## #424
+
+Tested Twitter retweeting and it seems to work fine. Started to do some
+research into Oauth 3-legged approach for Twitter. Conveniently Twitter doesn't
+require a refresh token. It is permanent access until explicitly revoked which
+is kind of nice. I went back to do some research on how my database was
+organized before as well as some other details like how the express server was
+setup for accepting tokens and what not. This shouldn't be too bad so I'm
+excited to get something working on that end. Now I need to sit down and do
+some massive planning. Next big piece is to figure out the intent engine so
+that it can be made to cover all my use cases.
+
+
 ## #423
 
 Created an app and setup some basic Twitter client code to get some user
