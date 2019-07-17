@@ -14,6 +14,9 @@ Plug 'vim-airline/vim-airline-themes'
 " Enables Git features directly in Vim
 Plug 'tpope/vim-fugitive'
 
+" Shows a git diff in the gutter (sign column), allows staging/reverting/navigating of hunks
+Plug 'airblade/vim-gitgutter'
+
 call plug#end()
 
 " Automatically re-source vimrc when a *.vim file is saved
