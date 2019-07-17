@@ -11,6 +11,9 @@ Plug 'tpope/vim-unimpaired'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+" Enables Git features directly in Vim
+Plug 'tpope/vim-fugitive'
+
 call plug#end()
 
 " Automatically re-source vimrc when a *.vim file is saved
