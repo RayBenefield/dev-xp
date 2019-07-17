@@ -20,6 +20,9 @@ Plug 'airblade/vim-gitgutter'
 " Useful pair-like features that utilize square brackets []
 Plug 'scrooloose/syntastic'
 
+" Better javascript syntax highlighting
+Plug 'pangloss/vim-javascript'
+
 call plug#end()
 
 " Automatically re-source vimrc when a *.vim file is saved
