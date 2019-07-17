@@ -17,6 +17,9 @@ Plug 'tpope/vim-fugitive'
 " Shows a git diff in the gutter (sign column), allows staging/reverting/navigating of hunks
 Plug 'airblade/vim-gitgutter'
 
+" Useful pair-like features that utilize square brackets []
+Plug 'scrooloose/syntastic'
+
 call plug#end()
 
 " Automatically re-source vimrc when a *.vim file is saved
