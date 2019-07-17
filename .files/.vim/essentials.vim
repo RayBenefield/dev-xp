@@ -26,21 +26,3 @@ set clipboard=unnamed,unnamedplus
 
 " Enables syntax highlighting
 syntax enable
-
-" Color the line that the cursor is on
-set cursorline
-highlight CursorLine cterm=UNDERLINE ctermbg=234
-
-" Show uncomplete commands in the bottom right
-set showcmd
-
-" Set indentation level
-set tabstop=4
-set shiftwidth=4
-set expandtab
-
-" Set line width
-set tw=80
-
-" Don't wrap long lines (soft wrap)
-set nowrap
