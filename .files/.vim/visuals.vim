@@ -23,3 +23,6 @@ set laststatus=2
 " with the current line number
 set relativenumber
 set number
+
+" A dark grey for highlighting; rgb=38,38,38
+highlight Visual cterm=NONE ctermbg=235 ctermfg=NONE guibg=Grey15
