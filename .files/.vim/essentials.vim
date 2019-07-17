@@ -33,3 +33,8 @@ highlight CursorLine cterm=UNDERLINE ctermbg=234
 
 " Show uncomplete commands in the bottom right
 set showcmd
+
+" Set indentation level
+set tabstop=4
+set shiftwidth=4
+set expandtab
