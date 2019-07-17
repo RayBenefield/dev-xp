@@ -3,7 +3,7 @@
 "
 
 " Airline Status Line settings
-let g:airline_theme='dark'
+let g:airline_theme = 'dark'
 let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
@@ -26,3 +26,14 @@ set number
 
 " A dark grey for highlighting; rgb=38,38,38
 highlight Visual cterm=NONE ctermbg=235 ctermfg=NONE guibg=Grey15
+
+" Conceal certain patterns in javascript for readability
+hi clear Conceal
+set conceallevel=1
+let g:javascript_conceal_function                  = "ƒ"
+let g:javascript_conceal_arrow_function            = "⇒"
+let g:javascript_conceal_null                      = "ø"
+let g:javascript_conceal_undefined                 = "¿"
+let g:javascript_conceal_return                    = "⏎"
+let g:javascript_conceal_noarg_arrow_function      = "⏣"
+let g:javascript_conceal_underscore_arrow_function = "⏘"
