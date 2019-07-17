@@ -18,3 +18,8 @@ set showcmd
 
 " Always show the status line
 set laststatus=2
+
+" Set relative numbering for better navigation
+" with the current line number
+set relativenumber
+set number
