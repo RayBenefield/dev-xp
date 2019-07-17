@@ -9,3 +9,6 @@ source $HOME/.vim/quality.vim
 
 " Minor tweaks that make Vim more seamless
 source $HOME/.vim/convenience.vim
+
+" Visual changes to improve readability
+source $HOME/.vim/visuals.vim

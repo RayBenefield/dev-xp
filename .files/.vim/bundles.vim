@@ -7,6 +7,10 @@ Plug 'scrooloose/nerdtree'
 " 	IE: ]<Space> = Create new line below
 Plug 'tpope/vim-unimpaired'
 
+" Statusline with Powerline font
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
 call plug#end()
 
 " Automatically re-source vimrc when a *.vim file is saved
