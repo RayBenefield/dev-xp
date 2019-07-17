@@ -26,3 +26,10 @@ set clipboard=unnamed,unnamedplus
 
 " Enables syntax highlighting
 syntax enable
+
+" Color the line that the cursor is on
+set cursorline
+highlight CursorLine cterm=UNDERLINE ctermbg=234
+
+" Show uncomplete commands in the bottom right
+set showcmd
