@@ -1,5 +1,19 @@
 # Worklog
 
+## #425, #426, #427, #428, #429
+
+Spent the past couple days working on my Vim configuration. I was first
+inspired by doing all the twitter POC stuff and hated that I was missing a lot
+of javascript essentials so I spent multiple sessions just setting up syntax
+checking, prettier formatting, better status line, devicons, and many other
+things like fuzzy file searching. Lots was implemented and I should be ready to
+go now. I really like that I have my Vim config in this repo now. Allows me to
+start putting ALL of my development work in this repo and keep the same level
+of quality management for all my projects without setting up a new repo. Time
+for a break, but I just need to merge all this work and then start planning for
+an intent engine for my stream.
+
+
 ## #424
 
 Tested Twitter retweeting and it seems to work fine. Started to do some
