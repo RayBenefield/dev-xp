@@ -36,9 +36,3 @@ augroup filetype_vim
     autocmd!
     autocmd BufWritePost *.vim :source $MYVIMRC
 augroup END
-
-" Change leader to the home row
-let mapleader = ";"
-
-" Toggle NERDTree
-nmap <LEADER>n :NERDTreeToggle<CR>

@@ -24,5 +24,8 @@ set backspace=indent,eol,start
 " Sets a unified shared clipboard between yank and the OS
 set clipboard=unnamed,unnamedplus
 
+" Toggle NERDTree
+nmap <LEADER>n :NERDTreeToggle<CR>
+
 " Enables syntax highlighting
 syntax enable
