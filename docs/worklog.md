@@ -1,5 +1,15 @@
 # Worklog
 
+## #430
+
+Finally merged in the vim changes that I made recently and I'm happy to be done
+with that. Now I'm on to planning out the intent engine and how it will be
+structured and what it needs to accomplish and things that I will need it to do.
+I've started planning on Miro, previously RealtimeBoard, and so far things are
+looking good. I may need to do one more planning session before being ready to
+start diving into code.
+
+
 ## #425, #426, #427, #428, #429
 
 Spent the past couple days working on my Vim configuration. I was first
