@@ -26,6 +26,9 @@ Plug 'pangloss/vim-javascript'
 " Adds JS Prettier support
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
+" Add fuzzy file finding
+Plug 'ctrlpvim/ctrlp.vim'
+
 call plug#end()
 
 " Automatically re-source vimrc when a *.vim file is saved

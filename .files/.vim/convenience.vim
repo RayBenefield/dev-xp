@@ -14,3 +14,8 @@ let NERDTreeShowHidden=1
 
 " Incrementally highlights the results of a search
 set incsearch
+
+" Fuzzy File finding settings
+let g:ctrlp_map = '<LEADER>p'
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
