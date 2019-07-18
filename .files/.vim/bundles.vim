@@ -29,6 +29,10 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 " Add fuzzy file finding
 Plug 'ctrlpvim/ctrlp.vim'
 
+" Add filetype icons to relevant locations
+" IMPORTANT: Must always be last, and requires patching font... see readme
+Plug 'ryanoasis/vim-devicons'
+
 call plug#end()
 
 " Automatically re-source vimrc when a *.vim file is saved

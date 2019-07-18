@@ -2,6 +2,9 @@
 " Essentials for any of my vim setups
 "
 
+" Set encoding for file icons
+set encoding=UTF-8
+
 " Home row escape key
 inoremap jk <ESC>
 inoremap jK <ESC>
