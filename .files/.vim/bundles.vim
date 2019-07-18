@@ -23,6 +23,9 @@ Plug 'scrooloose/syntastic'
 " Better javascript syntax highlighting
 Plug 'pangloss/vim-javascript'
 
+" Adds JS Prettier support
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+
 call plug#end()
 
 " Automatically re-source vimrc when a *.vim file is saved
