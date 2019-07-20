@@ -1,5 +1,15 @@
 # Worklog
 
+## #431
+
+I have begun working on the intent engine. The goal is to be able to take a
+stream of intents and create a processing engine that can detect intents from
+various types of sources, like database changes, text from chat, or other
+intents happening. I've just started tapping into merging basic sources
+together, but now I have to like add an intent and context to it. Still lots to
+do, but it's a start.
+
+
 ## #430
 
 Finally merged in the vim changes that I made recently and I'm happy to be done
