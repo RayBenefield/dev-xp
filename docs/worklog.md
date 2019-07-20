@@ -1,5 +1,20 @@
 # Worklog
 
+## #432
+
+So I've added the translation of effects into actual effects. This will be
+useful in the future, but for now it's just a simple example so I can wrap my
+head around that portion. The biggest part of the intent engine is next which is
+figuring out how to create new intents, remove old ones, and modify existing
+ones. I have to write a system that handles these changes as they come in as if
+coming from [**Firebase**](https://firebase.google.com/). I think I'll need to
+track sources and stuff in the future for modifications, but right now I'm
+concerned about just adding and removing intents. It made me think that I also
+need historical data to detect what exactly is changing when modifying an
+intent, but that's later also. Just trying to wrap my head around what all needs
+to happen.
+
+
 ## #431
 
 I have begun working on the intent engine. The goal is to be able to take a
