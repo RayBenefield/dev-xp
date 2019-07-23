@@ -1,5 +1,15 @@
 # Worklog
 
+## #433
+
+Quickly tied together a bunch of [**Firebase**](https://firebase.google.com/)
+stuff so that I could test dynamically adding new intents and it seems to
+workout neatly. Now I have to organize the code and prepare the code for
+check-in because this is a big deal. I'll also start working on adding new
+effects and sources so I can show the power of the dynamic intent system. This
+is an exciting moment. :D
+
+
 ## #432
 
 So I've added the translation of effects into actual effects. This will be
