@@ -6,3 +6,4 @@ temp
 .yarnclean
 /.files/.vim/plugged
 /.files/.vim/autoload
+src/node_modules/@rampant/db/firebase-key.json
