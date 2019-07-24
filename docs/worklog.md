@@ -1,5 +1,19 @@
 # Worklog
 
+## #436, #437
+
+Updated the intent engine to support database changes as an intent stream. Right
+now it is based on a document specifically in a custom-db collection so that
+projects can maintain their own custom documents for unique ideas like voting
+and what not. This should work fine for now, if I think more is needed in the
+future I'll add it. Next is to add the ability to update the custom-db
+collection with data using an effect so I'll work on that next. And after that
+I'll have the [**Firebase**](https://firebase.google.com/) functionality to
+write an intent testing system so I don't have to spend a lot of time creating
+intents in [**Firebase**](https://firebase.google.com/)'s UI which takes a
+while.
+
+
 ## #435
 
 Refactored the code and re-organized it into modules that are clean and easy to
