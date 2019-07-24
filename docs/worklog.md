@@ -1,5 +1,16 @@
 # Worklog
 
+## #435
+
+Refactored the code and re-organized it into modules that are clean and easy to
+work with moving forward. Then committed and merged the initial intent engine.
+Now the goal is to focus on extending. Right now I'm going to work with
+[**Firebase**](https://firebase.google.com/) related extensions like saving to
+the database as an effect, or watching database data as a source, or pulling
+from the database as context. I may have to write a templating system soon to be
+able to fillout some details dynamically
+
+
 ## #434
 
 Took a session to setup the project on Github for Rampant AI. Put in lots of
