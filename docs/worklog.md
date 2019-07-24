@@ -1,5 +1,12 @@
 # Worklog
 
+## #434
+
+Took a session to setup the project on Github for Rampant AI. Put in lots of
+things like the kinds of effects I need, the source types I need, context stuff,
+etc. So that way I can have a more calculated approach moving forward.
+
+
 ## #433
 
 Quickly tied together a bunch of [**Firebase**](https://firebase.google.com/)
