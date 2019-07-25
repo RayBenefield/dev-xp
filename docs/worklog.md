@@ -1,5 +1,17 @@
 # Worklog
 
+## #439
+
+Started work on a testing system for the intents. I want to be able to start the
+Rampant engine and then add intents to the database then clean them up
+afterwards. This way it will be faster to test new functionality in the future
+and I don't have to mess with [**Firebase**](https://firebase.google.com/)'s UI
+anymore which takes FOREVER to work with. So this will be good. I can create
+data files and hopefully structure testing a bit in the future. But I started
+the first sample of it for this session. Just not feeling coding right now so
+I'm going to take a lunch break.
+
+
 ## #438
 
 Created a [**Firebase**](https://firebase.google.com/) effect that allows
