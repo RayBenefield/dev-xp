@@ -1,5 +1,18 @@
 # Worklog
 
+## #438
+
+Created a [**Firebase**](https://firebase.google.com/) effect that allows
+intents to set, update, or upsert data in the custom-db. Allowing me to create
+things like voting things, storing settings for users, etc. Thinking about this
+means that I'll probably want a custom user settings database for a particular
+project that can be merged with user context for the entire app. So projects can
+maintain their own user preferences. So perhaps a user effect that stores in a
+different location from the custom-db. Next I may explore templating for
+intents, or start looking into creating the intent testing system. Which will
+definitely be needed and is now doable with the current @rampant/db extensions.
+
+
 ## #436, #437
 
 Updated the intent engine to support database changes as an intent stream. Right
