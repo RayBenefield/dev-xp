@@ -1,5 +1,15 @@
 # Worklog
 
+## #440, #441
+
+Created the work to remove an intent in addition to add an intent so there is a
+cleanup system as well. Got stuck working on timing of creating and deleting
+intents. Ended up creating a system where intents are run one after the other
+for creation, then one after the other for deleting with a delay. Next goal is
+to optimize everything for check-in and start planning out what intents test
+what features and making the testing system a clean output.
+
+
 ## #439
 
 Started work on a testing system for the intents. I want to be able to start the
