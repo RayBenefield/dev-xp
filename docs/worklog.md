@@ -1,5 +1,19 @@
 # Worklog
 
+## #442, #443
+
+Finally organized all the code for the testing engine and also added some pretty
+logging and intents that made sense to have right now. Checked in all the new
+modules that are needed to make it run and I'm satisfied for now with the
+testing system. Next thing to start focusing on is the context system because
+I've decided that before effects run, it must actually pull its data straight
+from the context with no modifications or hard-coded strings. So I'll have to
+change how the current effects run, but ultimately I think this will be safer
+because I can build a full dry-run system in testing which will be SUPER nice to
+have to verify things are working correctly. I may even be able to build a dry
+run intent that will help me debug things live. Long break time. :D
+
+
 ## #440, #441
 
 Created the work to remove an intent in addition to add an intent so there is a
