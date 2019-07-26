@@ -54,6 +54,8 @@
         "test:tape": "cd src/node_modules && babel-tape-runner {**,**/**}/tests.js | tap-spec",
         "?test:kape": "echo Run tests using and for Kape.",
         "test:kape": "cd src/node_modules && babel-node kape/cli.js {**,**/**}/snapshot-tests.js",
+        "?rai:test": "echo Test intents with rampant server running.",
+        "rai:test": "cd src/node_modules && babel-node @rampant/ai/intent-tests.js",
         "?kape": "echo Run kape tests.",
         "kape": "cd src/node_modules && babel-node kape/cli.js",
         "entyre": "node ./src/node_modules/entyre/cli.js",
