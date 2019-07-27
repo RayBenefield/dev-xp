@@ -1,5 +1,15 @@
 # Worklog
 
+## #444
+
+Took some quick time to add in the removal of an intent from the engine. Means
+I'm able to remove intents mid stream which could be important. I still need to
+write tests to verify that this happens all the time, but this is a good start
+and I created a ticket to do that later. Next thing I need to do is the context
+system. That's the next big scary part to do, but it really shouldn't be that
+bad. Time for a quick break.
+
+
 ## #442, #443
 
 Finally organized all the code for the testing engine and also added some pretty
