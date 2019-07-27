@@ -1,5 +1,14 @@
 # Worklog
 
+## #445, #446, #447
+
+Started working on the basic context system. I've got the system working for
+subbing into a log effect, but I still need to do the work for the database
+effect. I also got sucked into exploring what library to use to do proper string
+templating where I can do calculations and stuff to do things like calculate
+total votes or use conditionals or whatnot. Lots to explore and experiment with.
+
+
 ## #444
 
 Took some quick time to add in the removal of an intent from the engine. Means
