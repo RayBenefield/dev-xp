@@ -1,5 +1,12 @@
 # Worklog
 
+## #448
+
+Took some time to brainstorm some ideas for the stream including automatically
+turning on post notifications on Twitter as well as a potential stream game in
+the form of Cards Against Humanity.
+
+
 ## #445, #446, #447
 
 Started working on the basic context system. I've got the system working for
