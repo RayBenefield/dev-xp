@@ -1,5 +1,12 @@
 # Worklog
 
+## #449, #450
+
+Screwing around with the possibilities of dot.js... I need to make sure I know
+how people can build their own functions if they want to before moving forward.
+I really want to figure this out.
+
+
 ## #448
 
 Took some time to brainstorm some ideas for the stream including automatically
