@@ -1,5 +1,14 @@
 # Worklog
 
+## #452
+
+Got an initial setup for context pipelines working. Wasn't that bad. I also
+added an additional test to make sure it was working properly. The next big step
+is to add dot.js as a templating system for both the key and the value in static
+pipes. This will be used to create things like composite messages of multiple
+pieces of context data.
+
+
 ## #451
 
 Well I tried to use pupa for doing microtemplating and realized what I needed
