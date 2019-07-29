@@ -1,5 +1,19 @@
 # Worklog
 
+## #451
+
+Well I tried to use pupa for doing microtemplating and realized what I needed
+wasn't something that returned me a string, but something that returned me a
+piece of an object. So I removed puma and went with
+[**Lodash**](https://lodash.com/).get instead which allows me to access a part
+of an object with dot notation. But I wanted it to look like templating so I
+created a derivative that requires you surround the dot notation with curly
+braces. Also yesterday in a spare few minutes I was able to solve my dot.js
+problem and was able to create the javascript function that I used to combine
+votes so now I know it is possible to work with. So I'm excited to finally start
+adding the context pipeline system. I have a few tickets to make first.
+
+
 ## #449, #450
 
 Screwing around with the possibilities of dot.js... I need to make sure I know
