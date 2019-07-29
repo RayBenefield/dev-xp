@@ -1,5 +1,21 @@
 # Worklog
 
+## #453, #454
+
+Pipelines work with a proper templating system. Of course I got a security
+vulnerability warning for using dot.js as it allows for arbitrary code
+execution. I really want people to be able to have logic based templates, but I
+don't want to expose sensitive data to intent creators like user access tokens,
+environment variables, etc. I'll have to eventually do research into logic based
+templating engines that have protections in place. For now I'm happy to have a
+templating engine that works when I want it to. So for now I call it good. The
+next thing that needs to be done is build a pipe for adding
+[**Firebase**](https://firebase.google.com/) data to the context. After that
+then I think it may be time to start exploring [**Mixer**](https://mixer.com)
+extensions and when that happens then we need to start exploring the intent
+system.
+
+
 ## #452
 
 Got an initial setup for context pipelines working. Wasn't that bad. I also
