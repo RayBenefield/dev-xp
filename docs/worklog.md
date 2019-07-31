@@ -1,5 +1,18 @@
 # Worklog
 
+## #455, #456
+
+Yesterday I was unable to code due to depression. But I'm back to things this
+morning. I thought things would be super easy. But I found a couple minor
+problems. So I'm working on the parsing feature of the context system so we can
+convert strings to numbers and objects. But intents started dying silently. I
+discovered that nothing is reported when a stream dies internally like an effect
+or pipe just hits an error. So I need to fix that. Also discovered that the
+database effect doesn't accept an object with each individual value substituted.
+The basic parsing system is in place, but now I have bugs to work on before I
+start moving forward. Which is a tad rough, but must be handled.
+
+
 ## #453, #454
 
 Pipelines work with a proper templating system. Of course I got a security
