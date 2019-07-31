@@ -1,5 +1,13 @@
 # Worklog
 
+## #457
+
+Trying to explore a way to have working effects run, even if another effect
+fails. I found a way to catch errors at least and report them. So that's a
+positive. But if like a database effect fails, I don't want the log message to
+fail. There's no reason the log message shouldn't work.
+
+
 ## #455, #456
 
 Yesterday I was unable to code due to depression. But I'm back to things this
