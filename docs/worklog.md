@@ -1,5 +1,14 @@
 # Worklog
 
+## #459
+
+Added reporting of an intent breaking so I can pick up on that in the future
+when I'm working on intents. It was dumb that things would silently break in the
+past and now it is far more obvious. I'm satisfied for now. Next thing to do is
+try to set up things so all effects still complete even if another effect
+breaks. Ideally an effect breaking doesn't crash the entire intent stream.
+
+
 ## #458
 
 It's been 2 weeks since I've been able to code due to a kidney stone. But I'm
