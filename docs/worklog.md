@@ -1,5 +1,14 @@
 # Worklog
 
+## #460, #461
+
+Started exploring what it is going to take to get Mixer chat setup as an input
+source. In order to do that I need to have the Mixer Rest client system setup as
+well, which means the full auth system needs to be pulled over as well. Luckily
+I solved most of that already in my old Rampant code, so now it's just a matter
+of cleaning it up and making it work. So far things are going well.
+
+
 ## #459
 
 Added reporting of an intent breaking so I can pick up on that in the future
