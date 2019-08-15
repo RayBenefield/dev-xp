@@ -1,5 +1,17 @@
 # Worklog
 
+## #458
+
+It's been 2 weeks since I've been able to code due to a kidney stone. But I'm
+back into things. Just wrapping up some work on context upgrades and I need to
+add some error reporting when an intent crashes. Also ideally if a single effect
+crashes, other effects should still work in an intent stream. Just a lot of
+minor polish that needs to happen. I also need to change the sources system so
+we create a pool of sources first and then include sources in an intent stream
+from the sources pool. So that way we can share sources if need be. Like when
+multiple intents will be based on a Mixer chat stream.
+
+
 ## #457
 
 Trying to explore a way to have working effects run, even if another effect
