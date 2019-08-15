@@ -1,5 +1,16 @@
 # Worklog
 
+## #462
+
+Well so far the rest client continues to work. I've organized it and cleaned up
+the code a bit so it makes more sense and is easier to manage in the long term.
+I've also created a caching system so a user's rest client isn't created more
+than once and it can just be fetched when needed. Hopefully that works well
+enough. I want to be able to get rid of the Mixer specific libraries and manage
+my own rest client and chat client. But I won't be able to until I learn how to
+connect raw to the websockets for chatting.
+
+
 ## #460, #461
 
 Started exploring what it is going to take to get Mixer chat setup as an input
