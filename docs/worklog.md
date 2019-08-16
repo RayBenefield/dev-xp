@@ -1,5 +1,15 @@
 # Worklog
 
+## #465
+
+Extracted out the Mixer chat creation stuff to polish it a bit and make it work
+as an object factory that creates bots for users. I also included a caching
+system for it so multiple bots don't need to be instantiated for the same user.
+Just need to clean up the code a bit and check it in. Then the next thing is to
+figure out the sources pool system so I can setup Mixer chat as an input source
+for intents.
+
+
 ## #463, #464
 
 Got to do some polish work and planning for what needs to be done next for Mixer
