@@ -1,5 +1,19 @@
 # Worklog
 
+## #463, #464
+
+Got to do some polish work and planning for what needs to be done next for Mixer
+Chat as an input source. I got a prototype of the code working which was much
+smaller than I expected. The next thing that needs to happen is to re-organize
+the intent engine to handle setting up a source pool, which will include Mixer.
+I need to consider how the plugin system will work as I will need to look into
+Twitter next. Still lots of organizing to do to make things work as I need them
+too. But this will be the first bit of coding that will show the system just
+working magically once everything is in place. After Mixer Chat I'll look into
+customizing sources with pipeline modifications like filters for things like
+commands or the Come @ Me giveaway system.
+
+
 ## #462
 
 Well so far the rest client continues to work. I've organized it and cleaned up
