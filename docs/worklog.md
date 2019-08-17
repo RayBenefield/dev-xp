@@ -1,5 +1,16 @@
 # Worklog
 
+## #467, #468
+
+Converted the engine to use a pool of shared sources that are created. This is
+prepratory work to allow for Mixer Chat to be added as a shared source with
+settings outside of an intent. Now intents that look at the same database
+document or use Mixer chat from the same channel results in only one shared
+observable source to save on memory. This will ultimately be more efficient in
+the end. Next part is to create base sources from project settings that get
+created before intents are created.
+
+
 ## #466
 
 Spent some time cleaning up the Mixer bot creation stuff. Adding some features
