@@ -1,5 +1,20 @@
 # Worklog
 
+## #469, #470
+
+Got most of the work done for setting up a Mixer Chat input source for intents.
+In order to properly test it I also quickly through together a Mixer Chat
+Message effect that would post to a channel. I realized that filling out all of
+the necessary parameters for a chat message will be painful. So I'm thinking
+that a set of project default params needs to exist as well as intent default
+params so they can be merged. And it may be smart to have default values for
+each of the properties so if `userId` is set as a default for the intent then I
+don't need to include `userId` as the part of the message. My ultimate goal is
+to have an effect of `{ message: { text: 'hello' } }` be enough for an effect.
+Next thing to do is polish up the work I've done so I can check it in and then
+start exploring what it will take to get an intent system in place.
+
+
 ## #467, #468
 
 Converted the engine to use a pool of shared sources that are created. This is
