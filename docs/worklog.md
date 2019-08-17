@@ -1,5 +1,15 @@
 # Worklog
 
+## #466
+
+Spent some time cleaning up the Mixer bot creation stuff. Adding some features
+to it to be used later like chatting and whispering. Also may have figured out a
+way to create a mod chatroom which will be SUPER useful moving forward. I've
+also seen whispers be easily detectable in the chat as well which is awesome and
+could be useful in the future. Next session should have me checking in the Mixer
+Chat stuff and then working on the new sources pool system.
+
+
 ## #465
 
 Extracted out the Mixer chat creation stuff to polish it a bit and make it work
