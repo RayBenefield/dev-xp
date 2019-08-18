@@ -1,5 +1,14 @@
 # Worklog
 
+## #471
+
+Cleaned up the Mixer Chat effect as well as the Input source and committed
+everything to the repo. Now I'm going to run a pull request and merge everything
+in. The next big thing will be setting up an intent recognition system. As well
+as being able to add extensions to sources so I can do things like add filters
+or buffers, etc.
+
+
 ## #469, #470
 
 Got most of the work done for setting up a Mixer Chat input source for intents.
