@@ -1,5 +1,17 @@
 # Worklog
 
+## #472, #473
+
+I'm into the next difficult part of the system which is extending sources with
+additional capabilities like filtering. The goal of this is to create a command
+stream so I can do basic chat commands on Mixer. If I can do that then I'll be
+good to go for the basics. But also I want to be able to add natural language
+processing using [**Wit.ai**](https://wit.ai/). Which would make a HUGE
+difference in things. So hopefully this planning goes well. My brain kind of
+hurts, but after 2 sessions I think I have a solid idea of where to start and
+how to do these things.
+
+
 ## #471
 
 Cleaned up the Mixer Chat effect as well as the Input source and committed
