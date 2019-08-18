@@ -1,5 +1,14 @@
 # Worklog
 
+## #474
+
+After designing this morning I came up with a basic approach to extensions for a
+source. So I implemented a basic version that really needs to be refactored to
+be supportable by all source types but it looks like it will ultimately work. I
+tested a basic filter based on regex and it seems to work fine. This is going to
+be important for implementing a command system.
+
+
 ## #472, #473
 
 I'm into the next difficult part of the system which is extending sources with
