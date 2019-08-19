@@ -1,5 +1,18 @@
 # Worklog
 
+## #475
+
+So in the shower this morning I was thinking about the source extension system
+and realized that it is basically the same as the pipes system. So I want to
+merge the two together. Before I do that I wanted to refactor the source creator
+to use an object system with keys rather than an if statement system. This will
+allow me to convert to a plugin system later which will be awesome. I need to
+explore the pipes system in the intent engine and figure out the best way to
+refactor that and make it useable between the source creator and the intent
+creator. If I can convert the extension/pipes system to an object system as well
+it will prepare me for creating a lot more of them in the future.
+
+
 ## #474
 
 After designing this morning I came up with a basic approach to extensions for a
