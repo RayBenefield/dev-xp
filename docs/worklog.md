@@ -1,5 +1,14 @@
 # Worklog
 
+## #476
+
+Started going through and refactoring small things like the intent stream
+creator and the pipeline creator. The pipeline creator is going to become the
+extension creator and I'm going to add the filter-regex in there. I need to add
+a check for whether or not types exist in these object systems, but for now I'll
+continue forward with what I have. I'll just make a ticket.
+
+
 ## #475
 
 So in the shower this morning I was thinking about the source extension system
