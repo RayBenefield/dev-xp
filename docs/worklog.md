@@ -1,5 +1,14 @@
 # Worklog
 
+## #477
+
+Finished the refactor of the pipeline creator into an object system. Also added
+the extensions to the source creator as I intended. But now I want to be able to
+test filtering so I created a from source type so that I could test filtering.
+But filtering isn't working as expected with the test so now I've gotta do some
+exploring into why that is and make sure I make it work properly.
+
+
 ## #476
 
 Started going through and refactoring small things like the intent stream
