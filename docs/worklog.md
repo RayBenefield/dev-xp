@@ -1,5 +1,17 @@
 # Worklog
 
+## #478
+
+Finally got around to the refactor of the effect creator and I got filtering
+working. I made the decision to make the entire intent system a bit more
+intuitive and the same across the board so I changed `context` to be `$` to
+match the templating system so it all makes more sense. Next thing I need to
+work on is the source inheritance system and the intent system. Close to making
+the chat commands work. Then after commands work with auto-complete I'll work on
+natural language processing. If that all works then I'll start working on
+Twitter integration. I'll need to work on the initial linking of accounts for
+Mixer and Twitter and I'll probably need to resort to serverless functions.
+
 ## #477
 
 Finished the refactor of the pipeline creator into an object system. Also added
@@ -8,7 +20,6 @@ test filtering so I created a from source type so that I could test filtering.
 But filtering isn't working as expected with the test so now I've gotta do some
 exploring into why that is and make sure I make it work properly.
 
-
 ## #476
 
 Started going through and refactoring small things like the intent stream
@@ -16,7 +27,6 @@ creator and the pipeline creator. The pipeline creator is going to become the
 extension creator and I'm going to add the filter-regex in there. I need to add
 a check for whether or not types exist in these object systems, but for now I'll
 continue forward with what I have. I'll just make a ticket.
-
 
 ## #475
 
@@ -30,7 +40,6 @@ refactor that and make it useable between the source creator and the intent
 creator. If I can convert the extension/pipes system to an object system as well
 it will prepare me for creating a lot more of them in the future.
 
-
 ## #474
 
 After designing this morning I came up with a basic approach to extensions for a
@@ -38,7 +47,6 @@ source. So I implemented a basic version that really needs to be refactored to
 be supportable by all source types but it looks like it will ultimately work. I
 tested a basic filter based on regex and it seems to work fine. This is going to
 be important for implementing a command system.
-
 
 ## #472, #473
 
@@ -51,7 +59,6 @@ difference in things. So hopefully this planning goes well. My brain kind of
 hurts, but after 2 sessions I think I have a solid idea of where to start and
 how to do these things.
 
-
 ## #471
 
 Cleaned up the Mixer Chat effect as well as the Input source and committed
@@ -59,7 +66,6 @@ everything to the repo. Now I'm going to run a pull request and merge everything
 in. The next big thing will be setting up an intent recognition system. As well
 as being able to add extensions to sources so I can do things like add filters
 or buffers, etc.
-
 
 ## #469, #470
 
@@ -75,7 +81,6 @@ to have an effect of `{ message: { text: 'hello' } }` be enough for an effect.
 Next thing to do is polish up the work I've done so I can check it in and then
 start exploring what it will take to get an intent system in place.
 
-
 ## #467, #468
 
 Converted the engine to use a pool of shared sources that are created. This is
@@ -86,7 +91,6 @@ observable source to save on memory. This will ultimately be more efficient in
 the end. Next part is to create base sources from project settings that get
 created before intents are created.
 
-
 ## #466
 
 Spent some time cleaning up the Mixer bot creation stuff. Adding some features
@@ -96,7 +100,6 @@ also seen whispers be easily detectable in the chat as well which is awesome and
 could be useful in the future. Next session should have me checking in the Mixer
 Chat stuff and then working on the new sources pool system.
 
-
 ## #465
 
 Extracted out the Mixer chat creation stuff to polish it a bit and make it work
@@ -105,7 +108,6 @@ system for it so multiple bots don't need to be instantiated for the same user.
 Just need to clean up the code a bit and check it in. Then the next thing is to
 figure out the sources pool system so I can setup Mixer chat as an input source
 for intents.
-
 
 ## #463, #464
 
@@ -120,7 +122,6 @@ working magically once everything is in place. After Mixer Chat I'll look into
 customizing sources with pipeline modifications like filters for things like
 commands or the Come @ Me giveaway system.
 
-
 ## #462
 
 Well so far the rest client continues to work. I've organized it and cleaned up
@@ -131,7 +132,6 @@ enough. I want to be able to get rid of the Mixer specific libraries and manage
 my own rest client and chat client. But I won't be able to until I learn how to
 connect raw to the websockets for chatting.
 
-
 ## #460, #461
 
 Started exploring what it is going to take to get Mixer chat setup as an input
@@ -140,7 +140,6 @@ well, which means the full auth system needs to be pulled over as well. Luckily
 I solved most of that already in my old Rampant code, so now it's just a matter
 of cleaning it up and making it work. So far things are going well.
 
-
 ## #459
 
 Added reporting of an intent breaking so I can pick up on that in the future
@@ -148,7 +147,6 @@ when I'm working on intents. It was dumb that things would silently break in the
 past and now it is far more obvious. I'm satisfied for now. Next thing to do is
 try to set up things so all effects still complete even if another effect
 breaks. Ideally an effect breaking doesn't crash the entire intent stream.
-
 
 ## #458
 
@@ -161,14 +159,12 @@ we create a pool of sources first and then include sources in an intent stream
 from the sources pool. So that way we can share sources if need be. Like when
 multiple intents will be based on a Mixer chat stream.
 
-
 ## #457
 
 Trying to explore a way to have working effects run, even if another effect
 fails. I found a way to catch errors at least and report them. So that's a
 positive. But if like a database effect fails, I don't want the log message to
 fail. There's no reason the log message shouldn't work.
-
 
 ## #455, #456
 
@@ -181,7 +177,6 @@ or pipe just hits an error. So I need to fix that. Also discovered that the
 database effect doesn't accept an object with each individual value substituted.
 The basic parsing system is in place, but now I have bugs to work on before I
 start moving forward. Which is a tad rough, but must be handled.
-
 
 ## #453, #454
 
@@ -198,7 +193,6 @@ then I think it may be time to start exploring [**Mixer**](https://mixer.com)
 extensions and when that happens then we need to start exploring the intent
 system.
 
-
 ## #452
 
 Got an initial setup for context pipelines working. Wasn't that bad. I also
@@ -206,7 +200,6 @@ added an additional test to make sure it was working properly. The next big step
 is to add dot.js as a templating system for both the key and the value in static
 pipes. This will be used to create things like composite messages of multiple
 pieces of context data.
-
 
 ## #451
 
@@ -221,20 +214,17 @@ problem and was able to create the javascript function that I used to combine
 votes so now I know it is possible to work with. So I'm excited to finally start
 adding the context pipeline system. I have a few tickets to make first.
 
-
 ## #449, #450
 
 Screwing around with the possibilities of dot.js... I need to make sure I know
 how people can build their own functions if they want to before moving forward.
 I really want to figure this out.
 
-
 ## #448
 
 Took some time to brainstorm some ideas for the stream including automatically
 turning on post notifications on Twitter as well as a potential stream game in
 the form of Cards Against Humanity.
-
 
 ## #445, #446, #447
 
@@ -244,7 +234,6 @@ effect. I also got sucked into exploring what library to use to do proper string
 templating where I can do calculations and stuff to do things like calculate
 total votes or use conditionals or whatnot. Lots to explore and experiment with.
 
-
 ## #444
 
 Took some quick time to add in the removal of an intent from the engine. Means
@@ -253,7 +242,6 @@ write tests to verify that this happens all the time, but this is a good start
 and I created a ticket to do that later. Next thing I need to do is the context
 system. That's the next big scary part to do, but it really shouldn't be that
 bad. Time for a quick break.
-
 
 ## #442, #443
 
@@ -268,7 +256,6 @@ because I can build a full dry-run system in testing which will be SUPER nice to
 have to verify things are working correctly. I may even be able to build a dry
 run intent that will help me debug things live. Long break time. :D
 
-
 ## #440, #441
 
 Created the work to remove an intent in addition to add an intent so there is a
@@ -277,7 +264,6 @@ intents. Ended up creating a system where intents are run one after the other
 for creation, then one after the other for deleting with a delay. Next goal is
 to optimize everything for check-in and start planning out what intents test
 what features and making the testing system a clean output.
-
 
 ## #439
 
@@ -290,7 +276,6 @@ data files and hopefully structure testing a bit in the future. But I started
 the first sample of it for this session. Just not feeling coding right now so
 I'm going to take a lunch break.
 
-
 ## #438
 
 Created a [**Firebase**](https://firebase.google.com/) effect that allows
@@ -302,7 +287,6 @@ maintain their own user preferences. So perhaps a user effect that stores in a
 different location from the custom-db. Next I may explore templating for
 intents, or start looking into creating the intent testing system. Which will
 definitely be needed and is now doable with the current @rampant/db extensions.
-
 
 ## #436, #437
 
@@ -317,7 +301,6 @@ write an intent testing system so I don't have to spend a lot of time creating
 intents in [**Firebase**](https://firebase.google.com/)'s UI which takes a
 while.
 
-
 ## #435
 
 Refactored the code and re-organized it into modules that are clean and easy to
@@ -328,13 +311,11 @@ the database as an effect, or watching database data as a source, or pulling
 from the database as context. I may have to write a templating system soon to be
 able to fillout some details dynamically
 
-
 ## #434
 
 Took a session to setup the project on Github for Rampant AI. Put in lots of
 things like the kinds of effects I need, the source types I need, context stuff,
 etc. So that way I can have a more calculated approach moving forward.
-
 
 ## #433
 
@@ -344,7 +325,6 @@ workout neatly. Now I have to organize the code and prepare the code for
 check-in because this is a big deal. I'll also start working on adding new
 effects and sources so I can show the power of the dynamic intent system. This
 is an exciting moment. :D
-
 
 ## #432
 
@@ -360,7 +340,6 @@ need historical data to detect what exactly is changing when modifying an
 intent, but that's later also. Just trying to wrap my head around what all needs
 to happen.
 
-
 ## #431
 
 I have begun working on the intent engine. The goal is to be able to take a
@@ -370,7 +349,6 @@ intents happening. I've just started tapping into merging basic sources
 together, but now I have to like add an intent and context to it. Still lots to
 do, but it's a start.
 
-
 ## #430
 
 Finally merged in the vim changes that I made recently and I'm happy to be done
@@ -379,7 +357,6 @@ structured and what it needs to accomplish and things that I will need it to do.
 I've started planning on Miro, previously RealtimeBoard, and so far things are
 looking good. I may need to do one more planning session before being ready to
 start diving into code.
-
 
 ## #425, #426, #427, #428, #429
 
@@ -394,7 +371,6 @@ of quality management for all my projects without setting up a new repo. Time
 for a break, but I just need to merge all this work and then start planning for
 an intent engine for my stream.
 
-
 ## #424
 
 Tested Twitter retweeting and it seems to work fine. Started to do some
@@ -407,13 +383,11 @@ excited to get something working on that end. Now I need to sit down and do
 some massive planning. Next big piece is to figure out the intent engine so
 that it can be made to cover all my use cases.
 
-
 ## #423
 
 Created an app and setup some basic Twitter client code to get some user
 details. Next thing to do is to play with retweeting and liking tweets, even
 creating or direct messaging tweets.
-
 
 ## #422
 
@@ -422,14 +396,12 @@ Terms and Conditions instead and applying for a developer account. But I've
 gone through that process now and next session should be me trying to do stuff
 with an app... this is where things get exciting lol.
 
-
 ## #421
 
 So I decided to merge all the current vim configuration stuff that I have
 setup. Just so I have it done and I can move forward with some other work. I
 want to start playing with Twitter's Oauth soon so that's the goal. I can
 update my vim config whenever I need to since it is now part of my monorepo.
-
 
 ## #420
 
@@ -439,7 +411,6 @@ update [**Yarn**](https://yarnpkg.com/), node,
 things, but in the end it all worked out and I finally got the essentials
 checked in. Now to continue working on improving them... bit by bit.
 
-
 ## #419
 
 Totally forgot this log entry. But I came back for the second day in a row and
@@ -447,7 +418,6 @@ decided to setup Vim dot files in this project so I can version them and keep
 everything I use in the same place. Got all the essentials in play and the next
 few sessions will be focused around getting all my preferred plugins
 re-installed and configured.
-
 
 ## #418
 
@@ -465,7 +435,6 @@ fiture out where to put it later just symlinking it. We shall see how that goes.
 I'm very happy to be back to a raw Vim/iTerm setup though... it is so refreshing
 and responsive in comparison.
 
-
 ## #417
 
 Wow... it's been pretty much a year since I've seriously looked into this
@@ -479,7 +448,6 @@ today. But just doing a single pomodoro session really helps. Good sleep needs
 to be done in order for me to tackle this better considering I was dozing off a
 bit. For now... this was just dipping my toe before coming back.
 
-
 ## #416
 
 Spent this entire session just worrying about what my next steps are and
@@ -487,7 +455,6 @@ creating some new issues for refactoring sake. I have a lot of shared
 functionality that I'm going to need and centralizing it all will be really
 nice. I just thought of another one actually. Now to take a gaming break before
 jumping into paid work.
-
 
 ## #415
 
@@ -502,7 +469,6 @@ for
 [**Entyre**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/entyre)
 packages. Should be fun.
 
-
 ## #414
 
 Started work on setting up `kd prerelease` to handle plugins since writing a
@@ -511,14 +477,12 @@ Started work on setting up `kd prerelease` to handle plugins since writing a
 packages. Just a bunch of simple refactoring for now to bring `kd prerelease` up
 to recent standards of things. I'll probably start the plugin portion next.
 
-
 ## #413
 
 Started some more exploring. Tried to start playing with **Unreal.js**, but
 ended up having to install an older version of Unreal (4.18 instead of 4.19) to
 be able to use the plugin built-in to the editor. Hopefully it will work after
 this install.
-
 
 ## #412
 
@@ -527,7 +491,6 @@ out of curiousity I decided to lookup a game engine that supported javascript.
 Turns out someone made an **Unreal.js** plugin. Now I'm kind of excited. So
 first thing I started a session on was booting up the Unreal Editor and
 exploring. Kind of excited for the potential to build games in the future. :D
-
 
 ## #411
 
@@ -538,7 +501,6 @@ to properly pass the config to `publish-check`. But things are working now and
 the changes are now published. It is amazing how fast I can put out new versions
 of packages with this entire toolset. Loving it.
 
-
 ## #410
 
 Implemented a quick plugin system into the `kd check` system. Wasn't too hard to
@@ -546,7 +508,6 @@ keep the working node packages. Now I'm working on the check system for
 [**Entyre**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/entyre)
 packages which shouldn't take too long. I'm just doing tests and what not now.
 Next session for sure.
-
 
 ## #409
 
@@ -559,7 +520,6 @@ probably a better way". I'm also really looking forward to removing `try/catch`
 from my code base. If I can design an eslint rule to remove instantiating a
 `Promise` as well that would probably be good.
 
-
 ## #408
 
 Another day of refactoring to go through and general cleanup of the
@@ -571,7 +531,6 @@ the nomenclature that I've decided to adopt. Next thing I'm probably going to do
 is adjust the `root` part of the snowball to be similar to the `structures` used
 for packages.
 
-
 ## #407
 
 I ended up just continuing the session and attempting to cleanup and remove more
@@ -581,14 +540,12 @@ list command. Lots of super easy stuff and I was able to get down more lines of
 code and reduce the number of warnings to 6 instead of 7 since `publish-check`
 was one of the culprits for lines of code.
 
-
 ## #406
 
 Finished removing all of the dependencies in the `check-package` system.
 Removing the `try-catch` blocks made a MASSIVE difference in the line count as
 well and the level of complexity in the function. It is much cleaner now and I'm
 very satisfied with the results.
-
 
 ## #405
 
@@ -598,14 +555,12 @@ removing the use of `resolve` and what not now that I have the `manifests` and
 `structures` system. Ended up removing another 13 lines of code. Going well so
 far. Had to change the return as well and adjust snapshots, but minor detail.
 
-
 ## #404
 
 Did some random cleaning up. Ended up removing 16 lines of code by exposing the
 default package filters supported by the `kd ls` command. Which is super nice. I
 think I want to setup a default filter function now so `command build` and other
 commands can include a default filter if none are selected. Break time.
-
 
 ## #403
 
@@ -617,7 +572,6 @@ like to clean that up and remove as much as I can. I think I will be since I can
 start extracting a ton of logic into shared packages. Another break before I
 probably start a random refactor session.
 
-
 ## #402
 
 Spent some time playing with [**Codepen**](https://codepen.io) to play with a
@@ -628,7 +582,6 @@ actually. I may have to do that some day when I get the
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 working all the way through. Just wanted to do something a little fun for now to
 get back into the grove of things for today.
-
 
 ## #401
 
@@ -647,7 +600,6 @@ plugin functions into their own scope so they don't bloat the core. For now I
 think I should take a break and then hit some paid work. :D Been a good and
 quick morning.
 
-
 ## #400
 
 WOOT SESSION 400!!! That's a lot of work... lol. 200-ish hours essentially. Well
@@ -658,7 +610,6 @@ fan of with jsinspect is that I can't put inline directives to disable the
 check. Lame... I'll address that next session and then merge the changes to see
 if everything continues to work fine.
 
-
 ## #398, #399
 
 Moving forward with the conversion of the package manifest system into the
@@ -667,13 +618,11 @@ is also a part of the snowball and everything needs to be re-adjusted at the
 bottom of the snowball. None of that probably makes sense, but it does to me.
 I'm going to take a break though before I finish this refactoring.
 
-
 ## #397
 
 To prepare for the full plugin system I need to determine a packages type which
 I am now adding to the snowball. And now systems will be able to determine what
 to run based on the type of a package. Quick break time.
-
 
 ## #395, #396
 
@@ -683,7 +632,6 @@ Now just names, structures, and manifests are used across the board. But I'm
 done for the night and tired. Didn't get much work on this, but now I'm able to
 jump into the actual plugin system.
 
-
 ## #393, #394
 
 Another batch of refactors to get the `kd ver` system working. Next is probably
@@ -691,7 +639,6 @@ the `kd publish` version which means I need to touch destination details and the
 template. Then after that I need to tackle the `kd prerelease` command and that
 should be enough and I'll make a massive PR to make sure I didn't miss anything
 in the core pipeline. Back to paid work.
-
 
 ## #392
 
@@ -702,7 +649,6 @@ get there. It looks like I have 6 packages that need to be updated to match and
 verify. Probably refactor work that will be finished hopefully by the end of
 this coming weekend and then I can get back into the actual plugin system.
 
-
 ## #390, #391
 
 I got the `kd build` command working it looks like, so so far so good. I still
@@ -711,7 +657,6 @@ have worked then the giant refactor is done and I can move forward and start
 solidifying the plugin system a bit more by introducing a types part of the
 snowball and then use that to determine what needs to run for what. Should be
 interesting... lol. For now back to paid work.
-
 
 ## #386, #387, #388, #389
 
@@ -728,31 +673,26 @@ idea on how to approach this. Just gotta think about it. Time for paid work now
 though. Bleh... if only this was my fulltime job. I could reach my ultimate goal
 sooo much faster.
 
-
 ## #385
 
 So I worked on cleaning up the `kd dep` command and it seems to be working
 alright. I need to change the tests to match the new structure that is no longer
 dependent on the `packages` part of the snowball. But slow progression. Tomorrow
-should be much cleaner. I've gotta finish up `kd build` next followed by `kd
-ver` and `kd pub`... hopefully tomorrow will be quick and painless. Time for
+should be much cleaner. I've gotta finish up `kd build` next followed by `kd ver` and `kd pub`... hopefully tomorrow will be quick and painless. Time for
 paid work.
-
 
 ## #382, #383, #384
 
 Slowly grinding through the refactor of splitting into manifests and structures
 throughout the system. This will be important to make things work in their
 current state then I can apply the plugins system to handle fetching manifests
-for single file packages. It is slow and grueling, but worth it. I've got `kd
-ls` and `kd check` working properly. I need to still address the `kd deps` and
+for single file packages. It is slow and grueling, but worth it. I've got `kd ls` and `kd check` working properly. I need to still address the `kd deps` and
 then `kd build`. Following that I need to handle `kd ver` and `kd publish`
 hopefully things go smoothly this weekend so I can do it all properly. This also
 coincidentally fixes a couple issues where I wanted to be able to do
 `--json=structures.kli` in order to fetch specific details for specific
 packages. Which is pretty cool. Getting there slowly, one more session today
 before doing paid work.
-
 
 ## #380, #381
 
@@ -766,7 +706,6 @@ dependencies onto the manifests rather than a packages object. Which will be
 plugin based now. This approach may actually enable my ability to include other
 languages much easier if they transpile into javascript... could be awesome.
 
-
 ## #379
 
 I'm working on a slow refactor to split up the structure portions of the
@@ -775,7 +714,6 @@ into separate packages working, I just need to double check the documentation
 and then check it in. Next would be to have the package details portion decide
 which manifest system to load by using the plugins. Lots of little refactors to
 make this clean.
-
 
 ## #378
 
@@ -801,14 +739,12 @@ myself for stepping up while I'm on vacation. :D And still drinking my smart
 waters as well since we have a full size kitchen with full size refridgerator
 and dining table. lol... pretty awesome.
 
-
 ## #377
 
 Started working on extracting out the first part of the plugin system which will
 be how package details are loaded. I need to be able to extract front matter
 from SFPs, and to do that it has to be part of the pluggable system. So just
 some simple refactoring to make sure that I'll be able to enable that.
-
 
 ## #373, #374, #375, #376
 
@@ -823,7 +759,6 @@ and I can start using that to extend the system and make it 100% plugin based.
 I'm heading out to Seattle for the Halo World Championship, but I'm well
 prepared for the next steps.
 
-
 ## #372
 
 More random refactoring. Changed the exit command on
@@ -831,13 +766,11 @@ More random refactoring. Changed the exit command on
 when it doesn't find a command. Added a build template as well. Not much, but
 three more tickets are being closed now with this PR so that's awesome. :D
 
-
 ## #371
 
 Just some simple refactoring. I add import ordering rules to start. Might have
 to look into how to trigger and "internal" group so I can separate those from
 externals.
-
 
 ## #366, #367, #368, #369, #370
 
@@ -861,7 +794,6 @@ SFPs as well as [**Vue.js**](https://vuejs.org/) sites, and
 [**Firebase**](https://firebase.google.com/) functions. Lots of potential in the
 future. :D
 
-
 ## #360, #361, #362, #363, #364, #365
 
 Holy hell that was a lot of work, but I've made solid progress. I ended up
@@ -878,7 +810,6 @@ go through and start converting all of my packages. Actually I'll probably need
 the [**ES Lint**](https://eslint.org/) plugin first. So I'll probably do that
 after handling the versioning portion. We shall see. Time for paid work.
 
-
 ## #357, #358, #359
 
 This morning I started tackling the problem of adding a `--changed` flag to the
@@ -890,7 +821,6 @@ adjust `kd ls` so that I can filter packages with that and then have every other
 command use that to populate their `packages` key. Lots of little work, but this
 refactor will be huge moving forward. Looking forward to how it opens up the
 doors on other commands.
-
 
 ## #354, #355, #356
 
@@ -905,7 +835,6 @@ XP**](https://github.com/RayBenefield/dev-xp/) [**ES
 Lint**](https://eslint.org/) config package, That I'll publish eventually. Lots
 done I think like nearly 10 tickets closed as well. Super awesome. :D
 
-
 ## #352, #353
 
 Spent a couple sessions just cleaning out issues. Setting a lot of issues to be
@@ -916,7 +845,6 @@ like to close out as many simple things as possible so I'm going to now just go
 through and pick the easiest ones for simple task stuff. Hopefully it isn't too
 bad, just gotta trudge through all the painful monotonous stuff. Just needs to
 be done.
-
 
 ## #348, #349, #350, #351
 
@@ -929,7 +857,6 @@ able to update front matter in addition to `package.json` files. I also need to
 adjust the build system to support only changed packages as a flag or the build
 process will get ridiculous. So still a lot of polishing, but 90% of the way
 there. Gonna relax and play Halo the rest of the day for the most part.
-
 
 ## #346, #347
 
@@ -947,7 +874,6 @@ read the `index.md` properly. A lot of adjustments, but ultimately things should
 work out great. I'm very very close though. And good to see my
 [**Rollup**](https://rollupjs.org/) plugin is working neatly. :)
 
-
 ## #344, #345
 
 Well I got a rollup plugin working officially. I also extract the front matter
@@ -956,7 +882,6 @@ see. Next is to test it with
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 as a plugin based on the original literate programming plugin that I wrote last
 week. ONWARDS!!!
-
 
 ## #342, #343
 
@@ -968,7 +893,6 @@ bits. Shouldn't be too hard. Probably need to import a yaml parser as well. I
 should be able to add just a couple more lines to gather it all. Looking forward
 to it. I'll probably make it another reduce function since I don't want to
 overcomplicate the single one that extracts the code. I'll tackle that tomorrow.
-
 
 ## #338, #339, #340, #341
 
@@ -985,7 +909,6 @@ thing to focus on is to get a
 plugin going properly so I can start converting modules over to a single file
 package setup.
 
-
 ## #333, #334, #335, #336, #337
 
 Phew!!! So I did a lot of work to try to get `entyre` working this morning...
@@ -1000,14 +923,12 @@ building things properly. I'm kind of curious to see how the
 split one file into three essentially so we shall see how that works in the long
 run. Time for real work right now though.
 
-
 ## #331, #332
 
 Spent this morning exploring how to combine `lit-node` with
 [**Babel**](https://babeljs.io/). I discovered `pirates`, which is awesome, but
 I haven't quite figured out the best way to interweave the two compiler systems
 yet. Still lots to figure out sadly. Bleh... time for real work.
-
 
 ## #330
 
@@ -1019,7 +940,6 @@ work in terms of publishing and what not. Should be fun... I should reserve
 `babel-plugin-literate` and `rollup-plugin-literate`. Quick break before I get
 more into building a babel plugin.
 
-
 ## #329
 
 Alright so I'm finally back to coding after getting back from
@@ -1029,7 +949,6 @@ While there I realized a portentially awesome thing. A concept I'm dubbing
 wrote about it here: https://twitter.com/RayBenefield/status/980489677407956993
 
 Now to figure out how to get all this to work.
-
 
 ## #328
 
@@ -1042,7 +961,6 @@ the ground up wanting to understand core and dive deeply into the internals. So
 a roadmap for new devs would be a very nice thing to have to help guide them
 through the dev tools, the practices, and sort of a day-to-day workflow sort of
 perspective.
-
 
 ## #327
 
@@ -1061,7 +979,6 @@ problems initially getting into the code base. Now I need to start explore core
 and how the base [**Vue.js**](https://vuejs.org/) instance is created and how
 the global API really works.
 
-
 ## #326
 
 I'm at VueConf.us!!! It's the first [**Vue.js**](https://vuejs.org/) conference
@@ -1077,7 +994,6 @@ make an `index.md` to do literate programming and the code will be extracted to
 `index.js` and rolled up with [**Rollup**](https://rollupjs.org/) and the
 `index.md` file is copied to the `readme.md` file. :)
 
-
 ## #324, #325
 
 And I finished the last portion of the build part of the
@@ -1085,7 +1001,6 @@ And I finished the last portion of the build part of the
 do publishing straight to [**Firebase**](https://firebase.google.com/) hosting.
 It shouldn't be too bad... I hope. lol... and I still have to merge the code as
 well.
-
 
 ## #321, #322, #323
 
@@ -1098,7 +1013,6 @@ should be able to have a full build system later today or tomorrow some time.
 Then I need to work on the publishing portion and perhaps I can auto deploy to
 [**Firebase**](https://firebase.google.com/) hosting. Should be awesome.
 
-
 ## #319, #320
 
 Continued the refactor of the build plugin system. Slow progress, this last
@@ -1107,7 +1021,6 @@ lots of packages and then I refactored the current setup into something that
 resembles a plugin system and I'll start to figure out how best to extract it
 and configure the system to work properly either today or tomorrow. I have to
 think on this.
-
 
 ## #315, #316, #317, #318
 
@@ -1122,7 +1035,6 @@ building, actual building, and post building. Shouldn't be too bad as the
 current cli and package support only differ in config building as they both use
 [**Rollup**](https://rollupjs.org/) for actual building and the deployment to
 [**NPM**](https://www.npmjs.com/) is the same as well. Off to paid work.
-
 
 ## #312, #313, #314
 
@@ -1140,14 +1052,12 @@ from `node_modules` and the `src/node_modules` packages to be all bundled
 together, but I figured out you can have multiple module directories... which
 isn't documented. :) WOOT!!! I'm sooo happy.
 
-
 ## #311
 
 Spent the first session fixing a test that broke the build yesterday, so now it
 is merged and completed. I've started exploring what it will take to get a
 [**Vue.js**](https://vuejs.org/) site going. Hopefully I find something that
 works. I can only hope.
-
 
 ## #308, #309, #310
 
@@ -1161,13 +1071,11 @@ is coming up. I think I'll be able to build a [**Vue.js**](https://vuejs.org/)
 site using a proper [**Rollup**](https://rollupjs.org/) config. We shall see. TO
 PAID WORK FOR NOW!!!
 
-
 ## #307
 
 Just about ready to jump back into the build command. Finishing up the final
 testing stuff for the package detail refactoring. I just have to update the
 tests for `find-packages`.
-
 
 ## #305, #306
 
@@ -1183,7 +1091,6 @@ packages in root. I'm just about done, just want to add some testing to that
 part then I can proceed with the build command supporting a packages parameter.
 Tomorrow I will try more.
 
-
 ## #304
 
 Wrapped up my initial planning for **Aggro Tactics**. I think my next step is to
@@ -1192,14 +1099,12 @@ out. I'm really curious and excited. I'll get back to more coding to prepare for
 the [**Vue.js**](https://vuejs.org/) setup tomorrow probably. For now I'm going
 to go play some [**Monster Hunter World**](http://www.monsterhunterworld.com/).
 
-
 ## #303
 
 Session 2 of planning out **Aggro Tactics**. As I envision the gameplay it just
 gets me more and more excited to have something to play. :) I can't wait. I may
 not be able to work on it more at this moment due to a meetup, but I'm excited
 for the progress of the design.
-
 
 ## #302
 
@@ -1220,7 +1125,6 @@ going to improve this repo to ensure that I can build websites with it and APIs
 as I've always planned... but now sooner rather than later. So this session I
 started work on writing out the initial readme of the goals, inspiration, etc.
 This is going to be fun folks.
-
 
 ## #301
 
@@ -1258,7 +1162,6 @@ the summary and the commit hash. I need to think about how this will evolve
 before moving forward. Done for the day and I'll be starting my paid work after
 my break. Perhaps tomorrow I'll figure out enough to merge something.
 
-
 ## #299
 
 Yay I feel like I'm back to coding. So I'm working on the `rewrite-tags`
@@ -1269,7 +1172,6 @@ Starting out fairly solid. Already got a command going in
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 for it. It's like riding a bicycle... lol. Luckily I made it easy. Gonna take a
 quick break though.
-
 
 ## #298
 
@@ -1289,7 +1191,6 @@ my health for my high blood pressure so that explains my absence from coding for
 a while. But I think it is time to rebalance my life to fit in both coding,
 health, game time, and family all at once. Should be fun.
 
-
 ## #296, #297
 
 Wow... it's been weeks since I've been able to focus on some sort of coding at
@@ -1304,7 +1205,6 @@ card setup. I wanted to do something like this for the Halo Forge community for
 map feedback so I explored it. I copy and pasted the code to get it working. It
 wasn't much, but it works. I'll explore it more later. Was fun at least.
 
-
 ## #295
 
 Spent more time planning. A lot of this session was really around the pseudo
@@ -1316,7 +1216,6 @@ done for the day as I have to make up some paid work today. But this was a good
 set of sessions that will help me push through the rest of [**Render
 King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
 I'm satisfied now.
-
 
 ## #294
 
@@ -1336,7 +1235,6 @@ replace as needed to render the final content enhanced. Examples of render
 stylers are fonts, borders, masks, and probably padding in a second pass I
 think. Should be fun. Quick break and then another round of planning.
 
-
 ## #293
 
 Been a crazy weekend of watching the first LAN in the Halo World Championships.
@@ -1348,11 +1246,9 @@ be enough for me to understand. My brain hurts a bit, but that's fine. lol... I
 need to let this simmer for a bit before I try to formalize it. So a quick break
 and then some more design.
 
-
 ## #292
 
 Responding to a frontend pro/con conversation in the Eugene Tech Slack.
-
 
 ## #289, #290, #291
 
@@ -1373,7 +1269,6 @@ point, but for the most part I'm happy with the results. Also found a bug, but
 it should be an easy fix. This first daunting part is now over and I'm
 satisfied. :) Good to be back to coding.
 
-
 ## #288
 
 After DAYS... I've finally gotten back into work and so far I'm satisfied. I
@@ -1389,7 +1284,6 @@ that with snapshots when I snapshot the simplest implementations, I know that
 they should never break when implementing the new feature. So nice... gonna take
 a break for a bit while I mull over potential fallout to the approach I
 described above.
-
 
 ## #287
 
@@ -1408,7 +1302,6 @@ King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/rend
 We shall see how I feel after doing my morning stairs. lol... I may need some
 more [**Monster Hunter World**](http://www.monsterhunterworld.com/) time. ;)
 
-
 ## #285, #286
 
 Simple morning session. I jumped in preparing to work on `display: block` which
@@ -1423,7 +1316,6 @@ mood this morning. So I might actually just ditch out and go play some
 [**Monster Hunter World**](http://www.monsterhunterworld.com/). Yeah, I think
 I'll do that. Maybe I'll do some more work later. But I'm just not in it right
 now. I need a brain break... I need a weekend lol.
-
 
 ## #280, #281, #282, #283, #284
 
@@ -1453,7 +1345,6 @@ fast as possible and everything just magically works together and can be tested
 together easily. And all of that just got published immediately. I'm sooo happy
 about this.
 
-
 ## #279
 
 WOOT!!! So last night, just unaccounted for I browsed and played with
@@ -1476,8 +1367,7 @@ project someone was working on. So I gave it a try. Setup a
 handles compiling for OCaml and [**ReasonML**](https://reasonml.github.io/).
 Then with [**add-reason**](https://github.com/nickzuber/add-reason) setting up
 the config files and the symlink, I setup a `test-reason` package in my monorepo
-setup, it worked with `babel-node` as hoping after compiling with `bsb
--make-world`. And then I `kd prerelease`d it and `kd build`'d it and then tested
+setup, it worked with `babel-node` as hoping after compiling with `bsb -make-world`. And then I `kd prerelease`d it and `kd build`'d it and then tested
 against the `dist` version and it worked wonderful as well. So if I do the
 [**Rollup**](https://rollupjs.org/) it picks up the compiled source as expected.
 So I potentially have a route to bring
@@ -1495,7 +1385,6 @@ I also probably want to work on the system that just straight up fails in CI
 instead of updating snapshots. Which means I should also report proper
 aggregations instead of shortcutting... lol.
 
-
 ## #277, #278
 
 WOOT!!! The styling system is no functionally based. I've set a style precedence
@@ -1511,7 +1400,6 @@ With all that it was really easy for me to make both the `display: none` system
 as well as the `font` rules. Was REALLY easy. So two tickets knocked out
 today... very happy about that functionality.
 
-
 ## #276
 
 Spent this session focusing on what kind of work needs to be done for
@@ -1524,7 +1412,6 @@ functionality at its current usage state. Hopefully things don't last longer
 than the weekend and I can get back to things in the core
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 work.
-
 
 ## #275
 
@@ -1544,7 +1431,6 @@ King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/rend
 though. I've still gotta focus on filling out the styling system and eventually
 get into properly nested tags. I think I'll start with `display` as a styling
 option using `none`, `inline`, and `block`.
-
 
 ## #273, #274
 
@@ -1566,7 +1452,6 @@ idea. I'm stoked!!! And hopefully my fixes in health will open up more time for
 me as well moving forward. Time to get prepared for some paid work... which I
 will start after doing some stairs. Here we go.
 
-
 ## #272
 
 Was eating breakfast, but still wanted to be productive, so I watched
@@ -1576,7 +1461,6 @@ apis... was pretty awesome. Good learning. Also did it while eating a morning
 salad. And drinking water. Gonna kill this damn health thing... yeah I know not
 the right word usage, but whatevs!!! Gonna go for a walk then get back to work.
 Actually going to go grab some hot chocolate.
-
 
 ## #271
 
@@ -1592,7 +1476,6 @@ after the MVP. So I'll finish the last of the tests and then I'm going to start
 looking into the actual styling system which will involve reading my new AST.
 Should be fun lol...
 
-
 ## #270
 
 HUGE step for me this morning. I made scripts to make my steps towards healthy
@@ -1601,7 +1484,6 @@ So you can read that in the [**healthlog.md**](./healthlog.md). For now I have
 to go do some stairs to pad my numbers. ;) Then I'll get back to [**Render
 King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
 
-
 ## #269
 
 Added a bunch of testing for each of the grammars for the [**Render
@@ -1609,7 +1491,6 @@ King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/rend
 parser. So far so good. Also labeled each group as pass/fail with comments and
 then realized that I could use actual test names. So I'll fix that later. Next
 session is probably just more cleaning up. Gotta go for now.
-
 
 ## #268
 
@@ -1623,7 +1504,6 @@ finish sending the last message before exitting. So I setup a callback and it
 ends properly now. I don't think I'll have any further issues. YAY!!! Time to
 get into parser details. :)
 
-
 ## #266, #267
 
 Cleaned up the couple of bugs that I found working on multi-suite functionality
@@ -1636,7 +1516,6 @@ King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/rend
 on my next major block. I think I'm going to go work on Serverless/Vue/Dynamo
 now though for some paid work. ;) Excited for that! Maybe tonight I'll tackle
 more.
-
 
 ## #262, #263, #264, #265
 
@@ -1652,7 +1531,6 @@ finally since I now have support for multi-suites and I want to start testing
 the various parts of the language in [**Render
 King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
 Woot progress!!!
-
 
 ## #259, #260, #261
 
@@ -1671,7 +1549,6 @@ Kid**](https://www.npmjs.com/package/renderkid) and have a CI style... it's
 amazing how much I have done just to get a damn CI formatting system. lol... and
 I thought that was going to be easy.
 
-
 ## #257, #258
 
 Decided to start working on the incremental snapshot saving system and then
@@ -1679,7 +1556,6 @@ broke my brain. It wasn't as simple as I thought it would be, but now I'm in the
 weeds so might as well push through. I think I have a vague idea on how to pull
 this off right now, but we shall see if that works out after breakfast. I need
 to calm my brain a bit or Imma break it. lol...
-
 
 ## #256
 
@@ -1692,7 +1568,6 @@ a long list of snapshots every time I decide one is not right. That will be a
 useful feature to have. I might also be able to tackle not updating snapshots
 for skipped tests before breakfast. We shall see.
 
-
 ## #255
 
 Starting the morning slow with just refactoring out the printing portion of
@@ -1704,7 +1579,6 @@ deal. My goal today is to get multi-describes working so I can get back to work
 on [**Render
 King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
 Hopefully I'll get that done today.
-
 
 ## #253, #254
 
@@ -1730,7 +1604,6 @@ to tackle another small
 [**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
 feature/fix.
 
-
 ## #251, #252
 
 Holy hell what a double session. Just spent a lot of work splitting refactoring
@@ -1741,7 +1614,6 @@ better. Gotta go out to a meetup now, but I'm happy with the work so far. Lots
 of cleanup. Also reduced the max-warnings from 7 to 6. So only 6 more files to
 get below 50 lines of code. :)
 
-
 ## #250
 
 Extracted all of the worker logic into its own package. This required me to pass
@@ -1750,7 +1622,6 @@ a few more things to it since it is now isolated from the rest of
 but it is giving me insight into where things need to be centralized and cleaned
 up. I think the next portion to clean up is to manage the snapshot updating
 portion because that is actually probably multiple concerns.
-
 
 ## #249
 
@@ -1763,7 +1634,6 @@ at least. Still sooo much to do for
 [**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape).
 It is daunting sometimes, but gotta keep just pushing through. Baby steps.
 
-
 ## #248
 
 Decided just to do a simple refactor for now. Setup the ability to skip a test
@@ -1775,7 +1645,6 @@ be the sweet spot for small modular code. Time to go snag breakfast and I will
 probably look into enabling multiple describes in a single test file next since
 I'll want that for [**Render
 King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
-
 
 ## #246, #247
 
@@ -1794,7 +1663,6 @@ with [**Render
 King**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/renderking).
 Kind of feeling the tiredness of being up since like 2am... so there's also that
 to consider. Bleh... sooo much to do all the time.
-
 
 ## #245
 
@@ -1818,7 +1686,6 @@ pain in my future with this parser as I keep learning
 knows... but I'm kind craving some [**Monster Hunter
 World**](http://www.monsterhunterworld.com/).
 
-
 ## #243, #244
 
 So I'm stuck right now... my biggest problem is figuring out the proper way to
@@ -1826,7 +1693,6 @@ perform a lookahead. I want to allow the characters `>`, `<`, `/` as long as
 they don't make up a tag in sequence... but I can't figure out exactly how to do
 that... backtracking confuses me. Oh well, time to work for now. I really need
 to learn this eventually and might as well push through now. Bleh... dumb.
-
 
 ## #240, #241, #242
 
@@ -1838,13 +1704,11 @@ stuck in a problem of looking ahead and avoiding pulling a string that has tags
 following it. It hurts my brain, but I'm working through it. Gonna go grab some
 quick breakfast and try to get one or two more sessions before work.
 
-
 ## #239
 
 Alright so I'm jumping into building my own parser/rendering system I guess.
 Should be fun. I'm calling it `RenderKing` inspired by `RenderKid` lol... should
 be fun I haven't written a parser... like ever so exciting I guess. :)
-
 
 ## #238
 
@@ -1852,7 +1716,6 @@ I couldn't get a CI rendering style working easily so I'm going to quickly build
 my own as it is ridiculous frustrating and I've been wanting to replace
 `RenderKid` anyway for dependency reduction reasons. So I'm going to do that
 now.
-
 
 ## #237
 
@@ -1862,7 +1725,6 @@ forward. Lots of quality of life details really like a CI rendering style and
 removing warnings from the build process by determining what exports value to
 use dynamically. I'll probably tackle some documentation stuff this morning as
 well. We shall see.
-
 
 ## #232, #233, #234, #235, #236
 
@@ -1880,7 +1742,6 @@ weren't needed. Just a lot of cleaning up in general. I'm actually extremely
 happy with the setup right now. :) Still lots of actual package refactoring to
 do, but I think I'm in a better position now to do it.
 
-
 ## #231
 
 Simple first session. I ended up removing `jsome` as a dependency and replaced
@@ -1894,7 +1755,6 @@ splitting up
 into a bunch of smaller packages. I need to simplify the entire system. Maybe I
 can get rid of a `max-line` warning in a couple of places. Man I need coffee...
 I'm up WAY too early.
-
 
 ## #227, #228, #229, #230
 
@@ -1913,7 +1773,6 @@ package in post build when it is built. So I did that too and now packages will
 only have true external dependencies listed. :) Totally awesome and super
 pumped.
 
-
 ## #226
 
 I just couldn't get the problem off my mind, so instead of ditching I decided to
@@ -1924,7 +1783,6 @@ But at least it works...
 still randomly breaks it seems and I'm not sure why, but oh well. I'm getting
 closer at least. Writing a new test framework is not easy. Not even in the
 slightest. Now I go play.
-
 
 ## #223, #224, #225
 
@@ -1938,7 +1796,6 @@ World**](http://www.monsterhunterworld.com/) to relax a bit... well relax as
 much as [**Monster Hunter World**](http://www.monsterhunterworld.com/) allows
 lol. SOOO CLOSE!!! So angry... :\
 
-
 ## #220, #221, #222
 
 WOOT!!! I found a pattern that works well and I'm satisfied. Ultimately it is
@@ -1950,15 +1807,12 @@ need to add back in the snapshot updating portion and I should be good to go. :)
 Holy hell that was a lot of learning in terms of streams and child processes and
 learning how to get everything to coordinate together.
 
-
 ## #219
 
 Spent a session before breakfast to explore how child processes work... then
-accidentally infinite loop nested spawned processes and had to find `sudo
-killall node` lol... so now that I have that rudimentary experience now I can at
+accidentally infinite loop nested spawned processes and had to find `sudo killall node` lol... so now that I have that rudimentary experience now I can at
 least start to think how I'm going to handle this moving forward... gotta
 isolate each process really. So we shall see how things go.
-
 
 ## #218
 
@@ -1968,7 +1822,6 @@ running into problems with a lack of isolation. So I'll have to think how to
 handle that. Basically a bunch of the tests change the process `cwd` and as a
 result lots of things break all over. So I'll think on it.
 
-
 ## #216, #217
 
 WOOT!! I'm getting sooo close. Learning how to handle multiple streams at a
@@ -1977,7 +1830,6 @@ have the proof of concept working without snapshots, so now I need to
 re-organize everything to do the snapshots as well asynchronously. Lots to still
 do as I'm just learning, but I'm getting closer. The tests that would take
 minutes to run now take 1 second... huge difference lol. Super awesome. :)
-
 
 ## #214, #215
 
@@ -2000,7 +1852,6 @@ because there is a lot of functionality that can be its own little module.
 Hopefully things continue to go smoothly and I don't get super stuck on
 anything.
 
-
 ## #211, #212, #213
 
 Spent all my sessions trying to build a full readme. There is a lot to the goals
@@ -2012,7 +1863,6 @@ playing [**Monster Hunter World**](http://www.monsterhunterworld.com/). OMG!!
 The game is so good and if you have the chance to pick it up and you are reading
 this then do it. My first jump into the series and it is absolutely amazing.
 Gotta get to paid work now. :)
-
 
 ## #208, #209, #210
 
@@ -2037,7 +1887,6 @@ paid work... also [**Monster Hunter World**](http://www.monsterhunterworld.com/)
 comes out tonight at 9pm PST... :) I'm going to be quite distracted once that
 comes out and I'm sooo excited for it.
 
-
 ## #206, #207
 
 Spent two sessions moving over 10+ packages that really should be in
@@ -2050,10 +1899,8 @@ should work with any [**Alle**](https://github.com/boennemann/alle) style setup
 theoretically. No idea though... not planning its extensive useability yet,
 right now the split off was mainly for shrinking the growing size of
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd).
-It was relatively smooth, but I realized that I would definitely like a `kd
-move` function to handle the refactoring of anything dependent on it. Now to
+It was relatively smooth, but I realized that I would definitely like a `kd move` function to handle the refactoring of anything dependent on it. Now to
 figure out what I want to work on next.
-
 
 ## #205
 
@@ -2069,7 +1916,6 @@ stoked. Working on these projects is going to be sooo much easier now. Lots of
 chores to do for cleaning up
 [**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom)
 but I'm at a good point.
-
 
 ## #203, #204
 
@@ -2093,7 +1939,6 @@ the
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 process. :)
 
-
 ## #202
 
 Spent a session planning out potential new projects for the future since I'm
@@ -2103,7 +1948,6 @@ speed that I will be able to build new projects now using
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd).
 Ultimately I'm going to blow through these things. So great... so pumped...
 can't wait.
-
 
 ## #201
 
@@ -2119,7 +1963,6 @@ So I'm excited to get back into things. Yay project management win!!! Time to
 take a shower and then I'll tackle creating
 [**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom).
 
-
 ## #199, #200
 
 WOOT!!! 200 sessions is massive. That puts me at approximately 100 hours since
@@ -2133,12 +1976,11 @@ handle **Google** scale codebases. I know I won't get near that at all by
 myself, but forcing myself into a scenario where I bite off more than I can chew
 will force me to get better and better at automation naturally. I have still one
 or two other projects (like **DEX** and **GitJigs**) that will be added to this
-repo and it will grow quickly.  Once any of the projects gain traction, the
+repo and it will grow quickly. Once any of the projects gain traction, the
 others naturally will through proximity. So I'm looking forward to the kind of
 stuff that will be needed to make this succeed. There is lots to learn and it
 will only bring positive experiences to force me to accelerate in awesome ways.
 :)
-
 
 ## #198
 
@@ -2147,7 +1989,6 @@ start work. I decided to create
 [**SemCom**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/semcom)
 as a project so I'll jump into that stuff tomorrow. As long as I finish the
 re-organization stuff today. Looking forward to it. Back to sorting.
-
 
 ## #197
 
@@ -2163,14 +2004,12 @@ for a single company that rely on much different needs. I also think I'm ready
 to move [**Transmutation**](https://github.com/RayBenefield/transmutation) into
 this repo as well as start planning out SemCom.
 
-
 ## #196
 
 Just more cleaning up of issues. This is probably going to take a while to go
 through every one. But luckily there is a lot that I can close. And also crazy
 pipedreams I've decided to label as `resurrect?` to go back to in the future
 without keeping the issue open.
-
 
 ## #195
 
@@ -2184,7 +2023,6 @@ featured on the issues page. We shall see though. Going to start organizing all
 of the issues and then curating. This entire morning will be full blown planning
 across the board.
 
-
 ## #194
 
 Decided to start exploring [**Github**](https://github.com/) projects. Seems
@@ -2194,7 +2032,6 @@ totally bring in
 [**Transmutation**](https://github.com/RayBenefield/transmutation). And I'm
 going to split off `SemCom` and also start working on `GitJig`. Should be fun
 actually.
-
 
 ## #193
 
@@ -2209,7 +2046,6 @@ There is no way I'm getting rid of some of them like
 there are still some randoms that I can replace. Anyways, I'm tired and done for
 the night. Hopefully I'll get some solid time before the unconferrence tomorrow.
 
-
 ## #192
 
 Went through and tried to remove both `cpx` and `npm-utils` with both
@@ -2218,7 +2054,6 @@ file... hopefully it works. I just put in the pull request now and hoping all
 tests pass and then will try to merge and hope things go well. About to go out
 to dinner, but I should also be able to get more work done after going to dinner
 with the kid. Hopefully things go well. :)
-
 
 ## #191
 
@@ -2235,7 +2070,6 @@ work on the changelog system as well as potentially the `rewrite-tags` script in
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd).
 Lots of possibilities... just cleaning up.
 
-
 ## #189, #190
 
 I'm on the bus to Eugene. Spent some random time refactoring some stuff with
@@ -2245,7 +2079,6 @@ like `loud-rejection/register` and `simple-git/promise`. And I need to default
 to `exports: 'named'`, but otherwise I'm very close to having a clean build
 step. I also want to try to clean up the external dependencies to only what is
 actually needed for each package so they are actually accurate.
-
 
 ## #185, #186, #187, #188
 
@@ -2276,20 +2109,18 @@ also. I'm going to try to do a couple talks. We'll see how that goes. Time for
 paid work and then the bus ride to Eugene. I'll probably get to do some work on
 the bus ride.
 
-
 ## #184
 
 Got a bit further, I created a "fixable" filter to grab all failing checks that
 I can fix by doing something... like prompting for a `readme` :). So I started
 to try to tie in [**Inquirer**](https://www.npmjs.com/package/inquirer)'s
 `editor` prompt to fill in the contents. And then all the sudden there was
-sadness and lameness and it was erroring out. So ***sigh***... I hope something
+sadness and lameness and it was erroring out. So **_sigh_**... I hope something
 gets fixed before I tackle this tomorrow. It looks like someone else ran into
 the issue as well: https://github.com/SBoudrias/Inquirer.js/issues/637. I don't
 have time to investigate... time to go do paid work on
 [**Vue.js**](https://vuejs.org/) and [**Serverless**](https://serverless.com/)
 :)!!!
-
 
 ## #181, #182, #183
 
@@ -2304,7 +2135,6 @@ will be prompted for. And then there should be a side effect that adds a
 `version` to a `package.json` and then commits any collected filled in checks
 (like creating the `readme.md`). Should be fun. I think I have time for one more
 session for the morning.
-
 
 ## #180
 
@@ -2326,7 +2156,6 @@ packages quickly. I plan on targeting
 [**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
 for my next publishing. So hopefully that goes well this morning.
 
-
 ## #176, #177, #178, #179
 
 Spent a ton of time trying to figure out the best way to handle a release tag
@@ -2338,7 +2167,6 @@ doing is analyzing the `git log` and then doing a full rebase after I determine
 all of the changes that will be needed to start the repo from scratch. Should be
 fun. Time for some paid work though.
 
-
 ## #175
 
 Spent some time cleaning up the issues and clarifying somethings and
@@ -2347,10 +2175,9 @@ need to setup a milestone now that completes the multiple package publishing
 portion which will require a couple of changes first. Gotta go get some paid
 work done now.
 
-
 ## #171, #172, #173, #174
 
-***I FUCKING DID IT!!!!!***
+**_I FUCKING DID IT!!!!!_**
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 is now officially publishing multiple packages. :) SOOO HAPPY!!! This session I
 pushed to finish the building of non-bin based packages (like
@@ -2390,10 +2217,9 @@ this process yet.
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 will save SOOO much time in building quality projects. I can't wait to start
 using it with [**Transmutation**](https://github.com/RayBenefield/transmutation)
-properly.  Going to take some time to make a bunch of tickets after heading out
+properly. Going to take some time to make a bunch of tickets after heading out
 to get some breakfast and coffee. Gotta start planning out my next few days to
 polish the publishing/versioning system.
-
 
 ## #167, #168, #169, #170
 
@@ -2416,7 +2242,6 @@ hopefully. Going to first try to publish
 and then publish
 [**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape).
 
-
 ## #163, #164, #165, #166
 
 Put in a ton of work to get versioning working at least for packages in
@@ -2426,7 +2251,7 @@ version system. Once that is added then the system should be smart enough to
 avoid pushing a version if nothing that
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 depends on is updated. This is relevant for new packages that are being built as
-units before being integrated.  As well for documents that don't show up in the
+units before being integrated. As well for documents that don't show up in the
 `readme` for the package. Lots more things to consider, but this really was the
 big piece for me. The rest is a lot of clean up and supporting systems. And then
 I'll probably work on the `kd prerelease` portion to test adding a new package
@@ -2434,7 +2259,6 @@ on `kli`. Which also means I need to update the build system to handle more than
 just `bin` files now as well... still lots of little things to do. But maybe I
 can get the multi-publishing working by the end of the week before I see my son
 this coming weekend. :)
-
 
 ## #162
 
@@ -2445,7 +2269,6 @@ need to work in `dependencies` actually. I've added comments to the file also to
 correlate each portion with the versioning algorithm. Gonna go walk to the
 convenient store and fetch some gum... need some minty fresh breath. lol... yeah
 I'm weird.
-
 
 ## #161
 
@@ -2458,14 +2281,12 @@ with the files that are changed in that commit. But I may not actually need that
 right now since I can probably just use the change list as long as the scopes
 are right.
 
-
 ## #160
 
 Setup a template for the `kd changes` command. I kept it simple for now and I
 can edit it later. I think I'm going to put some focus on setting up a `--json`
 flag so I can work with some of the raw data that is going to come out of the
 `kd version` command. Gotta get prepared for the big guns.
-
 
 ## #159
 
@@ -2479,19 +2300,17 @@ missing a lot of automation like auto generating a `tests` file, not having a
 test runner for `kape`, and lots of little details that could make me go a lot
 faster... but I'm good for now. Gotta really get to this multi-package
 publishing system. Once that is done, then I can really start diving down, cuz
-that is the real *Minimum Viable Product* [**MVP**] here. Gonna go have some
+that is the real _Minimum Viable Product_ [**MVP**] here. Gonna go have some
 breakfast now. :)
-
 
 ## #157, #158
 
 I'm getting SOOO close to the core of the versioning system. Right now I'm
 gather tags and parsing them for the repo. Then I'm going to use the latest
-***Changes*** tag in the form of `#<changeNumber>(PR-<prNumber>)` as the tag
+**_Changes_** tag in the form of `#<changeNumber>(PR-<prNumber>)` as the tag
 that needs to be used as a marker. Hopefully it works well enough for the
 situation. I've set a temporary tag in the repo at the branching off point from
 `master` so we'll see if things go well.
-
 
 ## #156
 
@@ -2501,7 +2320,6 @@ piece to work on outside of the actual version system is to add the changed
 files to the fetched commits and then add the files and affected scopes to be
 used in the versioning system.
 
-
 ## #154, #155
 
 Just finished breakfast and jumped right into the documentation for how
@@ -2510,7 +2328,6 @@ spent some time figuring out a cool idea that would really help
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)'s
 goal of improving development agility. For now it is time to go on errand runs
 for the day with Jess. :)
-
 
 ## #153
 
@@ -2528,7 +2345,6 @@ Perhaps it will be something like `#1 (PR #123)` that might be a thing. I have
 to test if it is a viable tag. If it is, then SWEET!!! If not then I'll figure
 out some other scheme. Going to try to start a document on how auto versioning
 will work in this system.
-
 
 ## #152
 
@@ -2556,7 +2372,6 @@ something I really want to do. Looking forward to really learning Vue and
 applying serverless on a production level system. Bout time!!! WOOT!!! Paid work
 is now going to be less sad. :)
 
-
 ## #150, #151
 
 Spent some time on an Issue Template for [**Github**](https://github.com/). I
@@ -2570,7 +2385,6 @@ still important, the collaborators need to prioritize other work for development
 agility sake. It will be better for the community as a whole if they do this.
 Time to work on the `kd deps` command. ;)
 
-
 ## #149
 
 I spent this session just doing a bunch of random refactoring... in particular
@@ -2578,7 +2392,6 @@ reducing the number of files at the root of the project to have the logo show up
 higher which is better from a DX perspective as it will allow the logo to grab
 attention without scrolling. Still more files to move, but it was helpful to get
 through a lot of these.
-
 
 ## #147, #148
 
@@ -2588,7 +2401,6 @@ yesterday. And it was a fun little play of reducing a bunch of stuff, but came
 out well. Now I have a unique list of dependencies to use for stuff. Next to
 enhance the package info with those deps and then to work on adding the files
 changed from commits to that info.
-
 
 ## #143, #144, #145, #146
 
@@ -2610,7 +2422,6 @@ a lot of issues piling up as I keep coming up with new ideas and things that
 need to be done. Hopefully I can speed through a good portion of the list this
 weekend.
 
-
 ## #139, #140, #141, #142
 
 Spent the morning writing a dependency tree calculator for this style of repo.
@@ -2622,14 +2433,12 @@ the files that are being changed in each commit as well so I can determine what
 actually changed. Lots to still do to get versioning working properly, but every
 day is another step.
 
-
 ## #137, #138
 
 So I modified the `commit-parser` to handle adding the commit hash to the
 change. And then using that I streamed the `git log` results into the parser to
 get a full set of `changes` that can be used by the versioning system to
 determine what the next version should be.
-
 
 ## #135, #136
 
@@ -2642,7 +2451,6 @@ memory efficiency, so I'm going to shortcut with [**Simple
 Git**](https://www.npmjs.com/package/simple-git) for now and I'll create an
 issue to make it more efficient with streams later.
 
-
 ## #134
 
 Decided to just pickup a simple task. So I finally swapped in
@@ -2651,7 +2459,6 @@ didn't work originally for me when I had a manual build process with
 [**Rollup**](https://rollupjs.org/), but now that
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 builds itself it actually works fine which is nice.
-
 
 ## #131, #132, #133
 
@@ -2666,7 +2473,6 @@ affected issues, and other unique attributes. This will probably be needed when
 I start looking into changelog generation. But I'll tackle that in the future
 when needed. I think I can start tackling recommended versions now.
 
-
 ## #129, #130
 
 So I started on my own commit parser and it seems to be fairly solid. I need to
@@ -2679,7 +2485,6 @@ by line and then run each of them through the regex. It is possible that I may
 need to also reference the source commit since a commit could have multiples.
 This way when generating a changelog I can properly link to the given commit.
 I'll think on that. But I'm close to having something I can work with at least.
-
 
 ## #128
 
@@ -2698,7 +2503,6 @@ control. Makes it easier for me to stay agile as less exploration into other
 repos. Especially since I have the skillset to build out most tools that I would
 need myself.
 
-
 ## #127
 
 Started exploring [**Commitlint**](http://marionebl.github.io/commitlint/#/)
@@ -2714,7 +2518,6 @@ the charge on commit standardization. Next session I'm going to dive deeper into
 the `conventional-changlog` commit parser to get a good sense of what they are
 doing to pull of their parsing.
 
-
 ## #126
 
 Lots more research into how `semantic-release` is handling things. So far I feel
@@ -2726,7 +2529,6 @@ scope of the package that changes and details around that change. And for sure
 `BREAKING_CHANGE` is going to need to include scope so we know exactly what
 packages need to update to a `major` version. So fun... :\ lol. Probably one or
 two more sessions of research before I really start getting into things.
-
 
 ## #125
 
@@ -2743,7 +2545,6 @@ a body of a commit and scopes for a `BREAKING_CHANGE`. This would allow for pure
 parsing of the commit and no prompting intervention. This probably means we need
 our own parser as well. Lots to do!!!
 
-
 ## #123, #124
 
 Well now I am gathering the version from NPM as well as the version in the
@@ -2754,7 +2555,6 @@ analyzing the `git log` in order to determine what packages need to be updated
 based on the its last version. So that will be what should enable multi-package
 publishing. That will be the next fun trek that I should be tackling today after
 we return the rental car. Should be fun...
-
 
 ## #122
 
@@ -2768,7 +2568,6 @@ gathering details from [**NPM**](https://www.npmjs.com/) about what might
 already exist and I'll also grab info on the `dist/` directory and compare the
 two for the publish command's output. Should be fun. :)
 
-
 ## #121
 
 Just setup a basic `kd publish` template for now. I think I'm going to add some
@@ -2777,14 +2576,13 @@ as well as the version that is sitting in the `dist/` directory. Those would
 both be good. For now I have to switch to Python... side note we just started
 using Vue so it has more JS... yay! lol...
 
-
 ## #120
 
 WOOT!!!
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 is now officially publishing itself. Now it is being very explicit in what it is
 publishing right now, but I'll fix that. With my next ticket to add some
-non-side effect stuff.  Was a simple fix of just being explicit with the
+non-side effect stuff. Was a simple fix of just being explicit with the
 `--registry` flag for `npm publish`. Glad that fucking worked, cuz I can finally
 ease up a bit. And this is session #120 so that means I'm now 50 hours into this
 project. That's how long it took to get it to publish itself. So if I was
@@ -2797,7 +2595,6 @@ finally have this self publishing. Next is to focus on multi-package publishing.
 That's gonna take some fun work, especially the detecting what packages need to
 be independently versioned based on their changes as well as their dependencies.
 Should be fun.
-
 
 ## #118, #119
 
@@ -2819,7 +2616,6 @@ catch things like similarities between the commands in the system. So that was a
 bit of fun cleaning up as I also found a small other place where I duplicated
 code and just abstracted it into a new package.
 
-
 ## #110, #111, #112, #113, #114, #115, #116, #117
 
 Soooo I've been playing with travis like CRAZY!!! I got the git updates to work
@@ -2829,7 +2625,6 @@ having it. So I'm going crazy right now in debug mode. I'll have to revisit this
 tomorrow. Hopefully I can figure it out. I HATE PUBLISHING!!! Grrr... we shall
 see how things go tomorrow. So frustrated right now. And sooo close to self
 publishing... this is the last damn part.
-
 
 ## #109
 
@@ -2841,7 +2636,6 @@ This is what real quality software engineering feels like. We get faster, not
 slower. I feel like I should add `kd log/work` to be able to manage my log
 entries better lol. Probably when I setup a markdown generation system for
 readmes. We shall see. Now it is time for Python.
-
 
 ## #106, #107, #108
 
@@ -2859,20 +2653,17 @@ progress. This will be a very powerful tool moving forward and I should be able
 to start multi-deploying probably in a week. Which will be awesome. HUGE deal.
 Time to go do Python for the day.
 
-
 ## #104, #105
 
 Setup the side effect system which was a bit of a pain at first but it works
 now... you now require a `--commit` flag in order to commit a side effect for a
 command now. Otherwise it will just run the render function.
 
-
 ## #103
 
 Setup the template for the `kd version` command. Jumping into the side effect
 system now. Which means I might be able to replace the `npm version patch`
 command with `kd version --commit` when I'm done. We'll see how that works out.
-
 
 ## #100, #101, #102
 
@@ -2889,7 +2680,6 @@ effect system of
 [**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli).
 Then sadly I need to do me some Python work. :(
 
-
 ## #99
 
 On the greyhound back from Eugene to Bend. Was a wonderful trip seeing my kid.
@@ -2905,19 +2695,17 @@ things as well. I want
 to push people to push out the side effects as far as possible to the outside of
 the system. If anything, I know it will help me. Gonna probably rest for a bit.
 
-
 ## #98
 
 So my session this morning definitely worked. I am fully building
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
-with itself. Which is awesome.  So next thing is to start taking over the
+with itself. Which is awesome. So next thing is to start taking over the
 publishing/deploying portion of the system. I need to replace the shell script
 that I have right now. This means I need to handle the versioning system, the
 git system, and the final npm deployment system. So lots of stuff to do. I'm on
 the greyhound right now to Eugene. And I'm falling asleep. So I think I'll take
 a nap break. Not much I can do if I can't focus. A nap might be good for me. I
 forgot to drink coffee this morning sadly.
-
 
 ## #97
 
@@ -2928,7 +2716,6 @@ versioning for now until I tackle that portion. But I think I can get publishing
 to work next chance I get... which is SUPER exciting!!! Hopefully things work.
 I'm going to merge this log entry and then merge to master and cross my fingers.
 This is a big step as it is now `0.0.50`.
-
 
 ## #96
 
@@ -2946,7 +2733,6 @@ I think for self publishing I still need a versioning system and a deploy
 system. So hopefully we cna pull this off in the next few days. I probably won't
 be coding tomorrow, but hopefully I can get something going soon. :)
 
-
 ## #93, #94, #95
 
 Did a lot of refactoring in order to support root level checks for publishing.
@@ -2954,7 +2740,6 @@ But it is all done now and we now can check for repo level dependencies like the
 `LICENSE` file. Next will be checking for keys in the `package.json`. Once I do
 that I can actually start applying the check to the `kd build` command. WOOT!!!
 Time for Python... \*sigh\*.
-
 
 ## #92
 
@@ -2966,14 +2751,12 @@ things needed in the root config like `repo`. Then after that probably some
 aggregate stats on the check. And then apply the build system to all publishable
 packages.
 
-
 ## #91
 
 So rather than go to coffee, I had an epiphany on how to fix the damn tests in
 CI. I just needed to change the working directory in the test to the test
 directory so that way I could set `root` to a static value of `.`. Which worked
 perfectly. So now I can go get coffee and breakfast. :)
-
 
 ## #87, #88, #89, #90
 
@@ -2990,14 +2773,12 @@ would like to be able to keep the results the same while still keeping the hash
 of inputs. Hmmm... I'll think on that. For now I'll just disable the tests on
 Travis. Gonna go get coffee for now.
 
-
 ## #85, #86
 
 Did several bits of cleaning up. Refactored out the commands into their own
 packages. Started cleaning up the styling system in general and then started
 working on creating a pretty style for `check-packages`. Coming along alright.
 :) Time for Python work now... 10 hours of it... AHHHH!!!
-
 
 ## #82, #83, #84
 
@@ -3017,7 +2798,6 @@ and [**Tape**](https://github.com/substack/tape) tests... hehehe... that's
 funny. This set of sessions was VERY helpful indeed. Lots to refactor and do in
 general, but I think I'm at a solid point where I can just pick and choose.
 
-
 ## #79, #80, #81
 
 I DID IT!!!! I got a prompting system that updates and adds new snapshots
@@ -3029,7 +2809,6 @@ seriously. LOTS of refactoring that needs to be done. But good stuff overall and
 it works the way I want it to. I still need a multi-test runner and an assertion
 system, but should be good.
 
-
 ## #75, #76, #77, #78
 
 So I'm in this vicious exploration cycle right now just exploring. The part I'm
@@ -3039,7 +2818,6 @@ straight down to `readline` instead. So it is taking some exploration of ways to
 handle things in order to nail something down. But I'm getting closer at least.
 Perhaps in the next few sessions I'll get something going.
 
-
 ## #71, #72, #73, #74
 
 LOTS of work done for `kape`. I got screenshot comparing working and loading of
@@ -3048,7 +2826,6 @@ the inputs. I also started working on the
 [**Inquirer**](https://www.npmjs.com/package/inquirer) portion of it where we
 update the given screenshots. That should be the last major part before it is
 useable. SUPER exciting!!! So hopefully I'll have something finished tomorrow!!!
-
 
 ## #70
 
@@ -3061,7 +2838,6 @@ able to do this more efficiently since I'll have an async stream of work going
 at the same time in parallel, which is awesome. I hope things just keep sailing
 forward. :) Time for Python. :( Merry Christmas folks!!! See you tomorrow.
 
-
 ## #69
 
 Alright so I am now saving snapshot files... which is awesome. Next is to load
@@ -3070,7 +2846,6 @@ the results of the tests... so yeah. Perhaps I start by thinking about how to
 report results and then how to change those results with failures. I have one
 more session to go before I have to do my paying job... on Christmas... yeah it
 is painful.
-
 
 ## #67, #68
 
@@ -3081,7 +2856,6 @@ of snapshot files... especially since by default EVERY test will have
 screenshots. I'm excited, next is to write the screenshots. That shouldn't be
 too bad. The next part though is to load the previous screenshots if they exist
 and then compare them to the one we are testing for.
-
 
 ## #65, #66
 
@@ -3100,7 +2874,6 @@ that file and then loading it and asserting against it. Probably like 4 sessions
 until I get all that done. I want to be conservative since I'm essentially
 writing my own testing framework here. It is exciting... seriously.
 
-
 ## #64
 
 So I fell asleep after last session thinking about how to really get what I
@@ -3111,7 +2884,6 @@ know... ANOTHER project. But it is all part of
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd).
 All part of this ideal Developer Experience that I'm trying to shoot for. I'll
 try to start implementing it next session and see how things go.
-
 
 ## #63
 
@@ -3130,7 +2902,6 @@ something working, but I'm going to finish it up next session. Need a break and
 to think on things. I kind of want to make my own snapshotter implementation for
 `tape`. But I'll think on it.
 
-
 ## #62
 
 Did a bunch of cleaning up of the repository. Updated a test that wasn't
@@ -3143,7 +2914,6 @@ like I could really gain some good value from it. So that might be what I do
 next... if not then I'll do the template for the `kd check` command. I probably
 won't have much time this morning, but let's see what I can get done.
 
-
 ## #61
 
 Put out another release. This one sets up the formatter system for the
@@ -3153,7 +2923,6 @@ not so simple. So I need to start looking into snapshot testing with
 [**Tape**](https://github.com/substack/tape). So that is probably next on my
 list to play with. I currently have two skipped tests until I have that in
 place. We shall see how that works in the future. Time for work.
-
 
 ## #60
 
@@ -3170,7 +2939,6 @@ per command which was SUPER easy and updated `kd check` to use the
 `JSONRenderer` for now and also removed the renderer from `kd build`. One more
 session before work.
 
-
 ## #58, #59
 
 Refactored out the `executor` functionality now as `kli` is going to get a tad
@@ -3182,12 +2950,11 @@ faster and faster as we go forward. I still need to refactor other portions of
 but I'll survive. For now I need to stop as we are going to pick up my future
 stepson for him to spend winter break with us. My development speed is going to
 slow over these holidays, since I'll be spending time with him and off the
-computer over the holidays.  Still lots to do, but things are really coming
+computer over the holidays. Still lots to do, but things are really coming
 together slowly. One day I'll probably split off the `kli` project into its own
 repo, but for now I'll keep it here. It might actually be valuable for me to
 have an automated process to split a monorepo into multiple monorepos so that
 will be my test case. AWAY!!!!
-
 
 ## #56, #57
 
@@ -3199,7 +2966,6 @@ nice being able to easily created a new package using the
 is setup then I'll be able to really start publishing new packages really
 quickly and keep all my functions small and awesome. I think ultimately I have a
 very powerful system. More refactoring?
-
 
 ## #53, #54, #55
 
@@ -3214,7 +2980,6 @@ IS SNOWING!!! :) Time for some more real work. Back to Python :(. AWAY!!!
 Tomorrow I will tackle the checker... probably after I update the rendering
 system a bit more for
 [**KLI**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kli).
-
 
 ## #52
 
@@ -3232,7 +2997,6 @@ I think it will ultimately be worth it. I'm going to use that rendering system
 for the `kd check` command soon. Just gotta add a feature or two here. I might
 adjust the tests as well. We'll see next session.
 
-
 ## #50, #51
 
 Looking into switching to `node-tap`... I figured out how to do it and it
@@ -3240,7 +3004,6 @@ natively supports promises and coverage and a few other things so hopefully
 things will work out well. I had some difficulties with `should` at first, but
 it all worked out. I may have to look into extending `should` with some new
 operators or something so it reads better.
-
 
 ## #49
 
@@ -3252,7 +3015,6 @@ so we can work towards replacing the `prebuild` hook using `kd build`. I just
 had an idea to add a rendering system to `kli` as well because that JSON output
 is valuable for other things.
 
-
 ## #48
 
 Back into the work for the checking of packages. I've added checking for a
@@ -3263,7 +3025,6 @@ I also need to check the root directory for a `LICENSE` file that can be taken
 as well. So I'll look into that as well. I don't want to publish something
 without its `LICENSE`, but a `LICENSE` is not a project level file, but a repo
 level file.
-
 
 ## #47
 
@@ -3281,14 +3042,12 @@ addition to values. And more and more tools are accepting the form of
 not just value configutation which is SUPER powerful in software engineering.
 Time to get back to work on the checker system though.
 
-
 ## #46
 
 I realized the `fixtures` folder for tests was getting out of hand, so I had to
 introduce some new organization to it. So now it is sorted by fixtures that
 represent an entire repo and fixtures that represent a single module. So I guess
 I'll tackle the other functionality I wanted tomorrow. Time for some real work.
-
 
 ## #45
 
@@ -3299,13 +3058,11 @@ actually need to go through and fail tests that don't have a `LICENSE` or a
 accepting `bin` files so I can pass `kikd` since it is just a `cli` tool right
 now.
 
-
 ## #44
 
 Started the preliminary checks for the `kd check` command. Things are going ok
 for now, nothing too much to report. I think in a session or two I should have
 something working cleanly functionality wise.
-
 
 ## #43
 
@@ -3316,14 +3073,13 @@ duplicate code. I should be sure to not dupicate anything I'm doing and while
 that is obvious sometimes it is easy to miss when you are trying to get a task
 done. So now that that is in place I can get to the real checker script.
 
-
 ## #42
 
 I spent a little bit setting up Prettier on Vim finally. It is really nice to
 have on save. I quickly setup `KLI` to handle aliases in addition to names.
 Wasn't hard at all. So I started work on the `check-packages` function, which
 will be needed to verify whether or not each package has the minimum
-characteristics to publish.  This check will start by looking for a `readme`, a
+characteristics to publish. This check will start by looking for a `readme`, a
 `package.json`, and either a `bin` entry with respective file, a `main` entry
 with respective file, or an `index.js` file. With all of this I should be able
 to publish a package. Then I'll adjust the build process to not publish any
@@ -3342,7 +3098,6 @@ done and watch the camera at the same time... not an easy task mind you. She
 will only be expecting that the hearts are related to her birthday, the proposal
 will definitely catch her unexpectedly.
 
-
 ## #41
 
 So I got `KLI` working!!! So now I can run `kd l` or `kd ls` to run the `ls`
@@ -3353,7 +3108,6 @@ finish the build command by copying the `readme` and the `license` file to the
 `dist` folder. That is the next step and then merging the base repo
 `package.json` and merging with the project `package.json`. Should be fun.
 
-
 ## #40
 
 Started work on `KLI`. Just writing a bunch of simple tests to get it going and
@@ -3361,13 +3115,11 @@ then I'm going to try to replace the commands in
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd).
 I'm hoping things go smoothly, but we shall see.
 
-
 ## #39
 
 So I planned out a document for `KLI` and now I'm going to jump in and just try
 to start building it and see how things go. I planned around in a sandbox long
 enough that it should work fine. We shall see.
-
 
 ## #38
 
@@ -3382,7 +3134,6 @@ For some reason [**Rollup**](https://rollupjs .org/) is still warning based on
 them and I am not sure why. I'll file an issue on that after making an example
 repo with the problem. Break time.
 
-
 ## #37
 
 So yesterday I was going to finish up the build system and then I got food
@@ -3394,7 +3145,6 @@ part of the
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 actually. It should make the CLI much easier to use as it will be smart enough
 to determine what command you are trying to run. Should be a fun little thing.
-
 
 ## #36
 
@@ -3408,7 +3158,6 @@ I need to ignore the `__tests__` folder. Since this is
 then I'm fine with being opinionated period. More work to be done!!! But I
 should totally have the build command working tonight!
 
-
 ## #35
 
 I feel like I'm SUPER close to having this work. I'm going to have to tie in the
@@ -3421,7 +3170,6 @@ will actually do. So I'm fairly pumped about that. I REALLY hope this works. I
 hate that I have to work right now... cuz I'm like right there at the finish
 line. Oh well... time for **Python**.
 
-
 ## #33, #34
 
 Started work on the build package system. Got in the first couple tests and some
@@ -3430,7 +3178,6 @@ the configs that are needed for [**Rollup**](https://rollupjs.org/) since it is
 a side effect and I want to test to make sure the configs come back properly
 then use that to run through [**Rollup**](https://rollupjs.org/). Should work
 hopefully lol. We shall see.
-
 
 ## #32
 
@@ -3442,9 +3189,8 @@ any publishing or versioning quite yet. I'd like to replace the build step with
 itself to start eating dog fooding. This will lead me to rely on it in the
 future. And right now the only deployable is the `cli.js` so I'm going to write
 up a build system that only handles a `bin` entry in the `package.json`. So it
-shouldn't be too bad.  Hopefully... it is time to get very familiar with
+shouldn't be too bad. Hopefully... it is time to get very familiar with
 [**Rollup**](https://rollupjs.org/).
-
 
 ## #31
 
@@ -3456,7 +3202,6 @@ something. So I'll fix that in the morning. But rollup should be working now
 just fine and I can move forward. I still don't find the project root properly
 so I'm going to do that next, but I've got a solid start at least.
 
-
 ## #28, #29, #30
 
 Got a simple `kd ls` command working with pretty printing. Now I realize that I
@@ -3467,7 +3212,6 @@ different than
 to have to put this off until later sadly. I think I'm close though at least. I
 got things sort of working.
 
-
 ## #25, #26, #27
 
 Went through and did a bunch of random things to make
@@ -3477,7 +3221,6 @@ in. I'm feeling the strain of early morning (been working since like 3am. Gonna
 take my morning nap before I start work now. Until tomorrow when I tackle the
 CLI script.
 
-
 ## #24
 
 So the [**Prettier**](https://prettier.io/) setup was WAY easier than I
@@ -3485,8 +3228,7 @@ expected. I currently have it applied with the desired settings and have it
 working with [**ES Lint**](https://eslint.org/). Now I have to adjust my build
 pipeline to handle it properly including commit hooks and travis. And I have to
 apply it to Vim. The combination shouldn't take longer than one session, but
-I'll probably end up doing two for some reason. lol... 
-
+I'll probably end up doing two for some reason. lol...
 
 ## #23
 
@@ -3498,7 +3240,6 @@ I think first I want to setup `prettier` so I can stop playing with code
 formatting. Gotta set it up plus eslint plus Vim so that might take a few
 sessions.
 
-
 ## #22
 
 Added another test to ensure that we grab deeply nested projects in the
@@ -3506,7 +3247,6 @@ Added another test to ensure that we grab deeply nested projects in the
 present a clean interface for the command line tool and will just start doing
 some fancy looking things. Just to have some fun. Perhaps I can have this
 cleaned up quickly.
-
 
 ## #19, #20, #21
 
@@ -3535,13 +3275,11 @@ to use. I'm lucky that I found a solution for `tape` as that is the most minimum
 of testing frameworks and I prefer it with the `tape-bdd` nomenclature. So
 forward I shall move!!!
 
-
 ## #16, #17, #18
 
 Got stuck on mocking out the filesystem properly and now I'm stuck on testing
 promises in Tape. Just a bunch of frustrating-ness that I'll come back to
 tomorrow. I need a break for now. ARGH!!!
-
 
 ## #15
 
@@ -3551,7 +3289,6 @@ indeed in the proper directory structure. Just filling out a bunch of tests
 right now and going through the TDD process. Probably one or two more sessions
 left in me for the day before [**Monster Hunter
 World**](http://www.monsterhunterworld.com/) Beta!!!!
-
 
 ## #13, #14
 
@@ -3568,7 +3305,6 @@ well. This is definitely a solid start. My first task is to implement `kd ls`
 which will list all of the projects in the repository based on the
 [**Alle**](https://github.com/boennemann/alle) structure.
 
-
 ## #12
 
 Fixed the `shebang` issue that was happening that kept me from running the cli
@@ -3578,7 +3314,6 @@ fleshed out the `kd ls` command which I think should be the first command as it
 is the simplest of them all and will work towards gathering all of the project
 info that I'm going to need anyway in future commands.
 
-
 ## #11
 
 Dived deeper into each of the commands that the CLI will implement. It looks
@@ -3586,7 +3321,6 @@ like the first one that will be good will be the `kd ls` command as it will need
 the initial system to determine what projects exist in the repo. So I think the
 next thing to do is start working on the CLI tool. I might look into `meow` for
 the simple CLI layer. We'll see how that goes.
-
 
 ## #10
 
@@ -3596,14 +3330,12 @@ considering how easy it is to type the commands.
 [**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd)
 seeks to speed up the development agility of Open Source maintainers.
 
-
 ## #9
 
 Finished up the rough roadmapping section. I'm ready to start actually writing
 some code. But not today. Spending the rest of the weekend with Jess <3. I've
 also added travis notifications to the Slack channel I setup on Dev XP and that
 will be nice. For now I think I'm good to go.
-
 
 ## #8
 
@@ -3613,7 +3345,6 @@ at what kind of code I will be setting up for this. Something inspired by test
 runner output or eslint or commitlint or something. Pretty colors and stuffz.
 For now though I will take a break before closing out the rough roadmapping
 issue.
-
 
 ## #7
 
@@ -3626,7 +3357,6 @@ rev-list length so things get a bit messed up. So I added a bug to investigate
 later. But I added several sections to the roadmap including auto publishing to
 NPM, bootstrapping a new project, and managing a monorepo.
 
-
 ## #6
 
 Went through the `rewrite-tags` script and found out the problem. It was trying
@@ -3635,7 +3365,6 @@ currently on. So I refactored the script to handle that appropriately and it
 seems to be working fine. At the same time I noticed another issue when rebasing
 off master on a feature branch, but I'll look into that later as the end result
 was still what I wanted. I can now get back to roadmapping properly.
-
 
 ## #5
 
@@ -3651,7 +3380,6 @@ them. While doing all this I discovered a bug that the `rewrite-tags` script
 doesn't work properly in some circumstances, so I need to take some time to
 learn what it is doing exactly.
 
-
 ## #4
 
 Started mapping out all of my initial ideas for how to achieve a
@@ -3664,14 +3392,12 @@ instead of `1.0.0`. And then Major version represents the number of breaking
 changes you have introduced. And Minor represents the number of feature releases
 you have had that people will care about and need to be publicized.
 
-
 ## #3
 
 Setup the initial readme document with some details on how the project came into
 inception. The next thing I'll do is start rough drafting out some of the checks
 and tools that I'll need to consider and incorporate across the board. Should be
 fun.
-
 
 ## #1, #2
 
