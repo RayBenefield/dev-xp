@@ -1,5 +1,13 @@
 # Worklog
 
+## #479, #480
+
+Totally forgot to put this in yesterday. I spent some time exploring the
+topological sorting algorithm in preparation for the dependency system for the
+sources. I want to be able to setup a full command source as a simple example so
+I can get chat commands working.
+
+
 ## #478
 
 Finally got around to the refactor of the effect creator and I got filtering
