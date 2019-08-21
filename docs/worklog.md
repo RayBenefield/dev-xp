@@ -1,5 +1,13 @@
 # Worklog
 
+## #482, #483
+
+Started bringing in the sortable sources and discovered a logic flaw in how I
+handle extensions. Filter extensions expect a context object, but in sources
+there is no context yet. So I think I have to re-think the payload system a bit
+to make it work as I need to and for the extensions to be useful across the
+board.
+
 ## #481
 
 Started implementing the topological sort system to sources with a dependency
