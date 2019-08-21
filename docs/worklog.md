@@ -1,12 +1,20 @@
 # Worklog
 
+## #481
+
+Started implementing the topological sort system to sources with a dependency
+list. Also converted the source creation to a serial promise so dependencies are
+created one at a time. In the future I may be able to optimize the system by
+simultaneously creating the sources that don't have any dependencies. But for
+now this will be good enough. Still need to create the source type for merging
+dependencies in the proper way to create a source.
+
 ## #479, #480
 
 Totally forgot to put this in yesterday. I spent some time exploring the
 topological sorting algorithm in preparation for the dependency system for the
 sources. I want to be able to setup a full command source as a simple example so
 I can get chat commands working.
-
 
 ## #478
 
