@@ -1,5 +1,14 @@
 # Worklog
 
+## #484
+
+Yesterday I made having sources have dependencies a thing and it worked. But I
+didn't get it to the point where I could merge it and it was organized. I need
+to refactor a bunch to make like extensions work better since "context" doesn't
+really exist in the source part of the pipeline so the filter extension was not
+working. So I made everything work as I wanted it too.
+
+
 ## #482, #483
 
 Started bringing in the sortable sources and discovered a logic flaw in how I
