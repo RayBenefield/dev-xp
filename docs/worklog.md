@@ -1,5 +1,16 @@
 # Worklog
 
+## #485
+
+So I was able to clean everything up and commit small pieces of it here and
+there. Now the source dependency system is working fine and we have a way to
+merge multiple sources into one. This could be useful later and sets the stage
+for other dependent types like combine or zip, etc. Next thing is to make
+intents work dynamically and filter them to only run when the intent matches.
+This sets up chat commands to work properly and then sets the stage for NLP for
+smart processing.
+
+
 ## #484
 
 Yesterday I made having sources have dependencies a thing and it worked. But I
