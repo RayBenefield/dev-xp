@@ -100,6 +100,7 @@
         "local-or-home-npmrc": "^1.1.0",
         "lodash.every": "^4.6.0",
         "lodash.filter": "^4.6.0",
+        "lodash.find": "^4.6.0",
         "lodash.get": "^4.4.2",
         "lodash.groupby": "^4.6.0",
         "lodash.has": "^4.5.2",
