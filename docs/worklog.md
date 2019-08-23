@@ -1,5 +1,18 @@
 # Worklog
 
+## #487
+
+I made the dynamic command system work using basic templating for the intent.
+This allows me to create a parameter in the middle of the source stream and then
+use that as a source for the command. I've tested it works. Next thing I want to
+do is be able to auto-complete commands and have aliases. In order to do that I
+need to setup a plugin system so that way I can host the auto-complete system as
+a plugin and include an extensions that uses the searcher to spit out a result.
+And the plugin will also be used during intent creation where it will be
+populated by the name of the intent and re-created every time a new
+intent/alias is added.
+
+
 ## #486
 
 Started work on the dynamic intent system which starts by filtering what events
