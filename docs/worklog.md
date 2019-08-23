@@ -1,5 +1,14 @@
 # Worklog
 
+## #486
+
+Started work on the dynamic intent system which starts by filtering what events
+flow through the intent streams based on the name of the intent in the stream.
+Right now this means I had add an intent field for every test intent. But I want
+to simplify that in the future. The goal here is to have the command stream
+dynamically set the intent based on the parsed out command. Gonna make a few
+tickets to optimize things.
+
 ## #485
 
 So I was able to clean everything up and commit small pieces of it here and
