@@ -1,5 +1,16 @@
 # Worklog
 
+## #488
+
+Refactored the [**Mixer**](https://mixer.com) chat stuff into its own plugin
+system. I plan on refactor it even further and re-organize things into their own
+modules. But for now it works. One day I want to dynamically read the directory
+to populate the effects, sources, and extensions. So that way I don't have to
+add them to the plugin manually. Next thing to refactor is the
+[**Firebase**](https://firebase.google.com/) stuff. And then extract the core
+stuff that relies on nothing really. The plugin system went a lot smoother than
+I expected. I'm excited about that.
+
 ## #487
 
 I made the dynamic command system work using basic templating for the intent.
@@ -11,7 +22,6 @@ a plugin and include an extensions that uses the searcher to spit out a result.
 And the plugin will also be used during intent creation where it will be
 populated by the name of the intent and re-created every time a new
 intent/alias is added.
-
 
 ## #486
 
@@ -32,7 +42,6 @@ intents work dynamically and filter them to only run when the intent matches.
 This sets up chat commands to work properly and then sets the stage for NLP for
 smart processing.
 
-
 ## #484
 
 Yesterday I made having sources have dependencies a thing and it worked. But I
@@ -40,7 +49,6 @@ didn't get it to the point where I could merge it and it was organized. I need
 to refactor a bunch to make like extensions work better since "context" doesn't
 really exist in the source part of the pipeline so the filter extension was not
 working. So I made everything work as I wanted it too.
-
 
 ## #482, #483
 
