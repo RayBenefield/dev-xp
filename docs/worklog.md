@@ -1,5 +1,14 @@
 # Worklog
 
+## #489
+
+Extracted the last of the plugin stuff into `core` and `firebase` plugins.
+Everything seems to be still working as need be. Now that I have plugins working
+I can put focus on the auto-complete system. I think I need to use plugins to
+process intents so that way I can extract settings from intents to "prepare"
+plugins for certain things. Like training the NLP or populating the autocomplete
+searcher. Auto-complete is next on the list to do now.
+
 ## #488
 
 Refactored the [**Mixer**](https://mixer.com) chat stuff into its own plugin
