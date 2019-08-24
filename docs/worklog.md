@@ -1,5 +1,13 @@
 # Worklog
 
+## #490, #491
+
+Completed the auto complete plugin as well as moved some modules around for
+[**Mixer**](https://mixer.com) and [**Firebase**](https://firebase.google.com/)
+plugins. Auto-complete works well enough that I'm satisfied. I needed to add a
+"intentProcessor" system that will prepare the searcher for autocompletion by
+processing each intent's name and aliases.
+
 ## #489
 
 Extracted the last of the plugin stuff into `core` and `firebase` plugins.
