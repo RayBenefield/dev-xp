@@ -1,5 +1,12 @@
 # Worklog
 
+## #494
+
+Did a quick brainstorming session with some really cool ideas for the platform
+like a roaming bot system as well as a partnered program for Rampant. This is
+going to be HUGE.
+
+
 ## #492, #493
 
 So I quickly threw together a natural language processing extension with
