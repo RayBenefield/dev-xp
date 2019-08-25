@@ -1,5 +1,18 @@
 # Worklog
 
+## #492, #493
+
+So I quickly threw together a natural language processing extension with
+[**Wit.ai**](https://wit.ai/). Only took two sessions and it just works. I even
+spammed the chat a little to check for response time and it seems to work
+alright. I need to add in a reverse filter option so that I can ignore commands
+and not try to analyze them to reduce requests. Next thing I need for NLP is
+adding a database cache based on training. I'll need to add a whole new section
+of a project to store training, and when we process an intent, we check to see
+if it is in training, if it isn't then we train [**Wit.ai**](https://wit.ai/) to
+handle it for that intent and store it in the database. Then when we analyze we
+check the cache first to save on calls to the API. Lots of tickets to go make.
+
 ## #490, #491
 
 Completed the auto complete plugin as well as moved some modules around for
