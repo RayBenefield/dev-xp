@@ -1,5 +1,10 @@
 # Worklog
 
+## #495
+
+Spent a bit setting up Twitter and exploring the authentication system to
+prepare to build it next.
+
 ## #494
 
 Did a quick brainstorming session with some really cool ideas for the platform
