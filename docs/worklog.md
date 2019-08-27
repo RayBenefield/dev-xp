@@ -1,5 +1,13 @@
 # Worklog
 
+## #496, #497
+
+Setup a basic Twitter plugin with the ability to retweet something. Then got
+sucked into trying to figure out how to get the Twitter access tokens in the
+first place. I tested it with the current tokens I have for one account, but I
+need to learn how to get those tokens in the first place. I still need to check
+in the code, but I'm going to spend time exploring a new authentication system.
+
 ## #495
 
 Spent a bit setting up Twitter and exploring the authentication system to
