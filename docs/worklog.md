@@ -1,5 +1,13 @@
 # Worklog
 
+## #499
+
+Started work on the individual launching of a project from the CLI. I setup
+[**argv**](https://www.npmjs.com/package/argv) to parse CLI arguments strictly
+and I'm working on setting up the data files that will be loaded for the
+project. The plan is to load them directly into the database before starting
+rampant up.
+
 ## #498
 
 Cleaned up the basic Twitter plugin. Just simple changes like setting up
