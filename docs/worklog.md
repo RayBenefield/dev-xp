@@ -1,5 +1,14 @@
 # Worklog
 
+## #502, #503, #504
+
+Add a full training cache system to the [**Wit.ai**](https://wit.ai/) plugin.
+When processing intents it will take a samples property and populate both the
+database training cache as well as training the NLP model with things that are
+new. And then I changed the nlp extension to check the training cache first
+before calling [**Wit.ai**](https://wit.ai/). This will save on API calls for
+samples that we know are of the given intent.
+
 ## #501
 
 I have officially completed the manual loading project system with the CLI. It
