@@ -1,5 +1,14 @@
 # Worklog
 
+## #501
+
+I have officially completed the manual loading project system with the CLI. It
+accepts arguments and everything. Now that I have that in place, my goal is to
+start creating some intents like chat commands and what not to make sure my
+system is actually working and prepare it to demo to people. I believe I will
+want to work on the [**Wit.ai**](https://wit.ai/) training system so I can have
+samples setup for my intents as well.
+
 ## #500
 
 Wow the 500th session working in this monorepo. It feels good to be back to
