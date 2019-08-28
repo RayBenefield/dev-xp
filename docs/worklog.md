@@ -1,5 +1,13 @@
 # Worklog
 
+## #498
+
+Cleaned up the basic Twitter plugin. Just simple changes like setting up
+templating and what not. So I'm going to check this all in and switch my focus
+over to getting the cli to load a project from JSON data files so I can start
+working on my actual intents for my stream. This will give me something to demo
+to partners.
+
 ## #496, #497
 
 Setup a basic Twitter plugin with the ability to retweet something. Then got
