@@ -1,5 +1,17 @@
 # Worklog
 
+## #500
+
+Wow the 500th session working in this monorepo. It feels good to be back to
+working in this structured environment and I can't wait to continue to build
+this out and improve it. Perhaps one day I'll actually convert this manual
+worklog system into DEX... that would be awesome. Anyway, I'm nearly there with
+the CLI system. I'm finding that some of the test intents are refusing to work
+so I'll have to explore why this is a thing after this. But I setup the base
+rampant system to dynamically accept a project ID so the test system passes it
+in now and the cli passes in whatever project is passed as the parameter. Now
+for a quick break before trying to solidify this loading system.
+
 ## #499
 
 Started work on the individual launching of a project from the CLI. I setup
