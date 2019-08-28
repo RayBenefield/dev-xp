@@ -1,5 +1,12 @@
 # Worklog
 
+## #505, #506, #507
+
+My brain hurts. I tried to start just building intents and I'm already running
+into a bunch of problems. Authentication based first and then merging two
+sources and figuring out the end intent, I gotta re-structure my brain a bit to
+make it work.
+
 ## #502, #503, #504
 
 Add a full training cache system to the [**Wit.ai**](https://wit.ai/) plugin.
