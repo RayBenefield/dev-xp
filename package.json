@@ -144,6 +144,7 @@
         "to-camel-case": "^1.0.0",
         "transmutation": "^0.0.46",
         "trie-search": "^1.0.9",
+        "twitter": "^1.7.1",
         "uglify-es": "^3.2.2",
         "vue": "^2.5.16",
         "vue-template-compiler": "^2.5.16"
