@@ -1,5 +1,12 @@
 # Worklog
 
+## #509
+
+Finally added the ability to delete a message and checked in a change to the
+@rampant/get to return the original key by default. I just started adding
+multiple commands to start finding things that need to be worked on. It's a lot
+of copy and pasting, and I want to make it easier in the future.
+
 ## #508
 
 Got a Mixer whisper effect working as well as an equality filter so I can get a
