@@ -272,6 +272,15 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
+"@mixer/client-node@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.npmjs.org/@mixer/client-node/-/client-node-3.4.0.tgz#b754a7ad3dc22128f9abcdac87325ce6d54b7bd1"
+  integrity sha512-zjAlXJFHDvGuqYvaSQBLQhxBTG/+w2zzNqgz6N5qNGUGinNpKGOpioz7Fi1NB5QGujofDwTSX93gX7tEqlJ0MA==
+  dependencies:
+    deepmerge "^1.4.4"
+    request "^2.79.0"
+    ws "^1.1.5"
+
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
   resolved "https://registry.npmjs.org/@protobufjs/aspromise/-/aspromise-1.1.2.tgz#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"
