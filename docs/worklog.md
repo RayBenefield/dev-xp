@@ -1,5 +1,10 @@
 # Worklog
 
+## #508
+
+Got a Mixer whisper effect working as well as an equality filter so I can get a
+command working properly.
+
 ## #505, #506, #507
 
 My brain hurts. I tried to start just building intents and I'm already running
