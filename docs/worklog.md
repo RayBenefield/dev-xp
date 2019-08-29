@@ -1,5 +1,10 @@
 # Worklog
 
+## #511
+
+Trained the model with more intents, testing how much I can push the model and
+how long it takes to train from scratch.
+
 ## #510
 
 I added in a threshold system for the NLP so that way if it isn't confident
