@@ -1,5 +1,12 @@
 # Worklog
 
+## #510
+
+I added in a threshold system for the NLP so that way if it isn't confident
+enough in the guess then it will not post an answer. I also added a reverse
+filter regex so I can filter out commands from being analyzed with AI to
+conserve on API calls.
+
 ## #509
 
 Finally added the ability to delete a message and checked in a change to the
@@ -83,7 +90,6 @@ prepare to build it next.
 Did a quick brainstorming session with some really cool ideas for the platform
 like a roaming bot system as well as a partnered program for Rampant. This is
 going to be HUGE.
-
 
 ## #492, #493
 
