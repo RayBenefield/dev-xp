@@ -1,5 +1,14 @@
 # Worklog
 
+## #512, #513
+
+I'm at the PAX west media room working on implementing new samples and
+perfecting my ability to demo stuff. I really need to start implementing a
+logging system so I can analyze things a little better. I got the sanitization
+system working now so that way the cache is 1000% more useful. Now it's just a
+matter of testing some training. I'll probably do some more training and also
+merge in the work I did. I'll be working on this throughout the event.
+
 ## #511
 
 Trained the model with more intents, testing how much I can push the model and
