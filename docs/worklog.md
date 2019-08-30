@@ -1,5 +1,13 @@
 # Worklog
 
+## #514
+
+Finally merged in all my previous work to master. Fixed the cache for the mixer
+chat real quick and just some basic training and testing. Nothing much, made a
+cuople tickets and reviewed my prioritization of some tickets as well. Things
+should be good for a big ticket soon. I could probably get some basic
+refactoring done here PAX. We'll see if I can bury myself into something deep.
+
 ## #512, #513
 
 I'm at the PAX west media room working on implementing new samples and
