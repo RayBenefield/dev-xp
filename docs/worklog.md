@@ -1,5 +1,13 @@
 # Worklog
 
+## #515
+
+Spent a bit of time doing some more training for the bot. Added discord and
+subgames and a schedule and gamertag. Not much done. Just seeing if I run into
+any more problems. I think the next major thing I want to do is make the Come @
+Me giveaway system work as well as the untrained storage system so I can train
+the bot after streams.
+
 ## #514
 
 Finally merged in all my previous work to master. Fixed the cache for the mixer
