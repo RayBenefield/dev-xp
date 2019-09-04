@@ -1,5 +1,11 @@
 # Worklog
 
+## #521, #522
+
+Spent time exploring what needs to be logged, what errors happened yesterday,
+and other things. Also spent time showing Jess how RxJS works so the intent
+engine and stuff makes more sense moving forward.
+
 ## #520
 
 Spent time showing off the build system to Jess as well as explored different
