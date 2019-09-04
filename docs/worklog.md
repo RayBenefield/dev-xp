@@ -1,5 +1,12 @@
 # Worklog
 
+## #520
+
+Spent time showing off the build system to Jess as well as explored different
+logging options for node. I think I'm going to go with
+[**Winston**](https://www.npmjs.com/package/winston) so I'll start exploring the
+package with some playful log stuff.
+
 ## #516, #517, #518, #519
 
 Spent a couple hours with Jess giving a brief overview of Rampant so she can
