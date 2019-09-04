@@ -1,5 +1,11 @@
 # Worklog
 
+## #516, #517, #518, #519
+
+Spent a couple hours with Jess giving a brief overview of Rampant so she can
+start exploring and contributing when she finds the time. :D This happened a
+couple days ago. Just late with the log entry.
+
 ## #515
 
 Spent a bit of time doing some more training for the bot. Added discord and
