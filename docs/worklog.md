@@ -1,5 +1,14 @@
 # Worklog
 
+## #527
+
+Spent some time planning out what my next features are going to be for my stream
+so I can make plans on what to work on next for Rampant. I think the next big
+focus needs to be on improving the accuracy of the model by including lots and
+lots of training in a particular way. First things first is to create a place to
+store untrained stuff and then to store the current stuff with a script and then
+to default to storing to that place in the database.
+
 ## #526
 
 I spent a bit of time writing out a really long Twitter thread of the cool
