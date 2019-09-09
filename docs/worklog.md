@@ -1,5 +1,11 @@
 # Worklog
 
+## #526
+
+I spent a bit of time writing out a really long Twitter thread of the cool
+things I will be able to do with Rampant with ALL of this training data. This is
+absolutely a big deal and I can't wait to show people the power.
+
 ## #524, #525
 
 Since I've been logging my guesses from chat messages I realized I was able to
