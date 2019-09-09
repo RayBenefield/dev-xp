@@ -1,5 +1,13 @@
 # Worklog
 
+## #524, #525
+
+Since I've been logging my guesses from chat messages I realized I was able to
+collect all of those samples to use for training data. So I used some Vim
+trickery in order to filter down my terminal buffer to just those guesses over
+the past week. Now I have this massive sample file to use to train my model
+for my channel. This is HUGE.
+
 ## #523
 
 I never logged this, but I fixed some basic bugs to make Rampant stop crashing.
