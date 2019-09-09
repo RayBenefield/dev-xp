@@ -1,5 +1,11 @@
 # Worklog
 
+## #523
+
+I never logged this, but I fixed some basic bugs to make Rampant stop crashing.
+Mainly around empty query strings being sent to [**Wit.ai**](https://wit.ai/)
+and also around not being able to auto-complete a command that was not found.
+
 ## #521, #522
 
 Spent time exploring what needs to be logged, what errors happened yesterday,
