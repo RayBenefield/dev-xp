@@ -70,8 +70,7 @@
         "publish": "yarn kd publish --commit",
         "?watch": "echo Run tests, linting, and line counting every time a file changes.",
         "watch": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules --exec npm-run-all test lint sloc",
-        "?postrewrite": "echo Update what commits git tags are pointing to after an amend/rebase.",
-        "postrewrite": "./dx/rewrite-tags"
+        "?postrewrite": "echo Update what commits git tags are pointing to after an amend/rebase. -- ./dx/rewrite-tags"
     },
     "dependencies": {
         "@mixer/client-node": "^3.4.0",
