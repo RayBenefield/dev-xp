@@ -1,5 +1,13 @@
 # Worklog
 
+## #530
+
+Created an export command for the Rampant CLI which allows me to output the
+sources and intents from the database into a data file that I can use to run a
+project. It involved finding javascript stringify, but was well worth the effort
+and a lot easier than I expected. Next is to start storing the untrained guess
+to the database.
+
 ## #529
 
 Before moving on to the work that needed to be done. I had to finish some
