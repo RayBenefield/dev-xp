@@ -1,5 +1,15 @@
 # Worklog
 
+## #528
+
+Spent the morning preparing for doing work on the project. Made some tickets and
+figured out what needs to be worked on first. I'm working towards having a
+system where I can train Rampant at the end of each day easily. First things
+that need to be handled is to store untrained messages into the database, create
+a migration tool to store all of the current untrained messages that I have from
+the console, and to create an export command so I can keep the local files in
+sync.
+
 ## #527
 
 Spent some time planning out what my next features are going to be for my stream
