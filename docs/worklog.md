@@ -1,5 +1,13 @@
 # Worklog
 
+## #531
+
+After a guess is made with [**Wit.ai**](https://wit.ai/) we now store the
+entities discovered in an untrained section of the database to be used later for
+training. Now that I know the structure of that I can now make a migration tool
+that will convert the console logs into untrained data. After that then I can
+work on a training CLI tool.
+
 ## #530
 
 Created an export command for the Rampant CLI which allows me to output the
