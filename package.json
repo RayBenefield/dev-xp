@@ -98,6 +98,7 @@
         "glob": "^7.1.2",
         "inquirer": "^5.0.0",
         "inquirer-autocomplete-prompt": "^0.12.1",
+        "javascript-stringify": "^2.0.0",
         "jsonfile": "^4.0.0",
         "local-or-home-npmrc": "^1.1.0",
         "lodash.difference": "^4.5.0",
