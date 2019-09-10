@@ -1,5 +1,12 @@
 # Worklog
 
+## #529
+
+Before moving on to the work that needed to be done. I had to finish some
+refactoring and clean up a couple bugs. One being the message more than 280
+characters, since [**Wit.ai**](https://wit.ai/) can't process that. Also merged
+everything into master so I could move forward cleanly.
+
 ## #528
 
 Spent the morning preparing for doing work on the project. Made some tickets and
