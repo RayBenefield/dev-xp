@@ -1,5 +1,13 @@
 # Worklog
 
+## #532, #533
+
+Started working on the migration tool to store all of the console logged
+untrained samples into the database, and ended up accidentally hitting the write
+quota for Firestore. lol... oops. 20K is the top and I was doing both storage
+and updating an increment to count number of Untrained Samples. Well I guess I
+will continue this tomorrow then.
+
 ## #531
 
 After a guess is made with [**Wit.ai**](https://wit.ai/) we now store the
