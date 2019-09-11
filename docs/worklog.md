@@ -1,5 +1,16 @@
 # Worklog
 
+## #534, #535
+
+The migration tool is now good to go. I was also able to learn about doing batch
+operations with firestore which was SUPER helpful and I may actually look into
+refactoring the training system to do the same thing on initial startup. I'll
+make a ticket for that. Next thing to do is to build a new CLI tool to train the
+system. Something else I learned was also that you can have a negative version
+of training where it specifically doesn't now how to classify the intent. So I
+may need to re-think some of my training as well. But I think for now I can
+classify things as Unknown and then go back and fix it later.
+
 ## #532, #533
 
 Started working on the migration tool to store all of the console logged
