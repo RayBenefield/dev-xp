@@ -1,5 +1,18 @@
 # Worklog
 
+## #536
+
+Finally starting work on the training CLI tool. I put it off yesterday and chose
+to work on Fortnite Creative's new patch to recreate Crazy King from Halo.
+Started working on the training CLI only to realize that some of the samples
+posted as untrained have whitespace trimming issues. So I went over to the
+sanitize portion of the wit plugin and updated it to handle trimming. At the
+same time I also added snapshot tests. I forget how useful
+[**Kape**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kape)
+is as a testing tool. It was SUPER easy. I'm very happy with the work I did
+before honestly. Holy hell, it felt good. I also realized how important it will
+be to setup "unknown" intent handling. So next session is about exploring that.
+
 ## #534, #535
 
 The migration tool is now good to go. I was also able to learn about doing batch
