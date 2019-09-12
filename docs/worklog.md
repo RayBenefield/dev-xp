@@ -1,5 +1,14 @@
 # Worklog
 
+## #537
+
+In preparation for the training tool I needed to extract the
+[**Wit.ai**](https://wit.ai/) API calls to its own module and abstract it. I
+also figured out how to do negative samples, which will be important for
+handling unknown messages. I think I need to store them somewhere in the
+database as well so I'll have to look into doing that. This way I can handle
+caching of unknown things which will be helpful.
+
 ## #536
 
 Finally starting work on the training CLI tool. I put it off yesterday and chose
