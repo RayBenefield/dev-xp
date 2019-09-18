@@ -1,5 +1,13 @@
 # Worklog
 
+## #540
+
+Tried to get [**Inquirer**](https://www.npmjs.com/package/inquirer) to work
+well, but it looks like I'm getting a weird callstack error. It looks like
+ultimately this will be simple. I'll skip things that are new intents, I'll
+train things that are old intents, I'll "negative" train things that don't have
+an intent. I also realized I need to add an "Other" option to enter an intent.
+
 ## #538, #539
 
 Finally getting back into working on the training tool. The biggest daunting
