@@ -1,5 +1,15 @@
 # Worklog
 
+## #538, #539
+
+Finally getting back into working on the training tool. The biggest daunting
+thing was the deferred fetching of results which wasn't too bad once I found a
+sample. Then I started to verify that the negative samples training thing was
+working and had a place to sit in the database. Next thing to do is now setup
+[**Inquirer**](https://www.npmjs.com/package/inquirer) so I can train one sample
+at a time. Right now I'll skip any that needs a new intent. But in the future
+I'll write a system where it is easy for me to quickly add an intent.
+
 ## #537
 
 In preparation for the training tool I needed to extract the
