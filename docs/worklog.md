@@ -1,5 +1,14 @@
 # Worklog
 
+## #542
+
+Finally found the problem with the callstack and was able to setup the training
+tool to work as I want. I still need to add more features like being able to
+create a new intent from the prompt and also select a previous intent using an
+auto-complete. I also just realized I need to update the source import to avoid
+deleting the noIntentSamples. So that's on my list as well. A bunch of little
+upgrades for the tool and I should be good.
+
 ## #541
 
 So I figured out why I was getting a callstack problem. I'm requesting thousands
