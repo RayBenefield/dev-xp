@@ -1,5 +1,14 @@
 # Worklog
 
+## #543
+
+Did a bunch of project management and created immediate tickets to get things
+working as needed before I can be featured. I want to apply for a featured
+schedule before next week so I want to get as many things in place as I can to
+have a smooth transition into featuring and start handling rampant growth. I
+also fixed up the fact that uploading the project sources was removing other
+things in project settings so that now exists.
+
 ## #542
 
 Finally found the problem with the callstack and was able to setup the training
