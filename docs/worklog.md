@@ -1,5 +1,12 @@
 # Worklog
 
+## #541
+
+So I figured out why I was getting a callstack problem. I'm requesting thousands
+of requests without even realizing it while I'm training. So I need to figure
+out how to avoid that. I think I may have an idea, but we shall see tomorrow. At
+least the necessary training logic is in place.
+
 ## #540
 
 Tried to get [**Inquirer**](https://www.npmjs.com/package/inquirer) to work
