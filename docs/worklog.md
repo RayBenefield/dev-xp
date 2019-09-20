@@ -1,5 +1,14 @@
 # Worklog
 
+## #545
+
+I believe I got creating a new FAQ intent working well. From testing it a bit I
+realize I need to choose from different kinds of intents, and I also need to
+grab details from the project to create the intent properly. So I need to do the
+project global variables system soon so I can make the training tool better. The
+main other type of intent I need is an empty intent that is recognized, but
+doesn't need anything done for it. Like a greeting, confirmation, denial, etc.
+
 ## #544
 
 Didn't take long to setup an autocomplete prompt for existing intent training.
