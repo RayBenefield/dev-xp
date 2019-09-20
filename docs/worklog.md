@@ -1,5 +1,12 @@
 # Worklog
 
+## #544
+
+Didn't take long to setup an autocomplete prompt for existing intent training.
+So I did that and copied most of what was done from
+[**KI/KD**](https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd).
+Next thing is to work on creating new intents with the training tool.
+
 ## #543
 
 Did a bunch of project management and created immediate tickets to get things
