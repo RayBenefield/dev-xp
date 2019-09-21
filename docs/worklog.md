@@ -1,5 +1,11 @@
 # Worklog
 
+## #546
+
+I realized that I didn't put in my last log yesterday. I didn't do much, just
+spent most of the time doing dedicated training and I'm going to continue that
+for a little bit to see what else I need to get done and then put in a merge.
+
 ## #545
 
 I believe I got creating a new FAQ intent working well. From testing it a bit I
