@@ -1,5 +1,15 @@
 # Worklog
 
+## #547, #548
+
+I have gotten really bad at my worklogs lately. I think the last two sessions I
+just did dedicated training and patched a couple bugs. I just merged all the
+work. And I was going to work on the Come @ Me giveaway system, but I realized I
+should really put work into the logging system so I can make it way easier to
+start debugging these more powerful intents as I build out the plugins. So I'm
+going to start working on [**Winston**](https://www.npmjs.com/package/winston)
+to get a logger in place.
+
 ## #546
 
 I realized that I didn't put in my last log yesterday. I didn't do much, just
