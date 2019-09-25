@@ -1,5 +1,13 @@
 # Worklog
 
+## #552
+
+Finally figured out how I wanted everything setup and I setup the CLI to accept
+a log level, as well as an environment variable for default log level. I've
+started adding logging to the [**Firebase**](https://firebase.google.com/) db
+interface, but it is not done yet. Also I need to remove the insane amount of
+queries that I make for autocompleting in the training tool.
+
 ## #551
 
 Still exploring how to place the logger in various places to work as needed. For
