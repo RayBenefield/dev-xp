@@ -1,5 +1,13 @@
 # Worklog
 
+## #549
+
+Spent some time exploring the possiblities with
+[**Winston**](https://www.npmjs.com/package/winston). I'm trying to find a good
+way to print what needs to be printed. Like which intent is being worked on,
+which plugin is printing the message, etc. Lots of little details to figure out
+to get a good logging system.
+
 ## #547, #548
 
 I have gotten really bad at my worklogs lately. I think the last two sessions I
