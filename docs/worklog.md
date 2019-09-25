@@ -1,5 +1,14 @@
 # Worklog
 
+## #550
+
+Explored how I want to format the logging for Rampant. Lots of little details to
+figure out. I have the levels defined essentially by depth. Where platform based
+logging will happen at the top level no matter what. And plugin setup/teardown
+details after that, then intent completion, then extension steps, then details
+about the extension trigger, then debugging to print all the things. This should
+work out moving forward... hopefully.
+
 ## #549
 
 Spent some time exploring the possiblities with
