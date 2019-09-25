@@ -152,7 +152,8 @@
         "twitter": "^1.7.1",
         "uglify-es": "^3.2.2",
         "vue": "^2.5.16",
-        "vue-template-compiler": "^2.5.16"
+        "vue-template-compiler": "^2.5.16",
+        "winston": "^3.2.1"
     },
     "devDependencies": {
         "babel-cli": "^6.24.1",
