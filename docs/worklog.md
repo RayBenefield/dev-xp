@@ -1,5 +1,14 @@
 # Worklog
 
+## #551
+
+Still exploring how to place the logger in various places to work as needed. For
+example one of the things I realized is that before rampant starts, it exports
+the database which needs a logger. But when we start rampant, we could be
+changing the logging levels so I need to make sure that that can be changed on
+the fly without changing the logger in the database. I think I'm just about
+ready to start logging all the things.
+
 ## #550
 
 Explored how I want to format the logging for Rampant. Lots of little details to
