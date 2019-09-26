@@ -1,5 +1,14 @@
 # Worklog
 
+## #554
+
+Fully decked out the database interface with logging so I can determine what the
+hell is happening at a detailed level if need be. It will help me optimize my
+calls to the database which is necessary since I am constantly hitting the
+quota. Next is to start logging out the main rampant system. Lots to do, but
+this already feels super valuable and I love it. Nice to make this feel like a
+more official polished product.
+
 ## #553
 
 Made some quick modifications to the training tool. Cached the other intents
