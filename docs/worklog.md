@@ -1,5 +1,11 @@
 # Worklog
 
+## #555
+
+Spent time polishing up the database logging and then created new tickets for
+logging as well as merged the pull request for all of the base logging stuff. So
+far so good.
+
 ## #554
 
 Fully decked out the database interface with logging so I can determine what the
