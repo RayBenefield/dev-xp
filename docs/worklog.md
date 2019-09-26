@@ -1,5 +1,12 @@
 # Worklog
 
+## #553
+
+Made some quick modifications to the training tool. Cached the other intents
+list to avoid making lots of calls and hitting a quota. I also added a `cancel`
+option to the others list so we don't ahve to make another massive call for
+intents on reboot.
+
 ## #552
 
 Finally figured out how I wanted everything setup and I setup the CLI to accept
