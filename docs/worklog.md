@@ -1,5 +1,15 @@
 # Worklog
 
+## #557
+
+Finished up the logging for the main rampant module. Should end up working out
+well and help a lot. I need to add logging to the intent engine and the
+[**Wit.ai**](https://wit.ai/) plugin as my next targets. That should give me
+some decent relevant coverage. Then the [**Mixer**](https://mixer.com) plugin
+and [**Firebase**](https://firebase.google.com/) plugin so I can start working
+on the Come @ Me giveaway system. Still sooo much to do. Shower/breakfast time
+now.
+
 ## #556
 
 Back to working on logging. I'm working on the main module and figuring out the
