@@ -1,5 +1,13 @@
 # Worklog
 
+## #556
+
+Back to working on logging. I'm working on the main module and figuring out the
+best way to handle certain things. I want to log all the things for debugging
+sake, but I'm starting with the top level of platform and working my way down. I
+created a stub logger so I can shut off logging for different things while I
+work on decking out the debugging messages for different parts of the platform.
+
 ## #555
 
 Spent time polishing up the database logging and then created new tickets for
