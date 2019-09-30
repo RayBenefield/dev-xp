@@ -1,5 +1,14 @@
 # Worklog
 
+## #560
+
+Refactored the process intent logic to use the new `train-samples` module. What
+I also realized was I was overwriting our cache that we were building every time
+I run rampant. Which is dumb, but the data is not lost as it is stored in
+[**Wit.ai**](https://wit.ai/) so the next thing to do is to create a re-sync
+tool to extract the samples from wit for each intent and store it in our cache.
+This may come in handy in the future.
+
 ## #559
 
 Alright, was able to change how negatives are stored and used and now we should
