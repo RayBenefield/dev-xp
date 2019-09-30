@@ -1,5 +1,12 @@
 # Worklog
 
+## #559
+
+Alright, was able to change how negatives are stored and used and now we should
+stop re-storing negatives as untrained messages and we will be lessening the
+hits on [**Wit.ai**](https://wit.ai/) as well. So that's a win. Next is to allow
+the process intent to use the new train-sample module.
+
 ## #558
 
 In preparation for logging for the [**Wit.ai**](https://wit.ai/) plugin, I am
