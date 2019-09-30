@@ -1,5 +1,14 @@
 # Worklog
 
+## #558
+
+In preparation for logging for the [**Wit.ai**](https://wit.ai/) plugin, I am
+exploring opportunities to simplify it and refactor it to be cleaner. I'm also
+exploring allowing training through intents. Perhaps taking unknown intents and
+adding them to the untrained space. Not sure if I'll take that approach yet.
+We'll see. I'm also exploring consolidating the train samples logic that the
+training tool uses alongside the `processIntent` system.
+
 ## #557
 
 Finished up the logging for the main rampant module. Should end up working out
