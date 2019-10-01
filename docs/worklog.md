@@ -1,5 +1,15 @@
 # Worklog
 
+## #563
+
+So I got lost in learning more about [**ES Lint**](https://eslint.org/) but the
+good news is I discovered that I can consolidate my testing rules with my main
+rules. I've also discovered how to change a rule dynamically for a file so for
+the files that have logging I've decided to give an allowance of nearly twice as
+large. Allowing for less than 100 lines of code still (using 99), but allowing
+lines 51-99 be extra buffer that might be needed to provide good logging. When I
+get back to things after breakfast, I'll start working on the actual logging.
+
 ## #562
 
 Spent the time refactoring the [**Wit.ai**](https://wit.ai/) plugin to use
