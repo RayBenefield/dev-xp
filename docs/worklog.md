@@ -1,5 +1,15 @@
 # Worklog
 
+## #561
+
+Created a quick CLI tool that will sync [**Wit.ai**](https://wit.ai/) training
+for all intents to our training cache which may need to happen again in the
+future. I realized I probably want a new module space for these quick tools in
+case I ever need them again. Cuz I've had to write a bunch recently. I should
+also probably add logging to them in the future. But for now we good. I may want
+to invest in a quick way to write these in the future. We shall see. These tools
+will inspire features on the frontend.
+
 ## #560
 
 Refactored the process intent logic to use the new `train-samples` module. What
