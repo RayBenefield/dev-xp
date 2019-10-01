@@ -1,5 +1,10 @@
 # Worklog
 
+## #564
+
+Add logging to the main portion of the Wit plugin as well as refactored out the
+nlp extension. Next thing to do is log that.
+
 ## #563
 
 So I got lost in learning more about [**ES Lint**](https://eslint.org/) but the
