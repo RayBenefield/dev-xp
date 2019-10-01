@@ -1,5 +1,11 @@
 # Worklog
 
+## #562
+
+Spent the time refactoring the [**Wit.ai**](https://wit.ai/) plugin to use
+streams instead of promises. This cut down the lines of code significantly. Next
+thing to do is to go through and add logging to everything.
+
 ## #561
 
 Created a quick CLI tool that will sync [**Wit.ai**](https://wit.ai/) training
