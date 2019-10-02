@@ -1,5 +1,11 @@
 # Worklog
 
+## #565
+
+I quickly threw together a dedupe-untrained tool hoping to make training easier
+this coming week, but I'm not sure it was successful lol. I hit the quota
+carelessly. Today we test.
+
 ## #564
 
 Add logging to the main portion of the Wit plugin as well as refactored out the
