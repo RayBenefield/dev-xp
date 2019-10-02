@@ -1,5 +1,11 @@
 # Worklog
 
+## #573, #574
+
+Created a tool in order to add `intentCount` to the untrained samples. This will
+allow me to then query based on `intentCount` allowing me to prioritize training
+of things with suggestions first.
+
 ## #572
 
 Minor tweaks before merging the code. Particularly around [**ES
