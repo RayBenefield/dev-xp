@@ -1,5 +1,12 @@
 # Worklog
 
+## #567, #568
+
+Started diving into adding logging to the NLP extension and got sucked into
+refactoring it like a lot to simplify how it works. So yeah... I'm in the course
+of adding logging AND refactoring. But I need to step away before I get too
+sucked in.
+
 ## #566
 
 Well I tried to improve and debug the dedupe tool, but when all was said and
