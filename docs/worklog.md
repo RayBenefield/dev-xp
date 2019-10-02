@@ -1,5 +1,12 @@
 # Worklog
 
+## #566
+
+Well I tried to improve and debug the dedupe tool, but when all was said and
+dune. I think it already did its job. Sooo that's cool I guess. Not sure how
+many it removed then. I should probably be more careful with how I do things in
+the future. lol... back to regular scheduled logging.
+
 ## #565
 
 I quickly threw together a dedupe-untrained tool hoping to make training easier
