@@ -1,5 +1,11 @@
 # Worklog
 
+## #572
+
+Minor tweaks before merging the code. Particularly around [**ES
+Lint**](https://eslint.org/) stuff. But happy that part is done. Time to make
+some key improvements here.
+
 ## #571
 
 Finished up the last of the logging and I'm not ready to merge all the work I've
