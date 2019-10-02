@@ -1,5 +1,11 @@
 # Worklog
 
+## #571
+
+Finished up the last of the logging and I'm not ready to merge all the work I've
+done for that logging. Time to work on somethings that will make a big
+difference for the stream. Like having a flag to train samples with suggestions.
+
 ## #569, #570
 
 Finished up the refactor and the logging for the NLP extension. Also took a bit
