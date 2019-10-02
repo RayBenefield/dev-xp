@@ -1,5 +1,15 @@
 # Worklog
 
+## #569, #570
+
+Finished up the refactor and the logging for the NLP extension. Also took a bit
+of time to extract the [**Firebase**](https://firebase.google.com/) db
+interface's basic actions to its own module. To remove that warning. I also
+found a couple places to improve the logging levels of the
+[**Wit.ai**](https://wit.ai/) plugin in the `processIntent` steps. Last thing to
+do for [**Wit.ai**](https://wit.ai/) logging is to log the API calls then I can
+move on to another important part. Perhaps the intent engine is next.
+
 ## #567, #568
 
 Started diving into adding logging to the NLP extension and got sucked into
