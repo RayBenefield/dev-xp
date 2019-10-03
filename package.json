@@ -64,6 +64,7 @@
         "rai:negative": "yarn run entyre src/node_modules/@rampant/negative-migration/cli.js",
         "rai:sync": "yarn run entyre src/node_modules/@rampant-tool/sync-training/cli.js",
         "rai:train": "yarn run entyre src/node_modules/@rampant/training-tool/cli.js",
+        "rai:add-count": "yarn run entyre src/node_modules/@rampant-tool/add-intent-count/cli.js",
         "rai:dedupe": "yarn run entyre src/node_modules/@rampant-tool/dedupe-untrained/cli.js",
         "?sloc": "echo Print the number of lines of source code we have.",
         "sloc": "echo 'Lines of source code: ' && sloc src/node_modules/ --exclude .*test.*",
