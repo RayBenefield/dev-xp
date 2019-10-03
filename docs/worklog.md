@@ -1,5 +1,16 @@
 # Worklog
 
+## #575, #576, #577
+
+Spent all this time trying to figure out how best to structure the query for
+`intentCount`. Ultimately I finally got the pagination working properly and it
+is SUPER valuable. Makes a big difference in training already. I got sucked into
+training because it was less about going through a bunch of negatives and more
+about feeling real progress. Side effect is that the sort is backwards
+alphabetically, but that is probably way better since a lot of questions start
+with the letter `w`. Next thing I want to work on is to improve the command
+system.
+
 ## #573, #574
 
 Created a tool in order to add `intentCount` to the untrained samples. This will
