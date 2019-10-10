@@ -1,5 +1,20 @@
 # Worklog
 
+## #578
+
+I've spent too much time away from the project and I wanted to get back into
+things in a way that felt meaningful. So I've started exploring what it will
+take to create the Come @ Me giveaway system again. To do this I'm designing a
+full giveaway plugin that could be included in projects in the future easily.
+This plugin should support both raffle/entry based giveaways and just singe
+entry giveaways that most streamers use during the stream. I want to be able to
+create an entry pool and then randomly select from any pool. A giveaway should
+also be able to pull from another giveaway's entry pool. We should also be able
+to have a set of winners and be able to track whether or not winners have
+redeemed their prize. To match the current streamer giveaway economy, we should
+allow a form of redeeming that involves typing in the chat after the winner is
+decided. This will be a fairly robust system and will require a lot of parts.
+
 ## #575, #576, #577
 
 Spent all this time trying to figure out how best to structure the query for
