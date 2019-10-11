@@ -1,5 +1,15 @@
 # Worklog
 
+## #579
+
+So exploring what needs to be done moving forward for the giveaway I got into a
+spot where it felt right to add logging to the [**Mixer**](https://mixer.com)
+plugin stuff so I prioritized that first. I'm kind of not feeling coding right
+now and may instead just jump on Destiny for a bit to relax. I'm feeling not
+well rested. But at least I had the discipline to do one session. I think I need
+to add the intent to these logging messages so I'll do that real quick next
+time.
+
 ## #578
 
 I've spent too much time away from the project and I wanted to get back into
