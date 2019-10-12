@@ -1,5 +1,11 @@
 # Worklog
 
+## #580
+
+Added a unhandled rejected promise handler for properly logging the errors that
+happen. Then adjusted the erase command on the chat bot to be a proper promise
+so it can be logged appropriately.
+
 ## #579
 
 So exploring what needs to be done moving forward for the giveaway I got into a
