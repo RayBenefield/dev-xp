@@ -1,5 +1,15 @@
 # Worklog
 
+## #584, #585
+
+Finally added sources to settings thanks to the import functionality. I also
+added export and delete functionality for projects and cleaned up the testing
+and export systems more. I added basic logging for the new functionality, but I
+need to add more and extract the start project functionality a bit as that file
+is getting unusually large. So that's on my list for next timel before I
+actually merge in all the work. Perhaps I'll get one more session in to merge
+everything in.
+
 ## #583
 
 Currently working on optimizations to make the footprint for intents much much
