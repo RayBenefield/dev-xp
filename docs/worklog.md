@@ -1,5 +1,13 @@
 # Worklog
 
+## #581
+
+Slowly starting to get back into things. I need to more programmatically handle
+projects so I'm going to convert the import/export to features of the
+@rampant/ai module so both the CLI and the testing system can use the same
+stuff. I'm also combining the intents and project settings into a single file so
+this requires edits to the export and import functionality.
+
 ## #580
 
 Added a unhandled rejected promise handler for properly logging the errors that
