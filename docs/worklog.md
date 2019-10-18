@@ -1,5 +1,14 @@
 # Worklog
 
+## #583
+
+Currently working on optimizations to make the footprint for intents much much
+smaller so I can more easily create intents for situations like creating tests.
+I now create a default source if no source exists that will automatically run
+the intent on creation with the appropriate filtering. I've also removed some
+lines where parsing is not necessary for a log message. Just looking to clean up
+the testing system as I move forward.
+
 ## #582
 
 Starting work on extracting the import/export/delete functionality of rampant
