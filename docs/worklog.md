@@ -1,5 +1,13 @@
 # Worklog
 
+## #582
+
+Starting work on extracting the import/export/delete functionality of rampant
+projects from the testing system and the CLI tool. Lots of little things that
+need to be refactored to make this a clean transition. But doing this will
+result in a much cleaner project management experience for rampant in the
+future. It will open up functionality that I need in the future for the webapp.
+
 ## #581
 
 Slowly starting to get back into things. I need to more programmatically handle
