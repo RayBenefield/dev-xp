@@ -1,5 +1,16 @@
 # Worklog
 
+## #586, #587
+
+So apparently I broke something and I'm not sure what. So tomorrow I get to go
+through the painful process of figuring it out. And my logging is absolutely
+useless to me right now so I need to think of a better way to do it. I want to
+kind of filter the logs down, but I'm not exactly sure the best way to go about
+that. It would make my life sooo much easier if I could select which parts of
+the system did logging. So that way if I know that
+[**Firebase**](https://firebase.google.com/) is not the problem then I don't
+have to log the darn documents for that.
+
 ## #584, #585
 
 Finally added sources to settings thanks to the import functionality. I also
