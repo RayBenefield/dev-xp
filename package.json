@@ -59,6 +59,7 @@
         "?kape": "echo Run kape tests.",
         "kape": "cd src/node_modules && babel-node kape/cli.js",
         "entyre": "node ./src/node_modules/entyre/cli.js",
+        "dex": "yarn run entyre src/node_modules/dex-cli/cli.js",
         "rai": "yarn run entyre src/node_modules/@rampant/ai/cli.js",
         "rai:migrate": "yarn run entyre src/node_modules/@rampant/migration-tool/cli.js",
         "rai:negative": "yarn run entyre src/node_modules/@rampant/negative-migration/cli.js",
