@@ -1,5 +1,13 @@
 # Worklog
 
+## #588, #589
+
+This morning I setup the module for Dex's CLI tool and published over my old
+one. It worked out really quickly. Now I'm just working on nailing down an MVP
+to work with to call it good then make updates from there. Right now my target
+MVP is backup all session information on Firebase, keep project info local, git
+commit/push on master, and a managed markdown worklog file like this one.
+
 ## #586, #587
 
 So apparently I broke something and I'm not sure what. So tomorrow I get to go
