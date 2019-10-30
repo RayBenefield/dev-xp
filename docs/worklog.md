@@ -1,5 +1,13 @@
 # Worklog
 
+## #590
+
+Setup a logging system and basic CLI toolage for Dex. Hopefully as things go
+forward it will be neatly logged on the CLI and I can debug it easily. Dex
+doesn't need to do very much so hopefully it doesn't become obnoxious logging
+like Rampant at this point. Next thing I'm going to work on is the actual prompt
+system to collect data on a session.
+
 ## #588, #589
 
 This morning I setup the module for Dex's CLI tool and published over my old
