@@ -1,5 +1,15 @@
 # Worklog
 
+## #592
+
+Setup reasonable defaults for the config so when it is time to actually write
+the worklog entry, then it is written properly. I may actually call this one
+good for now, cuz I think I want to try to replace my current worklog approach
+sooner rather than later. I'll add subproject management in the future. Next
+thing is to merge and write a worklog if one doesn't exist. After that I need to
+edit a worklog that does exist, which should include this one. And then I need
+to manage committing the changes.
+
 ## #591
 
 Added a basic setup for loading a config file. This config file will hold the
