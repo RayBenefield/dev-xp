@@ -1,5 +1,11 @@
 # Worklog
 
+## #591
+
+Added a basic setup for loading a config file. This config file will hold the
+latest session count, the subprojects that exist, and any other details that may
+need to be known.
+
 ## #590
 
 Setup a logging system and basic CLI toolage for Dex. Hopefully as things go
