@@ -1,5 +1,12 @@
 # Worklog
 
+## #597, #598
+
+Wrote all the necessary stuff to manage the worklog markdown file itself. Lots
+of work done which is really good. I insert lines when it exists, I create a new
+file when it doesn't. It all works out perfectly. Next thing to do is update the
+config file so we can continue the numbering from the latest session.
+
 ## #596
 
 Refactored some things to clean up the base file. Extracted config management as
