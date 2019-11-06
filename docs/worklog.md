@@ -1,5 +1,14 @@
 # Worklog
 
+## #593, #594, #595
+
+Tried to merge everything and everything broke in many different ways. First it
+was trying to pull in the `package.json`... rollup wasn't handling things
+properly. Then when I published it, Winston wasn't very happy since it exports a
+default property. So I had to override it a few times to find a workaround. But
+now it looks like Dex is finally working after being published. Now I can
+progress forward.
+
 ## #592
 
 Setup reasonable defaults for the config so when it is time to actually write
