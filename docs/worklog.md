@@ -1,5 +1,14 @@
 # Worklog
 
+## #596
+
+Refactored some things to clean up the base file. Extracted config management as
+well as prompting. Then did some research on how to generate a markdown document
+like this worklog, right now I haven't really found much. I may have to hack it
+together with basic file writing. Looks like I have an `insert-line` module that I
+can use. Hopefully it works neatly. And if it doesn't exist, I'll just create a
+new one easily.
+
 ## #593, #594, #595
 
 Tried to merge everything and everything broke in many different ways. First it
