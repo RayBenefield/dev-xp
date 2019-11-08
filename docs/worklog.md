@@ -1,5 +1,13 @@
 # Worklog
 
+## #599, #600, #601
+
+Spent this morning making the final adjustments to have a pseudo working Dex. I
+added the saving of a config file so that way the session will automatically get
+tracked every time we make a worklog entry. So now I can manually do all the git
+stuff and the worklog entries work fine. Found a quick bug that I will need to
+fix, but ultimately it works as I need it to. I'm satisfied for now.
+
 ## #597, #598
 
 Wrote all the necessary stuff to manage the worklog markdown file itself. Lots
