@@ -1,5 +1,15 @@
 # Worklog
 
+## #604, #605
+
+Fixed a bug with KIKD that basically was not properly adding dependencies that
+were imported with parts like `simple-git/promise`. So when Dex was published,
+it would be missing the `simple-git` package. So I wrote a function that would
+strip import parts for the main package. I did it with testing from Kape as
+well... everything seems to work after merging everything. I'm satisfied with
+the update. Next things for Dex is to auto push, and also detect what branch it
+is on and make sure it is only putting log entries on master.
+
 ## #602, #603
 
 Setup Dex to work with git properly. It adds the respective files to be
