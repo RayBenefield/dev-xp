@@ -1,5 +1,11 @@
 # Worklog
 
+## #602, #603
+
+Setup Dex to work with git properly. It adds the respective files to be
+committed, then commits them with a header message as well as a sanitized
+version of the entry. Already merged and published.
+
 ## #599, #600, #601
 
 Spent this morning making the final adjustments to have a pseudo working Dex. I
