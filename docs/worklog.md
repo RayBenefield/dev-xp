@@ -1,5 +1,14 @@
 # Worklog
 
+## #606, #607, #608, #609
+
+Haven't written in the worklog for a while even if some work has been done. I
+need to upgrade KIKD to have an initialize command that starts the monorepo
+structure as well as a create new module command. To do this, I need to upgrade
+KLI to support a default command so KIKD can be setup by running `npx kikd` in a
+new folder. Creating a new module should also support both a regular javascript
+module as well as a CLI module. So they both need to tap into the plugin system.
+
 ## #604, #605
 
 Fixed a bug with KIKD that basically was not properly adding dependencies that
