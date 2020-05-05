@@ -1,5 +1,12 @@
 # Worklog
 
+## #614, #615
+
+Add functionality to set a default command using just the name of the command.
+To do this I had to require that every command have a name, and then create a
+hashmap of commands by name. Got that all checked in and set a default command
+of `kd ls` for now for KIKD until I setup a proper initialize command.
+
 ## #610, #611, #612, #613
 
 Setup KLI to support default commands properly with some testing. Also did some
