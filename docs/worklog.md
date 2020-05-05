@@ -1,5 +1,13 @@
 # Worklog
 
+## #610, #611, #612, #613
+
+Setup KLI to support default commands properly with some testing. Also did some
+refactoring for later growth of KLI. With that in place I can start creating a
+KIKD initialize command that is default to start a monorepo or spit out stats
+for the monorepo. After that command I can also add a new command to create new
+packages which will need to be done on a plugin basis.
+
 ## #606, #607, #608, #609
 
 Haven't written in the worklog for a while even if some work has been done. I
