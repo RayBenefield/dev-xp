@@ -1,23 +1,19 @@
 {
-    "name": "kikd",
-    "description": "Continuous Integration and Continuous Deployment for Open Sourced NPM Tooling.",
-    "version": "0.0.50",
-    "homepage": "https://github.com/RayBenefield/kikd",
+    "name": "dev-xp",
+    "description": "Monorepo for all projects by RayBenefield",
+    "homepage": "https://github.com/RayBenefield/dev-xp",
     "author": {
         "name": "Raymond Benefield",
         "email": "raymond.benefield@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/RayBenefield/kikd.git"
+        "url": "git://github.com/RayBenefield/dev-xp.git"
     },
     "bugs": {
-        "url": "https://github.com/RayBenefield/kikd/issues"
+        "url": "https://github.com/RayBenefield/dev-xp/issues"
     },
     "license": "MIT",
-    "bin": {
-        "kd": "cli.js"
-    },
     "engines": {
         "node": ">=11.14.0"
     },
