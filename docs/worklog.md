@@ -1,5 +1,12 @@
 # Worklog
 
+## #619, #620, #621, #622
+
+Made all the necessary adjustments to KLI and continued with the KIKD init
+command. I also created a template for it. I'm publishing KIKD now with a
+stubbed out effect so I can test it with `npx kikd` before actually creating a
+monorepo.
+
 ## #616, #617, #618
 
 Started the basic setup for an initiailize function for kikd. Started with just
