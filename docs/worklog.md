@@ -1,5 +1,14 @@
 # Worklog
 
+## #616, #617, #618
+
+Started the basic setup for an initiailize function for kikd. Started with just
+a basic command with no template and an effect that just console logs. Realized
+that I need to make more updates to KLI to support this new command. For
+example, commands are dry-run by default and instead this command needs to be
+auto commit so a new monorepo can be made with `npx kikd` rather than `npx kikd
+--commit`.
+
 ## #614, #615
 
 Add functionality to set a default command using just the name of the command.
