@@ -1,5 +1,12 @@
 # Worklog
 
+## #623, #624
+
+Added the final parts to run the initiailize method. I initialize git, create a
+`package.json` file, and create the `src/node_modules` directory. Technically
+that's everything that was needed now next is to create the `kd new` command so
+we can create new projects.
+
 ## #619, #620, #621, #622
 
 Made all the necessary adjustments to KLI and continued with the KIKD init
