@@ -1,5 +1,14 @@
 # Worklog
 
+## #625, #626
+
+Spent some time exploring what is going to be needed to make `kd new` work so
+new packages can be created. I'm going to need inquirer to choose the type of
+package as well as need to consider `babel` packages that need to be installed
+to make things just work. I want to start with a CLI package first and then move
+on to the normal NPM package. The reason for this is that it is the best way to
+showcase the system working.
+
 ## #623, #624
 
 Added the final parts to run the initiailize method. I initialize git, create a
