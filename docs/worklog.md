@@ -1,5 +1,11 @@
 # Worklog
 
+## #627, #628, #629
+
+Started work on the `kd new` command. Got the new command setup as well as the
+basics for requesting the data needed to create everything. Should be fairly
+easy to finish in the next couple sessions.
+
 ## #625, #626
 
 Spent some time exploring what is going to be needed to make `kd new` work so
