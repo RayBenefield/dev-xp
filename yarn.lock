@@ -2380,6 +2380,17 @@ ecdsa-sig-formatter@1.0.11:
   dependencies:
     safe-buffer "^5.0.1"
 
+edit-json-file@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/edit-json-file/-/edit-json-file-1.4.0.tgz#bb244abf7fc47a23f3dfb7c106a80f2ef83c39c3"
+  integrity sha512-QS2UtS5sbGbufsZPAvL67kq1xUndVgEJv2cusf7sY+T1c0uqxaRTGD/PrUlkZWkeybiEhrRPSfuCyrj6jRMcag==
+  dependencies:
+    find-value "^1.0.3"
+    iterate-object "^1.3.2"
+    r-json "^1.2.5"
+    set-value "^3.0.1"
+    w-json "^1.3.5"
+
 electron-to-chromium@^1.3.27:
   version "1.3.27"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.27.tgz#78ecb8a399066187bb374eede35d9c70565a803d"
@@ -2963,6 +2974,11 @@ find-up@^4.0.0:
   dependencies:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
+
+find-value@^1.0.3:
+  version "1.0.11"
+  resolved "https://registry.npmjs.org/find-value/-/find-value-1.0.11.tgz#493c062884d4aa26a66571adedea98a46ad3a060"
+  integrity sha512-ECGsf/85PJgK/kOv6q1/MA1pawuBvQi12td/7MQHakfE7/P2jFgUeo0BL1dbAF97DPOTrtsrFBHkwBnPMWZiKg==
 
 firebase-admin@^8.2.0:
   version "8.2.0"
@@ -3931,6 +3947,13 @@ is-plain-obj@^1.1.0:
   resolved "https://registry.npmjs.org/is-plain-obj/-/is-plain-obj-1.1.0.tgz#71a50c8429dfca773c92a390a4a03b39fcd51d3e"
   integrity sha1-caUMhCnfync8kqOQpKA7OfzVHT4=
 
+is-plain-object@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz#2c163b3fafb1b606d9d17928f05c2a1c38e07677"
+  integrity sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==
+  dependencies:
+    isobject "^3.0.1"
+
 is-posix-bracket@^0.1.0:
   version "0.1.1"
   resolved "https://registry.npmjs.org/is-posix-bracket/-/is-posix-bracket-0.1.1.tgz#3334dc79774368e92f016e6fbc0a88f5cd6e6bc4"
@@ -4030,6 +4053,11 @@ isobject@^2.0.0:
   dependencies:
     isarray "1.0.0"
 
+isobject@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+  integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
+
 isomorphic-fetch@^2.1.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
@@ -4040,6 +4068,11 @@ isomorphic-fetch@^2.1.1:
 isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
+
+iterate-object@^1.3.2:
+  version "1.3.3"
+  resolved "https://registry.npmjs.org/iterate-object/-/iterate-object-1.3.3.tgz#c58e60f7f0caefa2d382027a484b215988a7a296"
+  integrity sha512-DximWbkke36cnrSfNJv6bgcB2QOMV9PRD2FiowwzCoMsh8RupFLdbNIzWe+cVDWT+NIMNJgGlB1dGxP6kpzGtA==
 
 javascript-stringify@^2.0.0:
   version "2.0.0"
@@ -5669,6 +5702,11 @@ quick-lru@^1.0.0:
   resolved "https://registry.npmjs.org/quick-lru/-/quick-lru-1.1.0.tgz#4360b17c61136ad38078397ff11416e186dcfbb8"
   integrity sha1-Q2CxfGETatOAeDl/8RQW4Ybc+7g=
 
+r-json@^1.2.5:
+  version "1.2.9"
+  resolved "https://registry.npmjs.org/r-json/-/r-json-1.2.9.tgz#0637da3485b0b4492e9ffae85796f8b2f373f600"
+  integrity sha512-E5u25XBE7PpZmH5XwtthAmNvSLMTygDQMpcPtCTUBdvwPaqgIYJrxlRQJhG55Sgz7uC0Tuyh5nqNrsDT3uiefA==
+
 randomatic@^1.1.3:
   version "1.1.7"
   resolved "https://registry.npmjs.org/randomatic/-/randomatic-1.1.7.tgz#c7abe9cc8b87c0baa876b19fde83fd464797e38c"
@@ -6295,6 +6333,13 @@ set-blocking@~2.0.0:
 set-immediate-shim@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/set-immediate-shim/-/set-immediate-shim-1.0.1.tgz#4b2b1b27eb808a9f8dcc481a58e5e56f599f3f61"
+
+set-value@^3.0.1:
+  version "3.0.2"
+  resolved "https://registry.npmjs.org/set-value/-/set-value-3.0.2.tgz#74e8ecd023c33d0f77199d415409a40f21e61b90"
+  integrity sha512-npjkVoz+ank0zjlV9F47Fdbjfj/PfXyVhZvGALWsyIYU/qrMzpi6avjKW3/7KeSU2Df3I46BrN1xOI1+6vW0hA==
+  dependencies:
+    is-plain-object "^2.0.4"
 
 setimmediate@^1.0.5:
   version "1.0.5"
@@ -7158,6 +7203,11 @@ vue-template-es2015-compiler@^1.9.0:
 vue@^2.5.16:
   version "2.5.16"
   resolved "https://registry.npmjs.org/vue/-/vue-2.5.16.tgz#07edb75e8412aaeed871ebafa99f4672584a0085"
+
+w-json@^1.3.5:
+  version "1.3.9"
+  resolved "https://registry.npmjs.org/w-json/-/w-json-1.3.9.tgz#c1ddfbae1279f7e84d5a1bd587b53a03f5c5cff8"
+  integrity sha512-9hvWhnNZ5J3ypOJt2LzmAQBl1NrQBZED/E8MwkZQ+lGTq51hyR9zeH0dgaJzLfzOVoTbxe/yPqL10c5WVsHvbg==
 
 walkdir@^0.4.0:
   version "0.4.1"
