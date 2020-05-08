@@ -91,6 +91,7 @@
         "diff": "^3.4.0",
         "dot": "^1.1.2",
         "dotenv": "^8.0.0",
+        "edit-json-file": "^1.4.0",
         "es6-promisify": "^5.0.0",
         "execa": "^0.8.0",
         "external-editor": "^2.1.0",
