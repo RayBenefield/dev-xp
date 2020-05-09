@@ -1,5 +1,14 @@
 # Worklog
 
+## #630, #631, #632, #633, #634
+
+Did all the necessary work for the `kd new` command. It took longer than
+expected as I was finding better ways to implement the request for data and the
+effect within a plugin rather than directly in a command. But it is now all
+figured out and I'm able to create new CLI packages. Next is just creating basic
+NPM packages which is a lot less work. Also created a decent template for it and
+figured out how to due plugin based templating.
+
 ## #627, #628, #629
 
 Started work on the `kd new` command. Got the new command setup as well as the
