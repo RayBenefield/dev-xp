@@ -1,5 +1,17 @@
 # Worklog
 
+## #635, #636
+
+Did a little more testing on `kd new` with a CLI package and realized the output
+file is not being set to executable so I made a ticket for that. Other than that
+I added creation for a basic npm package now and that is all setup and ready to
+go. The next thing I want to do to ease the monorepo process is expanding SemCom
+to handle committing to craft the proper commit messages with the proper scopes
+and message lengths so that way the actual update process can be done seamlessly
+rather than manually. I'll also need to address the updating process to handle
+more than just a patch version. It needs to handle a minor and major, which
+means supporting BREAKING CHANGE as a part of the commit as well.
+
 ## #630, #631, #632, #633, #634
 
 Did all the necessary work for the `kd new` command. It took longer than
