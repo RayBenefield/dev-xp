@@ -1,5 +1,14 @@
 # Worklog
 
+## #643
+
+I started work on trying to setup SemCom to handle a `kd commit` command so it
+could take modified, untracked, etc. files and then generate commits for them.
+However I ran into a problem where I need to bring over some code I've written
+for `transmutation` so I can do a proper object merge. I'm going to bring
+`transmutation` over to my main `dev-xp` monorepo so I can utilize that code in
+SemCom. That's my next goal.
+
 ## #637, #638, #639, #640, #641, #642
 
 Brought over my old Come @ Me giveaway system that was with the old rampant
