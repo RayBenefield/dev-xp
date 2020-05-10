@@ -1,5 +1,13 @@
 # Worklog
 
+## #637, #638, #639, #640, #641, #642
+
+Brought over my old Come @ Me giveaway system that was with the old rampant
+stuff. Took a bit to adjust the mixer chat stuff to the recent Rampant work I
+did, but it is all good now and handles prefixing entries based on week which is
+a nice new feature. Also properly handles new people entering the giveaway and
+has logging as well.
+
 ## #635, #636
 
 Did a little more testing on `kd new` with a CLI package and realized the output
