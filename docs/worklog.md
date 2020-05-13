@@ -1,5 +1,12 @@
 # Worklog
 
+## #644, #645, #646
+
+Moved over the entire Transmutation module including all the operators all of
+the tests, and the old worklog for it. I need this for the merging function used
+for `transmute().extend()` so I can properly merge git status files for a proper
+commit command.
+
 ## #643
 
 I started work on trying to setup SemCom to handle a `kd commit` command so it
