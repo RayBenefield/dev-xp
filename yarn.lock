@@ -2333,7 +2333,7 @@ dot-prop@^3.0.0:
   dependencies:
     is-obj "^1.0.0"
 
-dot-prop@^4.1.0, dot-prop@^4.2.0:
+dot-prop@^4.1.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-4.2.0.tgz#1f19e0c2e1aa0e32797c49799f2837ac6af69c57"
   dependencies:
@@ -4596,10 +4596,6 @@ lodash.mapvalues@^4.6.0:
   version "4.6.0"
   resolved "https://registry.npmjs.org/lodash.mapvalues/-/lodash.mapvalues-4.6.0.tgz#1bafa5005de9dd6f4f26668c30ca37230cc9689c"
   integrity sha1-G6+lAF3p3W9PJmaMMMo3IwzJaJw=
-
-lodash.mergewith@^4.6.0:
-  version "4.6.1"
-  resolved "https://registry.npmjs.org/lodash.mergewith/-/lodash.mergewith-4.6.1.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
 
 lodash.mergewith@^4.6.2:
   version "4.6.2"
@@ -6989,13 +6985,14 @@ tough-cookie@~2.4.3:
     psl "^1.1.24"
     punycode "^1.4.1"
 
-transmutation@^0.0.46:
-  version "0.0.46"
-  resolved "https://registry.yarnpkg.com/transmutation/-/transmutation-0.0.46.tgz#cda02a3ff26c07307323a70e4c8a45b8b1c08c85"
+transmutation@^0.0.47:
+  version "0.0.47"
+  resolved "https://registry.yarnpkg.com/transmutation/-/transmutation-0.0.47.tgz#41ef98ab0d965d09bfc07a9adb887eb8b8856d01"
+  integrity sha512-d+mJEa2C9J3bi7REesXJ1gOK9WcfAsc75Yd81noV93lFvnlaPZnh6S1C02u0d52eaajCCOCaFJn9VjVCztXNsw==
   dependencies:
-    dot-prop "^4.2.0"
+    dot-prop "^5.2.0"
     lodash.mapvalues "^4.6.0"
-    lodash.mergewith "^4.6.0"
+    lodash.mergewith "^4.6.2"
 
 trie-search@^1.0.9:
   version "1.0.9"
