@@ -1,5 +1,12 @@
 # Worklog
 
+## #647, #648
+
+Finished up the work on collecting the files in `git status` programatically,
+and also got a working prompt with checkboxes that works properly and pre-checks
+already staged files, and presents modified and untracked files as different
+sections and colors. Now to use that to construct commit messages.
+
 ## #644, #645, #646
 
 Moved over the entire Transmutation module including all the operators all of
