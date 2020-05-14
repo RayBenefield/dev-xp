@@ -22,6 +22,8 @@
         "info": "npm-scripts-info",
         "?kd": "echo Run kikd with the current code.",
         "kd": "cd src/node_modules/ && babel-node ./kikd/cli.js",
+        "?semcom": "echo Run semcom with the current code.",
+        "semcom": "cd src/node_modules/ && babel-node ./semcom/cli.js",
         "?build": "echo Dogfooding building kikd with rollup using itself.",
         "build": "yarn run kd build --commit",
         "?precommit": "echo Run all tests, then check staged commits for linting and style, and finally show the current lines of code.",
