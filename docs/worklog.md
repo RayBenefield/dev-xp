@@ -1,5 +1,12 @@
 # Worklog
 
+## #649, #650, #651
+
+Properly determine the difference between what files need to be reset vs what
+files need to be added. This is important for files already staged vs not
+staged. It took some fancy work, but I got it working well. Next is to craft
+commit messages based on chosen files to be added.
+
 ## #647, #648
 
 Finished up the work on collecting the files in `git status` programatically,
