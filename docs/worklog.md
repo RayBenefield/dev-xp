@@ -1,5 +1,12 @@
 # Worklog
 
+## #652, #653, #654, #655
+
+Recreated the entire come-at-me giveaway system in Dev XP. A lot of old hacked
+together code that I just decided to make work. Now the goal is to refactor it
+into something that is a little more powerful and flexible that I can add to as
+time goes on.
+
 ## #649, #650, #651
 
 Properly determine the difference between what files need to be reset vs what
