@@ -1,4 +1,10 @@
- Worklog
+# Worklog
+
+## #656, #657
+
+Refactored where entry pools are stored in the database for better organization.
+Also started including the total of an entire pool's entries. This will be
+useful for watching week to week growth.
 
 ## #652, #653, #654, #655
 
