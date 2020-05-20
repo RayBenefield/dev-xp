@@ -1,5 +1,13 @@
 # Worklog
 
+## #658, #659
+
+Working on refactoring winner/entrants for giveaways better based on entryPools.
+Also thinking on how to handle code giveaways for access to custom/creative.
+Lots of things to consider, but I think I may have a data structure I'm
+comfortable with and I may start with the migration of the old stuff first then
+setup the new system.
+
 ## #656, #657
 
 Refactored where entry pools are stored in the database for better organization.
