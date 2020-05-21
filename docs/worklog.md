@@ -1,5 +1,14 @@
 # Worklog
 
+## #660, #661, #662
+
+Started the refactoring of winner/entrants by removing the realtime need for
+"starting" and "ending" entries. Instead now we just start a giveaway, handle
+entries, then pick and clear the giveaway. I will need to "block" a giveaway if
+one is already in progress as well as handle multiple picks, and new storage of
+winners. The new data structure for giveaways is next on my list to clean things
+up.
+
 ## #658, #659
 
 Working on refactoring winner/entrants for giveaways better based on entryPools.
