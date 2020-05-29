@@ -1,5 +1,14 @@
 # Worklog
 
+## #663, #664
+
+Refactored how the entrants used for Winners is stored. This allows us to know
+where the Winner was picked from as well as the totalEntries used for the
+giveaway and the total candidates for the giveaway. This should now enable me to
+easily run setup multiple winners for a single giveaway. So I can just do `!give
+sub` multiple times to add to the giveaway and avoid duplicate winners for a
+single thing for the week.
+
 ## #660, #661, #662
 
 Started the refactoring of winner/entrants by removing the realtime need for
