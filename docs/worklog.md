@@ -1,5 +1,12 @@
 # Worklog
 
+## #665
+
+Refactored all of the commands into their own modules for now until I can
+optimize things in the form of a Rampant framework. But right now I need to
+prioritize having multiple winners for a giveaway so I can avoid giving the same
+people the same reward.
+
 ## #663, #664
 
 Refactored how the entrants used for Winners is stored. This allows us to know
