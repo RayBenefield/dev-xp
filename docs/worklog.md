@@ -1,5 +1,11 @@
 # Worklog
 
+## #666, #667
+
+Refactored the give command to be more modular and handle the addition of slots
+so in the future I can make it work to have multiple winners for a single
+giveaway.
+
 ## #665
 
 Refactored all of the commands into their own modules for now until I can
