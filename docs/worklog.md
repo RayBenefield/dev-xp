@@ -1,5 +1,12 @@
 # Worklog
 
+## #668
+
+While on stream I created a code command to restrict code access for a game to
+be for only those with access to the chat. Eventually I'll track the games we
+play and who requests the code but for now I needed to block out people having
+access to it if they were banned.
+
 ## #666, #667
 
 Refactored the give command to be more modular and handle the addition of slots
