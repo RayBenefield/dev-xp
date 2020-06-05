@@ -1,5 +1,13 @@
 # Worklog
 
+## #669, #670
+
+Was going to push up new giveaway code, but realized it wouldn't pass linting so
+I'm taking the time to refactor now so I can push it up and continue work for
+kikd. I've created a giveaway repo for data access purposes of the giveaway
+system, and I've also created a moderator package to simplify command streams a
+bit.
+
 ## #668
 
 While on stream I created a code command to restrict code access for a game to
