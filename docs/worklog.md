@@ -1,5 +1,10 @@
 # Worklog
 
+## #671, #672
+
+Refactored the code and enter commands to use the new moderator abstraction and
+the giveaway repo. Shrinking the code down to less than 50 lines.
+
 ## #669, #670
 
 Was going to push up new giveaway code, but realized it wouldn't pass linting so
