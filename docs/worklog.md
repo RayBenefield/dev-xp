@@ -1,5 +1,12 @@
 # Worklog
 
+## #673, #674
+
+Refactored a lot of stuff around the pick command, the most complicated of the
+commands. Add lots of functionality to the giveaway repo and extracted the
+choose winners code. I'll need to update that to choose multiple winners in the
+future.
+
 ## #671, #672
 
 Refactored the code and enter commands to use the new moderator abstraction and
