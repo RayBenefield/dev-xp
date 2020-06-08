@@ -1,5 +1,12 @@
 # Worklog
 
+## #675, #676
+
+Created a new filter command system that accounts for different roles in the
+channel. As well as added testing for it. In the future I need to set it up to
+handle both whitelisting and blacklisting options. For example a command for
+subs but not for moderators.
+
 ## #673, #674
 
 Refactored a lot of stuff around the pick command, the most complicated of the
