@@ -1,5 +1,13 @@
 # Worklog
 
+## #680, #681, #682
+
+Added a new clear-code command as well as a new intent that reacts to the
+creation of a new code for a lobby. Also fixed a bug that existed when storing
+winner results. I need to eventually start working on auto-detection of new
+intents in a single directory so it is easier to manage things. I also want to
+auto setup a logger for each intent.
+
 ## #677, #678, #679
 
 Did a LOT of refactoring to clean up the required code in all of the intents.
