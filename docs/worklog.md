@@ -1,5 +1,12 @@
 # Worklog
 
+## #677, #678, #679
+
+Did a LOT of refactoring to clean up the required code in all of the intents.
+The goal is to make it SUPER simple to create a new command with a bunch of
+useful shortcuts like a moderator gate that "errors" because it doesn't have
+certain information.
+
 ## #675, #676
 
 Created a new filter command system that accounts for different roles in the
