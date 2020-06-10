@@ -1,5 +1,10 @@
 # Worklog
 
+## #683
+
+Replaced the complex transaction logic with simpler increment logic also using
+`upsert` to check if the document exists or not already.
+
 ## #680, #681, #682
 
 Added a new clear-code command as well as a new intent that reacts to the
