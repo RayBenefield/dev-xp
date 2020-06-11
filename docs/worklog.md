@@ -1,5 +1,12 @@
 # Worklog
 
+## #684
+
+Refactored out part of the initial come-at-me system, once I've separated them
+into intents I can start working on the base intent loader system so I can stop
+manually including them and just make a new module instead. Also automatically
+generate a logger and subscribe to lower the lines of code needed for an intent.
+
 ## #683
 
 Replaced the complex transaction logic with simpler increment logic also using
