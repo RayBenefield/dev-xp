@@ -1,5 +1,13 @@
 # Worklog
 
+## #685, #686
+
+Refactored out the remaining pieces of the come-at-me system into intents and
+now everything is registered in the selection module. Now I need to refactor
+that into a system that dynamically loads from a single folder. Doing that will
+simplify the intents even further and make it really easy to create new intents
+in the future.
+
 ## #684
 
 Refactored out part of the initial come-at-me system, once I've separated them
