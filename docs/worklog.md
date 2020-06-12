@@ -1,5 +1,18 @@
 # Worklog
 
+## #687, #688, #689
+
+Did ALL the moving required to isolate the `@fever` namespace to strictly be
+nothing but intents for rampant to process. And then I wrote a `find-modules`
+module that finds all resolvable modules in a particular namespace so they can
+be loaded as intents. Now I have a fully centralized intent loader system that
+will allow me to easily create intents without having to hook them up to rampant
+anymore. I still have some more work to clean up each of the intents and make
+making intents much easier in the future. Eventually I'll setup a plugin loader
+system that will include batches of intents, until then though I'm just batching
+everything under the `@fever` namespace. Working backwards seems to be working
+better than my first approach to `rampant`.
+
 ## #685, #686
 
 Refactored out the remaining pieces of the come-at-me system into intents and
