@@ -1,5 +1,13 @@
 # Worklog
 
+## #692
+
+Spent a session last night where I was just exploring a Twitter auth path. I
+really want to start exploring the potential for adding Twitter based
+integrations into Mixer sooner rather than later. I think it will start being
+very important. Kinda wanna explore Firebase Functions and setting up an oauth
+flow that way.
+
 ## #690, #691
 
 Refactored more responsibilities out of intents. I want intents to be as simple
