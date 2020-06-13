@@ -1,5 +1,13 @@
 # Worklog
 
+## #690, #691
+
+Refactored more responsibilities out of intents. I want intents to be as simple
+as physically possible so they are easy to contruct from the ground up. More
+specifically I removed the need to subscribe to an intent and also removed the
+ned for a giveawayRepo to be contructed. Next thing is probably to create a
+pools repo and then find a way to simplify giveaway logic a bit.
+
 ## #687, #688, #689
 
 Did ALL the moving required to isolate the `@fever` namespace to strictly be
