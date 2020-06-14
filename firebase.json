@@ -7,6 +7,10 @@
         "function": "auth"
       },
       {
+        "source": "/callback/**",
+        "function": "callback"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
