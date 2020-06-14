@@ -1,5 +1,14 @@
 # Worklog
 
+## #694, #695
+
+Got a basic serverless function working to authenticate on Twitter, and also
+found out how to send a state query parameter so I know which user triggered the
+authentication. This includes setting up an encryption and decryption system to
+send state across calls. Next thing I have to start really exploring is how
+to structure the users collection so I can query by various identities and
+acquire the credentials that I need.
+
 ## #693
 
 Started simply by setting up the `rampant.ai` domain so it can be used for
