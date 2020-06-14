@@ -1,5 +1,10 @@
 # Worklog
 
+## #693
+
+Started simply by setting up the `rampant.ai` domain so it can be used for
+serverless functions in the future.
+
 ## #692
 
 Spent a session last night where I was just exploring a Twitter auth path. I
