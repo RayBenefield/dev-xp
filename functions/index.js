@@ -22,3 +22,15 @@ authRouter.get('/mixer', async (req, res) => {
 
 auth.use('/auth', authRouter)
 exports.auth = functions.https.onRequest(auth)
+
+const cb = express()
+const cbRouter = express.Router()
+
+cbRouter.get('/twitter', async (req, res) => {
+    const { state } = req.query
+    console.log(decrypt(state))
+    res.redirect('/')
+})
+
+cb.use('/callback', cbRouter)
+exports.callback = functions.https.onRequest(cb)
