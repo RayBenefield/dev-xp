@@ -1,4 +1,7 @@
 {
+  "functions": {
+    "source": "./dist/@rampant/auth"
+  },
   "hosting": {
     "public": "public",
     "rewrites": [
