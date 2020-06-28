@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <meta name="theme-color" content="#880e4f">
+        <style>
+body {
+    margin: 0;
+    background-color: #333;
+    text-align: center;
+    font-family: Roboto;
+}
+
+h1 {
+    color: #ccc;
+}
+
+.fixed-adjust {
+    padding-top: 64px;
+}
+
+.mdc-top-app-bar {
+    background-color: #111;
+}
+
+.mdc-button--outlined-light {
+    border-color: rgba(255,255,255,0.4);
+}
+
+.mdc-button--outlined-dark {
+    border-color: rgba(0,0,0,1);
+}
+        </style>
+    </head>
+    <body>
+        <header class="mdc-top-app-bar mdc-top-app-bar--fixed mdc-elevation--z6">
+            <div class="mdc-top-app-bar__row">
+                <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                    <span class="mdc-top-app-bar__title">Rampant AI</span>
+                </section>
+            </div>
+        </header>
+        <div class="mdc-layout-grid fixed-adjust">
+            <div class="mdc-layout-grid__inner">
+                <div class="mdc-layout-grid__cell
+                mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-0-phone"></div>
+                <div class="mdc-layout-grid__cell
+                mdc-layout-grid__cell--span-4-desktop
+                mdc-layout-grid__cell--span-4-tablet
+                mdc-layout-grid__cell--span-4-phone">
+                    <h1>Link Accounts</h1>
+                    <div style='display: flex; align-items: center;
+                    justify-content: center; margin: 16px'>
+                        <button class="mdc-button mdc-button--raised
+                                mixer-button mdc-button--outlined mdc-button--outlined-light"
+                                style='background-color: #002050; width:
+                                256px'>
+                            <div class="mdc-button__ripple"></div>
+                            <img src='mixer.svg' class="material-icons mdc-button__icon" aria-hidden="true"/>
+                            <span class="mdc-button__label">Sign in with Mixer</span>
+                        </button>
+                    </div>
+                    <div style='display: flex; align-items: center;
+                    justify-content: center; margin: 16px'>
+                        <button class="mdc-button mdc-button--raised
+                        twitter-button mdc-button--outlined mdc-button--outlined-dark"
+                                style='background-color: #55acee; width:
+                                256px' >
+                                <div class="mdc-button__ripple"></div>
+                                <img src='twitter.svg' class="material-icons mdc-button__icon" aria-hidden="true"/>
+                                <span class="mdc-button__label">Sign in with Twitter</span>
+                        </button>
+                    </div>
+                    <div style='display: flex; align-items: center;
+                    justify-content: center; margin: 16px'>
+                        <button class="mdc-button mdc-button--raised discord-button mdc-button--outlined mdc-button--outlined-dark"
+                                style='background-color: #7289DA; width:
+                                256px' >
+                                <div class="mdc-button__ripple"></div>
+                                <img src='discord.svg' class="material-icons mdc-button__icon" aria-hidden="true"/>
+                                <span class="mdc-button__label">Sign in with
+                                    Discord</span>
+                        </button>
+                    </div>
+                    <div style='display: flex; align-items: center;
+                    justify-content: center; margin: 16px'>
+                        <button class="mdc-button mdc-button--raised twitch-button mdc-button--outlined mdc-button--outlined-dark"
+                                style='background-color: #904FFB; width:
+                                256px' >
+                                <div class="mdc-button__ripple"></div>
+                                <img src='twitch.svg' class="material-icons mdc-button__icon" aria-hidden="true"/>
+                                <span class="mdc-button__label">Sign in with
+                                    Twitch</span>
+                        </button>
+                    </div>
+                    <div style='display: flex; align-items: center;
+                    justify-content: center; margin: 16px'>
+                        <button class="mdc-button mdc-button--raised youtube-button mdc-button--outlined mdc-button--outlined-dark"
+                                style='background-color: #FF0000; width:
+                                256px' >
+                                <div class="mdc-button__ripple"></div>
+                                <img src='youtube.svg' class="material-icons mdc-button__icon" aria-hidden="true"/>
+                                <span class="mdc-button__label">Sign in with
+                                    Youtube</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="mdc-layout-grid__cell
+                mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-2-tablet mdc-layout-grid__cell--span-0-phone"></div>
+            </div>
+        </div>
+        <script>
+            mdc.ripple.MDCRipple.attachTo(document.querySelector('.twitter-button'));
+            mdc.ripple.MDCRipple.attachTo(document.querySelector('.mixer-button'));
+            mdc.ripple.MDCRipple.attachTo(document.querySelector('.discord-button'));
+            mdc.ripple.MDCRipple.attachTo(document.querySelector('.twitch-button'));
+            mdc.ripple.MDCRipple.attachTo(document.querySelector('.youtube-button'));
+        </script>
+    </body>
+</html>
