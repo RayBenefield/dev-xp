@@ -192,6 +192,7 @@
         "transmutation": "^0.0.46",
         "trie-search": "^1.0.9",
         "twitch": "^4.1.2",
+        "twitch-chat-client": "^4.1.2",
         "twitter": "^1.7.1",
         "uglify-es": "^3.2.2",
         "vue": "^2.5.16",
