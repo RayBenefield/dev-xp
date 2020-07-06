@@ -27,6 +27,11 @@ set number
 " A dark grey for highlighting; rgb=38,38,38
 highlight Visual cterm=NONE ctermbg=235 ctermfg=NONE guibg=Grey15
 
+" NERDTree colors
+highlight Directory guifg=#6871ff ctermfg=cyan
+highlight Number guifg=#6871ff ctermfg=red
+highlight Title guifg=#6871ff ctermfg=blue
+
 " Conceal certain patterns in javascript for readability
 hi clear Conceal
 set conceallevel=1
