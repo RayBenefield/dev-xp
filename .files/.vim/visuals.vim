@@ -28,9 +28,23 @@ set number
 highlight Visual cterm=NONE ctermbg=235 ctermfg=NONE guibg=Grey15
 
 " NERDTree colors
-highlight Directory guifg=#6871ff ctermfg=cyan
-highlight Number guifg=#6871ff ctermfg=red
-highlight Title guifg=#6871ff ctermfg=blue
+highlight Directory ctermfg=cyan
+highlight Number ctermfg=red
+highlight Title ctermfg=blue
+
+" Personal Color Scheme
+highlight Comment ctermfg=lightblue
+highlight Type ctermfg=lightyellow
+highlight Statement ctermfg=yellow
+highlight PreProc ctermfg=green
+highlight String ctermfg=magenta
+highlight Type ctermfg=lightyellow
+highlight Function ctermfg=cyan
+highlight Normal ctermfg=lightgray
+highlight LineNr ctermfg=lightgreen
+highlight CursorLineNr ctermfg=yellow
+highlight Identifier ctermfg=lightcyan
+highlight Constant ctermfg=magenta
 
 " Conceal certain patterns in javascript for readability
 hi clear Conceal
