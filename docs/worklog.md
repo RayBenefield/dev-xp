@@ -1,5 +1,14 @@
 # Worklog
 
+## #711
+
+Adjust the frontend site of rampant.ai by reading cookies for accounts that are
+already signed in. Also remove buttons for currently unsupported platforms.
+Should make it easy to add new platforms in the future. May just generate most
+of the HTML as well in the future. For now this should do. Next step is to
+manage cookies on the server side. Then use those cookies to search for an
+existing user that is already linked.
+
 ## #707, #708, #709, #710
 
 Switched over from iTerm to Hyper as a terminal to prepare a switch to my stream
