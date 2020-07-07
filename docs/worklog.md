@@ -1,5 +1,13 @@
 # Worklog
 
+## #707, #708, #709, #710
+
+Switched over from iTerm to Hyper as a terminal to prepare a switch to my stream
+PC which will be on Windows 10 so I need a terminal that is used across both of
+my main machines. Hyper seemed like the right choice and I spent a lot of time
+setting up my shortcuts and my visuals. VIM needed a complete overhaul in its
+coloring. So I did all that.
+
 ## #698, #699, #700, #701, #702, #703, #704, #705, #706
 
 Setup the actual grabbing of the twitch authentication token and use it to
