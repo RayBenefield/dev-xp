@@ -1,5 +1,12 @@
 # Worklog
 
+## #698, #699, #700, #701, #702, #703, #704, #705, #706
+
+Setup the actual grabbing of the twitch authentication token and use it to
+initialize the twitch REST API and a chat client. Also started the branching of
+a twitch version of the mixer bot. And found some time to apply a diminishing
+returns formula to calculating a winner for giveaways.
+
 ## #696, #697
 
 Move all the temporary code for the firebase functions into the monorepo
