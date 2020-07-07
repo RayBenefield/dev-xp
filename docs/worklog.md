@@ -1,5 +1,11 @@
 # Worklog
 
+## #696, #697
+
+Move all the temporary code for the firebase functions into the monorepo
+properly so it can be bundled with all of the main code and share code with the
+rest of the repo (like accessing a firestore).
+
 ## #694, #695
 
 Got a basic serverless function working to authenticate on Twitter, and also
