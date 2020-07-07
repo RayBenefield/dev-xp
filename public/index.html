@@ -3,6 +3,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
         <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <meta name="theme-color" content="#880e4f">
         <style>
@@ -112,11 +113,28 @@ h1 {
             </div>
         </div>
         <script>
-            mdc.ripple.MDCRipple.attachTo(document.querySelector('.twitter-button'));
-            mdc.ripple.MDCRipple.attachTo(document.querySelector('.mixer-button'));
-            mdc.ripple.MDCRipple.attachTo(document.querySelector('.discord-button'));
-            mdc.ripple.MDCRipple.attachTo(document.querySelector('.twitch-button'));
-            mdc.ripple.MDCRipple.attachTo(document.querySelector('.youtube-button'));
+            const platforms = ['twitch', 'twitter']
+            const notSupported = ['mixer', 'discord', 'youtube']
+            function setupPlatform(platform) {
+                const button = document.querySelector(`.${platform}-button`)
+                mdc.ripple.MDCRipple.attachTo(button);
+                if (Cookies.get(`${platform}Name`)) {
+                    button.setAttribute('disabled', true)
+                    button.removeAttribute('href')
+                    button.innerHTML = `
+                        <img src='${platform}.svg' class="material-icons mdc-button__icon" aria-hidden="true"/>
+                        <span class="mdc-button__label">Signed in as ${Cookies.get(`${platform}Name`)}</span>
+                    `
+                }
+            }
+            platforms.forEach(setupPlatform)
+
+            function disablePlatform(platform) {
+                const button = document.querySelector(`.${platform}-button`)
+                const parent = button.parentElement
+                parent.remove()
+            }
+            notSupported.forEach(disablePlatform)
         </script>
     </body>
 </html>
