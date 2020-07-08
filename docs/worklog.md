@@ -1,5 +1,12 @@
 # Worklog
 
+## #712, #713
+
+Adjust the entire cookie parsing and handling on the client and server to work
+properly with Firebase. Firebase only allows a single cookie to get through in a
+request so I had to manually serialize and deserialize out of that one available
+cookie.
+
 ## #711
 
 Adjust the frontend site of rampant.ai by reading cookies for accounts that are
