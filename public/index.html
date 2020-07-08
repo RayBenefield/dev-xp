@@ -115,15 +115,20 @@ h1 {
         <script>
             const platforms = ['twitch', 'twitter']
             const notSupported = ['mixer', 'discord', 'youtube']
+            console.log(decodeURIComponent(Cookies.get('__session')))
+            const cookies = Cookies.get('__session')
+                ? JSON.parse(decodeURIComponent(Cookies.get('__session')))
+                : {}
+
             function setupPlatform(platform) {
                 const button = document.querySelector(`.${platform}-button`)
                 mdc.ripple.MDCRipple.attachTo(button);
-                if (Cookies.get(`${platform}Name`)) {
+                if (cookies[`${platform}Name`]) {
                     button.setAttribute('disabled', true)
                     button.removeAttribute('href')
                     button.innerHTML = `
                         <img src='${platform}.svg' class="material-icons mdc-button__icon" aria-hidden="true"/>
-                        <span class="mdc-button__label">Signed in as ${Cookies.get(`${platform}Name`)}</span>
+                        <span class="mdc-button__label">Signed in as ${cookies[`${platform}Name`]}</span>
                     `
                 }
             }
