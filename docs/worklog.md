@@ -1,5 +1,12 @@
 # Worklog
 
+## #720
+
+Refactored the Twitch REST client to have user data on intialization as well as
+have the creds visibly available. Next abstraction that needs to happen is the
+rampant auth datastructures. It should auto translate between firebase datatypes
+and naming properly.
+
 ## #717, #718, #719
 
 Refactored out the Twitch authentication stuff to make generating an auth URL
