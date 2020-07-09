@@ -105,7 +105,7 @@
         "callsite": "^1.0.0",
         "chalk": "^2.3.0",
         "class-transformer": "^0.2.3",
-        "cookie-parser": "^1.4.5",
+        "cookie": "^0.4.1",
         "cosmiconfig": "^6.0.0",
         "dedent": "^0.7.0",
         "detective-es6": "^1.2.0",
