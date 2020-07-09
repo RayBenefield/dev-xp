@@ -1,5 +1,19 @@
 # Worklog
 
+## #716
+
+Refactored out the firebase specific cookie parser. I'm concerned that this is
+going to get more complicated when I need to actually implement firebase
+authentication for frontend access to features and database security. For now
+I'm using the `__session` cookie, but I believe that might be used by Firebase
+Auth to store the actual signed in user. So that may not be a solution in the
+future. I do need to absolutely send the signed in accounts to the front end,
+and I may need to do that through JWT claims instead. We shall see in the
+future. Next thing I need to worry about is refactoring the Twitch auth stuff to
+be cleanly usable in the firebase functions. Then concern myself with creating
+actual accounts based on sign ins. And then figure out how to properly merge
+accounts when they signed in to one separately from signing into another.
+
 ## #714, #715
 
 Refactored the entire twitter auth system to be cleaner and more like what I
