@@ -1,5 +1,12 @@
 # Worklog
 
+## #717, #718, #719
+
+Refactored out the Twitch authentication stuff to make generating an auth URL
+simpler as well as getting an access token. I still need to do a bunch of
+abstraction work on the twitch rest client as well as generate a repository for
+working with rampant's auth datastructures.
+
 ## #716
 
 Refactored out the firebase specific cookie parser. I'm concerned that this is
