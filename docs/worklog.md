@@ -1,5 +1,16 @@
 # Worklog
 
+## #714, #715
+
+Refactored the entire twitter auth system to be cleaner and more like what I
+normally write rather than copy and pasted. Added encryption to the state built
+in and auto generation of the auth URL. Also added the access token fetching
+without reliance on the request secret token. Next I want to refactor the cookie
+process specifically to handle the unique case of Firebase using only one cookie
+in the form of `__session`. I want to store multiple values in there for cases
+like multiple account ids/usernames so this is important. I want less work for
+each of the auth methods.
+
 ## #712, #713
 
 Adjust the entire cookie parsing and handling on the client and server to work
