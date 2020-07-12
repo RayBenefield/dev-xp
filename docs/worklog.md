@@ -1,5 +1,13 @@
 # Worklog
 
+## #721
+
+Started the refactor into an auth repository. Wanna do some conversion for dates
+and encrypting tokens so that way I don't have to stress about it in the future.
+Every platform has different creds to work with. It's complicated cuz different
+lobbies use different properties for their tokens so I need to find a good way
+to elegantly transform them.
+
 ## #720
 
 Refactored the Twitch REST client to have user data on intialization as well as
@@ -206,8 +214,7 @@ people the same reward.
 Refactored how the entrants used for Winners is stored. This allows us to know
 where the Winner was picked from as well as the totalEntries used for the
 giveaway and the total candidates for the giveaway. This should now enable me to
-easily run setup multiple winners for a single giveaway. So I can just do `!give
-sub` multiple times to add to the giveaway and avoid duplicate winners for a
+easily run setup multiple winners for a single giveaway. So I can just do `!give sub` multiple times to add to the giveaway and avoid duplicate winners for a
 single thing for the week.
 
 ## #660, #661, #662
@@ -334,8 +341,7 @@ Started the basic setup for an initiailize function for kikd. Started with just
 a basic command with no template and an effect that just console logs. Realized
 that I need to make more updates to KLI to support this new command. For
 example, commands are dry-run by default and instead this command needs to be
-auto commit so a new monorepo can be made with `npx kikd` rather than `npx kikd
---commit`.
+auto commit so a new monorepo can be made with `npx kikd` rather than `npx kikd --commit`.
 
 ## #614, #615
 
