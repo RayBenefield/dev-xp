@@ -1,5 +1,14 @@
 # Worklog
 
+## #722, #723
+
+Completed the refactor into a full authentication repository. We now encrypt all
+keys to the database as a batch and decrypt into a new object to be used to give
+to clients. All of the Twitch stuff now for sure works. I need to setup the
+Twitter stuff and then start working on the system that finds User accounts that
+already exist for a user. And then start creating new User accounts eventually
+merging multiple User accounts found.
+
 ## #721
 
 Started the refactor into an auth repository. Wanna do some conversion for dates
