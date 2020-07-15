@@ -1,5 +1,12 @@
 # Worklog
 
+## #724, #725
+
+Got all the initial work done to make Twitter work similarly to Twitch. With a
+couple more tweaks it should be easy to replicate for all additional platforms.
+I need to check it all in and start working on the user search system and
+eventually the create new user system followed by the merge user system.
+
 ## #722, #723
 
 Completed the refactor into a full authentication repository. We now encrypt all
