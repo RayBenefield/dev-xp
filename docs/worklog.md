@@ -1,5 +1,11 @@
 # Worklog
 
+## #726
+
+Refactored the authentication stuff so I can use the same code for both the
+twitter and twitch callbacks and do the same other platforms when I add them.
+Just need to refactor the code to use the same batch minus the platform change.
+
 ## #724, #725
 
 Got all the initial work done to make Twitter work similarly to Twitch. With a
