@@ -1,5 +1,11 @@
 # Worklog
 
+## #727
+
+Created an authorizor to be used to handle the callback logic just passing in a
+supported platform. The plan is to centralize all this logic so it is easy to
+incorporate other platforms later.
+
 ## #726
 
 Refactored the authentication stuff so I can use the same code for both the
