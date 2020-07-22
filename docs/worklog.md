@@ -1,5 +1,11 @@
 # Worklog
 
+## #728
+
+Extracted all of the authorizer logic into its own library. Next thing to do is
+change how the cookies are stored so it is easier to determine what platforms
+are in the cookies.
+
 ## #727
 
 Created an authorizor to be used to handle the callback logic just passing in a
