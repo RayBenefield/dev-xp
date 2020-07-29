@@ -2,6 +2,11 @@
 " Essentials for any of my vim setups
 "
 
+" Improves performance of airline
+let g:airline_extensions = []
+
+let g:netrw_dirhistmax=0
+
 " Set encoding for file icons
 set encoding=UTF-8
 
