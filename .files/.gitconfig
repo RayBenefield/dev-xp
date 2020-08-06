@@ -18,6 +18,7 @@
 	st = status -u
     cb = checkout -b
     co = !sh -c \"git checkout $(git branch | fzf)\"
+    ls = "!f() { git ls-files; git ls-files --others --exclude-standard; }; f"
 	last = log -1 HEAD
     save = stash save -u
 	amend = commit -a --amend --no-edit
