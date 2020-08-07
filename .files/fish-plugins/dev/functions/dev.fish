@@ -1,1 +1,2 @@
-abbr -a dev 'cd ~/Development/dev-xp'
+abbr -a dev 'cd ~/Development'
+abbr -a xp 'cd ~/Development/dev-xp'
