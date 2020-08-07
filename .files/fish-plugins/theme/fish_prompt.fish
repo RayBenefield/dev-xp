@@ -55,7 +55,7 @@ function fish_prompt
   set -g __fish_git_prompt_showstashstate true
   set -g __fish_git_prompt_show_informative_status true 
  
-  set -l dir (pwd | string replace '/' '' | string replace -i 'Users/RayBenefield/' '' | string replace 'mnt/c/' '' | string replace -i 'Development/dev-xp' 'Dev XP' | string replace -a '/' '  ')
+  set -l dir (pwd | string replace '/' '' | string replace -i 'Users/RayBenefield/' '' | string replace -i 'home/RayBenefield/' '' | string replace 'mnt/c/' '' | string replace -i 'Development/dev-xp' 'Dev XP' | string replace -a '/' '  ')
 
   # Line 1
   echo -n $cyan╭$black$bgcyan $USER $bgblue$cyan $dir $bgnormal$blue$turquoise
