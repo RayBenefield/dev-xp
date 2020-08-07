@@ -1,3 +1,3 @@
 function rmd
-	rm -rf $args
+	rm -rf $argv
 end
