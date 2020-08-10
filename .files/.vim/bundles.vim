@@ -35,6 +35,10 @@ Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 " Add fuzzy file finding
 Plug 'ctrlpvim/ctrlp.vim'
 
+" Typescript/JSX syntax highlighting
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+
 " Add filetype icons to relevant locations
 " IMPORTANT: Must always be last, and requires patching font... see readme
 Plug 'ryanoasis/vim-devicons'
