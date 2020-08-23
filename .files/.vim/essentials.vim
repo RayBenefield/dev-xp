@@ -38,6 +38,8 @@ nmap <LEADER>n :NERDTreeToggle<CR>
 " Enables syntax highlighting
 syntax enable
 
+nnoremap <F5> :source $MYVIMRC<CR>
+
 " Disable arrow movement, resize splits instead.
 let g:elite_mode=1
 if get(g:, 'elite_mode')
