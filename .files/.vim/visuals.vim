@@ -56,3 +56,8 @@ let g:javascript_conceal_undefined                 = "¿"
 let g:javascript_conceal_return                    = "⏎"
 let g:javascript_conceal_noarg_arrow_function      = "⏣"
 let g:javascript_conceal_underscore_arrow_function = "⏘"
+
+" When sourcing the vimrc, the dev-icons reveal the concealing brackets
+if exists('g:loaded_webdevicons')
+    call webdevicons#refresh()
+endif
