@@ -1,0 +1,203 @@
+﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#SingleInstance force
+; #Warn  ; Enable warnings to assist with detecting common errors.
+SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
+SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
+
+GroupAdd, tabs, ahk_exe chrome.exe
+GroupAdd, tabs, ahk_exe Designer.exe
+GroupAdd, tabs, ahk_exe Hyper.exe
+GroupAdd, chrome, ahk_exe chrome.exe, , , Google Keep
+
+;RCtrl::RWin
+;RWin::RCtrl
+;LCtrl::LWin
+;LWin::LCtrl
+
+F12::Send, {AppsKey}
+F1::Send, {F2}
+
+#IfWinActive ahk_exe Hyper.exe
+    $#v::
+    $^v::
+        Send, ^+v
+    return
+    #q::
+        WinKill ahk_exe Hyper.exe
+    return
+#IfWinActive
+
+F3::
+	path := Explorer_GetPath()
+	all := Explorer_GetAll()
+	sel := Explorer_GetSelected()
+	MsgBox %path%
+	MsgBox %all%
+	MsgBox %sel%
+return
+
+#IfWinActive ahk_exe explorer.exe
+    $^Backspace::^d
+#IfWinActive
+
+#IfWinActive ahk_group chrome
+    $#l:: Send, {Alt down}d{Alt up}
+    $#+t::
+    $^+t::
+        Send, {Ctrl down}{Shift Down}t{Shift Up}{Ctrl Up}
+    Return
+    $#Left:: Send, {Alt down}{Left}{Alt Up}
+    $#Right:: Send, {Alt down}{Right}{Alt Up}
+    $^h:: Send, {Alt down}{Left}{Alt Up}
+    $^l:: Send, {Alt down}{Right}{Alt Up}
+#IfWinActive
+
+#IfWinActive Google Keep
+    $^h:: Send, {CTRL DOWN}![{CTRL UP}
+    $^l:: Send, {CTRL DOWN}!]{CTRL UP}
+    $^j:: Send, +{TAB}N{TAB}{END}
+    $^k:: Send, +{TAB}P{TAB}{END}
+    $^!k:: Send, +{TAB}p{TAB}{END}
+    $^!j:: Send, +{TAB}n{TAB}{END}
+    $^b:: Send, ^+8
+    $^Space::Send, +{TAB}{Space}n{TAB}
+#IfWinActive
+
+#IfWinActive ahk_group tabs
+    $#+]:: Send, ^{Tab}
+    $#+[:: Send, ^+{Tab}
+#IfWinActive
+
+#c::Send, ^c 
+#v::Send, ^v
+#x::Send, ^x
+#w::Send, ^w
+#t::Send, ^t
+#n::Send, ^n
+#q::Send, ^q
+#s::Send, ^s
+#z::Send, ^z
+#f::Send, ^f
+#o::Send, ^o
+#a::Send, ^a
+#k::Send, ^k
+#r::Send, ^r
+#,::Send, ^,
+#+n::Send, ^+n
+#enter:: Send {LCtrl}{Enter}
+
+Help::Send, {AppsKey}
+
+~#d::
+    WinGet, vWinCount, count, A
+    ;MsgBox %vWinCount%
+return
+
+SetTitleMatchMode, 2
+#IfWinActive ahk_exe Notepad.exe
+    ~^s::
+    ~#s::
+        Reload
+    Return
+#IfWinActive
+
+;$RShift::
+;KeyWait, RShift, T0.06
+;If (ErrorLevel = 1)
+;{
+;	Send {Shift Down}
+;	KeyWait, RShift
+;	Send {Shift Up}
+;}
+;Else
+;	Send {$}
+;Return
+
+~RShift::
+Input, Pressed, L1 T0.08 V E C
+if (ErrorLevel = "Max")
+    return
+if (ErrorLevel = "Timeout")
+{
+    if !GetKeyState("RShift", "P")a
+        Send {$}
+    return
+}
+return
+
+~LShift::
+Input, Pressed, L1 T0.08 V E C
+if (ErrorLevel = "Max")
+    return
+if (ErrorLevel = "Timeout")
+{
+    if !GetKeyState("LShift", "P")
+        Send {^}
+    return
+}
+return
+
+$RWin::
+KeyWait, RWin, T0.08
+If (ErrorLevel = 1)
+{
+	Send {RWin Down}
+	KeyWait, RWin
+	Send {RWin Up}
+}
+Else
+	Send {#}
+Return
+
+$RAlt::
+KeyWait, RAlt, T0.08
+If (ErrorLevel = 1)
+{
+	Send {RAlt Down}
+	KeyWait, RAlt
+	Send {RAlt Up}
+}
+Else
+	Send {*}
+Return
+
+^q::Send !{F4}
+return
+
+PreviousApp := ""
+NextIndex := 1
+
+$#`::
+    PID = 0
+    WinGet, hWnd,, A
+    DllCall("GetWindowThreadProcessId", "UInt", hWnd, "UInt *", PID)
+    hProcess := DllCall("OpenProcess",  "UInt", 0x400 | 0x10, "Int", False
+                                     ,  "UInt", PID)
+    PathLength = 260*2
+    VarSetCapacity(FilePath, PathLength, 0)
+    DllCall("Psapi.dll\GetModuleFileNameExW", "UInt", hProcess, "Int", 0
+                                 , "Str", FilePath, "UInt", PathLength)
+    DllCall("CloseHandle", "UInt", hProcess)
+
+    if (PreviousApp != FilePath) {
+        PreviousApp := FilePath
+        NextIndex := 1
+    }
+
+    NextIndex := ++NextIndex
+    WinGet, vWinCount, count, ahk_exe %FilePath%
+    if (NextIndex > vWinCount)
+        NextIndex := vWinCount
+
+    WinGet, vWinList, List, ahk_exe %FilePath%
+    NextWindowId := vWinList%NextIndex%
+    WinActivate, ahk_id %NextWindowId%
+Return
+
+#F12::
+Sleep 1000  ; Give user a chance to release keys (in case their release would wake up the monitor again).
+; Turn Monitor Off:
+SendMessage, 0x112, 0xF170, 2,, Program Manager  ; 0x112 is WM_SYSCOMMAND, 0xF170 is SC_MONITORPOWER.
+; Note for the above: Use -1 in place of 2 to turn the monitor on.
+; Use 1 in place of 2 to activate the monitor's low-power mode.
+return
