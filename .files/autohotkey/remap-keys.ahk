@@ -223,3 +223,7 @@ SendMessage, 0x112, 0xF170, 2,, Program Manager  ; 0x112 is WM_SYSCOMMAND, 0xF17
 ; Note for the above: Use -1 in place of 2 to turn the monitor on.
 ; Use 1 in place of 2 to activate the monitor's low-power mode.
 return
+
+#IfWinActive ahk_exe ssn.exe
+    !Backspace::Send, !{DEL}
+#IfWinActive
