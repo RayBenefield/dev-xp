@@ -191,6 +191,31 @@ $#`::
     WinActivate, ahk_id %NextWindowId%
 Return
 
+#d::
+    WinGet, active, ProcessName, A
+
+    collapse := active != "ssn.exe"
+
+    WinGet, List, List  ;get the list of all windows
+    Loop % List  ;or use this loop to minimze the windows
+    {
+        WinGet, app, ProcessName, % "ahk_id " List%A_Index%
+        if (app != "ssn.exe") {
+            if (collapse)
+                WinMinimize, % "ahk_id " List%A_Index%
+            else
+                WinActivate, % "ahk_id " List%A_Index%
+        } else {
+            if (collapse)
+                WinActivate, % "ahk_id " List%A_Index%
+        }
+    }
+    
+    if (collapse) {
+        WinActivate, ahk_exe ssn.exe
+    }
+Return
+
 #F12::
 Sleep 1000  ; Give user a chance to release keys (in case their release would wake up the monitor again).
 ; Turn Monitor Off:
