@@ -226,9 +226,6 @@ else
 {
     run, "C:\Users\RayBenefield\Links\LastPass"
     WinActivate, LastPass Desktop
-    Sleep, 1000
-    CoordMode, Mouse, Window
-    Click, 490, 90
 }
 return ;
 
