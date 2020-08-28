@@ -90,11 +90,6 @@ return
 
 Help::Send, {AppsKey}
 
-~#d::
-    WinGet, vWinCount, count, A
-    ;MsgBox %vWinCount%
-return
-
 SetTitleMatchMode, 2
 #IfWinActive ahk_exe Notepad.exe
     ~^s::
