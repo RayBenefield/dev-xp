@@ -18,8 +18,12 @@ Loop {
     }
     WinGet, id, ID, A
 
-    if (id = previousWindow)
+    if (id = previousWindow) {
         Sleep, 1000
+        WinGet, id, ID, A
+        if (id != previousWindow)
+            Continue
+    }
 
     previousWindow := id
 
