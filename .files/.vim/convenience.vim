@@ -34,10 +34,7 @@ function ReloadScript()
     let l:filepath = expand("%:p")
 
     if l:filepath !~ '^fugitive'
-        let l:replacedrive = substitute(filepath, "/mnt/c/", "C:\\", "g")
-        let l:windowspath = "\"" . substitute(replacedrive, "/", "\\", "g") . "\""
-
-        silent execute "!" . l:ahk . " " . l:windowspath
+        silent execute "!" . l:ahk . " " . l:filepath
         redraw!
     endif
 endfunction
