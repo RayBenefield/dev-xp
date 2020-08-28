@@ -80,17 +80,36 @@ Loop {
     CoordMode, Mouse, Screen
     MouseGetPos, x, y
 
+    monitorArea := monitorWidth * monitorHeight
+    windowArea := width * height
+
+    smallWindow := windowArea < monitorArea/4
+
     if (monitorWidth >= monitorHeight) {
         ;MsgBox, Landscape
         if (leftDist <= rightDist) {
             ;MsgBox, Left Side
-            Send, !h
+            if (!smallWindow) {
+                Send, !h
+            } else {
+                if (topDist >= bottomDist)
+                    WinMove, ahk_id %id%, , monitorLeft, monitorBottom - height
+                else
+                    WinMove, ahk_id %id%, , monitorLeft, monitorTop
+            }
             Continue
         }
 
         if (leftDist > rightDist) {
             ;MsgBox, Right Side
-            Send, !l
+            if (!smallWindow) {
+                Send, !l
+            } else {
+                if (topDist < bottomDist)
+                    WinMove, ahk_id %id%, , monitorRight - width, monitorTop
+                else
+                    WinMove, ahk_id %id%, , monitorRight - width, monitorBottom - height
+            }
             Continue
         }
     }
@@ -99,13 +118,27 @@ Loop {
         ;MsgBox, Portrait
         if (topDist <= bottomDist) {
             ;MsgBox, Top
-            Send, !k
+            if (!smallWindow) {
+                Send, !k
+            } else {
+                if (rightDist >= leftDist)
+                    WinMove, ahk_id %id%, , monitorLeft, monitorTop
+                else
+                    WinMove, ahk_id %id%, , monitorRight - width, monitorTop
+            }
             Continue
         }
 
         if (topDist > bottomDist) {
             ;MsgBox, Bottom
-            Send, !j
+            if (!smallWindow) {
+                Send, !j
+            } else {
+                if (rightDist < leftDist)
+                    WinMove, ahk_id %id%, , monitorRight - width, monitorBottom - height
+                else
+                    WinMove, ahk_id %id%, , monitorLeft, monitorBottom - height
+            }
             Continue
         }
     }
