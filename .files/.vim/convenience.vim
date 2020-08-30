@@ -38,3 +38,6 @@ function ReloadScript()
         redraw!
     endif
 endfunction
+
+nnoremap <leader>j :GitGutterNextHunk<CR>
+nnoremap <leader>k :GitGutterPrevHunk<CR>
