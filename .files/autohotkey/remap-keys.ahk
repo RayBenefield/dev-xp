@@ -44,7 +44,8 @@ F4::
 return
 
 #IfWinActive ahk_exe explorer.exe
-    $^Backspace::^d
+    $^Backspace::Send, ^d
+    $#l::Send, !d
 #IfWinActive
 
 #IfWinActive ahk_group chrome
