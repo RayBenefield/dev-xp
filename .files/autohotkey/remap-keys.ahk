@@ -24,6 +24,7 @@ F1::Send, {F2}
     $^v::
         Send, ^+v
     return
+    $#w::Send, ^!w
     #q::
         WinKill ahk_exe Hyper.exe
     return
