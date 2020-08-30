@@ -13,7 +13,7 @@ module.exports = {
 
         // font family with optional fallbacks
         fontFamily:
-            '"SauceCodePro Nerd Font", "Source Code Pro", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+            '"SauceCodePro NF", "Source Code Pro", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
         // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
         cursorColor: '#ccc',
@@ -29,9 +29,6 @@ module.exports = {
 
         // terminal background color
         backgroundColor: '#000',
-
-        // border color (window, tabs)
-        borderColor: '#333',
 
         // custom css to embed in the main window
         css: `
