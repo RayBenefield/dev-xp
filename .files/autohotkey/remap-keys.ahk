@@ -233,3 +233,5 @@ return
 #IfWinActive ahk_exe ssn.exe
     !Backspace::Send, !{DEL}
 #IfWinActive
+
+#Tab::Send, !{Tab}
