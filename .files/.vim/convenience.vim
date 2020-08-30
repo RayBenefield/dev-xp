@@ -19,6 +19,13 @@ set incsearch
 let g:ctrlp_map = '<LEADER>p'
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_user_command = 'git ls'
+let g:ctrlp_prompt_mappings = {
+    \'AcceptSelection("e")': ['<cr>'],
+    \'AcceptSelection("h")': ['<c-s>'],
+    \'AcceptSelection("t")': ['<c-t>'],
+    \'AcceptSelection("v")': ['<c-n>'],
+    \'PrtHistory(-1)':       ['<c-=>'],
+\}
 
 " Find current file in NerdTree
 nnoremap <LEADER>f :NERDTreeFind<CR>
