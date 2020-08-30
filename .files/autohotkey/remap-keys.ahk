@@ -24,7 +24,11 @@ F1::Send, {F2}
     $^v::
         Send, ^+v
     return
-    $#w::Send, ^!w
+    $#w::
+        SEND, exit{ENTER}
+        Sleep, 100
+        SEND, {CTRL DOWN}{ALT DOWN}w{ALT UP}{CTRL UP}
+    RETURN
     #q::
         WinKill ahk_exe Hyper.exe
     return
