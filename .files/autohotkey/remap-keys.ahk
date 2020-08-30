@@ -29,7 +29,11 @@ F1::Send, {F2}
     return
 #IfWinActive
 
-F3::
+#IfWinActive ahk_exe Mailbird.exe
+    $/::Send, {F3}
+#IfWinActive
+
+F4::
 	path := Explorer_GetPath()
 	all := Explorer_GetAll()
 	sel := Explorer_GetSelected()
