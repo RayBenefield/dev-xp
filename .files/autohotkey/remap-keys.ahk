@@ -235,7 +235,11 @@ SendMessage, 0x112, 0xF170, 2,, Program Manager  ; 0x112 is WM_SYSCOMMAND, 0xF17
 return
 
 #IfWinActive ahk_exe ssn.exe
-    !Backspace::Send, !{DEL}
+    $!Backspace::Send, !{DEL}
+    $!s::
+        Send, !a
+        Send, +{TAB}+{TAB}{ENTER}
+    RETURN
 #IfWinActive
 
 #Tab::Send, !{Tab}
