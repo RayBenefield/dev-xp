@@ -35,7 +35,7 @@ F1::Send, {F2}
 #IfWinActive
 
 #IfWinActive ahk_exe Mailbird.exe
-    $/::Send, {F3}
+    $^/::Send, {F3}
 #IfWinActive
 
 F4::
