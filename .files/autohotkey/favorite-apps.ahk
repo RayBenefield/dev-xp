@@ -229,6 +229,34 @@ else
 }
 return ;
 
+$#+^l::
+    SetTitleMatchMode, 2
+    IfWinNotExist, LastPass for Windows Desktop
+    {
+        run, "C:\Users\RayBenefield\Links\LastPass"
+    } else {
+        WinActivate, LastPass for Windows Desktop
+        Sleep, 200
+        CoordMode, Mouse, Window
+        Click, 2080, 1820
+        Sleep, 100
+        Send, {TAB}{TAB}{TAB}{ENTER}
+        Click, 2130, 1880
+        Sleep, 100
+        Send, ^{TAB}{ENTER}
+        Sleep, 300
+        Click, 1000, 730
+        Sleep, 100
+        Send, #a
+        Sleep, 100
+        Send, #c
+        Sleep, 100
+        Send, +{TAB}+{TAB}{ENTER}
+        Sleep, 100
+        Send, {TAB}{TAB}
+    }
+return ;
+
 ~Capslock & `::
 if WinExist("Window Spy") {
     WinClose, Window Spy
