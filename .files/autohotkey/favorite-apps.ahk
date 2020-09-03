@@ -266,3 +266,16 @@ if WinExist("Window Spy") {
     WinActivate, currentWindow
 }
 Return
+
+~Capslock & BS::
+SetTitleMatchMode, 2
+IfWinExist, ahk_exe taskmgr.exe
+{
+    WinActivate, ahk_exe taskmgr.exe
+}
+else
+{
+    run, "C:\WINDOWS\system32\Taskmgr.exe"
+    WinActivate, ahk_exe taskmgr.exe
+}
+return ;
