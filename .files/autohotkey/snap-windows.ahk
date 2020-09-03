@@ -94,7 +94,7 @@ Loop {
         if (leftDist <= rightDist) {
             ;MsgBox, Left Side
             if (!smallWindow) {
-                Send, !h
+                Send, ^!+#h
             } else {
                 if (topDist >= bottomDist)
                     WinMove, ahk_id %id%, , monitorLeft, monitorBottom - height
@@ -107,7 +107,7 @@ Loop {
         if (leftDist > rightDist) {
             ;MsgBox, Right Side
             if (!smallWindow) {
-                Send, !l
+                Send, ^!+#l
             } else {
                 if (topDist < bottomDist)
                     WinMove, ahk_id %id%, , monitorRight - width, monitorTop
@@ -123,7 +123,7 @@ Loop {
         if (topDist <= bottomDist) {
             ;MsgBox, Top
             if (!smallWindow) {
-                Send, !k
+                Send, ^!+#k
             } else {
                 if (rightDist >= leftDist)
                     WinMove, ahk_id %id%, , monitorLeft, monitorTop
@@ -136,7 +136,7 @@ Loop {
         if (topDist > bottomDist) {
             ;MsgBox, Bottom
             if (!smallWindow) {
-                Send, !j
+                Send, ^!+#j
             } else {
                 if (rightDist < leftDist)
                     WinMove, ahk_id %id%, , monitorRight - width, monitorBottom - height
