@@ -239,6 +239,7 @@ return
     $!s::
         Send, !a
         Send, +{TAB}+{TAB}{ENTER}
+        Send, {ESC}
     RETURN
 #IfWinActive
 
