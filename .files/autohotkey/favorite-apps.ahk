@@ -271,7 +271,7 @@ Return
 SetTitleMatchMode, 2
 IfWinExist, ahk_exe taskmgr.exe
 {
-    WinActivate, ahk_exe taskmgr.exe
+    WinClose, ahk_exe taskmgr.exe
 }
 else
 {
