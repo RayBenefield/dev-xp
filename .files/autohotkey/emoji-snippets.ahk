@@ -32,7 +32,7 @@ pasteEmoji(emoji, defaultValue:=3) {
     GuiControl +g, Submit, % inputEmojis
 
     CoordMode, Mouse, Screen
-    MouseGetPos, x, y
+    WinGetPos, x, y, , , A
 
     Gui, Show, x%x% y%y%, Insert %emoji%
 
