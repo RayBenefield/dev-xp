@@ -93,3 +93,7 @@ ArrayContains(haystack, needle)
             return index
     return 0
 }
+
+~Capslock::
+    Gui, Hide
+return 
