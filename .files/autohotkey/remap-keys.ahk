@@ -72,7 +72,12 @@ return
     $^!k:: Send, +{TAB}p{TAB}{END}
     $^!j:: Send, +{TAB}n{TAB}{END}
     $^b:: Send, ^+8
-    $^Space::Send, +{TAB}{Space}n{TAB}
+    $^Space::
+        Send, +{TAB}{SPACE}n{TAB}
+        Sleep, 100
+        Send, {ESC}
+        Sleep, 200
+        Send, {ENTER}
 #IfWinActive
 
 #IfWinActive ahk_group tabs
