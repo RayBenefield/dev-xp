@@ -133,7 +133,7 @@ IfWinExist, ahk_exe Discord.exe
 }
 else
 {
-    run, "C:\Users\RayBenefield\AppData\Local\Discord\app-0.0.306\Discord.exe"
+    run, C:\Users\RayBenefield\AppData\Local\Discord\Update.exe --processStart Discord.exe
     WinActivate, ahk_exe Discord.exe
 }
 return ;
