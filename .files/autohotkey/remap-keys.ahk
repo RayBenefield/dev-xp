@@ -137,14 +137,16 @@ if (ErrorLevel = "Timeout")
 }
 return
 
+conflict=0
 ~LShift::
 Input, Pressed, L1 T0.08 V E C
 if (ErrorLevel = "Max")
     return
 if (ErrorLevel = "Timeout")
 {
-    if !GetKeyState("LShift", "P")
+    if (!GetKeyState("LShift", "P") and !conflict)
         Send {^}
+    conflict=0
     return
 }
 return
@@ -158,7 +160,11 @@ If (ErrorLevel = 1)
 	Send {RWin Up}
 }
 Else
-	Send {#}
+{
+    conflict=1
+    SendLevel 1
+    Send {#}
+}
 Return
 
 $RAlt::
@@ -170,7 +176,11 @@ If (ErrorLevel = 1)
 	Send {RAlt Up}
 }
 Else
+{
+    conflict=1
+    SendLevel 1
 	Send {*}
+}
 Return
 
 ^q::Send !{F4}
