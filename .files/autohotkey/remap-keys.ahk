@@ -62,6 +62,7 @@ return
     $#Right:: Send, {Alt down}{Right}{Alt Up}
     $^h:: Send, {Alt down}{Left}{Alt Up}
     $^l:: Send, {Alt down}{Right}{Alt Up}
+    $#f:: Send, /
 #IfWinActive
 
 #IfWinActive Google Keep
