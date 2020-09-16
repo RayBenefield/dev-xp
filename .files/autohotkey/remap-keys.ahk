@@ -277,4 +277,8 @@ return
     $!Backspace::Send, !{DEL}
 #IfWinActive
 
+#IfWinActive ahk_exe taskmgr.exe
+    $#w::Send, !e
+#IfWinActive
+
 #Tab::Send, !{Tab}
