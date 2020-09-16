@@ -40,7 +40,7 @@ function ReloadScript()
     let l:ahk = 'timeout 1s "/mnt/c/Program Files/AutoHotkey/AutoHotkey.exe" /r'
     let l:filepath = expand("%:p")
 
-    if l:filepath !~ '^fugitive'
+    if l:filepath !~ '^fugitive' && l:filepath !~ '.*/Lib/.*'
         silent execute "!" . l:ahk . " " . l:filepath
         redraw!
     endif
