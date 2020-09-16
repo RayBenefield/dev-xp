@@ -19,6 +19,14 @@ GroupAdd, chrome, ahk_exe chrome.exe, , , Google Keep
 F12::Send, {AppsKey}
 F1::Send, {F2}
 
+#IfWinActive ahk_exe Designer.exe
+    F2::
+        Send, ^+]
+        CoordMode, Mouse, Screen
+        Click, 1840, 700
+    Return
+#IfWinActive
+
 #IfWinActive ahk_exe Hyper.exe
     $#v::
     $^v::
