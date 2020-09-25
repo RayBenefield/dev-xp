@@ -151,19 +151,59 @@ Loop {
 GetMonitor(hwnd := 0) {
 ; If no hwnd is provided, use the Active Window
     if (hwnd)
-        WinGetPos, winX, winY, winW, winH, ahk_id %hwnd%
+        WinGetPos, x, y, width, height, ahk_id %hwnd%
     else
-        WinGetActiveStats, winTitle, winW, winH, winX, winY
+        WinGetActiveStats, winTitle, width, height, x, y
 
     SysGet, numDisplays, MonitorCount
     SysGet, idxPrimary, MonitorPrimary
 
-    Loop %numDisplays%
-    {   SysGet, mon, MonitorWorkArea, %a_index%
-    ; Tracked based on X. Cannot properly sense on Windows "between" monitors
-        if (winX >= monLeft - 15 && winX < monRight + 15)
-            return %a_index%
+    SysGet, monitor1, MonitorWorkArea, 1
+    SysGet, monitor2, MonitorWorkArea, 2
+    winLeft := x
+    winTop := y
+    winRight := x + width
+    winBottom := y + height
+    ;MsgBox %winTitle%`nWinTop:`t%winTop%`tBottom:`t%winBottom%`tLeft:`t%winLeft%`tRight:`t%winRight%`n`nMonitor 1`nMonTop:`t%monitor1Top%`tBottom:`t%monitor1Bottom%`tLeft:`t%monitor1Left%`tRight:`t%monitor1Right%`n`nMonitor 2`nMonTop:`t%monitor2Top%`tBottom:`t%monitor2Bottom%`tLeft:`t%monitor2Left%`tRight:`t%monitor2Right%
+    
+
+    pass := []
+    Loop %numDisplays% {
+        SysGet, monitor, MonitorWorkArea, %a_index%
+        topDist := abs(winTop - monitorTop)
+        leftDist := abs(winLeft - monitorLeft)
+        rightDist := abs(winRight - monitorRight)
+        bottomDist := abs(winBottom - monitorBottom)
+
+        pass.push(0)
+        ;MsgBox, Monitor Right [%monitorRight%] > Win X [%x%] >= Monitor Left [%monitorLeft%]`nRight Distance: %rightDist%`tLeft Distance: %leftDist%
+        ; Tracked based on X. Cannot properly sense on Windows "between" monitors
+        if (winLeft > monitorLeft - 15)
+            pass[a_index] := pass[a_index] + 1
+        if (winLeft <= monitorRight + 15)
+            pass[a_index] := pass[a_index] + 1
+        if (winRight > monitorLeft - 15)
+            pass[a_index] := pass[a_index] + 1
+        if (winRight < monitorRight + 15)
+            pass[a_index] := pass[a_index] + 1
+
+        ;MsgBox, % "Passes " . a_index . ": " . pass[a_index]
     }
-; Return Primary Monitor if can't sense
-    return idxPrimary
+
+    chosenMonitor := idxPrimary
+    mostPasses := 0
+    Loop %numDisplays% {
+        if (pass[a_index] > mostPasses) {
+            mostPasses := pass[a_index]
+            chosenMonitor := a_index
+        }
+    }
+
+            ;MsgBox, %winTitle% is on Monitor %a_index%`nMonitor Right [%monitorRight%] > Win X [%x%] >= Monitor Left [%monitorLeft%]`nRight Distance: %rightDist%`tLeft Distance: %leftDist%
+            ;return %a_index%
+
+    ;MsgBox, %chosenMonitor%
+    ;MsgBox, Default to Primary
+    ; Return Primary Monitor if can't sense
+    return chosenMonitor
 }
