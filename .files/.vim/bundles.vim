@@ -43,6 +43,9 @@ Plug 'peitalin/vim-jsx-typescript'
 " IMPORTANT: Must always be last, and requires patching font... see readme
 Plug 'ryanoasis/vim-devicons'
 
+" Focus mode for things like creating script outlines
+Plug 'junegunn/goyo.vim'
+
 call plug#end()
 
 " Automatically re-source vimrc when a *.vim file is saved
