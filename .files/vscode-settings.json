@@ -1,0 +1,74 @@
+{
+    "editor.fontFamily": "Source Cod Pro, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 8,
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "explorer.confirmDelete": false,
+    "files.exclude": {
+        "**/*.js.snap": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/node_modules": false,
+        "node_modules": true
+    },
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "markdown.preview.fontSize": 8,
+    "prettier.arrowParens": "avoid",
+    "prettier.bracketSpacing": true,
+    "prettier.proseWrap": "always",
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "es5",
+    "search.exclude": {
+        "**/*.js.snap": true,
+        "**/bower_components": true,
+        "**/node_modules": false,
+        "node_modules": true
+    },
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontFamily": "Source Code Pro",
+    "terminal.integrated.fontSize": 8,
+    "vim.easymotion": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "after": ["<Esc>"],
+            "before": ["j", "k"]
+        }
+    ],
+    "vim.leader": ";",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "after": ["m", "a", "o", "<esc>", "`", "a"],
+            "before": ["]", "<space>"]
+        },
+        {
+            "after": ["m", "a", "O", "<esc>", "`", "a"],
+            "before": ["[", "<space>"]
+        },
+        {
+            "after": ["g", "j"],
+            "before": ["j"]
+        },
+        {
+            "after": ["g", "k"],
+            "before": ["k"]
+        }
+    ],
+    "window.zoomLevel": 2,
+    "workbench.editor.showTabs": true,
+    "workbench.startupEditor": "welcomePage",
+    "workbench.colorTheme": "Night Owl",
+    "files.defaultLanguage": "markdown",
+    "workbench.sideBar.location": "right",
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "terminal.integrated.rendererType": "dom",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false
+}
