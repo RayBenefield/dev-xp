@@ -1,3 +1,4 @@
 {
-    "ignoreRoot": [".git", "./node_modules"]
+    "ignoreRoot": [".git", "./node_modules"],
+    "ext": "js, json, lua"
 }
