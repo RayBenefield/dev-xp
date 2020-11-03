@@ -75,7 +75,7 @@
         "watch": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules --exec npm-run-all test lint sloc",
         "?postrewrite": "echo Update what commits git tags are pointing to after an amend/rebase. -- ./dx/rewrite-tags",
         "come-at-me": "cd src/node_modules && babel-node come-at-me/cli.js",
-        "rx": "cd src/node_modules/rxcore && busted test.lua",
+        "rx": "cd src/node_modules/rxcore && busted ./tests/**/*.lua",
         "watchrx": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/rxcore/ --exec yarn rx"
     },
     "dependencies": {
