@@ -50,8 +50,6 @@
         "test:tape": "cd src/node_modules && babel-tape-runner {**,**/**}/tests.js | tap-spec",
         "?test:kape": "echo Run tests using and for Kape.",
         "test:kape": "cd src/node_modules && babel-node kape/cli.js {**,**/**}/snapshot-tests.js",
-        "?test:rx": "echo Run tests for rx-core in lua.",
-        "test:rx": "yarn run rx",
         "?rai:test": "echo Test intents with rampant server running.",
         "rai:test": "yarn run entyre src/node_modules/@rampant/ai/intent-tests.js",
         "?kape": "echo Run kape tests.",
@@ -77,8 +75,12 @@
         "watch": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules --exec npm-run-all test lint sloc",
         "?postrewrite": "echo Update what commits git tags are pointing to after an amend/rebase. -- ./dx/rewrite-tags",
         "come-at-me": "cd src/node_modules && babel-node come-at-me/cli.js",
-        "rx": "cd src/node_modules/rxcore && busted ./tests/**/*.lua -o ../busted-tap-spec/tap-spec.lua | tap-spec",
-        "watchrx": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/rxcore/ --exec yarn rx"
+        "?test:rx": "echo Run tests for rx-core in lua.",
+        "test:rx": "cd src/node_modules/rxcore && busted ./tests/**/*.lua -o ../busted-tap-spec/tap-spec.lua | tap-spec",
+        "?build:rx": "echo Build into the rx-core demo project.",
+        "build:rx": "cd src/node_modules/rxcore && luabundler bundle ./rx/init.lua -p ./?.lua -o '/mnt/c/Users/RayBenefield/Dropbox/My PC (Ray-PC)/Documents/My Games/CORE/Saved/Maps/rx-core demo/Data/Scripts/rx.lua'",
+        "deploy:rx": "npm-run-all test:rx build:rx",
+        "watchrx": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/rxcore/ --exec yarn deploy:rx"
     },
     "dependencies": {
         "@mixer/client-node": "^3.4.0",
