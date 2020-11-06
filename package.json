@@ -80,6 +80,7 @@
         "?build:rx": "echo Build into the rx-core demo project.",
         "build:rx": "cd src/node_modules/rxcore && luabundler bundle ./rx/init.lua -p ./?.lua -o '/mnt/c/Users/RayBenefield/Dropbox/My PC (Ray-PC)/Documents/My Games/CORE/Saved/Maps/rx-core demo/Data/Scripts/rx.lua'",
         "deploy:rx": "npm-run-all test:rx build:rx",
+        "devrx": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/rxcore/ --exec yarn test:rx",
         "watchrx": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/rxcore/ --exec yarn deploy:rx"
     },
     "dependencies": {
