@@ -48,3 +48,6 @@ if get(g:, 'elite_mode')
     nnoremap <Left>  :vertical resize +2<CR>
     nnoremap <Right> :vertical resize -2<CR>
 endif
+
+" Smart casing search
+set smartcase 
