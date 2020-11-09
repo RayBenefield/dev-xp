@@ -91,7 +91,7 @@ IfWinExist, Google Keep
 }
 else
 {
-    run, "C:\Users\RayBenefield\Desktop\Google Keep"
+    run, "C:\Users\RayBenefield\Dropbox\My PC (Ray-PC)\Desktop\Google Keep"
     WinActivate, Google Keep
 }
 return ;
@@ -107,20 +107,6 @@ else
 {
     run, "C:\Program Files\Elgato\StreamDeck\StreamDeck.exe"
     WinActivate, ahk_exe StreamDeck.exe
-}
-return ;
-
-#6::
-~Capslock & 6::
-SetTitleMatchMode, 2
-IfWinExist, Startup
-{
-    WinActivate, Startup
-}
-else
-{
-    run, explorer ""C:\Users\RayBenefield\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup""
-    WinActivate, Startup
 }
 return ;
 
@@ -189,30 +175,46 @@ return ;
 #-::
 ~Capslock & -::
 SetTitleMatchMode, 2
-IfWinExist, ahk_exe Designer.exe
+IfWinExist, ahk_exe Code.exe
 {
-    WinActivate, ahk_exe Designer.exe
+    WinActivate, ahk_exe Code.exe
 }
 else
 {
-    Run, "C:\Program Files\Affinity\Designer\Designer.exe"
-    WinActivate, ahk_exe Designer.exe
+    ;run, explorer ""C:\Users\RayBenefield\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup""
+    run, C:\Users\RayBenefield\AppData\Local\Programs\Microsoft VS Code\Code.exe
+    WinActivate, ahk_exe Code.exe
 }
 return ;
 
 #=::
 ~Capslock & =::
 SetTitleMatchMode, 2
-IfWinExist, ahk_exe PhraseExpress.exe
+IfWinExist, "Core"
 {
-    WinActivate, ahk_exe PhraseExpress.exe
+    WinActivate, "Core"
 }
 else
 {
-    run, "C:\Program Files (x86)\PhraseExpress\phraseexpress.exe"
-    WinActivate, ahk_exe PhraseExpress.exe
+    Run, "C:\ProgramData\Manticore Games\Launcher\Core Launcher.exe"
+    WinActivate, "Core"
 }
 return ;
+
+
+; #=::
+; ~Capslock & =::
+; SetTitleMatchMode, 2
+; IfWinExist, ahk_exe PhraseExpress.exe
+; {
+    ; WinActivate, ahk_exe PhraseExpress.exe
+; }
+; else
+; {
+    ; run, "C:\Program Files (x86)\PhraseExpress\phraseexpress.exe"
+    ; WinActivate, ahk_exe PhraseExpress.exe
+; }
+; return ;
 
 #+l::
 SetTitleMatchMode, 2
