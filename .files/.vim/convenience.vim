@@ -6,6 +6,9 @@
 nnoremap j gj
 nnoremap k gk
 
+" Format document
+nnoremap g= gg=G``
+
 " Ignores the casing when searching
 set smartcase
 
