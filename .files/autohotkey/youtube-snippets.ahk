@@ -50,7 +50,7 @@ global filenames := [
     "37-just-do-it",
     "38-greatest-enemy",
     "39-trial-by-fire",
-    "40-hesitation"
+    "40-day-0-minotaur"
 )]
 
 ids := [
@@ -93,11 +93,12 @@ ids := [
     "zxHcDaFLxMQ",
     "2fsDeH0t0rY",
     "alDPIG4Evh4",
-    "POu0Ei2CvpU"
+    "POu0Ei2CvpU",
+    "nrm8O_4rJGI"
 )]
 
 global max := 40
-global latest := 39
+global latest := 40
 global current := latest
 global total := 0
 
