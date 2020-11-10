@@ -50,7 +50,16 @@ global filenames := [
     "37-just-do-it",
     "38-greatest-enemy",
     "39-trial-by-fire",
-    "40-day-0-minotaur"
+    "40-day-0-minotaur",
+    "41-day-1-minotaur",
+    "42-day-2-minotaur",
+    "43-day-3-minotaur",
+    "44-day-4-minotaur",
+    "45-day-5-minotaur",
+    "46-day-6-minotaur",
+    "47-day-7-minotaur",
+    "48-day-x-minotaur",
+    "49-day-minotaur-future"
 )]
 
 ids := [
@@ -94,11 +103,12 @@ ids := [
     "2fsDeH0t0rY",
     "alDPIG4Evh4",
     "POu0Ei2CvpU",
-    "nrm8O_4rJGI"
+    "nrm8O_4rJGI",
+    "L4cBAQLrboI"
 )]
 
-global max := 40
-global latest := 40
+global max := 49
+global latest := 41
 global current := latest
 global total := 0
 
@@ -114,7 +124,7 @@ id := ids[current]
 ::minotaur::Minotaur Maze: 1676-6495-8269
 ::risk::Risk: 0345-2250-3171
 ::forever::Forever Fights: 7987-4279-7746
-F18::
++F17::
     current := latest
     file := filenames[current]
     MsgBox, %file%
