@@ -6,6 +6,9 @@
 nnoremap j gj
 nnoremap k gk
 
+nnoremap g; :bp<CR>
+nnoremap gn :bn<CR>
+
 " Format document
 nnoremap g= gg=G``
 
