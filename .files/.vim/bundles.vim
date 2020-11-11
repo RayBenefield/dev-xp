@@ -46,6 +46,9 @@ Plug 'ryanoasis/vim-devicons'
 " Focus mode for things like creating script outlines
 Plug 'junegunn/goyo.vim'
 
+" Comment management
+Plug 'tpope/vim-commentary'
+
 call plug#end()
 
 " Automatically re-source vimrc when a *.vim file is saved
