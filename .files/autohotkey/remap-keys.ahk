@@ -46,14 +46,14 @@ F1::Send, {F2}
     $^/::Send, {F3}
 #IfWinActive
 
-F4::
-	path := Explorer_GetPath()
-	all := Explorer_GetAll()
-	sel := Explorer_GetSelected()
-	MsgBox %path%
-	MsgBox %all%
-	MsgBox %sel%
-return
+; F4::
+; 	path := Explorer_GetPath()
+; 	all := Explorer_GetAll()
+; 	sel := Explorer_GetSelected()
+; 	MsgBox %path%
+; 	MsgBox %all%
+; 	MsgBox %sel%
+; return
 
 #IfWinActive ahk_exe explorer.exe
     $^Backspace::Send, ^d
