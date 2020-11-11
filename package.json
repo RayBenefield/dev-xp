@@ -78,7 +78,7 @@
         "?test:rx": "echo Run tests for rx-core in lua.",
         "test:rx": "cd src/node_modules/rxcore && busted ./tests/**/*.lua -o ../busted-tap-spec/tap-spec.lua | tap-spec",
         "?build:rx": "echo Build into the rx-core demo project.",
-        "dev:rx": "cd src/node_modules/rxcore && luabundler bundle ./rx/init.lua -p ./?.lua -o '/mnt/c/Users/RayBenefield/Dropbox/My PC (Ray-PC)/Documents/My Games/CORE/Saved/Maps/rx-core demo/Data/Scripts/rx.lua'",
+        "dev:rx": "cd src/node_modules/rxcore && luabundler bundle ./rx/init.lua -p ./?.lua -o '/mnt/c/Users/RayBenefield/Dropbox/My PC (Ray-PC)/Documents/My Games/CORE/Saved/Maps/Minotaur/Data/Scripts/rx-new.lua'",
         "watchdev:rx": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/rxcore/ --exec yarn dev:rx",
         "prod:rx": "cd src/node_modules/rxcore && luabundler bundle ./rx/init.lua -p ./?.lua -o '../../../dist/rxcore/rx.lua' && luamin -f '../../../dist/rxcore/rx.lua' > '/mnt/c/Users/RayBenefield/Dropbox/My PC (Ray-PC)/Documents/My Games/CORE/Saved/Maps/rx-core demo/Data/Scripts/rx.lua'",
         "deploy:rx": "npm-run-all test:rx dev:rx",
