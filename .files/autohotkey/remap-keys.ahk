@@ -38,7 +38,7 @@ F1::Send, {F2}
         SEND, {CTRL DOWN}{ALT DOWN}w{ALT UP}{CTRL UP}
     RETURN
     #q::
-        WinKill ahk_exe Hyper.exe
+        WinKill, A
     return
 #IfWinActive
 
