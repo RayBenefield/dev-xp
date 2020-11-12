@@ -109,7 +109,7 @@ ids := [
 )]
 
 global max := 49
-global latest := 42
+global latest := 43
 global current := latest
 global total := 0
 
