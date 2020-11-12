@@ -12,6 +12,12 @@ nnoremap gn :bn<CR>
 " Format document
 nnoremap g= gg=G``
 
+" Default to a global search and replace
+set gdefault
+
+" Ignores the casing when searching
+set smartcase
+
 " Ignores the casing when searching
 set smartcase
 
