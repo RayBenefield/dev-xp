@@ -22,6 +22,7 @@
 	last = log -1 HEAD
     save = stash save -u
 	amend = commit -a --amend --no-edit
+	dif = diff --staged
 	staged = diff --staged
 	pretty = log --graph --oneline --decorate
 	unstage = reset HEAD --
