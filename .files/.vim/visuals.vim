@@ -61,3 +61,5 @@ let g:javascript_conceal_underscore_arrow_function = "⏘"
 if exists('g:loaded_webdevicons')
     call webdevicons#refresh()
 endif
+
+let NERDTreeIgnore=['\.asset\.pbt$', '\~$']
