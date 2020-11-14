@@ -36,7 +36,7 @@ SetTitleMatchMode, 2
     Return
 #IfWinActive
 
-#1::
+; #1::
 ~Capslock & 1::
 ~Capslock & -::
 SetTitleMatchMode, 2
@@ -51,7 +51,7 @@ else
 }
 return ;
 
-#2::
+; #2::
 ~Capslock & 2::
 GroupAdd, chrome, ahk_exe chrome.exe, , , Google Keep
 IfWinExist, ahk_group chrome
@@ -69,7 +69,7 @@ else
 }
 return ;
 
-#3::
+; #3::
 ~Capslock & 3::
 SetTitleMatchMode, 2
 IfWinExist, ahk_exe Mailbird.exe
@@ -84,7 +84,7 @@ else
 }
 return ;
 
-#4::
+; #4::
 ~Capslock & 4::
 IfWinExist, Google Keep
 {
@@ -97,7 +97,7 @@ else
 }
 return ;
 
-#5::
+; #5::
 ~Capslock & 5::
 SetTitleMatchMode, 2
 IfWinExist, ahk_exe StreamDeck.exe
@@ -111,7 +111,7 @@ else
 }
 return ;
 
-#7::
+; #7::
 ~Capslock & 7::
 SetTitleMatchMode, 2
 IfWinExist, ahk_exe Discord.exe
@@ -125,7 +125,7 @@ else
 }
 return ;
 
-#8::
+; #8::
 ~Capslock & 8::
 SetTitleMatchMode, 2
 IfWinExist, ahk_exe Spotify.exe
@@ -139,7 +139,7 @@ else
 }
 return ;
 
-#9::
+; #9::
 ~Capslock & 9::
 SetTitleMatchMode, 2
 GroupAdd, Explorer, ahk_class ExploreWClass
@@ -159,7 +159,7 @@ else
 }
 return ;
 
-#0::
+; #0::
 ~Capslock & 0::
 SetTitleMatchMode, 2
 IfWinExist, ahk_exe obs64.exe
@@ -188,7 +188,7 @@ return ;
 ;}
 ;return ;
 
-#=::
+; #=::
 ~Capslock & =::
 SetTitleMatchMode, 2
 IfWinExist, "Core"
