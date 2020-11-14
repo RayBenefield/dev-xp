@@ -26,10 +26,13 @@ nnoremap <C-H> <C-W><C-H>  " Left
 
 " https://vi.stackexchange.com/questions/2350/how-to-map-alt-key
 " Easier Tab Navigation
+execute "set <C-F>=\e[1;5P"
 nnoremap <C-T> :tabe<CR>
 nnoremap <C-W> :tabc<CR>
 nnoremap <C-[> :tabp<CR>
 nnoremap <C-]> :tabn<CR>
+nnoremap <C-\> :tabe /mnt/c/Users/RayBenefield/Dropbox/My PC (Ray-PC)/Documents/My Games/CORE/Saved/Maps/<CR>
+
 
 " Set leader key to something on the home row
 let mapleader = ";"
