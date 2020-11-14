@@ -38,6 +38,7 @@ SetTitleMatchMode, 2
 
 #1::
 ~Capslock & 1::
+~Capslock & -::
 SetTitleMatchMode, 2
 IfWinExist, ahk_exe Hyper.exe
 {
@@ -172,20 +173,20 @@ else
 }
 return ;
 
-#-::
-~Capslock & -::
-SetTitleMatchMode, 2
-IfWinExist, ahk_exe Code.exe
-{
-    WinActivate, ahk_exe Code.exe
-}
-else
-{
-    ;run, explorer ""C:\Users\RayBenefield\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup""
-    run, C:\Users\RayBenefield\AppData\Local\Programs\Microsoft VS Code\Code.exe
-    WinActivate, ahk_exe Code.exe
-}
-return ;
+;#-::
+;~Capslock & -::
+;SetTitleMatchMode, 2
+;IfWinExist, ahk_exe Code.exe
+;{
+;    WinActivate, ahk_exe Code.exe
+;}
+;else
+;{
+;    ;run, explorer ""C:\Users\RayBenefield\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup""
+;    run, C:\Users\RayBenefield\AppData\Local\Programs\Microsoft VS Code\Code.exe
+;    WinActivate, ahk_exe Code.exe
+;}
+;return ;
 
 #=::
 ~Capslock & =::
