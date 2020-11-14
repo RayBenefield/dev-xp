@@ -61,5 +61,8 @@ endfunction
 nnoremap <leader>j :GitGutterNextHunk<CR>
 nnoremap <leader>k :GitGutterPrevHunk<CR>
 
+nnoremap <leader>] /---<CR>z<CR>
+nnoremap <leader>[ ?---<CR>z<CR>
+
 " Comment string for autohotkey files
 autocmd FileType autohotkey setlocal commentstring=;\ %s
