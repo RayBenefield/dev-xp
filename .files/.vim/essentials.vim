@@ -9,6 +9,7 @@ let g:netrw_dirhistmax=0
 
 " Set encoding for file icons
 set encoding=UTF-8
+set ff=unix
 
 " Home row escape key
 inoremap jk <ESC>
