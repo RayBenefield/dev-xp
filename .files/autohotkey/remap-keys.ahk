@@ -71,6 +71,7 @@ F1::Send, {F2}
     $^h:: Send, {Alt down}{Left}{Alt Up}
     $^l:: Send, {Alt down}{Right}{Alt Up}
     $#f:: Send, /
+    $^w:: Send, ^{BACKSPACE}
 #IfWinActive
 
 #IfWinActive Google Keep
