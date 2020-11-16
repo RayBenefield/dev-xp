@@ -10,3 +10,4 @@ src/node_modules/@rampant-firebase/db/firebase-key.json
 .env
 *.cache
 .firebaserc
+.files/autohotkey/personal-snippets.ahk
