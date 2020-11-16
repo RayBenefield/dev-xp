@@ -142,7 +142,6 @@
         "loud-rejection": "^1.6.0",
         "minimatch": "^3.0.4",
         "minimist": "^1.2.0",
-        "mkdirp": "^0.5.1",
         "node-range": "^0.1.0",
         "parsimmon": "^1.6.4",
         "pirates": "^3.0.2",
