@@ -282,3 +282,39 @@ return
 #IfWinActive
 
 #Tab::Send, !{Tab}
+
+#IfWinActive ahk_exe Adobe Premiere Pro.exe
+    $^u::Send, ^z
+    $^r::Send, ^+z
+    $+F22::Send, {UP}dg-99{ENTER}{ESC}{DOWN}
+    $+\::Send, +{LEFT}+{LEFT}+{LEFT}!3d^c{DOWN}^+v{ESC}{UP}!2dg-99{ENTER}{ESC}{DOWN}+{RIGHT}+{RIGHT}+{RIGHT}!3
+#IfWinActive
+
+#IfWinActive Youtube Title Analysis - Google Sheets - Google Chrome
+    F11::
+        SENDINPUT ^{LEFT}
+        SENDINPUT +{LEFT}
+        SENDINPUT ^c
+        SLEEP 100
+        SENDINPUT !{TAB}
+        SLEEP 200
+        SENDINPUT ^a
+        SLEEP 100
+        SENDINPUT ^v
+        SENDINPUT {ENTER}
+        SLEEP 100
+        SENDINPUT !{TAB}
+        SLEEP 200
+        SENDINPUT {RIGHT}
+        SLEEP 100
+        SENDINPUT {RIGHT}
+    RETURN
+#IfWinActive
+
++^k:: ; SHIFT+CTRL+K converts text to capitalized
+  Clipboard := ""
+  SendInput, ^c ;copies selected text
+  ClipWait
+  StringUpper Clipboard, Clipboard, T ; Title mode conversion
+  SendInput %Clipboard%
+Return
