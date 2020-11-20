@@ -5,6 +5,15 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #Include %A_ScriptDir%/Lib/Gdip_All.ahk
+#Include %A_ScriptDir%/Lib/sift.ahk
+
+ObjIndexOf(obj, item, case_sensitive:=false)
+{
+    for i, val in obj {
+        if (case_sensitive ? (val == item) : (val = item))
+            return i
+    }
+}
 
 #Hotstring o
 #Hotstring EndChars {#}
@@ -198,19 +207,21 @@ number=
 numberText=
 submit=
 fileText=
+search=
 setNumber() {
     Gui, Destroy
     updateNumber := Func("UpdateNumber")
-    numberPressed := Func("NumberPressed")
+    keyPressed := Func("KeyPressed")
     updateCurrent := Func("UpdateCurrent")
     name := filenames[latest]
 
-    Gui, Add, Slider,x60 y30 w250 vnumberSlider AltSubmit Range1-%max%, % latest
+    Gui, Add, Edit, r1 vsearch w135
+    Gui, Add, Slider,x60 y60 w250 vnumberSlider AltSubmit Range1-%max%, % latest
     GuiControl +g, numberSlider, % updateNumber
     Gui,Font,S24 Bold,Verdana
-    Gui, Add, Text,x5 y20 w50 h50 vNumberText Center, % latest
+    Gui, Add, Text,x5 y50 w50 h50 vNumberText Center, % latest
     Gui,Font,S18 Bold,Verdana
-    Gui, Add, Text, w310 h50 vfileText Center, % name
+    Gui, Add, Text, w400 h250 vfileText Left, % name
     Gui, Add, Button, Default h0 w0 vsubmit,
     GuiControl +g, Submit, % updateCurrent
 
@@ -219,7 +230,7 @@ setNumber() {
 
     Gui, Show, x%x% y%y%, Update Current
 
-    OnMessage(0x0100, numberPressed)
+    OnMessage(0x0100, keyPressed)
     Gui.OnEvent("Close", updateCurrent)
 
     return
@@ -229,34 +240,6 @@ UpdateCurrent() {
     Gui, Submit
     GuiControlGet, number, , numberSlider
     current := number
-}
-
-UpdateNumber() {
-    Gui, Submit, Nohide
-    GuiControlGet, number, , numberSlider
-
-    name := filenames[number]
-    GuiControl,, numberText, % number
-    GuiControl,, fileText, % name
-}
-
-NumberPressed(wParam, lParam, Msg,HWND) {
-    sc := Format("{:X}", (lParam >> 16) & 0x1FF)
-    key := GetKeyName("sc" . sc)
-    numbers := [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-
-    if (ArrayContains(numbers, key)) {
-        if (total = 0) {
-            total := key
-        } else {
-            total := total*10 + key
-        }
-
-        GuiControl, , numberSlider, % total
-        UpdateNumber()
-        resetTotal := Func("ResetTotal")
-        SetTimer, %resetTotal%, -1000
-    }
 }
 
 ResetTotal() {
@@ -285,4 +268,38 @@ ImgToClipboard(imagepath){
     Gdip_SetBitmapToClipboard(pBitmap := Gdip_CreateBitmapFromFile(imagepath))
     Gdip_DisposeImage(pBitmap)
     Gdip_Shutdown(pToken)
+}
+
+KeyPressed(wParam, lParam, Msg,HWND) {
+    updateNumber := Func("UpdateNumber")
+    SetTimer, % updateNumber, -100
+}
+
+UpdateNumber() {
+    Gui, Submit, Nohide
+
+    GuiControlGet, searchString, , search
+
+    number =
+    display =
+    if (IsNumber(searchString))
+    {
+        number := searchString
+        display := filenames[number]
+    } else {
+        results := Sift_Ngram(filenames, searchString,,,,S)
+
+        display := ""
+        for index, value in results {
+            if (!number) {
+                number := index
+            }
+            display .= value.data "`n"
+        }
+    }
+
+    name := filenames[number]
+    GuiControl, , numberSlider, % number
+    GuiControl,, numberText, % number
+    GuiControl,, fileText, % display
 }
