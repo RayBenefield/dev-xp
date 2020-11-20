@@ -147,18 +147,29 @@ if (ErrorLevel = "Timeout")
 }
 return
 
-conflict=0
 ~LShift::
+if (!timer) {
+    conflict = 0
+    timer = 1
+    SetTimer, Stop, -700
+}
+
 Input, Pressed, L1 T0.08 V E C
-if (ErrorLevel = "Max")
-    return
-if (ErrorLevel = "Timeout")
-{
-    if (!GetKeyState("LShift", "P") and !conflict)
-        Send {^}
-    conflict=0
+if (ErrorLevel = "Max") {
     return
 }
+if (ErrorLevel = "Timeout") {
+    if (!GetKeyState("LShift", "P")) {
+        if (!conflict) {
+            Send {^}
+        }
+        conflict = 0
+        timer = 0
+    }
+    return
+}
+Stop:
+    conflict = 1
 return
 
 $RWin::
@@ -290,12 +301,12 @@ return
     $+F22::Send, {UP}dg-99{ENTER}{ESC}{DOWN}
     $+\::Send, +{LEFT}+{LEFT}+{LEFT}!3d^c{DOWN}^+v{ESC}{UP}!2dg-99{ENTER}{ESC}{DOWN}+{RIGHT}+{RIGHT}+{RIGHT}!3
 
-    $+F20::
-        MouseGetPos x, y
-        Send, +7+F
-        SendInput, title-blur-enter
-        SendEvent {Click 60, 270, down}{click %x%, %y%, up}
-    RETURN
+;     $+F20::
+;         MouseGetPos x, y
+;         Send, +7+F
+;         SendInput, title-blur-enter
+;         SendEvent {Click 60, 270, down}{click %x%, %y%, up}
+;     RETURN
 #IfWinActive
 
 #IfWinActive Youtube Title Analysis - Google Sheets - Google Chrome
