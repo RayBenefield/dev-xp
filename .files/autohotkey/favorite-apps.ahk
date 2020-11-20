@@ -80,6 +80,11 @@ RETURN
     ActivateOrRun("ahk_exe StreamDeck.exe", "C:\Program Files\Elgato\StreamDeck\StreamDeck.exe")
 RETURN
 
+; #6::
+~CAPSLOCK & 6::
+    ActivateOrRun("ahk_exe Miro.exe", "C:\Users\RayBenefield\AppData\Local\RealtimeBoard\Miro.exe")
+RETURN
+
 ; #7::
 ~CAPSLOCK & 7::
     ActivateOrRun("ahk_exe Discord.exe", "C:\Users\RayBenefield\AppData\Local\Discord\Update.exe --processStart Discord.exe")
