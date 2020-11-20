@@ -57,9 +57,10 @@ global filenames := [
     "44-day-4-minotaur",
     "45-preparing-tutorials",
     "46-new-experiment",
-    "47-day-7-minotaur",
-    "48-day-x-minotaur",
-    "49-day-minotaur-future"
+    "47-brainstorming",
+    "48-mvp",
+    "49-proof-of-concept",
+    "50-save-time"
 )]
 
 ids := [
@@ -109,11 +110,14 @@ ids := [
     "E4IKdihm2z0",
     "u1bWZIo_KFM",
     "AuP1Qt0mjEE",
-    "ZFgi7WJlbts"
+    "ZFgi7WJlbts",
+    "nzwVqvfSkV4",
+    "WaSRVR7T2sk",
+    "lgvW298KwqA"
 )]
 
-global max := 49
-global latest := 46
+global max := 50
+global latest := 50
 global current := latest
 global total := 0
 
