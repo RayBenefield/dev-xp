@@ -16,6 +16,7 @@ fuzzy(values, default) {
     keyPressed := Func("KeyPressed").Bind(updateValue)
     getFinalValue := Func("GetFinalValue")
     name := values[default]
+    max := values.MaxIndex()
 
     Gui, Add, Edit, r1 vsearch w135
     Gui, Add, Slider,x60 y60 w250 vnumberSlider AltSubmit Range1-%max%, % default
@@ -33,17 +34,23 @@ fuzzy(values, default) {
     Gui, Show, x%x% y%y%, Update Current
 
     OnMessage(0x0100, keyPressed)
-    Gui.OnEvent("Close", GetFinalValue)
+    GuiControlGet, final, , numberSlider
+    Gui.OnEvent("Close", NOOP)
 
     WinWaitClose, ahk_id %GuiHWND%
 
-    return GetFinalValue()
+    GuiControlGet, final, , numberSlider
+
+    return  GetFinalValue()
+}
+
+NOOP() {
 }
 
 GetFinalValue() {
+    GuiControlGet, final, , numberSlider
     Gui, Submit
-    GuiControlGet, number, , numberSlider
-    return number
+    return final
 }
 
 KeyPressed(updateValue) {
@@ -55,26 +62,37 @@ UpdateValue(values) {
 
     GuiControlGet, searchString, , search
 
-    number =
+    if (!searchString) {
+        return
+    }
+
+    selected =
     display =
-    if (IsNumber(searchString))
-    {
-        number := searchString
-        display := values[number]
+    if (IsNumber(searchString)) {
+        if (searchString > values.MaxIndex()) {
+            return
+        }
+
+        selected := searchString
+        display := values[selected]
     } else {
         results := Sift_Ngram(values, searchString,,,,S)
+        if (!results.MaxIndex()) {
+            return
+        }
 
         display := ""
         for index, value in results {
-            if (!number) {
-                number := index
+            if (!selected) {
+                selected := index
             }
             display .= value.data "`n"
         }
     }
 
-    name := values[number]
-    GuiControl,, numberSlider, % number
-    GuiControl,, numberText, % number
+    name := values[selected]
+    GuiControl,, numberSlider, % selected
+    GuiControlGet, final, , numberSlider
+    GuiControl,, numberText, % selected
     GuiControl,, fileText, % display
 }
