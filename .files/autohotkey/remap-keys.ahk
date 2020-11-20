@@ -289,6 +289,13 @@ return
     $^r::Send, ^+z
     $+F22::Send, {UP}dg-99{ENTER}{ESC}{DOWN}
     $+\::Send, +{LEFT}+{LEFT}+{LEFT}!3d^c{DOWN}^+v{ESC}{UP}!2dg-99{ENTER}{ESC}{DOWN}+{RIGHT}+{RIGHT}+{RIGHT}!3
+
+    $+F20::
+        MouseGetPos x, y
+        Send, +7+F
+        SendInput, title-blur-enter
+        SendEvent {Click 60, 270, down}{click %x%, %y%, up}
+    RETURN
 #IfWinActive
 
 #IfWinActive Youtube Title Analysis - Google Sheets - Google Chrome
@@ -319,3 +326,4 @@ return
   StringUpper Clipboard, Clipboard, T ; Title mode conversion
   SendInput %Clipboard%
 Return
+
