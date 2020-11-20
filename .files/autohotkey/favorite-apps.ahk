@@ -55,13 +55,12 @@ ActivateOrRun(window, app, path = "") {
 
 ; #1::
 ~CAPSLOCK & 1::
-~CAPSLOCK & -::
     ActivateOrRun("ahk_exe Hyper.exe", "C:\Users\RayBenefield\AppData\Local\hyper\Hyper.exe")
 RETURN
 
 ; #2::
 ~CAPSLOCK & 2::
-GROUPADD, Chrome, ahk_exe chrome.exe, , , Google Keep
+    GROUPADD, Chrome, ahk_exe chrome.exe, , , Google Keep
     ActivateOrRun("ahk_group Chrome", "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
 RETURN
 
@@ -105,6 +104,10 @@ RETURN
 ; #0::
 ~CAPSLOCK & 0::
     ActivateOrRun(ahk_exe obs64.exe, "C:\Program Files\obs-studio\bin\64bit\obs64.exe", "C:\Program Files\obs-studio\bin\64bit")
+RETURN
+
+~CAPSLOCK & -::
+    ActivateOrRun(ahk_exe Adobe Premiere Pro.exe, "C:\Program Files\Adobe\Adobe Premiere Pro 2020\Adobe Premiere Pro.exe")
 RETURN
 
 ; #=::
