@@ -4,16 +4,9 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-#Include %A_ScriptDir%/Lib/Gdip_All.ahk
-#Include %A_ScriptDir%/Lib/sift.ahk
 
-ObjIndexOf(obj, item, case_sensitive:=false)
-{
-    for i, val in obj {
-        if (case_sensitive ? (val == item) : (val = item))
-            return i
-    }
-}
+#Include %A_ScriptDir%/Lib/Gdip_All.ahk
+#Include %A_ScriptDir%/Lib/fuzzy.ahk
 
 #Hotstring o
 #Hotstring EndChars {#}
@@ -147,7 +140,7 @@ id := ids[current]
     file := filenames[current]
     MsgBox, %file%
 RETURN
-F17::setNumber()
+F17::current := fuzzy(filenames, current)
 
 ::file::
     filename := filenames[current]
@@ -202,65 +195,6 @@ RETURN
     SENDINPUT, https://www.youtube.com/watch?v=%id%&list=PLKkxR5bGeI34v1lh7pHzkaRPeQPjxDaON
 RETURN
 
-numberSlider=
-number=
-numberText=
-submit=
-fileText=
-search=
-setNumber() {
-    Gui, Destroy
-    updateNumber := Func("UpdateNumber")
-    keyPressed := Func("KeyPressed")
-    updateCurrent := Func("UpdateCurrent")
-    name := filenames[latest]
-
-    Gui, Add, Edit, r1 vsearch w135
-    Gui, Add, Slider,x60 y60 w250 vnumberSlider AltSubmit Range1-%max%, % latest
-    GuiControl +g, numberSlider, % updateNumber
-    Gui,Font,S24 Bold,Verdana
-    Gui, Add, Text,x5 y50 w50 h50 vNumberText Center, % latest
-    Gui,Font,S18 Bold,Verdana
-    Gui, Add, Text, w400 h250 vfileText Left, % name
-    Gui, Add, Button, Default h0 w0 vsubmit,
-    GuiControl +g, Submit, % updateCurrent
-
-    CoordMode, Mouse, Screen
-    WinGetPos, x, y, , , A
-
-    Gui, Show, x%x% y%y%, Update Current
-
-    OnMessage(0x0100, keyPressed)
-    Gui.OnEvent("Close", updateCurrent)
-
-    return
-}
-
-UpdateCurrent() {
-    Gui, Submit
-    GuiControlGet, number, , numberSlider
-    current := number
-}
-
-ResetTotal() {
-    total := 0
-}
-
-; https://www.autohotkey.com/boards/viewtopic.php?p=109173#p109173
-ArrayContains(haystack, needle)
-{
-    if !(IsObject(haystack)) || (haystack.Length() = 0)
-        return 0
-    for index, value in haystack
-        if (value = needle)
-            return index
-    return 0
-}
-
-~Capslock::
-    Gui, Hide
-return 
-
 F8::ImgToClipboard("C:\Users\RayBenefield\Videos\finals\19-invisibility\19-invisibility.png")
 
 ImgToClipboard(imagepath){
@@ -268,38 +202,4 @@ ImgToClipboard(imagepath){
     Gdip_SetBitmapToClipboard(pBitmap := Gdip_CreateBitmapFromFile(imagepath))
     Gdip_DisposeImage(pBitmap)
     Gdip_Shutdown(pToken)
-}
-
-KeyPressed(wParam, lParam, Msg,HWND) {
-    updateNumber := Func("UpdateNumber")
-    SetTimer, % updateNumber, -100
-}
-
-UpdateNumber() {
-    Gui, Submit, Nohide
-
-    GuiControlGet, searchString, , search
-
-    number =
-    display =
-    if (IsNumber(searchString))
-    {
-        number := searchString
-        display := filenames[number]
-    } else {
-        results := Sift_Ngram(filenames, searchString,,,,S)
-
-        display := ""
-        for index, value in results {
-            if (!number) {
-                number := index
-            }
-            display .= value.data "`n"
-        }
-    }
-
-    name := filenames[number]
-    GuiControl, , numberSlider, % number
-    GuiControl,, numberText, % number
-    GuiControl,, fileText, % display
 }
