@@ -14,24 +14,33 @@ GLOBAL edits := [
     "Intro"
 )]
 
-JustInsert() {
+_fixedInsert(edit) {
     _focusTimeline()
+    Sleep, 200
     _source(6)
+    Sleep, 200
     _focusProject()
+    Sleep, 200
     _focusFind()
-    _type("zoom")
+    Sleep, 200
+    _type(edit)
     Sleep, 200
     _highlightFirstSegment()
     Sleep, 200
     _overlay()
+    Sleep, 200
     _focusTimeline()
+    Sleep, 200
     _trackVideo(6)
+    Sleep, 200
     _goBack()
+    Sleep, 200
     _trackVideo(6)
+    Sleep, 200
     _source(1)
 }
 
-Zoom() {
+_variableInsert(edit) {
     _focusTimeline()
     Sleep, 200
     _makeMarker(1)
@@ -44,7 +53,7 @@ Zoom() {
     Sleep, 200
     _focusFind()
     Sleep, 200
-    _type("zoom")
+    _type(edit)
     Sleep, 200
     _highlightFirstSegment()
     Sleep, 200
@@ -65,6 +74,10 @@ Zoom() {
     _trackVideo(6)
     Sleep, 200
     _source(1)
+}
+
+Zoom() {
+    _variableInsert("zoom")
 }
 
 Intro() {
