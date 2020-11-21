@@ -14,10 +14,10 @@ GLOBAL edits := [
     "Intro"
 )]
 
-_fixedInsert(edit) {
+_fixedInsert(edit, track) {
     _focusTimeline()
     Sleep, 200
-    _source(6)
+    _source(track)
     Sleep, 200
     _focusProject()
     Sleep, 200
@@ -31,23 +31,23 @@ _fixedInsert(edit) {
     Sleep, 200
     _focusTimeline()
     Sleep, 200
-    _trackVideo(6)
+    _trackVideo(track)
     Sleep, 200
     _goBack()
     Sleep, 200
-    _trackVideo(6)
+    _trackVideo(track)
     Sleep, 200
     _source(1)
 }
 
-_variableInsert(edit) {
+_variableInsert(edit, track) {
     _focusTimeline()
     Sleep, 200
     _makeMarker(1)
     Sleep, 200
     _goBackMarker()
     Sleep, 200
-    _source(6)
+    _source(track)
     Sleep, 200
     _focusProject()
     Sleep, 200
@@ -61,7 +61,7 @@ _variableInsert(edit) {
     Sleep, 200
     _focusTimeline()
     Sleep, 200
-    _trackVideo(6)
+    _trackVideo(track)
     Sleep, 200
     _extendSegment()
     Sleep, 200
@@ -71,13 +71,13 @@ _variableInsert(edit) {
     Sleep, 200
     _deleteMarker()
     Sleep, 200
-    _trackVideo(6)
+    _trackVideo(track)
     Sleep, 200
     _source(1)
 }
 
 Zoom() {
-    _variableInsert("zoom")
+    _variableInsert("zoom", 6)
 }
 
 Intro() {
