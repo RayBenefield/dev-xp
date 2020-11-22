@@ -8,45 +8,29 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #Include %A_ScriptDir%/Lib/fuzzy.ahk
 #Include %A_ScriptDir%/Lib/premiere-actions.ahk
 
+GLOBAL VARIABLE := "variable"
+GLOBAL NOT_VARIABLE := false
+
+GLOBAL INJECT := "inject"
+GLOBAL DONT_INJECT := false
+
 GLOBAL edits := [
 (JOIN
     "Zoom",
     "Intro"
 )]
 
-_fixedInsert(edit, track) {
+_insert(edit, track, variableOrInject = false) {
     _focusTimeline()
     Sleep, 200
-    _source(track)
-    Sleep, 200
-    _focusProject()
-    Sleep, 200
-    _focusFind()
-    Sleep, 200
-    _type(edit)
-    Sleep, 200
-    _highlightFirstSegment()
-    Sleep, 200
-    _overlay()
-    Sleep, 200
-    _focusTimeline()
-    Sleep, 200
-    _trackVideo(track)
-    Sleep, 200
-    _goBack()
-    Sleep, 200
-    _trackVideo(track)
-    Sleep, 200
-    _source(1)
-}
 
-_variableInsert(edit, track) {
-    _focusTimeline()
-    Sleep, 200
-    _makeMarker(1)
-    Sleep, 200
-    _goBackMarker()
-    Sleep, 200
+    if (variableOrInject == VARIABLE) {
+        _makeMarker(1)
+        Sleep, 200
+        _goBackMarker()
+        Sleep, 200
+    }
+
     _source(track)
     Sleep, 200
     _focusProject()
@@ -57,31 +41,45 @@ _variableInsert(edit, track) {
     Sleep, 200
     _highlightFirstSegment()
     Sleep, 200
-    _overlay()
-    Sleep, 200
+
+    if (variableOrInject == INJECT) {
+        _inject()
+        Sleep, 200
+    } else {
+        _overlay()
+        Sleep, 200
+    }
+
     _focusTimeline()
     Sleep, 200
     _trackVideo(track)
     Sleep, 200
-    _extendSegment()
-    Sleep, 200
-    _deleteMarker()
-    Sleep, 200
-    _goBackMarker()
-    Sleep, 200
-    _deleteMarker()
-    Sleep, 200
+
+    if (variableOrInject == VARIABLE) {
+        _extendSegment()
+        Sleep, 200
+        _deleteMarker()
+        Sleep, 200
+        _goBackMarker()
+        Sleep, 200
+        _deleteMarker()
+        Sleep, 200
+    } else {
+        _goBack()
+        Sleep, 200
+    }
+
     _trackVideo(track)
     Sleep, 200
     _source(1)
 }
 
 Zoom() {
-    _variableInsert("zoom", 6)
+    _insert("zoom", 6, VARIABLE)
 }
 
 Intro() {
-    MSGBOX, intro
+    _insert("intro", 6, INJECT)
 }
 
 +F20::
