@@ -63,7 +63,8 @@ global filenames := [
     "48-mvp",
     "49-proof-of-concept",
     "50-save-time",
-    "51-sample-premiere-automation"
+    "51-sample-premiere-automation",
+    "52-long-game"
 )]
 
 ids := [
@@ -119,8 +120,8 @@ ids := [
     "lgvW298KwqA"
 )]
 
-global max := 51
-global latest := 51
+global max := 52
+global latest := 52
 global current := latest
 global total := 0
 
