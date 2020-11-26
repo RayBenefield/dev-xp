@@ -12,16 +12,32 @@ _clearSelected() {
 
 _focusFind() {
     _clearSelected()
-    Sleep, 200
+    Sleep, 300
     Send, +f
 }
 
+_clearFind() {
+    Send, +f
+    Sleep, 300
+    Send, {BACKSPACE}
+    Sleep, 300
+    Send, {TAB}{TAB}
+}
+
+_toggleAudioTracking() {
+    Send, ^!9
+}
+
 _toggleVideoTracking() {
-    Send, ^!0
+    Send, ^9
+}
+
+_trackAudio(track) {
+    Send, ^!%track%
 }
 
 _trackVideo(track) {
-    Send, ^!%track%
+    Send, ^%track%
 }
 
 _toggleSource() {
@@ -34,7 +50,7 @@ _source(track) {
 
 _onlyTrack(track) {
     _toggleVideoTracking()
-    Sleep, 200
+    Sleep, 300
     _trackVideo(track)
 }
 
@@ -88,10 +104,10 @@ _trimOut() {
 
 _extendSegment() {
     _trimOut()
-    Sleep, 200
+    Sleep, 300
     _goForwardMarker()
-    Sleep, 200
+    Sleep, 300
     _extend()
-    Sleep, 200
+    Sleep, 300
     _clearSelected()
 }

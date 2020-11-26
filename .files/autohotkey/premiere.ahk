@@ -17,69 +17,91 @@ GLOBAL DONT_INJECT := false
 GLOBAL edits := [
 (JOIN
     "Zoom",
-    "Intro"
+    "Intro",
+    "PastFuture"
 )]
+
+_startVariable() {
+    _focusTimeline()
+    Sleep, 300
+
+    _makeMarker(1)
+    Sleep, 300
+    _goBackMarker()
+}
+
+_endVariable() {
+    _goForward()
+    Sleep, 300
+    _deleteMarker()
+    Sleep, 300
+    _goBackMarker()
+    Sleep, 300
+    _deleteMarker()
+}
 
 _insert(edit, track, variableOrInject = false) {
     _focusTimeline()
-    Sleep, 200
-
-    if (variableOrInject == VARIABLE) {
-        _makeMarker(1)
-        Sleep, 200
-        _goBackMarker()
-        Sleep, 200
-    }
+    Sleep, 300
 
     _source(track)
-    Sleep, 200
+    Sleep, 300
     _focusProject()
-    Sleep, 200
+    Sleep, 300
     _focusFind()
-    Sleep, 200
+    Sleep, 300
     _type(edit)
-    Sleep, 200
+    Sleep, 300
     _highlightFirstSegment()
-    Sleep, 200
+    Sleep, 300
 
     if (variableOrInject == INJECT) {
         _inject()
-        Sleep, 200
+        Sleep, 300
     } else {
         _overlay()
-        Sleep, 200
+        Sleep, 300
     }
 
+    _clearFind()
+    Sleep, 300
     _focusTimeline()
-    Sleep, 200
+    Sleep, 300
     _trackVideo(track)
-    Sleep, 200
+    Sleep, 300
 
     if (variableOrInject == VARIABLE) {
         _extendSegment()
-        Sleep, 200
-        _deleteMarker()
-        Sleep, 200
-        _goBackMarker()
-        Sleep, 200
-        _deleteMarker()
-        Sleep, 200
-    } else {
-        _goBack()
-        Sleep, 200
+        Sleep, 300
     }
 
+    _goBack()
+    Sleep, 300
     _trackVideo(track)
-    Sleep, 200
+    Sleep, 300
     _source(1)
 }
 
-Zoom() {
+PastFuture() {
+    _startVariable()
+    Sleep, 300
     _insert("zoom", 6, VARIABLE)
+    Sleep, 300
+    _insert("zoom", 7, VARIABLE)
+    Sleep, 300
+    _endVariable()
+}
+
+Zoom() {
+    _startVariable()
+    Sleep, 300
+    _insert("zoom", 2, VARIABLE)
+    Sleep, 300
+    _endVariable()
 }
 
 Intro() {
-    _insert("intro", 6, INJECT)
+    _insert("intro", 4, INJECT)
 }
 
 +F20::
