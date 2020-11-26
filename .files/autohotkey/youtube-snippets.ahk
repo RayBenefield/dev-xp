@@ -64,7 +64,12 @@ global filenames := [
     "49-proof-of-concept",
     "50-save-time",
     "51-sample-premiere-automation",
-    "52-long-game"
+    "52-long-game",
+    "53-creative-isnt-dead",
+    "54-creative-earnings",
+    "55-future-of-ugc",
+    "56-goals-for-december",
+    "57-help-hub-hero"
 )]
 
 ids := [
@@ -117,11 +122,17 @@ ids := [
     "ZFgi7WJlbts",
     "nzwVqvfSkV4",
     "WaSRVR7T2sk",
-    "lgvW298KwqA"
+    "lgvW298KwqA",
+    "ZSZfjE_RhwI",
+    "EMSlIDAeMy8",
+    "LcMauRxdaLQ",
+    "G7NYhEp3jIg",
+    "wA81uQPXlFk",
+    "I4nF8rEHcX0"
 )]
 
-global max := 52
-global latest := 52
+global max := 56
+global latest := 56
 global current := latest
 global total := 0
 
