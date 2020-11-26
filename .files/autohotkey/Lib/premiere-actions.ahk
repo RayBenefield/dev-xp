@@ -111,3 +111,15 @@ _extendSegment() {
     Sleep, 300
     _clearSelected()
 }
+
+_rippleTrimNext() {
+    Send, w
+}
+
+_rippleTrimLast() {
+    Send, q
+}
+
+_addEdit() {
+    Send, !k
+}

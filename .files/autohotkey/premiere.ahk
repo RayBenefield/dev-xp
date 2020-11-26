@@ -104,9 +104,37 @@ Intro() {
     _insert("intro", 4, INJECT)
 }
 
-+F20::
-    editNumber := fuzzy(edits, 1)
-    edit := edits[editNumber]
-    editFunction := Func(edit)
-    editFunction.Call()
-RETURN
+#IfWinActive ahk_exe Adobe Premiere Pro.exe
+    $^u::Send, ^z
+    $^r::Send, ^+z
+
+    ; Inject Placeholder
+    $+\::Send, +{LEFT}+{LEFT}+{LEFT}!3d^c{DOWN}^+v{ESC}{UP}!2dg-99{ENTER}{ESC}{DOWN}+{RIGHT}+{RIGHT}+{RIGHT}!3
+
+    ; SHIFT|LPEDAL Add Edit with Fuzzy Search
+    $+F20::
+        editNumber := fuzzy(edits, 1)
+        edit := edits[editNumber]
+        editFunction := Func(edit)
+        editFunction.Call()
+    RETURN
+
+    ; LPEDAL Ripple Trim Previous Edit to Playhead
+    $F20::_rippleTrimLast()
+
+    ; ALT|LPEDAL Ripple Trim Next Edit to Playhead
+    $!F20::_rippleTrimNext()
+
+    ; RPEDAL Add Edit
+    $F22::_addEdit()
+
+    ; SHIFT|RPEDAL Mute Segment
+    $+F22::Send, {UP}dg-99{ENTER}{ESC}{DOWN}
+
+;     $+F20::
+;         MouseGetPos x, y
+;         Send, +7+F
+;         SendInput, title-blur-enter
+;         SendEvent {Click 60, 270, down}{click %x%, %y%, up}
+;     RETURN
+#IfWinActive
