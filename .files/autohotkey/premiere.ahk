@@ -18,7 +18,8 @@ GLOBAL edits := [
 (JOIN
     "Zoom",
     "Intro",
-    "PastFuture"
+    "PastFuture",
+    "Title"
 )]
 
 _startVariable() {
@@ -80,6 +81,14 @@ _insert(edit, track, variableOrInject = false) {
     _trackVideo(track)
     Sleep, 300
     _source(1)
+}
+
+Title() {
+    _startVariable()
+    Sleep, 300
+    _insert("darker", 4)
+    Sleep, 300
+    _endVariable()
 }
 
 PastFuture() {
