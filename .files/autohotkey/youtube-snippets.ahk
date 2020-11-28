@@ -69,7 +69,10 @@ global filenames := [
     "54-creative-earnings",
     "55-future-of-ugc",
     "56-goals-for-december",
-    "57-help-hub-hero"
+    "57-why-you-streaming",
+    "58-heros-journey-showcase",
+    "59-help-hub-hero",
+    "60-help-hub-hero"
 )]
 
 ids := [
@@ -128,11 +131,12 @@ ids := [
     "LcMauRxdaLQ",
     "G7NYhEp3jIg",
     "wA81uQPXlFk",
-    "I4nF8rEHcX0"
+    "I4nF8rEHcX0",
+    "Z0OF_04-yzI"
 )]
 
-global max := 56
-global latest := 56
+global max := 60
+global latest := 57
 global current := latest
 global total := 0
 
@@ -194,6 +198,14 @@ RETURN
 ::ico::
     filename := filenames[current]
     SENDINPUT, C:\Users\RayBenefield\Videos\finals\%filename%\%filename%.ico
+RETURN
+::out::
+    filename := filenames[current]
+    SENDINPUT, vim ~/Development/youtube/outlines/%filename%.md
+RETURN
+::outline::
+    filename := filenames[current]
+    SENDINPUT, cp ~/Development/youtube/outlines/template.md ~/Development/youtube/outlines/%filename%.md
 RETURN
 ::rec::
     id := ids[current]
