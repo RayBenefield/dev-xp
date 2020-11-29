@@ -140,6 +140,7 @@
         "lodash.sortby": "^4.7.0",
         "lodash.uniq": "^4.5.0",
         "loud-rejection": "^1.6.0",
+        "luabundle": "^1.6.0",
         "minimatch": "^3.0.4",
         "minimist": "^1.2.0",
         "node-range": "^0.1.0",
