@@ -70,9 +70,9 @@ global filenames := [
     "55-future-of-ugc",
     "56-goals-for-december",
     "57-why-you-streaming",
-    "58-heros-journey-showcase",
-    "59-help-hub-hero",
-    "60-help-hub-hero"
+    "58-words",
+    "??-heros-journey-showcase",
+    "??-help-hub-hero"
 )]
 
 ids := [
@@ -132,11 +132,13 @@ ids := [
     "G7NYhEp3jIg",
     "wA81uQPXlFk",
     "I4nF8rEHcX0",
-    "Z0OF_04-yzI"
+    "Z0OF_04-yzI",
+    "7mSjFYPHW90",
+    "aWnfFVrYnzM"
 )]
 
 global max := 60
-global latest := 57
+global latest := 58
 global current := latest
 global total := 0
 
