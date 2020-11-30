@@ -71,6 +71,7 @@ global filenames := [
     "56-goals-for-december",
     "57-why-you-streaming",
     "58-words",
+    "59-no-degree",
     "??-heros-journey-showcase",
     "??-help-hub-hero"
 )]
