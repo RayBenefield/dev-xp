@@ -17,6 +17,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ::light::pasteEmoji("💡")
 ::camera::pasteEmoji("📷")
 ::film::pasteEmoji("📽️")
+::video::pasteEmoji("📽️")
 ::mic::pasteEmoji("🎤")
 ::pc::pasteEmoji("🖥️")
 ::star::pasteEmoji("🌟")
@@ -37,6 +38,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ::hot::pasteEmoji("🥵")
 ::game::pasteEmoji("🎮")
 ::info::pasteEmoji("ℹ️")
+::key::pasteEmoji("🔑")
 
 ::wink::pasteEmoji("😉")
 ::;)::pasteEmoji("😉")
