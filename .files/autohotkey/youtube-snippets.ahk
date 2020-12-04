@@ -73,6 +73,7 @@ global filenames := [
     "58-words",
     "59-no-degree",
     "60-youtube-passcode",
+    "61-vertical-videos",
     "??-heros-journey-showcase",
     "??-help-hub-hero"
 )]
@@ -142,7 +143,7 @@ ids := [
 )]
 
 global max := 62
-global latest := 60
+global latest := 61
 global current := latest
 global total := 0
 
