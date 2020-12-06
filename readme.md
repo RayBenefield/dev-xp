@@ -1,9 +1,8 @@
 <p align="center">
     <a href="https://github.com/RayBenefield/dev-xp/tree/master/src/node_modules/kikd">
-        <img src="https://screenshotlayer.com/images/assets/placeholder.png" alt="KI/KD"/>
+        <img src="https://github.com/RayBenefield/dev-xp/tree/master/images/app-icon.png" alt="RayBenefield Logo"/>
     </a>
     <br />
-    <sub><em>Placeholder until a logo is designed</em></sub>
 </p>
 
 # Dev XP
