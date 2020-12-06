@@ -19,10 +19,11 @@
     cb = checkout -b
     co = !sh -c \"git checkout $(git branch | fzf)\"
     ls = "!f() { git ls-files; git ls-files --others --exclude-standard; }; f"
+	dif = diff --staged
+    fix = !sh -c 'REV=$(git rev-parse $1) && git commit --fixup $@ && git stash -u && GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash $REV^ && git stash pop' -
 	last = log -1 HEAD
     save = stash save -u
 	amend = commit -a --amend --no-edit
-	dif = diff --staged
 	staged = diff --staged
 	pretty = log --graph --oneline --decorate
 	unstage = restore --staged .
