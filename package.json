@@ -83,7 +83,11 @@
         "watch:rx": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec npm-run-all test:rx dev:rx",
         "prod:rx": "cd src/node_modules/ && luabundler bundle ./rx/init.lua -p './?.lua' -p '?/init.lua' -o '../../dist/rxcore/rx.lua' && luamin -f '../../dist/rxcore/rx.lua' > '/mnt/c/Users/RayBenefield/Dropbox/My PC (Ray-PC)/Documents/My Games/CORE/Saved/Maps/rx-core demo/Data/Scripts/rx.lua'",
         "dev:minotaur": "yarn kd build minotaur-core --commit",
-        "watch:minotaur": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:minotaur"
+        "watch:minotaur": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:minotaur",
+        "?dev:jump": "echo Build into the jump combo.",
+        "dev:jump": "yarn kd build jump-combo-core --commit",
+        "?watch:jump": "echo Continuously build jump-combo game.",
+        "watch:jump": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:jump"
     },
     "dependencies": {
         "@mixer/client-node": "^3.4.0",
