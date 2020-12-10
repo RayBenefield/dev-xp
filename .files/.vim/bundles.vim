@@ -39,15 +39,18 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 
-" Add filetype icons to relevant locations
-" IMPORTANT: Must always be last, and requires patching font... see readme
-Plug 'ryanoasis/vim-devicons'
-
 " Focus mode for things like creating script outlines
 Plug 'junegunn/goyo.vim'
 
 " Comment management
 Plug 'tpope/vim-commentary'
+
+" Snippets
+Plug 'SirVer/ultisnips'
+
+" Add filetype icons to relevant locations
+" IMPORTANT: Must always be last, and requires patching font... see readme
+Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
 
