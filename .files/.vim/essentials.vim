@@ -62,3 +62,6 @@ endif
 
 " Smart casing search
 set smartcase 
+
+" Where snippets live
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']
