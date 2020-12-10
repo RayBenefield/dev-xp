@@ -90,7 +90,8 @@
         "?watch:jump": "echo Continuously build jump-combo game.",
         "watch:jump": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:jump",
         "x": "cd src/node_modules && babel-node xstream-sandbox/cli.js",
-        "xl": "cd src/node_modules && lua rx-sandbox/cli.lua"
+        "xl": "cd src/node_modules && lua rx-sandbox/cli.lua",
+        "pbt": "cd src/node_modules && babel-node core-asset/cli.js"
     },
     "dependencies": {
         "@mixer/client-node": "^3.4.0",
@@ -135,6 +136,7 @@
         "lodash.has": "^4.5.2",
         "lodash.intersection": "^4.4.0",
         "lodash.isfunction": "^3.0.8",
+        "lodash.isobject": "^3.0.2",
         "lodash.keyby": "^4.6.0",
         "lodash.map": "^4.6.0",
         "lodash.mapkeys": "^4.6.0",
