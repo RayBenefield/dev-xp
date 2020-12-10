@@ -88,7 +88,9 @@
         "?dev:jump": "echo Build into the jump combo.",
         "dev:jump": "yarn kd build jump-combo-core --commit",
         "?watch:jump": "echo Continuously build jump-combo game.",
-        "watch:jump": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:jump"
+        "watch:jump": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:jump",
+        "x": "cd src/node_modules && babel-node xstream-sandbox/cli.js",
+        "xl": "cd src/node_modules && lua rx-sandbox/cli.lua"
     },
     "dependencies": {
         "@mixer/client-node": "^3.4.0",
@@ -189,6 +191,7 @@
         "weighted": "^0.3.0",
         "winston": "^3.2.1",
         "word-wrap": "^1.2.3",
+        "xstream": "^11.14.0",
         "youtube-api": "^3.0.1"
     },
     "devDependencies": {
