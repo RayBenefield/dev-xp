@@ -13,6 +13,7 @@
 	l = log --oneline
 	p = pull --rebase --tags
 	f = fetch --all --tags --prune
+    ac = !sh -c \"git add $1 && git commit -m '$2'\"
 	br = branch
     ci = commit
 	st = status -u
