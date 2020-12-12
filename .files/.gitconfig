@@ -18,8 +18,9 @@
     ci = commit
 	st = status -u
     cb = checkout -b
-    co = !sh -c \"git checkout $(git branch | fzf)\"
+    co = !sh -c 'git checkout $(git branch | fzf)'
     ls = "!f() { git ls-files; git ls-files --others --exclude-standard; }; f"
+    rw = "!f() { COMMIT=$1; BRANCH=$(git symbolic-ref --short HEAD); git checkout $COMMIT; git commit --amend; git rebase HEAD $BRANCH; git checkout $BRANCH; }; f"
 	dif = diff --staged
     fix = !sh -c 'REV=$(git rev-parse $1) && git commit --fixup $@ && git stash -u && GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash $REV^ && git stash pop' -
 	last = log -1 HEAD
@@ -30,6 +31,7 @@
 	unstage = restore --staged .
 	refresh = reset --hard @{u}
 	show-files = show --pretty="format:" --name-only
+    EX-shell-var = "!f() { COMMIT=$1; BRANCH=$(git symbolic-ref --short HEAD); echo $COMMIT; echo $BRANCH; }; f"
 [color "status"]
 	untracked = cyan
 [core]
