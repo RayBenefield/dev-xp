@@ -5777,9 +5777,10 @@ parse-ms@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/parse-ms/-/parse-ms-1.0.1.tgz#56346d4749d78f23430ca0c713850aef91aa361d"
 
-parsimmon@^1.6.4:
-  version "1.6.4"
-  resolved "https://registry.npmjs.org/parsimmon/-/parsimmon-1.6.4.tgz#7ff16d52d58b9769d019b401848ee2c9bd94dd86"
+parsimmon@^1.16.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/parsimmon/-/parsimmon-1.16.0.tgz#2834e3db645b6a855ab2ea14fbaad10d82867e0f"
+  integrity sha512-tekGDz2Lny27SQ/5DzJdIK0lqsWwZ667SCLFIDCxaZM7VNgQjyKLbaL7FYPKpbjdxNAXFV/mSxkq5D2fnkW4pA==
 
 path-exists@^2.0.0:
   version "2.1.0"
