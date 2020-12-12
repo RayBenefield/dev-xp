@@ -155,7 +155,7 @@
         "minimist": "^1.2.0",
         "node-range": "^0.1.0",
         "open": "^7.3.0",
-        "parsimmon": "^1.6.4",
+        "parsimmon": "^1.16.0",
         "pirates": "^3.0.2",
         "pkg-dir": "^4.2.0",
         "pretty-bytes": "^5.4.1",
