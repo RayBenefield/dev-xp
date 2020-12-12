@@ -4,3 +4,4 @@ alias startup='cd "/mnt/c/Users/RayBenefield/AppData/Roaming/Microsoft/Windows/S
 alias yt='cd ~/Development/youtube'
 alias core='cd "/mnt/c/Users/RayBenefield/Dropbox/My PC (Ray-PC)/Documents/My Games/CORE/Saved/Maps"'
 alias xpf='wherein src/node_modules/'
+alias log='./dx/log'
