@@ -89,9 +89,9 @@
         "dev:jump": "yarn kd build jump-combo-core --commit",
         "?watch:jump": "echo Continuously build jump-combo game.",
         "watch:jump": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:jump",
-        "x": "cd src/node_modules && babel-node xstream-sandbox/cli.js",
-        "xl": "cd src/node_modules && lua rx-sandbox/cli.lua",
-        "pbt": "cd src/node_modules && babel-node core-asset/cli.js"
+        "pbt": "cd src/node_modules && babel-node core-asset/cli.js",
+        "js": "cd src/node_modules && babel-node js-sandbox/cli.js",
+        "lua": "cd src/node_modules && lua rx-sandbox/cli.lua"
     },
     "dependencies": {
         "@mixer/client-node": "^3.4.0",
