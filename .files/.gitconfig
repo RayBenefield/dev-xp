@@ -35,6 +35,7 @@
 	pretty = log --graph --oneline --decorate
 	unstage = restore --staged .
 	refresh = reset --hard @{u}
+    fix-lock = "!f() { git restore --staged yarn.lock; yarn; git add yarn.lock package.json }; f"
 	show-files = show --pretty="format:" --name-only
     EX-shell-var = "!f() { COMMIT=$1; BRANCH=$(git symbolic-ref --short HEAD); echo $COMMIT; echo $BRANCH; }; f"
 [color "status"]
