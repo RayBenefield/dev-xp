@@ -26,6 +26,8 @@
     fix = "!f() { COMMIT=$1; REV=$(git rev-parse $COMMIT); git commit --fixup $COMMIT; git stash -u; GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash $REV^; git stash pop; }; f"
 	last = log -1 HEAD
     save = stash save -u
+    cont = rebase --continue
+    abort = rebase --abort
     drop = "!f() { git stash drop stash@{0}; }; f"
     check = "!f() { FILE=$1; git log --follow $FILE; }; f"
 	amend = commit -a --amend --no-edit
