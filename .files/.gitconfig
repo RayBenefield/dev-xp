@@ -27,6 +27,7 @@
 	last = log -1 HEAD
     save = stash save -u
     drop = "!f() { git stash drop stash@{0}; }; f"
+    check = "!f() { FILE=$1; git log --follow $FILE; }; f"
 	amend = commit -a --amend --no-edit
 	staged = diff --staged
 	pretty = log --graph --oneline --decorate
