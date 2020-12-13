@@ -14,10 +14,10 @@
 	p = pull --rebase --tags
 	f = fetch --all --tags --prune
 	br = branch
-    ci = commit
 	st = status -u
     cb = checkout -b
     co = "!f() { git checkout $(git branch | fzf); }; f"
+    ci = "!f() { MESSAGE=$2; echo $MESSAGE | commitlint; git commit \"$@\"; }; f"
     ls = "!f() { git ls-files; git ls-files --others --exclude-standard; }; f"
     ac = "!f() { FILE=$1; MESSAGE=$2; git add $FILE; git commit -m \"$MESSAGE\"; }; f"
     pu = "!f() { BRANCH=$(git symbolic-ref --short HEAD); git push -u origin $BRANCH; }; f"
