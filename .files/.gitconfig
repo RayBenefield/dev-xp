@@ -20,6 +20,7 @@
     cb = checkout -b
     co = !sh -c 'git checkout $(git branch | fzf)'
     ls = "!f() { git ls-files; git ls-files --others --exclude-standard; }; f"
+    pu = "!f() { BRANCH=$(git symbolic-ref --short HEAD); git push -u origin $BRANCH; }; f"
     rw = "!f() { COMMIT=$1; BRANCH=$(git symbolic-ref --short HEAD); git checkout $COMMIT; git commit --amend; git rebase HEAD $BRANCH; git checkout $BRANCH; }; f"
 	dif = diff --staged
     fix = !sh -c 'REV=$(git rev-parse $1) && git commit --fixup $@ && git stash -u && GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash $REV^ && git stash pop' -
