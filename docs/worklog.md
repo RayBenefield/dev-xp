@@ -1,5 +1,12 @@
 # Worklog
 
+## #731, #732
+
+Add several useful git aliases and setup `commitlint` to run before all testing
+is done using a git alias since the hook does not get access to the desired
+message. Also discovered a bug where `kd update` attempts to duplicate all of
+the tags and it is breaking the build. So that's next on my list.
+
 ## #730
 
 Went through and cleaned up all the git aliases that used a more complex script.
