@@ -25,6 +25,7 @@
     fix = !sh -c 'REV=$(git rev-parse $1) && git commit --fixup $@ && git stash -u && GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash $REV^ && git stash pop' -
 	last = log -1 HEAD
     save = stash save -u
+    drop = "!f() { git stash drop stash@{0}; }; f"
 	amend = commit -a --amend --no-edit
 	staged = diff --staged
 	pretty = log --graph --oneline --decorate
