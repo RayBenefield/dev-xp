@@ -2,6 +2,14 @@
 
 ## #728
 
+It's been a while since I've written a log entry, but I'm getting back into
+things. Nowadays I'm focused on game development and youtube. So a lot of my
+work is going to revolve around improving all the old stuff that I had in order
+to get me back to top efficiency. Should be a fun next few months as I get
+faster than I've ever been.
+
+## #728
+
 Extracted all of the authorizer logic into its own library. Next thing to do is
 change how the cookies are stored so it is easier to determine what platforms
 are in the cookies.
