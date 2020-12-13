@@ -1,6 +1,12 @@
 # Worklog
 
-## #728
+## #730
+
+Went through and cleaned up all the git aliases that used a more complex script.
+They all now use the `f()` style of commands. Also all of them should work as I
+tested each one. Still more cleaning to do.
+
+## #729
 
 It's been a while since I've written a log entry, but I'm getting back into
 things. Nowadays I'm focused on game development and youtube. So a lot of my
