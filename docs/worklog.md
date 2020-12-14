@@ -1,5 +1,14 @@
 # Worklog
 
+## #733
+
+Spent HOURS trying to find a bug that was caused by being able to mutate an
+object in transmutation due to switching the order of merging. This broke the
+`kd update` command resulting in duplicating functionality. So the build
+pipeline tried to tag the same tag twice as a result. I've destructured the
+snowball so it no longer gets mutated now I can actually move forward with my
+tickets.
+
 ## #731, #732
 
 Add several useful git aliases and setup `commitlint` to run before all testing
