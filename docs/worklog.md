@@ -1,5 +1,12 @@
 # Worklog
 
+## #734, #735
+
+Started trying to refactor `console.log`s to just `@dev-xp/log` but ended up
+with a bunch of refactor `@dev-xp/log` to properly log things as `console.log`
+does. `log.deep` needed a full set of logic to print just like `console.log`
+with all arguments.
+
 ## #733
 
 Spent HOURS trying to find a bug that was caused by being able to mutate an
