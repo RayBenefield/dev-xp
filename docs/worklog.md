@@ -1,5 +1,16 @@
 # Worklog
 
+## #739, #740, #741
+
+Originally was going to refactor `@kikd/git`, but then realized I really want
+`kd commit` working. So I loaded up my mac and got my old code. Then ran into
+update after update. I fixed the bug where `kd init` was trying to make a repo
+in a repo that already existed. I updated some of my git aliases to work more
+seamlessly. I refactored `@dev-xp/root` finally as well. Really wanna finish `kd
+commit` as soon as possible, then switch on over to `DEX` probably next. Cuz I
+wanted to do `@kikd/git` to do `DEX` since I knew that I had the status fetching
+code in `kd commit`.
+
 ## #736, #737, #738
 
 Spent three sessions just cleaning out all of the `console.log`s possible so I
