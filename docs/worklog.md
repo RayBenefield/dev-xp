@@ -1,5 +1,12 @@
 # Worklog
 
+## #736, #737, #738
+
+Spent three sessions just cleaning out all of the `console.log`s possible so I
+don't have to worry about them any more and all future files will continue to
+use `@dev-xp/log` so I can easily centralize it all and shortcut some debugging
+using things like deep logging.
+
 ## #734, #735
 
 Started trying to refactor `console.log`s to just `@dev-xp/log` but ended up
