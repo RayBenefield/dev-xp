@@ -24,7 +24,7 @@
     pu = "!f() { BRANCH=$(git symbolic-ref --short HEAD); git push -u origin $BRANCH; }; f"
     rw = "!f() { COMMIT=$1; BRANCH=$(git symbolic-ref --short HEAD); git stash -u; git checkout $COMMIT; git commit --amend; git rebase HEAD $BRANCH; git checkout $BRANCH; git stash pop; }; f"
 	dif = diff --staged
-    fix = "!f() { COMMIT=$1; REV=$(git rev-parse $COMMIT); git commit --fixup $COMMIT; GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash $REV^; }; f"
+    fix = "!f() { COMMIT=$1; REV=$(git rev-parse $COMMIT); git commit --fixup $COMMIT; git stash -u; GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash $REV^; git stash pop; }; f"
 	last = log -1 HEAD
     save = stash save -u
     cont = rebase --continue
