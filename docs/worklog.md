@@ -1,5 +1,13 @@
 # Worklog
 
+## #742, #743, #744, #745
+
+While working on `@dev-xp/git` and preparing `kd commit` I ran into a need to
+change all object keys to camel-cased. So I spent most of my time doing this as
+it is a common need that I'll have. I also added the ability to patch objects
+with methods that get called, but adjust the end result to be camel-cased. This
+was worth it for the long term.
+
 ## #739, #740, #741
 
 Originally was going to refactor `@kikd/git`, but then realized I really want
