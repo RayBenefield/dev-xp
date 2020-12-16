@@ -1,5 +1,13 @@
 # Worklog
 
+## #746, #747
+
+Finished last of the necessary changes to properly calculate what files need to
+be reset and added. Next is to grab all the diffs from each file and prettify
+them basd on the assumed scope. Once I have the scope and diff, I can then ask
+the user what type of commit it is, then request a message. I do that for each
+file, then prompt to commit and execute everything.
+
 ## #742, #743, #744, #745
 
 While working on `@dev-xp/git` and preparing `kd commit` I ran into a need to
