@@ -1,0 +1,56 @@
+define-command -docstring "map-sequence <scope> <sequence> <command>: map <sequence> of keys to <command> in insert mode." \
+map-sequence -params 3 %{ evaluate-commands %sh{
+    keys=$(printf "%s" "$2" | sed "s/\([&|]\)/\1\1/g")
+    cmd=$(printf "%s" "$3" | sed "s/\([@&|]\)/\1\1/g")
+    printf "%s\n" "hook -group $2-seq $1 InsertChar ${2##${2%%?}} %|
+        try %&
+            execute-keys -draft h<a-B> <a-k>$keys<ret> s$keys\z<ret> d
+            evaluate-commands %@$cmd@
+        &
+    |"
+}}
+
+define-command -docstring "unmap-sequence <scope> <sequence>: unmap <sequence> of keys in testing mode." \
+unmap-sequence -params 2 %{
+    remove-hooks "%arg{1}" "%arg{2}-seq"
+}
+
+map-sequence global jk %{exec <esc>}
+
+alias global x write-quit
+
+map global normal ^       gh
+map global normal $       gl
+
+#map global prompt <c-j>  <tab>
+map global prompt <F12>   <tab>
+map global prompt <c-k>   <s-tab>
+map global prompt <c-l>   <tab><c-e>
+map global prompt <c-w>   <c-w><c-w>
+
+map global prompt <c-d>   e<space>*debug*<ret>
+
+#map global normal <c-i>  <a-i>
+map global normal <F10>   <a-i>
+map global normal <c-a>   <a-a>
+
+map global normal w       wl
+map global normal b       b\;
+map global normal W       <a-:>?<\>w<ret><a-{>w<a-:>F<space>
+map global normal B       <a-:><a-\;><a-F><space><a-?><\>w<ret>s[<\>S<\>s]*<space><ret><a-{>w
+
+map global normal <space> <space>\;
+
+map global normal [       <a-O>
+map global normal ]       <a-o>
+
+map global normal <c-w>   :delete-buffer<ret>
+
+map global normal C       Glc
+
+map global normal <c-f>   <a-f>
+map global normal <c-F>   <a-F>
+map global normal <c-t>   <a-t>
+map global normal <c-T>   <a-T>
+
+add-highlighter global/number-lines number-lines -relative

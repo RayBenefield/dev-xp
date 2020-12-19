@@ -28,6 +28,8 @@ F1::Send, {F2}
 #IfWinActive
 
 #IfWinActive ahk_exe Hyper.exe
+    $^j::SEND, {F12}
+    $^i::SEND, {F10}
     $#v::
     $^v::
         Send, ^+v
