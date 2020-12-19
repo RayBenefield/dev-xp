@@ -1,5 +1,11 @@
 # Worklog
 
+## #748, #749, #750, #751, #752, #753, #754, #755
+
+I've finally switched over to `kak` instead of Vim. It's a learning experience,
+but I think it will be worth it overall. I've got my basic key mappings and a
+basic colorscheme setup now.
+
 ## #746, #747
 
 Finished last of the necessary changes to properly calculate what files need to
