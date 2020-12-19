@@ -41,9 +41,6 @@ map global normal B       <a-:><a-\;><a-F><space><a-?><\>w<ret>s[<\>S<\>s]*<spac
 
 map global normal <space> <space>\;
 
-map global normal [       <a-O>
-map global normal ]       <a-o>
-
 map global normal <c-w>   :delete-buffer<ret>
 
 map global normal C       Glc
@@ -52,6 +49,15 @@ map global normal <c-f>   <a-f>
 map global normal <c-F>   <a-F>
 map global normal <c-t>   <a-t>
 map global normal <c-T>   <a-T>
+
+map global normal <a-]>   <a-o>
+map global normal <a-[>   <a-O>
+map global normal ]       /^$<ret>
+map global normal [       <a-/>^$<ret>
+map global normal }       ?^$<ret>
+map global normal {       <a-?>^$<ret>
+
+map global normal <a-w>   '|fmt --split-only --width 80<ret>' -docstring "Wrap to 80 columns"
 
 add-highlighter global/number-lines number-lines -relative
 
