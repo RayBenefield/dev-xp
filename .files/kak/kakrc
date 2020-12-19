@@ -54,3 +54,95 @@ map global normal <c-t>   <a-t>
 map global normal <c-T>   <a-T>
 
 add-highlighter global/number-lines number-lines -relative
+
+# Solarized Dark
+hook global WinSetOption filetype=javascript %{
+    add-highlighter global/ regex \b(as|constructor|declare|enum|from|implements|interface|module|namespace|package|private|protected|public|readonly|static|type)\b 0:keyword
+    add-highlighter global/ regex \b(process)\b 0:module
+    add-highlighter global/ regex \b(\?|:)\b 0:keyword
+    add-highlighter global/ regex "([a-zA-Z]+)\(" 1:function
+    add-highlighter global/ regex "([a-zA-Z]+):" 1:value
+}
+
+
+
+evaluate-commands %sh{
+    yellow='rgb:c7c400'
+    lightyellow='rgb:fffc67'
+    red='rgb:c91b00'
+    lightred='rgb:ff6d67'
+    magenta='rgb:c930c7'
+    lightmagenta='rgb:ff99ff'
+    blue='rgb:0225c7'
+    lightblue='rgb:8a93ff'
+    cyan='rgb:009db4'
+    lightcyan='rgb:5ffdff'
+    green='rgb:00c200'
+    lightgreen='rgb:8ffc9a'
+    white='rgb:ffffff'
+    orange='rgb:cb4b16'
+    violet='rgb:6c71c4'
+    midnightblue='rgb:000106'
+
+    base03='rgb:000106'
+    base02='rgb:000106'
+    base01='rgb:5ff967'
+    base00='rgb:657b83'
+    base0=white
+    base1='rgb:93a1a1'
+    base2='rgb:eee8d5'
+    base3='rgb:fdf6e3'
+
+    echo "
+        # code
+        face global value              ${lightblue}
+        face global type               ${red}
+        face global variable           ${white}
+        face global module             ${magenta}
+        face global function           ${lightcyan}
+        face global string             ${lightmagenta}
+        face global keyword            ${lightyellow}
+        face global operator           ${yellow}
+        face global attribute          ${violet}
+        face global comment            ${cyan}
+        face global documentation      comment
+        face global meta               ${orange}
+        face global builtin            default+b
+        face global code               ${lightyellow}
+
+        # markup
+        face global title              ${blue}+b
+        face global header             ${blue}
+        face global mono               ${base1}
+        face global block              ${cyan}
+        face global link               ${base1}
+        face global bullet             ${yellow}
+        face global list               ${green}
+
+        # builtin
+        face global Default            ${base0},${base03}
+        face global PrimarySelection   ${base03},${blue}+fg
+        face global SecondarySelection ${base01},${base1}+fg
+        face global PrimaryCursor      ${base03},${base0}+fg
+        face global SecondaryCursor    ${base03},${base01}+fg
+        face global PrimaryCursorEol   ${base03},${base2}+fg
+        face global SecondaryCursorEol ${base03},${base3}+fg
+        face global LineNumbers        ${lightgreen},${base02}
+        face global LineNumberCursor   ${base1},${base02}
+        face global LineNumbersWrapped ${base02},${base02}
+        face global MenuForeground     ${base03},${yellow}
+        face global MenuBackground     ${base1},${base02}
+        face global MenuInfo           ${base01}
+        face global Information        ${base02},${base1}
+        face global Error              ${red},default+b
+        face global StatusLine         ${base1},${base02}+b
+        face global StatusLineMode     ${orange}
+        face global StatusLineInfo     ${cyan}
+        face global StatusLineValue    ${green}
+        face global StatusCursor       ${base00},${base3}
+        face global Prompt             ${yellow}+b
+        face global MatchingChar       ${red},${base01}+b
+        face global BufferPadding      ${base01},${base03}
+        face global Whitespace         ${base01}+f
+    "
+}
