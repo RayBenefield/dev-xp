@@ -61,6 +61,11 @@ map global normal <a-w>   '|fmt --split-only --width 80<ret>' -docstring "Wrap t
 
 add-highlighter global/number-lines number-lines -relative
 
+hook global WinSetOption filetype=markdown %{
+    set window autowrap_column 80
+    autowrap-enable
+}
+
 # Solarized Dark
 hook global WinSetOption filetype=javascript %{
     add-highlighter global/ regex \b(as|constructor|declare|enum|from|implements|interface|module|namespace|package|private|protected|public|readonly|static|type)\b 0:keyword
@@ -69,8 +74,6 @@ hook global WinSetOption filetype=javascript %{
     add-highlighter global/ regex "([a-zA-Z]+)\(" 1:function
     add-highlighter global/ regex "([a-zA-Z]+):" 1:value
 }
-
-
 
 evaluate-commands %sh{
     yellow='rgb:c7c400'
