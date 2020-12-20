@@ -1,20 +1,20 @@
 [user]
-	name = Raymond Benefield
-	email = raymond.benefield@gmail.com
+    name = Raymond Benefield
+    email = raymond.benefield@gmail.com
 [diff]
-	tool = vimdiff
-	mnemonicprefix = true
-	renames = copies
-	colorMoved = zebra
+    tool = vimdiff
+    mnemonicprefix = true
+    renames = copies
+    colorMoved = zebra
 [difftool]
-	prompt = false
+    prompt = false
 [alias]
-	a = add .
-	l = log --oneline
-	p = pull --rebase --tags
-	f = fetch --all --tags --prune
-	br = branch
-	st = status -u
+    a = add .
+    l = log --oneline
+    p = pull --rebase --tags
+    f = fetch --all --tags --prune
+    br = branch
+    st = status -u
     cb = checkout -b
     co = "!f() { git checkout $(git branch | fzf); }; f"
     un = "!f() { FILE=$1; git restore --staged $FILE; }; f"
@@ -23,42 +23,42 @@
     ac = "!f() { FILE=$1; MESSAGE=$2; git add $FILE; git commit -m \"$MESSAGE\"; }; f"
     pu = "!f() { BRANCH=$(git symbolic-ref --short HEAD); git push -u origin $BRANCH; }; f"
     rw = "!f() { COMMIT=$1; BRANCH=$(git symbolic-ref --short HEAD); git stash -u; git checkout $COMMIT; git commit --amend --no-verify; git rebase HEAD $BRANCH; git checkout $BRANCH; git stash pop; }; f"
-	dif = diff --staged
+    dif = diff --staged
     fix = "!f() { COMMIT=$1; REV=$(git rev-parse $COMMIT); git commit --fixup $COMMIT; git stash -u; GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash $REV^; git stash pop; }; f"
-	last = log -1 HEAD
+    last = log -1 HEAD
     save = stash save -u
     cont = rebase --continue
     abort = rebase --abort
     drop = "!f() { git stash drop stash@{0}; }; f"
     check = "!f() { FILE=$1; git log --follow $FILE; }; f"
-	amend = commit -a --amend --no-edit
-	staged = diff --staged
-	pretty = log --graph --oneline --decorate
-	unstage = restore --staged .
-	refresh = reset --hard @{u}
+    amend = commit -a --amend --no-edit
+    staged = diff --staged
+    pretty = log --graph --oneline --decorate
+    unstage = restore --staged .
+    refresh = reset --hard @{u}
     fix-lock = "!f() { git restore --staged yarn.lock; yarn; git add yarn.lock package.json }; f"
-	show-files = show --pretty="format:" --name-only
+    show-files = show --pretty="format:" --name-only
     EX-shell-var = "!f() { COMMIT=$1; BRANCH=$(git symbolic-ref --short HEAD); echo $COMMIT; echo $BRANCH; }; f"
 [color "status"]
-	untracked = cyan
+    untracked = cyan
 [core]
-	whitespace = trailing-space,space-before-tab
-	excludesfile = ~/.gitignore
-	editor = vim
-	pager = diff-so-fancy | less --tabs=4 -RFX
+    whitespace = trailing-space,space-before-tab
+    excludesfile = ~/.gitignore
+    editor = vim
+    pager = diff-so-fancy | less --tabs=4 -RFX
 [push]
-	followTags = true
+    followTags = true
 [rerere]
-	enabled = true
+    enabled = true
 [color "diff-highlight"]
-	oldNormal = red
-	oldHighlight = red 52
-	newNormal = green
-	newHighlight = green 22
+    oldNormal = red
+    oldHighlight = red 52
+    newNormal = green
+    newHighlight = green 22
 [color "diff"]
-	meta = 227
-	frag = magenta bold
-	commit = 227 bold
-	old = red
-	new = green
-	whitespace = red reverse
+    meta = 227
+    frag = magenta bold
+    commit = 227 bold
+    old = red
+    new = green
+    whitespace = red reverse
