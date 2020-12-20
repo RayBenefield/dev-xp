@@ -1,5 +1,10 @@
 # Worklog
 
+## #759, #760
+
+Updated `travis` to properly add `busted` so lua tests are run on travis and the
+build no longer breaks on pull requests.
+
 ## #756, #757, #758
 
 Making quick edits to all of my dx stuff including updating things to use `kak`
