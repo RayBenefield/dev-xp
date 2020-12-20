@@ -1,3 +1,4 @@
+dist: focal
 language: node_js
 node_js:
     - '11'
@@ -5,7 +6,10 @@ branches:
     only:
         - master
 cache: yarn
-before_install: git fetch --depth=10000
+before_install:
+    - sudo apt-get -y install lua5.3 liblua5.3 liblua5.3-dev luarocks
+    - sudo luarocks install busted
+    - git fetch --depth=10000
 install:
     - yarn
 script:
