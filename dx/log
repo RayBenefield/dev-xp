@@ -4,7 +4,7 @@ BRANCH=$(git symbolic-ref --short HEAD)
 git checkout master
 git fetch --all --tags --prune
 git pull --rebase --tags
-vim ./docs/worklog.md
+kak ./docs/worklog.md
 SESSION=$(<./dx/.session)
 ((++SESSION))
 echo ${SESSION} > ./dx/.session
