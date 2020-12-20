@@ -1,5 +1,10 @@
 # Worklog
 
+## #756, #757, #758
+
+Making quick edits to all of my dx stuff including updating things to use `kak`
+and some upgrades to git and improving performance for `kak`.
+
 ## #748, #749, #750, #751, #752, #753, #754, #755
 
 I've finally switched over to `kak` instead of Vim. It's a learning experience,
