@@ -34,6 +34,8 @@ map global prompt <c-d>   e<space>*debug*<ret>
 map global normal <F10>   <a-i>
 map global normal <c-a>   <a-a>
 
+map global normal X       <a-x>
+
 map global normal w       wl
 map global normal b       b\;
 map global normal W       <a-:>?<\>w<ret><a-{>w<a-:>F<space>
