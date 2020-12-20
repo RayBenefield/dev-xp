@@ -45,7 +45,7 @@
 [core]
     whitespace = trailing-space,space-before-tab
     excludesfile = ~/.gitignore
-    editor = vim
+    editor = kik
     pager = diff-so-fancy | less --tabs=4 -RFX
 [push]
     followTags = true
