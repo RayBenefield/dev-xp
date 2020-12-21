@@ -1,3 +1,5 @@
+source "%val{config}/plugins/plug.kak/rc/plug.kak"
+
 define-command -docstring "map-sequence <scope> <sequence> <command>: map <sequence> of keys to <command> in insert mode." \
 map-sequence -params 3 %{ evaluate-commands %sh{
     keys=$(printf "%s" "$2" | sed "s/\([&|]\)/\1\1/g")
