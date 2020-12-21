@@ -1,5 +1,13 @@
 # Worklog
 
+## #761, #762, #763, #764, #765, #766
+
+Breaking files down into their actual scopes, this took longer than it should,
+because I wanted to learn some `ramda` and ended up making a few mistakes. But I
+also added snapshot testing, and I will probably quickly add generated snapshot
+tests with `kd new` for now to start pushing more snapshot testing from day
+one.
+
 ## #759, #760
 
 Updated `travis` to properly add `busted` so lua tests are run on travis and the
