@@ -1,5 +1,13 @@
 source "%val{config}/plugins/plug.kak/rc/plug.kak"
 
+plug "andreyorst/smarttab.kak" defer smarttab %{
+    # when `backspace' is pressed, 4 spaces are deleted at once
+    set-option global softtabstop 4
+} config %{
+    # these languages will use `expandtab' behavior
+    hook global WinSetOption filetype=.* expandtab
+}
+
 define-command -docstring "map-sequence <scope> <sequence> <command>: map <sequence> of keys to <command> in insert mode." \
 map-sequence -params 3 %{ evaluate-commands %sh{
     keys=$(printf "%s" "$2" | sed "s/\([&|]\)/\1\1/g")
