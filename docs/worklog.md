@@ -1,5 +1,12 @@
 # Worklog
 
+## #767
+
+Some upgrades to `kak` and exploring how the pipe command works and if I can tie
+into it with my own CLI tools like `kikd`. Looks like a `kli` command should
+work, I'm just trying to figure out why `kikd` in particular is not printing
+anything and I'm assuming it is because of the process it is being run in.
+
 ## #761, #762, #763, #764, #765, #766
 
 Breaking files down into their actual scopes, this took longer than it should,
