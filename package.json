@@ -165,6 +165,7 @@
         "pretty-bytes": "^5.4.1",
         "prettyjson": "^1.2.1",
         "promise-retry": "^1.1.1",
+        "ramda": "^0.27.1",
         "registry-url": "^3.1.0",
         "remove-markdown": "^0.3.0",
         "renderkid": "^2.0.1",
