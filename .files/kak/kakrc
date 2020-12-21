@@ -46,6 +46,7 @@ map global normal <space> <space>\;
 map global normal <c-w>   :delete-buffer<ret>
 
 map global normal C       Glc
+map global normal D       Gld
 
 map global normal <c-f>   <a-f>
 map global normal <c-F>   <a-F>
