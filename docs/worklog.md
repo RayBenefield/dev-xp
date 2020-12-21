@@ -1,5 +1,10 @@
 # Worklog
 
+## #769
+
+I've narrowed the problem of `kikd` not printing anything through pipe to
+`renderkid` not properly printing. So I'm investigating further.
+
 ## #768
 
 While exploring what `kikd` wouldn't work for piping, I realized my tabbing
