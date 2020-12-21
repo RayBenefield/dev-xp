@@ -1,5 +1,14 @@
 # Worklog
 
+## #770
+
+I figured out the problem with `renderkid` and it's because when I pipe from
+`kak` it is a non-tty terminal, so `renderkid` whines because it doesn't have a
+terminal width to work with [https://github.com/AriaMinaei/RenderKid/issues/14].
+So now I'm looking into how to get the path of a library through `kikd` so I can
+use it to easily jump to a module when I need to. Would be a SUPER helpful
+plugin for `kak` if I can figure out a relatively quick way to execute it.
+
 ## #769
 
 I've narrowed the problem of `kikd` not printing anything through pipe to
