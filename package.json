@@ -75,6 +75,7 @@
         "publish": "yarn kd publish --commit",
         "?watch": "echo Run tests, linting, and line counting every time a file changes.",
         "watch": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules --exec npm-run-all test lint sloc",
+        "watch:test": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules --exec yarn kape",
         "?postrewrite": "echo Update what commits git tags are pointing to after an amend/rebase. -- ./dx/rewrite-tags",
         "come-at-me": "cd src/node_modules && babel-node come-at-me/cli.js",
         "?test:rx": "echo Run tests for rx-core in lua.",
