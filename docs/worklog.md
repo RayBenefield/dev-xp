@@ -1,5 +1,13 @@
 # Worklog
 
+## #772
+
+I want to add a new `key` flag for `kli` so I can better investigate the `json`
+returned. This will allow me to debug better moving forward. To do this I need a
+new `keyRenderer` but while doing that I also realized I want `kd new` to accept
+a `packageName` by default so I added that and next is to actually do the
+`keyRenderer` calculations.
+
 ## #770, #771
 
 I figured out the problem with `renderkid` and it's because when I pipe from
