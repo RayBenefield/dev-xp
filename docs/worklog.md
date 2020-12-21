@@ -1,5 +1,12 @@
 # Worklog
 
+## #768
+
+While exploring what `kikd` wouldn't work for piping, I realized my tabbing
+sucks so I went to go setup tabbing by setting up a plugin manager for `kak` and
+then adding the `smarttab` plugin and configuring it to work properly. Hopefully
+I'll be able to figure out why `kikd` can't be used for piping right now.
+
 ## #767
 
 Some upgrades to `kak` and exploring how the pipe command works and if I can tie
