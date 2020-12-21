@@ -1,6 +1,6 @@
 # Worklog
 
-## #770
+## #770, #771
 
 I figured out the problem with `renderkid` and it's because when I pipe from
 `kak` it is a non-tty terminal, so `renderkid` whines because it doesn't have a
