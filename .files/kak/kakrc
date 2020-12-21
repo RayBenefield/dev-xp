@@ -25,7 +25,7 @@ map global normal $       gl
 #map global prompt <c-j>  <tab>
 map global prompt <F12>   <tab>
 map global prompt <c-k>   <s-tab>
-map global prompt <c-l>   <tab><c-e>
+map global prompt <c-l>   <c-e>
 map global prompt <c-w>   <c-w><c-w>
 
 map global prompt <c-d>   e<space>*debug*<ret>
@@ -44,6 +44,8 @@ map global normal B       <a-:><a-\;><a-F><space><a-?><\>w<ret>s[<\>S<\>s]*<spac
 map global normal <space> <space>\;
 
 map global normal <c-w>   :delete-buffer<ret>
+map global normal <c-l>   :buffer-next<ret>
+map global normal <c-b>   :buffer<space>
 
 map global normal C       Glc
 map global normal D       Gld
