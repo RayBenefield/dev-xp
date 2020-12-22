@@ -1,5 +1,11 @@
 # Worklog
 
+## #773, #774, #775, #776
+
+I got list trying to learn `ramda` stuff and ended up realizing that the problem
+was that `Object.keys` is bounded. So I replaced it with `R.keys` and it just
+worked better... it cuts deep that I had to do that lol. Stupid mutable state.
+
 ## #772
 
 I want to add a new `key` flag for `kli` so I can better investigate the `json`
