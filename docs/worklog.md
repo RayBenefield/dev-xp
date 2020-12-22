@@ -1,5 +1,14 @@
 # Worklog
 
+## #777, #778, #779, #780, #781
+
+More learning from `ramda` I was just exploring refactoring. But now I've add
+the full functionality of the `key` flag for `kli` and if I pass `json` with a
+single path it'll isolate down to just the value. Now to use it in `kak` I just
+need to republish `kli` so I don't have any of the `yarn` nonsense in the
+outputs. And then tomorrow I can work on creating a `kak` command that will open
+the file tied to the selection, so I can jump to packages more easily.
+
 ## #773, #774, #775, #776
 
 I got list trying to learn `ramda` stuff and ended up realizing that the problem
