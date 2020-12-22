@@ -946,6 +946,11 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
+dotenv@^8.0.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
+  integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
+
 duplexer@^0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.2.tgz#3abe43aef3835f8ae077d136ddce0f276b0400e6"
@@ -1811,16 +1816,17 @@ kebab-case@^1.0.0:
   resolved "https://registry.yarnpkg.com/kebab-case/-/kebab-case-1.0.0.tgz#3f9e4990adcad0c686c0e701f7645868f75f91eb"
   integrity sha1-P55JkK3K0MaGwOcB92RYaPdfkes=
 
-kikd@^0.0.160:
-  version "0.0.160"
-  resolved "https://registry.yarnpkg.com/kikd/-/kikd-0.0.160.tgz#90cf0ada2909fe303e3424e1dc0e595eb60e4017"
-  integrity sha512-fzv7WicIFohPUKE776Qmw8R4i9a9gXu0vUvpUS4FNdog6ilwyZSWhulxY43T57FszJC6wDgIdcDMn+OnF56NNg==
+kikd@^0.0.163:
+  version "0.0.163"
+  resolved "https://registry.yarnpkg.com/kikd/-/kikd-0.0.163.tgz#02e2b709cb527096f1482bc7e91688c3656ec96a"
+  integrity sha512-q6T+dgabjbE88azAJFGWmpv60mge3Dp5sDoVn0e/OTVAHeL/rLE8HcFedGdmrsSsTRE2NYRIohAaZeUFFq5WHw==
   dependencies:
     babel-core "^6.26.0"
     chalk "^2.3.0"
     dedent "^0.7.0"
     detective-es6 "^1.2.0"
     dot-prop "^5.2.0"
+    dotenv "^8.0.0"
     edit-json-file "^1.4.0"
     es6-promisify "^5.0.0"
     execa "^0.8.0"
@@ -1853,6 +1859,7 @@ kikd@^0.0.160:
     minimatch "^3.0.4"
     minimist "^1.2.0"
     prettyjson "^1.2.1"
+    ramda "^0.27.1"
     registry-url "^3.1.0"
     renderkid "^2.0.1"
     rimraf "^2.6.2"
@@ -2630,6 +2637,11 @@ r-json@^1.2.5:
   version "1.2.10"
   resolved "https://registry.yarnpkg.com/r-json/-/r-json-1.2.10.tgz#62a73d9cafa7eabf670e5c2812c27bdb220a968b"
   integrity sha512-hu9vyLjSlHXT62NAS7DjI9WazDlvjN0lgp3n431dCVnirVcLkZIpzSwA3orhZEKzdDD2jqNYI+w0yG0aFf4kpA==
+
+ramda@^0.27.1:
+  version "0.27.1"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.1.tgz#66fc2df3ef873874ffc2da6aa8984658abacf5c9"
+  integrity sha512-PgIdVpn5y5Yns8vqb8FzBUEYn98V3xcPgawAkkgj0YJ0qDsnHCiNmZYfOGMgOvoB0eWFLpYbhxUR3mxfDIMvpw==
 
 rc@^1.0.1:
   version "1.2.8"
