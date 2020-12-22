@@ -1,5 +1,15 @@
 # Worklog
 
+## #784
+
+Did some research into the best way to go about setting up a plugin system and I
+think I want to adjust `kli` to support plugins fully itself. I'll handle it by
+using `names` of packages that are required. And I'll also provide a `keyBy`
+property that defaults to the name of the package. `kli` will also need to start
+supporting `cosmiconfig` to load settings. I want to be able to load commands
+from a `cosmiconfig`, but also allow `kli` packages to use the commands of other
+`kli` packages like `kikd` using `semcom` commands.
+
 ## #782, #783
 
 I finally have a command and mapping in `kak` to easily jump to another module
