@@ -8,6 +8,15 @@ plug "andreyorst/smarttab.kak" defer smarttab %{
     hook global WinSetOption filetype=.* expandtab
 }
 
+define-command jump %{
+    evaluate-commands %{
+        edit %sh{
+            kd ls ${kak_selection} --json=structures.${kak_selection}.srcDir | awk '{print $1"/index.js"}'
+        }
+    }
+}
+map global normal <c-g> <a-i>':jump<ret>
+
 define-command -docstring "map-sequence <scope> <sequence> <command>: map <sequence> of keys to <command> in insert mode." \
 map-sequence -params 3 %{ evaluate-commands %sh{
     keys=$(printf "%s" "$2" | sed "s/\([&|]\)/\1\1/g")
