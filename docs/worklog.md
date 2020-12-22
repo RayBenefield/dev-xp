@@ -1,5 +1,10 @@
 # Worklog
 
+## #782, #783
+
+I finally have a command and mapping in `kak` to easily jump to another module
+in my monorepo. YAY!!! Should make me tons more efficient.
+
 ## #777, #778, #779, #780, #781
 
 More learning from `ramda` I was just exploring refactoring. But now I've add
