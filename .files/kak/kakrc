@@ -17,6 +17,10 @@ define-command jump %{
 }
 map global normal <c-g> <a-i>':jump<ret>
 
+define-command sort %{
+    execute-keys "|awk '{ print length, $0 }' | sort -n | cut -d' ' -f2-"
+}
+
 define-command -docstring "map-sequence <scope> <sequence> <command>: map <sequence> of keys to <command> in insert mode." \
 map-sequence -params 3 %{ evaluate-commands %sh{
     keys=$(printf "%s" "$2" | sed "s/\([&|]\)/\1\1/g")
