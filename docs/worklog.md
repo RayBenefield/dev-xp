@@ -1,5 +1,12 @@
 # Worklog
 
+## #785
+
+In order to properly handle scope determination, I need to be able to grab the
+`git diff` so I know what is changing in the files. But this needs to be
+adjusted based on the "predicted" commit... the chosen `filesToCommit` will
+determine this "new" predicted commit. So that will be a fun little experiment.
+
 ## #784
 
 Did some research into the best way to go about setting up a plugin system and I
