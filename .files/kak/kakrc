@@ -26,6 +26,7 @@ define-command import -params 1 -shell-script-candidates %{ kd ls --json=package
     }
     execute-keys "ZggOimport<space><c-r>"" from '%arg{1}'<esc><a-i>p:sort<ret>z"
 }
+map global normal <a-l> :import<space>@dev-xp/log<ret>
 
 define-command sort %{
     execute-keys "|awk '{ print length, $0 }' | sort -n | cut -d' ' -f2-<ret>"
