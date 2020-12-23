@@ -16,7 +16,7 @@ define-command jump -params 0..1 -shell-script-candidates %{ kd ls --json=packag
         }
     }
 }
-map global normal <c-g> <a-i>':jump<ret>
+map global normal <c-g> xs'\S<ret><a-i>':jump<ret>
 
 define-command sort %{
     execute-keys "|awk '{ print length, $0 }' | sort -n | cut -d' ' -f2-"
