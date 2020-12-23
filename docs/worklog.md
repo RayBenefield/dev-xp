@@ -1,5 +1,13 @@
 # Worklog
 
+## #794, #795, #796, #797
+
+Worked on my new `kak` `import` command as well as a quick mapping to throw in a
+`@dev-xp/log` import statement so I can quickly start debugging as soon as I
+need to. Had to spend time upgrading `kak` by manually building from source. It
+was a task, but totally worth it so now I can properly mark my location and
+return to my mark after a command.
+
 ## #792, #793
 
 Finished some refactoring for `kli` and also added a way for me to sort import
