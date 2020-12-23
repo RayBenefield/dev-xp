@@ -1816,10 +1816,10 @@ kebab-case@^1.0.0:
   resolved "https://registry.yarnpkg.com/kebab-case/-/kebab-case-1.0.0.tgz#3f9e4990adcad0c686c0e701f7645868f75f91eb"
   integrity sha1-P55JkK3K0MaGwOcB92RYaPdfkes=
 
-kikd@^0.0.163:
-  version "0.0.163"
-  resolved "https://registry.yarnpkg.com/kikd/-/kikd-0.0.163.tgz#02e2b709cb527096f1482bc7e91688c3656ec96a"
-  integrity sha512-q6T+dgabjbE88azAJFGWmpv60mge3Dp5sDoVn0e/OTVAHeL/rLE8HcFedGdmrsSsTRE2NYRIohAaZeUFFq5WHw==
+kikd@^0.0.164:
+  version "0.0.164"
+  resolved "https://registry.yarnpkg.com/kikd/-/kikd-0.0.164.tgz#d05a8012ed97b587da09c4bf01b524a953b48450"
+  integrity sha512-R3uULpJuDxDHF32k24V14cbCdIeyLHiNlwz6VtQDbuLbsWajojd8I0iz1S2R/7gSqukV42eSMfbUS+5M4NmNBQ==
   dependencies:
     babel-core "^6.26.0"
     chalk "^2.3.0"
