@@ -1,5 +1,12 @@
 # Worklog
 
+## #786, #787
+
+Created a module that will allow me to patch a function's results on an
+object... this allows me to say `camel-case-keys` a resulting object, or apply a
+parser to raw output from a function like `git diff`. Very powerful and very
+useful. Might be time to do some more refactoring.
+
 ## #785
 
 In order to properly handle scope determination, I need to be able to grab the
