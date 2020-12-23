@@ -8,10 +8,11 @@ plug "andreyorst/smarttab.kak" defer smarttab %{
     hook global WinSetOption filetype=.* expandtab
 }
 
-define-command jump %{
+define-command jump -params 0..1 -shell-script-candidates %{ kd ls --json=packageNames } %{
     evaluate-commands %{
         edit %sh{
-            kd ls ${kak_selection} --json=structures.${kak_selection}.srcDir | awk '{print $1"/index.js"}'
+            package=${1:-$kak_selection}
+            kd ls ${package} --json=structures.${package}.srcDir | awk '{print $1"/index.js"}'
         }
     }
 }
