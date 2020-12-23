@@ -1,5 +1,16 @@
 # Worklog
 
+## #788, #789, #790, #791
+
+Really wanted to be able to setup the `jump` command for `kak` to autocomplete
+as well as jump based on seletion. To do that I had to setup `kli` to print a
+raw array without formatting and when I did that I ran into `max-lines`. So I
+spent a ton of time exploring refactoring options. Learning a lot about `ramda`
+in the process. Ultimately I was able to get the array printed and I have my
+command able to be completed now, which is actually SUPER nice. It'd be nice to
+short circuit so the command runs faster if I'm only looking for `packageNames`.
+No reason to calculate the entire snowball.
+
 ## #786, #787
 
 Created a module that will allow me to patch a function's results on an
