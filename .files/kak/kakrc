@@ -28,7 +28,7 @@ define-command import -params 1 -shell-script-candidates %{ kd ls --json=package
 }
 
 define-command sort %{
-    execute-keys "|awk '{ print length, $0 }' | sort -n | cut -d' ' -f2-"
+    execute-keys "|awk '{ print length, $0 }' | sort -n | cut -d' ' -f2-<ret>"
 }
 
 define-command -docstring "map-sequence <scope> <sequence> <command>: map <sequence> of keys to <command> in insert mode." \
