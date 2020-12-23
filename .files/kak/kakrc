@@ -18,6 +18,15 @@ define-command jump -params 0..1 -shell-script-candidates %{ kd ls --json=packag
 }
 map global normal <c-g> xs'\S<ret><a-i>':jump<ret>
 
+define-command import -params 1 -shell-script-candidates %{ kd ls --json=packageNames } %{
+    evaluate-commands -save-regs dquote %{
+        set-register dquote %sh{
+            echo $1 | cut -d'/' -f2 | sed -E 's/-(.)/\U\1/g'
+        }
+    }
+    execute-keys "ZggOimport<space><c-r>"" from '%arg{1}'<esc><a-i>p:sort<ret>z"
+}
+
 define-command sort %{
     execute-keys "|awk '{ print length, $0 }' | sort -n | cut -d' ' -f2-"
 }
