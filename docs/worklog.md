@@ -1,5 +1,14 @@
 # Worklog
 
+## #792, #793
+
+Finished some refactoring for `kli` and also added a way for me to sort import
+lines from now on. I also ignore `log` as an unused variable so I can keep my
+`@dev-xp/log` imports in and it allows me to debug faster and ultimately speed
+me up. And `kli` now returns an array of packages separated by new lines so I
+can use it with my `kak` `jump` command and jump to packages now very easily. I
+might want to adjust the `jump` command to include external dependency jumping.
+
 ## #788, #789, #790, #791
 
 Really wanted to be able to setup the `jump` command for `kak` to autocomplete
