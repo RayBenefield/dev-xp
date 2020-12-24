@@ -1,5 +1,14 @@
 # Worklog
 
+## #798, #799, #800
+
+I updated the `import` command to support a 2nd parameter so I can start
+seamlessly importing `ramda` since it needs a custom variable definition so
+adjust import to work properly was worth it. Took some learning more of `bash`
+but I got through it. I also added in the ability to jump to the respective
+`snapshot-tests` file based on the current module. It's working out well so
+far.
+
 ## #794, #795, #796, #797
 
 Worked on my new `kak` `import` command as well as a quick mapping to throw in a
