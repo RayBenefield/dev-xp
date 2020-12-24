@@ -1,5 +1,12 @@
 # Worklog
 
+## #801
+
+Working on filtering the hunks from the `git diff` in order to only grab hunks
+based on if they are related to a file being committed. This should be done. And
+then the next part is to grab the diffs from untracked files and already staged
+files.
+
 ## #798, #799, #800
 
 I updated the `import` command to support a 2nd parameter so I can start
