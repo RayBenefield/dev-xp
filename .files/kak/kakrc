@@ -75,7 +75,7 @@ map global normal b       b\;
 map global normal W       <a-:>?<\>w<ret><a-{>w<a-:>F<space>
 map global normal B       <a-:><a-\;><a-F><space><a-?><\>w<ret>s[<\>S<\>s]*<space><ret><a-{>w
 
-map global normal <space> <space>\;
+map global normal <space> ")<a-;><space>;"
 
 map global normal <c-w>   :delete-buffer<ret>
 map global normal <c-l>   :buffer-next<ret>
