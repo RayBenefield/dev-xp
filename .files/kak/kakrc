@@ -38,6 +38,14 @@ define-command sort %{
     execute-keys "|awk '{ print length, $0 }' | sort -n | cut -d' ' -f2-<ret>"
 }
 
+define-command test %{
+    evaluate-commands %{
+        edit %sh{
+            echo $kak_buffile | xargs dirname | awk '{print $1"/snapshot-tests.js"}'
+        }
+    }
+}
+
 define-command -docstring "map-sequence <scope> <sequence> <command>: map <sequence> of keys to <command> in insert mode." \
 map-sequence -params 3 %{ evaluate-commands %sh{
     keys=$(printf "%s" "$2" | sed "s/\([&|]\)/\1\1/g")
