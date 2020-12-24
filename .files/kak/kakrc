@@ -18,9 +18,14 @@ define-command jump -params 0..1 -shell-script-candidates %{ kd ls --json=packag
 }
 map global normal <c-g> xs'\S<ret><a-i>':jump<ret>
 
-define-command import -params 1 -shell-script-candidates %{ kd ls --json=packageNames } %{
+define-command import -params 1..2 -shell-script-candidates %{ kd ls --json=packageNames } %{
     evaluate-commands -save-regs dquote %{
         set-register dquote %sh{
+            if [ -n "${2##+([[:space:]])}" ]; then
+                echo "$2"
+                exit
+            fi
+
             echo $1 | cut -d'/' -f2 | sed -E 's/-(.)/\U\1/g'
         }
     }
