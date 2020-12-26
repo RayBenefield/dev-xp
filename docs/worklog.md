@@ -1,5 +1,13 @@
 # Worklog
 
+## #802
+
+Went back to FN for a little bit and switched over to using PC. Now I need some
+optimizations for my workflow in FN using `ahk`, so I'm doing that. First I
+needed to add autoreloading to `ahk` scripts. I also moved my main mappings and
+color scheme to the top of the `kakrc` so when bugs happen it doesn't break
+that. And I changed how `e` works as a mapping for my workflow.
+
 ## #801
 
 Working on filtering the hunks from the `git diff` in order to only grab hunks
