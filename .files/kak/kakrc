@@ -209,3 +209,9 @@ define-command test %{
         }
     }
 }
+
+hook global BufWritePost .*\.ahk %{
+    evaluate-commands %sh{
+      timeout 1s "/mnt/c/Program Files/AutoHotkey/AutoHotkey.exe" /r "$kak_buffile"
+    }
+}
