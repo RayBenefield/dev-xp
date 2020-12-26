@@ -1,51 +1,3 @@
-source "%val{config}/plugins/plug.kak/rc/plug.kak"
-
-plug "andreyorst/smarttab.kak" defer smarttab %{
-    # when `backspace' is pressed, 4 spaces are deleted at once
-    set-option global softtabstop 4
-} config %{
-    # these languages will use `expandtab' behavior
-    hook global WinSetOption filetype=.* expandtab
-}
-
-define-command jump -params 0..1 -shell-script-candidates %{ kd ls --json=packageNames } %{
-    evaluate-commands %{
-        edit %sh{
-            package=${1:-$kak_selection}
-            kd ls ${package} --json=structures.${package}.srcDir | awk '{print $1"/index.js"}'
-        }
-    }
-}
-map global normal <c-g> xs'\S<ret><a-i>':jump<ret>
-
-define-command import -params 1..2 -shell-script-candidates %{ kd ls --json=packageNames } %{
-    evaluate-commands -save-regs dquote %{
-        set-register dquote %sh{
-            if [ -n "${2##+([[:space:]])}" ]; then
-                echo "$2"
-                exit
-            fi
-
-            echo $1 | cut -d'/' -f2 | sed -E 's/-(.)/\U\1/g'
-        }
-    }
-    execute-keys "ZggOimport<space><c-r>"" from '%arg{1}'<esc><a-i>p:sort<ret>z"
-}
-map global normal <a-l> :import<space>@dev-xp/log<ret>
-map global normal <a-r> :import<space>ramda<space>"*<space>as<space>R"<ret>
-
-define-command sort %{
-    execute-keys "|awk '{ print length, $0 }' | sort -n | cut -d' ' -f2-<ret>"
-}
-
-define-command test %{
-    evaluate-commands %{
-        edit %sh{
-            echo $kak_buffile | xargs dirname | awk '{print $1"/snapshot-tests.js"}'
-        }
-    }
-}
-
 define-command -docstring "map-sequence <scope> <sequence> <command>: map <sequence> of keys to <command> in insert mode." \
 map-sequence -params 3 %{ evaluate-commands %sh{
     keys=$(printf "%s" "$2" | sed "s/\([&|]\)/\1\1/g")
@@ -206,4 +158,52 @@ evaluate-commands %sh{
         face global BufferPadding      ${base01},${base03}
         face global Whitespace         ${base01}+f
     "
+}
+
+source "%val{config}/plugins/plug.kak/rc/plug.kak"
+
+plug "andreyorst/smarttab.kak" defer smarttab %{
+    # when `backspace' is pressed, 4 spaces are deleted at once
+    set-option global softtabstop 4
+} config %{
+    # these languages will use `expandtab' behavior
+    hook global WinSetOption filetype=.* expandtab
+}
+
+define-command jump -params 0..1 -shell-script-candidates %{ kd ls --json=packageNames } %{
+    evaluate-commands %{
+        edit %sh{
+            package=${1:-$kak_selection}
+            kd ls ${package} --json=structures.${package}.srcDir | awk '{print $1"/index.js"}'
+        }
+    }
+}
+map global normal <c-g> xs'\S<ret><a-i>':jump<ret>
+
+define-command import -params 1..2 -shell-script-candidates %{ kd ls --json=packageNames } %{
+    evaluate-commands -save-regs dquote %{
+        set-register dquote %sh{
+            if [ -n "${2##+([[:space:]])}" ]; then
+                echo "$2"
+                exit
+            fi
+
+            echo $1 | cut -d'/' -f2 | sed -E 's/-(.)/\U\1/g'
+        }
+    }
+    execute-keys "ZggOimport<space><c-r>"" from '%arg{1}'<esc><a-i>p:sort<ret>z"
+}
+map global normal <a-l> :import<space>@dev-xp/log<ret>
+map global normal <a-r> :import<space>ramda<space>"*<space>as<space>R"<ret>
+
+define-command sort %{
+    execute-keys "|awk '{ print length, $0 }' | sort -n | cut -d' ' -f2-<ret>"
+}
+
+define-command test %{
+    evaluate-commands %{
+        edit %sh{
+            echo $kak_buffile | xargs dirname | awk '{print $1"/snapshot-tests.js"}'
+        }
+    }
 }
