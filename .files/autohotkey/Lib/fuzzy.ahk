@@ -68,7 +68,7 @@ UpdateValue(values) {
 
     selected =
     display =
-    if (IsNumber(searchString)) {
+    if (searchString is integer) {
         if (searchString > values.MaxIndex()) {
             return
         }
