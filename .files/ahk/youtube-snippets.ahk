@@ -5,8 +5,8 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
-#Include %A_ScriptDir%/Lib/Gdip_All.ahk
-#Include %A_ScriptDir%/Lib/fuzzy.ahk
+#Include %A_ScriptDir%/lib/gdip.ahk
+#Include %A_ScriptDir%/lib/fuzzy.ahk
 
 #Hotstring o
 #Hotstring EndChars {#}
