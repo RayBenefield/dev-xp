@@ -1,5 +1,10 @@
 # Worklog
 
+## #806, #807, #808, #809
+
+A ton of refactoring around `ahk` as a whole like only auto-reloading non `lib`
+scripts and moving the entire directory and it's scripts.
+
 ## #803, #804, #805
 
 Played around with mapping my xbox controller with `ahk` so I can access macros
