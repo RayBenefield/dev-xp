@@ -1,5 +1,15 @@
 # Worklog
 
+## #803, #804, #805
+
+Played around with mapping my xbox controller with `ahk` so I can access macros
+while using my controller. I had to fix a few things in the fuzzy finding script
+and allow `left` and `right` arrow keys and `enter` to work on the fuzzy finder,
+but now they do and I should be able to do more fancy things in the future. Next
+big thing I want to do is setup the ability to search for a property to change
+in a device and then change it to a particular value... in particular
+transmitters and receivers. Should be a fun exploration tomorrow.
+
 ## #802
 
 Went back to FN for a little bit and switched over to using PC. Now I need some
