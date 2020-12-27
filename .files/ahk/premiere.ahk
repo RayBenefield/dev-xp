@@ -4,9 +4,8 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-#Include %A_ScriptDir%/Lib/Gdip_All.ahk
-#Include %A_ScriptDir%/Lib/fuzzy.ahk
-#Include %A_ScriptDir%/Lib/premiere-actions.ahk
+#Include %A_ScriptDir%/lib/fuzzy.ahk
+#Include %A_ScriptDir%/lib/premiere-actions.ahk
 
 GLOBAL VARIABLE := "variable"
 GLOBAL NOT_VARIABLE := false

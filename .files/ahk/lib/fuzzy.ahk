@@ -1,4 +1,4 @@
-#Include %A_ScriptDir%/Lib/sift.ahk
+#Include %A_ScriptDir%/lib/sift.ahk
 
 fuzzy(values, default) {
     Global numberSlider
@@ -13,7 +13,7 @@ fuzzy(values, default) {
     GuiHWND := WinExist()
 
     updateValue := Func("UpdateValue").Bind(values)
-    keyPressed := Func("KeyPressed").Bind(updateValue)
+    keyPressed := Func("KeyPressed").Bind(values, updateValue)
     getFinalValue := Func("GetFinalValue")
     name := values[default]
     max := values.MaxIndex()
@@ -53,8 +53,37 @@ GetFinalValue() {
     return final
 }
 
-KeyPressed(updateValue) {
-    SetTimer, % updateValue, -100
+KeyPressed(values, updateValue, value) {
+    GuiControlGet, current, , numberSlider
+    Number := (current . String) , current += 0
+
+    if (value == 37) {
+        previous := Number - 1
+        GuiControl,, numberSlider, % previous
+        UpdateGUI(values)
+    } else if (value == 39) {
+        next := Number + 1
+        GuiControl,, numberSlider, % next
+        UpdateGUI(values)
+    } else if (value == 13) {
+        GetFinalValue()
+    } else {
+        SetTimer, % updateValue, -100
+    }
+}
+
+UpdateGUI(values) {
+    GuiControlGet, selected, , numberSlider
+    name := values[selected]
+    GuiControl,, numberSlider, % selected
+    GuiControl,, numberText, % selected
+    GuiControl,, fileText, % name
+}
+
+type(v) {
+    if IsObject(v)
+        return "Object"
+    return v="" || [v].GetCapacity(1) ? "String" : InStr(v,".") ? "Float" : "Integer"
 }
 
 UpdateValue(values) {
@@ -68,7 +97,8 @@ UpdateValue(values) {
 
     selected =
     display =
-    if (searchString is integer) {
+    searchType := type(searchString)
+    if (type(searchString) == "Integer") {
         if (searchString > values.MaxIndex()) {
             return
         }
