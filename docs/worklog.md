@@ -1,5 +1,13 @@
 # Worklog
 
+## #810
+
+Actually spent most of the day exploring `Unreal.js` for future plans. But just
+now got my implementation of "freezing" the mouse while I scroll like when
+scaling, rotating, or pushing/pulling working. So I'm happy with that. Next I
+will want to write my GUI for updating a channel automatically. I should also
+probably explore what OCR would be like.
+
 ## #806, #807, #808, #809
 
 A ton of refactoring around `ahk` as a whole like only auto-reloading non `lib`
