@@ -94,7 +94,8 @@
         "watch:jump": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:jump",
         "pbt": "cd src/node_modules && babel-node core-asset/cli.js",
         "js": "cd src/node_modules && babel-node js-sandbox/cli.js",
-        "lua": "cd src/node_modules && lua rx-sandbox/cli.lua"
+        "lua": "cd src/node_modules && lua rx-sandbox/cli.lua",
+        "cp": "cd src/node_modules && babel-node copy-wintowsl/cli.js"
     },
     "dependencies": {
         "@mixer/client-node": "^3.4.0",
