@@ -1,5 +1,13 @@
 # Worklog
 
+## #813
+
+Went to go start on data mining with `node-wick` and had to go grab a file from
+windows to wsl so I can test the system, but I got lazy and I decided to write a
+quick cli tool to copy a windows path to a path in my monorepo... lol. Sooo yeah
+that's a thing now. Cuz I'm lazy. But that should be good for me to start
+testing parsing on a `.uasset` now.
+
 ## #811, #812
 
 Ran into a WEIRD bug trying to setup fuzzy searching for my favorite games
