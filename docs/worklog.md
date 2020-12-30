@@ -1,5 +1,14 @@
 # Worklog
 
+## #811, #812
+
+Ran into a WEIRD bug trying to setup fuzzy searching for my favorite games
+hotkey. But I figured it out and that's all fixed now. Yesterday I spent
+research time just playing with OCR for reading the screen and honestly it
+worked absolutely perfectly. So I'm going to use that today and tomorrow to
+finish up my basic FN Creative automation. Need to collect the names of EVERY
+property in devices.
+
 ## #810
 
 Actually spent most of the day exploring `Unreal.js` for future plans. But just
