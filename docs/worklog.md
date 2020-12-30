@@ -1,5 +1,11 @@
 # Worklog
 
+## #814
+
+Making progress on parsing... realized I needed the mappings as well as the
+`global.utoc` and `global.ucas` files to make more progress. Slowly getting
+there. Hopefully I don't hit a brick wall.
+
 ## #813
 
 Went to go start on data mining with `node-wick` and had to go grab a file from
