@@ -35,6 +35,7 @@ map global normal <F10>   <a-i>
 map global normal <c-a>   <a-a>
 
 map global normal x       <a-x>
+map global normal X       <a-x>
 
 map global normal w       wl
 map global normal b       b\;
@@ -210,8 +211,8 @@ define-command test %{
     }
 }
 
-hook global BufWritePost .*autohotkey/[^/]*\.ahk %{
+hook global BufWritePost .*ahk/[^/]*\.ahk %{
     evaluate-commands %sh{
-        timeout 0.01s "/mnt/c/Program Files/AutoHotkey/AutoHotkey.exe" /r "$kak_buffile"
+        timeout 0.1s "/mnt/c/Program Files/AutoHotkey/AutoHotkey.exe" /r "$kak_buffile"
     }
 }
