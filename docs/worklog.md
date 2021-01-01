@@ -1,5 +1,15 @@
 # Worklog
 
+## #815
+
+Spent the last two days just pounding away to get everything working at least as
+manual as possible to prove the point. And I got it working by learning some
+`Rust` and going step by step. Now I've got it running in `node.js` which is
+absolutely huge and I'm excited to get fully into it. Now to build the full
+application to do what I need it to do. I'll start by making it work for me...
+then I'll start the process of learning to package it as an `.exe` for windows
+users to use. Time to jump into it.
+
 ## #814
 
 Making progress on parsing... realized I needed the mappings as well as the
