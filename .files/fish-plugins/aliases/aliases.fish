@@ -6,3 +6,4 @@ alias core='cd "/mnt/c/Users/RayBenefield/Dropbox/My PC (Ray-PC)/Documents/My Ga
 alias xpf='wherein src/node_modules/'
 alias log='./dx/log'
 alias vim='kak'
+alias vi='/usr/bin/vim'
