@@ -59,6 +59,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ::nervous::pasteEmoji("😅")
 ::confuse::pasteEmoji("😕")
 ::unamused::pasteEmoji("😒")
+::rude::pasteEmoji("😒")
 ::cool::pasteEmoji("😎")
 ::shh::pasteEmoji("🤫")
 ::evil::pasteEmoji("😈")
