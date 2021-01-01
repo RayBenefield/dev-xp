@@ -19,7 +19,7 @@ fuzzy(values, default) {
     max := values.MaxIndex()
 
     Gui, Add, Edit, r1 vsearch w135
-    Gui, Add, Slider,x60 y60 w250 vnumberSlider AltSubmit Range1-%max%, % default
+    Gui, Add, Slider,x60 y60 w250 vnumberSlider AltSubmit Range0-%max%, % default
     GuiControl +g, numberSlider, % updateValue
     Gui,Font,S24 Bold,Verdana
     Gui, Add, Text,x5 y50 w50 h50 vNumberText Center, % default
@@ -38,9 +38,6 @@ fuzzy(values, default) {
     Gui.OnEvent("Close", NOOP)
 
     WinWaitClose, ahk_id %GuiHWND%
-
-    GuiControlGet, final, , numberSlider
-
     return  GetFinalValue()
 }
 
@@ -57,7 +54,10 @@ KeyPressed(values, updateValue, value) {
     GuiControlGet, current, , numberSlider
     Number := (current . String) , current += 0
 
-    if (value == 37) {
+    if (value == 27) {
+        GuiControl,, numberSlider, 0
+        GetFinalValue()
+    } else if (value == 37) {
         previous := Number - 1
         GuiControl,, numberSlider, % previous
         UpdateGUI(values)
