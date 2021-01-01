@@ -3,11 +3,19 @@
 #INSTALLKEYBDHOOK
 #SINGLEINSTANCE FORCE
 
+#Include %A_ScriptDir%/lib/fuzzy.ahk
+
 SENDMODE INPUT
 SETTITLEMATCHMODE, 2
 
 ;; deactivate capslock completely
 SETCAPSLOCKSTATE, ALWAYSOFF
+
+GLOBAL games := [
+(JOIN
+    "CoreGames",
+    "Fortnite"
+)]
 
 ;; remap capslock to hyper
 ;; if capslock is toggled, remap it to esc
@@ -110,9 +118,20 @@ RETURN
     ActivateOrRun(ahk_exe Adobe Premiere Pro.exe, "C:\Program Files\Adobe\Adobe Premiere Pro 2020\Adobe Premiere Pro.exe")
 RETURN
 
-; #=::
-~Capslock & =::
+CoreGames() {
     ActivateOrRun("Core", "C:\ProgramData\Manticore Games\Launcher\Core Launcher.exe")
+}
+
+Fortnite() {
+    ActivateOrRun("ahk_exe FortniteClient-Win64-Shipping.exe", "C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64\FortniteLauncher.exe", "C:\Program Files\Epic Games\Fortnite\FortniteGame\Binaries\Win64")
+}
+
+~Capslock & =::
+    SEND, {CTRL UP}
+    gameNumber := fuzzy(games, 1)
+    game := games[gameNumber]
+    gameFunction := Func(game)
+    gameFunction.Call()
 RETURN
 
 #+l::
@@ -150,3 +169,4 @@ RETURN
         WINACTIVATE, ahk_exe taskmgr.exe
     }
 RETURN
+
