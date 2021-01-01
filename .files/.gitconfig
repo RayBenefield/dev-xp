@@ -26,6 +26,7 @@
     rw = "!f() { COMMIT=$1; BRANCH=$(git symbolic-ref --short HEAD); git stash -u; git checkout $COMMIT; git commit --amend --no-verify; git rebase HEAD $BRANCH; git checkout $BRANCH; git stash pop; }; f"
     dif = diff --staged
     fix = "!f() { COMMIT=$1; REV=$(git rev-parse $COMMIT); git commit --fixup $COMMIT; git stash -u; GIT_SEQUENCE_EDITOR=true git rebase -i --autosquash $REV^; git stash pop; }; f"
+    res = "!f() { COMMIT=$1; git branch temp; git reset --hard $COMMIT; git reset $COMMIT^; git stash -u; git rebase temp; git rebase $COMMIT --onto $COMMIT^; git stash pop; git branch -D temp; }; f"
     last = log -1 HEAD
     save = stash save -u
     cont = rebase --continue
