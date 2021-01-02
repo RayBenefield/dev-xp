@@ -1,6 +1,13 @@
 # Worklog
 
-## #916
+## #817, #818, #819, #820
+
+Just spent LOADS of time investigating all of the files I could find related to
+Creative. This will give me the ability to use lists to fill out my entire
+catalog of settings/devices/galleries/prefabs/etc. Lots to comb over and plan
+for.
+
+## #816
 
 Ended up spending time just cleaning up my git history and checking in a bunch
 of lingering updates I made throughout the past week. Also created a new `git`
