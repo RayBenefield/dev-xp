@@ -1,5 +1,16 @@
 # Worklog
 
+## #916
+
+Ended up spending time just cleaning up my git history and checking in a bunch
+of lingering updates I made throughout the past week. Also created a new `git`
+alias that allows me to soft reset a commit while keeping every commit after it.
+Very powerful for removing temporary commits to transfer between systems. So now
+I need to start organizing my current code so I can give it a target file and
+then parse and download it and recursively hunt down any links that need to be
+followed. Especially since devices connect to knobs to reuse settings across
+devices.
+
 ## #815
 
 Spent the last two days just pounding away to get everything working at least as
