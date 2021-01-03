@@ -1,0 +1,21 @@
+{
+  "name": "FortConditionalIncludeTags",
+  "properties": [
+    {
+      "index": 0,
+      "name": "ConditionTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 1,
+      "name": "IncludeTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    }
+  ]
+}

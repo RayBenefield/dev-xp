@@ -1,0 +1,196 @@
+{
+  "name": "FortResourceItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "ResourceType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortResourceType"
+      }
+    },
+    {
+      "index": 1,
+      "name": "AccumulatingStatType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortReplicatedStat"
+      }
+    },
+    {
+      "index": 2,
+      "name": "CreativeTagsHelper",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "FortCreativeTagsHelper"
+      }
+    },
+    {
+      "index": 9,
+      "name": "bSupportsQuickbarFocus",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 16,
+      "name": "bShouldShowItemToast",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 17,
+      "name": "bShowDirectionalArrowWhenFarOff",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 18,
+      "name": "bCanBeDropped",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 20,
+      "name": "bItemCanBeStolen",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 21,
+      "name": "bCanBeDepositedInStorageVault",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 32,
+      "name": "MiniMapViewableDistance",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 33,
+      "name": "MiniMapIconBrush",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "SlateBrush"
+      }
+    },
+    {
+      "index": 48,
+      "name": "PickupStaticMesh",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 51,
+      "name": "PickupSound",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 53,
+      "name": "DropSound",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 64,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 67,
+      "name": "FilterOverride",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortInventoryFilter"
+      }
+    },
+    {
+      "index": 72,
+      "name": "bNeverPersisted",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 78,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 79,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 80,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 82,
+      "name": "SearchTags",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 83,
+      "name": "GameplayTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 87,
+      "name": "MaxStackSize",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 94,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 95,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 99,
+      "name": "FrontendPreviewInitialRotation",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Rotator"
+      }
+    }
+  ]
+}

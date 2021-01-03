@@ -1,0 +1,13 @@
+{
+  "name": "UserDefinedStruct",
+  "properties": [
+    {
+      "index": 1,
+      "name": "Guid",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Guid"
+      }
+    }
+  ]
+}

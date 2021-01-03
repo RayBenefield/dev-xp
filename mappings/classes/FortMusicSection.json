@@ -1,0 +1,40 @@
+{
+  "name": "FortMusicSection",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Sound",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "FadeInTime",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "FadeOutTime",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "InitialOffset",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Duration",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    }
+  ]
+}

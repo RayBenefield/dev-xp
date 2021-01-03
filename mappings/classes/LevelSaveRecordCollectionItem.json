@@ -1,0 +1,20 @@
+{
+  "name": "LevelSaveRecordCollectionItem",
+  "properties": [
+    {
+      "index": 0,
+      "name": "RecordUniqueName",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Transform",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Transform"
+      }
+    }
+  ]
+}

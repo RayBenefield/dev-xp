@@ -1,0 +1,20 @@
+{
+  "name": "AbilityActivatedByInputData",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Ability",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ActivationTagQuery",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagQuery"
+      }
+    }
+  ]
+}

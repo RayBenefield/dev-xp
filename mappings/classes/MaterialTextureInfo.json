@@ -1,0 +1,26 @@
+{
+  "name": "MaterialTextureInfo",
+  "properties": [
+    {
+      "index": 0,
+      "name": "SamplingScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "UVChannelIndex",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "TextureName",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    }
+  ]
+}

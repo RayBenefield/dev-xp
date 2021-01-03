@@ -1,0 +1,32 @@
+{
+  "name": "AthenaMapPreloadData",
+  "properties": [
+    {
+      "index": 0,
+      "name": "PackageNames",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "NameProperty"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "MemoryLookup",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "Int16Property"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "MemoryIncrementMB",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    }
+  ]
+}

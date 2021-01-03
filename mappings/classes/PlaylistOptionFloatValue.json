@@ -1,0 +1,27 @@
+{
+  "name": "PlaylistOptionFloatValue",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Value",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 1,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "OptionValueName",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    }
+  ]
+}

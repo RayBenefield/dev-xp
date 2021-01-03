@@ -1,0 +1,12 @@
+{
+  "name": "MaterialShadingModelField",
+  "properties": [
+    {
+      "index": 0,
+      "name": "ShadingModelField",
+      "mapping_type": {
+        "type": "UInt16Property"
+      }
+    }
+  ]
+}

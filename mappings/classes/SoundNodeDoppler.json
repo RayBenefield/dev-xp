@@ -1,0 +1,26 @@
+{
+  "name": "SoundNodeDoppler",
+  "properties": [
+    {
+      "index": 0,
+      "name": "DopplerIntensity",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "bUseSmoothing",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "SmoothingInterpSpeed",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    }
+  ]
+}

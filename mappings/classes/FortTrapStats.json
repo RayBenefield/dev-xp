@@ -1,0 +1,517 @@
+{
+  "name": "FortTrapStats",
+  "properties": [
+    {
+      "index": 0,
+      "name": "ArmTime",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "FireDelay",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "DamageDelay",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "PlacementScore",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "ActivationScore",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "BaseLevel",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "NamedWeightRow",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "DmgPB",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "DmgMid",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 9,
+      "name": "DmgLong",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 10,
+      "name": "DmgMaxRange",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 11,
+      "name": "EnvDmgPB",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 12,
+      "name": "EnvDmgMid",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 13,
+      "name": "EnvDmgLong",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 14,
+      "name": "EnvDmgMaxRange",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 15,
+      "name": "ImpactDmgPB",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 16,
+      "name": "ImpactDmgMid",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 17,
+      "name": "ImpactDmgLong",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 18,
+      "name": "ImpactDmgMaxRange",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 19,
+      "name": "bForceControl",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 20,
+      "name": "RngPB",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 21,
+      "name": "RngMid",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 22,
+      "name": "RngLong",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 23,
+      "name": "RngMax",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 24,
+      "name": "DmgScaleTable",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 25,
+      "name": "DmgScaleTableRow",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 26,
+      "name": "DmgScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 27,
+      "name": "EnvDmgScaleTable",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 28,
+      "name": "EnvDmgScaleTableRow",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 29,
+      "name": "EnvDmgScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 30,
+      "name": "ImpactDmgScaleTable",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 31,
+      "name": "ImpactDmgScaleTableRow",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 32,
+      "name": "ImpactDmgScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 33,
+      "name": "SurfaceRatioRowName",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 34,
+      "name": "DamageZone_Light",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 35,
+      "name": "DamageZone_Normal",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 36,
+      "name": "DamageZone_Critical",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 37,
+      "name": "DamageZone_Vulnerability",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 38,
+      "name": "KnockbackMagnitude",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 39,
+      "name": "MidRangeKnockbackMagnitude",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 40,
+      "name": "LongRangeKnockbackMagnitude",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 41,
+      "name": "KnockbackZAngle",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 42,
+      "name": "StunTime",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 43,
+      "name": "StunScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 44,
+      "name": "Durability",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 45,
+      "name": "DurabilityRowName",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 46,
+      "name": "DurabilityScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 47,
+      "name": "DurabilityPerUse",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 48,
+      "name": "FullChargeDurabilityPerUse",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 49,
+      "name": "DiceCritChance",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 50,
+      "name": "DiceCritDamageMultiplier",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 51,
+      "name": "ReloadTime",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 52,
+      "name": "ReloadScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 53,
+      "name": "ReloadType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortWeaponReloadType"
+      }
+    },
+    {
+      "index": 54,
+      "name": "bAllowReloadInterrupt",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 55,
+      "name": "bReloadInterruptIsImmediate",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 56,
+      "name": "NumIndividualBulletsToReload",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 57,
+      "name": "ClipSize",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 58,
+      "name": "ClipScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 59,
+      "name": "InitialClips",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 60,
+      "name": "CartridgePerFire",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 61,
+      "name": "AmmoCostPerFire",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 62,
+      "name": "MaxAmmoCostPerFire",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 63,
+      "name": "MinChargeTime",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 64,
+      "name": "MaxChargeTime",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 65,
+      "name": "ChargeDownTime",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 66,
+      "name": "bAutoDischarge",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 67,
+      "name": "MaxChargeTimeUntilDischarge",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 68,
+      "name": "MinChargeDamageMultiplier",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 69,
+      "name": "MaxChargeDamageMultiplier",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 70,
+      "name": "ChargeDamageMultiplierCurve",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 71,
+      "name": "EquipAnimRate",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 72,
+      "name": "QuickBarSlotCooldownDuration",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "name": "FortAccoladeItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "AccoladeType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortAccoladeType"
+      }
+    },
+    {
+      "index": 1,
+      "name": "AccoladeSubtype",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortAccoladeSubtype"
+      }
+    },
+    {
+      "index": 2,
+      "name": "AccoladeToReplace",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "PreviouseAccoladeLargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Priority",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EXPEventPriorityType"
+      }
+    },
+    {
+      "index": 6,
+      "name": "XpRewardAmount",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 7,
+      "name": "AccoladeLevel",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "bOnlyAllowOncePerDay",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 9,
+      "name": "bIgnoreInAntiAddictionReducedStates",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 10,
+      "name": "AwardedSoundCue",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 11,
+      "name": "XpRewardScalarByCount",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 12,
+      "name": "SecondaryXpValues",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "AccoladeSecondaryXpType"
+        }
+      }
+    },
+    {
+      "index": 14,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 28,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 29,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 30,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 33,
+      "name": "GameplayTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 45,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

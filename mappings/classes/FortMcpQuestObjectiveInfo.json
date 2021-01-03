@@ -1,0 +1,193 @@
+{
+  "name": "FortMcpQuestObjectiveInfo",
+  "properties": [
+    {
+      "index": 0,
+      "name": "BackendName",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "InlineObjectiveStats",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "FortQuestObjectiveStat"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "ObjectiveStatHandle",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "DataTableRowHandle"
+      }
+    },
+    {
+      "index": 3,
+      "name": "AlternativeStatHandles",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "DataTableRowHandle"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "ItemEvent",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortQuestObjectiveItemEvent"
+      }
+    },
+    {
+      "index": 5,
+      "name": "bHidden",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "bRequirePrimaryMissionCompletion",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "bCanProgressInZone",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "bDisplayDynamicAnnouncementUpdate",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 9,
+      "name": "DynamicStatusUpdateType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EObjectiveStatusUpdateType"
+      }
+    },
+    {
+      "index": 10,
+      "name": "LinkVaultTab",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortInventoryFilter"
+      }
+    },
+    {
+      "index": 11,
+      "name": "LinkToItemManagement",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortFrontendInventoryFilter"
+      }
+    },
+    {
+      "index": 12,
+      "name": "ItemReference",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 13,
+      "name": "ItemTemplateIdOverride",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 14,
+      "name": "LinkSquadID",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 15,
+      "name": "LinkSquadIndex",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 17,
+      "name": "HudShortDecription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 18,
+      "name": "HudIcon",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Count",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Stage",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 21,
+      "name": "DynamicStatusUpdatePercentInterval",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 22,
+      "name": "DynamicUpdateCompletionDelay",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 23,
+      "name": "ScriptedAction",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 24,
+      "name": "FrontendScriptedAction",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

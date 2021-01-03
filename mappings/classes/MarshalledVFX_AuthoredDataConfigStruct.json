@@ -1,0 +1,16 @@
+{
+  "name": "MarshalledVFX_AuthoredDataConfigStruct",
+  "properties": [
+    {
+      "index": 0,
+      "name": "NiagaraVFX",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "NiagaraVFXMapping"
+        }
+      }
+    }
+  ]
+}

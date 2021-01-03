@@ -1,0 +1,13 @@
+{
+  "name": "FortMusicAsset",
+  "properties": [
+    {
+      "index": 1,
+      "name": "Sections",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "FortMusicSection"
+      }
+    }
+  ]
+}

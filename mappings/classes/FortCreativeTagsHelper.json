@@ -1,0 +1,15 @@
+{
+  "name": "FortCreativeTagsHelper",
+  "properties": [
+    {
+      "index": 0,
+      "name": "CreativeTags",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "NameProperty"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "FortQuestRewardTableRow",
+  "properties": [
+    {
+      "index": 0,
+      "name": "QuestTemplateId",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "TemplateId",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Quantity",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Hidden",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Feature",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Selectable",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    }
+  ]
+}

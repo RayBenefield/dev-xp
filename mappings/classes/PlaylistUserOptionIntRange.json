@@ -1,0 +1,77 @@
+{
+  "name": "PlaylistUserOptionIntRange",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Min",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Max",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "DefaultValue",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "OptionKey",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "OptionDisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "OptionDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Tags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 9,
+      "name": "OptionMaterial",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 10,
+      "name": "bCanHaveNoOverride",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 11,
+      "name": "MenuListType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EUFortMatchmakingKnobsDataSource"
+      }
+    }
+  ]
+}

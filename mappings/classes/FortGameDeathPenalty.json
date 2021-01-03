@@ -1,0 +1,26 @@
+{
+  "name": "FortGameDeathPenalty",
+  "properties": [
+    {
+      "index": 16,
+      "name": "RespawnDelayOverTime",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 18,
+      "name": "MinSelfResurrectDelay",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 21,
+      "name": "PercentShieldOnRespawn",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    }
+  ]
+}

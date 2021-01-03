@@ -1,0 +1,21 @@
+{
+  "name": "NiagaraVFXMapping",
+  "properties": [
+    {
+      "index": 0,
+      "name": "ParameterGroups",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 8,
+      "name": "Type",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFXType"
+      }
+    }
+  ]
+}

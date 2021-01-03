@@ -1,0 +1,59 @@
+{
+  "name": "FortChallengeSetStyle",
+  "properties": [
+    {
+      "index": 0,
+      "name": "PrimaryColor",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "LinearColor"
+      }
+    },
+    {
+      "index": 1,
+      "name": "SecondaryColor",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "LinearColor"
+      }
+    },
+    {
+      "index": 2,
+      "name": "AccentColor",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "LinearColor"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Context_LimitedTimeColor",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "LinearColor"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Context_BaseColor",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "LinearColor"
+      }
+    },
+    {
+      "index": 5,
+      "name": "DisplayImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "CustomBackground",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

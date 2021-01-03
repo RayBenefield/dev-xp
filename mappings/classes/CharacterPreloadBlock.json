@@ -1,0 +1,19 @@
+{
+  "name": "CharacterPreloadBlock",
+  "properties": [
+    {
+      "index": 0,
+      "name": "bShouldGoInNPCBudget",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "CID",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "LightmassMaterialInterfaceSettings",
+  "properties": [
+    {
+      "index": 0,
+      "name": "EmissiveBoost",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "DiffuseBoost",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ExportResolutionScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "bCastShadowAsMasked",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "bOverrideCastShadowAsMasked",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "bOverrideEmissiveBoost",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "bOverrideDiffuseBoost",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "bOverrideExportResolutionScale",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    }
+  ]
+}

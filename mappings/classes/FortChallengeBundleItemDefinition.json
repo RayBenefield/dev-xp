@@ -1,0 +1,187 @@
+{
+  "name": "FortChallengeBundleItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "QuestInfos",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "FortChallengeBundleQuestEntry"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "SuppressedQuestDefs",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "CalendarEventTag",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "CalendarEventName",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "BundleCompletionRewards",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "FortChallengeBundleRewards"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "name": "BundleLevelRewards",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "FortChallengeBundleLevel"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "name": "SpecialOffers",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "FortChallengeBundleSpecialOffer"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "name": "CareerQuestBitShifts",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "name": "DisplayStyle",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "FortChallengeSetStyle"
+      }
+    },
+    {
+      "index": 9,
+      "name": "OverrideRewardItem",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "AthenaRewardItemReference"
+      }
+    },
+    {
+      "index": 14,
+      "name": "bHideFromMapChallenges",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 26,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 40,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 41,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 42,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 45,
+      "name": "GameplayTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 51,
+      "name": "FrontendPreviewScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 56,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 57,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 60,
+      "name": "FrontendPreviewPivotOffset",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Vector"
+      }
+    },
+    {
+      "index": 61,
+      "name": "FrontendPreviewInitialRotation",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Rotator"
+      }
+    },
+    {
+      "index": 62,
+      "name": "FrontendPreviewMeshOverride",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

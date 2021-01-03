@@ -1,0 +1,21 @@
+{
+  "name": "GameplayTagRequirements",
+  "properties": [
+    {
+      "index": 0,
+      "name": "RequireTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 1,
+      "name": "IgnoreTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    }
+  ]
+}

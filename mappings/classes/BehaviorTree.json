@@ -1,0 +1,19 @@
+{
+  "name": "BehaviorTree",
+  "properties": [
+    {
+      "index": 0,
+      "name": "RootNode",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "BlackboardAsset",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    }
+  ]
+}

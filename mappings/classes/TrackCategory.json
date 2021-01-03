@@ -1,0 +1,26 @@
+{
+  "name": "TrackCategory",
+  "properties": [
+    {
+      "index": 0,
+      "name": "CategoryIcon",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "CategoryName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "CategoryStartingLevel",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "CustomPartScalarParameter",
+  "properties": [
+    {
+      "index": 0,
+      "name": "MaterialIndexForScalarParameter",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ScalarParameterNameForMaterial",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ScalarOverride",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    }
+  ]
+}

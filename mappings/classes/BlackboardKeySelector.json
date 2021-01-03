@@ -1,0 +1,12 @@
+{
+  "name": "BlackboardKeySelector",
+  "properties": [
+    {
+      "index": 0,
+      "name": "SelectedKeyName",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    }
+  ]
+}

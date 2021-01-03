@@ -1,0 +1,40 @@
+{
+  "name": "BTCompositeChild",
+  "properties": [
+    {
+      "index": 0,
+      "name": "ChildComposite",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ChildTask",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Decorators",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "DecoratorOps",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "BTDecoratorLogic"
+        }
+      }
+    }
+  ]
+}

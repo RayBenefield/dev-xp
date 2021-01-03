@@ -1,0 +1,57 @@
+{
+  "name": "TrackDynamicBackground",
+  "properties": [
+    {
+      "index": 0,
+      "name": "BackgroundSubstance",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "PrimaryColor",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "LinearColor"
+      }
+    },
+    {
+      "index": 2,
+      "name": "SecondaryColor",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "LinearColor"
+      }
+    },
+    {
+      "index": 3,
+      "name": "TertiaryColor",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "LinearColor"
+      }
+    },
+    {
+      "index": 4,
+      "name": "bIsSpecial",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "bIsFoil",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "MinimalDiscoveryLevel",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    }
+  ]
+}

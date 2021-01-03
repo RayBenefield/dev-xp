@@ -1,0 +1,19 @@
+{
+  "name": "GameplayEffectApplicationInfoHard",
+  "properties": [
+    {
+      "index": 0,
+      "name": "GameplayEffect",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Level",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    }
+  ]
+}

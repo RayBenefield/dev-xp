@@ -1,0 +1,56 @@
+{
+  "name": "StaticComponentMaskParameter",
+  "properties": [
+    {
+      "index": 0,
+      "name": "R",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "G",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "B",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "A",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "ParameterInfo",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "MaterialParameterInfo"
+      }
+    },
+    {
+      "index": 5,
+      "name": "bOverride",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "ExpressionGUID",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Guid"
+      }
+    }
+  ]
+}

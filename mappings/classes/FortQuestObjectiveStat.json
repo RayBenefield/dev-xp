@@ -1,0 +1,69 @@
+{
+  "name": "FortQuestObjectiveStat",
+  "properties": [
+    {
+      "index": 0,
+      "name": "TagConditions",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "InlineObjectiveStatTagCheckEntry"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "Condition",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "TemplateIds",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StrProperty"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "Type",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortQuestObjectiveStatEvent"
+      }
+    },
+    {
+      "index": 4,
+      "name": "bIsCached",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "bHasInclusiveTargetTags",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "bHasInclusiveSourceTags",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "bHasInclusiveContextTags",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "FortExpeditionItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "CriteriaRequirementsLootTier",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ExpeditionDuration_Minutes",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ExpeditionExpirationDuration_Minutes",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "BaseTargetPowerRating",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "TierFactor",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "MaxTargetPowerClamp",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "ExpeditionRules",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "DataTableRowHandle"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 31,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 33,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    }
+  ]
+}

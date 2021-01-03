@@ -1,0 +1,27 @@
+{
+  "name": "TextureCube",
+  "properties": [
+    {
+      "index": 0,
+      "name": "LightingGuid",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Guid"
+      }
+    },
+    {
+      "index": 1,
+      "name": "LODBias",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "SRGB",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    }
+  ]
+}

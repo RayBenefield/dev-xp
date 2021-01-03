@@ -1,0 +1,19 @@
+{
+  "name": "BTDecoratorLogic",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Operation",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Number",
+      "mapping_type": {
+        "type": "UInt16Property"
+      }
+    }
+  ]
+}

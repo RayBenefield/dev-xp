@@ -1,0 +1,23 @@
+{
+  "name": "FortAbilitySetDeliveryInfo",
+  "properties": [
+    {
+      "index": 0,
+      "name": "DeliveryRequirements",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "FortDeliveryInfoRequirementsFilter"
+      }
+    },
+    {
+      "index": 1,
+      "name": "AbilitySets",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    }
+  ]
+}

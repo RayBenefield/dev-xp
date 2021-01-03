@@ -1,0 +1,239 @@
+{
+  "name": "Material",
+  "properties": [
+    {
+      "index": 10,
+      "name": "Metallic",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "VectorMaterialInput"
+      }
+    },
+    {
+      "index": 11,
+      "name": "Specular",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "VectorMaterialInput"
+      }
+    },
+    {
+      "index": 12,
+      "name": "Anisotropy",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "VectorMaterialInput"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Normal",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "VectorMaterialInput"
+      }
+    },
+    {
+      "index": 15,
+      "name": "EmissiveColor",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ColorMaterialInput"
+      }
+    },
+    {
+      "index": 16,
+      "name": "MaterialDomain",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    },
+    {
+      "index": 17,
+      "name": "BlendMode",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    },
+    {
+      "index": 20,
+      "name": "ShadingModel",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    },
+    {
+      "index": 22,
+      "name": "ShadingModels",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "MaterialShadingModelField"
+      }
+    },
+    {
+      "index": 23,
+      "name": "OpacityMaskClipValue",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 24,
+      "name": "WorldPositionOffset",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "VectorMaterialInput"
+      }
+    },
+    {
+      "index": 26,
+      "name": "MaterialAttributes",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "MaterialAttributesInput"
+      }
+    },
+    {
+      "index": 29,
+      "name": "bEnableSeparateTranslucency",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 30,
+      "name": "bEnableResponsiveAA",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 33,
+      "name": "TwoSided",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 37,
+      "name": "TranslucencyLightingMode",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    },
+    {
+      "index": 39,
+      "name": "NumCustomizedUVs",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 40,
+      "name": "TranslucencyDirectionalLightingIntensity",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 55,
+      "name": "bUsedWithSkeletalMesh",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 57,
+      "name": "bUsedWithParticleSprites",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 58,
+      "name": "bUsedWithBeamTrails",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 59,
+      "name": "bUsedWithMeshParticles",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 60,
+      "name": "bUsedWithNiagaraSprites",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 61,
+      "name": "bUsedWithNiagaraRibbons",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 62,
+      "name": "bUsedWithNiagaraMeshParticles",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 67,
+      "name": "bUsedWithInstancedStaticMeshes",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 76,
+      "name": "bAutomaticallySetUsageInEditor",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 87,
+      "name": "AllowTranslucentCustomDepthWrites",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 90,
+      "name": "bCanMaskedBeAssumedOpaque",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 94,
+      "name": "bUseMaterialAttributes",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 113,
+      "name": "StateId",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Guid"
+      }
+    },
+    {
+      "index": 115,
+      "name": "CachedExpressionData",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "MaterialCachedExpressionData"
+      }
+    }
+  ]
+}

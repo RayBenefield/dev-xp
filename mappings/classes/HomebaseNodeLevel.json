@@ -1,0 +1,58 @@
+{
+  "name": "HomebaseNodeLevel",
+  "properties": [
+    {
+      "index": 0,
+      "name": "DisplayDataId",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "MinCommanderLevel",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Cost",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "FortItemQuantityPair"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "GameplayEffectRowNames",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "NameProperty"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "AbilityKit",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "UnlockedSquadSlots",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "HomebaseSquadSlotId"
+        }
+      }
+    }
+  ]
+}

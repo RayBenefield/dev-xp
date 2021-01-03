@@ -1,0 +1,50 @@
+{
+  "name": "AthenaScoreData",
+  "properties": [
+    {
+      "index": 0,
+      "name": "ScoringEvent",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EAthenaScoringEvent"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ScoreNameText",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "EventInclusionTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 3,
+      "name": "NumOccurrencesForScore",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "NumOccurrencesPermitted",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "ScoreAwarded",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    }
+  ]
+}

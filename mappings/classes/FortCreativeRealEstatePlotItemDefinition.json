@@ -1,0 +1,112 @@
+{
+  "name": "FortCreativeRealEstatePlotItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "UIDisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "UIDisplayDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "BasePlayset",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "InitialSaveFileName",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "SizeX",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "SizeY",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "OffsetType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "ERealEstateOffsetType"
+      }
+    },
+    {
+      "index": 9,
+      "name": "MapImage",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "SlateBrush"
+      }
+    },
+    {
+      "index": 10,
+      "name": "SortIndex",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 11,
+      "name": "bIsAvailableToUsers",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 35,
+      "name": "bNeverPersisted",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 41,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 42,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 57,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 58,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

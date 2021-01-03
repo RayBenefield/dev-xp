@@ -1,0 +1,45 @@
+{
+  "name": "FortHomebaseNodeItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "LevelData",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "HomebaseNodeLevel"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "DisplayType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EHomebaseNodeType"
+      }
+    },
+    {
+      "index": 26,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 42,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 43,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

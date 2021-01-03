@@ -1,0 +1,26 @@
+{
+  "name": "CustomCharacterBackpackData",
+  "properties": [
+    {
+      "index": 1,
+      "name": "AttachSocketName",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "AttachmentOverrideData",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "AnimClass",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

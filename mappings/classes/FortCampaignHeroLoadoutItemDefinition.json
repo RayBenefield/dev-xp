@@ -1,0 +1,81 @@
+{
+  "name": "FortCampaignHeroLoadoutItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "CrewSlots",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "FortCrewSlotInformation"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "CommanderSlotQuery",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagQuery"
+      }
+    },
+    {
+      "index": 2,
+      "name": "SupportHeroSlotQuery",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagQuery"
+      }
+    },
+    {
+      "index": 3,
+      "name": "GadgetSlotsAllowed",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "SlotUnlockSquadName",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "TeamPerkUnlockNode",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 24,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 26,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 40,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 41,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

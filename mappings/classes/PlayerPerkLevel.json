@@ -1,0 +1,15 @@
+{
+  "name": "PlayerPerkLevel",
+  "properties": [
+    {
+      "index": 0,
+      "name": "PlayerPerks",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    }
+  ]
+}

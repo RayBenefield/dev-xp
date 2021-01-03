@@ -1,0 +1,27 @@
+{
+  "name": "SoundConcurrencySettings",
+  "properties": [
+    {
+      "index": 0,
+      "name": "MaxCount",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "bLimitToOwner",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ResolutionRule",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EMaxConcurrentResolutionRule"
+      }
+    }
+  ]
+}

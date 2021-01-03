@@ -1,0 +1,15 @@
+{
+  "name": "CompositeCurveTable",
+  "properties": [
+    {
+      "index": 0,
+      "name": "ParentTables",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    }
+  ]
+}

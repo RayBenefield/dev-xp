@@ -1,0 +1,19 @@
+{
+  "name": "AthenaSeasonBannerLevel",
+  "properties": [
+    {
+      "index": 0,
+      "name": "SurroundImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "BannerMaterial",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

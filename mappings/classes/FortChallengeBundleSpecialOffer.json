@@ -1,0 +1,26 @@
+{
+  "name": "FortChallengeBundleSpecialOffer",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Storefront",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "RichText",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "OfferImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

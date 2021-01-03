@@ -1,0 +1,20 @@
+{
+  "name": "RuntimeFloatCurve",
+  "properties": [
+    {
+      "index": 0,
+      "name": "EditorCurveData",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "RichCurve"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ExternalCurve",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    }
+  ]
+}

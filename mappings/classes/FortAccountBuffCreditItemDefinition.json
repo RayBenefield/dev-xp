@@ -1,0 +1,48 @@
+{
+  "name": "FortAccountBuffCreditItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "BuffToGrant",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "MinutesOfBuffTimeToGrant",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 16,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 30,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 46,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 47,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

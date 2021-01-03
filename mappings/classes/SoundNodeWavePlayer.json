@@ -1,0 +1,19 @@
+{
+  "name": "SoundNodeWavePlayer",
+  "properties": [
+    {
+      "index": 0,
+      "name": "SoundWaveAssetPtr",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "bLooping",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    }
+  ]
+}

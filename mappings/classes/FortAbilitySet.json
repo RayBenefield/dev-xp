@@ -1,0 +1,88 @@
+{
+  "name": "FortAbilitySet",
+  "properties": [
+    {
+      "index": 0,
+      "name": "GameplayAbilities",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "GrantedGameplayEffects",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "GameplayEffectApplicationInfoHard"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "AbilityActivatedByInputKeyTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 3,
+      "name": "AbilityActivatedByInputTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 4,
+      "name": "AbilityActivatedByInputCooldownTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 5,
+      "name": "AbilityActivatedByInputExitBuildModeTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 6,
+      "name": "AbilitiesActivatedByInput",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "AbilityActivatedByInputData"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "name": "AdditionalItemsToAdd",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "FortItemDefinition"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "name": "AnalyticsTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    }
+  ]
+}
