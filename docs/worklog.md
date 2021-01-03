@@ -1,5 +1,14 @@
 # Worklog
 
+## #821
+
+Spent the rest of yesterday just LEARNING about parsing and how it works...
+mainly because the BP files that lead to the `knobs` list to get all of the
+settings of a device isn't currently mapped so I needed to learn how mapping
+works in order to eventually build a mapping for it. Until then I'm going to
+skip that automated step and build a direct mapping myself for now that will map
+a device to a knobs list to create the settings for that device.
+
 ## #817, #818, #819, #820
 
 Just spent LOADS of time investigating all of the files I could find related to
