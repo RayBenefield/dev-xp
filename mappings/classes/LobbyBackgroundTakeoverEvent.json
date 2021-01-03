@@ -1,0 +1,26 @@
+{
+  "name": "LobbyBackgroundTakeoverEvent",
+  "properties": [
+    {
+      "index": 1,
+      "name": "AthenaLobbyBackgroundLevelName",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "EventPriority",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "RequiredEventTag",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    }
+  ]
+}

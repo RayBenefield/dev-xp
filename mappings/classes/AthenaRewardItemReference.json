@@ -1,0 +1,57 @@
+{
+  "name": "AthenaRewardItemReference",
+  "properties": [
+    {
+      "index": 0,
+      "name": "ItemDefinition",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "TemplateId",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Quantity",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "RewardGiftBox",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ChallengeGiftBoxData"
+      }
+    },
+    {
+      "index": 4,
+      "name": "IsChaseReward",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "RewardType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EAthenaRewardItemType"
+      }
+    },
+    {
+      "index": 6,
+      "name": "RewardVisualImportanceType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EAthenaRewardVisualImportanceType"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "FortCodeTokenItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "RedemptionCodeRule",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "RedemptionCodeGroup",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "AllowedPlatforms",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "NameProperty"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "ProfileType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EItemProfileType"
+      }
+    },
+    {
+      "index": 28,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 29,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 30,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    }
+  ]
+}

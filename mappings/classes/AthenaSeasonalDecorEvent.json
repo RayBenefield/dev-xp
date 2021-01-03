@@ -1,0 +1,26 @@
+{
+  "name": "AthenaSeasonalDecorEvent",
+  "properties": [
+    {
+      "index": 0,
+      "name": "SupplyDropOverride",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "BattleBusOverride",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "RequiredEventTag",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    }
+  ]
+}

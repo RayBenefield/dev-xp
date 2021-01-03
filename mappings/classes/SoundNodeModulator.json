@@ -1,0 +1,43 @@
+{
+  "name": "SoundNodeModulator",
+  "properties": [
+    {
+      "index": 0,
+      "name": "PitchMin",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "PitchMax",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "VolumeMin",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "VolumeMax",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "ChildNodes",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    }
+  ]
+}

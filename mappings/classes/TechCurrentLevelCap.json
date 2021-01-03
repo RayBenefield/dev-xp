@@ -1,0 +1,26 @@
+{
+  "name": "TechCurrentLevelCap",
+  "properties": [
+    {
+      "index": 0,
+      "name": "CalendarEvent",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "EventFlag",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "LevelCap",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    }
+  ]
+}

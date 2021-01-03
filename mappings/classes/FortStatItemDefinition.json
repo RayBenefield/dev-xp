@@ -1,0 +1,49 @@
+{
+  "name": "FortStatItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Stat",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortStatType"
+      }
+    },
+    {
+      "index": 1,
+      "name": "StatAttribute",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayAttribute"
+      }
+    },
+    {
+      "index": 26,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 28,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 42,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 43,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

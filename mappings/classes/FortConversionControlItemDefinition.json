@@ -1,0 +1,115 @@
+{
+  "name": "FortConversionControlItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "LootTierGroup",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ConversionPointsToTierCosts",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "DataTableRowHandle"
+      }
+    },
+    {
+      "index": 2,
+      "name": "bConsumedOnConversion",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "RewardName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 14,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 23,
+      "name": "bAllowMultipleStacks",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 28,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 30,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 37,
+      "name": "MaxStackSize",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 39,
+      "name": "FrontendPreviewScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 44,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 45,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 48,
+      "name": "FrontendPreviewPivotOffset",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Vector"
+      }
+    },
+    {
+      "index": 49,
+      "name": "FrontendPreviewInitialRotation",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Rotator"
+      }
+    },
+    {
+      "index": 50,
+      "name": "FrontendPreviewMeshOverride",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

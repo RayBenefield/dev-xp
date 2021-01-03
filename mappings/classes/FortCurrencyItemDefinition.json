@@ -1,0 +1,78 @@
+{
+  "name": "FortCurrencyItemDefinition",
+  "properties": [
+    {
+      "index": 10,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 24,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 25,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 26,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 35,
+      "name": "FrontendPreviewScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 40,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 41,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 44,
+      "name": "FrontendPreviewPivotOffset",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Vector"
+      }
+    },
+    {
+      "index": 45,
+      "name": "FrontendPreviewInitialRotation",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Rotator"
+      }
+    },
+    {
+      "index": 46,
+      "name": "FrontendPreviewMeshOverride",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

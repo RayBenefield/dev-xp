@@ -1,0 +1,35 @@
+{
+  "name": "FontParameterValue",
+  "properties": [
+    {
+      "index": 0,
+      "name": "ParameterInfo",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "MaterialParameterInfo"
+      }
+    },
+    {
+      "index": 1,
+      "name": "FontValue",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "FontPage",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "ExpressionGUID",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Guid"
+      }
+    }
+  ]
+}

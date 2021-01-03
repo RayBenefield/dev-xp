@@ -1,0 +1,47 @@
+{
+  "name": "MaterialCachedParameterEntry",
+  "properties": [
+    {
+      "index": 0,
+      "name": "NameHashes",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "UInt64Property"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "ScalarValues",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "MaterialParameterInfo"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "ExpressionGuids",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "Guid"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "Overrides",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "BoolProperty"
+        }
+      }
+    }
+  ]
+}

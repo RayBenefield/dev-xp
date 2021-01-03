@@ -1,0 +1,33 @@
+{
+  "name": "BodyInstance",
+  "properties": [
+    {
+      "index": 0,
+      "name": "ObjectType",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "CollisionEnabled",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    },
+    {
+      "index": 19,
+      "name": "CollisionProfileName",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 22,
+      "name": "CollisionResponses",
+      "mapping_type": {
+        "type": "StructType"
+      }
+    }
+  ]
+}

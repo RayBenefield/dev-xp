@@ -1,0 +1,47 @@
+{
+  "name": "CurveTable",
+  "properties": [
+    {
+      "index": 0,
+      "name": "InterpMode",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "ERichCurveInterpMode"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Keys",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "SimpleCurveKey"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "DefaultValue",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "PreInfinityExtrap",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "ERichCurveExtrapolation"
+      }
+    },
+    {
+      "index": 4,
+      "name": "PostInfinityExtrap",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "ERichCurveExtrapolation"
+      }
+    }
+  ]
+}

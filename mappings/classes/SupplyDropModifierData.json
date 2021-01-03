@@ -1,0 +1,23 @@
+{
+  "name": "SupplyDropModifierData",
+  "properties": [
+    {
+      "index": 0,
+      "name": "SupplyDropID",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ModifierList",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "SupplyDropSubPhaseModifier"
+        }
+      }
+    }
+  ]
+}

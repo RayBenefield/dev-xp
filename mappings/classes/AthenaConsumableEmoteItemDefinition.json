@@ -1,0 +1,55 @@
+{
+  "name": "AthenaConsumableEmoteItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Animation",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 76,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 77,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 78,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 81,
+      "name": "GameplayTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 92,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 93,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

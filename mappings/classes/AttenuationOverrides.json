@@ -1,0 +1,20 @@
+{
+  "name": "AttenuationOverrides",
+  "properties": [
+    {
+      "index": 59,
+      "name": "AttenuationShapeExtents",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Vector"
+      }
+    },
+    {
+      "index": 61,
+      "name": "FalloffDistance",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    }
+  ]
+}

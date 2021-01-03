@@ -1,0 +1,19 @@
+{
+  "name": "EQSParametrizedQueryExecutionRequest",
+  "properties": [
+    {
+      "index": 0,
+      "name": "QueryTemplate",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "RunMode",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    }
+  ]
+}

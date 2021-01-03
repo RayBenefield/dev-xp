@@ -1,0 +1,42 @@
+{
+  "name": "MaterialLayersFunctions",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Layers",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "Blends",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "LayerStates",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "BoolProperty"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "KeyString",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    }
+  ]
+}

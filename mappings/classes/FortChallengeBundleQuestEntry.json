@@ -1,0 +1,57 @@
+{
+  "name": "FortChallengeBundleQuestEntry",
+  "properties": [
+    {
+      "index": 0,
+      "name": "QuestDefinition",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "QuestUnlockType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EChallengeBundleQuestUnlockType"
+      }
+    },
+    {
+      "index": 2,
+      "name": "bStartActive",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "bIsPrerequisite",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "UnlockValue",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "RewardGiftBox",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ChallengeGiftBoxData"
+      }
+    },
+    {
+      "index": 6,
+      "name": "MenuOverrideRewardPreview",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "FortItemQuantityPair"
+      }
+    }
+  ]
+}

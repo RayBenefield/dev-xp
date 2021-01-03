@@ -1,0 +1,87 @@
+{
+  "name": "FortAbilityKit",
+  "properties": [
+    {
+      "index": 0,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Description",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "TextProperty"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "IconBrush",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "SlateBrush"
+      }
+    },
+    {
+      "index": 4,
+      "name": "PrimaryTraitIconBrushOverride",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "SlateBrush"
+      }
+    },
+    {
+      "index": 5,
+      "name": "Gadgets",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "name": "Items",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "AbilityKitItem"
+        }
+      }
+    },
+    {
+      "index": 9,
+      "name": "Tooltip",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 12,
+      "name": "GameplayAbilities",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 13,
+      "name": "GrantedGameplayEffects",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "GameplayEffectApplicationInfoHard"
+        }
+      }
+    }
+  ]
+}

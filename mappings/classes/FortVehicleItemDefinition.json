@@ -1,0 +1,28 @@
+{
+  "name": "FortVehicleItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "VehicleMinSpawnPercent",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 1,
+      "name": "VehicleMaxSpawnPercent",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 10,
+      "name": "VehicleActorClass",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

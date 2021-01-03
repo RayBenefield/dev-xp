@@ -1,0 +1,42 @@
+{
+  "name": "StaticTerrainLayerWeightParameter",
+  "properties": [
+    {
+      "index": 0,
+      "name": "WeightmapIndex",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "bWeightBasedBlend",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ParameterInfo",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "MaterialParameterInfo"
+      }
+    },
+    {
+      "index": 3,
+      "name": "bOverride",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "ExpressionGUID",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Guid"
+      }
+    }
+  ]
+}

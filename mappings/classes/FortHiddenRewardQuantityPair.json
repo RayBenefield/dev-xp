@@ -1,0 +1,19 @@
+{
+  "name": "FortHiddenRewardQuantityPair",
+  "properties": [
+    {
+      "index": 0,
+      "name": "TemplateId",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Quantity",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    }
+  ]
+}

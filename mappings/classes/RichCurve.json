@@ -1,0 +1,39 @@
+{
+  "name": "RichCurve",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Keys",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "RichCurveKey"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "DefaultValue",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "PreInfinityExtrap",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "ERichCurveExtrapolation"
+      }
+    },
+    {
+      "index": 3,
+      "name": "PostInfinityExtrap",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "ERichCurveExtrapolation"
+      }
+    }
+  ]
+}

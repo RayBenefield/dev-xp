@@ -1,0 +1,122 @@
+{
+  "name": "FortVariantTokenType",
+  "properties": [
+    {
+      "index": 1,
+      "name": "cosmetic_item",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "VariantChanelTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 3,
+      "name": "VariantNameTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 5,
+      "name": "bAutoEquipVariant",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "bMarkItemUnseen",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "bCreateGiftbox",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "CustomGiftbox",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 19,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 33,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 34,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 35,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 38,
+      "name": "GameplayTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 49,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 50,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 52,
+      "name": "Series",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 54,
+      "name": "FrontendPreviewInitialRotation",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Rotator"
+      }
+    }
+  ]
+}

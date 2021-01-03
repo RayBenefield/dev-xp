@@ -1,0 +1,102 @@
+{
+  "name": "SoundCue",
+  "properties": [
+    {
+      "index": 0,
+      "name": "bPrimeOnLoad",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "FirstNode",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "VolumeMultiplier",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "PitchMultiplier",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "AttenuationOverrides",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "AttenuationOverrides"
+      }
+    },
+    {
+      "index": 9,
+      "name": "bHasPlayWhenSilent",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 10,
+      "name": "SoundClassObject",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 12,
+      "name": "bOverrideConcurrency",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 19,
+      "name": "ConcurrencyOverrides",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "SoundConcurrencySettings"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Duration",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 21,
+      "name": "MaxDistance",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 24,
+      "name": "AttenuationSettings",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 30,
+      "name": "SoundSubmixSends",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "SoundSubmixSendInfo"
+        }
+      }
+    }
+  ]
+}

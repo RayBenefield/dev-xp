@@ -1,0 +1,84 @@
+{
+  "name": "AthenaSprayItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "DecalMaterial",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "bUseBannerAsTexture",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "DecalTexture",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 88,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 102,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 103,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 104,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 107,
+      "name": "GameplayTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 118,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 119,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 121,
+      "name": "Series",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    }
+  ]
+}

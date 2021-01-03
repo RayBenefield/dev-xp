@@ -1,0 +1,129 @@
+{
+  "name": "FortCardPackItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "bIsLlama",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "bIsChoicePack",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "bAutoOpenAsReward",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "LootTierGroup",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "DisplayRarityLevel",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "PackImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "PackColor",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "LinearColor"
+      }
+    },
+    {
+      "index": 9,
+      "name": "PackPersonality",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 20,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 34,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 36,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 39,
+      "name": "GameplayTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 50,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 51,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 54,
+      "name": "FrontendPreviewPivotOffset",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Vector"
+      }
+    },
+    {
+      "index": 55,
+      "name": "FrontendPreviewInitialRotation",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Rotator"
+      }
+    },
+    {
+      "index": 56,
+      "name": "FrontendPreviewMeshOverride",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

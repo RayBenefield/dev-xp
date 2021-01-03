@@ -1,0 +1,178 @@
+{
+  "name": "FortChallengeBundleScheduleDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "ScheduleEntries",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "FortChallengeBundleScheduleEntry"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "CalendarEventTag",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "CalendarEventName",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "RequiredMcpContextTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 4,
+      "name": "GrantedBundleGiftBox",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ChallengeGiftBoxData"
+      }
+    },
+    {
+      "index": 5,
+      "name": "CleanUpOnBundleCompletion",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "CategoryTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 7,
+      "name": "ChallengeDetailsTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 9,
+      "name": "SourceTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 10,
+      "name": "bSeperateEachBundleForDisplay",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 11,
+      "name": "SortPriority",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 12,
+      "name": "UnlockTextOverride",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 14,
+      "name": "bHideCountdownFromMapChallenges",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 25,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 39,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 40,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 41,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 50,
+      "name": "FrontendPreviewScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 55,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 56,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 59,
+      "name": "FrontendPreviewPivotOffset",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Vector"
+      }
+    },
+    {
+      "index": 60,
+      "name": "FrontendPreviewInitialRotation",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Rotator"
+      }
+    },
+    {
+      "index": 61,
+      "name": "FrontendPreviewMeshOverride",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

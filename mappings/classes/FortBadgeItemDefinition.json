@@ -1,0 +1,77 @@
+{
+  "name": "FortBadgeItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "DisplayText",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "BadgeScoringValuesHandle",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "DataTableRowHandle"
+      }
+    },
+    {
+      "index": 5,
+      "name": "BadgeCardPackReward",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 13,
+      "name": "bSupportsQuickbarFocus",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 20,
+      "name": "bShouldShowItemToast",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 37,
+      "name": "MiniMapIconBrush",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "SlateBrush"
+      }
+    },
+    {
+      "index": 82,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 84,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 98,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 99,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

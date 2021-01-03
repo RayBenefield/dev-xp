@@ -1,0 +1,62 @@
+{
+  "name": "BaseVariantDef",
+  "properties": [
+    {
+      "index": 0,
+      "name": "bStartUnlocked",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "bIsDefault",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "bHideIfNotOwned",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "CustomizationVariantTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 4,
+      "name": "VariantName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "PreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "UnlockRequirements",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "UnlockingItemDef",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

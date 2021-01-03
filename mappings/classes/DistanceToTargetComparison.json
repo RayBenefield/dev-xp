@@ -1,0 +1,41 @@
+{
+  "name": "DistanceToTargetComparison",
+  "properties": [
+    {
+      "index": 0,
+      "name": "bUseOverriddenValue",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "OverriddenValue",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "DistanceDataTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 3,
+      "name": "Operator",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "ComparisonType",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    }
+  ]
+}

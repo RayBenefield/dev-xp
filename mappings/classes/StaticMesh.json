@@ -1,0 +1,45 @@
+{
+  "name": "StaticMesh",
+  "properties": [
+    {
+      "index": 2,
+      "name": "StaticMaterials",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "StaticMaterial"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "LightmapUVDensity",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "LightMapResolution",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "LightMapCoordinateIndex",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 20,
+      "name": "ExtendedBounds",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "BoxSphereBounds"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "FortMedalsPunchCardItemDefinition",
+  "properties": [
+    {
+      "index": 2,
+      "name": "PunchCardXpRewards",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 3,
+      "name": "PunchCardRestXp",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    }
+  ]
+}

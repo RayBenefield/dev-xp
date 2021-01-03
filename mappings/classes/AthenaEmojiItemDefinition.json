@@ -1,0 +1,150 @@
+{
+  "name": "AthenaEmojiItemDefinition",
+  "properties": [
+    {
+      "index": 1,
+      "name": "PreviewAnimation",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "SpriteSheet",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "SheetDimensions",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "IntPoint"
+      }
+    },
+    {
+      "index": 4,
+      "name": "FrameIndex",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "FrameCount",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "BaseMaterial",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "InitialColor",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "LinearColor"
+      }
+    },
+    {
+      "index": 36,
+      "name": "Animation",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 37,
+      "name": "AnimationFemaleOverride",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 99,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 113,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 114,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 115,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 116,
+      "name": "DisplayNamePrefix",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 118,
+      "name": "GameplayTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 119,
+      "name": "AutomationTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 129,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 130,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 131,
+      "name": "DisplayAssetPath",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 132,
+      "name": "Series",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    }
+  ]
+}

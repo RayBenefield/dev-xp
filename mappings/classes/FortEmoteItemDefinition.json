@@ -1,0 +1,26 @@
+{
+  "name": "FortEmoteItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "CommandName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Animation",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 77,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    }
+  ]
+}

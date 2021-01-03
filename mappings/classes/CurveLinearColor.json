@@ -1,0 +1,37 @@
+{
+  "name": "CurveLinearColor",
+  "properties": [
+    {
+      "index": 0,
+      "name": "FloatCurves",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "RichCurve"
+      }
+    },
+    {
+      "index": 1,
+      "name": "FloatCurves",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "RichCurve"
+      }
+    },
+    {
+      "index": 2,
+      "name": "FloatCurves",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "RichCurve"
+      }
+    },
+    {
+      "index": 3,
+      "name": "FloatCurves",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "RichCurve"
+      }
+    }
+  ]
+}

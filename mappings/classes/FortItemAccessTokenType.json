@@ -1,0 +1,41 @@
+{
+  "name": "FortItemAccessTokenType",
+  "properties": [
+    {
+      "index": 1,
+      "name": "access_item",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "UnlockDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 13,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 27,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 29,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    }
+  ]
+}

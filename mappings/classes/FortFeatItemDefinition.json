@@ -1,0 +1,125 @@
+{
+  "name": "FortFeatItemDefinition",
+  "properties": [
+    {
+      "index": 2,
+      "name": "bShouldDisplayOverallQuestInformation",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "bAthenaUpdateObjectiveOncePerMatch",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "bAthenaMustCompleteInSingleMatch",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "bHidden",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 12,
+      "name": "bIncludedInCategories",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 23,
+      "name": "ObjectiveCompletionCount",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 27,
+      "name": "HiddenRewards",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "FortHiddenRewardQuantityPair"
+        }
+      }
+    },
+    {
+      "index": 30,
+      "name": "Objectives",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "FortMcpQuestObjectiveInfo"
+        }
+      }
+    },
+    {
+      "index": 43,
+      "name": "CompletionText",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 48,
+      "name": "QuestAbilitySet",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 57,
+      "name": "GrantToProfileType",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 73,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 74,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 75,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 89,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 90,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "RewardGraphToken",
+  "properties": [
+    {
+      "index": 0,
+      "name": "PrimaryCosmeticItem",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ItemVariantPreviews",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "FortCosmeticVariantPreview"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "name": "ProfileType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EItemProfileType"
+      }
+    },
+    {
+      "index": 31,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 32,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 36,
+      "name": "GameplayTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 47,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 48,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

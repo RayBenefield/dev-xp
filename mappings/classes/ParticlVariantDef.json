@@ -1,0 +1,79 @@
+{
+  "name": "ParticlVariantDef",
+  "properties": [
+    {
+      "index": 0,
+      "name": "VariantMaterials",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "MaterialVariants"
+        }
+      }
+    },
+    {
+      "index": 1,
+      "name": "VariantMaterialParams",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "MaterialParamterDef"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "InitalParticelSystemData",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "VariantParticleSystemInitializerData"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "VariantParticles",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "ParticleVariant"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "VariantParticleParams",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "ParticleParamterVariant"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "name": "VariantAlteredParticleParams",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "ManagedParticleParamVariant"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "name": "MetaTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "CosmeticMetaTagContainer"
+      }
+    }
+  ]
+}

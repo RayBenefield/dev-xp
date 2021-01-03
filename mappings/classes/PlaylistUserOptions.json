@@ -1,0 +1,22 @@
+{
+  "name": "PlaylistUserOptions",
+  "properties": [
+    {
+      "index": 0,
+      "name": "bSupportNoOverride",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Options",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    }
+  ]
+}

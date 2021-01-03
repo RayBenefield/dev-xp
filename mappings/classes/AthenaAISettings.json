@@ -1,0 +1,113 @@
+{
+  "name": "AthenaAISettings",
+  "properties": [
+    {
+      "index": 0,
+      "name": "bAllowAIDirector",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "bAllowAIGoalManager",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "bForceRVOUse",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "MaxPlayerSpeedScaleFootstepSounds",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "MinFootstepHearingRange",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "MaxFootstepHearingRange",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "DamagedHearingRange",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "CrouchHearingModifier",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "MaxNPCHearingRange",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 9,
+      "name": "MaxPerceptualStimuliAge",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 10,
+      "name": "DeAggroRange",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 11,
+      "name": "ReducedDeAggroRange",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 12,
+      "name": "DurationReduceAggroLimits",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 14,
+      "name": "AIDIrectorLOD",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 15,
+      "name": "AIServices",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    }
+  ]
+}

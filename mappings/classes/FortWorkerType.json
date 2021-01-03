@@ -1,0 +1,241 @@
+{
+  "name": "FortWorkerType",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Gender",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortCustomGender"
+      }
+    },
+    {
+      "index": 1,
+      "name": "FixedPortrait",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "bIsManager",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "ManagerSynergyTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 4,
+      "name": "FixedPersonalityTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 6,
+      "name": "MatchingPersonalityBonus",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "MismatchingPersonalityPenalty",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "LevelToXpHandle",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "CurveTableRowHandle"
+      }
+    },
+    {
+      "index": 9,
+      "name": "LevelToSacrificeXpHandle",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "CurveTableRowHandle"
+      }
+    },
+    {
+      "index": 10,
+      "name": "SacrificeRecipe",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "DataTableRowHandle"
+      }
+    },
+    {
+      "index": 11,
+      "name": "TransmogSacrificeRow",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "DataTableRowHandle"
+      }
+    },
+    {
+      "index": 12,
+      "name": "ConversionRecipes",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "DataTableRowHandle"
+        }
+      }
+    },
+    {
+      "index": 14,
+      "name": "MinLevel",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 15,
+      "name": "MaxLevel",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 18,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 21,
+      "name": "FilterOverride",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortInventoryFilter"
+      }
+    },
+    {
+      "index": 22,
+      "name": "Tier",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortItemTier"
+      }
+    },
+    {
+      "index": 23,
+      "name": "MaxTier",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortItemTier"
+      }
+    },
+    {
+      "index": 27,
+      "name": "bAllowMultipleStacks",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 30,
+      "name": "bInventorySizeLimited",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 32,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 34,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 36,
+      "name": "SearchTags",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 37,
+      "name": "GameplayTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 43,
+      "name": "FrontendPreviewScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 46,
+      "name": "RatingLookup",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "CurveTableRowHandle"
+      }
+    },
+    {
+      "index": 48,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 49,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 52,
+      "name": "FrontendPreviewPivotOffset",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Vector"
+      }
+    },
+    {
+      "index": 53,
+      "name": "FrontendPreviewInitialRotation",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Rotator"
+      }
+    },
+    {
+      "index": 54,
+      "name": "FrontendPreviewMeshOverride",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

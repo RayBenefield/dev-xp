@@ -1,0 +1,173 @@
+{
+  "name": "FortIngredientItemDefinition",
+  "properties": [
+    {
+      "index": 14,
+      "name": "bShowDirectionalArrowWhenFarOff",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 15,
+      "name": "bCanBeDropped",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 17,
+      "name": "bItemCanBeStolen",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 18,
+      "name": "bCanBeDepositedInStorageVault",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 29,
+      "name": "MiniMapViewableDistance",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 30,
+      "name": "MiniMapIconBrush",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "SlateBrush"
+      }
+    },
+    {
+      "index": 45,
+      "name": "PickupStaticMesh",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 48,
+      "name": "PickupSound",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 50,
+      "name": "DropSound",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 54,
+      "name": "DisassembleDurabilityDegradeMinLootPercent",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 61,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 65,
+      "name": "Tier",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortItemTier"
+      }
+    },
+    {
+      "index": 75,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 77,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 79,
+      "name": "SearchTags",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 80,
+      "name": "GameplayTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 84,
+      "name": "MaxStackSize",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 86,
+      "name": "FrontendPreviewScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 91,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 92,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 95,
+      "name": "FrontendPreviewPivotOffset",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Vector"
+      }
+    },
+    {
+      "index": 96,
+      "name": "FrontendPreviewInitialRotation",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Rotator"
+      }
+    },
+    {
+      "index": 97,
+      "name": "FrontendPreviewMeshOverride",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

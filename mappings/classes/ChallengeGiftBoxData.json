@@ -1,0 +1,23 @@
+{
+  "name": "ChallengeGiftBoxData",
+  "properties": [
+    {
+      "index": 0,
+      "name": "GiftBoxToUse",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "GiftBoxFormatData",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "FortGiftBoxFortmatData"
+        }
+      }
+    }
+  ]
+}

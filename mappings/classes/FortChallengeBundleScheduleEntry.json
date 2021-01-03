@@ -1,0 +1,27 @@
+{
+  "name": "FortChallengeBundleScheduleEntry",
+  "properties": [
+    {
+      "index": 0,
+      "name": "ChallengeBundle",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "UnlockType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EChallengeScheduleUnlockType"
+      }
+    },
+    {
+      "index": 2,
+      "name": "UnlockValue",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    }
+  ]
+}

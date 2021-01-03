@@ -1,0 +1,27 @@
+{
+  "name": "SupplyDropSubPhaseModifier",
+  "properties": [
+    {
+      "index": 0,
+      "name": "GamePhase",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EAthenaGamePhase"
+      }
+    },
+    {
+      "index": 1,
+      "name": "SubPhaseIndex",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "SpawnInPreviousZonePercentChance",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "FortChallengeBundleRewards",
+  "properties": [
+    {
+      "index": 0,
+      "name": "CompletionCount",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "bBundlePrestige",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Rewards",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "AthenaRewardItemReference"
+        }
+      }
+    }
+  ]
+}

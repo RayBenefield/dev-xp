@@ -1,0 +1,200 @@
+{
+  "name": "FortNeverPersistItemDefinition",
+  "properties": [
+    {
+      "index": 7,
+      "name": "bSupportsQuickbarFocus",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 9,
+      "name": "bShouldActivateWhenFocused",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 16,
+      "name": "bCanBeDropped",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 17,
+      "name": "bCanBeReplacedByPickup",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 18,
+      "name": "bItemCanBeStolen",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 19,
+      "name": "bCanBeDepositedInStorageVault",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 22,
+      "name": "bOverridePickupMeshTransform",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 31,
+      "name": "MiniMapIconBrush",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "SlateBrush"
+      }
+    },
+    {
+      "index": 34,
+      "name": "PickupMeshTransform",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Transform"
+      }
+    },
+    {
+      "index": 36,
+      "name": "SpecialActorPickupTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 38,
+      "name": "PickupSpecialActorUniqueID",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 39,
+      "name": "PickupMinimapIconBrush",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "SlateBrush"
+      }
+    },
+    {
+      "index": 40,
+      "name": "PickupMinimapIconScale",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Vector2D"
+      }
+    },
+    {
+      "index": 41,
+      "name": "PickupCompassIconBrush",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "SlateBrush"
+      }
+    },
+    {
+      "index": 42,
+      "name": "PickupCompassIconScale",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Vector2D"
+      }
+    },
+    {
+      "index": 43,
+      "name": "PickupDespawnTime",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 44,
+      "name": "InStormPickupDespawnTime",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 45,
+      "name": "NetworkCullDistanceOverride",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 46,
+      "name": "PickupStaticMesh",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 48,
+      "name": "PickupEffectOverride",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 62,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 63,
+      "name": "ItemType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortItemType"
+      }
+    },
+    {
+      "index": 76,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 81,
+      "name": "GameplayTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 92,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 93,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

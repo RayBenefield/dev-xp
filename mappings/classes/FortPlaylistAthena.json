@@ -1,0 +1,1270 @@
+{
+  "name": "FortPlaylistAthena",
+  "properties": [
+    {
+      "index": 0,
+      "name": "bRewardsTrackPlacement",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "bRewardsAllowXPProgression",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "bRewardForRevivingTeammates",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "RewardPlacementBonusType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "ERewardPlacementBonusType"
+      }
+    },
+    {
+      "index": 4,
+      "name": "RewardsPlacementThreshold",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "RewardTimePlayedType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "ERewardTimePlayedType"
+      }
+    },
+    {
+      "index": 6,
+      "name": "RewardTimePlayedXPPerMinute",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "RewardTimePlayedXPFlatValue",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "InMatchXPRewardScalar",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 10,
+      "name": "FirstWinRewards",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 12,
+      "name": "bAllowSinglePartyMatches",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 13,
+      "name": "bRequeueAfterFailedSessionAssignment",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 14,
+      "name": "bIsTournament",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 15,
+      "name": "bUseMultidivisionQueues",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 16,
+      "name": "CompetitivePointClamp",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 17,
+      "name": "Strategy",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 18,
+      "name": "BotVersionPlaylistName",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 19,
+      "name": "MaxBucketCapacity",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 20,
+      "name": "MaxPendingMatches",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 21,
+      "name": "PriorityRatingExpansion",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "RatingExpansion"
+        }
+      }
+    },
+    {
+      "index": 22,
+      "name": "bUseInputRules",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 23,
+      "name": "bAllowBackfill",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 24,
+      "name": "MinBackfillMatchPlayers",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 25,
+      "name": "MaxTeamScoreAllowedForBackfill",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 26,
+      "name": "MaxTeamScoreDiscrepancyPercent",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 27,
+      "name": "bUsePlayerRating",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 28,
+      "name": "bEnableDynamicBotBackfill",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 29,
+      "name": "RatingType",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 30,
+      "name": "bRequireCrossplayEnabled",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 31,
+      "name": "bLimitedPoolMatchmakingEnabled",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 32,
+      "name": "bAllowedInLeto",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 33,
+      "name": "bAllowInGameMatchMaking",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 35,
+      "name": "bAllowBotsInHumanTeams",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 38,
+      "name": "WinConditionType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EAthenaWinCondition"
+      }
+    },
+    {
+      "index": 39,
+      "name": "TimedWinConditionTime",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 40,
+      "name": "FinalWinConditionTime",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 41,
+      "name": "ScoringData",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "WinConditionScoreData"
+      }
+    },
+    {
+      "index": 43,
+      "name": "WinConditionPlayersRemaining",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 44,
+      "name": "NumWinningTeamsCN",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 45,
+      "name": "bIsLargeTeamGame",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 46,
+      "name": "bShouldSpreadTeams",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 47,
+      "name": "bIgnoreDefaultQuests",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 51,
+      "name": "ForceKickAfterDeathTime",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 52,
+      "name": "ForceKickAfterDeathMode",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EForceKickAfterDeathMode"
+      }
+    },
+    {
+      "index": 55,
+      "name": "PawnForcedCullDistance",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 58,
+      "name": "bRequirePickaxeInStartingInventory",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 63,
+      "name": "MaximumAspectRatio",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 65,
+      "name": "VehicleBoundsXYSplineClass",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 67,
+      "name": "SoundMix",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 68,
+      "name": "bAllowHardcoreModifiers",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 69,
+      "name": "bForceCameraFadeOnRespawn",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 70,
+      "name": "MinTimeBeforeRespawnCameraFade",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 71,
+      "name": "RespawnType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EAthenaRespawnType"
+      }
+    },
+    {
+      "index": 72,
+      "name": "RespawnHeight",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 73,
+      "name": "MaxRespawnHeight",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 74,
+      "name": "RespawnTime",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 75,
+      "name": "bRespawnInAir",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 76,
+      "name": "RespawnLevelStreamDistanceToForceSceenFade",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 77,
+      "name": "bSkipWarmup",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 78,
+      "name": "bSkipAircraft",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 80,
+      "name": "AirCraftBehavior",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EAirCraftBehavior"
+      }
+    },
+    {
+      "index": 81,
+      "name": "bUseCustomAircraftPathSelection",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 83,
+      "name": "bAircraftDropOnlyWithinSafeZone",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 84,
+      "name": "AircraftSafetyMarginPct",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 87,
+      "name": "AircraftPathMidpointSelectionRadiusMin",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 88,
+      "name": "AircraftPathMidpointSelectionRadiusMax",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 92,
+      "name": "NonRenderedCharacterAnimationScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 93,
+      "name": "PlaylistMissionGen",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 94,
+      "name": "bForceLTMLoadingScreenBackground",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 95,
+      "name": "LoadingScreenWidget",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 96,
+      "name": "UIExtensions",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "UIExtension"
+        }
+      }
+    },
+    {
+      "index": 97,
+      "name": "PlaylistUIData",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 98,
+      "name": "MissionIcon",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 99,
+      "name": "UIDisplaySubName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 100,
+      "name": "bLimitedTimeMode",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 101,
+      "name": "bDisplayScoreInHUD",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 102,
+      "name": "bDisplayRespawnWidget",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 103,
+      "name": "bDisableMatchStatsDisplay",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 104,
+      "name": "SpecialActorInputActionDataTableRow",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "DataTableRowHandle"
+      }
+    },
+    {
+      "index": 105,
+      "name": "bEnforceFullSquadInUI",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 106,
+      "name": "bShowEliminationIndicatorForSquadmates",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 107,
+      "name": "bShowEliminationIndicatorForTeammates",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 109,
+      "name": "bLeaderboardDisplaysIndividuals",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 111,
+      "name": "TypeOfLeaderboard",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortLeaderboardMetric"
+      }
+    },
+    {
+      "index": 112,
+      "name": "OnlyRespectsGlobalSettingForReplayRecording",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 113,
+      "name": "DisableReplays",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 117,
+      "name": "ShouldRecommendCustomGameChannel",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 121,
+      "name": "MapManagerClass",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 123,
+      "name": "SafeZoneStartUp",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "ESafeZoneStartUp"
+      }
+    },
+    {
+      "index": 124,
+      "name": "bWarmUpInStorm",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 125,
+      "name": "StormEffectDelay",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 126,
+      "name": "bDisplayFinalStormPosition",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 127,
+      "name": "bDrawLineToStormCircleIfOutside",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 128,
+      "name": "LastSafeZoneIndex",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 129,
+      "name": "SafeZoneLocationBlacklist",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 133,
+      "name": "bUseDefaultSupplyDrops",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 134,
+      "name": "SupplyDropModifierList",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "SupplyDropModifierData"
+        }
+      }
+    },
+    {
+      "index": 135,
+      "name": "SupplyDropInfoList",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 138,
+      "name": "ExitCraftInfo",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 139,
+      "name": "bPlaylistUsesCustomCharacterParts",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 140,
+      "name": "CharactersToPreload",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "CharacterPreloadBlock"
+        }
+      }
+    },
+    {
+      "index": 143,
+      "name": "SpawnActorInfoList",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 144,
+      "name": "NetActorDiscoveryBudgetInKBytesPerSec",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 146,
+      "name": "bEnableCreativeMode",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 147,
+      "name": "bEnableSpawningStartup",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 148,
+      "name": "bAllowTeamSwitching",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 149,
+      "name": "bShowTeamSelectButton",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 150,
+      "name": "bAllowLayoutRequirementsFeature",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 151,
+      "name": "bUseCreativeStarterIsland",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 153,
+      "name": "bUsesAnimationSharing",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 154,
+      "name": "AnimationSharing",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 156,
+      "name": "bAllowSpectateAPartyMember",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 157,
+      "name": "bActivateCurie",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 159,
+      "name": "PlaylistStatId",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 160,
+      "name": "bAccumulateToProfileStats",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 161,
+      "name": "bSaveToRecentGameList",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 162,
+      "name": "bEnableStatsV2Stats",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 163,
+      "name": "AISettings",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 164,
+      "name": "ServerBotManagerClass",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 166,
+      "name": "PlaylistId",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 167,
+      "name": "PlaylistName",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 168,
+      "name": "GameType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortGameType"
+      }
+    },
+    {
+      "index": 169,
+      "name": "MinPlayers",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 170,
+      "name": "MaxPlayers",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 171,
+      "name": "bUnderfillMatchmaking",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 172,
+      "name": "UnderfilledMaxPlayers",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 173,
+      "name": "bOverrideMaxPlayers",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 174,
+      "name": "MaxHumanAndBotParticipants",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 175,
+      "name": "MaxTeamCount",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 176,
+      "name": "MaxTeamSize",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 177,
+      "name": "MaxSocialPartySize",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 178,
+      "name": "MaxSquadSize",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 179,
+      "name": "MaxSquads",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 180,
+      "name": "EnforceSquadFill",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 181,
+      "name": "bAllowSquadFillOption",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 182,
+      "name": "bShouldFillWhenNoSquadFillOption",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 183,
+      "name": "bAllowJoinInProgress",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 184,
+      "name": "JoinInProgressMatchType",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 186,
+      "name": "EndOfMatchXpMultiplier",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 187,
+      "name": "UserOptions",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 188,
+      "name": "bEnableBackfillDuringWarmupPhase",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 190,
+      "name": "RichPresenceAssetName",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 192,
+      "name": "AdditionalLevels",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 193,
+      "name": "AdditionalLevelsServerOnly",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 194,
+      "name": "BuiltInGameFeaturePluginsToLoad",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StrProperty"
+        }
+      }
+    },
+    {
+      "index": 195,
+      "name": "DownloadGameFeaturePluginToLoad",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 197,
+      "name": "DefaultLastTeam",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    },
+    {
+      "index": 198,
+      "name": "GameplayTagContainer",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 200,
+      "name": "bUserFriendlyFireAimAssist",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 201,
+      "name": "LootLevel",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 204,
+      "name": "DBNOType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EDBNOType"
+      }
+    },
+    {
+      "index": 205,
+      "name": "SpawnImmunityTime",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 207,
+      "name": "ModifierList",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 208,
+      "name": "TimeOfDayManager",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 209,
+      "name": "bIgnoreWeatherEvents",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 210,
+      "name": "ItemsToFullyLoad",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 211,
+      "name": "SharedAssetGroup",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 212,
+      "name": "ConditionalAssetGroup",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 213,
+      "name": "bIsDefaultPlaylist",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 214,
+      "name": "UIDisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 215,
+      "name": "UIDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 216,
+      "name": "HUDElementsToHide",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 217,
+      "name": "LootTierData",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 218,
+      "name": "LootPackages",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 219,
+      "name": "RangedWeapons",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 220,
+      "name": "GameData",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 221,
+      "name": "ResourceRates",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 222,
+      "name": "SkydiveMusic",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 223,
+      "name": "SkydiveMusicOutroStinger",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 225,
+      "name": "GarbageCollectionFrequency",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 226,
+      "name": "ServerPerformanceEventFrequency",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    }
+  ]
+}

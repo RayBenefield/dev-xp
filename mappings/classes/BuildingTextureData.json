@@ -1,0 +1,90 @@
+{
+  "name": "BuildingTextureData",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Diffuse",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Normal",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Specular",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "OverrideMaterial",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "Type",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "ResourceType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortResourceType"
+      }
+    },
+    {
+      "index": 6,
+      "name": "ResourceCost",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "ResourceCost_NK01",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "ResourceCost_NK02",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 9,
+      "name": "ResourceCost_NK03",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 10,
+      "name": "ResourceCost_NK04",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 11,
+      "name": "ResourceCost_NK05",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    }
+  ]
+}

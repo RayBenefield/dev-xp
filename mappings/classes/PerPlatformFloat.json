@@ -1,0 +1,12 @@
+{
+  "name": "PerPlatformFloat",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Default",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    }
+  ]
+}

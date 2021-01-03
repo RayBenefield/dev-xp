@@ -1,0 +1,13 @@
+{
+  "name": "BodySetup",
+  "properties": [
+    {
+      "index": 11,
+      "name": "DefaultInstance",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "BodyInstance"
+      }
+    }
+  ]
+}

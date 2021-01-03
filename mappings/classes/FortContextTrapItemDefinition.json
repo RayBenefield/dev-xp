@@ -1,0 +1,402 @@
+{
+  "name": "FortContextTrapItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "FloorTrap",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "CeilingTrap",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "WallTrap",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "EquipSound",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "OverrideAutoEquipTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 7,
+      "name": "bReplacesEditedSurfaces",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "BlueprintClass",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 10,
+      "name": "bCanBePlacedOnEnemyBuildings",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 14,
+      "name": "PlacementTypeOverride",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EPlacementType"
+      }
+    },
+    {
+      "index": 17,
+      "name": "bForceIgnoreBuildingOverlaps",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 26,
+      "name": "bAllowPlacementOnWorldGeometry",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 39,
+      "name": "bRequiresPermissionToEditWorld",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 40,
+      "name": "bAutoCreateAttachmentBuilding",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 43,
+      "name": "AutoCreateAttachmentBuildingShapes",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 46,
+      "name": "bReplacesDecoOnAttachment",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 48,
+      "name": "WeaponActorClass",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 51,
+      "name": "WeaponStatHandle",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "DataTableRowHandle"
+      }
+    },
+    {
+      "index": 58,
+      "name": "BaseCosmeticAlteration",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 83,
+      "name": "bPreventDefaultPreload",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 84,
+      "name": "bRequestClientPreload",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 92,
+      "name": "AnalyticTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 94,
+      "name": "ActualAnalyticFNames",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "NameProperty"
+        }
+      }
+    },
+    {
+      "index": 95,
+      "name": "CreativeTagsHelper",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "FortCreativeTagsHelper"
+      }
+    },
+    {
+      "index": 100,
+      "name": "bCanAutoEquipByClass",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 110,
+      "name": "bShowDirectionalArrowWhenFarOff",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 115,
+      "name": "bItemHasDurability",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 117,
+      "name": "bOverridePickupMeshTransform",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 118,
+      "name": "bAlwaysCountForCollectionQuest",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 125,
+      "name": "MiniMapViewableDistance",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 126,
+      "name": "MiniMapIconBrush",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "SlateBrush"
+      }
+    },
+    {
+      "index": 129,
+      "name": "PickupMeshTransform",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Transform"
+      }
+    },
+    {
+      "index": 141,
+      "name": "PickupStaticMesh",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 144,
+      "name": "PickupSound",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 146,
+      "name": "DropSound",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 150,
+      "name": "DisassembleDurabilityDegradeMinLootPercent",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 151,
+      "name": "DisassembleDurabilityDegradeMaxLootPercent",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 153,
+      "name": "MinLevel",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 154,
+      "name": "MaxLevel",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 157,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 161,
+      "name": "Tier",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortItemTier"
+      }
+    },
+    {
+      "index": 165,
+      "name": "bNeverPersisted",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 166,
+      "name": "bAllowMultipleStacks",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 169,
+      "name": "bInventorySizeLimited",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 171,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 173,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 176,
+      "name": "GameplayTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 180,
+      "name": "MaxStackSize",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 182,
+      "name": "FrontendPreviewScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 184,
+      "name": "StatList",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 187,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 188,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 191,
+      "name": "FrontendPreviewPivotOffset",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Vector"
+      }
+    },
+    {
+      "index": 192,
+      "name": "FrontendPreviewInitialRotation",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Rotator"
+      }
+    },
+    {
+      "index": 193,
+      "name": "FrontendPreviewMeshOverride",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

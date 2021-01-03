@@ -1,0 +1,47 @@
+{
+  "name": "GameplayTagQuery",
+  "properties": [
+    {
+      "index": 0,
+      "name": "TokenStreamVersion",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "TagDictionary",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "GameplayTag"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "QueryTokenStream",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ByteProperty"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "UserDescription",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "AutoDescription",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    }
+  ]
+}

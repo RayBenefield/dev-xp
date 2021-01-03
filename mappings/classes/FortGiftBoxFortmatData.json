@@ -1,0 +1,19 @@
+{
+  "name": "FortGiftBoxFortmatData",
+  "properties": [
+    {
+      "index": 0,
+      "name": "StringAssetType",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "StringData",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    }
+  ]
+}

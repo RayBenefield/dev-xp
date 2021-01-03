@@ -1,0 +1,73 @@
+{
+  "name": "MaterialCachedParameters",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Entries",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "MaterialCachedParameterEntry"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ScalarValues",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "FloatProperty"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "VectorValues",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "LinearColor"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "TextureValues",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "FontValues",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "name": "FontPageValues",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "IntProperty"
+        }
+      }
+    },
+    {
+      "index": 6,
+      "name": "RuntimeVirtualTextureValues",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    }
+  ]
+}

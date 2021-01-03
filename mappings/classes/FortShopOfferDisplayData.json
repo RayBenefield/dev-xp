@@ -1,0 +1,15 @@
+{
+  "name": "FortShopOfferDisplayData",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Presentations",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    }
+  ]
+}

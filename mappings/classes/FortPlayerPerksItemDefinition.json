@@ -1,0 +1,56 @@
+{
+  "name": "FortPlayerPerksItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "SecondaryXpSource",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 1,
+      "name": "XpCurve",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "PlayerPerkLevels",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "PlayerPerkLevel"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "LevelCaps",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "TechCurrentLevelCap"
+        }
+      }
+    },
+    {
+      "index": 11,
+      "name": "MaxLevel",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 28,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    }
+  ]
+}

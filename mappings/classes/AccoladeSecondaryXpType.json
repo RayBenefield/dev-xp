@@ -1,0 +1,21 @@
+{
+  "name": "AccoladeSecondaryXpType",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Type",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 1,
+      "name": "XpAmount",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    }
+  ]
+}

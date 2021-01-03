@@ -1,0 +1,87 @@
+{
+  "name": "FortDeliveryInfoRequirementsFilter",
+  "properties": [
+    {
+      "index": 0,
+      "name": "SourceTagRequirements",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagRequirements"
+      }
+    },
+    {
+      "index": 1,
+      "name": "TargetTagRequirements",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagRequirements"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ApplicableTeamAffiliation",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortTeamAffiliation"
+      }
+    },
+    {
+      "index": 3,
+      "name": "bConsiderTeamAffiliationToInstigator",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "ApplicableTeam",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortTeam"
+      }
+    },
+    {
+      "index": 5,
+      "name": "bConsiderTeam",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "bApplyToPlayerPawns",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "bApplyToAIPawns",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "bApplyToBuildingActors",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 9,
+      "name": "BuildingActorSpecification",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortDeliveryInfoBuildingActorSpecification"
+      }
+    },
+    {
+      "index": 10,
+      "name": "bApplyToGlobalEnvironmentAbilityActor",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    }
+  ]
+}

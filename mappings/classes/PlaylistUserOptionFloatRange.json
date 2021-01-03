@@ -1,0 +1,84 @@
+{
+  "name": "PlaylistUserOptionFloatRange",
+  "properties": [
+    {
+      "index": 1,
+      "name": "Max",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "DefaultValue",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "IncrementValue",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "OptionScope",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "OptionKey",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "OptionDisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "OptionDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 9,
+      "name": "Tags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 10,
+      "name": "OptionMaterial",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 11,
+      "name": "bCanHaveNoOverride",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 12,
+      "name": "MenuListType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EUFortMatchmakingKnobsDataSource"
+      }
+    }
+  ]
+}

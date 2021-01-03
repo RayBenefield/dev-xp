@@ -1,0 +1,360 @@
+{
+  "name": "AthenaSeasonItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "bXpOnlySeason",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "SeasonXpOnlyExtendedCurve",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "DailyPunchCard",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "RepeatableDailiesCard",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "RestedXpMaxAccrue",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "RestedXpMultiplier",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "SeasonStartCalendarOffsetDays",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 9,
+      "name": "SeasonNumber",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 10,
+      "name": "NumSeasonLevels",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 11,
+      "name": "NumBookLevels",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 12,
+      "name": "NumAdditionalBookLevels",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 14,
+      "name": "ChallengesVisibility",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EAthenaChallengeTabVisibility"
+      }
+    },
+    {
+      "index": 15,
+      "name": "SeasonXpCurve",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 16,
+      "name": "BookXpCurve",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 17,
+      "name": "SeasonStorefront",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    },
+    {
+      "index": 19,
+      "name": "BattlePassOfferIds",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StrProperty"
+        }
+      }
+    },
+    {
+      "index": 21,
+      "name": "BattlePassLevelOfferIDs",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StrProperty"
+        }
+      }
+    },
+    {
+      "index": 23,
+      "name": "FreeLevelsThatNavigateToBattlePass",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "IntProperty"
+        }
+      }
+    },
+    {
+      "index": 24,
+      "name": "FreeLevelsThatAutoOpenTheAboutScreen",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "IntProperty"
+        }
+      }
+    },
+    {
+      "index": 25,
+      "name": "TrackCategories",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "TrackCategory"
+        }
+      }
+    },
+    {
+      "index": 26,
+      "name": "TrackPageBackgrounds",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "TrackDynamicBackground"
+        }
+      }
+    },
+    {
+      "index": 27,
+      "name": "SeasonXpScheduleFree",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "AthenaRewardSchedule"
+      }
+    },
+    {
+      "index": 28,
+      "name": "FreeSeasonItemContentTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 29,
+      "name": "BookXpScheduleFree",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "AthenaRewardSchedule"
+      }
+    },
+    {
+      "index": 30,
+      "name": "BattlePassFreeItemContentTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 31,
+      "name": "BookXpSchedulePaid",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "AthenaRewardSchedule"
+      }
+    },
+    {
+      "index": 32,
+      "name": "BattlePassPaidItemContentTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 33,
+      "name": "AdditionalBookSchedule",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "AthenaRewardSchedule"
+      }
+    },
+    {
+      "index": 34,
+      "name": "BattlePassAdditionalItemContentTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 35,
+      "name": "SeasonBannerSchedule",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "AthenaSeasonBannerLevelSchedule"
+      }
+    },
+    {
+      "index": 40,
+      "name": "ChallengeSchedulesAlwaysShown",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 41,
+      "name": "SeasonGrantsToEveryone",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "AthenaRewardScheduleLevel"
+      }
+    },
+    {
+      "index": 42,
+      "name": "SeasonGrantsToEveryoneItemContentTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 43,
+      "name": "SeasonFirstWinRewards",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "AthenaRewardScheduleLevel"
+      }
+    },
+    {
+      "index": 44,
+      "name": "SeasonFirstWinItemContentTag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 46,
+      "name": "XpDisplayOverride",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "XpDisplayConversion"
+        }
+      }
+    },
+    {
+      "index": 47,
+      "name": "XpItemDef",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 48,
+      "name": "ExpiringRewardTypes",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 49,
+      "name": "TokensToRemoveAtSeasonEnd",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 52,
+      "name": "NoBattleBundleToken",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 78,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 79,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 80,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 100,
+      "name": "FrontendPreviewMeshOverride",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

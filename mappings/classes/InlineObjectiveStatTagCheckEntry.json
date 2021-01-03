@@ -1,0 +1,28 @@
+{
+  "name": "InlineObjectiveStatTagCheckEntry",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Tag",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTag"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Type",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EInlineObjectiveStatTagCheckEntryType"
+      }
+    },
+    {
+      "index": 2,
+      "name": "Require",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    }
+  ]
+}

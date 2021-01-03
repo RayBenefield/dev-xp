@@ -1,0 +1,46 @@
+{
+  "name": "FortPlaysetPropItemDefinition",
+  "properties": [
+    {
+      "index": 1,
+      "name": "ActorSaveRecord",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "AssociatedPlaysetGrenades",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "AssociatedPlaysets",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "SoftObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 21,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 37,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

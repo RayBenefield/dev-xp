@@ -1,0 +1,65 @@
+{
+  "name": "MaterialCachedExpressionData",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Parameters",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "MaterialCachedParameters"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ReferencedTextures",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 2,
+      "name": "FunctionInfos",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "MaterialFunctionInfo"
+        }
+      }
+    },
+    {
+      "index": 3,
+      "name": "ParameterCollectionInfos",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "MaterialParameterCollectionInfo"
+        }
+      }
+    },
+    {
+      "index": 7,
+      "name": "DynamicParameterNames",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "NameProperty"
+        }
+      }
+    },
+    {
+      "index": 8,
+      "name": "QualityLevelsUsed",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "BoolProperty"
+        }
+      }
+    }
+  ]
+}

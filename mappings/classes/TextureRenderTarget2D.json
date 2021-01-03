@@ -1,0 +1,63 @@
+{
+  "name": "TextureRenderTarget2D",
+  "properties": [
+    {
+      "index": 0,
+      "name": "SizeX",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "SizeY",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ClearColor",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "LinearColor"
+      }
+    },
+    {
+      "index": 3,
+      "name": "AddressX",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "AddressY",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "RenderTargetFormat",
+      "mapping_type": {
+        "type": "ByteProperty"
+      }
+    },
+    {
+      "index": 15,
+      "name": "LightingGuid",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Guid"
+      }
+    },
+    {
+      "index": 23,
+      "name": "SRGB",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "RatingExpansion",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Priority",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "RatingDelta",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    }
+  ]
+}

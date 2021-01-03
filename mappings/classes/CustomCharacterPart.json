@@ -1,0 +1,49 @@
+{
+  "name": "CustomCharacterPart",
+  "properties": [
+    {
+      "index": 0,
+      "name": "GenderPeritted",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "FortCustomGender"
+      }
+    },
+    {
+      "index": 2,
+      "name": "CharacterPartType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "FortCustomPartType"
+      }
+    },
+    {
+      "index": 6,
+      "name": "bAttachToSocket",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "PartModifierBlueprint",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 9,
+      "name": "AdditionalData",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 14,
+      "name": "SkeletalMesh",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

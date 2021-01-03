@@ -1,0 +1,165 @@
+{
+  "name": "FortGiftBoxItemDefinition",
+  "properties": [
+    {
+      "index": 0,
+      "name": "RestrictToSubgame",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "ESubGame"
+      }
+    },
+    {
+      "index": 1,
+      "name": "GiftWrapType",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortGiftWrapType"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ViolatorText",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "DefaultHeaderText",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "SubHeaderText",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "DefaultBodyText",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "ItemDisplayAsset",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "SortPriority",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "bReuseExistingBoxIfPossible",
+      "mapping_type": {
+        "type": "BoolProperty"
+      }
+    },
+    {
+      "index": 9,
+      "name": "GiftBoxPreMessageWidgetRef",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 10,
+      "name": "GiftBoxHeaderSubWidgetRef",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 21,
+      "name": "Rarity",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EFortRarity"
+      }
+    },
+    {
+      "index": 35,
+      "name": "DisplayName",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 36,
+      "name": "ShortDescription",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 37,
+      "name": "Description",
+      "mapping_type": {
+        "type": "TextProperty"
+      }
+    },
+    {
+      "index": 40,
+      "name": "GameplayTags",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "GameplayTagContainer"
+      }
+    },
+    {
+      "index": 46,
+      "name": "FrontendPreviewScale",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 51,
+      "name": "SmallPreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 52,
+      "name": "LargePreviewImage",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 55,
+      "name": "FrontendPreviewPivotOffset",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Vector"
+      }
+    },
+    {
+      "index": 56,
+      "name": "FrontendPreviewInitialRotation",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Rotator"
+      }
+    },
+    {
+      "index": 57,
+      "name": "FrontendPreviewMeshOverride",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

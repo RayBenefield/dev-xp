@@ -1,0 +1,19 @@
+{
+  "name": "GameplayTagTableRow",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Tag",
+      "mapping_type": {
+        "type": "NameProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "DevComment",
+      "mapping_type": {
+        "type": "StrProperty"
+      }
+    }
+  ]
+}

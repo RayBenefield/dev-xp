@@ -1,0 +1,20 @@
+{
+  "name": "UIExtension",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Slot",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "EUIExtensionSlot"
+      }
+    },
+    {
+      "index": 1,
+      "name": "WidgetClass",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    }
+  ]
+}

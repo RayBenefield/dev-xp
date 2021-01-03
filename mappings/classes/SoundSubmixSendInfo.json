@@ -1,0 +1,71 @@
+{
+  "name": "SoundSubmixSendInfo",
+  "properties": [
+    {
+      "index": 0,
+      "name": "SendLevelControlMethod",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "ESendLevelControlMethod"
+      }
+    },
+    {
+      "index": 1,
+      "name": "SendStage",
+      "mapping_type": {
+        "type": "EnumProperty",
+        "enum_type": "ESubmixSendStage"
+      }
+    },
+    {
+      "index": 2,
+      "name": "SoundSubmix",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    },
+    {
+      "index": 3,
+      "name": "SendLevel",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 4,
+      "name": "MinSendLevel",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 5,
+      "name": "MaxSendLevel",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 6,
+      "name": "MinSendDistance",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 7,
+      "name": "MaxSendDistance",
+      "mapping_type": {
+        "type": "FloatProperty"
+      }
+    },
+    {
+      "index": 8,
+      "name": "CustomSendLevelCurve",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "RuntimeFloatCurve"
+      }
+    }
+  ]
+}

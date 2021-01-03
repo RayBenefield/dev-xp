@@ -1,0 +1,32 @@
+{
+  "name": "WinConditionScoreData",
+  "properties": [
+    {
+      "index": 0,
+      "name": "GoalScore",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 1,
+      "name": "BigScoreThreshold",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "ScalableFloat"
+      }
+    },
+    {
+      "index": 2,
+      "name": "ScoreDataList",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "AthenaScoreData"
+        }
+      }
+    }
+  ]
+}

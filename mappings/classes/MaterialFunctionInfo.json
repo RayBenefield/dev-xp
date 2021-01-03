@@ -1,0 +1,20 @@
+{
+  "name": "MaterialFunctionInfo",
+  "properties": [
+    {
+      "index": 0,
+      "name": "StateId",
+      "mapping_type": {
+        "type": "StructProperty",
+        "struct_type": "Guid"
+      }
+    },
+    {
+      "index": 1,
+      "name": "Function",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    }
+  ]
+}

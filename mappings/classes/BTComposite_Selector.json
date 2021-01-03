@@ -1,0 +1,33 @@
+{
+  "name": "BTComposite_Selector",
+  "properties": [
+    {
+      "index": 0,
+      "name": "Children",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "StructProperty",
+          "struct_type": "BTCompositeChild"
+        }
+      }
+    },
+    {
+      "index": 4,
+      "name": "Services",
+      "mapping_type": {
+        "type": "ArrayProperty",
+        "sub_type": {
+          "type": "ObjectProperty"
+        }
+      }
+    },
+    {
+      "index": 5,
+      "name": "TreeAsset",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    }
+  ]
+}

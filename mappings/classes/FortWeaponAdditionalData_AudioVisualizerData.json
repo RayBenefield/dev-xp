@@ -1,0 +1,12 @@
+{
+  "name": "FortWeaponAdditionalData_AudioVisualizerData",
+  "properties": [
+    {
+      "index": 0,
+      "name": "AudioVisualizerIconOverride",
+      "mapping_type": {
+        "type": "ObjectProperty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "XpDisplayConversion",
+  "properties": [
+    {
+      "index": 0,
+      "name": "XpItemDef",
+      "mapping_type": {
+        "type": "SoftObjectProperty"
+      }
+    },
+    {
+      "index": 1,
+      "name": "ValueToReplaceAt",
+      "mapping_type": {
+        "type": "IntProperty"
+      }
+    }
+  ]
+}
