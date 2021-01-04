@@ -1,5 +1,14 @@
 # Worklog
 
+## #827
+
+Re-organized what I needed for the downloading of files with `@fncreative/wick`.
+Now I'm preparing to start analyzing what paks are downloaded and what aren't.
+Then I can use that to download all of the paks that I'm still missing. I can
+then start using the extractor to inspect each pak of what files exist. Keep a
+cache of that list as well as eventually use that to download and track down
+where each file exists to download as I need them.
+
 ## #823, #824, #825, #826
 
 Alright I'm now able to download, get filenames and various other things with
