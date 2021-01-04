@@ -1,5 +1,13 @@
 # Worklog
 
+## #822
+
+Cleaned up the directory to make sure I can handle uassets stored in a data
+folder. Checking in the mappings for the John Wick Parser as well. Setup the
+`paks` to be in the right place as well. Just making sure everything is ready
+for me to actually start the full cli application including the downloading of
+paks if they don't exist.
+
 ## #821
 
 Spent the rest of yesterday just LEARNING about parsing and how it works...
