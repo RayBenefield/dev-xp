@@ -1,5 +1,19 @@
 # Worklog
 
+## #823, #824, #825, #826
+
+Alright I'm now able to download, get filenames and various other things with
+the paks. So next thing I need to do is set it up so I download a pak if I don't
+have it, and if I do then I can read from the local directory with `node-wick`'s
+extractor rather than going through the download service. I need to store the
+`AES` key in the config as well so I can use that for the `wick` module. Getting
+closer... I need to finish this portion so I can do the parsing of all the data
+tomorrow, and HOPEFULLY get to the AHK portion where I setup my automation. My
+goal is to have Covet testable for this coming weekend. To do that I need like 3
+days to make it, so I need to have my automation done by Wednesday. Which means
+tomorrow I need to finish all my device mappings. If worse comes to worse,
+tomorrow afternoon I'll setup my channel setter macro.
+
 ## #822
 
 Cleaned up the directory to make sure I can handle uassets stored in a data
