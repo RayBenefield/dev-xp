@@ -1,5 +1,12 @@
 # Worklog
 
+## #834
+
+Started work on creating file lists and ran into a missing `pak` file or at
+least one that seemed like it wasn't fully downloaded. So I'm re-downloading
+that now... I'm almost done with the file list system though and next up will be
+tracking when the file was last updated.
+
 ## #828, #829, #830, #831, #832, #833
 
 Got fully sucked into refactoring the entire `wick` system... but I learned a
