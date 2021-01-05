@@ -1,5 +1,14 @@
 # Worklog
 
+## #828, #829, #830, #831, #832, #833
+
+Got fully sucked into refactoring the entire `wick` system... but I learned a
+lot about when to use `ramda` and when not to. I've been overcomplicating things
+with `ramda` and it was making things unreadable. But I'm learning as I push
+myself through it. At least I have my entire download system working. Now I need
+to work on the file lists of each pak which will be its own kind of fun. But I
+need a food break. Hopefully this next part goes a lot smoother lol.
+
 ## #827
 
 Re-organized what I needed for the downloading of files with `@fncreative/wick`.
