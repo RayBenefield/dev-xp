@@ -1,5 +1,6 @@
 alias dev='cd ~/Development'
 alias xp='cd ~/Development/dev-xp'
+alias mxp='cd /mnt/c/msys64/home/RayBenefield/Development/dev-xp'
 alias startup='cd "/mnt/c/Users/RayBenefield/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup"'
 alias yt='cd ~/Development/youtube'
 alias core='cd "/mnt/c/Users/RayBenefield/Dropbox/My PC (Ray-PC)/Documents/My Games/CORE/Saved/Maps"'
