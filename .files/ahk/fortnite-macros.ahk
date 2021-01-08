@@ -93,6 +93,28 @@ increment := 10
         _inventorySecondary()
     RETURN
 
+    +F20::
+        MouseGetPos, x, y
+        original := _readProperty(y)
+        if (!InStr(original, "ERROR")) {
+            target := _getTargetChannel(original)
+            WinActivate, ahk_exe FortniteClient-Win64-Shipping.exe
+            MouseMove, x, y
+            _setChannel(original, target)
+        } else {
+            moveMsg := Func("MoveMsg")
+            SetTimer, % moveMsg, 50
+            msgbox, , Not Found, % original
+        }
+        WinActivate, ahk_exe FortniteClient-Win64-Shipping.exe
+    RETURN
+
+    MoveMsg() {
+        SysGet, monitor, MonitorWorkArea, 1
+        ID := WinExist("Not Found")
+        WinMove, ahk_id %ID%, , % monitorLeft, % monitorTop
+    }
+
     MouseEvent(x, y) {
     }
 
