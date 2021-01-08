@@ -25,6 +25,17 @@ AddDevice() {
     MSGBOX, Not Implemented Yet
 }
 
+increment := 10
 #IfWinActive ahk_exe FortniteClient-Win64-Shipping.exe
+
     F5::StartEndGame()
+
+    +Right::
+        Send, {RIGHT %increment%}
+    RETURN
+
+    +Left::
+        Send, {LEFT %increment%}
+    RETURN
+
 #IfWinActive
