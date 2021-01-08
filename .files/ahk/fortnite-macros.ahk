@@ -6,6 +6,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #Include %A_ScriptDir%/lib/fuzzy.ahk
 #Include %A_ScriptDir%/lib/fortnite-actions.ahk
+#Include %A_ScriptDir%/lib/Vis2.ahk
 #Include C:/Users/RayBenefield/AutoHotInterception/lib/AutoHotInterception.ahk
 
 AHI := new AutoHotInterception()
@@ -75,8 +76,10 @@ increment := 10
     BlockMouse(time) {
         GLOBAL AHI
         AHI.SubscribeMouseMove(12, true, Func("MouseEvent"))
-        unblock := Func("unblockTimer")
-        SetTimer, % unblock, % time
+        if (time) {
+            unblock := Func("unblockTimer")
+            SetTimer, % unblock, % time
+        }
     }
 
     !Rbutton::
