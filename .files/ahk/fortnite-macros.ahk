@@ -79,6 +79,17 @@ increment := 10
         SetTimer, % unblock, % time
     }
 
+    !Rbutton::
+        MouseClick
+        Sleep, 300
+        _inventoryPrimary()
+    RETURN
+    !^Rbutton::
+        MouseClick
+        Sleep, 300
+        _inventorySecondary()
+    RETURN
+
     MouseEvent(x, y) {
     }
 
