@@ -326,3 +326,8 @@ return
   SendInput %Clipboard%
 Return
 
+F10::
+    CoordMode, Mouse, Client
+    MouseGetPos, x, y
+    clipboard := "CoordMode, Mouse, Client`nMouseMove, " x ", " y
+RETURN
