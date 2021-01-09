@@ -126,6 +126,14 @@ increment := 10
         _backup()
     RETURN
 
+    `::
+        _phoneTools()
+        Sleep, 300
+        _buildingToProp()
+        Sleep, 300
+        _escape()
+    RETURN
+
     MoveMsg() {
         SysGet, monitor, MonitorWorkArea, 1
         ID := WinExist("Not Found")

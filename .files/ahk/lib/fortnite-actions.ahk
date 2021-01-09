@@ -1,5 +1,18 @@
 #Include %A_ScriptDir%/lib/number-picker.ahk
 
+_escape() {
+    Send, {ESC}
+}
+
+_phoneTools() {
+    Send, {B}
+}
+
+_buildingToProp() {
+    CoordMode, Mouse, Client
+    Click, 1024, 1200
+}
+
 _menu() {
     Send, {ESC}
 }
