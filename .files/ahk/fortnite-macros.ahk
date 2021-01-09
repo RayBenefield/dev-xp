@@ -98,6 +98,8 @@ increment := 10
         MouseMove, x, y
     RETURN
 
+    +Xbutton1::Send {ENTER}
+
     +F20::
         MouseGetPos, x, y
         original := _readProperty(y)
