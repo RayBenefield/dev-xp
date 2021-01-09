@@ -83,6 +83,13 @@ increment := 10
     }
 
     F::Send, {N}
+    V::
+        _phoneTools()
+        Sleep, 300
+        CoordMode, Mouse, Client
+        Click, 847, 1102
+        _escape()
+    RETURN
 
     !Rbutton::
         MouseClick
