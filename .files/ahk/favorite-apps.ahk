@@ -214,7 +214,12 @@ moving=false
         Send {SPACE UP}
         Sleep, 600
     RETURN
-    ~CAPSLOCK & CTRL::Send {CTRL}
+    ~CAPSLOCK & CTRL::
+        Send {J DOWN}
+        Sleep, 20
+        Send {J UP}
+        Sleep, 600
+    RETURN
 
     unslowTimer() {
         GLOBAL AHI
