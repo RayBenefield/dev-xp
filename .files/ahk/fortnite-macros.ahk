@@ -116,6 +116,16 @@ increment := 10
         WinActivate, ahk_exe FortniteClient-Win64-Shipping.exe
     RETURN
 
+    F2::
+        _islandMenu()
+        Sleep, 300
+        _myIsland()
+        Sleep, 300
+        _tools()
+        Sleep, 300
+        _backup()
+    RETURN
+
     MoveMsg() {
         SysGet, monitor, MonitorWorkArea, 1
         ID := WinExist("Not Found")
