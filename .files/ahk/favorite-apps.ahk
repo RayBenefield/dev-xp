@@ -4,6 +4,9 @@
 #SINGLEINSTANCE FORCE
 
 #Include %A_ScriptDir%/lib/fuzzy.ahk
+#Include C:/Users/RayBenefield/AutoHotInterception/lib/AutoHotInterception.ahk
+
+AHI := new AutoHotInterception()
 
 SENDMODE INPUT
 SETTITLEMATCHMODE, 2
@@ -170,3 +173,71 @@ RETURN
     }
 RETURN
 
+lastMove=0
+moving=false
+#IfWinActive ahk_exe FortniteClient-Win64-Shipping.exe
+    ~CAPSLOCK::
+        GLOBAL AHI
+
+        AHI.SubscribeMouseMove(12, true, Func("MouseEvent"))
+        KEYWAIT, Capslock
+        unslowTimer()
+    RETURN
+
+    ~CAPSLOCK & W::
+        Send {W DOWN}
+        Sleep, 20
+        Send {W UP}
+        Sleep, 600
+    RETURN
+    ~CAPSLOCK & A::Send {A}
+        Send {A DOWN}
+        Sleep, 20
+        Send {A UP}
+        Sleep, 600
+    RETURN
+    ~CAPSLOCK & S::Send {S}
+        Send {S DOWN}
+        Sleep, 20
+        Send {S UP}
+        Sleep, 600
+    RETURN
+    ~CAPSLOCK & D::Send {D}
+        Send {D DOWN}
+        Sleep, 20
+        Send {D UP}
+        Sleep, 600
+    RETURN
+    ~CAPSLOCK & SPACE::
+        Send {SPACE DOWN}
+        Sleep, 20
+        Send {SPACE UP}
+        Sleep, 600
+    RETURN
+    ~CAPSLOCK & CTRL::Send {CTRL}
+
+    unslowTimer() {
+        GLOBAL AHI
+        AHI.UnsubscribeMouseMove(12)
+    }
+
+    MouseEvent(x, y) {
+        GLOBAL AHI
+        GLOBAL lastMove
+        GLOBAL moving
+
+        if (moving) {
+            lastMove += 1
+        }
+        if (lastMove > 300) {
+            lastMove = 0
+            moving := false
+        }
+        if (not moving) {
+            if (Abs(x) > 6 or Abs(y) > 6) {
+                AHI.SendMouseMove(12, x/2, y/2)
+                moving := true
+            }
+        }
+    }
+#IfWinActive
