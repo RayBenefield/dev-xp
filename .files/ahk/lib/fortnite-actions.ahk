@@ -13,6 +13,10 @@ _buildingToProp() {
     Click, 1024, 1200
 }
 
+_delete() {
+    Send, {X}
+}
+
 _menu() {
     Send, {ESC}
 }

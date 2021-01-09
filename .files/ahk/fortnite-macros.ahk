@@ -134,6 +134,13 @@ increment := 10
         _escape()
     RETURN
 
+    +Rbutton::
+    WHILE, GetKeyState("Rbutton", "P") {
+        _delete()
+        Sleep, 300
+    }
+    RETURN
+
     MoveMsg() {
         SysGet, monitor, MonitorWorkArea, 1
         ID := WinExist("Not Found")
