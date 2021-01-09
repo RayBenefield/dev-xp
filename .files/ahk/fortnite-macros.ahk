@@ -43,30 +43,30 @@ increment := 10
 
     WheelUp::
         BlockMouse(600)
-        Send, {f down}
+        Send, {U down}
         Sleep, 300
-        Send, {f up}
+        Send, {U up}
     return
 
     WheelDown::
         BlockMouse(600)
-        Send, {c down}
+        Send, {O down}
         Sleep, 300
-        Send, {c up}
+        Send, {O up}
     return
 
     +WheelUp::
         BlockMouse(600)
-        Send, {r down}
+        Send, {P down}
         Sleep, 300
-        Send, {r up}
+        Send, {P up}
    return
 
     +WheelDown::
         BlockMouse(600)
-        Send, {e down}
+        Send, {L down}
         Sleep, 300
-        Send, {e up}
+        Send, {L up}
     return
 
     unblockTimer() {
