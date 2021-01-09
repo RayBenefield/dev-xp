@@ -4,6 +4,25 @@ _menu() {
     Send, {ESC}
 }
 
+_islandMenu() {
+    Send, {TAB}
+}
+
+_myIsland() {
+    CoordMode, Mouse, Client
+    Click, 1700, 80
+}
+
+_tools() {
+    CoordMode, Mouse, Client
+    Click, 2125, 245
+}
+
+_backup() {
+    CoordMode, Mouse, Client
+    Click, 3342, 415
+}
+
 _startEndGame() {
     CoordMode, Mouse, Client
     Click, 3333, 1550 
