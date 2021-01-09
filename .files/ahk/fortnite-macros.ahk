@@ -82,6 +82,8 @@ increment := 10
         }
     }
 
+    F::Send, {N}
+
     !Rbutton::
         MouseClick
         Sleep, 300
