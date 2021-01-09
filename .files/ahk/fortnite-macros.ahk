@@ -92,6 +92,11 @@ increment := 10
         Sleep, 300
         _inventorySecondary()
     RETURN
+    !Mbutton::
+        MouseGetPos, x, y
+        _inventoryBack()
+        MouseMove, x, y
+    RETURN
 
     +F20::
         MouseGetPos, x, y

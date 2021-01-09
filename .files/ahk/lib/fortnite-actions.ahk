@@ -28,6 +28,11 @@ _inventorySecondary() {
     Click, 1500, 1950
 }
 
+_inventoryBack() {
+    CoordMode, Mouse, Client
+    Click, 690, 275
+}
+
 _search() {
     CoordMode, Mouse, Client
     Click, 1720, 375
