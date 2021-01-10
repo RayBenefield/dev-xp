@@ -30,6 +30,17 @@ AddDevice() {
 increment := 10
 
 #IfWinActive ahk_exe FortniteClient-Win64-Shipping.exe
+    F23::
+        Suspend
+        ToolTip, PAUSE, 200, 250
+        Pause ,, 1
+        SetTimer, RemoveToolTip, 1
+    return
+
+    RemoveToolTip:
+        SetTimer, RemoveToolTip, Off
+        ToolTip
+    return
 
     F5::StartEndGame()
 
