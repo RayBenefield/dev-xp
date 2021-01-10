@@ -29,7 +29,7 @@ F1::Send, {F2}
 
 #IfWinActive ahk_exe Hyper.exe
     $^j::SEND, {F12}
-    $^i::SEND, {F10}
+    $^i::SEND, {F9}
     $#v::
     $^v::
         Send, ^+v
