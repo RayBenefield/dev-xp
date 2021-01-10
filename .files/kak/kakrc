@@ -19,7 +19,7 @@ map-sequence global jk %{exec <esc>}
 
 alias global x write-quit
 
-map global normal ^       gh
+map global normal ^       gi
 map global normal $       gl
 
 #map global prompt <c-j>  <tab>
