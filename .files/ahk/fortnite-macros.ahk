@@ -94,7 +94,7 @@ increment := 10
     }
 
     F::Send, {N}
-    V::
+    C::
         _phoneTools()
         Sleep, 300
         CoordMode, Mouse, Client
