@@ -170,4 +170,10 @@ increment := 10
     MouseEvent(x, y) {
     }
 
+    +TAB::
+        _islandMenu()
+        _myIsland()
+        _channelBrowser()
+    RETURN
+
 #IfWinActive
