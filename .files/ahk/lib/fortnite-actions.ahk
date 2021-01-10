@@ -30,6 +30,11 @@ _myIsland() {
     Click, 1700, 80
 }
 
+_channelBrowser() {
+    CoordMode, Mouse, Client
+    Click, 3199, 2111
+}
+
 _tools() {
     CoordMode, Mouse, Client
     Click, 2125, 245
