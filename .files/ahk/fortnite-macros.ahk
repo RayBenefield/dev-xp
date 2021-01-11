@@ -17,6 +17,180 @@ GLOBAL actions := [
     "AddDevice"
 )]
 
+GLOBAL devices := [
+(JOIN
+    "Trigger",
+    "Player Spawn Pad",
+    "Player Reference",
+    "Speaker",
+    "Radio",
+    "Explosive Device",
+    "Damage Trap",
+    "Poison Dart Trap",
+    "Full Damage Rail",
+    "Half Damage Rail",
+    "Creature Manager",
+    "Creature Spawner",
+    "Creature Placer",
+    "Shooting Range Gallery",
+    "Sentry",
+    "HUD Message Device",
+    "Map Indicator Device",
+    "Billboard",
+    "Holoscreen",
+    "Scoreboard",
+    "Item Spawner",
+    "Vending Machine",
+    "Item Granter",
+    "Elimination Manager",
+    "Consumables Gallery",
+    "Chest & Ammo Gallery",
+    "Item Spawner Plate",
+    "Creepin' Cardboard",
+    "Trick Tile",
+    "Matchmaking Portal",
+    "Teleporter",
+    "Hover Platform",
+    "Air Vent Gallery",
+    "Pinball Bumper",
+    "Pinball Flipper",
+    "Chiller",
+    "Ice Block",
+    "Bouncer",
+    "Speed Boost",
+    "Movement Modulator",
+    "Launch Pad",
+    "Tracker",
+    "Lock Device",
+    "Conditional Button",
+    "Timed Objective",
+    "Capture Item Spawner",
+    "Capture Area",
+    "Objective Device Gallery",
+    "Collectibles Gallery",
+    "Ball Spawner",
+    "Color Changing Tiles",
+    "Class Selector",
+    "Class Designer",
+    "Power Ups Gallery",
+    "Player Spawn Plate",
+    "Player Checkpoint",
+    "Round Settings",
+    "Team Settings & Inventory",
+    "Prop-O-Matic Manager",
+    "Advanced Storm Controller",
+    "Basic Storm Controller",
+    "Advanced Storm Beacon",
+    "Attribute Trigger",
+    "Preception Trigger",
+    "Random Number Generator",
+    "Score Manager",
+    "Button",
+    "Timer",
+    "Sequencer",
+    "Shopping Cart Spawn",
+    "ATK Spawn",
+    "Quadcrasher Spawn",
+    "X-4 Stormwing Spawn",
+    "Driftboard Spawn",
+    "Baller Spawn",
+    "B.R.U.T.E. Spawn",
+    "Sword in the Stone",
+    "Mounted Turret",
+    "Cannon Spawn",
+    "Damage Volume",
+    "Mutator Zone",
+    "Barrier",
+    "Cozy Campfire"
+)]
+
+GLOBAL deviceSearchPositions := [
+(JOIN
+    3,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+)]
+
 StartEndGame() {
     _menu()
     Sleep, 300
@@ -174,6 +348,41 @@ increment := 10
         _islandMenu()
         _myIsland()
         _channelBrowser()
+    RETURN
+
+    +F21::
+        device := fuzzy(devices)
+        if (device == 0) {
+            RETURN
+        }
+        CLIPBOARD := devices[device]
+        pos := deviceSearchPositions[device]
+        WinActivate, ahk_exe FortniteClient-Win64-Shipping.exe
+        _escape()
+        Sleep, 300
+        _escape()
+        Sleep, 300
+        Click
+        Sleep, 300
+        _islandMenu()
+        Sleep, 300
+        _creative()
+        Sleep, 300
+        _creative()
+        Sleep, 300
+        _devices()
+        Sleep, 300
+        _inventorySearch()
+        Send, ^a
+        Send, % CLIPBOARD
+        Sleep, 300
+        _inventoryResult(pos)
+        Sleep, 300
+        _inventorySearch()
+        Sleep, 300
+        Send, ^a{BACKSPACE}{ENTER}
+        Sleep, 300
+        _inventoryPrimary()
     RETURN
 
 #IfWinActive

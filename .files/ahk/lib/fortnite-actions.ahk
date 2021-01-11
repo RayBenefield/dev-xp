@@ -30,6 +30,35 @@ _myIsland() {
     Click, 1700, 80
 }
 
+_creative() {
+    CoordMode, Mouse, Client
+    Click, 1994, 83
+}
+
+_devices() {
+    CoordMode, Mouse, Client
+    Click, 1702, 243
+}
+
+_inventorySearch() {
+    CoordMode, Mouse, Client
+    Click, 305, 465
+}
+
+_inventoryResult(pos = 1) {
+    CoordMode, Mouse, Client
+
+    if (pos == 1) {
+        Click, 1059, 478
+    } else if (pos == 2) {
+        Click, 1376, 497
+    } else if (pos == 3) {
+        Click, 1690, 491
+    } else {
+        Click, 1059, 478
+    }
+}
+
 _channelBrowser() {
     CoordMode, Mouse, Client
     Click, 3199, 2111
