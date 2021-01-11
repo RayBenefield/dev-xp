@@ -293,6 +293,7 @@ increment := 10
     RETURN
 
     +Xbutton1::Send {ENTER}
+    +Xbutton2::Send {ESC}
 
     +F20::
         MouseGetPos, x, y
