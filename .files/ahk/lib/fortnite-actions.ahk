@@ -10,7 +10,12 @@ _phoneTools() {
 
 _buildingToProp() {
     CoordMode, Mouse, Client
-    Click, 1024, 1200
+    Click, 1012, 1244
+}
+
+_refineGridSnap() {
+    CoordMode, Mouse, Client
+    Click, 848, 1151
 }
 
 _delete() {

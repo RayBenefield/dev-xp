@@ -291,8 +291,7 @@ increment := 10
     C::
         _phoneTools()
         Sleep, 300
-        CoordMode, Mouse, Client
-        Click, 847, 1102
+        _refineGridSnap()
         _escape()
     RETURN
 
