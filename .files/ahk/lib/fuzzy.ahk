@@ -1,6 +1,6 @@
 #Include %A_ScriptDir%/lib/sift.ahk
 
-fuzzy(values, default) {
+fuzzy(values, default = 1) {
     Global numberSlider
     Global number
     Global numberText
@@ -28,10 +28,8 @@ fuzzy(values, default) {
     Gui, Add, Button, Default h0 w0 vsubmit,
     GuiControl +g, Submit, % getFinalValue
 
-    CoordMode, Mouse, Screen
-    WinGetPos, x, y, , , A
-
-    Gui, Show, x%x% y%y%, Update Current
+    SysGet, monitor, MonitorWorkArea, 1
+    Gui, Show, x%monitorLeft% y%monitorTop%, Update Current
 
     OnMessage(0x0100, keyPressed)
     GuiControlGet, final, , numberSlider
@@ -95,10 +93,14 @@ UpdateValue(values) {
         return
     }
 
+    if (SubStr(searchString, 1, 1) == "^") {
+        searchString := SubStr(searchString, 2)
+    }
+
     selected =
     display =
-    searchType := type(searchString)
-    if (type(searchString) == "Integer") {
+    tryNumber = searchString += 0
+    if (tryNumber > 0) {
         if (searchString > values.MaxIndex()) {
             return
         }
