@@ -73,8 +73,9 @@ global filenames := [
     "58-words",
     "59-no-degree",
     "60-youtube-passcode",
-    "61-vertical-videos",
-    "62-fortnite-coming-to-unreal",
+    "61-preparing-for-creative",
+    "??-vertical-videos",
+    "??-fortnite-coming-to-unreal",
     "??-heros-journey-showcase",
     "??-help-hub-hero"
 )]
@@ -143,8 +144,8 @@ ids := [
     "vpJVqhBSYO4"
 )]
 
-global max := 62
-global latest := 62
+global max := 61
+global latest := 61
 global current := latest
 global total := 0
 
