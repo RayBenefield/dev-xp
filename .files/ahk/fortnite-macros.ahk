@@ -295,6 +295,13 @@ increment := 10
     +Xbutton1::Send {ENTER}
     +Xbutton2::Send {ESC}
 
+    F20::
+        MouseGetPos, x, y
+        target := _getTargetChannel(original)
+        WinActivate, ahk_exe FortniteClient-Win64-Shipping.exe
+        MouseMove, x, y
+        _setChannel(0, target)
+    RETURN
     +F20::
         MouseGetPos, x, y
         original := _readProperty(y)
