@@ -17,7 +17,10 @@ GroupAdd, chrome, ahk_exe chrome.exe, , , Google Keep
 ;LWin::LCtrl
 
 F12::Send, {AppsKey}
-F1::Send, {F2}
+
+#IfWinNotActive ahk_exe diabotical.exe
+    F1::Send, {F2}
+#IfWinNotActive
 
 #IfWinActive ahk_exe Designer.exe
     F2::
