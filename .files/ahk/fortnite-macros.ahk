@@ -17,6 +17,26 @@ GLOBAL actions := [
     "AddDevice"
 )]
 
+GLOBAL labels := [
+(JOIN
+    "[1] Diamond - ",
+    "[2] Ruby - ",
+    "[3] Amber - ",
+    "[4] Topaz - ",
+    "[5] Emerald - ",
+    "[6] Turquoise - ",
+    "[7] Sapphire - ",
+    "[8] Obsidian - ",
+    "[9] Opal - ",
+    "[10] Garnet - ",
+    "[11] Citrine - ",
+    "[12] Agate - ",
+    "[13] Peridot - ",
+    "[14] Aquamarine - ",
+    "[15] Onyx - ",
+    "[16] Amethyst - "
+)]
+
 GLOBAL devices := [
 (JOIN
     "Trigger",
@@ -316,6 +336,15 @@ increment := 10
             msgbox, , Not Found, % original
         }
         WinActivate, ahk_exe FortniteClient-Win64-Shipping.exe
+    RETURN
+
+    +F22::
+        label := fuzzy(labels)
+        if (label == 0) {
+            CLIPBOARD := " "
+        } else {
+            CLIPBOARD := labels[label]
+        }
     RETURN
 
     F2::
