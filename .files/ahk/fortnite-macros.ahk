@@ -256,11 +256,11 @@ increment := 10
 
     unblockTimer() {
         GLOBAL AHI
-        AHI.UnsubscribeMouseMove(12)
+        AHI.UnsubscribeMouseMove(19)
     }
     BlockMouse(time) {
         GLOBAL AHI
-        AHI.SubscribeMouseMove(12, true, Func("MouseEvent"))
+        AHI.SubscribeMouseMove(19, true, Func("MouseEvent"))
         if (time) {
             unblock := Func("unblockTimer")
             SetTimer, % unblock, % time
