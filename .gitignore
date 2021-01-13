@@ -11,6 +11,8 @@ src/node_modules/@rampant-firebase/db/firebase-key.json
 *.cache
 .firebaserc
 .files/ahk/personal-snippets.ahk
+.files/ahk/bin/leptonica_util
+.files/ahk/bin/tesseract/
 credentials.json
 /paks
 /data/fn-uassets
