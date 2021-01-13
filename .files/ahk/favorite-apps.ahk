@@ -179,7 +179,7 @@ moving=false
     ~CAPSLOCK::
         GLOBAL AHI
 
-        AHI.SubscribeMouseMove(12, true, Func("MouseEvent"))
+        AHI.SubscribeMouseMove(19, true, Func("MouseEvent"))
         KEYWAIT, Capslock
         unslowTimer()
     RETURN
@@ -223,7 +223,7 @@ moving=false
 
     unslowTimer() {
         GLOBAL AHI
-        AHI.UnsubscribeMouseMove(12)
+        AHI.UnsubscribeMouseMove(19)
     }
 
     MouseEvent(x, y) {
@@ -240,7 +240,7 @@ moving=false
         }
         if (not moving) {
             if (Abs(x) > 6 or Abs(y) > 6) {
-                AHI.SendMouseMove(12, x/2, y/2)
+                AHI.SendMouseMove(19, x/2, y/2)
                 moving := true
             }
         }
