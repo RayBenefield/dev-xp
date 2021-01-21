@@ -151,7 +151,7 @@ _getTargetChannel(channel := 0) {
     return pickNumber(channel, 150)
 }
 
-_setChannel(original, target) {
+_setChannel(target, original = 0) {
     if (target < 0) {
         RETURN
     }
