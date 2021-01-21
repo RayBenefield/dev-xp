@@ -156,3 +156,23 @@ _setChannel(original, target) {
         Send, {LEFT %newMoves%}
     }
 }
+
+_setName(name) {
+    SEND, e
+    Sleep, 100
+    CoordMode, Mouse, Client
+    Click, 177, 2018
+    Sleep, 100
+    CoordMode, Mouse, Client
+    Click, 599, 1441
+    Sleep, 100
+    CoordMode, Mouse, Client
+    Click, 253, 1147
+    Sleep, 100
+    SEND, ^a
+    Sleep, 100
+    SEND, % name
+    Sleep, 100
+    SEND, {ENTER}
+    SEND, {ENTER}
+}
