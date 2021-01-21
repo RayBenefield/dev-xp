@@ -1,5 +1,17 @@
 #Include %A_ScriptDir%/lib/number-picker.ahk
 
+_(delay = 100) {
+    SLEEP, % delay
+}
+
+_customize() {
+    Send, {e}
+}
+
+_confirm() {
+    Send, {ENTER}
+}
+
 _escape() {
     Send, {ESC}
 }
