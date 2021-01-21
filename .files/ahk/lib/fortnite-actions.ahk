@@ -113,6 +113,15 @@ _search() {
     Click, 1720, 375
 }
 
+rowHeight := 170
+_prop(row) {
+    GLOBAL rowHeight
+    rowY := (510 + (row * rowHeight)) - (rowHeight / 2)
+    rowX := 1530
+    CoordMode, Mouse, Client
+    MouseMove, %rowX%, %rowY%
+}
+
 _readProperty(y) {
     row := Floor((y - 510) / 170)
     rowY := 510 + (row * 170)
