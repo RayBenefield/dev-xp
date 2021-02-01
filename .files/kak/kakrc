@@ -19,6 +19,8 @@ map-sequence global jk %{exec <esc>}
 
 alias global x write-quit
 
+map global normal = '|fmt -w $kak_opt_autowrap_column<ret>'
+
 map global normal ^       gi
 map global normal $       gl
 
