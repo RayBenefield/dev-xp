@@ -1,0 +1,17 @@
+header-includes: |
+    <style>
+    body {
+        font-family: Axiforma;
+        src: local("Axiforma")
+    }
+
+    h1 {
+        font-family: Lucky Goldfish;
+        src: local("Lucky Goldfish");
+        font-size: 48px;
+    }
+    
+    h2 {
+        font-weight: bold;
+    }
+    </style>
