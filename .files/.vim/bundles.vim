@@ -48,6 +48,9 @@ Plug 'tpope/vim-commentary'
 " Snippets
 Plug 'SirVer/ultisnips'
 
+" Vue File support
+Plug 'leafOfTree/vim-vue-plugin'
+
 " Add filetype icons to relevant locations
 " IMPORTANT: Must always be last, and requires patching font... see readme
 Plug 'ryanoasis/vim-devicons'
