@@ -12,8 +12,9 @@
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/RayBenefield/dev-xp/blob/master/LICENSE)
 [![Known Vulnerabilities](https://snyk.io/test/github/RayBenefield/dev-xp/badge.svg)](https://snyk.io/test/github/RayBenefield/dev-xp)
 
- > A **Monorepo** of projects reaching towards **EPIC** proportions, maintained
- > by one person.
+ > A **Monorepo** of every project I work on, only maintained by me. It
+ > includes `node` packages, CLI tools, `lua` scripts, `Core Games` scripts,
+ > websites, AHK macros, fish plugins, `kak`/`vim` configs, and much more.
 
 ## What is this?
 
