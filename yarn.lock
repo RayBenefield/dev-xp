@@ -7409,10 +7409,6 @@ sloc@^0.2.0:
     commander "~2.9.0"
     readdirp "^2.1.0"
 
-slugify@^1.2.8:
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.2.8.tgz#f74581b0376d1ccec9a4abfaf06c7aaa9737caef"
-
 snakeize@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/snakeize/-/snakeize-0.1.0.tgz#10c088d8b58eb076b3229bb5a04e232ce126422d"
