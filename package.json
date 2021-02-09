@@ -158,7 +158,7 @@
         "loud-rejection": "^1.6.0",
         "luabundle": "^1.6.0",
         "minimatch": "^3.0.4",
-        "minimist": "^1.2.0",
+        "minimist": "^1.2.5",
         "node-range": "^0.1.0",
         "node-wick": "^4.0.3",
         "open": "^7.3.0",
