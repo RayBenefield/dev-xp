@@ -7,9 +7,13 @@
 
 # Dev XP
 
+[![GitHub commit activity per year](https://img.shields.io/github/commit-activity/y/RayBenefield/dev-xp.svg?style=flat)](https://github.com/RayBenefield/dev-xp/graphs/commit-activity)
+[![Travis CI](https://api.travis-ci.org/RayBenefield/dev-xp.svg?branch=master)](https://travis-ci.com/RayBenefield/dev-xp)
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/RayBenefield/dev-xp/blob/master/LICENSE)
+[![Known Vulnerabilities](https://snyk.io/test/github/RayBenefield/dev-xp/badge.svg)](https://snyk.io/test/github/RayBenefield/dev-xp)
+
  > A **Monorepo** of projects reaching towards **EPIC** proportions, maintained
  > by one person.
-
 
 ## What is this?
 
