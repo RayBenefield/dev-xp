@@ -120,7 +120,7 @@
         "external-editor": "^2.1.0",
         "file-exists": "^5.0.1",
         "find-up": "^2.1.0",
-        "firebase-admin": "^8.2.0",
+        "firebase-admin": "^9.4.2",
         "front-matter": "^2.3.0",
         "fs-extra": "^9.0.1",
         "fuzzy": "^0.1.3",
