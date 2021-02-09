@@ -197,7 +197,7 @@
         "twitter": "^1.7.1",
         "uglify-es": "^3.2.2",
         "upath": "^2.0.1",
-        "vue": "^2.5.16",
+        "vue": "^2.5.17",
         "vue-template-compiler": "^2.5.16",
         "weighted": "^0.3.0",
         "wick-downloader": "^0.3.1",
