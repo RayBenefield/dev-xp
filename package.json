@@ -230,7 +230,7 @@
         "npm-scripts-info": "^0.3.6",
         "prettier": "^2.2.1",
         "sloc": "^0.2.0",
-        "tap-spec": "^4.1.1",
+        "tap-spec": "^5.0.0",
         "tape": "^4.8.0",
         "tape-bdd": "^0.0.1",
         "yarn": "^1.3.2"
