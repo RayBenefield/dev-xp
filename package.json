@@ -189,7 +189,6 @@
         "sha.js": "^2.4.9",
         "simple-git": "^1.85.0",
         "simple-oauth2": "1.6.0",
-        "slugify": "^1.2.8",
         "through2": "^2.0.3",
         "to-camel-case": "^1.0.0",
         "transmutation": "^0.0.46",
