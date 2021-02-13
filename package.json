@@ -170,7 +170,7 @@
         "renderkid": "^2.0.1",
         "restify": "^8.5.1",
         "rimraf": "^2.6.2",
-        "rollup": "^0.52.1",
+        "rollup": "^2.39.0",
         "rollup-plugin-babel": "^3.0.2",
         "rollup-plugin-commonjs": "^10.1.0",
         "rollup-plugin-executable": "^1.1.0",
