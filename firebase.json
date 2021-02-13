@@ -1,19 +1,26 @@
 {
-  "hosting": {
-    "public": "public",
-    "rewrites": [
-      {
-        "source": "/auth/**",
-        "function": "auth"
-      },
-      {
-        "source": "/callback/**",
-        "function": "callback"
-      },
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
+    "hosting": [
+        {
+            "target": "auth-test",
+            "public": "public",
+            "rewrites": [
+                {
+                    "source": "/auth/**",
+                    "function": "auth"
+                },
+                {
+                    "source": "/callback/**",
+                    "function": "callback"
+                },
+                {
+                    "source": "**",
+                    "destination": "/index.html"
+                }
+            ]
+        },
+        {
+            "target": "portfolio",
+            "public": "dist/portfolio/"
+        }
     ]
-  }
 }

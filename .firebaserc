@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "portfolio": "raybenefield-portfolio"
+  },
+  "targets": {
+    "raybenefield-portfolio": {
+      "hosting": {
+        "portfolio": [
+          "raybenefield-portfolio"
+        ]
+      }
+    }
+  }
+}
