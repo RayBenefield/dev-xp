@@ -31,7 +31,7 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.13.tgz#0a21452352b02542db0ffb928ac2d3ca7cb6d66d"
   integrity sha512-8+3UMPBrjFa/6TtKi/7sehPKqfAm4g6K+YQjyyFOLUTxzOngcRZTlAVY8sc2CORJYqdHQY8gRPHmn+qo15rCBw==
@@ -7351,12 +7351,10 @@ rollup-plugin-commonjs@^10.1.0:
     resolve "^1.11.0"
     rollup-pluginutils "^2.8.1"
 
-rollup-plugin-executable@^1.1.0:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-executable/-/rollup-plugin-executable-1.6.2.tgz#45fa9a30323c15853e9eabd944da6e8fca327924"
-  integrity sha512-/ZA0F3zkxb0lYnI85IDobow45pFfJwmBZljHJAJl7tkNNWO4hyfQOLWvl1hDdkDkSo8JPVL1EcR3E/hTJA5YmQ==
-  dependencies:
-    "@babel/runtime" "^7.12.5"
+rollup-plugin-executable-output@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-executable-output/-/rollup-plugin-executable-output-1.3.0.tgz#e1b90d78d90ff629d7540efa40958469a5fc9381"
+  integrity sha512-0EeXeCSqLC5L/i+XAZWMT7vydQAxrNuir8JZQVyf5kBuoQYGA6eIpQgetfEmI54WvCrpB8qnIfI9QmAP/2neYw==
 
 rollup-plugin-filesize@^1.5.0:
   version "1.5.0"
