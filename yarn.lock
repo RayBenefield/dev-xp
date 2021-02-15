@@ -8473,6 +8473,11 @@ r-json@^1.2.5:
   resolved "https://registry.yarnpkg.com/r-json/-/r-json-1.2.10.tgz#62a73d9cafa7eabf670e5c2812c27bdb220a968b"
   integrity sha512-hu9vyLjSlHXT62NAS7DjI9WazDlvjN0lgp3n431dCVnirVcLkZIpzSwA3orhZEKzdDD2jqNYI+w0yG0aFf4kpA==
 
+ramda-adjunct@^2.30.0:
+  version "2.30.0"
+  resolved "https://registry.yarnpkg.com/ramda-adjunct/-/ramda-adjunct-2.30.0.tgz#9c607719c5533a0c21d3a3ead12b8e50be815bd5"
+  integrity sha512-nhf39VVRSqm1eX2s/F4B+KLOQsmzGyey2YjDDO0/g6NA2vIRhPseBX96f9Jcy7X0nK8LKjr/uVzM2hqGwdmqGA==
+
 ramda@^0.27.1:
   version "0.27.1"
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.27.1.tgz#66fc2df3ef873874ffc2da6aa8984658abacf5c9"
