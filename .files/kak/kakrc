@@ -199,7 +199,7 @@ define-command import -params 1..2 -shell-script-candidates %{ kd ls --json=pack
     execute-keys "ZggOimport<space><c-r>"" from '%arg{1}'<esc><a-i>p:sort<ret>z"
 }
 map global normal <a-l> :import<space>@dev-xp/log<ret>
-map global normal <a-r> :import<space>ramda<space>"*<space>as<space>R"<ret>
+map global normal <a-'> :import<space>@dev-xp/utils<space>"*<space>as<space>_"<ret>
 
 define-command sort %{
     execute-keys "|awk '{ print length, $0 }' | sort -n | cut -d' ' -f2-<ret>"
