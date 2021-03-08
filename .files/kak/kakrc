@@ -179,7 +179,9 @@ define-command jump -params 0..1 -shell-script-candidates %{ kd ls --json=packag
     evaluate-commands %{
         edit %sh{
             package=${1:-$kak_selection}
-            kd ls ${package} --json=structures.${package}.srcDir | awk '{print $1"/index.js"}'
+            dir=$(kd ls ${package} --json=structures.${package}.srcDir)
+            file=$(kd ls ${package} --json=details.${package}.main)
+            echo $dir/$file
         }
     }
 }
