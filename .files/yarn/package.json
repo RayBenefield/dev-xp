@@ -2,7 +2,7 @@
   "dependencies": {
     "dex-cli": "^0.0.40",
     "diff-so-fancy": "^1.3.0",
-    "kikd": "^0.0.164",
+    "kikd": "^0.0.175",
     "lua-bundler": "https://github.com/yatyricky/lua-bundler",
     "luabundler": "^1.2.2",
     "luamin": "^1.0.4",
