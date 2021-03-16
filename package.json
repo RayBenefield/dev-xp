@@ -103,6 +103,7 @@
         "cp": "cd src/node_modules && babel-node copy-wintowsl/cli.js"
     },
     "dependencies": {
+        "@babel/polyfill": "^7.12.1",
         "argv": "^0.0.2",
         "axios": "^0.21.1",
         "babel-core": "^6.26.0",
@@ -179,6 +180,9 @@
         "registry-url": "^5.1.0",
         "renderkid": "^2.0.1",
         "restify": "^8.5.1",
+        "rete": "^1.4.5-rc.1",
+        "rete-connection-plugin": "^0.9.0",
+        "rete-vue-render-plugin": "^0.5.0",
         "rimraf": "^2.6.2",
         "rollup": "^2.39.0",
         "rollup-plugin-babel": "^3.0.2",
