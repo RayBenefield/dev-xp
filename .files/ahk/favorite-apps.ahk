@@ -65,59 +65,59 @@ ActivateOrRun(window, app, path = "") {
 
 
 ; #1::
-~CAPSLOCK & 1::
+!^#+1::
     ActivateOrRun("ahk_exe Hyper.exe", "C:\Users\RayBenefield\AppData\Local\hyper\Hyper.exe")
 RETURN
 
 ; #2::
-~CAPSLOCK & 2::
+!^#+2::
     GROUPADD, Chrome, ahk_exe chrome.exe, , , Google Keep
     ActivateOrRun("ahk_group Chrome", "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
 RETURN
 
-; #3::
-~CAPSLOCK & 3::
+; #3::  
+!^#+3::
     ActivateOrRun("ahk_exe Mailbird.exe", "C:\Program Files\Mailbird\Mailbird.exe")
 RETURN
 
 ; #4::
-~CAPSLOCK & 4::
+!^#+4::
     ActivateOrRun("Google Keep", "C:\Users\RayBenefield\Dropbox\My PC (Ray-PC)\Desktop\Google Keep")
 RETURN
 
 ; #5::
-~CAPSLOCK & 5::
+!^#+5::
     ActivateOrRun("ahk_exe StreamDeck.exe", "C:\Program Files\Elgato\StreamDeck\StreamDeck.exe")
 RETURN
 
 ; #6::
-~CAPSLOCK & 6::
+!^#+6::
     ActivateOrRun("ahk_exe Miro.exe", "C:\Users\RayBenefield\AppData\Local\RealtimeBoard\Miro.exe")
 RETURN
 
 ; #7::
-~CAPSLOCK & 7::
+!^#+7::
     ActivateOrRun("ahk_exe Discord.exe", "C:\Users\RayBenefield\AppData\Local\Discord\Update.exe --processStart Discord.exe")
 RETURN
 
 ; #8::
-~CAPSLOCK & 8::
+!^#+8::
     ActivateOrRun("ahk_exe Spotify.exe", "C:\Users\RayBenefield\AppData\Roaming\Spotify\Spotify.exe")
 RETURN
 
 ; #9::
-~CAPSLOCK & 9::
+!^#+9::
     GROUPADD, Explorer, ahk_class ExploreWClass
     GROUPADD, Explorer, ahk_class CabinetWClass
     ActivateOrRun("ahk_group Explorer", "explorer")
 RETURN
 
 ; #0::
-~CAPSLOCK & 0::
+!^#+0::
     ActivateOrRun(ahk_exe obs64.exe, "C:\Program Files\obs-studio\bin\64bit\obs64.exe", "C:\Program Files\obs-studio\bin\64bit")
 RETURN
 
-~CAPSLOCK & -::
+!^#+-::
     ActivateOrRun(ahk_exe Adobe Premiere Pro.exe, "C:\Program Files\Adobe\Adobe Premiere Pro 2020\Adobe Premiere Pro.exe")
 RETURN
 
@@ -137,7 +137,7 @@ Fortnite() {
     gameFunction.Call()
 RETURN
 
-#+l::
+#!^+l::
     IFWINEXIST, LastPass Desktop
     {
         WINACTIVATE, LastPass Desktop
