@@ -76,7 +76,6 @@ F12::Send, {AppsKey}
     $^h:: Send, {Alt down}{Left}{Alt Up}
     $^l:: Send, {Alt down}{Right}{Alt Up}
     $#f:: Send, /
-    $^w:: Send, ^{BACKSPACE}
 #IfWinActive
 
 #IfWinActive Google Keep
@@ -100,21 +99,6 @@ F12::Send, {AppsKey}
     $#+[:: Send, ^+{Tab}
 #IfWinActive
 
-#c::Send, ^c 
-#v::Send, ^v
-#x::Send, ^x
-#w::Send, ^w
-#t::Send, ^t
-#n::Send, ^n
-#q::Send, ^q
-#s::Send, ^s
-#z::Send, ^z
-#f::Send, ^f
-#o::Send, ^o
-#a::Send, ^a
-#k::Send, ^k
-#r::Send, ^r
-#,::Send, ^,
 #+n::Send, ^+n
 #enter:: Send {LCtrl}{Enter}
 
@@ -139,43 +123,6 @@ SetTitleMatchMode, 2
 ;Else
 ;	Send {$}
 ;Return
-
-~RShift::
-Input, Pressed, L1 T0.08 V E C
-if (ErrorLevel = "Max")
-    return
-if (ErrorLevel = "Timeout")
-{
-    if !GetKeyState("RShift", "P")a
-        Send {$}
-    return
-}
-return
-
-~LShift::
-if (!timer) {
-    conflict = 0
-    timer = 1
-    SetTimer, Stop, -700
-}
-
-Input, Pressed, L1 T0.08 V E C
-if (ErrorLevel = "Max") {
-    return
-}
-if (ErrorLevel = "Timeout") {
-    if (!GetKeyState("LShift", "P")) {
-        if (!conflict) {
-            Send {^}
-        }
-        conflict = 0
-        timer = 0
-    }
-    return
-}
-Stop:
-    conflict = 1
-return
 
 $RWin::
 KeyWait, RWin, T0.08
