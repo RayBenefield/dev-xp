@@ -112,7 +112,7 @@
         "callsite": "^1.0.0",
         "chalk": "^2.3.0",
         "change-case": "^4.1.2",
-        "cosmiconfig": "^6.0.0",
+        "cosmiconfig": "^8.0.0",
         "dedent": "^0.7.0",
         "detective-es6": "^1.2.0",
         "diff": "^5.0.0",
