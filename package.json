@@ -213,7 +213,7 @@
         "weighted": "^0.3.0",
         "wick-downloader": "^0.3.1",
         "winston": "^3.2.1",
-        "word-wrap": "^1.2.3",
+        "word-wrap": "^1.2.4",
         "xstream": "^11.14.0",
         "youtube-api": "^3.0.1"
     },
