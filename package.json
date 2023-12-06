@@ -124,7 +124,7 @@
         "external-editor": "^2.1.0",
         "file-exists": "^5.0.1",
         "find-up": "^2.1.0",
-        "firebase-admin": "^9.4.2",
+        "firebase-admin": "^11.1.0",
         "firebase-tools": "^9.3.0",
         "front-matter": "^4.0.2",
         "fs-extra": "^9.0.1",
