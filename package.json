@@ -125,7 +125,7 @@
         "file-exists": "^5.0.1",
         "find-up": "^2.1.0",
         "firebase-admin": "^9.4.2",
-        "firebase-tools": "^9.3.0",
+        "firebase-tools": "^12.4.5",
         "front-matter": "^4.0.2",
         "fs-extra": "^9.0.1",
         "fuzzy": "^0.1.3",
