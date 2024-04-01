@@ -97,6 +97,8 @@
         "dev:portfolio": "yarn kd build portfolio --commit",
         "watch:portfolio": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:portfolio",
         "serve:portfolio": "live-server dist/portfolio",
+        "dev:tableau": "yarn kd build sandbox-tableau --commit",
+        "watch:tableau": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:tableau",
         "pbt": "cd src/node_modules && babel-node core-asset/cli.js",
         "js": "cd src/node_modules && babel-node js-sandbox/cli.js",
         "lua": "cd src/node_modules && lua rx-sandbox/cli.lua",
