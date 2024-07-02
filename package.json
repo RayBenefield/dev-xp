@@ -103,6 +103,8 @@
         "watch:forge": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:forge",
         "dev:village": "yarn kd build the-village --commit",
         "watch:village": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:village",
+        "dev:farms": "yarn kd build the-farms --commit",
+        "watch:farms": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:farms",
         "pbt": "cd src/node_modules && babel-node core-asset/cli.js",
         "js": "cd src/node_modules && babel-node js-sandbox/cli.js",
         "lua": "cd src/node_modules && lua rx-sandbox/cli.lua",
