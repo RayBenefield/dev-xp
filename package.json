@@ -110,7 +110,9 @@
         "lua": "cd src/node_modules && lua rx-sandbox/cli.lua",
         "cp": "cd src/node_modules && babel-node copy-wintowsl/cli.js",
         "dev:the-architect": "yarn kd build the-architect --commit",
-        "watch:the-architect": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:the-architect"
+        "watch:the-architect": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:the-architect",
+        "dev:the-doctor": "yarn kd build the-doctor --commit",
+        "watch:the-doctor": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:the-doctor"
     },
     "dependencies": {
         "@babel/polyfill": "^7.12.1",
