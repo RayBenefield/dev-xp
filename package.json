@@ -112,7 +112,9 @@
         "dev:the-architect": "yarn kd build the-architect --commit",
         "watch:the-architect": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:the-architect",
         "dev:the-doctor": "yarn kd build the-doctor --commit",
-        "watch:the-doctor": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:the-doctor"
+        "watch:the-doctor": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:the-doctor",
+        "dev:the-clash": "yarn kd build the-clash --commit",
+        "watch:the-clash": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:the-clash"
     },
     "dependencies": {
         "@babel/polyfill": "^7.12.1",
