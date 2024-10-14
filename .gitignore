@@ -15,3 +15,4 @@ src/node_modules/@rampant-firebase/db/firebase-key.json
 credentials.json
 /paks
 /data/fn-uassets
+.VSCodeCounter
