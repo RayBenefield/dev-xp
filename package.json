@@ -114,7 +114,13 @@
         "dev:the-doctor": "yarn kd build the-doctor --commit",
         "watch:the-doctor": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:the-doctor",
         "dev:the-clash": "yarn kd build the-clash --commit",
-        "watch:the-clash": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:the-clash"
+        "watch:the-clash": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:the-clash",
+        "dev:the-trinity": "yarn kd build the-trinity --commit",
+        "watch:the-trinity": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:the-trinity",
+        "dev:a-sprite-character": "yarn kd build a-sprite-character --commit",
+        "watch:a-sprite-character": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:a-sprite-character",
+        "dev:a-radial-menu": "yarn kd build a-radial-menu --commit",
+        "watch:a-radial-menu": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:a-radial-menu"
     },
     "dependencies": {
         "@babel/polyfill": "^7.12.1",
