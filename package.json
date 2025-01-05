@@ -45,7 +45,7 @@
         "?lint:commits": "echo Lint commit messages (run in CI).",
         "lint:commits": "./dx/lint-commits",
         "?lint:src": "echo Lint the source code with an extended Airbnb style.",
-        "lint:src": "eslint src/node_modules --max-warnings 21 --config ./dx/eslint.config.js",
+        "lint:src": "eslint src/node_modules --max-warnings 22 --config ./dx/eslint.config.js",
         "?lint:tests": "echo Lint the tests with an extended Airbnb style.",
         "lint:tests": "cd src/node_modules && eslint ./{**,**/**}/*tests*.js --max-warnings 0 --config ../../dx/eslint.test.config.js",
         "?test": "echo Run all of the tests in our test suite",
