@@ -1,0 +1,369 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/CRD_StatManager/Device_StatCreator.Device_StatCreator_C Name=Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237 Archetype="/CRD_StatManager/Device_StatCreator.Device_StatCreator_C'/CRD_StatManager/Device_StatCreator.Default__Device_StatCreator_C'" ParentActor=VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238 ActorFolderPath="TableauDevices" ExportPath="/CRD_StatManager/Device_StatCreator.Device_StatCreator_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRD_StatManager/Device_StatCreator.Default__Device_StatCreator_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRD_StatManager/Device_StatCreator.Default__Device_StatCreator_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRD_StatManager/Device_StatCreator.Default__Device_StatCreator_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CRD_StatManager/Device_StatCreator.Device_StatCreator_C:ToyOptionsComponent_GEN_VARIABLE'" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.ToyOptionsComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype="/Script/FortniteGame.FortMinigameProgressComponent'/CRD_StatManager/Device_StatCreator.Device_StatCreator_C:FortMinigameProgress_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.FortMinigameProgress'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/CRD_StatManager/Device_StatCreator.Device_StatCreator_C:EnabledComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.EnabledComponent'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:VisibleInGameComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.VisibleInGameComponent'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/CreativeEditOnlyBase.CreativeEditOnlyBase_C Name="CreativeEditOnlyBase" Archetype="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBase.CreativeEditOnlyBase_C'/CRD_StatManager/Device_StatCreator.Device_StatCreator_C:CreativeEditOnlyBase_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBase.CreativeEditOnlyBase_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyBase'"
+            Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MI_CP_Device_GenericBase_Placed_01_0-DDA3F32CCA388F88" ExportPath="/Script/Engine.MaterialInstanceDynamic'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyBase.MI_CP_Device_GenericBase_Placed_01_0-DDA3F32CCA388F88'"
+               Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="MI_CP_Device_GenericBase_Placed_01_0-DDA3F32CCA388F88EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyBase.MI_CP_Device_GenericBase_Placed_01_0-DDA3F32CCA388F88.MI_CP_Device_GenericBase_Placed_01_0-DDA3F32CCA388F88EditorOnlyData'"
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/CreativeEditOnlyBeam.CreativeEditOnlyBeam_C Name="CreativeEditOnlyBeam" Archetype="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBeam.CreativeEditOnlyBeam_C'/CRD_StatManager/Device_StatCreator.Device_StatCreator_C:CreativeEditOnlyBeam_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBeam.CreativeEditOnlyBeam_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyBeam'"
+            Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MI_CP_Device_GenericBaseBeam_01_Placed_0-DDA3F32C2943E6B9" ExportPath="/Script/Engine.MaterialInstanceDynamic'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyBeam.MI_CP_Device_GenericBaseBeam_01_Placed_0-DDA3F32C2943E6B9'"
+               Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="MI_CP_Device_GenericBaseBeam_01_Placed_0-DDA3F32C2943E6B9EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyBeam.MI_CP_Device_GenericBaseBeam_01_Placed_0-DDA3F32C2943E6B9.MI_CP_Device_GenericBaseBeam_01_Placed_0-DDA3F32C2943E6B9EditorOnlyData'"
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="CreativeEditOnlyMesh" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_StatManager/Device_StatCreator.Device_StatCreator_C:CreativeEditOnlyMesh_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyMesh'"
+            Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5" ExportPath="/Script/Engine.MaterialInstanceDynamic'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyMesh.MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5'"
+               Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyMesh.MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5.MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5EditorOnlyData'"
+               End Object
+            End Object
+            Begin Object Class=/Script/Engine.MaterialInstanceDynamic Name="MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5_0" ExportPath="/Script/Engine.MaterialInstanceDynamic'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyMesh.MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5_0'"
+               Begin Object Class=/Script/Engine.MaterialInstanceEditorOnlyData Name="MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5_0EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyMesh.MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5_0.MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5_0EditorOnlyData'"
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_UseRestriction_Component.Creative_UseRestriction_Component_C Name="Creative_UseRestriction_Component" Archetype="/Game/Creative/Devices/Common/Components/Creative_UseRestriction_Component.Creative_UseRestriction_Component_C'/CRD_StatManager/Device_StatCreator.Device_StatCreator_C:Creative_UseRestriction_Component_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_UseRestriction_Component.Creative_UseRestriction_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.Creative_UseRestriction_Component'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortCreativePersistenceComponentBase Name="FortCreativePersistenceComponentBase" Archetype="/Script/FortniteGame.FortCreativePersistenceComponentBase'/CRD_StatManager/Device_StatCreator.Device_StatCreator_C:FortCreativePersistenceComponentBase_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortCreativePersistenceComponentBase'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.FortCreativePersistenceComponentBase'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.StaticMeshComponent0'"
+            CachedMaxDrawDistance=3079.964844
+            RelativeLocation=(X=1408.000000,Y=-896.000000,Z=128.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.BoundingBoxComponent'"
+            CachedMaxDrawDistance=3079.964844
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=3079.964844
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="ToyOptionsComponent" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.ToyOptionsComponent'"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="bAutoLoad",PropertyData="False"),(PropertyName="bAutoSave",PropertyData="False"),(PropertyName="bCanLoseLevelFromPointLoss",PropertyData="False"),(PropertyName="BroadcastEventsForAllPlayers",PropertyData="False"),(PropertyName="Enabled Phase",PropertyData="Always"),(PropertyName="HUD Priority",PropertyData="1"),(PropertyName="Invert Class Selection",PropertyData="False"),(PropertyName="Invert Team Selection",PropertyData="False"),(PropertyName="LabelOverride",PropertyData="StatCreator1"),(PropertyName="MaxLevel",PropertyData="1"),(PropertyName="MaxValue"),(PropertyName="PerLevelPointsMultiplier",PropertyData="1.000000"),(PropertyName="ResolveConflicts",PropertyData="Median"),(PropertyName="Scope",PropertyData="Player"),(PropertyName="Selected Class",PropertyData="(ClassType=Any,ClassSlot=1)"),(PropertyName="Selected Team",PropertyData="(TeamType=Any,TeamIndex=1)"),(PropertyName="ShowWidgetInList",PropertyData="False"),(PropertyName="StatBarDuration",PropertyData="5.000000"),(PropertyName="StatBarShownOnHUD",PropertyData="Yes"),(PropertyName="StatColor",PropertyData="(R=0.919256,G=1.000000,B=0.000000,A=1.000000)"),(PropertyName="StatIcon",PropertyData="(SmallIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\",LargeIcon=\"/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE\")"),(PropertyName="StatName",PropertyData="NSLOCTEXT(\"UserOptions.ImportedDefaultValue\", \"BP_Device_StatManager_C.StatNameKnob\", \"Stat\")"),(PropertyName="UsePersistence",PropertyData="False"),(PropertyName="User Widget",PropertyData="/CRD_StatManager/UI/Widget_Stat_Default.Widget_Stat_Default_C")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.FortMinigameProgress'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EnabledComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.EnabledComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.VisibleInGameComponent'"
+            VisibleSceneComponents(0)="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeEditOnlyBase" ExportPath="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBase.CreativeEditOnlyBase_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyBase'"
+            Begin Object Name="MI_CP_Device_GenericBase_Placed_01_0-DDA3F32CCA388F88" ExportPath="/Script/Engine.MaterialInstanceDynamic'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyBase.MI_CP_Device_GenericBase_Placed_01_0-DDA3F32CCA388F88'"
+               Begin Object Name="MI_CP_Device_GenericBase_Placed_01_0-DDA3F32CCA388F88EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyBase.MI_CP_Device_GenericBase_Placed_01_0-DDA3F32CCA388F88.MI_CP_Device_GenericBase_Placed_01_0-DDA3F32CCA388F88EditorOnlyData'"
+               End Object
+               Parent="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Devices/Generic/Materials/MI_CP_Device_GenericBase_Placed_01.MI_CP_Device_GenericBase_Placed_01'"
+               VectorParameterValues(0)=(ParameterInfo=(Name="Base Color"),ParameterValue=(R=0.919256,G=1.000000,B=0.000000,A=1.000000),ExpressionGUID=EFB3C6814759736AFC41BDA2E5356909)
+               VectorParameterValues(1)=(ParameterInfo=(Name="Beam Color"),ParameterValue=(R=9.192560,G=10.000000,B=0.000000,A=1.000000),ExpressionGUID=79FD7A9F48397E561C217CA30453773E)
+               BasePropertyOverrides=(OpacityMaskClipValue=0.333300)
+               ReferencedTextureGuids(0)=8AD87012488D1D7BCC37F4897A28D4AE
+               ReferencedTextureGuids(1)=09E17D084B4E070F6F562883D7750E3E
+               ReferencedTextureGuids(2)=744C75F145FA98495F115F94BDE7BB39
+               ReferencedTextureGuids(3)=9133C2FA494D24EFC4015590EBC99111
+               EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'MI_CP_Device_GenericBase_Placed_01_0-DDA3F32CCA388F88EditorOnlyData'"
+               LightingGuid=03B1E34148A2512B29EA9C90663A9128
+            End Object
+            BaseColor=(R=0.919256,G=1.000000,B=0.000000,A=1.000000)
+            EmissiveColor=(R=0.919256,G=1.000000,B=0.000000,A=1.000000)
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Creative/Devices/Generic/Meshes/CP_Device_GenericBase_01.CP_Device_GenericBase_01'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'MI_CP_Device_GenericBase_Placed_01_0-DDA3F32CCA388F88'"
+            CachedMaxDrawDistance=3079.964844
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="StaticMeshComponent0"
+            RelativeLocation=(X=0.000000,Y=0.000000,Z=-128.000004)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeEditOnlyBeam" ExportPath="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBeam.CreativeEditOnlyBeam_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyBeam'"
+            Begin Object Name="MI_CP_Device_GenericBaseBeam_01_Placed_0-DDA3F32C2943E6B9" ExportPath="/Script/Engine.MaterialInstanceDynamic'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyBeam.MI_CP_Device_GenericBaseBeam_01_Placed_0-DDA3F32C2943E6B9'"
+               Begin Object Name="MI_CP_Device_GenericBaseBeam_01_Placed_0-DDA3F32C2943E6B9EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyBeam.MI_CP_Device_GenericBaseBeam_01_Placed_0-DDA3F32C2943E6B9.MI_CP_Device_GenericBaseBeam_01_Placed_0-DDA3F32C2943E6B9EditorOnlyData'"
+               End Object
+               Parent="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Devices/Generic/Materials/MI_CP_Device_GenericBaseBeam_01_Placed.MI_CP_Device_GenericBaseBeam_01_Placed'"
+               VectorParameterValues(0)=(ParameterInfo=(Name="Beam Color"),ParameterValue=(R=9.192560,G=10.000000,B=0.000000,A=1.000000),ExpressionGUID=487416FB47A380ADA3E8E78A98B997BA)
+               BasePropertyOverrides=(TwoSided=True,BlendMode=BLEND_Translucent,ShadingModel=MSM_Unlit,OpacityMaskClipValue=0.333300)
+               EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'MI_CP_Device_GenericBaseBeam_01_Placed_0-DDA3F32C2943E6B9EditorOnlyData'"
+               LightingGuid=032F4C5F4C9DC1B7C72D7EA9A363B2B4
+            End Object
+            BeamColor=(R=0.919256,G=1.000000,B=0.000000,A=1.000000)
+            Base="CreativeEditOnlyBase"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Creative/Devices/Generic/Meshes/CP_Device_GenericBaseBeam_01.CP_Device_GenericBaseBeam_01'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'MI_CP_Device_GenericBaseBeam_01_Placed_0-DDA3F32C2943E6B9'"
+            CachedMaxDrawDistance=3079.964844
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="CreativeEditOnlyBase"
+            RelativeScale3D=(X=1.000000,Y=1.000000,Z=98.000004)
+            bHiddenInGame=False
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeEditOnlyMesh" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyMesh'"
+            Begin Object Name="MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5" ExportPath="/Script/Engine.MaterialInstanceDynamic'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyMesh.MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5'"
+               Begin Object Name="MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyMesh.MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5.MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5EditorOnlyData'"
+               End Object
+               Parent="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Devices/StatManager/Materials/MI_CP_Device_StatManager_Placed_02.MI_CP_Device_StatManager_Placed_02'"
+               VectorParameterValues(0)=(ParameterInfo=(Name="ColorBackground"),ParameterValue=(R=0.919256,G=1.000000,B=0.000000,A=1.000000),ExpressionGUID=C132F1CE48483F83692F85985E311AA1)
+               TextureParameterValues(0)=(ParameterInfo=(Name="DeviceIcon"),ParameterValue="/Script/Engine.Texture2D'/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE'",ExpressionGUID=1EB191D3484A15B9FDD2BFB6D95C4328)
+               BasePropertyOverrides=(BlendMode=BLEND_Masked,ShadingModel=MSM_Unlit,OpacityMaskClipValue=0.333300)
+               ReferencedTextureGuids(0)=B1DBA21648F3B13A2BE8B6B60DC27FC4
+               ReferencedTextureGuids(1)=15AF5D9E456082EF50D7D39B9A52D3FC
+               EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5EditorOnlyData'"
+               LightingGuid=4C568DE04C7D04C5DD753DB31B8F3CF7
+            End Object
+            Begin Object Name="MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5_0" ExportPath="/Script/Engine.MaterialInstanceDynamic'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyMesh.MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5_0'"
+               Begin Object Name="MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5_0EditorOnlyData" ExportPath="/Script/Engine.MaterialInstanceEditorOnlyData'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.CreativeEditOnlyMesh.MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5_0.MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5_0EditorOnlyData'"
+               End Object
+               Parent="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Devices/StatManager/Materials/MI_CP_Device_StatManager_Placed_02.MI_CP_Device_StatManager_Placed_02'"
+               VectorParameterValues(0)=(ParameterInfo=(Name="ColorBackground"),ParameterValue=(R=0.919256,G=1.000000,B=0.000000,A=1.000000))
+               TextureParameterValues(0)=(ParameterInfo=(Name="DeviceIcon"),ParameterValue="/Script/Engine.Texture2D'/Game/Athena/UI/InGame/Creative/PropertyEditor/Icon_Picker/Textures/T_UI_IconPicker_NONE.T_UI_IconPicker_NONE'")
+               EditorOnlyData="/Script/Engine.MaterialInstanceEditorOnlyData'MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5_0EditorOnlyData'"
+               LightingGuid=1BD41C2C43DA2D913CAF92A0BB5D0319
+            End Object
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Creative/Devices/Generic/Meshes/CP_Device_Generic_Icon_01.CP_Device_Generic_Icon_01'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceDynamic'MI_CP_Device_StatManager_Placed_02_0-8672F6E20244A6F5_0'"
+            CachedMaxDrawDistance=3079.964844
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Creative_UseRestriction_Component" ExportPath="/Game/Creative/Devices/Common/Components/Creative_UseRestriction_Component.Creative_UseRestriction_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.Creative_UseRestriction_Component'"
+            EnabledComponent="EnabledComponent"
+            MinigameLogic="FortMinigameProgress"
+            ToyOptions="ToyOptionsComponent"
+            RequiredTeam=-5
+            ShouldUseLegacyLogic=True
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortCreativePersistenceComponentBase" ExportPath="/Script/FortniteGame.FortCreativePersistenceComponentBase'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.FortCreativePersistenceComponentBase'"
+            PersistenceID=79BAC579419E80E303BE65BD3D92E479
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         FortCreativePersistenceComponentBase="FortCreativePersistenceComponentBase"
+         Creative_UseRestriction_Component="Creative_UseRestriction_Component"
+         CreativeEditOnlyMesh="CreativeEditOnlyMesh"
+         CreativeEditOnlyBeam="CreativeEditOnlyBeam"
+         CreativeEditOnlyBase="CreativeEditOnlyBase"
+         StatColor=(R=0.919256,G=1.000000,B=0.000000,A=1.000000)
+         OldStatName="Stat"
+         ExpNeededPerLevel(0)=0
+         ExpNeededPerLevel(1)=0
+         CumulativeExpNeededPerLevel(0)=0
+         CumulativeExpNeededPerLevel(1)=0
+         ValueStatTag=(TagName="Creative.PlayerDefinedStat.17")
+         ShowWidgetInList=False
+         VisibleInGameComponent="VisibleInGameComponent"
+         EnabledComponent="EnabledComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=3079.964844
+         SavedActorGuid=5D9A98F0492FB54D6655F2BE37B8A057
+         PlaysetPackagePathName="/CRD_StatManager/SetupAssets/PID_Device_StatCreator"
+         LabelOverride="StatCreator1"
+         NetDormancy=DORM_DormantAll
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="StatCreator1"
+         OnDestroyed=(/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237.OnDestroyed_Event)
+      End Actor
+      Begin Actor Class=/CRD_VerseDevices/VerseDevice.VerseDevice_C Name=VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238 Archetype="/CRD_VerseDevices/VerseDevice.VerseDevice_C'/CRD_VerseDevices/VerseDevice.Default__VerseDevice_C'" ActorFolderPath="TableauDevices" ExportPath="/CRD_VerseDevices/VerseDevice.VerseDevice_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRD_VerseDevices/VerseDevice.Default__VerseDevice_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRD_VerseDevices/VerseDevice.Default__VerseDevice_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRD_VerseDevices/VerseDevice.Default__VerseDevice_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Script/VerseGameplayTags.VerseTagMarkupComponent Name="VerseTagMarkup" ExportPath="/Script/VerseGameplayTags.VerseTagMarkupComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.VerseTagMarkup'"
+         End Object
+         Begin Object Class=/{PROJECT}/_Verse/Tableau_stat_device_v0_1.stat_device_v0_1 Name="stat_device_v0_0" ExportPath="/{PROJECT}/_Verse/Tableau_stat_device_v0_1.stat_device_v0_1'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0'"
+            Begin Object Class=/CRD_StatManager/_Verse/stat_creator_device.stat_creator_device Name="__verse_0x9FF5C63A_StatCreator" Archetype="/CRD_StatManager/_Verse/stat_creator_device.stat_creator_device'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator'" ExportPath="/CRD_StatManager/_Verse/stat_creator_device.stat_creator_device'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator'"
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_optional_agent_int Name="__verse_0xF13B9998_ValueChangedEvent" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_optional_agent_int'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0xF13B9998_ValueChangedEvent'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_optional_agent_int'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xF13B9998_ValueChangedEvent'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_optional_agent_int Name="__verse_0x5A6C725F_LevelChangedEvent" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_optional_agent_int'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0x5A6C725F_LevelChangedEvent'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_optional_agent_int'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x5A6C725F_LevelChangedEvent'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_optional_agent_int Name="__verse_0x256EE094_MaximumReachedEvent" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_optional_agent_int'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0x256EE094_MaximumReachedEvent'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_optional_agent_int'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x256EE094_MaximumReachedEvent'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type Name="__verse_0x518A0AFD_SetValueFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0x518A0AFD_SetValueFunction'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x518A0AFD_SetValueFunction'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_name Name="__verse_0x8DC1AF61_SetValueForTeamFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_name'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0x8DC1AF61_SetValueForTeamFunction'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_name'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x8DC1AF61_SetValueForTeamFunction'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type Name="__verse_0xC628184C_SetValueForAllFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0xC628184C_SetValueForAllFunction'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xC628184C_SetValueForAllFunction'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type_const Name="__verse_0xDBC22232_GetValueFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type_const'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0xDBC22232_GetValueFunction'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type_const'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xDBC22232_GetValueFunction'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type Name="__verse_0x187814FB_GetValueForTeamFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0x187814FB_GetValueForTeamFunction'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x187814FB_GetValueForTeamFunction'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_int Name="__verse_0xB49C7FB4_GetValueForAllFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_int'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0xB49C7FB4_GetValueForAllFunction'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_int'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xB49C7FB4_GetValueForAllFunction'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type Name="__verse_0x77ADEC0A_SetLevelFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0x77ADEC0A_SetLevelFunction'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x77ADEC0A_SetLevelFunction'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_name Name="__verse_0x3B81EA2A_SetLevelForTeamFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_name'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0x3B81EA2A_SetLevelForTeamFunction'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_name'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x3B81EA2A_SetLevelForTeamFunction'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type Name="__verse_0xAFDBFB7A_SetLevelForAllFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0xAFDBFB7A_SetLevelForAllFunction'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xAFDBFB7A_SetLevelForAllFunction'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type_const Name="__verse_0xFDE5C4C5_GetLevelFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type_const'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0xFDE5C4C5_GetLevelFunction'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type_const'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xFDE5C4C5_GetLevelFunction'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type Name="__verse_0xAE3851B0_GetLevelForTeamFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0xAE3851B0_GetLevelForTeamFunction'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xAE3851B0_GetLevelForTeamFunction'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_int Name="__verse_0xDD6F9C82_GetLevelForAllFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_int'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0xDD6F9C82_GetLevelForAllFunction'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_int'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xDD6F9C82_GetLevelForAllFunction'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_string Name="__verse_0x4F108E77_GetNameFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_string'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0x4F108E77_GetNameFunction'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_string'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x4F108E77_GetNameFunction'"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_int Name="__verse_0x2588725D_GetScopeFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_int'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x9FF5C63A_StatCreator.__verse_0x2588725D_GetScopeFunction'" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_int'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x2588725D_GetScopeFunction'"
+               End Object
+            End Object
+            Begin Object Class=/{PROJECT}/_Verse/Tableau_prop_path.prop_path Name="__verse_0x88FD9943_ValueSource" Archetype="/{PROJECT}/_Verse/Tableau_prop_path.prop_path'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x88FD9943_ValueSource'" ExportPath="/{PROJECT}/_Verse/Tableau_prop_path.prop_path'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x88FD9943_ValueSource'"
+            End Object
+            Begin Object Class=/{PROJECT}/_Verse/Tableau_prop_path.prop_path Name="__verse_0x24805AF3_LevelSource" Archetype="/{PROJECT}/_Verse/Tableau_prop_path.prop_path'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x24805AF3_LevelSource'" ExportPath="/{PROJECT}/_Verse/Tableau_prop_path.prop_path'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x24805AF3_LevelSource'"
+            End Object
+            Begin Object Class=/{PROJECT}/_Verse/Tableau_side_effect_settings.side_effect_settings Name="__verse_0x99BDED6B_SideEffectSettings" Archetype="/{PROJECT}/_Verse/Tableau_side_effect_settings.side_effect_settings'/{PROJECT}/_Verse/Tableau_stat_device_v0_1.Default__stat_device_v0_1:__verse_0x99BDED6B_SideEffectSettings'" ExportPath="/{PROJECT}/_Verse/Tableau_side_effect_settings.side_effect_settings'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x99BDED6B_SideEffectSettings'"
+            End Object
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CRD_VerseDevices/VerseDevice.VerseDevice_C:ToyOptionsComponent_GEN_VARIABLE'" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.ToyOptionsComponent'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/CRD_VerseDevices/VerseDevice.VerseDevice_C:VisibleInGameComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.VisibleInGameComponent'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/CRD_VerseDevices/VerseDevice.VerseDevice_C:EnabledComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.EnabledComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.StaticMeshComponent0'"
+            StaticMesh="/Script/Engine.StaticMesh'/{PROJECT}/TableauAssets/Devices/Device_Base.Device_Base'"
+            bEvaluateWorldPositionOffset=True
+            StaticMeshImportVersion=1
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/{PROJECT}/TableauAssets/Devices/CoreDevices/MI_StatDevice.MI_StatDevice'"
+            CachedMaxDrawDistance=10232.007812
+            CustomPrimitiveData=(Data=(0.564712,0.745404,0.029557,1.000000))
+            BodyInstance=(CollisionEnabled=NoCollision,CollisionProfileName="Custom",MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=1408.000000,Y=-896.000000,Z=0.000000)
+            bHiddenInGame=True
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.BoundingBoxComponent'"
+            CachedMaxDrawDistance=10232.007812
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=10232.007812
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="VerseTagMarkup" ExportPath="/Script/VerseGameplayTags.VerseTagMarkupComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.VerseTagMarkup'"
+            InternalTags=(InternalTags=((InternalTag="/Script/CoreUObject.VerseClass'/{PROJECT}/_Verse/Tableau_tableau_device_tag.tableau_device_tag'")))
+            CreationMethod=Instance
+         End Object
+         Begin Object Name="stat_device_v0_0" ExportPath="/{PROJECT}/_Verse/Tableau_stat_device_v0_1.stat_device_v0_1'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0'"
+            Begin Object Name="__verse_0x9FF5C63A_StatCreator" ExportPath="/CRD_StatManager/_Verse/stat_creator_device.stat_creator_device'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator'"
+               Begin Object Name="__verse_0xF13B9998_ValueChangedEvent" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_optional_agent_int'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xF13B9998_ValueChangedEvent'"
+               End Object
+               Begin Object Name="__verse_0x5A6C725F_LevelChangedEvent" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_optional_agent_int'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x5A6C725F_LevelChangedEvent'"
+               End Object
+               Begin Object Name="__verse_0x256EE094_MaximumReachedEvent" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_optional_agent_int'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x256EE094_MaximumReachedEvent'"
+               End Object
+               Begin Object Name="__verse_0x518A0AFD_SetValueFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x518A0AFD_SetValueFunction'"
+               End Object
+               Begin Object Name="__verse_0x8DC1AF61_SetValueForTeamFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_name'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x8DC1AF61_SetValueForTeamFunction'"
+               End Object
+               Begin Object Name="__verse_0xC628184C_SetValueForAllFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xC628184C_SetValueForAllFunction'"
+               End Object
+               Begin Object Name="__verse_0xDBC22232_GetValueFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type_const'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xDBC22232_GetValueFunction'"
+               End Object
+               Begin Object Name="__verse_0x187814FB_GetValueForTeamFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x187814FB_GetValueForTeamFunction'"
+               End Object
+               Begin Object Name="__verse_0xB49C7FB4_GetValueForAllFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_int'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xB49C7FB4_GetValueForAllFunction'"
+               End Object
+               Begin Object Name="__verse_0x77ADEC0A_SetLevelFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x77ADEC0A_SetLevelFunction'"
+               End Object
+               Begin Object Name="__verse_0x3B81EA2A_SetLevelForTeamFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_name'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x3B81EA2A_SetLevelForTeamFunction'"
+               End Object
+               Begin Object Name="__verse_0xAFDBFB7A_SetLevelForAllFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xAFDBFB7A_SetLevelForAllFunction'"
+               End Object
+               Begin Object Name="__verse_0xFDE5C4C5_GetLevelFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type_const'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xFDE5C4C5_GetLevelFunction'"
+               End Object
+               Begin Object Name="__verse_0xAE3851B0_GetLevelForTeamFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_set_params_by_type'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xAE3851B0_GetLevelForTeamFunction'"
+               End Object
+               Begin Object Name="__verse_0xDD6F9C82_GetLevelForAllFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_int'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0xDD6F9C82_GetLevelForAllFunction'"
+               End Object
+               Begin Object Name="__verse_0x4F108E77_GetNameFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_string'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x4F108E77_GetNameFunction'"
+               End Object
+               Begin Object Name="__verse_0x2588725D_GetScopeFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function_get_int'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x9FF5C63A_StatCreator.__verse_0x2588725D_GetScopeFunction'"
+               End Object
+               SavedActor="/CRD_StatManager/Device_StatCreator.Device_StatCreator_C'Device_StatCreator_C_UAID_18C04D01CFC5ED3602_1118764237'"
+            End Object
+            Begin Object Name="__verse_0x88FD9943_ValueSource" ExportPath="/{PROJECT}/_Verse/Tableau_prop_path.prop_path'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x88FD9943_ValueSource'"
+            End Object
+            Begin Object Name="__verse_0x24805AF3_LevelSource" ExportPath="/{PROJECT}/_Verse/Tableau_prop_path.prop_path'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x24805AF3_LevelSource'"
+            End Object
+            Begin Object Name="__verse_0x99BDED6B_SideEffectSettings" ExportPath="/{PROJECT}/_Verse/Tableau_side_effect_settings.side_effect_settings'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.stat_device_v0_0.__verse_0x99BDED6B_SideEffectSettings'"
+            End Object
+            __verse_0x9FF5C63A_StatCreator="__verse_0x9FF5C63A_StatCreator"
+         End Object
+         Begin Object Name="ToyOptionsComponent" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.ToyOptionsComponent'"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="Enabled at Game Start",PropertyData="True"),(PropertyName="LabelOverride",PropertyData="StatDevice1"),(PropertyName="VisibleInGame",PropertyData="False")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.VisibleInGameComponent'"
+            VisibleSceneComponents(0)="StaticMeshComponent0"
+            VisibleDuringPhase=NewEnumerator1
+            Visibility Components with Collision=(("StaticMeshComponent0", QueryAndPhysics))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EnabledComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_18C04D01CFC5ED3602_1118768238.EnabledComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         EnabledComponent="EnabledComponent"
+         VisibleInGameComponent="VisibleInGameComponent"
+         ToyOptionsComponent="ToyOptionsComponent"
+         VisibleInGame=False
+         Script="/{PROJECT}/_Verse/Tableau_stat_device_v0_1.stat_device_v0_1'stat_device_v0_0'"
+         bAllowCustomMaterial=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=10232.007812
+         SavedActorGuid=DAC48DDE4AFD1425EA33DA993BC78336
+         LabelOverride="StatDevice1"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="StatDevice1"
+         InstanceComponents(0)="/Script/VerseGameplayTags.VerseTagMarkupComponent'VerseTagMarkup'"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
