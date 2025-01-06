@@ -1,0 +1,424 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/CRD_VerseDevices/VerseDevice.VerseDevice_C Name=VerseDevice_C_UAID_18C04D01CFC5A52402_1916450562 Archetype="/CRD_VerseDevices/VerseDevice.VerseDevice_C" ActorFolderPath="TableauDevices"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C"
+         End Object
+         Begin Object Class=/{PROJECT}/_Verse/Tableau_player_device.player_device Name="player_device_0" ExportPath="/{PROJECT}/_Verse/Tableau_player_device.player_device"
+            Begin Object Class=/CRD_PlayerSpawn/_Verse/player_spawner_device.player_spawner_device Name="__verse_0x45644DA3_Spawner" Archetype="/CRD_PlayerSpawn/_Verse/player_spawner_device.player_spawner_device"
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_agent Name="__verse_0x8478CED1_SpawnedEvent" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_agent"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function Name="__verse_0x5BDC7A5C_EnableFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function"
+               End Object
+               Begin Object Class=/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function Name="__verse_0xC9184E23_DisableFunction" Archetype="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function"
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C"
+         End Object
+         Begin Object Class=/Script/VerseGameplayTags.VerseTagMarkupComponent Name="VerseTagMarkup" ExportPath="/Script/VerseGameplayTags.VerseTagMarkupComponent"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent"
+            StaticMesh="/Script/Engine.StaticMesh'/{PROJECT}/TableauAssets/Devices/Device_Base.Device_Base'"
+            bEvaluateWorldPositionOffset=True
+            StaticMeshImportVersion=1
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/{PROJECT}/TableauAssets/Devices/CoreDevices/MI_PlayerDevice.MI_PlayerDevice'"
+            CachedMaxDrawDistance=10232.007812
+            CustomPrimitiveData=(Data=(0.617207,0.056128,0.008568,1.000000))
+            BodyInstance=(CollisionEnabled=NoCollision,CollisionProfileName="Custom",MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=3200.000000,Y=-1152.000000,Z=0.000000)
+            bHiddenInGame=True
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent"
+            CachedMaxDrawDistance=10232.007812
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent"
+            CachedMaxDrawDistance=10232.007812
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="ToyOptionsComponent" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="Enabled at Game Start",PropertyData="True"),(PropertyName="LabelOverride",PropertyData="PlayerDevice1"),(PropertyName="VisibleInGame",PropertyData="False")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C"
+            VisibleSceneComponents(0)="StaticMeshComponent0"
+            VisibleDuringPhase=NewEnumerator1
+            Visibility Components with Collision=(("StaticMeshComponent0", QueryAndPhysics))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="player_device_0" ExportPath="/{PROJECT}/_Verse/Tableau_player_device.player_device"
+            Begin Object Name="__verse_0x45644DA3_Spawner" ExportPath="/CRD_PlayerSpawn/_Verse/player_spawner_device.player_spawner_device"
+               Begin Object Name="__verse_0x8478CED1_SpawnedEvent" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_event_agent"
+               End Object
+               Begin Object Name="__verse_0x5BDC7A5C_EnableFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function"
+               End Object
+               Begin Object Name="__verse_0xC9184E23_DisableFunction" ExportPath="/VerseDevices/_Verse/VNI/VerseDevices.Devices_device_function"
+               End Object
+            End Object
+         End Object
+         Begin Object Name="EnabledComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VerseTagMarkup" ExportPath="/Script/VerseGameplayTags.VerseTagMarkupComponent"
+            InternalTags=(InternalTags=((InternalTag="/Script/Solaris.VerseClass'/{PROJECT}/_Verse/Tableau_tableau_device_tag.tableau_device_tag'")))
+            CreationMethod=Instance
+         End Object
+         EnabledComponent="EnabledComponent"
+         VisibleInGameComponent="VisibleInGameComponent"
+         ToyOptionsComponent="ToyOptionsComponent"
+         VisibleInGame=False
+         Script="/{PROJECT}/_Verse/Tableau_player_device.player_device'player_device_0'"
+         ScriptClassPath="/{PROJECT}/_Verse/Tableau_player_device.player_device"
+         ScriptPropertyOverridesVersion=ObjectClassSerialization
+         ScriptPropertyOverrides(0)=0
+         ScriptPropertyOverrides(1)=27
+         ScriptPropertyOverrides(2)=0
+         ScriptPropertyOverrides(3)=0
+         ScriptPropertyOverrides(4)=0
+         ScriptPropertyOverrides(5)=95
+         ScriptPropertyOverrides(6)=95
+         ScriptPropertyOverrides(7)=118
+         ScriptPropertyOverrides(8)=101
+         ScriptPropertyOverrides(9)=114
+         ScriptPropertyOverrides(10)=115
+         ScriptPropertyOverrides(11)=101
+         ScriptPropertyOverrides(12)=95
+         ScriptPropertyOverrides(13)=48
+         ScriptPropertyOverrides(14)=120
+         ScriptPropertyOverrides(15)=52
+         ScriptPropertyOverrides(16)=53
+         ScriptPropertyOverrides(17)=54
+         ScriptPropertyOverrides(18)=52
+         ScriptPropertyOverrides(19)=52
+         ScriptPropertyOverrides(20)=68
+         ScriptPropertyOverrides(21)=65
+         ScriptPropertyOverrides(22)=51
+         ScriptPropertyOverrides(23)=95
+         ScriptPropertyOverrides(24)=83
+         ScriptPropertyOverrides(25)=112
+         ScriptPropertyOverrides(26)=97
+         ScriptPropertyOverrides(27)=119
+         ScriptPropertyOverrides(28)=110
+         ScriptPropertyOverrides(29)=101
+         ScriptPropertyOverrides(30)=114
+         ScriptPropertyOverrides(31)=0
+         ScriptPropertyOverrides(32)=15
+         ScriptPropertyOverrides(33)=0
+         ScriptPropertyOverrides(34)=0
+         ScriptPropertyOverrides(35)=0
+         ScriptPropertyOverrides(36)=79
+         ScriptPropertyOverrides(37)=98
+         ScriptPropertyOverrides(38)=106
+         ScriptPropertyOverrides(39)=101
+         ScriptPropertyOverrides(40)=99
+         ScriptPropertyOverrides(41)=116
+         ScriptPropertyOverrides(42)=80
+         ScriptPropertyOverrides(43)=114
+         ScriptPropertyOverrides(44)=111
+         ScriptPropertyOverrides(45)=112
+         ScriptPropertyOverrides(46)=101
+         ScriptPropertyOverrides(47)=114
+         ScriptPropertyOverrides(48)=116
+         ScriptPropertyOverrides(49)=121
+         ScriptPropertyOverrides(50)=0
+         ScriptPropertyOverrides(51)=0
+         ScriptPropertyOverrides(52)=0
+         ScriptPropertyOverrides(53)=0
+         ScriptPropertyOverrides(54)=0
+         ScriptPropertyOverrides(55)=253
+         ScriptPropertyOverrides(56)=0
+         ScriptPropertyOverrides(57)=0
+         ScriptPropertyOverrides(58)=0
+         ScriptPropertyOverrides(59)=0
+         ScriptPropertyOverrides(60)=46
+         ScriptPropertyOverrides(61)=0
+         ScriptPropertyOverrides(62)=0
+         ScriptPropertyOverrides(63)=0
+         ScriptPropertyOverrides(64)=47
+         ScriptPropertyOverrides(65)=67
+         ScriptPropertyOverrides(66)=82
+         ScriptPropertyOverrides(67)=68
+         ScriptPropertyOverrides(68)=95
+         ScriptPropertyOverrides(69)=80
+         ScriptPropertyOverrides(70)=108
+         ScriptPropertyOverrides(71)=97
+         ScriptPropertyOverrides(72)=121
+         ScriptPropertyOverrides(73)=101
+         ScriptPropertyOverrides(74)=114
+         ScriptPropertyOverrides(75)=83
+         ScriptPropertyOverrides(76)=112
+         ScriptPropertyOverrides(77)=97
+         ScriptPropertyOverrides(78)=119
+         ScriptPropertyOverrides(79)=110
+         ScriptPropertyOverrides(80)=47
+         ScriptPropertyOverrides(81)=95
+         ScriptPropertyOverrides(82)=86
+         ScriptPropertyOverrides(83)=101
+         ScriptPropertyOverrides(84)=114
+         ScriptPropertyOverrides(85)=115
+         ScriptPropertyOverrides(86)=101
+         ScriptPropertyOverrides(87)=47
+         ScriptPropertyOverrides(88)=112
+         ScriptPropertyOverrides(89)=108
+         ScriptPropertyOverrides(90)=97
+         ScriptPropertyOverrides(91)=121
+         ScriptPropertyOverrides(92)=101
+         ScriptPropertyOverrides(93)=114
+         ScriptPropertyOverrides(94)=95
+         ScriptPropertyOverrides(95)=115
+         ScriptPropertyOverrides(96)=112
+         ScriptPropertyOverrides(97)=97
+         ScriptPropertyOverrides(98)=119
+         ScriptPropertyOverrides(99)=110
+         ScriptPropertyOverrides(100)=101
+         ScriptPropertyOverrides(101)=114
+         ScriptPropertyOverrides(102)=95
+         ScriptPropertyOverrides(103)=100
+         ScriptPropertyOverrides(104)=101
+         ScriptPropertyOverrides(105)=118
+         ScriptPropertyOverrides(106)=105
+         ScriptPropertyOverrides(107)=99
+         ScriptPropertyOverrides(108)=101
+         ScriptPropertyOverrides(109)=0
+         ScriptPropertyOverrides(110)=22
+         ScriptPropertyOverrides(111)=0
+         ScriptPropertyOverrides(112)=0
+         ScriptPropertyOverrides(113)=0
+         ScriptPropertyOverrides(114)=112
+         ScriptPropertyOverrides(115)=108
+         ScriptPropertyOverrides(116)=97
+         ScriptPropertyOverrides(117)=121
+         ScriptPropertyOverrides(118)=101
+         ScriptPropertyOverrides(119)=114
+         ScriptPropertyOverrides(120)=95
+         ScriptPropertyOverrides(121)=115
+         ScriptPropertyOverrides(122)=112
+         ScriptPropertyOverrides(123)=97
+         ScriptPropertyOverrides(124)=119
+         ScriptPropertyOverrides(125)=110
+         ScriptPropertyOverrides(126)=101
+         ScriptPropertyOverrides(127)=114
+         ScriptPropertyOverrides(128)=95
+         ScriptPropertyOverrides(129)=100
+         ScriptPropertyOverrides(130)=101
+         ScriptPropertyOverrides(131)=118
+         ScriptPropertyOverrides(132)=105
+         ScriptPropertyOverrides(133)=99
+         ScriptPropertyOverrides(134)=101
+         ScriptPropertyOverrides(135)=0
+         ScriptPropertyOverrides(136)=0
+         ScriptPropertyOverrides(137)=0
+         ScriptPropertyOverrides(138)=0
+         ScriptPropertyOverrides(139)=0
+         ScriptPropertyOverrides(140)=21
+         ScriptPropertyOverrides(141)=0
+         ScriptPropertyOverrides(142)=0
+         ScriptPropertyOverrides(143)=0
+         ScriptPropertyOverrides(144)=47
+         ScriptPropertyOverrides(145)=84
+         ScriptPropertyOverrides(146)=104
+         ScriptPropertyOverrides(147)=101
+         ScriptPropertyOverrides(148)=95
+         ScriptPropertyOverrides(149)=70
+         ScriptPropertyOverrides(150)=97
+         ScriptPropertyOverrides(151)=114
+         ScriptPropertyOverrides(152)=109
+         ScriptPropertyOverrides(153)=115
+         ScriptPropertyOverrides(154)=47
+         ScriptPropertyOverrides(155)=84
+         ScriptPropertyOverrides(156)=104
+         ScriptPropertyOverrides(157)=101
+         ScriptPropertyOverrides(158)=95
+         ScriptPropertyOverrides(159)=70
+         ScriptPropertyOverrides(160)=97
+         ScriptPropertyOverrides(161)=114
+         ScriptPropertyOverrides(162)=109
+         ScriptPropertyOverrides(163)=115
+         ScriptPropertyOverrides(164)=0
+         ScriptPropertyOverrides(165)=10
+         ScriptPropertyOverrides(166)=0
+         ScriptPropertyOverrides(167)=0
+         ScriptPropertyOverrides(168)=0
+         ScriptPropertyOverrides(169)=84
+         ScriptPropertyOverrides(170)=104
+         ScriptPropertyOverrides(171)=101
+         ScriptPropertyOverrides(172)=95
+         ScriptPropertyOverrides(173)=70
+         ScriptPropertyOverrides(174)=97
+         ScriptPropertyOverrides(175)=114
+         ScriptPropertyOverrides(176)=109
+         ScriptPropertyOverrides(177)=115
+         ScriptPropertyOverrides(178)=0
+         ScriptPropertyOverrides(179)=108
+         ScriptPropertyOverrides(180)=0
+         ScriptPropertyOverrides(181)=0
+         ScriptPropertyOverrides(182)=0
+         ScriptPropertyOverrides(183)=80
+         ScriptPropertyOverrides(184)=101
+         ScriptPropertyOverrides(185)=114
+         ScriptPropertyOverrides(186)=115
+         ScriptPropertyOverrides(187)=105
+         ScriptPropertyOverrides(188)=115
+         ScriptPropertyOverrides(189)=116
+         ScriptPropertyOverrides(190)=101
+         ScriptPropertyOverrides(191)=110
+         ScriptPropertyOverrides(192)=116
+         ScriptPropertyOverrides(193)=76
+         ScriptPropertyOverrides(194)=101
+         ScriptPropertyOverrides(195)=118
+         ScriptPropertyOverrides(196)=101
+         ScriptPropertyOverrides(197)=108
+         ScriptPropertyOverrides(198)=46
+         ScriptPropertyOverrides(199)=86
+         ScriptPropertyOverrides(200)=101
+         ScriptPropertyOverrides(201)=114
+         ScriptPropertyOverrides(202)=115
+         ScriptPropertyOverrides(203)=101
+         ScriptPropertyOverrides(204)=68
+         ScriptPropertyOverrides(205)=101
+         ScriptPropertyOverrides(206)=118
+         ScriptPropertyOverrides(207)=105
+         ScriptPropertyOverrides(208)=99
+         ScriptPropertyOverrides(209)=101
+         ScriptPropertyOverrides(210)=95
+         ScriptPropertyOverrides(211)=67
+         ScriptPropertyOverrides(212)=95
+         ScriptPropertyOverrides(213)=85
+         ScriptPropertyOverrides(214)=65
+         ScriptPropertyOverrides(215)=73
+         ScriptPropertyOverrides(216)=68
+         ScriptPropertyOverrides(217)=95
+         ScriptPropertyOverrides(218)=49
+         ScriptPropertyOverrides(219)=56
+         ScriptPropertyOverrides(220)=67
+         ScriptPropertyOverrides(221)=48
+         ScriptPropertyOverrides(222)=52
+         ScriptPropertyOverrides(223)=68
+         ScriptPropertyOverrides(224)=48
+         ScriptPropertyOverrides(225)=49
+         ScriptPropertyOverrides(226)=67
+         ScriptPropertyOverrides(227)=70
+         ScriptPropertyOverrides(228)=67
+         ScriptPropertyOverrides(229)=53
+         ScriptPropertyOverrides(230)=65
+         ScriptPropertyOverrides(231)=53
+         ScriptPropertyOverrides(232)=50
+         ScriptPropertyOverrides(233)=52
+         ScriptPropertyOverrides(234)=48
+         ScriptPropertyOverrides(235)=50
+         ScriptPropertyOverrides(236)=95
+         ScriptPropertyOverrides(237)=49
+         ScriptPropertyOverrides(238)=57
+         ScriptPropertyOverrides(239)=49
+         ScriptPropertyOverrides(240)=54
+         ScriptPropertyOverrides(241)=52
+         ScriptPropertyOverrides(242)=53
+         ScriptPropertyOverrides(243)=48
+         ScriptPropertyOverrides(244)=53
+         ScriptPropertyOverrides(245)=54
+         ScriptPropertyOverrides(246)=50
+         ScriptPropertyOverrides(247)=46
+         ScriptPropertyOverrides(248)=112
+         ScriptPropertyOverrides(249)=108
+         ScriptPropertyOverrides(250)=97
+         ScriptPropertyOverrides(251)=121
+         ScriptPropertyOverrides(252)=101
+         ScriptPropertyOverrides(253)=114
+         ScriptPropertyOverrides(254)=95
+         ScriptPropertyOverrides(255)=100
+         ScriptPropertyOverrides(256)=101
+         ScriptPropertyOverrides(257)=118
+         ScriptPropertyOverrides(258)=105
+         ScriptPropertyOverrides(259)=99
+         ScriptPropertyOverrides(260)=101
+         ScriptPropertyOverrides(261)=95
+         ScriptPropertyOverrides(262)=48
+         ScriptPropertyOverrides(263)=46
+         ScriptPropertyOverrides(264)=95
+         ScriptPropertyOverrides(265)=95
+         ScriptPropertyOverrides(266)=118
+         ScriptPropertyOverrides(267)=101
+         ScriptPropertyOverrides(268)=114
+         ScriptPropertyOverrides(269)=115
+         ScriptPropertyOverrides(270)=101
+         ScriptPropertyOverrides(271)=95
+         ScriptPropertyOverrides(272)=48
+         ScriptPropertyOverrides(273)=120
+         ScriptPropertyOverrides(274)=52
+         ScriptPropertyOverrides(275)=53
+         ScriptPropertyOverrides(276)=54
+         ScriptPropertyOverrides(277)=52
+         ScriptPropertyOverrides(278)=52
+         ScriptPropertyOverrides(279)=68
+         ScriptPropertyOverrides(280)=65
+         ScriptPropertyOverrides(281)=51
+         ScriptPropertyOverrides(282)=95
+         ScriptPropertyOverrides(283)=83
+         ScriptPropertyOverrides(284)=112
+         ScriptPropertyOverrides(285)=97
+         ScriptPropertyOverrides(286)=119
+         ScriptPropertyOverrides(287)=110
+         ScriptPropertyOverrides(288)=101
+         ScriptPropertyOverrides(289)=114
+         ScriptPropertyOverrides(290)=0
+         ScriptPropertyOverrides(291)=5
+         ScriptPropertyOverrides(292)=0
+         ScriptPropertyOverrides(293)=0
+         ScriptPropertyOverrides(294)=0
+         ScriptPropertyOverrides(295)=78
+         ScriptPropertyOverrides(296)=111
+         ScriptPropertyOverrides(297)=110
+         ScriptPropertyOverrides(298)=101
+         ScriptPropertyOverrides(299)=0
+         ScriptPropertyOverrides(300)=5
+         ScriptPropertyOverrides(301)=0
+         ScriptPropertyOverrides(302)=0
+         ScriptPropertyOverrides(303)=0
+         ScriptPropertyOverrides(304)=78
+         ScriptPropertyOverrides(305)=111
+         ScriptPropertyOverrides(306)=110
+         ScriptPropertyOverrides(307)=101
+         ScriptPropertyOverrides(308)=0
+         ScriptPropertyOverrides(309)=0
+         ScriptPropertyOverrides(310)=0
+         ScriptPropertyOverrides(311)=0
+         ScriptPropertyOverrides(312)=0
+         ScriptPropertyOverrides(313)=5
+         ScriptPropertyOverrides(314)=0
+         ScriptPropertyOverrides(315)=0
+         ScriptPropertyOverrides(316)=0
+         ScriptPropertyOverrides(317)=78
+         ScriptPropertyOverrides(318)=111
+         ScriptPropertyOverrides(319)=110
+         ScriptPropertyOverrides(320)=101
+         ScriptPropertyOverrides(321)=0
+         bAllowCustomMaterial=True
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=10232.007812
+         DataVersion=1
+         SavedActorGuid=000000000000000000000000E52036D7
+         LabelOverride="PlayerDevice1"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="PlayerDevice1"
+         InstanceComponents(0)="/Script/VerseGameplayTags.VerseTagMarkupComponent'VerseTagMarkup'"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
