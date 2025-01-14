@@ -6,7 +6,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #Include %A_ScriptDir%/lib/Vis2.ahk
 
-ProjectTitleLocation := [3030, 40, 3660, 75]
+; ProjectTitleLocation := [3030, 40, 3660, 75]
+ProjectTitleLocation := [1730, 40, 2370, 75]
 Title := OCR(ProjectTitleLocation)
 RegExMatch(Title, "- (.*) \(", ProjectName)
 
