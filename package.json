@@ -120,7 +120,9 @@
         "dev:a-sprite-character": "yarn kd build a-sprite-character --commit",
         "watch:a-sprite-character": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:a-sprite-character",
         "dev:a-radial-menu": "yarn kd build a-radial-menu --commit",
-        "watch:a-radial-menu": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:a-radial-menu"
+        "watch:a-radial-menu": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:a-radial-menu",
+        "dev:the-maze": "yarn kd build the-maze --commit",
+        "watch:the-maze": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:the-maze"
     },
     "dependencies": {
         "@babel/polyfill": "^7.12.1",
