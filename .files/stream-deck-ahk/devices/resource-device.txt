@@ -1,50 +1,44 @@
 Begin Map
    Begin Level
-      Begin Actor Class=/CRD_VerseDevices/VerseDevice.VerseDevice_C Name=VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659 Archetype="/CRD_VerseDevices/VerseDevice.VerseDevice_C'/CRD_VerseDevices/VerseDevice.Default__VerseDevice_C'" ActorFolderPath="TableauDevices" ExportPath="/CRD_VerseDevices/VerseDevice.VerseDevice_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659'"
-         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRD_VerseDevices/VerseDevice.Default__VerseDevice_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.StaticMeshComponent0'"
+      Begin Actor Class=/CRD_VerseDevices/VerseDevice.VerseDevice_C Name=VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377 Archetype="/CRD_VerseDevices/VerseDevice.VerseDevice_C'/CRD_VerseDevices/VerseDevice.Default__VerseDevice_C'" ActorFolderPath="TableauDevices" ExportPath="/CRD_VerseDevices/VerseDevice.VerseDevice_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRD_VerseDevices/VerseDevice.Default__VerseDevice_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.StaticMeshComponent0'"
          End Object
-         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRD_VerseDevices/VerseDevice.Default__VerseDevice_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.BoundingBoxComponent'"
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRD_VerseDevices/VerseDevice.Default__VerseDevice_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.BoundingBoxComponent'"
          End Object
-         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRD_VerseDevices/VerseDevice.Default__VerseDevice_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.EditorOnlyStaticMeshComponent'"
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRD_VerseDevices/VerseDevice.Default__VerseDevice_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.EditorOnlyStaticMeshComponent'"
          End Object
-         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CRD_VerseDevices/VerseDevice.VerseDevice_C:ToyOptionsComponent_GEN_VARIABLE'" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.ToyOptionsComponent'"
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/CRD_VerseDevices/VerseDevice.VerseDevice_C:VisibleInGameComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.VisibleInGameComponent'"
          End Object
-         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/CRD_VerseDevices/VerseDevice.VerseDevice_C:VisibleInGameComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.VisibleInGameComponent'"
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CRD_VerseDevices/VerseDevice.VerseDevice_C:ToyOptionsComponent_GEN_VARIABLE'" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.ToyOptionsComponent'"
          End Object
-         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/CRD_VerseDevices/VerseDevice.VerseDevice_C:EnabledComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.EnabledComponent'"
-         End Object
-         Begin Object Class=/Script/VerseGameplayTags.VerseTagMarkupComponent Name="VerseTagMarkup" ExportPath="/Script/VerseGameplayTags.VerseTagMarkupComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.VerseTagMarkup'"
-         End Object
-         Begin Object Class=/{PROJECT}/_Verse.Tableau-check_device_v0_1 Name="check_device_v0_0" ExportPath="/{PROJECT}/_Verse.Tableau-check_device_v0_1'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.check_device_v0_0'"
-            Begin Object Class=/{PROJECT}/_Verse.Tableau-side_effect_settings Name="__verse_0x99BDED6B_SideEffectSettings" Archetype="/{PROJECT}/_Verse.Tableau-side_effect_settings'/{PROJECT}/_Verse.Default__Tableau-check_device_v0_1:__verse_0x99BDED6B_SideEffectSettings'" ExportPath="/{PROJECT}/_Verse.Tableau-side_effect_settings'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.check_device_v0_0.__verse_0x99BDED6B_SideEffectSettings'"
+         Begin Object Class=/{PROJECT}/_Verse.Tableau-resource_device_v0_1 Name="Tableau-resource_device_v0_0" ExportPath="/{PROJECT}/_Verse.Tableau-resource_device_v0_1'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.Tableau-resource_device_v0_0'"
+            Begin Object Class=/{PROJECT}/_Verse.Tableau-side_effect_settings Name="__verse_0x99BDED6B_SideEffectSettings" Archetype="/{PROJECT}/_Verse.Tableau-side_effect_settings'/{PROJECT}/_Verse.Default__Tableau-resource_device_v0_1:__verse_0x99BDED6B_SideEffectSettings'" ExportPath="/{PROJECT}/_Verse.Tableau-side_effect_settings'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.Tableau-resource_device_v0_0.__verse_0x99BDED6B_SideEffectSettings'"
             End Object
          End Object
-         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.StaticMeshComponent0'"
+         Begin Object Class=/Script/VerseGameplayTags.VerseTagMarkupComponent Name="VerseTagMarkup" ExportPath="/Script/VerseGameplayTags.VerseTagMarkupComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.VerseTagMarkup'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/CRD_VerseDevices/VerseDevice.VerseDevice_C:EnabledComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.EnabledComponent'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.StaticMeshComponent0'"
             StaticMesh="/Script/Engine.StaticMesh'/{PROJECT}/TableauAssets/Devices/Device_Base.Device_Base'"
             bEvaluateWorldPositionOffset=True
             StaticMeshImportVersion=1
-            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/{PROJECT}/TableauAssets/Devices/CoreDevices/MI_CheckDevice.MI_CheckDevice'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/{PROJECT}/TableauAssets/Devices/CoreDevices/MI_ResourceDevice.MI_ResourceDevice'"
             CachedMaxDrawDistance=10232.007812
-            CustomPrimitiveData=(Data=(0.015996,0.637597,0.184475,1.000000))
+            CustomPrimitiveData=(Data=(0.938686,0.141263,0.590619,1.000000))
             BodyInstance=(CollisionEnabled=NoCollision,CollisionProfileName="Custom",MaxAngularVelocity=3599.999756)
-            RelativeLocation=(X=960.000000,Y=704.000000,Z=0.000000)
+            RelativeLocation=(X=960.000000,Y=576.000000,Z=0.000000)
             bHiddenInGame=True
          End Object
-         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.BoundingBoxComponent'"
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.BoundingBoxComponent'"
             CachedMaxDrawDistance=10232.007812
             AttachParent="StaticMeshComponent0"
          End Object
-         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.EditorOnlyStaticMeshComponent'"
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.EditorOnlyStaticMeshComponent'"
             CachedMaxDrawDistance=10232.007812
             AttachParent="StaticMeshComponent0"
          End Object
-         Begin Object Name="ToyOptionsComponent" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.ToyOptionsComponent'"
-            PlayerOptionData=(PropertyOverrides=((PropertyName="Enabled at Game Start",PropertyData="True"),(PropertyName="LabelOverride",PropertyData="CheckDevice1"),(PropertyName="VisibleInGame",PropertyData="False")))
-            UCSSerializationIndex=0
-            bNetAddressable=True
-            CreationMethod=SimpleConstructionScript
-         End Object
-         Begin Object Name="VisibleInGameComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.VisibleInGameComponent'"
+         Begin Object Name="VisibleInGameComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.VisibleInGameComponent'"
             VisibleSceneComponents(0)="StaticMeshComponent0"
             VisibleDuringPhase=NewEnumerator1
             Visibility Components with Collision=(("StaticMeshComponent0", QueryAndPhysics))
@@ -52,25 +46,31 @@ Begin Map
             bNetAddressable=True
             CreationMethod=SimpleConstructionScript
          End Object
-         Begin Object Name="EnabledComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.EnabledComponent'"
+         Begin Object Name="ToyOptionsComponent" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.ToyOptionsComponent'"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="Enabled at Game Start",PropertyData="True"),(PropertyName="LabelOverride",PropertyData="ResourceDevice1"),(PropertyName="VisibleInGame",PropertyData="False")))
             UCSSerializationIndex=0
             bNetAddressable=True
             CreationMethod=SimpleConstructionScript
          End Object
-         Begin Object Name="VerseTagMarkup" ExportPath="/Script/VerseGameplayTags.VerseTagMarkupComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.VerseTagMarkup'"
+         Begin Object Name="Tableau-resource_device_v0_0" ExportPath="/{PROJECT}/_Verse.Tableau-resource_device_v0_1'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.Tableau-resource_device_v0_0'"
+            Begin Object Name="__verse_0x99BDED6B_SideEffectSettings" ExportPath="/{PROJECT}/_Verse.Tableau-side_effect_settings'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.Tableau-resource_device_v0_0.__verse_0x99BDED6B_SideEffectSettings'"
+            End Object
+         End Object
+         Begin Object Name="VerseTagMarkup" ExportPath="/Script/VerseGameplayTags.VerseTagMarkupComponent'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.VerseTagMarkup'"
             InternalTags=(InternalTags=((InternalTag="/Script/CoreUObject.VerseClass'/{PROJECT}/_Verse.Tableau-tableau_device_tag'")))
             CreationMethod=Instance
          End Object
-         Begin Object Name="check_device_v0_0" ExportPath="/{PROJECT}/_Verse.Tableau-check_device_v0_1'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.check_device_v0_0'"
-            Begin Object Name="__verse_0x99BDED6B_SideEffectSettings" ExportPath="/{PROJECT}/_Verse.Tableau-side_effect_settings'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A8365302_2063483659.check_device_v0_0.__verse_0x99BDED6B_SideEffectSettings'"
-            End Object
+         Begin Object Name="EnabledComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/{PROJECT}/{PROJECT}.{PROJECT}:PersistentLevel.VerseDevice_C_UAID_581CF8B1D6A83A5302_1639338377.EnabledComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
          End Object
          EnabledComponent="EnabledComponent"
          VisibleInGameComponent="VisibleInGameComponent"
          ToyOptionsComponent="ToyOptionsComponent"
          VisibleInGame=False
-         Script="/{PROJECT}/_Verse.Tableau-check_device_v0_1'check_device_v0_0'"
-         ScriptClassPath="/{PROJECT}/_Verse.Tableau-check_device_v0_1"
+         Script="/{PROJECT}/_Verse.Tableau-resource_device_v0_1'Tableau-resource_device_v0_0'"
+         ScriptClassPath="/{PROJECT}/_Verse.Tableau-resource_device_v0_1"
          ScriptPropertyOverridesVersion=ObjectClassSerialization
          ScriptPropertyOverrides(0)=0
          ScriptPropertyOverrides(1)=38
@@ -138,7 +138,7 @@ Begin Map
          ScriptPropertyOverrides(63)=0
          ScriptPropertyOverrides(64)=0
          ScriptPropertyOverrides(65)=0
-         ScriptPropertyOverrides(66)=231
+         ScriptPropertyOverrides(66)=242
          ScriptPropertyOverrides(67)=0
          ScriptPropertyOverrides(68)=0
          ScriptPropertyOverrides(69)=0
@@ -249,7 +249,7 @@ Begin Map
          ScriptPropertyOverrides(174)=116
          ScriptPropertyOverrides(175)=121
          ScriptPropertyOverrides(176)=0
-         ScriptPropertyOverrides(177)=121
+         ScriptPropertyOverrides(177)=132
          ScriptPropertyOverrides(178)=0
          ScriptPropertyOverrides(179)=0
          ScriptPropertyOverrides(180)=0
@@ -301,98 +301,109 @@ Begin Map
          ScriptPropertyOverrides(226)=65
          ScriptPropertyOverrides(227)=56
          ScriptPropertyOverrides(228)=51
-         ScriptPropertyOverrides(229)=54
+         ScriptPropertyOverrides(229)=65
          ScriptPropertyOverrides(230)=53
          ScriptPropertyOverrides(231)=51
          ScriptPropertyOverrides(232)=48
          ScriptPropertyOverrides(233)=50
          ScriptPropertyOverrides(234)=95
-         ScriptPropertyOverrides(235)=50
-         ScriptPropertyOverrides(236)=48
-         ScriptPropertyOverrides(237)=54
-         ScriptPropertyOverrides(238)=51
-         ScriptPropertyOverrides(239)=52
-         ScriptPropertyOverrides(240)=56
-         ScriptPropertyOverrides(241)=51
-         ScriptPropertyOverrides(242)=54
-         ScriptPropertyOverrides(243)=53
-         ScriptPropertyOverrides(244)=57
+         ScriptPropertyOverrides(235)=49
+         ScriptPropertyOverrides(236)=54
+         ScriptPropertyOverrides(237)=51
+         ScriptPropertyOverrides(238)=57
+         ScriptPropertyOverrides(239)=51
+         ScriptPropertyOverrides(240)=51
+         ScriptPropertyOverrides(241)=56
+         ScriptPropertyOverrides(242)=51
+         ScriptPropertyOverrides(243)=55
+         ScriptPropertyOverrides(244)=55
          ScriptPropertyOverrides(245)=46
-         ScriptPropertyOverrides(246)=99
-         ScriptPropertyOverrides(247)=104
-         ScriptPropertyOverrides(248)=101
-         ScriptPropertyOverrides(249)=99
-         ScriptPropertyOverrides(250)=107
-         ScriptPropertyOverrides(251)=95
-         ScriptPropertyOverrides(252)=100
-         ScriptPropertyOverrides(253)=101
-         ScriptPropertyOverrides(254)=118
-         ScriptPropertyOverrides(255)=105
-         ScriptPropertyOverrides(256)=99
-         ScriptPropertyOverrides(257)=101
-         ScriptPropertyOverrides(258)=95
-         ScriptPropertyOverrides(259)=118
-         ScriptPropertyOverrides(260)=48
-         ScriptPropertyOverrides(261)=95
-         ScriptPropertyOverrides(262)=48
-         ScriptPropertyOverrides(263)=46
-         ScriptPropertyOverrides(264)=95
-         ScriptPropertyOverrides(265)=95
-         ScriptPropertyOverrides(266)=118
-         ScriptPropertyOverrides(267)=101
-         ScriptPropertyOverrides(268)=114
-         ScriptPropertyOverrides(269)=115
-         ScriptPropertyOverrides(270)=101
-         ScriptPropertyOverrides(271)=95
-         ScriptPropertyOverrides(272)=48
-         ScriptPropertyOverrides(273)=120
-         ScriptPropertyOverrides(274)=57
-         ScriptPropertyOverrides(275)=57
-         ScriptPropertyOverrides(276)=66
-         ScriptPropertyOverrides(277)=68
-         ScriptPropertyOverrides(278)=69
-         ScriptPropertyOverrides(279)=68
-         ScriptPropertyOverrides(280)=54
-         ScriptPropertyOverrides(281)=66
+         ScriptPropertyOverrides(246)=84
+         ScriptPropertyOverrides(247)=97
+         ScriptPropertyOverrides(248)=98
+         ScriptPropertyOverrides(249)=108
+         ScriptPropertyOverrides(250)=101
+         ScriptPropertyOverrides(251)=97
+         ScriptPropertyOverrides(252)=117
+         ScriptPropertyOverrides(253)=45
+         ScriptPropertyOverrides(254)=114
+         ScriptPropertyOverrides(255)=101
+         ScriptPropertyOverrides(256)=115
+         ScriptPropertyOverrides(257)=111
+         ScriptPropertyOverrides(258)=117
+         ScriptPropertyOverrides(259)=114
+         ScriptPropertyOverrides(260)=99
+         ScriptPropertyOverrides(261)=101
+         ScriptPropertyOverrides(262)=95
+         ScriptPropertyOverrides(263)=100
+         ScriptPropertyOverrides(264)=101
+         ScriptPropertyOverrides(265)=118
+         ScriptPropertyOverrides(266)=105
+         ScriptPropertyOverrides(267)=99
+         ScriptPropertyOverrides(268)=101
+         ScriptPropertyOverrides(269)=95
+         ScriptPropertyOverrides(270)=118
+         ScriptPropertyOverrides(271)=48
+         ScriptPropertyOverrides(272)=95
+         ScriptPropertyOverrides(273)=48
+         ScriptPropertyOverrides(274)=46
+         ScriptPropertyOverrides(275)=95
+         ScriptPropertyOverrides(276)=95
+         ScriptPropertyOverrides(277)=118
+         ScriptPropertyOverrides(278)=101
+         ScriptPropertyOverrides(279)=114
+         ScriptPropertyOverrides(280)=115
+         ScriptPropertyOverrides(281)=101
          ScriptPropertyOverrides(282)=95
-         ScriptPropertyOverrides(283)=83
-         ScriptPropertyOverrides(284)=105
-         ScriptPropertyOverrides(285)=100
-         ScriptPropertyOverrides(286)=101
-         ScriptPropertyOverrides(287)=69
-         ScriptPropertyOverrides(288)=102
-         ScriptPropertyOverrides(289)=102
-         ScriptPropertyOverrides(290)=101
-         ScriptPropertyOverrides(291)=99
-         ScriptPropertyOverrides(292)=116
-         ScriptPropertyOverrides(293)=83
-         ScriptPropertyOverrides(294)=101
-         ScriptPropertyOverrides(295)=116
-         ScriptPropertyOverrides(296)=116
-         ScriptPropertyOverrides(297)=105
-         ScriptPropertyOverrides(298)=110
-         ScriptPropertyOverrides(299)=103
-         ScriptPropertyOverrides(300)=115
-         ScriptPropertyOverrides(301)=0
-         ScriptPropertyOverrides(302)=5
-         ScriptPropertyOverrides(303)=0
-         ScriptPropertyOverrides(304)=0
-         ScriptPropertyOverrides(305)=0
-         ScriptPropertyOverrides(306)=78
-         ScriptPropertyOverrides(307)=111
-         ScriptPropertyOverrides(308)=110
-         ScriptPropertyOverrides(309)=101
-         ScriptPropertyOverrides(310)=0
+         ScriptPropertyOverrides(283)=48
+         ScriptPropertyOverrides(284)=120
+         ScriptPropertyOverrides(285)=57
+         ScriptPropertyOverrides(286)=57
+         ScriptPropertyOverrides(287)=66
+         ScriptPropertyOverrides(288)=68
+         ScriptPropertyOverrides(289)=69
+         ScriptPropertyOverrides(290)=68
+         ScriptPropertyOverrides(291)=54
+         ScriptPropertyOverrides(292)=66
+         ScriptPropertyOverrides(293)=95
+         ScriptPropertyOverrides(294)=83
+         ScriptPropertyOverrides(295)=105
+         ScriptPropertyOverrides(296)=100
+         ScriptPropertyOverrides(297)=101
+         ScriptPropertyOverrides(298)=69
+         ScriptPropertyOverrides(299)=102
+         ScriptPropertyOverrides(300)=102
+         ScriptPropertyOverrides(301)=101
+         ScriptPropertyOverrides(302)=99
+         ScriptPropertyOverrides(303)=116
+         ScriptPropertyOverrides(304)=83
+         ScriptPropertyOverrides(305)=101
+         ScriptPropertyOverrides(306)=116
+         ScriptPropertyOverrides(307)=116
+         ScriptPropertyOverrides(308)=105
+         ScriptPropertyOverrides(309)=110
+         ScriptPropertyOverrides(310)=103
+         ScriptPropertyOverrides(311)=115
+         ScriptPropertyOverrides(312)=0
+         ScriptPropertyOverrides(313)=5
+         ScriptPropertyOverrides(314)=0
+         ScriptPropertyOverrides(315)=0
+         ScriptPropertyOverrides(316)=0
+         ScriptPropertyOverrides(317)=78
+         ScriptPropertyOverrides(318)=111
+         ScriptPropertyOverrides(319)=110
+         ScriptPropertyOverrides(320)=101
+         ScriptPropertyOverrides(321)=0
          bAllowCustomMaterial=True
          StaticMeshComponent="StaticMeshComponent0"
          BoxComponent="BoundingBoxComponent"
          EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
          CullDistance=10232.007812
          DataVersion=1
-         SavedActorGuid=98275C6B4CF3644A68979E9CA01BC424
-         LabelOverride="CheckDevice1"
+         SavedActorGuid=000000000000000000000000A660DD9A
+         LabelOverride="ResourceDevice1"
          RootComponent="StaticMeshComponent0"
-         ActorLabel="CheckDevice1"
+         ActorLabel="ResourceDevice1"
          InstanceComponents(0)="/Script/VerseGameplayTags.VerseTagMarkupComponent'VerseTagMarkup'"
       End Actor
    End Level
