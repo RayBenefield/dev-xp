@@ -122,7 +122,9 @@
         "dev:a-radial-menu": "yarn kd build a-radial-menu --commit",
         "watch:a-radial-menu": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:a-radial-menu",
         "dev:the-maze": "yarn kd build the-maze --commit",
-        "watch:the-maze": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:the-maze"
+        "watch:the-maze": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:the-maze",
+        "dev:a-loop": "yarn kd build a-loop --commit",
+        "watch:a-loop": "nodemon --config ./dx/nodemon.json --watch ./src/node_modules/ --exec yarn dev:a-loop"
     },
     "dependencies": {
         "@babel/polyfill": "^7.12.1",
