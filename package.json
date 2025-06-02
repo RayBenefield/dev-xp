@@ -144,7 +144,7 @@
         "dotenv": "^8.0.0",
         "edit-json-file": "^1.4.0",
         "es6-promisify": "^5.0.0",
-        "execa": "^0.8.0",
+        "execa": "^9.6.0",
         "external-editor": "^2.1.0",
         "file-exists": "^5.0.1",
         "find-up": "^2.1.0",
