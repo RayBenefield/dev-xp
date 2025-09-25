@@ -186,7 +186,7 @@
         "loud-rejection": "^1.6.0",
         "luabundle": "^1.6.0",
         "markdown-to-text": "^0.1.1",
-        "minimatch": "^3.0.4",
+        "minimatch": "^3.0.5",
         "minimist": "^1.2.5",
         "node-range": "^0.1.0",
         "node-sass": "^5.0.0",
