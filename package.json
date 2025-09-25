@@ -223,7 +223,7 @@
         "rxjs": "^6.5.2",
         "semver": "^5.4.1",
         "sha.js": "^2.4.9",
-        "simple-git": "^1.85.0",
+        "simple-git": "^3.16.0",
         "simple-oauth2": "1.6.0",
         "singleline": "^2.0.0",
         "through2": "^2.0.3",
