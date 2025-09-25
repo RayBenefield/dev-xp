@@ -217,7 +217,7 @@
         "rollup-plugin-markdown": "^0.1.0",
         "rollup-plugin-node-globals": "^1.4.0",
         "rollup-plugin-node-resolve": "^3.0.0",
-        "rollup-plugin-postcss": "^4.0.0",
+        "rollup-plugin-postcss": "^4.0.1",
         "rollup-plugin-uglify": "^2.0.1",
         "rollup-plugin-vue": "^4.0.0",
         "rxjs": "^6.5.2",
